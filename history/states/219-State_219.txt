@@ -1,9 +1,13 @@
 state={
 	id=219
 	name="STATE_219"
+	history={
+		owner = TST
+		add_core_of = TST
+	}
 	provinces={
 		282 406 750 2325 4091 6534 6566 6603 6652 6664 6724 6731 6776 6789 6800 6853 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 }
