@@ -1,0 +1,9 @@
+state={
+	id=364
+	name="STATE_364"
+	provinces={
+		643 2019 2045 7580 7644 7687 7730 7767 7802 7811 7855 7903 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,9 @@
+state={
+	id=881
+	name="STATE_881"
+	provinces={
+		3207 4202 11499 11634 11635 11649 11703 11713 11722 11728 11773 11795 11874 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
