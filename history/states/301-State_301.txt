@@ -1,0 +1,10 @@
+
+state={
+	id=301
+	name="STATE_301"
+	provinces={
+		1631 1730 13758 13786 13787 13788 13813 13818 13819 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
