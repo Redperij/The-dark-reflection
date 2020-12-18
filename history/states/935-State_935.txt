@@ -1,0 +1,10 @@
+
+state={
+	id=935
+	name="STATE_935"
+	provinces={
+		526 2605 3028 3243 3388 3492 5193 9089 9096 9154 9164 9165 9247 9320 9345 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

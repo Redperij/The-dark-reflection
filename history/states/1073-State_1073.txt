@@ -1,0 +1,10 @@
+
+state={
+	id=1073
+	name="STATE_1073"
+	provinces={
+		743 1467 5414 5798 5828 5832 5868 5874 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
