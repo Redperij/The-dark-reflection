@@ -1,9 +1,9 @@
 
 state={
-	id=500
-	name="STATE_500"
+	id=743
+	name="STATE_743"
 	provinces={
-		2077 2077 5398 12814 
+		426 3800 3943 4707 12082 12119 12136 12258 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
