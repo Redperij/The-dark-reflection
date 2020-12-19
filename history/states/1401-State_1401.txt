@@ -1,0 +1,10 @@
+
+state={
+	id=1401
+	name="STATE_1401"
+	provinces={
+		770 2496 2546 4979 5434 7050 7051 7096 7133 7180 7199 7226 7255 7281 7301 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
