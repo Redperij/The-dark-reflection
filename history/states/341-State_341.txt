@@ -1,10 +1,14 @@
-
 state={
 	id=341
 	name="STATE_341"
+	history={
+		owner = TST
+		add_core_of = TST
+	}
 	provinces={
 		13257 13268 
 	}
-	manpower=0
+	manpower=1
+	state_category = town
 	buildings_max_level_factor=1.000
 }
