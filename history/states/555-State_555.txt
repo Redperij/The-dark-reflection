@@ -9,6 +9,6 @@ state={
 		2917 3525 4229 5081 13027 13056 13107 13129 13190 13217 
 	}
 	manpower=1
-	state_category = town
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

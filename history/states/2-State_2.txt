@@ -2,13 +2,13 @@ state={
 	id=2
 	name="STATE_2"
 	history={
-		owner = TST
-		add_core_of = TST
+		owner = DRG
+		add_core_of = DRG
 	}
 	provinces={
 		496 895 1572 2647 5421 15172 15197 15234 15250 
 	}
-	manpower=1
-	state_category = town
+	manpower=9000000
+	state_category = megalopolis
 	buildings_max_level_factor=1.000
 }

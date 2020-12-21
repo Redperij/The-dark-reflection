@@ -2,13 +2,13 @@ state={
 	id=140
 	name="STATE_140"
 	history={
-		owner = TST
-		add_core_of = TST
+		owner = BAL
+		add_core_of = BAL
 	}
 	provinces={
 		1718 2730 4257 5313 5529 13807 13816 13838 13862 13873 13874 13894 13904 13948 13969 13970 
 	}
-	manpower=1
-	state_category = town
+	manpower=0
+	state_category = wasteland
 	buildings_max_level_factor=1.000
 }
