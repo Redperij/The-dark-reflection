@@ -228,3 +228,23 @@ BAL = {
 	color = rgb { 34 199 176 }
 	color_ui = rgb { 34 199 176 }
 }
+
+CRY = {
+	color = rgb { 124 0 221 }
+	color_ui = rgb { 124 0 221 }
+}
+
+SEV = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+
+YAK = {
+	color = rgb { 39 157 192 }
+	color_ui = rgb { 39 157 192 }
+}
+
+STL = {
+	color = rgb { 255 255 197 }
+	color_ui = rgb { 255 255 197 }
+}

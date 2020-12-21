@@ -39,6 +39,38 @@ WES_democratic_ADJ:0 ""
 WES_neutrality_ADJ:0 ""
 WES_communism_ADJ:0 ""
 
+# Former Crystal Empire
+
+CRY_neutrality:0 ""
+CRY_neutrality_DEF:0 ""
+CRY_fascism:0 ""
+CRY_fascism_DEF:0 ""
+CRY_communism:0 ""
+CRY_communism_DEF:0 ""
+CRY_democratic:0 ""
+CRY_democratic_DEF:0 ""
+CRY_fascism_ADJ:0 ""
+CRY_democratic_ADJ:0 ""
+CRY_neutrality_ADJ:0 ""
+CRY_communism_ADJ:0 ""
+
+# East Equestria
+
+SEV_neutrality:0 ""
+SEV_neutrality_DEF:0 ""
+SEV_fascism:0 ""
+SEV_fascism_DEF:0 ""
+SEV_communism:0 ""
+SEV_communism_DEF:0 ""
+SEV_democratic:0 ""
+SEV_democratic_DEF:0 ""
+SEV_fascism_ADJ:0 ""
+SEV_democratic_ADJ:0 ""
+SEV_neutrality_ADJ:0 ""
+SEV_communism_ADJ:0 ""
+
+# West Equestria
+
 # South-East
 BAL_neutrality:0 "Свободный Город Балтимейр"
 BAL_fascism:0 "Губернаторство Балтимейр"
@@ -65,3 +97,22 @@ DRG_fascism_ADJ:0 "Драконск"
 DRG_democratic_ADJ:0 "Драконск"
 DRG_neutrality_ADJ:0 "Драконск"
 DRG_communism_ADJ:0 "Драконск"
+
+# North-West
+
+# North
+
+YAK_neutrality:0 ""
+YAK_neutrality_DEF:0 ""
+YAK_fascism:0 ""
+YAK_fascism_DEF:0 ""
+YAK_communism:0 ""
+YAK_communism_DEF:0 ""
+YAK_democratic:0 ""
+YAK_democratic_DEF:0 ""
+YAK_fascism_ADJ:0 ""
+YAK_democratic_ADJ:0 ""
+YAK_neutrality_ADJ:0 ""
+YAK_communism_ADJ:0 ""
+
+# Former Nova Griffonia

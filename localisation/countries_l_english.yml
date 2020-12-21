@@ -39,6 +39,51 @@ WES_democratic_ADJ:0 "Equestian"
 WES_neutrality_ADJ:0 "Equestian"
 WES_communism_ADJ:0 "Equestian"
 
+# Former Crystal Empire
+
+CRY_neutrality:0 ""
+CRY_neutrality_DEF:0 ""
+CRY_fascism:0 "Crystal Empire"
+CRY_fascism_DEF:0 "The Crystal Empire"
+CRY_communism:0 ""
+CRY_communism_DEF:0 ""
+CRY_democratic:0 ""
+CRY_democratic_DEF:0 ""
+CRY_fascism_ADJ:0 "Crystal"
+CRY_democratic_ADJ:0 "Crystal"
+CRY_neutrality_ADJ:0 "Crystal"
+CRY_communism_ADJ:0 "Crystal"
+
+# East Equestria
+
+SEV_neutrality:0 "Severianskaja Imperija"
+SEV_neutrality_DEF:0 "The Severian Empire"
+SEV_fascism:0 ""
+SEV_fascism_DEF:0 ""
+SEV_communism:0 ""
+SEV_communism_DEF:0 ""
+SEV_democratic:0 ""
+SEV_democratic_DEF:0 ""
+SEV_fascism_ADJ:0 "Severian"
+SEV_democratic_ADJ:0 "Severian"
+SEV_neutrality_ADJ:0 "Severian"
+SEV_communism_ADJ:0 "Severian"
+
+STL_neutrality:0 "Starlight's Town"
+STL_neutrality_DEF:0 "Starlight's Town"
+STL_fascism:0 ""
+STL_fascism_DEF:0 ""
+STL_communism:0 ""
+STL_communism_DEF:0 ""
+STL_democratic:0 ""
+STL_democratic_DEF:0 ""
+STL_fascism_ADJ:0 "Severian"
+STL_democratic_ADJ:0 "Severian"
+STL_neutrality_ADJ:0 "Severian"
+STL_communism_ADJ:0 "Severian"
+
+# West Equestria
+
 # South-East
 BAL_neutrality:0 "Free City of Baltimare"
 BAL_fascism:0 "Baltimare Governorate"
@@ -65,3 +110,22 @@ DRG_fascism_ADJ:0 "Draconian"
 DRG_democratic_ADJ:0 "Draconian"
 DRG_neutrality_ADJ:0 "Draconian"
 DRG_communism_ADJ:0 "Draconian"
+
+# North-West
+
+# North
+
+YAK_neutrality:0 ""
+YAK_neutrality_DEF:0 ""
+YAK_fascism:0 ""
+YAK_fascism_DEF:0 ""
+YAK_communism:0 ""
+YAK_communism_DEF:0 ""
+YAK_democratic:0 "Crossmountain Republic"
+YAK_democratic_DEF:0 "The Crossmountain Republic"
+YAK_fascism_ADJ:0 "Yak"
+YAK_democratic_ADJ:0 "Yak"
+YAK_neutrality_ADJ:0 "Yak"
+YAK_communism_ADJ:0 "Yak"
+
+# Former Nova Griffonia
