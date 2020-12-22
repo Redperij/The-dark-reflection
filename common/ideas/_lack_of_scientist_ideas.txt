@@ -1,0 +1,119 @@
+ideas = {
+	### Education Reform ###
+	illiteracy_level_idea = {
+		law = yes
+		use_list_view = yes
+		
+		no_lack_of_scientists = {
+			cost = -1
+			traits = { illiteracy_idea }
+			allowed = {
+				always = yes
+			}
+			available = {
+				has_idea = no_lack_of_scientists
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+			}
+		}
+
+		lack_of_scientists3 = {
+			cost = -1
+			traits = { illiteracy_idea }
+			allowed = {
+				always = yes
+			}
+			available = {
+				has_idea = lack_of_scientists3
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				research_speed_factor = -0.15
+			}
+		}
+
+		lack_of_scientists2 = {
+			cost = -1
+			traits = { illiteracy_idea }
+			allowed = {
+				always = yes
+			}
+			available = {
+				has_idea = lack_of_scientists2
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = -0.10
+				research_speed_factor = -0.30
+			}
+		}
+
+		lack_of_scientists1 = {
+			cost = -1
+			traits = { illiteracy_idea }
+			allowed = {
+				always = yes
+			}
+			available = {
+				has_idea = lack_of_scientists1
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = -0.15
+				research_speed_factor = -0.45
+			}
+		}
+		
+		lack_of_scientists = {
+			cost = -1
+			traits = { illiteracy_idea }
+			allowed = {
+				always = yes
+			}
+			available = {
+				has_idea = lack_of_scientists
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = -0.2
+				research_speed_factor = -0.6
+			}
+		}
+
+		dummy_idea_literacy = {
+			allowed = {
+				always = yes
+			}
+			visible = {
+				has_idea = dummy_idea_literacy
+			}
+			available = {
+				has_idea = dummy_idea_literacy
+			}
+			default = yes
+			cancel_if_invalid = no
+		}
+	}
+}

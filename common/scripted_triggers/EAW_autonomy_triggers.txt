@@ -1,0 +1,66 @@
+#	Example:
+#
+#	example_trigger = {
+	#		tag = GER
+	#		is_ai = no
+	#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+	#		example_trigger = yes
+	#	}
+#
+
+autonomy_states_personal_union = {
+	always = no
+}
+
+autonomy_states_feudal = {
+	OR = { has_dlc = "Together for Victory" has_dlc = "Death or Dishonor" }
+	autonomy_states_personal_union = no
+	OR = {
+		is_feudal_vassal = yes
+	}
+	if = {
+		limit = {
+			NOT = {
+				AND = {
+					is_griffon_empire_country = yes
+					overlord = { tag = event_target:griffonian_empire }
+				}
+			}
+		}
+		NOT = {
+			has_government = communism
+		}
+	}
+	overlord = {
+		OR = {
+			is_feudal_vassal = yes
+		}
+	}
+}
+
+autonomy_states_fascist = {
+	has_dlc = "Death or Dishonor"
+	overlord = { has_government = fascism }
+	autonomy_states_personal_union = no
+	autonomy_states_feudal = no
+}
+
+autonomy_states_default = {
+	autonomy_states_personal_union = no
+	autonomy_states_feudal = no
+	autonomy_states_fascist = no
+	NOT = {
+		AND = {
+			overlord = {
+				original_tag = EQS
+				has_government = democratic
+			}
+			has_country_flag = demilitarized
+		}
+	}
+}

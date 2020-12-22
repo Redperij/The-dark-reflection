@@ -1,0 +1,114 @@
+#	Example:
+#
+#	example_trigger = {
+	#		tag = GER
+	#		is_ai = no
+	#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+	#		example_trigger = yes
+	#	}
+#
+
+is_northern_equestria_country = {
+	always = no
+	#capital_scope = {
+	#	OR = {
+	#		region = 12
+	#		region = 27
+	#		region = 102
+	#		region = 114
+	#		region = 116
+	#		region = 103
+	#		region = 104
+	#		region = 115
+	#		region = 108
+	#		region = 118
+	#		region = 117
+	#		region = 119
+	#		region = 107
+	#	}
+	#}
+}
+
+is_southern_equestria_country = {
+	always = no
+	#capital_scope = {
+	#	OR = {
+	#		region = 6
+	#		region = 7
+	#		region = 9
+	#		region = 10
+	#		region = 14
+	#		region = 23
+	#		region = 24
+	#		region = 110
+	#		region = 111
+	#		region = 100
+	#		region = 101
+	#		region = 120
+	#		region = 121
+	#		region = 112
+	#		region = 99
+	#		region = 96
+	#		region = 98
+	#		region = 97
+	#		region = 93
+	#		region = 92
+	#		region = 91
+	#		region = 90
+	#		region = 89
+	#		region = 88
+	#		region = 87
+	#		region = 113
+	#		region = 86
+	#		region = 53
+	#		region = 52
+	#		region = 60
+	#		region = 51
+	#		region = 84
+	#		region = 73
+	#		region = 72
+	#		region = 70
+	#		region = 71
+	#		region = 74
+	#		region = 75
+	#		region = 65
+	#		region = 47
+	#		region = 69
+	#		region = 76
+	#		region = 63
+	#		region = 61
+	#		region = 64
+	#		region = 59
+	#		region = 50
+	#		region = 56
+	#		region = 54
+	#		region = 55
+	#		region = 41
+	#		region = 49
+	#		region = 38
+	#		region = 36
+	#		region = 37
+	#		region = 39
+	#		region = 40
+	#		region = 48
+	#		region = 58
+	#		region = 43
+	#		region = 34
+	#		region = 46
+	#		region = 62
+	#		region = 45
+	#		region = 44
+	#		region = 42
+	#		region = 57
+	#		region = 35
+	#		region = 32
+	#		region = 33
+	#		region = 30
+	#	}
+	#}
+}
