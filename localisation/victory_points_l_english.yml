@@ -1,3 +1,7 @@
 ﻿l_english:
+#VICTORY_POINTS_:0 ""
  VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
- VICTORY_POINTS_179:0 "Canterlot"
+ VICTORY_POINTS_13268:0 "Canterlot Palace"
+ VICTORY_POINTS_13257:0 "Canterlot City"
+ VICTORY_POINTS_13211:0 "North Canterlot"
+ VICTORY_POINTS_13297:0 "South Canterlot"

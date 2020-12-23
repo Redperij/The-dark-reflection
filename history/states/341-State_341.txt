@@ -1,14 +1,26 @@
+
 state={
 	id=341
 	name="STATE_341"
+
 	history={
 		owner = EQS
 		add_core_of = EQS
+		victory_points = {
+			13257 20
+		}
+		victory_points = {
+			13211 5
+		}
+		victory_points = {
+			13297 5
+		}
 	}
+
 	provinces={
-		13257 13268 13297 13211
+		13211 13257 13297 
 	}
 	manpower=1000000
-	state_category = metropolis
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=2.000
+	state_category=metropolis
 }
