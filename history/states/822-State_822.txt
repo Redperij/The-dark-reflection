@@ -4,6 +4,7 @@ state={
 	history={
 		owner = STL
 		add_core_of = STL
+		add_core_of = SEV
 	}
 	provinces={
 		1259 1860 5226 9885 9893 9944 9978 9995 10072 
