@@ -1,0 +1,1432 @@
+reapply_secondary_cosmetic_tags = {
+	
+}
+
+5x_chance_to_remove_arms_factory = {
+	chance_to_remove_arms_factory = yes
+	chance_to_remove_arms_factory = yes
+	chance_to_remove_arms_factory = yes
+	chance_to_remove_arms_factory = yes
+	chance_to_remove_arms_factory = yes
+}
+
+5x_chance_to_remove_civilian_factory = {
+	chance_to_remove_civilian_factory = yes
+	chance_to_remove_civilian_factory = yes
+	chance_to_remove_civilian_factory = yes
+	chance_to_remove_civilian_factory = yes
+	chance_to_remove_civilian_factory = yes
+}
+
+5x_chance_to_remove_dockyard = {
+	chance_to_remove_dockyard = yes
+	chance_to_remove_dockyard = yes
+	chance_to_remove_dockyard = yes
+	chance_to_remove_dockyard = yes
+	chance_to_remove_dockyard = yes
+}
+
+chance_to_remove_arms_factory = {
+	random_list = {
+		3 = {
+			remove_building = { type = arms_factory level = 1 }
+		}
+		7 = { }
+	}
+}
+
+chance_to_remove_civilian_factory = {
+	random_list = {
+		3 = {
+			remove_building = { type = industrial_complex level = 1 }
+		}
+		7 = { }
+	}
+}
+
+chance_to_remove_dockyard = {
+	random_list = {
+		2 = {
+			remove_building = { type = dockyard level = 1 }
+		}
+		8 = { }
+	}
+}
+
+decrease_illiteracy = {
+	if = {
+		limit = { has_idea = lack_of_scientists }
+		swap_ideas = { add_idea = lack_of_scientists1 remove_idea = lack_of_scientists }
+	}
+	else_if = {
+		limit = { has_idea = lack_of_scientists1 }
+		swap_ideas = { add_idea = lack_of_scientists2 remove_idea = lack_of_scientists1 }
+	}
+	else_if = {
+		limit = { has_idea = lack_of_scientists2 }
+		swap_ideas = { add_idea = lack_of_scientists3 remove_idea = lack_of_scientists2 }
+	}
+	else_if = {
+		limit = { has_idea = lack_of_scientists3 }
+		swap_ideas = { add_idea = no_lack_of_scientists remove_idea = lack_of_scientists3 }
+	}
+}
+
+remove_illiteracy = {
+	remove_ideas = lack_of_scientists1
+	remove_ideas = lack_of_scientists2
+	remove_ideas = lack_of_scientists3
+	add_ideas = no_lack_of_scientists
+}
+
+decrease_poverty = {
+	if = {
+		limit = { has_idea = poverty }
+		swap_ideas = { add_idea = poverty1 remove_idea = poverty }
+	}
+	else_if = {
+		limit = { has_idea = poverty1 }
+		swap_ideas = { add_idea = poverty2 remove_idea = poverty1 }
+	}
+	else_if = {
+		limit = { has_idea = poverty2 }
+		swap_ideas = { add_idea = poverty3 remove_idea = poverty2 }
+	}
+	else_if = {
+		limit = { has_idea = poverty3 }
+		swap_ideas = { add_idea = poverty4 remove_idea = poverty3 }
+	}
+	else_if = {
+		limit = { has_idea = poverty4 }
+		swap_ideas = { add_idea = poverty5 remove_idea = poverty4 }
+	}
+	else_if = {
+		limit = { has_idea = poverty5 }
+		swap_ideas = { add_idea = no_poverty remove_idea = poverty5 }
+	}
+}
+
+remove_poverty = {
+	remove_ideas = poverty1
+	remove_ideas = poverty2
+	remove_ideas = poverty3
+	remove_ideas = poverty4
+	remove_ideas = poverty5
+	add_ideas = no_poverty
+}
+
+increase_society_development_gradual = {
+	if = {
+		limit = { has_idea = communal_society }
+		swap_ideas = { add_idea = agrarian_society remove_idea = communal_society }
+	}
+	else_if = {
+		limit = { has_idea = tribal_society }
+		swap_ideas = { add_idea = tribal_society2 remove_idea = tribal_society }
+	}
+	else_if = {
+		limit = { has_idea = tribal_society2 }
+		swap_ideas = { add_idea = tribal_society3 remove_idea = tribal_society2 }
+	}
+	else_if = {
+		limit = { has_idea = tribal_society3 }
+		swap_ideas = { add_idea = tribal_society4 remove_idea = tribal_society3 }
+	}
+	else_if = {
+		limit = { has_idea = tribal_society4 }
+		swap_ideas = { add_idea = agrarian_society remove_idea = tribal_society4 }
+	}
+	else_if = {
+		limit = { has_idea = agrarian_society }
+		swap_ideas = { add_idea = agrarian_society2 remove_idea = agrarian_society }
+	}
+	else_if = {
+		limit = { has_idea = agrarian_society2 }
+		swap_ideas = { add_idea = agrarian_society3 remove_idea = agrarian_society2 }
+	}
+	else_if = {
+		limit = { has_idea = agrarian_society3 }
+		swap_ideas = { add_idea = agrarian_society4 remove_idea = agrarian_society3 }
+	}
+	else_if = {
+		limit = { has_idea = agrarian_society4 }
+		swap_ideas = { add_idea = agrarian_society5 remove_idea = agrarian_society4 }
+	}
+	else_if = {
+		limit = { has_idea = agrarian_society5 }
+		swap_ideas = { add_idea = agrarian_society6 remove_idea = agrarian_society5 }
+	}
+	else_if = {
+		limit = { has_idea = agrarian_society6 }
+		swap_ideas = { add_idea = pre_industrial_society remove_idea = agrarian_society6 }
+	}
+	else_if = {
+		limit = { has_idea = pre_industrial_society }
+		swap_ideas = { add_idea = pre_industrial_society1 remove_idea = pre_industrial_society }
+
+	}
+	else_if = {
+		limit = { has_idea = pre_industrial_society1 }
+		swap_ideas = { add_idea = pre_industrial_society2 remove_idea = pre_industrial_society1 }
+
+	}
+	else_if = {
+		limit = { has_idea = pre_industrial_society2 }
+		swap_ideas = { add_idea = pre_industrial_society3 remove_idea = pre_industrial_society2 }
+
+	}
+	else_if = {
+		limit = { has_idea = pre_industrial_society3 }
+		swap_ideas = { add_idea = outdated_industry remove_idea = pre_industrial_society3 }
+
+	}
+	else_if = {
+		limit = { has_idea = outdated_industry }
+		swap_ideas = { add_idea = outdated_industry2 remove_idea = outdated_industry }
+	}
+	else_if = {
+		limit = { has_idea = outdated_industry2 }
+		swap_ideas = { add_idea = modern_society remove_idea = outdated_industry2 }
+	}
+
+}
+
+increase_society_development = {
+	if = {
+		limit = { has_idea = communal_society }
+		swap_ideas = { add_idea = agrarian_society remove_idea = communal_society }
+	}
+	else_if = {
+		limit = { has_idea = tribal_society }
+		swap_ideas = { add_idea = agrarian_society remove_idea = tribal_society }
+	}
+	else_if = {
+		limit = { has_idea = tribal_society2 }
+		swap_ideas = { add_idea = agrarian_society remove_idea = tribal_society2 }
+	}
+	else_if = {
+		limit = { has_idea = tribal_society3 }
+		swap_ideas = { add_idea = agrarian_society remove_idea = tribal_society3 }
+	}
+	else_if = {
+		limit = { has_idea = tribal_society4 }
+		swap_ideas = { add_idea = agrarian_society remove_idea = tribal_society4 }
+	}
+	else_if = {
+		limit = { has_idea = agrarian_society }
+		swap_ideas = { add_idea = pre_industrial_society remove_idea = agrarian_society }
+	}
+	else_if = {
+		limit = { has_idea = agrarian_society2 }
+		swap_ideas = { add_idea = pre_industrial_society remove_idea = agrarian_society2 }
+	}
+	else_if = {
+		limit = { has_idea = agrarian_society3 }
+		swap_ideas = { add_idea = pre_industrial_society remove_idea = agrarian_society3 }
+	}
+	else_if = {
+		limit = { has_idea = agrarian_society4 }
+		swap_ideas = { add_idea = pre_industrial_society remove_idea = agrarian_society4 }
+	}
+	else_if = {
+		limit = { has_idea = agrarian_society5 }
+		swap_ideas = { add_idea = pre_industrial_society remove_idea = agrarian_society5 }
+	}
+	else_if = {
+		limit = { has_idea = agrarian_society6 }
+		swap_ideas = { add_idea = pre_industrial_society remove_idea = agrarian_society6 }
+	}
+	else_if = {
+		limit = { has_idea = pre_industrial_society }
+		swap_ideas = { add_idea = outdated_industry remove_idea = pre_industrial_society }
+
+	}
+	else_if = {
+		limit = { has_idea = pre_industrial_society1 }
+		swap_ideas = { add_idea = outdated_industry remove_idea = pre_industrial_society1 }
+
+	}
+	else_if = {
+		limit = { has_idea = pre_industrial_society2 }
+		swap_ideas = { add_idea = outdated_industry remove_idea = pre_industrial_society2 }
+
+	}
+	else_if = {
+		limit = { has_idea = pre_industrial_society3 }
+		swap_ideas = { add_idea = outdated_industry remove_idea = pre_industrial_society3 }
+
+	}
+	else_if = {
+		limit = { has_idea = outdated_industry }
+		swap_ideas = { add_idea = modern_society remove_idea = outdated_industry }
+	}
+	else_if = {
+		limit = { has_idea = outdated_industry2 }
+		swap_ideas = { add_idea = modern_society remove_idea = outdated_industry2 }
+	}
+
+}
+end_puppet_this = {
+	if = {
+		limit = { is_subject = yes }
+		overlord = { end_puppet = PREV }
+	}
+}
+
+#PREV to THIS
+transfer_race_ideas = {
+	if = {
+		limit = { PREV = { has_idea = pony_race } }
+		add_ideas = pony_race
+	}
+	else_if = {
+		limit = { PREV = { has_idea = changeling_race } }
+		add_ideas = changeling_race
+	}
+	else_if = {
+		limit = { PREV = { has_idea = deer_race } }
+		add_ideas = deer_race
+	}
+	else_if = {
+		limit = { PREV = { has_idea = griffon_race } }
+		add_ideas = griffon_race
+	}
+	else_if = {
+		limit = { PREV = { has_idea = diamond_dog_race } }
+		add_ideas = diamond_dog_race
+	}
+	else = {
+		add_ideas = generic_race_idea
+	}
+}
+
+#PREV to THIS
+transfer_society_ideas = {
+	if = {
+		limit = { PREV = { has_idea = outdated_industry } }
+		add_ideas = outdated_industry
+	}
+	else_if = {
+		limit = { PREV = { has_idea = pre_industrial_society } }
+		add_ideas = pre_industrial_society
+	}
+	else_if = {
+		limit = { PREV = { has_idea = agrarian_society } }
+		add_ideas = agrarian_society
+
+	}
+	else_if = {
+		limit = { PREV = { has_idea = tribal_society } }
+		add_ideas = tribal_society
+
+	}
+	else_if = {
+		limit = { PREV = { has_idea = detached_country } }
+		add_ideas = detached_country
+
+	}
+	else_if = {
+		limit = { PREV = { has_idea = agrarian_society2 } }
+		add_ideas = agrarian_society2
+	}
+	else_if = {
+		limit = { PREV = { has_idea = agrarian_society3 } }
+		add_ideas = agrarian_society3
+	}
+	else_if = {
+		limit = { PREV = { has_idea = agrarian_society4 } }
+		add_ideas = agrarian_society4
+	}
+	else_if = {
+		limit = { PREV = { has_idea = agrarian_society5 } }
+		add_ideas = agrarian_society5
+	}
+	else_if = {
+		limit = { PREV = { has_idea = agrarian_society6 } }
+		add_ideas = agrarian_society6
+	}
+	else_if = {
+		limit = { PREV = { has_idea = pre_industrial_society2 } }
+		add_ideas = pre_industrial_society2
+
+	}
+	else_if = {
+		limit = { PREV = { has_idea = pre_industrial_society3 } }
+		add_ideas = pre_industrial_society3
+	}
+	else_if = {
+		limit = { PREV = { has_idea = outdated_industry2 } }
+		add_ideas = outdated_industry2
+	}
+}
+
+#From PREV to THIS
+transfer_science_ideas = {
+	if = {
+		limit = { PREV = { has_idea = poor_science_base } }
+		add_ideas = poor_science_base
+	}
+	else_if = {
+		limit = { PREV = { has_idea = better_science_base } }
+		add_ideas = better_science_base
+	}
+	else_if = {
+		limit = { PREV = { has_idea = big_science_base } }
+		add_ideas = big_science_base
+	}
+}
+
+transfer_poverty_ideas = {
+	if = {
+		limit = { PREV = { has_idea = no_poverty } }
+		add_ideas = no_poverty
+	}
+	else_if = {
+		limit = { PREV = { has_idea = FLO_poverty_virtue } }
+		# intended
+		add_ideas = no_poverty
+	}
+	else_if = {
+		limit = { PREV = { has_idea = poverty5 } }
+		add_ideas = poverty5
+	}
+	else_if = {
+		limit = { PREV = { has_idea = poverty4 } }
+		add_ideas = poverty4
+	}
+	else_if = {
+		limit = { PREV = { has_idea = EQC_MARE_poverty } }
+		# intended
+		add_ideas = no_poverty
+	}
+	else_if = {
+		limit = { PREV = { has_idea = poverty3 } }
+		add_ideas = poverty3
+	}
+	else_if = {
+		limit = { PREV = { has_idea = poverty2 } }
+		add_ideas = poverty2
+	}
+	else_if = {
+		limit = { PREV = { has_idea = poverty1 } }
+		add_ideas = poverty1
+	}
+	else_if = {
+		limit = { PREV = { has_idea = poverty } }
+		add_ideas = poverty
+	}
+}
+
+transfer_illiteracy_ideas = {
+	if = {
+		limit = { PREV = { has_idea = no_lack_of_scientists } }
+		add_ideas = no_lack_of_scientists
+	}
+	else_if = {
+		limit = { PREV = { has_idea = lack_of_scientists3 } }
+		add_ideas = lack_of_scientists3
+	}
+	else_if = {
+		limit = { PREV = { has_idea = lack_of_scientists2 } }
+		add_ideas = lack_of_scientists2
+	}
+	else_if = {
+		limit = { PREV = { has_idea = lack_of_scientists1 } }
+		add_ideas = lack_of_scientists1
+	}
+	else_if = {
+		limit = { PREV = { has_idea = lack_of_scientists } }
+		add_ideas = lack_of_scientists
+	}
+}
+
+increase_science_base = {
+	if = {
+		limit = { has_idea = poor_science_base }
+		swap_ideas = {
+			add_idea = better_science_base
+			remove_idea = poor_science_base
+		}
+	}
+	else_if = {
+		limit = { has_idea = better_science_base }
+		swap_ideas = {
+			add_idea = big_science_base
+			remove_idea = better_science_base
+		}
+	}
+	else_if = {
+		limit = { has_idea = big_science_base }
+		swap_ideas = {
+			add_idea = proper_science_base
+			remove_idea = big_science_base
+		}
+	}
+}
+
+# the following effects are excellent for preserving a puppet's government so it doesn't change to the overlord
+# use the first command in the scope of the about-to-be-puppeted country right before the puppet command is executed
+# and then the second, also in the scope of the puppet, right after
+get_current_government_type = {
+	clr_country_flag = was_neutral
+	clr_country_flag = was_communist
+	clr_country_flag = was_democratic
+	clr_country_flag = was_fascist
+	set_variable = { var = last_neutrality_pop value = party_popularity@neutrality }
+	set_variable = { var = last_communism_pop value = party_popularity@communism }
+	set_variable = { var = last_democratic_pop value = party_popularity@democratic }
+	set_variable = { var = last_fascism_pop value = party_popularity@fascism }
+	if = {
+		limit = { has_government = neutrality }
+		set_country_flag = was_neutral
+	}
+	else_if = {
+		limit = { has_government = communism }
+		set_country_flag = was_communist
+	}
+	else_if = {
+		limit = { has_government = democratic }
+		set_country_flag = was_democratic
+	}
+	else_if = {
+		limit = { has_government = fascism }
+		set_country_flag = was_fascist
+	}
+}
+
+restore_previous_government_type = {
+	hidden_effect = {
+		subtract_from_variable = {
+			var = last_neutrality_pop
+			value = party_popularity@neutrality
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = last_neutrality_pop
+		}
+		clear_variable = last_neutrality_pop
+		subtract_from_variable = {
+			var = last_communism_pop
+			value = party_popularity@communism
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = last_communism_pop
+		}
+		clear_variable = last_communism_pop
+		subtract_from_variable = {
+			var = last_democratic_pop
+			value = party_popularity@democratic
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = last_democratic_pop
+		}
+		clear_variable = last_democratic_pop
+		subtract_from_variable = {
+			var = last_fascism_pop
+			value = party_popularity@fascism
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = last_fascism_pop
+		}
+		clear_variable = last_fascism_pop
+		if = {
+			limit = { has_country_flag = was_neutral }
+			set_politics = { ruling_party = neutrality }
+		}
+		else_if = {
+			limit = { has_country_flag = was_communist }
+			set_politics = { ruling_party = communism }
+		}
+		else_if = {
+			limit = { has_country_flag = was_democratic }
+			set_politics = { ruling_party = democratic }
+		}
+		else_if = {
+			limit = { has_country_flag = was_fascist }
+			set_politics = { ruling_party = fascism }
+		}
+	}
+}
+
+get_current_autonomy_level = {
+	hidden_effect = {
+		#Regular puppets
+		clr_country_flag = former_integrated_puppet
+		clr_country_flag = former_puppet
+		clr_country_flag = former_colony
+		clr_country_flag = former_dominion
+		#Fascist puppets
+		clr_country_flag = former_reichskommissariat
+		clr_country_flag = former_reichsprotectorate
+		clr_country_flag = former_satellite
+		#Feudal puppets
+		clr_country_flag = former_subjugated_vassal
+		clr_country_flag = former_vassal
+		clr_country_flag = former_autonomous_vassal
+		clr_country_flag = former_nominal_vassal
+		if = {
+			limit = { has_autonomy_state = autonomy_integrated_puppet }
+			set_country_flag = former_integrated_puppet
+		}
+		else_if = {
+			limit = { has_autonomy_state = autonomy_puppet }
+			set_country_flag = former_puppet
+		}
+		else_if = {
+			limit = { has_autonomy_state = autonomy_colony }
+			set_country_flag = former_colony
+		}
+		else_if = {
+			limit = { has_autonomy_state = autonomy_dominion }
+			set_country_flag = former_dominion
+		}
+		else_if = {
+			limit = { has_autonomy_state = autonomy_reichskommissariat }
+			set_country_flag = former_reichskommissariat
+		}
+		else_if = {
+			limit = { has_autonomy_state = autonomy_reichsprotectorate }
+			set_country_flag = former_reichsprotectorate
+		}
+		else_if = {
+			limit = { has_autonomy_state = autonomy_satellite }
+			set_country_flag = former_satellite
+		}
+		else_if = {
+			limit = { has_autonomy_state = autonomy_subjugated_vassal }
+			set_country_flag = former_subjugated_vassal
+		}
+		else_if = {
+			limit = { has_autonomy_state = autonomy_vassal }
+			set_country_flag = former_vassal
+		}
+		else_if = {
+			limit = { has_autonomy_state = autonomy_autonomous_vassal }
+			set_country_flag = former_autonomous_vassal
+		}
+		else_if = {
+			limit = { has_autonomy_state = autonomy_nominal_vassal }
+			set_country_flag = former_nominal_vassal
+		}
+	}
+}
+
+set_previous_autonomy_level = {
+	hidden_effect = {
+		if = {
+			limit = { is_subject = yes OR = { has_dlc = "Together for Victory" has_dlc = "Death or Dishonor" } }
+			if = {
+				limit = {
+					OR = {
+						has_country_flag = former_integrated_puppet
+						has_country_flag = former_reichskommissariat
+						has_country_flag = former_subjugated_vassal
+					}
+				}
+				overlord = {
+					if = {
+						limit = { autonomy_states_feudal = yes }
+						overlord = { set_autonomy = { target = PREV autonomy_state = autonomy_subjugated_vassal } }
+					}
+					else_if = {
+						limit = { autonomy_states_fascist = yes }
+						overlord = { set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat } }
+					}
+					else = {
+						overlord = { set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet } }
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_country_flag = former_puppet
+						has_country_flag = former_reichsprotectorate
+						has_country_flag = former_vassal
+					}
+				}
+				overlord = {
+					if = {
+						limit = {
+							autonomy_states_feudal = yes
+						}
+						overlord = { set_autonomy = { target = PREV autonomy_state = autonomy_vassal } }
+					}
+					else_if = {
+						limit = { autonomy_states_fascist = yes }
+						overlord = { set_autonomy = { target = PREV autonomy_state = autonomy_reichsprotectorate } }
+					}
+					else = {
+						overlord = { set_autonomy = { target = PREV autonomy_state = autonomy_puppet } }
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_country_flag = former_colony
+						has_country_flag = former_autonomous_vassal
+					}
+				}
+				overlord = {
+					if = {
+						limit = {
+							autonomy_states_feudal = yes
+						}
+						overlord = { set_autonomy = { target = PREV autonomy_state = autonomy_autonomous_vassal } }
+					}
+					else_if = {
+						limit = { autonomy_states_fascist = yes }
+						overlord = { set_autonomy = { target = PREV autonomy_state = autonomy_reichsprotectorate } }
+					}
+					else = {
+						overlord = { set_autonomy = { target = PREV autonomy_state = autonomy_colony } }
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_country_flag = former_dominion
+						has_country_flag = former_satellite
+						has_country_flag = former_nominal_vassal
+					}
+				}
+				overlord = {
+					if = {
+						limit = {
+							autonomy_states_feudal = yes
+						}
+						overlord = { set_autonomy = { target = PREV autonomy_state = autonomy_nominal_vassal } }
+					}
+					else_if = {
+						limit = { autonomy_states_fascist = yes }
+						overlord = { set_autonomy = { target = PREV autonomy_state = autonomy_satellite } }
+					}
+					else = {
+						overlord = { set_autonomy = { target = PREV autonomy_state = autonomy_dominion } }
+					}
+				}
+			}
+		}
+	}
+}
+
+get_current_autonomy_level_of_PREV = {
+	hidden_effect = {
+		#Regular puppets
+		clr_country_flag = former_integrated_puppet
+		clr_country_flag = former_puppet
+		clr_country_flag = former_colony
+		clr_country_flag = former_dominion
+		#Fascist puppets
+		clr_country_flag = former_reichskommissariat
+		clr_country_flag = former_reichsprotectorate
+		clr_country_flag = former_satellite
+		#Feudal puppets
+		clr_country_flag = former_subjugated_vassal
+		clr_country_flag = former_vassal
+		clr_country_flag = former_autonomous_vassal
+		clr_country_flag = former_nominal_vassal
+		if = {
+			limit = { PREV = { has_autonomy_state = autonomy_integrated_puppet } }
+			set_country_flag = former_integrated_puppet
+		}
+		else_if = {
+			limit = { PREV = { has_autonomy_state = autonomy_puppet } }
+			set_country_flag = former_puppet
+		}
+		else_if = {
+			limit = { PREV = { has_autonomy_state = autonomy_colony } }
+			set_country_flag = former_colony
+		}
+		else_if = {
+			limit = { PREV = { has_autonomy_state = autonomy_dominion } }
+			set_country_flag = former_dominion
+		}
+		else_if = {
+			limit = { PREV = { has_autonomy_state = autonomy_reichskommissariat } }
+			set_country_flag = former_reichskommissariat
+		}
+		else_if = {
+			limit = { PREV = { has_autonomy_state = autonomy_reichsprotectorate } }
+			set_country_flag = former_reichsprotectorate
+		}
+		else_if = {
+			limit = { PREV = { has_autonomy_state = autonomy_satellite } }
+			set_country_flag = former_satellite
+		}
+		else_if = {
+			limit = { PREV = { has_autonomy_state = autonomy_subjugated_vassal } }
+			set_country_flag = former_subjugated_vassal
+		}
+		else_if = {
+			limit = { PREV = { has_autonomy_state = autonomy_vassal } }
+			set_country_flag = former_vassal
+		}
+		else_if = {
+			limit = { PREV = { has_autonomy_state = autonomy_autonomous_vassal } }
+			set_country_flag = former_autonomous_vassal
+		}
+		else_if = {
+			limit = { PREV = { has_autonomy_state = autonomy_nominal_vassal } }
+			set_country_flag = former_nominal_vassal
+		}
+	}
+}
+
+Evil_unicorn_magic = {
+	if = {
+		limit = {
+			PREV = {
+				has_tech = tech_unicorn_th
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			set_technology = {
+				popup = no
+				tech_unicorn_ms = 1
+				tech_unicorn_th = 0
+			}
+		}
+		else = {
+			set_technology = {
+				popup = no
+				tech_unicorn_th = 1
+			}
+		}
+	}
+
+	if = {
+		limit = {
+			PREV = {
+				has_tech = tech_unicorn_th2
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			set_technology = {
+				popup = no
+				tech_unicorn_ms2 = 1
+				tech_unicorn_th2 = 0
+			}
+		}
+		else = {
+			set_technology = {
+				popup = no
+				tech_unicorn_th2 = 1
+			}
+		}
+	}
+
+	if = {
+		limit = {
+			PREV = {
+				has_tech = tech_unicorn_th3
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			set_technology = {
+				popup = no
+				tech_unicorn_ms3 = 1
+				tech_unicorn_th3 = 0
+			}
+		}
+		else = {
+			set_technology = {
+				popup = no
+				tech_unicorn_th3 = 1
+			}
+		}
+	}
+
+	if = {
+		limit = {
+			PREV = {
+				has_tech = tech_unicorn_th4
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			set_technology = {
+				popup = no
+				tech_unicorn_ms4 = 1
+				tech_unicorn_th4 = 0
+			}
+		}
+		else = {
+			set_technology = {
+				popup = no
+				tech_unicorn_th4 = 1
+			}
+		}
+	}
+
+	if = {
+		limit = {
+			PREV = {
+				has_tech = tech_unicorn_th5
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			set_technology = {
+				popup = no
+				tech_unicorn_ms5 = 1
+				tech_unicorn_th5 = 0
+			}
+		}
+		else = {
+			set_technology = {
+				popup = no
+				tech_unicorn_th5 = 1
+			}
+		}
+	}
+}
+
+increase_society_development_with_tt = {
+	custom_effect_tooltip = increase_society_development_tt
+	hidden_effect = {
+		increase_society_development = yes
+	}
+}
+increase_society_development_gradually_with_tt = {
+	custom_effect_tooltip = increase_society_development_gradual_tt
+	hidden_effect = {
+		increase_society_development_gradual = yes
+	}
+}
+
+#call save_current_manpower = yes before removing manpower from states, call restore_previous_manpower = yes immediately after
+
+#THIS is country, controller of the state
+save_current_manpower = {
+	hidden_effect = {
+		set_variable = { previous_country_manpower_se = manpower_k }
+	}
+}
+
+#THIS is country, controller of the state
+restore_previous_manpower = {
+	hidden_effect = {
+		#yes we gotta call it 3 times, don't ask why
+		country_event = utility.9
+		country_event = utility.9
+		country_event = utility.9
+	}
+}
+
+restore_previous_manpower_function = {
+	hidden_effect = {
+		if = {
+			limit = { has_variable = previous_country_manpower_se }
+			set_variable = { current_country_manpower_se = manpower_k }
+			#log = "previous_country_manpower_se: [?previous_country_manpower_se] current_country_manpower_se: [?current_country_manpower_se]"
+			subtract_from_variable = { current_country_manpower_se = previous_country_manpower_se }
+			#log = "difference: [?current_country_manpower_se]"
+			while_loop_effect = {
+				limit = { check_variable = { current_country_manpower_se > 99 } }
+				subtract_from_variable = { current_country_manpower_se = 100 }
+				add_manpower = -100000
+				#log = "add -100000 manpower"
+			}
+			multiply_variable = { current_country_manpower_se = 1000 }
+			round_variable = current_country_manpower_se
+			multiply_variable = { current_country_manpower_se = -1 }
+			#log = "add [?current_country_manpower_se] manpower"
+			add_manpower = current_country_manpower_se
+			#log = "current manpower [?manpower_k]"
+			clear_variable = current_country_manpower_se
+			#clear_variable = previous_country_manpower_se
+		}
+	}
+}
+
+
+fix_weapon_techs = {
+	hidden_effect = {
+		if = {
+			limit = { 
+				OR = {
+					is_ai = no
+					NOT = { has_country_flag = recently_fixed_weapons }
+				}
+			}
+			country_event = eaw_debug.1
+		}
+		set_country_flag = { flag = recently_fixed_weapons days = 1 value = 1 }
+	}
+}
+
+daily_fix_weapon_techs = {
+	if = {
+		limit = { 
+			NOT = { has_country_flag = daily_fix_weapon_techs_done } 
+			check_variable = { num_owned_states > 0 }
+		}
+		actually_fix_weapon_techs = yes
+		set_country_flag = daily_fix_weapon_techs_done
+	}
+}
+
+actually_fix_weapon_techs = {
+	hidden_effect = {
+		set_country_flag = weapons_fixed_at_start
+		log = "[GetDateText]: THIS: [This.GetName] fix_weapon_techs"
+		set_technology = {
+			popup = no
+			infantry_weapons_infiltrator_company = 0
+			magical_weapons_infiltrator_company = 0
+			infantry_weapons_unicorn_company = 0
+			magical_weapons_unicorn_company = 0
+			magical_weapons_marine = 0
+			infantry_weapons_marine = 0
+			magical_weapons_marine = 0
+			infantry_weapons_marine = 0
+			magical_weapons_mountaineers = 0
+			infantry_weapons_mountaineers = 0
+			magical_weapons_paratrooper = 0
+			infantry_weapons_paratrooper = 0
+			magical_weapons_jager = 0
+			infantry_weapons_jager = 0
+			magical_weapons_pegasi = 0
+			infantry_weapons_pegasi = 0
+			magical_weapons_ironpaws = 0
+			infantry_weapons_ironpaws = 0
+			magical_weapons_amphibious_mechanized = 0
+			infantry_weapons_amphibious_mechanized = 0
+		}
+		if = {
+			limit = {
+				NOT = { has_tech = magical_weapons }
+			}
+			log = "[GetDateText]: THIS: [This.GetName] fix_weapon_techs: doesn't have magical weapons"
+			clr_country_flag = special_forces_magical_weapons
+			if = {
+				limit = { 
+					has_tech = tech_infiltrators
+				}
+				set_technology = { popup = no infantry_weapons_infiltrator_company = 1 }
+			}
+			if = {
+				limit = {
+					has_tech = tech_unicorn
+				}
+				set_technology = { popup = no infantry_weapons_unicorn_company = 1 }
+			}
+		}
+		else = {
+			log = "[GetDateText]: THIS: [This.GetName] fix_weapon_techs: has magical weapons"
+			if = {
+				limit = {
+					has_tech = tech_infiltrators
+				}
+				set_technology = { popup = no magical_weapons_infiltrator_company = 1 }
+			}
+			if = {
+				limit = {
+					has_tech = tech_unicorn
+				}
+				set_technology = { popup = no magical_weapons_unicorn_company = 1 }
+			}
+		}
+		if = {
+			limit = { has_country_flag = special_forces_magical_weapons }
+			log = "[GetDateText]: THIS: [This.GetName] fix_weapon_techs: set magical weapons for special forces"
+			if = {
+				limit = {
+					has_tech = marines
+				}
+				set_technology = { popup = no magical_weapons_marine = 1 }
+			}
+			if = {
+				limit = {
+					has_tech = tech_mountaineers
+				}
+				set_technology = { popup = no magical_weapons_mountaineers = 1 }
+			}
+			if = {
+				limit = {
+					has_tech = paratroopers
+				}
+				set_technology = { popup = no magical_weapons_paratrooper = 1 }
+			}
+			if = {
+				limit = {
+					has_tech = tech_jager
+				}
+				set_technology = { popup = no magical_weapons_jager = 1 }
+			}
+			if = {
+				limit = {
+					has_tech = tech_pegasi
+				}
+				set_technology = { popup = no magical_weapons_pegasi = 1 }
+			}
+			if = {
+				limit = {
+					has_tech = tech_ironpaws
+				}
+				set_technology = { popup = no magical_weapons_ironpaws = 1 }
+			}
+			if = {
+				limit = {
+					has_tech = amphibious_mechanized_infantry
+				}
+				set_technology = { popup = no magical_weapons_amphibious_mechanized = 1 }
+			}
+		}
+		else = {
+			log = "[GetDateText]: THIS: [This.GetName] fix_weapon_techs: set infantry weapons for special forces"
+			if = {
+				limit = {
+					has_tech = marines
+				}
+				set_technology = { popup = no infantry_weapons_marine = 1 }
+			}
+			if = {
+				limit = {
+					has_tech = tech_mountaineers
+				}
+				set_technology = { popup = no infantry_weapons_mountaineers = 1 }
+			}
+			if = {
+				limit = {
+					has_tech = paratroopers
+				}
+				set_technology = { popup = no infantry_weapons_paratrooper = 1 }
+			}
+			if = {
+				limit = {
+					has_tech = tech_jager
+				}
+				set_technology = { popup = no infantry_weapons_jager = 1 }
+			}
+			if = {
+				limit = {
+					has_tech = tech_pegasi
+				}
+				set_technology = { popup = no infantry_weapons_pegasi = 1 }
+			}
+			if = {
+				limit = {
+					has_tech = tech_ironpaws
+				}
+				set_technology = { popup = no infantry_weapons_ironpaws = 1 }
+			}
+			if = {
+				limit = {
+					has_tech = amphibious_mechanized_infantry
+				}
+				set_technology = { popup = no infantry_weapons_amphibious_mechanized = 1 }
+			}
+		}
+
+		if = {
+			limit = { has_tech = tech_knights }
+			set_technology = {
+				popup = no
+				magical_weapons_knights = 0
+				infantry_weapons_knights = 0
+			}
+			if = {
+				limit = { 
+					OR = {
+						has_tech = tech_knights_magical
+						AND = {
+							has_griffon_race_tech = no
+							has_country_flag = special_forces_magical_weapons
+						}
+					}
+				}
+				set_technology = { popup = no magical_weapons_knights = 1 }
+			}
+			else = {
+				set_technology = { popup = no infantry_weapons_knights = 1 }
+			}
+		}
+   }
+}
+
+# remove disband_fraction land units, keeping manpower and equipment
+# expects disband_fraction variable to be set
+disband_units_fraction = {
+	TST = { 
+		set_temp_variable = {
+			old_manpower = manpower_k
+		}
+	}
+	random_state = {
+		limit = {
+			is_coastal = no
+			owner = {
+				PREV = {
+					is_fully_controlled_by = PREV
+				}
+			}
+		}
+		owner = { save_event_target_as = disband_state_owner }
+		save_event_target_as = disband_state
+		TST = { set_state_owner = PREV }
+	}
+	transfer_units_fraction = {
+		target = TST
+		size = 0
+		army_ratio = var:disband_fraction
+		keep_unit_leaders_trigger = {
+			always = yes
+		}
+	}
+	TST = {
+		every_state = {
+			TST = {
+				delete_unit = { 
+					state = PREV
+					disband = yes
+				}
+			}
+		}
+		set_temp_variable = {
+			manpower_diff = manpower_k
+		}
+		subtract_from_temp_variable = {
+			manpower_diff = old_manpower
+		}
+		while_loop_effect = { #avoid overflows
+			limit = { check_variable = { manpower_diff > 1 } }
+			subtract_from_temp_variable = { manpower_diff = 1 }
+			ROOT = { add_manpower = 1000 }
+			add_manpower = -1000
+		}
+		multiply_temp_variable = {
+			manpower_diff = 1000
+		}
+		ROOT = { add_manpower = PREV.manpower_diff }
+		multiply_temp_variable = {
+			manpower_diff = -1
+		}
+		add_manpower = manpower_diff
+		transfer_units_fraction = {
+			target = ROOT
+			size = 0
+			stockpile_ratio = 1
+			keep_unit_leaders_trigger = {
+				always = yes
+			}
+		}
+	}
+	event_target:disband_state = {
+		event_target:disband_state_owner = { set_state_owner = PREV }
+	}
+	annex_country = {
+		target = TST
+	}
+}
+
+# Count Inflicted Casualties effect by Yard1
+# Hopefully paradox will bless us with just a variable for that
+# put this in on_daily - I'd limit it to only countries that actually make use of it, as it can be a bit performance intensive - though it's not as terrible as it looks
+# inflicted_casualties - all inflicted casualties
+# inflicted_casualties_on_@TAG - inflicted casualties on original tag, eg. inflicted_casualties_on_GER
+count_inflicted_casualties_on_current_enemies = {
+	set_temp_variable = { effect_root = THIS }
+	every_enemy_country = {
+		limit = {
+			var:original_tag = {
+				OR = {
+					NOT = { has_variable = effect_root:current_inflicted_casualties_on_@THIS }
+					casualties_inflicted_by = {
+						opponent = var:effect_root
+						thousands > effect_root:current_inflicted_casualties_on_@THIS
+					}
+				}
+			}
+		}
+		clear_array = effect_root:digits
+		resize_array = {
+			array = effect_root:digits
+			size = 9
+		}
+		for_each_loop = {
+			array = effect_root:digits
+			index = i
+			value = v
+			break = b
+			for_loop_effect = {
+				start = 0
+				end = 10
+				value = j
+				set_variable = { effect_root:digits^i = j }
+				meta_effect = {
+					text = {
+						set_temp_variable = {
+							inflicted_casualties_temp = [DIGIT0][DIGIT1][DIGIT2][DIGIT3][DIGIT4][DIGIT5].[DIGIT6][DIGIT7][DIGIT8]
+						}
+					}
+					DIGIT0 = "[?effect_root:digits^0|0]"
+					DIGIT1 = "[?effect_root:digits^1|0]"
+					DIGIT2 = "[?effect_root:digits^2|0]"
+					DIGIT3 = "[?effect_root:digits^3|0]"
+					DIGIT4 = "[?effect_root:digits^4|0]"
+					DIGIT5 = "[?effect_root:digits^5|0]"
+					DIGIT6 = "[?effect_root:digits^6|0]"
+					DIGIT7 = "[?effect_root:digits^7|0]"
+					DIGIT8 = "[?effect_root:digits^8|0]"
+				}
+				if = {
+					limit = {
+						casualties_inflicted_by = {
+							opponent = PREV
+							thousands < inflicted_casualties_temp
+						}
+					}
+					subtract_from_variable = { effect_root:digits^i = 1 }
+					set_temp_variable = { break = 1 }
+				}
+			}
+		}
+		subtract_from_temp_variable = { inflicted_casualties_temp = 0.001 }
+		set_temp_variable = { inflicted_casualties_diff = inflicted_casualties_temp }
+		var:original_tag = {
+			subtract_from_temp_variable = { inflicted_casualties_diff = effect_root:current_inflicted_casualties_on_@THIS }
+			add_to_variable = { effect_root:inflicted_casualties = inflicted_casualties_diff }
+			add_to_variable = { effect_root:current_inflicted_casualties_on_@THIS = inflicted_casualties_diff }
+			add_to_variable = { effect_root:inflicted_casualties_on_@THIS = inflicted_casualties_diff }
+		}
+	}
+	clear_array = digits
+}
+
+# put this in on_peace
+clear_current_inflicted_casualties = {
+	for_each_scope_loop = {
+		array = global.countries
+		if = {
+			limit = {
+				NOT = { has_war_with = PREV }
+			}
+			clear_variable = PREV.current_inflicted_casualties_on_@THIS
+			clear_variable = current_inflicted_casualties_on_@PREV
+		}
+	}
+}
+
+grant_claims_and_wargoals_on_core_states_of_PREV = {
+    custom_effect_tooltip = EaW_wargoal_and_claims_tp
+	for_each_loop = {
+		array = PREV.core_states
+		if = {
+			limit = {
+				var:v:owner = {
+					NOT = { tag = PREV }
+				}
+			}
+			add_state_claim = var:v
+			create_wargoal = {
+				type = take_claimed_state
+				target = var:v:owner
+			}
+		}
+	}
+}
+
+grant_claims_and_declare_war_on_core_states_of_PREV = {
+    custom_effect_tooltip = EaW_war_and_claims_tp
+	for_each_loop = {
+		array = PREV.core_states
+		if = {
+			limit = {
+				var:v:owner = {
+					NOT = { tag = PREV }
+				}
+			}
+			add_state_claim = var:v
+			create_wargoal = {
+				type = take_claimed_state
+				target = var:v:owner
+			}
+			if = {
+				limit = {
+					var:v:owner = {
+						NOT = {
+							has_war_with = PREV
+							is_in_faction_with = PREV
+							is_subject_of = PREV
+						}
+					}
+				}
+				declare_war_on = {
+					type = take_claimed_state
+					target = var:v:owner
+				}
+			}
+		}
+	}
+}
+
+wargoals_on_core_states_of_PREV = {
+    custom_effect_tooltip = EaW_wargoal_tp
+	for_each_loop = {
+		array = PREV.core_states
+		if = {
+			limit = {
+				var:v:owner = {
+					NOT = { tag = PREV }
+				}
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = var:v:owner
+			}
+		}
+	}
+}
+
+declare_war_on_core_states_of_PREV = {
+    custom_effect_tooltip = EaW_war_tp
+	for_each_loop = {
+		array = PREV.core_states
+		if = {
+			limit = {
+				var:v:owner = {
+					NOT = { tag = PREV }
+				}
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = var:v:owner
+			}
+			if = {
+				limit = {
+					var:v:owner = {
+						NOT = {
+							has_war_with = PREV
+							is_in_faction_with = PREV
+							is_subject_of = PREV
+						}
+					}
+				}
+				declare_war_on = {
+					type = annex_everything
+					target = var:v:owner
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = infunstructure
+						option = PSODY_MODE
+					}
+				}
+				every_state = {
+					set_building_level = {
+						type = infrastructure
+						level = 0
+					}
+				}
+			}
+		}
+	}
+}

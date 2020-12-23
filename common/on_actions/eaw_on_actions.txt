@@ -1,0 +1,1097 @@
+on_actions = {
+
+	#Not run on a specific country.
+	on_startup = {
+		effect = {
+			log = "[GetDateText] Equestria at War main on_startup begin"
+			every_state = {
+				limit = {
+					is_on_continent = europe #Equestria
+				}
+				add_to_array = { global.europe_states = THIS }
+			}
+
+			#TST is used here as a random country selector
+			#Thanks to Delincious from KR team for the idea <3 # :)
+			TST = {
+				mark_land_connected_states = yes
+				if = {
+					limit = { is_ai = no }
+					random_other_country = {
+						limit = { is_ai = yes }
+						set_variable = { eaw_welcome_screen = 1 }
+						capital_scope = { TST = { goto_state = PREV } }
+						change_tag_from = PREV
+					}
+				}
+			}
+			EQS = {
+				save_global_event_target_as = equestria
+				#country_event = { id = equestria.102 days = 93 }
+				#set_country_flag = manpower_laws_blocked
+				#set_country_flag = economic_laws_blocked
+				#set_country_flag = { flag = celestia_evil_meter value = 0 }
+				#country_event = { id = equestria.170 days = 30 random = 17280 }#days to hours applied
+				#country_event = { id = utility.7 hours = 1 }
+			}
+			every_country = {
+				# added in vanilla 1.9.2
+				capital_scope = {
+					set_variable = { historical_capital_for_country = PREV }
+				}
+				
+				if = {
+					limit = { is_pony_race = yes }
+					add_ideas = pony_race
+				}
+				else_if = {
+					limit = { is_changeling_race = yes }
+					add_ideas = changeling_race
+				}
+				else_if = {
+					limit = { is_deer_race = yes }
+					add_ideas = deer_race
+				}
+				else_if = {
+					limit = { is_griffon_race = yes }
+					add_ideas = griffon_race
+					country_event = {
+						id = fantasyflavor.11
+						days = 345
+					}
+					if = {
+						limit = {
+							is_ai = no
+						}
+						random_list = {
+							75 = {
+								
+							}
+							25 = {
+								country_event = {
+									id = fantasyflavor.12
+									days = 400
+									random = 25000
+								}
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = { is_diamond_dog_race = yes }
+					add_ideas = diamond_dog_race
+				}
+				else_if = {
+					limit = { is_minotaur_race = yes }
+					add_ideas = minotaur_race
+				}
+				else_if = {
+					limit = { is_penguin_race = yes }
+					add_ideas = penguin_race
+				}
+				else_if = {
+					limit = { is_dragon_race = yes }
+					add_ideas = dragon_race
+				}
+				else_if = {
+					limit = { is_undead_race = yes }
+					add_ideas = undead_race
+				}
+				else_if = {
+					limit = { is_buffalo_race = yes }
+					add_ideas = buffalo_race
+				}
+				else_if = {
+					limit = { is_yak_race = yes }
+					add_ideas = yak_race
+				}
+				else_if = {
+					limit = { is_polar_race = yes }
+					add_ideas = polar_race
+				}
+				else = {
+					set_technology = { popup = no generic_race = 1 }
+					add_ideas = generic_race_idea
+				}
+
+				if = {
+					limit = {
+						is_on_equestrian_continent = no
+						OR = {
+							has_idea = dummy_idea_science
+							NOT = {
+								has_idea_with_trait = science_idea
+							}
+						}
+					}
+					if = {
+						limit = {
+							num_of_civilian_factories > 2
+							has_tech = melee_weapons1
+						}
+						#log = "[Root.GetName] better_science_base"
+						add_ideas = better_science_base
+					}
+					else_if = {
+						limit = {
+							OR = {
+								NOT = { has_tech = melee_weapons1 }
+								NOT = { num_of_civilian_factories > 2 }
+							}
+						}
+						#log = "[Root.GetName] poor_science_base"
+						add_ideas = poor_science_base
+					}
+				}
+
+				if = {
+					limit = {
+						OR = {
+							is_on_equestrian_continent = yes
+							has_idea = dummy_idea_science
+							NOT = {
+								has_idea_with_trait = science_idea
+							}
+						}
+					}
+					add_ideas = proper_science_base
+				}
+
+				if = {
+					limit = {
+						OR = {
+							has_idea = dummy_idea_society
+							NOT = {
+								has_idea_with_trait = society_idea
+							}
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						OR = {
+							has_idea = dummy_idea_literacy
+							NOT = { has_idea_with_trait = illiteracy_idea }
+						}
+					}
+					add_ideas = no_lack_of_scientists
+				}
+
+				if = {
+					limit = {
+						OR = {
+							has_idea = dummy_idea_poverty
+							NOT = { has_idea_with_trait = poverty_idea }
+						}
+					}
+					add_ideas = no_poverty
+				}
+
+				if = {
+					limit = {
+						is_ai = no
+					}
+					set_variable = { eaw_welcome_screen = 1 }
+				}
+				
+				if = {
+					limit = {
+						is_ai = no
+					}
+					random_list = {
+						75 = {
+							
+						}
+						25 = {
+							country_event = {
+								id = fantasyflavor.8
+								days = 400
+								random = 30000
+							}
+						}
+					}
+					random_list = {
+						75 = {
+							
+						}
+						25 = {
+							country_event = {
+								id = fantasyflavor.5
+								days = 400
+								random = 25000
+							}
+						}
+					}
+					random_list = {
+						75 = {
+							
+						}
+						25 = {
+							country_event = {
+								id = fantasyflavor.1
+								days = 400
+								random = 20000
+							}
+						}
+					}
+					random_list = {
+						75 = {
+							
+						}
+						25 = {
+							country_event = {
+								id = fantasyflavor.14
+								days = 400
+								random = 35000
+							}
+						}
+					}
+				}
+				
+				if = {
+					limit = {
+						NOT = {
+							any_owned_state = {
+								OR = {
+									is_coastal = yes
+									is_island_state = yes
+								}
+							}
+						}
+					}
+					set_country_flag = started_out_as_landlocked
+				}
+				adjust_research_modifier = yes
+				if = {
+					limit = { NOT = { has_country_flag = weapons_fixed_at_start } }
+					actually_fix_weapon_techs = yes
+				}
+			}
+
+			# State science base
+			#BUF = {
+			#	add_ideas = poor_science_base
+			#	adjust_research_modifier = yes
+			#}
+
+			# Province modifiers
+			#547 = {
+			#	add_province_modifier = {
+			#		static_modifiers = { scheisswald_forest }
+			#		province = {
+			#			id = 12874
+			#			id = 12787
+			#			id = 8039
+			#		}
+			#	}
+			#}
+			#586 = {
+			#	add_province_modifier = {
+			#		static_modifiers = { eygsic_forest }
+			#		province = {
+			#			all_provinces = yes
+			#		}
+			#	}
+			#}	
+			#1 = {
+			#	add_dynamic_modifier = { modifier = everfree_forest_resistance_to_occupation_modifier }
+			#	add_province_modifier = { ## Everfree Forest modifiers ##
+			#		static_modifiers = { old_dragon_gardens }
+			#		province = {
+			#			all_provinces = yes
+			#		}
+			#	}
+			#}
+			#5 = {
+			#	add_dynamic_modifier = { modifier = everfree_forest_resistance_to_occupation_modifier }
+			#	add_province_modifier = {
+			#		static_modifiers = { old_dragon_gardens }
+			#		province = {
+			#			all_provinces = yes
+			#		}
+			#	}
+			#}
+
+			# this extra loop is intentional
+			# adjust_research_modifier needs to be fired again after force_update_dynamic_modifier for the value to work correctly
+			# first loop is above, in every_country
+			for_each_scope_loop = {
+				array = global.countries
+				force_update_dynamic_modifier = yes
+				adjust_research_modifier = yes
+			}
+			log = "[GetDateText] Equestria at War main on_startup end"
+		}
+		
+	}
+
+	#FROM is war target
+	on_declare_war = {
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] FROM: [From.GetName] on_declare_war"
+			hidden_effect = {
+				clear_variable = delayed_merc_payment_@FROM
+				FROM = { clear_variable = delayed_merc_payment_@ROOT }
+
+				#Civil war transfer society/science ideas
+				if = {
+					limit = {
+						OR = {
+							has_idea = dummy_idea_society
+							NOT = { has_idea_with_trait = society_idea }
+						}
+					}
+					if = {
+						limit = {
+							FROM = {
+								NOT = {
+									has_idea = modern_society
+								}
+							}
+						}
+						FROM = { ROOT = { transfer_society_ideas = yes } }
+						else = { add_ideas = modern_society }
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							has_idea = dummy_idea_science
+							NOT = { has_idea_with_trait = science_idea }
+						}
+					}
+					if = {
+						limit = {
+							FROM = {
+								NOT = {
+									has_idea = proper_science_base
+								}
+							}
+						}
+						FROM = { ROOT = { transfer_science_ideas = yes } }
+						else = { add_ideas = proper_science_base }
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							has_idea = dummy_idea_literacy
+							NOT = { has_idea_with_trait = illiteracy_idea }
+						}
+					}
+					if = {
+						limit = {
+							FROM = {
+								NOT = {
+									has_idea = no_lack_of_scientists
+								}
+							}
+						}
+						FROM = { ROOT = { transfer_illiteracy_ideas = yes } }
+						else = { add_ideas = no_lack_of_scientists }
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							has_idea = dummy_idea_poverty
+							NOT = { has_idea_with_trait = poverty_idea }
+						}
+					}
+					if = {
+						limit = {
+							FROM = {
+								NOT = {
+									has_idea = no_poverty
+								}
+							}
+						}
+						FROM = { ROOT = { transfer_poverty_ideas = yes } }
+						else = { add_ideas = no_poverty }
+					}
+				}
+				if = {
+					limit = {
+						original_tag = FROM
+					}
+					log = "on_declare_war: is civil war root: [?root.GetTag] from: [?from.GetTag]"
+					#WORKAROUND_civil_war_load_tree_for_revolter = yes
+					FROM = { ROOT = { transfer_race_ideas = yes } }
+					if = {
+						limit = { FROM = { has_country_flag = started_out_as_landlocked } }
+						set_country_flag = started_out_as_landlocked
+					}
+					if = {
+						limit = { has_country_flag = started_out_as_landlocked }
+						FROM = { set_country_flag = started_out_as_landlocked }
+					}
+					if = {
+						limit = {
+							OR = {
+								FROM = { has_focus_tree = generic_griffon_focus }
+							}
+							has_focus_tree = generic_griffon_focus
+						}
+						if = {
+							limit = {
+								#TODO make sure which countries can have monarchist civil wars
+								always = yes
+							}
+							set_country_flag = have_regular_puppets
+						}
+					}
+					set_rule = {
+						can_generate_female_aces = yes
+					}
+					FROM = {
+						set_rule = {
+							can_generate_female_aces = yes
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					OR = {
+						is_ai = no
+						NOT = { has_country_flag = recently_fixed_weapons }
+					}
+				}
+				actually_fix_weapon_techs = yes
+				set_country_flag = { flag = recently_fixed_weapons days = 1 value = 1 }
+			}
+			FROM = {
+				if = {
+					limit = {
+						OR = {
+							is_ai = no
+							NOT = { has_country_flag = recently_fixed_weapons }
+						}
+					}
+					actually_fix_weapon_techs = yes
+					set_country_flag = { flag = recently_fixed_weapons days = 1 value = 1 }
+				}
+			}
+		}
+	}
+
+	#FROM is state the nuke got dropped on
+	on_nuke_drop = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_nuke_drop FROM = [From.GetName]"
+			FROM = {
+				decrease_population_on_nuke = yes
+			}
+			if = {
+				limit = {
+					original_tag = EQS
+					FROM = { state = 251 }
+					NOT = { has_country_flag = nuked_the_hive }
+				}
+				save_event_target_as = hive_nuker
+				set_country_flag = nuked_the_hive
+				news_event = { id = news.50 days = 1}
+			}
+			if = {
+				limit = {
+					FROM = { state = 3 }
+					NOT = { has_global_flag = canterlot_nuked }
+				}
+				set_global_flag = canterlot_nuked
+				news_event = { id =  nuke_dropped.107 days = 1}
+			}
+			if = {
+				limit = {
+					FROM = { 
+					    OR = { ##### There are 3 proinces named Crystal City 
+					        state = 53 
+                            state = 345 
+                            state = 344 
+					    }
+					}
+					NOT = { has_global_flag = crystalcity_nuked }
+				}
+				set_global_flag = crystalcity_nuked
+				news_event = { id =  nuke_dropped.109 days = 1}
+			}
+			if = {
+				limit = {
+					FROM = { state = 153 }
+					NOT = { has_global_flag = stalliongrad_nuked }
+				}
+				set_global_flag = stalliongrad_nuked
+				news_event = { id = nuke_dropped.110 days = 1}
+			}
+		}
+	}
+
+	#used when puppeting in a peace conference
+	#ROOT = nation being puppeted, FROM = overlord
+	on_puppet = {
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] FROM: [From.GetName] on_puppet"
+			FROM = { ROOT = { apply_cosmetic_tags_on_puppet_PREV_is_overlord = yes } }
+		}
+	}
+
+	#used when puppeting through the occupied territories menu during peace time (or when releasing from non-core but owned territory, f.e. Britain releasing Egypt)
+	#ROOT = nation being released, FROM = overlord
+	on_release_as_puppet = {
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] FROM: [From.GetName] on_release_as_puppet"
+
+			set_have_regular_puppets = yes
+
+			transfer_society_and_science_ideas_when_released = yes
+
+			FROM = { ROOT = { apply_cosmetic_tags_on_puppet_PREV_is_overlord = yes } }
+
+			actually_fix_weapon_techs = yes
+			FROM = { actually_fix_weapon_techs = yes }
+		}
+	}
+
+	#ROOT is subject FROM is overlord
+	on_subject_annexed = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_subject_annexed FROM = [From.GetName]"
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = bypass_annex_compliance
+						FROM = { has_country_flag = bypass_annex_compliance }
+						is_in_array = {
+							annex_compliance = FROM
+						}
+					}
+				}
+				add_to_array = {
+					annex_compliance = FROM
+				}
+				add_to_array = {
+					annex_compliance_subject = FROM
+				}
+				country_event = { id = utility.11 days = 1 }
+			}
+		}
+	}
+
+	#ROOT is winner #FROM gets annexed - For civil wars on_civil_war_end is also fired
+	on_annex = {
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] FROM: [From.GetName] on_annex"
+
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = bypass_annex_compliance
+						FROM = { has_country_flag = bypass_annex_compliance }
+						is_in_array = {
+							annex_compliance = FROM
+						}
+					}
+				}
+				add_to_array = {
+					annex_compliance = FROM
+				}
+				if = {
+					limit = {
+						FROM = { is_subject_of = ROOT }
+					}
+					add_to_array = {
+						annex_compliance_subject = FROM
+					}
+				}
+				country_event = { id = utility.11 days = 1 }
+			}
+		}
+	}
+
+	#ROOT is winner #FROM gets annexed - This fires just before FROM gets annexed, meaning the country and everything it owns still exists. It will also fire on_annex and on_civil_war_end
+	on_civil_war_end_before_annexation = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_civil_war_end_before_annexation FROM = [From.GetName]"
+			FROM = {
+				transfer_navy = { target = ROOT }
+			}
+		}
+	}
+
+	#ROOT is winner FROM gets annexed
+	on_civil_war_end = {
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] FROM: [From.GetName] on_civil_war_end"
+		}
+	}
+	# ROOT is capitulated country, FROM is winner
+	on_capitulation = {
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] FROM: [From.GetName] on_capitulation"
+		}
+	}
+	#ROOT is free nation FROM is releaser
+	on_release_as_free = {
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] FROM: [From.GetName] on_release_as_free"
+			if = {
+				limit = {
+					OR = {
+						has_idea = dummy_idea_society
+						NOT = { has_idea_with_trait = society_idea }
+					}
+				}
+				if = {
+					limit = {
+						FROM = {
+							NOT = {
+								has_idea = modern_society
+							}
+						}
+					}
+					FROM = { ROOT = { transfer_society_ideas = yes } }
+					else = { add_ideas = modern_society }
+				}
+			}
+
+			if = {
+				limit = {
+					OR = {
+						has_idea = dummy_idea_science
+						NOT = { has_idea_with_trait = science_idea }
+					}
+				}
+				if = {
+					limit = {
+						FROM = {
+							NOT = {
+								has_idea = proper_science_base
+							}
+						}
+					}
+					FROM = { ROOT = { transfer_science_ideas = yes } }
+					else = { add_ideas = proper_science_base }
+				}
+			}
+
+			if = {
+				limit = {
+					OR = {
+						has_idea = dummy_idea_literacy
+						NOT = { has_idea_with_trait = illiteracy_idea }
+					}
+				}
+				if = {
+					limit = {
+						FROM = {
+							NOT = {
+								has_idea = no_lack_of_scientists
+							}
+						}
+					}
+					FROM = { ROOT = { transfer_illiteracy_ideas = yes } }
+					else = { add_ideas = no_lack_of_scientists }
+				}
+			}
+
+			if = {
+				limit = {
+					OR = {
+						has_idea = dummy_idea_poverty
+						NOT = { has_idea_with_trait = poverty_idea }
+					}
+				}
+				if = {
+					limit = {
+						FROM = {
+							NOT = {
+								has_idea = no_poverty
+							}
+						}
+					}
+					FROM = { ROOT = { transfer_poverty_ideas = yes } }
+					else = { add_ideas = no_poverty }
+				}
+			}
+
+			actually_fix_weapon_techs = yes
+			FROM = { actually_fix_weapon_techs = yes }
+		}
+	}
+
+	on_subject_free = {
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] FROM: [From.GetName] on_subject_free"
+		}
+	}
+
+	on_government_change = {
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] on_government_change"
+		}
+	}
+
+	# compared to on_government_change, this also fires when a subideology changes
+
+	#ROOT is winner #FROM is loser
+	on_peaceconference_ended = {
+		effect = {
+			# PUT EVERYTHING IN THE IF BELOW
+			# THE bypass_on_peaceconference_ended FLAG **HAS** TO BE SET BEFORE CALLING THE white_peace COMMAND AND CLEARED AFTERWARDS
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = bypass_on_peaceconference_ended
+						FROM = { has_country_flag = bypass_on_peaceconference_ended }
+					}
+				}
+				log = "[GetDateText]: ROOT: [Root.GetName] FROM: [From.GetName] on_peaceconference_ended"
+				remove_from_array = {
+					annex_compliance = FROM
+				}
+				remove_from_array = {
+					annex_compliance_subject = FROM
+				}
+				FROM = { clr_country_flag = already_capitulated }
+				handle_op_paperclip = yes
+
+				# if a country is an AI puppet with only one state and surrounded by another country, annex them to reduce bordergore
+				FROM = { country_event = { id = utility.10 hours = 1 } }
+			}
+		}
+	}
+
+	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
+	on_state_control_changed = {
+		effect = {
+			FROM = {
+				save_event_target_as = former_controller
+			}
+		}
+	}
+
+	#FROM is country getting invited.
+	on_offer_join_faction = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_offer_join_faction FROM = [From.GetName]"
+		}
+	}
+
+	#FROM is faction leader on join faction requests. THIS DOES NOT FIRE ON ADD_TO_FACTION EFFECT! USE ON_OFFER_JOIN_FACTION!
+	on_join_faction = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_join_faction FROM = [From.GetName]"
+		}
+	}
+
+	# ROOT is country, this is ran for every country
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					has_military_access_to = ROOT
+				}
+				diplomatic_relation = { country = ROOT relation = military_access active = no }
+			}
+			if = {
+				limit = {
+					has_guaranteed = ROOT
+				}
+				diplomatic_relation = { country = ROOT relation = guarantee active = no }
+			}
+			adjust_research_modifier = yes
+			daily_fix_weapon_techs = yes
+			if = {
+				limit = {
+					has_tech = nukes
+				}
+				if = {
+					limit = {
+						has_idea = no_crystals_reactor_prevent
+						check_variable = { resource@crystals > -1 }
+					}
+					remove_ideas = no_crystals_reactor_prevent
+				}
+				else_if = {
+					limit = { check_variable = { resource@crystals < 0 } }
+					add_ideas = no_crystals_reactor_prevent
+				}
+				if = {
+					limit = {
+						NOT = { has_global_flag = first_nuke_done }
+						num_of_nukes > 0.99
+					}
+					news_event = { id = nuke_first.1 days = 1 }
+					set_global_flag = first_nuke_done
+				}
+			}
+			
+		}
+	}
+
+	# country
+	on_new_term_election = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_new_term_election"
+		}
+	}
+
+	#ROOT is subject FROM is overlord
+	on_subject_autonomy_level_change = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_subject_autonomy_level_change FROM = [From.GetName]"
+		}
+	}
+
+	on_leave_faction = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_leave_faction FROM = [From.GetName]"
+		}
+	}
+
+	# From is owner country
+	on_army_leader_lost_combat = {
+		effect = {
+		}
+	}
+	
+	on_army_leader_won_combat = {
+		effect = {
+		}
+	}
+
+	# FROM = country on whom the wargoal is being generated, ROOT = country generating wargoal
+	on_generate_wargoal = {
+		effect = {
+			log = "[GetDateText] ROOT: [Root.GetName] FROM: [From.GetName] on_generate_wargoal"
+		}
+	}
+
+	on_unit_leader_created = {
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] FROM: [From.GetName] on_unit_leader_created"
+			if = {
+				limit = {
+					is_operative = no
+				}
+				if = {
+					limit = {
+						has_unit_leader_race_trait = no
+					}
+					set_unit_leader_flag = generated
+				}
+				if = {
+					# double check is intentional
+					limit = {
+						has_unit_leader_race_trait = no
+					}
+					if = {
+						limit = {
+							owner = { 
+								OR = {
+									uses_changeling_portraits = yes
+								}
+							}
+						}
+						add_unit_leader_trait = changeling_race_trait
+					}
+					else_if = {
+						limit = {
+							owner = { 
+								OR = {
+									uses_yak_portraits = yes
+								}
+							}
+						}
+						add_unit_leader_trait = yak_race_trait
+					}
+					else_if = {
+						limit = {
+							owner = { 
+								OR = {
+									uses_diamond_dog_portraits = yes
+								}
+							}
+						}
+						add_unit_leader_trait = diamond_dog_race_trait
+					}
+					else_if = {
+						limit = {
+							owner = { 
+								OR = {
+									uses_deer_portraits = yes
+								}
+							}
+						}
+						add_unit_leader_trait = deer_race_trait
+					}
+					else_if = {
+						limit = {
+							owner = { 
+								OR = {
+									uses_undead_portraits = yes
+								}
+							}
+						}
+						add_unit_leader_trait = undead_race_trait
+					}
+					else_if = {
+						limit = {
+							owner = { 
+								OR = {
+									uses_minotaur_portraits = yes
+								}
+							}
+						}
+						add_unit_leader_trait = minotaur_race_trait
+					}
+					else_if = {
+						limit = {
+							owner = { 
+								OR = {
+									uses_penguin_portraits = yes
+								}
+							}
+						}
+						add_unit_leader_trait = penguin_race_trait
+					}
+					else_if = {
+						limit = {
+							owner = { 
+								OR = {
+									uses_bear_portraits = yes
+								}
+							}
+						}
+						add_unit_leader_trait = bear_race_trait
+					}
+					else_if = {
+						limit = {
+							owner = { 
+								OR = {
+									uses_buffalo_portraits = yes
+								}
+							}
+						}
+						add_unit_leader_trait = buffalo_race_trait
+					}
+					else_if = {
+						limit = {
+							owner = { 
+								OR = {
+									uses_dragon_portraits = yes
+								}
+							}
+						}
+						add_unit_leader_trait = dragon_race_trait
+					}
+					else_if = {
+						limit = {
+							owner = { 
+								OR = {
+									uses_thestral_portraits = yes
+								}
+							}
+						}
+						add_unit_leader_trait = thestral_race_trait
+					}
+					else_if = {
+						limit = {
+							owner = { 
+								OR = {
+									uses_griffon_generic_portraits = yes
+								}
+							}
+						}
+						add_unit_leader_trait = griffon_race_trait
+					}
+					else_if = {
+						limit = {
+							owner = { 
+								OR = {
+									uses_pony_generic_portraits = yes
+									uses_pony_EQS_portraits = yes
+									uses_pony_CRY_portraits = yes
+								}
+							}
+						}
+						add_unit_leader_trait = pony_race_trait
+					}
+					else_if = {
+						limit = {
+							owner = { 
+								capital_scope = {
+									is_on_continent = asia # griffonia
+								}
+							}
+						}
+						add_unit_leader_trait = griffon_race_trait
+					}
+					else_if = {
+						limit = {
+							owner = { 
+								capital_scope = {
+									is_on_continent = europe # equestria
+								}
+							}
+						}
+						add_unit_leader_trait = pony_race_trait
+					}
+				}
+				clr_unit_leader_flag = generated
+			}
+			else = {
+				log = "on_unit_leader_created: ROOT: [Root.GetName] is operative"
+				#operative_handle_secondary_cultures_races = yes
+				operative_add_starting_nationalities_and_race = yes
+				operative_add_secondary_nationalities = yes
+			}
+		}
+	}
+
+	# scope is operative
+	# from scope is the country 
+	on_operative_recruited = {
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] FROM: [From.GetName] on_operative_recruited"
+			operative_add_starting_nationalities_and_race = yes
+			operative_add_secondary_nationalities = yes
+		}
+	}
+	
+	# scope is operative
+	# from scope is the country 
+	on_operative_created = {
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] FROM: [From.GetName] on_operative_created"
+			operative_handle_secondary_cultures_races = yes
+			operative_add_starting_nationalities_and_race = yes
+			operative_add_secondary_nationalities = yes
+		}
+	}
+
+	on_ruling_party_change = { 
+		# temp var old_ideology_token is available for effects
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] on_ruling_party_change"
+		}
+	}
+	on_liberate = {
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] FROM: [From.GetName] on_liberate"
+		}
+	}
+
+	on_peace = {
+		effect = {
+			log = "[GetDateText]: ROOT: [Root.GetName] on_peace"
+			if = {
+				limit = {
+					has_variable = inflicted_casualties
+				}
+				clear_current_inflicted_casualties = yes
+			}
+		}
+	}
+}
