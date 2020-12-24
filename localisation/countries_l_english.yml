@@ -569,7 +569,7 @@ LID_communism_ADJ:0 ""
 
 THO_neutrality:0 "Thorax"
 THO_neutrality_DEF:0 ""
-THO_fascism:0 ""
+THO_fascism:0 "Thorax"
 THO_fascism_DEF:0 ""
 THO_communism:0 ""
 THO_communism_DEF:0 ""

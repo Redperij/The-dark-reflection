@@ -18,22 +18,22 @@ set_technology = {
 actually_fix_weapon_techs = yes #THIS HAS TO BE CALLED IN EVERY HISTORY FILE RIGHT AFTER MAIN set_technology!
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "937.1.1"
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 5
-	communism = 2
-	neutrality = 76
-	fascism = 17
+	democratic = 0
+	communism = 0
+	neutrality = 0
+	fascism = 100
 }
 
 create_country_leader = {
-	name = "Thorax"
+	name = "zmih"
 	desc = ""
-	picture = "Lord-Roshuo.dds"
+	picture = ""
 	expire = "2000.1.1"
 	ideology = despotism
 	traits = {
@@ -42,7 +42,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Somepony"
+	name = "Thorax"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
