@@ -426,21 +426,6 @@ on_actions = {
 						limit = { has_country_flag = started_out_as_landlocked }
 						FROM = { set_country_flag = started_out_as_landlocked }
 					}
-					if = {
-						limit = {
-							OR = {
-								FROM = { has_focus_tree = generic_griffon_focus }
-							}
-							has_focus_tree = generic_griffon_focus
-						}
-						if = {
-							limit = {
-								#TODO make sure which countries can have monarchist civil wars
-								always = yes
-							}
-							set_country_flag = have_regular_puppets
-						}
-					}
 					set_rule = {
 						can_generate_female_aces = yes
 					}
@@ -772,18 +757,18 @@ on_actions = {
 	}
 
 	#FROM is country getting invited.
-	on_offer_join_faction = {
-		effect = {
-			log = "[GetDateText] [Root.GetName] on_offer_join_faction FROM = [From.GetName]"
-		}
-	}
+	#on_offer_join_faction = {
+	#	effect = {
+	#		log = "[GetDateText] [Root.GetName] on_offer_join_faction FROM = [From.GetName]"
+	#	}
+	#}
 
-	#FROM is faction leader on join faction requests. THIS DOES NOT FIRE ON ADD_TO_FACTION EFFECT! USE ON_OFFER_JOIN_FACTION!
-	on_join_faction = {
-		effect = {
-			log = "[GetDateText] [Root.GetName] on_join_faction FROM = [From.GetName]"
-		}
-	}
+	##FROM is faction leader on join faction requests. THIS DOES NOT FIRE ON ADD_TO_FACTION EFFECT! USE ON_OFFER_JOIN_FACTION!
+	#on_join_faction = {
+	#	effect = {
+	#		log = "[GetDateText] [Root.GetName] on_join_faction FROM = [From.GetName]"
+	#	}
+	#}
 
 	# ROOT is country, this is ran for every country
 	on_daily = {
@@ -844,22 +829,22 @@ on_actions = {
 		}
 	}
 
-	on_leave_faction = {
-		effect = {
-			log = "[GetDateText] [Root.GetName] on_leave_faction FROM = [From.GetName]"
-		}
-	}
+	#on_leave_faction = {
+	#	effect = {
+	#		log = "[GetDateText] [Root.GetName] on_leave_faction FROM = [From.GetName]"
+	#	}
+	#}
 
 	# From is owner country
-	on_army_leader_lost_combat = {
-		effect = {
-		}
-	}
-	
-	on_army_leader_won_combat = {
-		effect = {
-		}
-	}
+	#on_army_leader_lost_combat = {
+	#	effect = {
+	#	}
+	#}
+	#
+	#on_army_leader_won_combat = {
+	#	effect = {
+	#	}
+	#}
 
 	# FROM = country on whom the wargoal is being generated, ROOT = country generating wargoal
 	on_generate_wargoal = {
@@ -880,12 +865,6 @@ on_actions = {
 						has_unit_leader_race_trait = no
 					}
 					set_unit_leader_flag = generated
-				}
-				if = {
-					# double check is intentional
-					limit = {
-						has_unit_leader_race_trait = no
-					}
 					if = {
 						limit = {
 							owner = { 
@@ -1013,31 +992,32 @@ on_actions = {
 									uses_pony_generic_portraits = yes
 									uses_pony_EQS_portraits = yes
 									uses_pony_CRY_portraits = yes
+									uses_pony_SEV_portraits = yes
 								}
 							}
 						}
 						add_unit_leader_trait = pony_race_trait
 					}
-					else_if = {
-						limit = {
-							owner = { 
-								capital_scope = {
-									is_on_continent = asia # griffonia
-								}
-							}
-						}
-						add_unit_leader_trait = griffon_race_trait
-					}
-					else_if = {
-						limit = {
-							owner = { 
-								capital_scope = {
-									is_on_continent = europe # equestria
-								}
-							}
-						}
-						add_unit_leader_trait = pony_race_trait
-					}
+					#else_if = {
+					#	limit = {
+					#		owner = { 
+					#			capital_scope = {
+					#				is_on_continent = asia # griffonia
+					#			}
+					#		}
+					#	}
+					#	add_unit_leader_trait = griffon_race_trait
+					#}
+					#else_if = {
+					#	limit = {
+					#		owner = { 
+					#			capital_scope = {
+					#				is_on_continent = europe # equestria
+					#			}
+					#		}
+					#	}
+					#	add_unit_leader_trait = pony_race_trait
+					#}
 				}
 				clr_unit_leader_flag = generated
 			}

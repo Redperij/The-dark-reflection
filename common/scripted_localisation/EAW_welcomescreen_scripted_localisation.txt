@@ -1,0 +1,83 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+defined_text = { # Country
+	name = GetNiceCountryName
+	text = {
+		trigger = { original_tag = STL }
+		localization_key = EAW_WS_STL
+	}
+	text = {
+		trigger = { original_tag = OLE }
+		localization_key = EAW_WS_OLE
+	}
+	text = {
+		trigger = { original_tag = CRY }
+		localization_key = EAW_WS_CRY
+	}
+	text = {
+		trigger = {
+			original_tag = YAK
+		}
+		localization_key = EAW_WS_YAK
+	}
+}
+
+defined_text = {
+	name = GetCountryIntro
+	text = {
+		trigger = { original_tag = STL }
+		localization_key = EAW_WS_STL_desc
+	}
+	text = {
+		trigger = { original_tag = OLE }
+		localization_key = EAW_WS_OLE_desc
+	}
+	text = {
+		trigger = { original_tag = CRY }
+		localization_key = EAW_WS_CRY_desc
+	}
+	text = {
+		trigger = {
+			original_tag = YAK
+		}
+		localization_key = EAW_WS_YAK_desc
+	}
+}
+
+defined_text = { # Country
+	name = GetRegionName
+	text = {
+		trigger = { is_northern_equestria_country = yes }
+		localization_key = EAW_WS_Northern_Equestria
+	}
+	text = {
+		trigger = { is_southern_equestria_country = yes }
+		localization_key = EAW_WS_Southern_Equestria
+	}
+	text = {
+		localization_key = "[Root.GetNameDef]"
+	}
+}
+
+defined_text = { # Country
+	name = GetRegionDesc
+	text = {
+		trigger = { is_northern_equestria_country = yes }
+		localization_key = EAW_WS_Northern_Equestria_desc
+	}
+	text = {
+		trigger = { is_southern_equestria_country = yes }
+		localization_key = EAW_WS_Southern_Equestria_desc
+	}
+	text = {
+		localization_key = "[Root.GetNameDef]"
+	}
+}

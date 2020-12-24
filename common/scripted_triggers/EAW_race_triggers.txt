@@ -127,13 +127,19 @@ is_same_race_as_PREV = {
 }
 
 uses_pony_generic_portraits = {
-	always = no
+	NOT = {
+		OR = {
+			original_tag = CRY
+			original_tag = SEV
+			original_tag = EQS
+			original_tag = YAK
+			original_tag = OLE
+		}
+	}
 }
 
 uses_pony_EQS_portraits = {
-	OR = {
-		original_tag = EQS
-	}
+	original_tag = EQS
 }
 
 uses_pony_CRY_portraits = {

@@ -1,0 +1,11 @@
+everyone_less_likely_to_guarantee = {
+	enable = {
+		always = yes
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = pp_spend_priority
+		id = guarantee
+		value = -50
+	}
+}
