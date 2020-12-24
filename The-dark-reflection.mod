@@ -32,7 +32,6 @@ replace_path="common/occupation_laws"
 replace_path="common/resistance_activity"
 replace_path="common/scripted_diplomatic_actions"
 replace_path="common/abilities"
-replace_path="common/unit_leader"
 
 replace_path="common/technologies"
 replace_path="common/technology_tags"

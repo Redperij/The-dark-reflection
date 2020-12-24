@@ -252,6 +252,7 @@ is_country_main_culture_aquileian = {
 
 is_country_main_culture_equestrian = {
 	OR = {
+		original_tag = SEV
 		original_tag = EQS
 		original_tag = CRY
 		original_tag = BAL
