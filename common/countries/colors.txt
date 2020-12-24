@@ -248,3 +248,178 @@ STL = {
 	color = rgb { 255 255 197 }
 	color_ui = rgb { 255 255 197 }
 }
+
+AED = {
+	color = rgb { 255 153 51 }
+	color_ui = rgb { 255 255 197 }
+}
+
+ANG = {
+	color = rgb { 39 45 7 }
+	color_ui = rgb { 255 255 197 }
+}
+
+BRM = {
+	color = rgb { 204 89 51 }
+	color_ui = rgb { 255 255 197 }
+}
+
+BRK = {
+	color = rgb { 109 124 33 }
+	color_ui = rgb { 4 47 4 }
+}
+
+BRG = {
+	color = rgb { 31 185 99 }
+	color_ui = rgb { 255 255 197 }
+}
+
+CAR = {
+	color = rgb { 11 3 102 }
+	color_ui = rgb { 255 255 197 }
+}
+
+CID = {
+	color = rgb { 204 89 51 }
+	color_ui = rgb { 255 255 197 }
+}
+
+DOL = {
+	color = rgb { 51 204 51 }
+	color_ui = rgb { 255 255 197 }
+}
+
+DRA = {
+	color = rgb { 183 0 0 }
+	color_ui = rgb { 255 255 197 }
+}
+
+ELD = {
+	color = rgb { 11 3 102 }
+	color_ui = rgb { 255 255 197 }
+}
+
+KDW = {
+	color = rgb { 128 204 51 }
+	color_ui = rgb { 255 255 197 }
+}
+
+KER = {
+	color = rgb { 153 102 51 }
+	color_ui = rgb { 255 255 197 }
+}
+
+LAR = {
+	color = rgb { 255 191 0 }
+	color_ui = rgb { 255 255 197 }
+}
+
+MHK = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 197 }
+}
+
+MON = {
+	color = rgb { 183 0 0 }
+	color_ui = rgb { 255 255 197 }
+}
+
+OLE = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+RED = {
+	color = rgb { 183 0 0 }
+	color_ui = rgb { 255 255 197 }
+}
+
+SOD = {
+	color = rgb { 1 93 218 }
+	color_ui = rgb { 255 255 197 }
+}
+
+TEM = {
+	color = rgb { 11 3 102 }
+	color_ui = rgb { 255 255 197 }
+}
+
+CIN = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+ATT = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+DRI = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+DOA = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+TOU = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+NAZ = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+MAG = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+GES = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+EBB = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+ETO = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+GEM = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+VIC = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+ROW = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+YML = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+LID = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+
+THO = {
+	color = rgb { 117 13 92 }
+	color_ui = rgb { 255 255 197 }
+}

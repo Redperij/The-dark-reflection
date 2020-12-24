@@ -2,8 +2,8 @@ state={
 	id=1568
 	name="STATE_1568"
 	history={
-		owner = OLE
-		add_core_of = OLE
+		owner = VIC
+		add_core_of = VIC
 	}
 	provinces={
 		937 1746 1766 1917 2347 3117 9524 9574 9650 9712 9725 9737 9746 9755 9808 9824 9841 

@@ -2,8 +2,8 @@ state={
 	id=1442
 	name="STATE_1442"
 	history={
-		owner = OLE
-		add_core_of = OLE
+		owner = GEM
+		add_core_of = GEM
 	}
 	provinces={
 		1429 2827 2838 5317 7883 7922 7969 8093 8174 
