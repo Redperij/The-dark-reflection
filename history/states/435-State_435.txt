@@ -9,6 +9,7 @@ state={
 		1003 5229 5275 12393 12432 12439 12472 12501 12572 12602 
 	}
 	manpower=1
-	state_category = town
+	state_category = wasteland
+	impassable = yes
 	buildings_max_level_factor=1.000
 }

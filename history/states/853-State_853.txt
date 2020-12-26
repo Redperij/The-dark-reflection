@@ -6,9 +6,9 @@ state={
 		add_core_of = TST
 	}
 	provinces={
-		553 810 9317 9468 9498 9592 
+		810 9317 9468 9498 
 	}
 	manpower=1
-	state_category = town
+	state_category = rural
 	buildings_max_level_factor=1.000
 }
