@@ -443,3 +443,48 @@ TRS = {
 	color = rgb { 159 131 97 }
 	color_ui = rgb { 159 131 97 }
 }
+
+NWN = {
+	color = rgb { 205 171 36 }
+	color_ui = rgb { 205 171 36 }
+}
+
+GLF = {
+	color = rgb { 255 25 31 }
+	color_ui = rgb { 255 25 31 }
+}
+
+GFF = {
+	color = rgb { 232 154 62 }
+	color_ui = rgb { 232 154 62 }
+}
+
+GRF = {
+	color = rgb { 165 74 0 }
+	color_ui = rgb { 165 74 0 }
+}
+
+CNC = {
+	color = rgb { 251 255 141 }
+	color_ui = rgb { 251 255 141 }
+}
+
+BFJ = {
+	color = rgb { 200 216 227 }
+	color_ui = rgb { 200 216 227 }
+}
+
+PNG = {
+	color = rgb { 0 0 255 }
+	color_ui = rgb { 0 0 255 }
+}
+
+PNR = {
+	color = rgb { 100 199 255 }
+	color_ui = rgb { 100 199 255 }
+}
+
+DMD = {
+	color = rgb { 124 124 124 }
+	color_ui = rgb { 124 124 124 }
+}

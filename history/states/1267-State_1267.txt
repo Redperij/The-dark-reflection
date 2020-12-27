@@ -2,13 +2,13 @@ state={
 	id=1267
 	name="STATE_1267"
 	history={
-		owner = TST
-		add_core_of = TST
+		owner = GLF
+		add_core_of = GLF
 	}
 	provinces={
 		4040 
 	}
 	manpower=1
-	state_category = town
+	state_category = enclave
 	buildings_max_level_factor=1.000
 }

@@ -1,10 +1,10 @@
-﻿capital = 1
+﻿capital = 835
 
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 85
@@ -15,8 +15,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Franklin"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	desc = ""
+	picture = ""
 	expire = "1947.1.1"
 	ideology = liberalism
 	traits = {
@@ -26,8 +26,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "William"
-	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-	picture = "Portrait_USA_William_Dudley_Pelley.dds"
+	desc = ""
+	picture = ""
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -37,8 +37,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Earl"
-	desc = "POLITICS_EARL_BROWDER_DESC"
-	picture = "portrait_USA_earl_browder.dds"
+	desc = ""
+	picture = ""
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
@@ -48,8 +48,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Haile"
-	desc = "POLITICS_HAILE_SELASSIE_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
+	desc = ""
+	picture = ""
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
