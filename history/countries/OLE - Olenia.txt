@@ -17,6 +17,58 @@ set_technology = {
 }
 actually_fix_weapon_techs = yes #THIS HAS TO BE CALLED IN EVERY HISTORY FILE RIGHT AFTER MAIN set_technology!
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = TOU
+		autonomy_state = autonomy_nominal_vassal
+	}
+	set_autonomy = {
+		target = CIN
+		autonomy_state = autonomy_nominal_vassal
+	}
+	set_autonomy = {
+		target = DOA
+		autonomy_state = autonomy_nominal_vassal
+	}
+	set_autonomy = {
+		target = DOL
+		autonomy_state = autonomy_autonomous_vassal
+	}
+	set_autonomy = {
+		target = DRI
+		autonomy_state = autonomy_nominal_vassal
+	}
+	set_autonomy = {
+		target = GEM
+		autonomy_state = autonomy_nominal_vassal
+	}
+	set_autonomy = {
+		target = GES
+		autonomy_state = autonomy_nominal_vassal
+	}
+	set_autonomy = {
+		target = LID
+		autonomy_state = autonomy_nominal_vassal
+	}
+	set_autonomy = {
+		target = YML
+		autonomy_state = autonomy_nominal_vassal
+	}
+	else = {
+		puppet = TOU
+		puppet = CIN
+		puppet = DOA
+		puppet = DOL
+		puppet = DRI
+		puppet = GEM
+		puppet = GES
+		puppet = LID
+		puppet = YML
+	}
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "937.1.1"

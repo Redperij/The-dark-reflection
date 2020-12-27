@@ -6,7 +6,7 @@ state={
 		add_core_of = KDW
 	}
 	provinces={
-		771 2526 2793 2847 5536 10742 10774 10909 
+		771 2526 2847 5536 10742 10774 10909 
 	}
 	manpower=1
 	state_category = town

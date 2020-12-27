@@ -6,7 +6,7 @@ state={
 		add_core_of = CRY
 	}
 	provinces={
-		4604 11078 11109 11143 10929
+		11078 11109 11143 10929 7123 10594 658 4342 7855 2793
 	}
 	manpower=20000000
 	state_category = megalopolis
