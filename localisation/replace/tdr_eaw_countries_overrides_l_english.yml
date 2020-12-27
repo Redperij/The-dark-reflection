@@ -1,0 +1,168 @@
+﻿l_english:
+
+#####################label
+# Equestian company #
+#####################
+EQS_neutrality:0 "Equestria"
+EQS_neutrality_DEF:0 "Equestria"
+EQS_fascism:0 "Equestrian State"
+EQS_fascism_DEF:0 "The Equestrian State"
+EQS_communism:0 "Socialist Republic of Equestria"
+EQS_communism_DEF:0 "The Socialist Republic of Equestria"
+EQS_democratic:0 "Equestria"
+EQS_democratic_DEF:0 "Equestria"
+EQS_fascism_ADJ:0 "Equestrian"
+EQS_democratic_ADJ:0 "Equestrian"
+EQS_neutrality_ADJ:0 "Equestrian"
+EQS_communism_ADJ:0 "Equestrian"
+
+#########################label
+# Former Crystal Empire #
+#########################
+CRY_neutrality:0 ""
+CRY_neutrality_DEF:0 ""
+CRY_fascism:0 "Crystal Empire"
+CRY_fascism_DEF:0 "The Crystal Empire"
+CRY_communism:0 ""
+CRY_communism_DEF:0 ""
+CRY_democratic:0 ""
+CRY_democratic_DEF:0 ""
+CRY_fascism_ADJ:0 "Crystal"
+CRY_democratic_ADJ:0 "Crystal"
+CRY_neutrality_ADJ:0 "Crystal"
+CRY_communism_ADJ:0 "Crystal"
+
+##################label
+# East Equestria #
+##################
+STL_neutrality:0 "Starlight's Town"
+STL_neutrality_DEF:0 "Starlight's Town"
+STL_fascism:0 ""
+STL_fascism_DEF:0 ""
+STL_communism:0 ""
+STL_communism_DEF:0 ""
+STL_democratic:0 ""
+STL_democratic_DEF:0 ""
+STL_fascism_ADJ:0 "Severian"
+STL_democratic_ADJ:0 "Severian"
+STL_neutrality_ADJ:0 "Severian"
+STL_communism_ADJ:0 "Severian"
+
+##################label
+# West Equestria #
+##################
+ANG_neutrality:0 "Angren"
+ANG_neutrality_DEF:0 ""
+ANG_fascism:0 ""
+ANG_fascism_DEF:0 ""
+ANG_communism:0 ""
+ANG_communism_DEF:0 ""
+ANG_democratic:0 ""
+ANG_democratic_DEF:0 ""
+ANG_fascism_ADJ:0 ""
+ANG_democratic_ADJ:0 ""
+ANG_neutrality_ADJ:0 ""
+ANG_communism_ADJ:0 ""
+
+##############label
+# South-East #
+##############
+BAL_neutrality:0 "Kingdom of Baltimare"
+BAL_neutrality_DEF:0 "Kingdom of Baltimare"
+BAL_fascism:0 "Baltimare Governorate"
+BAL_fascism_DEF:0 "The Governorate of Baltimare"
+BAL_communism:0 "Baltimare Republic"
+BAL_communism_DEF:0 "The Workers' Republic of Baltimare"
+BAL_democratic:0 "Baltimare Region"
+BAL_democratic_DEF:0 "The Baltimare Region"
+BAL_fascism_ADJ:0 "Baltimarean"
+BAL_democratic_ADJ:0 "Baltimarean"
+BAL_neutrality_ADJ:0 "Baltimarean"
+BAL_communism_ADJ:0 "Baltimarean"
+
+DRG_neutrality:0 "Dragon Empire"
+DRG_neutrality_DEF:0 "Dragon Empire"
+DRG_fascism:0 "Dragon Empire"
+DRG_fascism_DEF:0 "The Dragon Empire"
+DRG_communism:0 "Union of Dragon Communes"
+DRG_communism_DEF:0 "The Union of Dragon Communes"
+DRG_democratic:0 "United Dragon Isles"
+DRG_democratic_DEF:0 "The United Dragon Isles"
+DRG_fascism_ADJ:0 "Draconian"
+DRG_democratic_ADJ:0 "Draconian"
+DRG_neutrality_ADJ:0 "Draconian"
+DRG_communism_ADJ:0 "Draconian"
+
+##############label
+# North-West #
+##############
+OLE_neutrality:0 "Olengaard"
+OLE_neutrality_DEF:0 ""
+OLE_fascism:0 ""
+OLE_fascism_DEF:0 ""
+OLE_communism:0 ""
+OLE_communism_DEF:0 ""
+OLE_democratic:0 ""
+OLE_democratic_DEF:0 ""
+OLE_fascism_ADJ:0 ""
+OLE_democratic_ADJ:0 ""
+OLE_neutrality_ADJ:0 ""
+OLE_communism_ADJ:0 ""
+
+#########label
+# North #
+#########
+YAK_neutrality:0 ""
+YAK_neutrality_DEF:0 ""
+YAK_fascism:0 ""
+YAK_fascism_DEF:0 ""
+YAK_communism:0 ""
+YAK_communism_DEF:0 ""
+YAK_democratic:0 "Crossmountain Republic"
+YAK_democratic_DEF:0 "The Crossmountain Republic"
+YAK_fascism_ADJ:0 "Yak"
+YAK_democratic_ADJ:0 "Yak"
+YAK_neutrality_ADJ:0 "Yak"
+YAK_communism_ADJ:0 "Yak"
+
+PNG_neutrality:0 "Pingland"
+PNG_neutrality_DEF:0 "Kingdom of Pingland"
+PNG_fascism:0 "Pingland"
+PNG_fascism_DEF:0 ""
+PNG_communism:0 "Pingland"
+PNG_communism_DEF:0 ""
+PNG_democratic:0 "Pingland Republic"
+PNG_democratic_DEF:0 "Pingland Republic"
+PNG_fascism_ADJ:0 "Penguin"
+PNG_democratic_ADJ:0 "Penguin"
+PNG_neutrality_ADJ:0 "Penguin"
+PNG_communism_ADJ:0 "Penguin"
+
+#########################label
+# Former Nova Griffonia #
+#########################
+GRF_neutrality:0 "Monarchist Restoration Front"
+GRF_neutrality_DEF:0 "Monarchist Restoration Front"
+GRF_fascism:0 "Nova Griffonia"
+GRF_fascism_DEF:0 "Nova Griffonian Dictatorship"
+GRF_communism:0 "Griffonian Liberation Front"
+GRF_communism_DEF:0 "Griffonian Liberation Front"
+GRF_democratic:0 ""
+GRF_democratic_DEF:0 ""
+GRF_fascism_ADJ:0 "Griffonian"
+GRF_democratic_ADJ:0 "Griffonian"
+GRF_neutrality_ADJ:0 "Griffonian"
+GRF_communism_ADJ:0 "Griffonian"
+
+GFF_neutrality:0 "Frontier"
+GFF_neutrality_DEF:0 "Griffonian Frontier"
+GFF_fascism:0 "Frontier"
+GFF_fascism_DEF:0 ""
+GFF_communism:0 "Frontier"
+GFF_communism_DEF:0 ""
+GFF_democratic:0 "Frontier"
+GFF_democratic_DEF:0 ""
+GFF_fascism_ADJ:0 "Griffonian"
+GFF_democratic_ADJ:0 "Griffonian"
+GFF_neutrality_ADJ:0 "Griffonian"
+GFF_communism_ADJ:0 "Griffonian"
