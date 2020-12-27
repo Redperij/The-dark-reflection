@@ -423,3 +423,23 @@ THO = {
 	color = rgb { 117 13 92 }
 	color_ui = rgb { 255 255 197 }
 }
+
+TTT = {
+	color = rgb { 24 17 18 }
+	color_ui = rgb { 24 17 18 }
+}
+
+WET = {
+	color = rgb { 200 216 227 }
+	color_ui = rgb { 200 216 227 }
+}
+
+MRF = {
+	color = rgb { 246 115 11 }
+	color_ui = rgb { 246 115 11 }
+}
+
+TRS = {
+	color = rgb { 159 131 97 }
+	color_ui = rgb { 159 131 97 }
+}

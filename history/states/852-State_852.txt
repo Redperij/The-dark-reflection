@@ -2,13 +2,13 @@ state={
 	id=852
 	name="STATE_852"
 	history={
-		owner = TST
-		add_core_of = TST
+		owner = YAK
+		add_core_of = YAK
 	}
 	provinces={
 		7866 7945 7974 8019 
 	}
 	manpower=1
-	state_category = town
+	state_category = wasteland
 	buildings_max_level_factor=1.000
 }

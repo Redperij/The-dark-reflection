@@ -4,9 +4,8 @@ state={
 	name="STATE_844"
 
 	history={
-		owner = TST
-		add_core_of = TST
-
+		owner = YAK
+		add_core_of = YAK
 	}
 
 	provinces={
