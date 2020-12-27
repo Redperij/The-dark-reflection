@@ -6,7 +6,7 @@ state={
 		add_core_of = TST
 	}
 	provinces={
-		2714 4926 7687 7750 7802 7839 7918 7962 
+		2714 4926 7687 7750 7802 7918 7962 
 	}
 	manpower=1
 	state_category = town
