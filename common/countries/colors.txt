@@ -1,8 +1,3 @@
-TST = {
-	color = rgb { 50 50 50 }
-	color_ui = rgb { 50 50 50 }
-}
-
 D01 = {
 	color = rgb { 122 179 97 }
 	color_ui = rgb { 159 233 126 }
@@ -500,7 +495,39 @@ PNR = {
 	color_ui = rgb { 100 199 255 }
 }
 
+AMN = {
+	color = rgb { 221 221 248 }
+	color_ui = rgb { 221 221 248 }
+}
+
+ALC = {
+	color = rgb { 237 237 34 }
+	color_ui = rgb { 237 237 34 }
+}
+
 DMD = {
 	color = rgb { 124 124 124 }
 	color_ui = rgb { 124 124 124 }
+}
+
+MOR = {
+	color = rgb { 96 59 34 }
+	color_ui = rgb { 96 59 34 }
+}
+
+# Not actual countries
+
+TST = {
+	color = rgb { 50 50 50 }
+	color_ui = rgb { 50 50 50 }
+}
+
+WLD = {
+	color = rgb { 33 93 38 }
+	color_ui = rgb { 33 93 38 }
+}
+
+WST = {
+	color = rgb { 67 67 67 }
+	color_ui = rgb { 67 67 67 }
 }

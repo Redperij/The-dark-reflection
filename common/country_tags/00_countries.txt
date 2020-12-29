@@ -1,4 +1,3 @@
-TST = "countries/Test.txt"
 EQS = "countries/Equestria.txt"
 WHN = "countries/Whinnyapolis.txt"
 WES = "countries/WestEquestrianShore.txt"
@@ -60,3 +59,10 @@ DMD = "countries/Diamondia.txt"
 PLV = "countries/PlumeVille.txt"
 LDC = "countries/Luderclaw.txt"
 ALH = "countries/Alexhafen.txt"
+ALC = "countries/Alicornia.txt"
+AMN = "countries/Amundsen.txt"
+MOR = "countries/Morien.txt"
+# Not countries
+TST = "countries/Test.txt" # is handling some stuff that is handled by SOL in eaw
+WLD = "countries/Wilderness.txt"
+WST = "countries/Wasteland.txt"

@@ -1,0 +1,65 @@
+﻿capital = 1050
+
+set_research_slots = 3
+
+set_technology = {
+	generic_race = 1
+}
+actually_fix_weapon_techs = yes #THIS HAS TO BE CALLED IN EVERY HISTORY FILE RIGHT AFTER MAIN set_technology!
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "937.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	communism = 0
+	neutrality = 100
+	fascism = 0
+}
+
+create_country_leader = {
+	name = "Wild"
+	desc = ""
+	picture = ""
+	expire = "2000.1.1"
+	ideology = anarchism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Wild"
+	desc = ""
+	picture = ""
+	expire = "2000.1.1"
+	ideology = falangism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Wild"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Wild"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+
+	}
+}
