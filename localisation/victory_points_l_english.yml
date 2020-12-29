@@ -1,17 +1,38 @@
 ﻿l_english:
 #VICTORY_POINTS_:0 ""
- VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
- VICTORY_POINTS_13268:0 "Canterlot Palace"
- VICTORY_POINTS_13257:0 "Canterlot City"
- VICTORY_POINTS_13211:0 "North Canterlot"
- VICTORY_POINTS_13297:0 "South Canterlot"
- #Crystal city
- VICTORY_POINTS_2793:0 "Crystal Castle"
- VICTORY_POINTS_4342:0 "Crystal City"
- VICTORY_POINTS_7123:0 "Crystal City"
- VICTORY_POINTS_10594:0 "Crystal City"
- VICTORY_POINTS_7855:0 "Crystal City"
- VICTORY_POINTS_11109:0 "Crystal City Outskirts"
- VICTORY_POINTS_10929:0 "Crystal City Outskirts"
- VICTORY_POINTS_11078:0 "Crystal City Outskirts"
- VICTORY_POINTS_11143:0 "Crystal City Outskirts"
+VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
+#Canterlot
+VICTORY_POINTS_13268:0 "Canterlot Palace"
+VICTORY_POINTS_13257:0 "Canterlot City"
+VICTORY_POINTS_13211:0 "North Canterlot"
+VICTORY_POINTS_13297:0 "South Canterlot"
+#Crystal city
+VICTORY_POINTS_2793:0 "Crystal Castle"
+VICTORY_POINTS_4342:0 "Crystal City"
+VICTORY_POINTS_7123:0 "Crystal City"
+VICTORY_POINTS_10594:0 "Crystal City"
+VICTORY_POINTS_7855:0 "Crystal City"
+VICTORY_POINTS_11109:0 "Crystal City Outskirts"
+VICTORY_POINTS_10929:0 "Crystal City Outskirts"
+VICTORY_POINTS_11078:0 "Crystal City Outskirts"
+VICTORY_POINTS_11143:0 "Crystal City Outskirts"
+#Hjortland
+VICTORY_POINTS_12458:0 "Hjortland Palace"
+VICTORY_POINTS_5673:0 "East Hjortland"
+VICTORY_POINTS_12494:0 "Hjortland Beacon"
+VICTORY_POINTS_4937:0 "West Hjortland"
+VICTORY_POINTS_12437:0 "North Hjortland"
+VICTORY_POINTS_12592:0 "South Hjortland"
+VICTORY_POINTS_3598:0 "South-West Hjortland"
+#St Petershoof
+VICTORY_POINTS_11373:0 "St. Petershoof"
+
+##############################################
+##############################################
+# Small cities ###############################
+##############################################
+##############################################
+
+# Nova Griffonia
+#VICTORY_POINTS_:0 "Lüderclaw"
+#VICTORY_POINTS_:0 ""

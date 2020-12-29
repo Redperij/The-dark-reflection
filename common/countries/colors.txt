@@ -429,11 +429,6 @@ TTT = {
 	color_ui = rgb { 24 17 18 }
 }
 
-WET = {
-	color = rgb { 200 216 227 }
-	color_ui = rgb { 200 216 227 }
-}
-
 MRF = {
 	color = rgb { 246 115 11 }
 	color_ui = rgb { 246 115 11 }
@@ -467,6 +462,27 @@ GRF = {
 CNC = {
 	color = rgb { 251 255 141 }
 	color_ui = rgb { 251 255 141 }
+}
+
+# Nova Griffonian coalition
+WET = {
+	color = rgb { 200 216 227 }
+	color_ui = rgb { 200 216 227 }
+}
+
+PLV = {
+	color = rgb { 200 216 227 }
+	color_ui = rgb { 200 216 227 }
+}
+
+LDC = {
+	color = rgb { 200 216 227 }
+	color_ui = rgb { 200 216 227 }
+}
+
+ALH = {
+	color = rgb { 200 216 227 }
+	color_ui = rgb { 200 216 227 }
 }
 
 BFJ = {

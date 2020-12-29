@@ -1,14 +1,18 @@
+
 state={
 	id=1286
 	name="STATE_1286"
+
 	history={
 		owner = GRF
 		add_core_of = GRF
+
 	}
+
 	provinces={
-		1875 1925 4774 5200 7862 7956 
+		1107 1875 4774 5103 5200 7862 7936 7956 
 	}
 	manpower=1
-	state_category = rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

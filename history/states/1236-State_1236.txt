@@ -1,14 +1,18 @@
+
 state={
 	id=1236
 	name="STATE_1236"
+
 	history={
 		owner = YAK
 		add_core_of = YAK
+
 	}
+
 	provinces={
-		1187 3529 9231 9318 9367 9406 9414 9437 9469 9476 
+		1187 1205 1483 3529 9231 9318 9367 9406 9414 9437 9469 9476 
 	}
 	manpower=1
-	state_category = pastoral
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

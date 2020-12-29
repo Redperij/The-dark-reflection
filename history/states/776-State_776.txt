@@ -1,14 +1,18 @@
+
 state={
 	id=776
 	name="STATE_776"
+
 	history={
 		owner = SEV
 		add_core_of = SEV
+
 	}
+
 	provinces={
-		811 1370 3055 5168 11104 11182 11385 11481 
+		811 1370 1784 3055 5168 11104 11182 11385 11481 
 	}
 	manpower=6721
-	state_category = rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

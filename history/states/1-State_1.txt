@@ -4,6 +4,28 @@ state={
 	history={
 		owner = OLE
 		add_core_of = OLE
+
+		victory_points = { # East Hjortland
+			5673 20
+		}
+		victory_points = { # South-West Hjortland
+			3598 5
+		}
+		victory_points = { # West Hjortland
+			4937 5
+		}
+		victory_points = { # North Hjortland
+			12437 5
+		}
+		victory_points = { # Hjortland Palace
+			12458 30
+		}
+		victory_points = { # Hjortland Beacon
+			12494 1
+		}
+		victory_points = { # South Hjortland
+			12592 5
+		}		     
 	}
 	provinces={
 		2224 3598 4937 5673 12388 12437 12458 12494 12592 12650 

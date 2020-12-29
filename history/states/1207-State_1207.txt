@@ -1,14 +1,18 @@
+
 state={
 	id=1207
 	name="STATE_1207"
+
 	history={
 		owner = YAK
 		add_core_of = YAK
+
 	}
+
 	provinces={
-		2230 3663 4651 5057 8796 8868 8869 9073 
+		2230 3663 3823 4651 5057 5570 8796 8797 8868 8869 8870 8941 8961 9073 
 	}
 	manpower=1
-	state_category = rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
