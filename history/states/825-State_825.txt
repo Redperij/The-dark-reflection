@@ -1,18 +1,17 @@
+state = {
+	id = 825
+	name = "STATE_825"
 
-state={
-	id=825
-	name="STATE_825"
-
-	history={
+	history = {
 		owner = SEV
 		add_core_of = SEV
-
 	}
 
-	provinces={
-		159 
+	provinces = {
+		159 510 1112 1412 1842 1853 2055 2373 3163 3693 3805 3963 4701 5487 9892 9917 9977 10023 10047 10098 10099 10109 10180 10192 10232 10259 10296 10345 10499 
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=large_town
+	manpower = 0
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	impassable = yes
 }

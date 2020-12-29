@@ -1,18 +1,17 @@
+state = {
+	id = 1199
+	name = "STATE_1199"
 
-state={
-	id=1199
-	name="STATE_1199"
-
-	history={
-		owner = YAK
-		add_core_of = YAK
-
+	history = {
+		owner = LAR
+		add_core_of = LAR
 	}
 
-	provinces={
-		3163 
+	provinces = {
+		1024 1377 1970 2419 3231 3467 3862 3886 3907 4153 9146 9217 9299 9400 9464 9495 9545 9598 9644 9661 9706 9830 9837 9899 9913 9949 9959 9992 
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	impassable = yes
 }
