@@ -608,3 +608,23 @@ WST = {
 	color = rgb { 67 67 67 }
 	color_ui = rgb { 67 67 67 }
 }
+VIE = {
+	color = rgb { 140 179 25 }
+	color_ui = rgb { 67 67 67 }
+}
+CAM = {
+	color = rgb { 226 179 25 }
+	color_ui = rgb { 67 67 67 }
+}
+LAO = {
+	color = rgb { 152 188 25 }
+	color_ui = rgb { 67 67 67 }
+}
+SIA = {
+	color = rgb { 255 228 25 }
+	color_ui = rgb { 67 67 67 }
+}
+DRA = {
+	color = rgb { 255 109 25 }
+	color_ui = rgb { 67 67 67 }
+}
