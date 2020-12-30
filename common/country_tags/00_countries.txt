@@ -62,6 +62,12 @@ ALH = "countries/Alexhafen.txt"
 ALC = "countries/Alicornia.txt"
 AMN = "countries/Amundsen.txt"
 MOR = "countries/Morien.txt"
+HOO = "countries/Hoorornd.txt"
+ANT = "countries/Antax.txt"
+ALB = "countries/Albion.txt"
+PRA = "countries/Prance.txt"
+NGF = "countries/NeighgaraFalls.txt"
+
 # Not countries
 TST = "countries/Test.txt" # is handling some stuff that is handled by SOL in eaw
 WLD = "countries/Wilderness.txt"

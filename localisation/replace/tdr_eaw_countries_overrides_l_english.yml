@@ -48,6 +48,22 @@ STL_democratic_ADJ:0 "Severian"
 STL_neutrality_ADJ:0 "Severian"
 STL_communism_ADJ:0 "Severian"
 
+################################label
+# East Equestria # Confederacy #
+################################
+ALB_neutrality:0 "Albion"
+ALB_neutrality_DEF:0 "Albion"
+ALB_fascism:0 "Albion"
+ALB_fascism_DEF:0 "Albion"
+ALB_communism:0 "Albion"
+ALB_communism_DEF:0 "Albion"
+ALB_democratic:0 "Albion"
+ALB_democratic_DEF:0 "Albion"
+ALB_fascism_ADJ:0 "Albionian"
+ALB_democratic_ADJ:0 "Albionian"
+ALB_neutrality_ADJ:0 "Albionian"
+ALB_communism_ADJ:0 "Albionian"
+
 ##################label
 # West Equestria #
 ##################

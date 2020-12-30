@@ -1,18 +1,16 @@
+state = {
+	id = 538
+	name = "STATE_538"
 
-state={
-	id=538
-	name="STATE_538"
-
-	history={
-		owner = TST
-		add_core_of = TST
-
+	history = {
+		owner = NGF
+		add_core_of = NGF
 	}
 
-	provinces={
+	provinces = {
 		201 1753 11981 12014 12065 12088 12150 
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=town
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = rural
 }

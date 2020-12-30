@@ -220,8 +220,8 @@ DRG = {
 }
 
 BAL = {
-	color = rgb { 34 199 176 }
-	color_ui = rgb { 34 199 176 }
+	color = rgb { 0 192 0 }
+	color_ui = rgb { 0 192 0 }
 }
 
 CRY = {
@@ -513,6 +513,31 @@ DMD = {
 MOR = {
 	color = rgb { 96 59 34 }
 	color_ui = rgb { 96 59 34 }
+}
+
+HOO = {
+	color = rgb { 33 67 67 }
+	color_ui = rgb { 33 67 67 }
+}
+
+ANT = {
+	color = rgb { 34 199 176 }
+	color_ui = rgb { 34 199 176 }
+}
+
+ALB = {
+	color = rgb { 0 235 192 }
+	color_ui = rgb { 0 235 192 }
+}
+
+PRA = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+
+NGF = {
+	color = rgb { 148 165 97 }
+	color_ui = rgb { 148 165 97 }
 }
 
 # Not actual countries

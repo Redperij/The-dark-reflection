@@ -119,6 +119,37 @@ TRS_democratic_ADJ:0 "Trotsylvanian"
 TRS_neutrality_ADJ:0 "Trotsylvanian"
 TRS_communism_ADJ:0 "Trotsylvanian"
 
+NGF_neutrality:0 "Neighgara Falls"
+NGF_neutrality_DEF:0 "Neighgara Falls"
+NGF_fascism:0 "Neighgara Falls"
+NGF_fascism_DEF:0 "Neighgara Falls"
+NGF_communism:0 "Neighgara Falls"
+NGF_communism_DEF:0 "Neighgara Falls"
+NGF_democratic:0 "Neighgara Falls"
+NGF_democratic_DEF:0 "Neighgara Falls"
+NGF_fascism_ADJ:0 "Neighgarian"
+NGF_democratic_ADJ:0 "Neighgarian"
+NGF_neutrality_ADJ:0 "Neighgarian"
+NGF_communism_ADJ:0 "Neighgarian"
+
+################################label
+# East Equestria # Confederacy #
+################################
+PRA_neutrality:0 "Prance"
+PRA_neutrality_DEF:0 "Prance"
+PRA_fascism:0 "Prance"
+PRA_fascism_DEF:0 "Prance"
+PRA_communism:0 "Prance"
+PRA_communism_DEF:0 "Prance"
+PRA_democratic:0 "Prance"
+PRA_democratic_DEF:0 "Prance"
+PRA_fascism_ADJ:0 "Prench"
+PRA_democratic_ADJ:0 "Prench"
+PRA_neutrality_ADJ:0 "Prench"
+PRA_communism_ADJ:0 "Prench"
+
+#ALB in replace/tdr_eaw_countries_overrides_l_english.yml
+
 ##################label
 # West Equestria #
 ##################
@@ -525,6 +556,32 @@ THO_fascism_ADJ:0 ""
 THO_democratic_ADJ:0 ""
 THO_neutrality_ADJ:0 ""
 THO_communism_ADJ:0 ""
+
+HOO_neutrality:0 "Hoorornd"
+HOO_neutrality_DEF:0 "Hoorornd"
+HOO_fascism:0 "Hoorornd"
+HOO_fascism_DEF:0 "Hoorornd"
+HOO_communism:0 "Hoorornd"
+HOO_communism_DEF:0 "Hoorornd"
+HOO_democratic:0 "Hoorornd"
+HOO_democratic_DEF:0 "Hoorornd"
+HOO_fascism_ADJ:0 "Hoororndian"
+HOO_democratic_ADJ:0 "Hoororndian"
+HOO_neutrality_ADJ:0 "Hoororndian"
+HOO_communism_ADJ:0 "Hoororndian"
+
+ANT_neutrality:0 "Antax"
+ANT_neutrality_DEF:0 "Antax"
+ANT_fascism:0 "Antax"
+ANT_fascism_DEF:0 "Antax"
+ANT_communism:0 "Antax"
+ANT_communism_DEF:0 "Antax"
+ANT_democratic:0 "Antax"
+ANT_democratic_DEF:0 "Antax"
+ANT_fascism_ADJ:0 "Antaxian"
+ANT_democratic_ADJ:0 "Antaxian"
+ANT_neutrality_ADJ:0 "Antaxian"
+ANT_communism_ADJ:0 "Antaxian"
 
 #########label
 # North #
