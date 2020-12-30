@@ -2,13 +2,13 @@ state={
 	id=500
 	name="STATE_500"
 	history={
-		owner = TST
-		add_core_of = TST
+		owner = BLS
+		add_core_of = BLS
 	}
 	provinces={
 		2077 5398 12814 
 	}
 	manpower=1
-	state_category = town
+	state_category = large_city
 	buildings_max_level_factor=1.000
 }

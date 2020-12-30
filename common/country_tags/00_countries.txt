@@ -68,6 +68,18 @@ ALB = "countries/Albion.txt"
 PRA = "countries/Prance.txt"
 NGF = "countries/NeighgaraFalls.txt"
 
+#New
+BLS = "countries/Bales.txt"
+MAN = "countries/Manehattan.txt"
+MHT = "countries/Manehatan.txt"
+CNT = "countries/Canterbury.txt"
+NCN = "countries/NorthCanterbury.txt"
+BRI = "countries/Bridlepolis.txt"
+SUM = "countries/Summerfield.txt"
+DPP = "countries/Dappleshore.txt"
+DET = "countries/Detrot.txt"
+STR = "countries/Stratusburg.txt"
+
 # Not countries
 TST = "countries/Test.txt" # is handling some stuff that is handled by SOL in eaw
 WLD = "countries/Wilderness.txt"

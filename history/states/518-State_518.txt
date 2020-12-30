@@ -2,13 +2,13 @@ state={
 	id=518
 	name="STATE_518"
 	history={
-		owner = TST
-		add_core_of = TST
+		owner = BLS
+		add_core_of = BLS
 	}
 	provinces={
 		2126 2326 12717 12730 12757 12779 
 	}
 	manpower=1
-	state_category = town
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

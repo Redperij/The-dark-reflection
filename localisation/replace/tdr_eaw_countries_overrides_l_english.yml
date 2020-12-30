@@ -64,6 +64,32 @@ ALB_democratic_ADJ:0 "Albionian"
 ALB_neutrality_ADJ:0 "Albionian"
 ALB_communism_ADJ:0 "Albionian"
 
+MAN_neutrality:0 "Manehattan"
+MAN_neutrality_DEF:0 "Manehattan"
+MAN_fascism:0 "Manehattan"
+MAN_fascism_DEF:0 "Manehattan"
+MAN_communism:0 "Manehattan"
+MAN_communism_DEF:0 "Manehattan"
+MAN_democratic:0 "Manehattan"
+MAN_democratic_DEF:0 "Manehattan"
+MAN_fascism_ADJ:0 "Manehattan"
+MAN_democratic_ADJ:0 "Manehattan"
+MAN_neutrality_ADJ:0 "Manehattan"
+MAN_communism_ADJ:0 "Manehattan"
+
+BRI_neutrality:0 "Bridlepolis"
+BRI_neutrality_DEF:0 "Bridlepolis"
+BRI_fascism:0 "Bridlepolis"
+BRI_fascism_DEF:0 "Bridlepolis"
+BRI_communism:0 "Bridlepolis"
+BRI_communism_DEF:0 "Bridlepolis"
+BRI_democratic:0 "Bridlepolis"
+BRI_democratic_DEF:0 "Bridlepolis"
+BRI_fascism_ADJ:0 "Bridlepolis"
+BRI_democratic_ADJ:0 "Bridlepolis"
+BRI_neutrality_ADJ:0 "Bridlepolis"
+BRI_communism_ADJ:0 "Bridlepolis"
+
 ##################label
 # West Equestria #
 ##################
