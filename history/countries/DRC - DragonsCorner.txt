@@ -3,7 +3,7 @@
 set_research_slots = 3
 
 set_technology = {
-	pony_race = 1
+	dragon_race = 1
 	melee_weapons = 1
 	melee_weapons1 = 1
 	pre_gw_artillery = 1
@@ -42,7 +42,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Somepony"
+	name = "Somedragon"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
@@ -53,7 +53,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Somepony"
+	name = "Somedragon"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
@@ -64,7 +64,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Somepony"
+	name = "Somedragon"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
