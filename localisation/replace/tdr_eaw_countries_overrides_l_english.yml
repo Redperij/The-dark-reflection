@@ -209,6 +209,19 @@ PNG_democratic_ADJ:0 "Pinglands"
 PNG_neutrality_ADJ:0 "Pinglands"
 PNG_communism_ADJ:0 "Pinglands"
 
+PLB_neutrality:0 "Polar Bear Communities"
+PLB_fascism:0 "Polar Bear Communities"
+PLB_communism:0 "Polar Bear Socialist Communities"
+PLB_democratic:0 "Polar Bear Communities"
+PLB_neutrality_DEF:0 "The Polar Bear Communities"
+PLB_fascism_DEF:0 "The Polar Bear Communities"
+PLB_communism_DEF:0 "The Polar Bear Socialist Communities"
+PLB_democratic_DEF:0 "The Polar Bear Communities"
+PLB_fascism_ADJ:0 "Polar Bear"
+PLB_democratic_ADJ:0 "Polar Bear"
+PLB_neutrality_ADJ:0 "Polar Bear"
+PLB_communism_ADJ:0 "Polar Bear"
+
 #########################label
 # Former Nova Griffonia #
 #########################

@@ -591,6 +591,11 @@ DRC = {
 	color_ui = rgb { 67 67 67 }
 }
 
+PLB = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+
 # Confederacy
 
 MNT = {

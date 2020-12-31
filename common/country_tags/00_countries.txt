@@ -78,6 +78,7 @@ PND = "countries/Ponderosa.txt"
 TRL = "countries/Trotland.txt"
 HFC = "countries/Hoofcity.txt"
 SRH = "countries/SiresHollow.txt"
+PLB = "countries/PolarBears.txt"
 
 #Confederacy
 ALB = "countries/Albion.txt"

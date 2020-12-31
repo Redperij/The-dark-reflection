@@ -563,31 +563,31 @@ TRL_democratic_ADJ:0 "Trotland"
 TRL_neutrality_ADJ:0 "Trotland"
 TRL_communism_ADJ:0 "Trotland"
 
-HFC_neutrality:0 "Hoofcity"
-HFC_neutrality_DEF:0 "Hoofcity"
-HFC_fascism:0 "Hoofcity"
-HFC_fascism_DEF:0 "Hoofcity"
-HFC_communism:0 "Hoofcity"
-HFC_communism_DEF:0 "Hoofcity"
-HFC_democratic:0 "Hoofcity"
-HFC_democratic_DEF:0 "Hoofcity"
-HFC_fascism_ADJ:0 "Hoofcity"
-HFC_democratic_ADJ:0 "Hoofcity"
-HFC_neutrality_ADJ:0 "Hoofcity"
-HFC_communism_ADJ:0 "Hoofcity"
+HFC_neutrality:0 "Hoof City"
+HFC_neutrality_DEF:0 "Hoof City"
+HFC_fascism:0 "Hoof City"
+HFC_fascism_DEF:0 "Hoof City"
+HFC_communism:0 "Hoof City"
+HFC_communism_DEF:0 "Hoof City"
+HFC_democratic:0 "Hoof City"
+HFC_democratic_DEF:0 "Hoof City"
+HFC_fascism_ADJ:0 "Hoof City"
+HFC_democratic_ADJ:0 "Hoof City"
+HFC_neutrality_ADJ:0 "Hoof City"
+HFC_communism_ADJ:0 "Hoof City"
 
-SRH_neutrality:0 "SiresHollow"
-SRH_neutrality_DEF:0 "SiresHollow"
-SRH_fascism:0 "SiresHollow"
-SRH_fascism_DEF:0 "SiresHollow"
-SRH_communism:0 "SiresHollow"
-SRH_communism_DEF:0 "SiresHollow"
-SRH_democratic:0 "SiresHollow"
-SRH_democratic_DEF:0 "SiresHollow"
-SRH_fascism_ADJ:0 "SiresHollow"
-SRH_democratic_ADJ:0 "SiresHollow"
-SRH_neutrality_ADJ:0 "SiresHollow"
-SRH_communism_ADJ:0 "SiresHollow"
+SRH_neutrality:0 "Sire's Hollow"
+SRH_neutrality_DEF:0 "Sire's Hollow"
+SRH_fascism:0 "Sire's Hollow"
+SRH_fascism_DEF:0 "Sire's Hollow"
+SRH_communism:0 "Sire's Hollow"
+SRH_communism_DEF:0 "Sire's Hollow"
+SRH_democratic:0 "Sire's Hollow"
+SRH_democratic_DEF:0 "Sire's Hollow"
+SRH_fascism_ADJ:0 "Sire's Hollow"
+SRH_democratic_ADJ:0 "Sire's Hollow"
+SRH_neutrality_ADJ:0 "Sire's Hollow"
+SRH_communism_ADJ:0 "Sire's Hollow"
 
 ##############label
 # North-West #
@@ -844,7 +844,10 @@ ANT_communism_ADJ:0 "Antaxian"
 #########label
 # North #
 #########
+
 #YAK in replace/tdr_eaw_countries_overrides_l_english.yml
+
+#PLB in replace/tdr_eaw_countries_overrides_l_english.yml
 
 TTT_neutrality:0 ""
 TTT_neutrality_DEF:0 ""
