@@ -36,7 +36,7 @@
 FREN_INF_01 = { 
 	name = "Infantry Division"
 
-	for_countries = { JEB JFT JRR VIN POM FLO }					# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { MRF }					# Includes names for Haiti and French-speaking releasable nations
 
 	# can_use = { always = yes } # don't use at all if all you have is always = yes -> better performance
 
@@ -76,7 +76,7 @@ FREN_INF_01 = {
 FREN_INFB_01 = { 
 	name = "Infantry Brigade"
 
-	for_countries = { JEB JFT JRR VIN POM FLO }					# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { MRF }					# Includes names for Haiti and French-speaking releasable nations
 
 	# can_use = { always = yes } # don't use at all if all you have is always = yes -> better performance
 
@@ -116,7 +116,7 @@ FREN_INFB_01 = {
 FREN_CAV_01 = { 
 	name = "Knight Division"
 
-	for_countries = { JEB JFT JRR VIN POM FLO }					# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { MRF }						# Includes names for Haiti and French-speaking releasable nations
 
 	# can_use = { always = yes } # don't use at all if all you have is always = yes -> better performance
 
@@ -146,7 +146,7 @@ FREN_CAV_01 = {
 FREN_MOT_01 = { 
 	name = "Motorized Division"
 
-	for_countries = { JEB JFT JRR VIN POM FLO }					# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { MRF }						# Includes names for Haiti and French-speaking releasable nations
 
 	# can_use = { always = yes } # don't use at all if all you have is always = yes -> better performance
 
@@ -176,7 +176,7 @@ FREN_MOT_01 = {
 FREN_MEC_01 = { 
 	name = "Mechanized Division"
 
-	for_countries = { JEB JFT JRR VIN POM FLO }					# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { MRF }						# Includes names for Haiti and French-speaking releasable nations
 
 	# can_use = { always = yes } # don't use at all if all you have is always = yes -> better performance
 
@@ -206,7 +206,7 @@ FREN_MEC_01 = {
 FREN_ARM_01 = { 
 	name = "Armored Division"
 
-	for_countries = { JEB JFT JRR VIN POM FLO }					# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { MRF }						# Includes names for Haiti and French-speaking releasable nations
 
 	# can_use = { always = yes } # don't use at all if all you have is always = yes -> better performance
 
@@ -236,7 +236,7 @@ FREN_ARM_01 = {
 FREN_ARM_02 = { 
 	name = "Tank Division"
 
-	for_countries = { JEB JFT JRR VIN POM FLO }					# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { MRF }						# Includes names for Haiti and French-speaking releasable nations
 
 	# can_use = { always = yes } # don't use at all if all you have is always = yes -> better performance
 
@@ -266,7 +266,7 @@ FREN_ARM_02 = {
 FREN_PAR_01 = { 
 	name = "Paratrooper Division"
 
-	for_countries = { JEB JFT JRR VIN POM FLO }					# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { MRF }						# Includes names for Haiti and French-speaking releasable nations
 
 	# can_use = { always = yes } # don't use at all if all you have is always = yes -> better performance
 
@@ -296,7 +296,7 @@ FREN_PAR_01 = {
 FREN_PAR_02 = { 
 	name = "Airborne Division"
 
-	for_countries = { JEB JFT JRR VIN POM FLO }					# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { MRF }						# Includes names for Haiti and French-speaking releasable nations
 
 	# can_use = { always = yes } # don't use at all if all you have is always = yes -> better performance
 
@@ -326,7 +326,7 @@ FREN_PAR_02 = {
 FREN_MAR_01 = { 
 	name = "Marine Division"
 
-	for_countries = { JEB JFT JRR VIN POM FLO }					# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { MRF }						# Includes names for Haiti and French-speaking releasable nations
 
 	# can_use = { always = yes } # don't use at all if all you have is always = yes -> better performance
 
@@ -356,7 +356,7 @@ FREN_MAR_01 = {
 FREN_MNT_01 = { 
 	name = "Mountain Division"
 
-	for_countries = { JEB JFT JRR VIN POM FLO }					# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { MRF }						# Includes names for Haiti and French-speaking releasable nations
 
 	# can_use = { always = yes } # don't use at all if all you have is always = yes -> better performance
 
@@ -386,7 +386,7 @@ FREN_MNT_01 = {
 FREN_GAR_01 = { 
 	name = "Garrison Division"
 
-	for_countries = { JEB JFT JRR VIN POM FLO }					# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { MRF }						# Includes names for Haiti and French-speaking releasable nations
 
 	# can_use = { always = yes } # don't use at all if all you have is always = yes -> better performance
 

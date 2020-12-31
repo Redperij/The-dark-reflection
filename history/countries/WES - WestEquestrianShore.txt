@@ -34,7 +34,7 @@ create_country_leader = {
 	name = "Chrysalis"
 	desc = ""
 	picture = "Chrysalis.tga"
-	expire = "9999.1.1"
+	expire = "5555.1.1"
 	ideology = libertarianism
 	female = yes
 	traits = {
@@ -68,7 +68,7 @@ create_country_leader = {
 	name = "Somepony"
 	desc = ""
 	picture = ""
-	expire = "9999.1.1"
+	expire = "5555.1.1"
 	ideology = liberalism
 	traits = {
 

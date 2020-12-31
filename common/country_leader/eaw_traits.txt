@@ -1793,13 +1793,6 @@ leader_traits = {
 		}
 	}
 
-	FAL_princess = {
-		random = no
-		army_defence_factor = 0.05
-		army_attack_factor = 0.05
-		army_morale_factor = 0.1
-	}
-
 	archlich = {
 		random = no
 
@@ -1811,30 +1804,6 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
-	}
-	
-	WNG_oil_genius = {
-		random = yes
-		production_factory_max_efficiency_factor = 0.05
-		local_resources_factor = 0.05
-		research_speed_factor = 0.03
-
-		ai_will_do = {
-			factor = 2
-        }
-    } 
-  
-	GRI_lord_protector = {
-		random = no
-		war_support_factor = 0.05
-		army_org_factor = 0.05
-		ai_focus_aggressive_factor = 0.4
-	}
-	
-	STW_ambitious_ruler = {
-		political_power_gain = 0.10
-		stability_factor = 0.05
-		drift_defence_factor = 0.05
 	}
 	
 	propaganda_master = {
@@ -2558,22 +2527,6 @@ leader_traits = {
 		political_power_factor = 0.05
 		drift_defence_factor = 0.05
 		mobilization_speed = 0.05
-	}
-	
-	ELF_bits_gun_idea_trait_tooltip = { 
-		random = no 
-	}
-	
-	MAN_dummy_idea_for_continuous_love_tax_sucking_tooltip = { 
-		random = no 
-	}
-	
-	MAN_dummy_idea_for_weekly_immigration_tooltip = { 
-		random = no 
-	}
-	
-	MAN_dummy_idea_for_state_based_migration_tooltip = { 
-		random = no 
 	}
 	
 	landed_noble = {

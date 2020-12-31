@@ -27,6 +27,40 @@ has_super_last_stand = {
 
 #For nicer localization
 
+is_not_EQS_SOL = {
+	custom_trigger_tooltip = {
+		tooltip = is_not_EQS_SOL_tp
+		NOT = { is_EQS_SOL = yes }
+	}
+}
+
+is_not_original_EQS = {
+	custom_trigger_tooltip = {
+		tooltip = is_not_original_EQS_tp
+		NOT = { is_original_EQS = yes }
+	}
+}
+
+is_EQS_SOL = {
+	custom_trigger_tooltip = {
+		tooltip = is_EQS_SOL_tp
+		tag = EQS
+		has_government = fascism
+		has_country_leader = {
+			ruling_only = yes
+			name = "Daybreaker"
+		}
+	}
+}
+
+is_original_EQS = {
+	custom_trigger_tooltip = {
+		tooltip = is_original_EQS_tp
+		original_tag = EQS
+		has_government = democratic
+	}
+}
+
 is_EQS_losing_war_20 = {
 	OR = {
 		surrender_progress > 0.1

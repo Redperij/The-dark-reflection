@@ -84,12 +84,12 @@ entity = {
 
 entity = {
 	name = "SEV_heavy_armor_entity"
-	clone = "STG_heavy_armor_entity"
+	clone = "SOV_heavy_armor_entity"
 }
 
 entity = {
 	name = "SEV_artillery_entity"
-	clone = "STG_artillery_entity"
+	clone = "SOV_artillery_entity"
 
 	attach = { name = infantry			infantry = "STG_vehicle_infantry_rifle_entity" }
 }
