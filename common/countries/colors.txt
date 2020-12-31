@@ -530,6 +530,26 @@ NGF = {
 	color_ui = rgb { 148 165 97 }
 }
 
+LSP = {
+	color = rgb { 165 5 27 }
+	color_ui = rgb { 165 5 27 }
+}
+
+RCV = {
+	color = rgb { 240 17 59 }
+	color_ui = rgb { 240 17 59 }
+}
+
+CEL = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 0 }
+}
+
+FIL = {
+	color = rgb { 255 217 22 }
+	color_ui = rgb { 255 217 22 }
+}
+
 # Confederacy
 
 ALB = {

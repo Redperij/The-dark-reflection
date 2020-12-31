@@ -1,7 +1,7 @@
 ﻿l_english:
 
 #####################label
-# Equestian company #
+# Equestrian company #
 #####################
 #EQS in replace/tdr_eaw_countries_overrides_l_english.yml
 
@@ -13,23 +13,36 @@ WHN_communism:0 ""
 WHN_communism_DEF:0 ""
 WHN_democratic:0 ""
 WHN_democratic_DEF:0 ""
-WHN_fascism_ADJ:0 "Equestian"
-WHN_democratic_ADJ:0 "Equestian"
-WHN_neutrality_ADJ:0 "Equestian"
-WHN_communism_ADJ:0 "Equestian"
+WHN_fascism_ADJ:0 "Equestrian"
+WHN_democratic_ADJ:0 "Equestrian"
+WHN_neutrality_ADJ:0 "Equestrian"
+WHN_communism_ADJ:0 "Equestrian"
 
-WES_neutrality:0 "Western Equestrian Shore"
-WES_neutrality_DEF:0 "Western Equestian Shore"
+WES_neutrality:0 "West Equestrian Shore"
+WES_neutrality_DEF:0 "West Equestrian Shore"
 WES_fascism:0 ""
 WES_fascism_DEF:0 ""
 WES_communism:0 ""
 WES_communism_DEF:0 ""
 WES_democratic:0 ""
 WES_democratic_DEF:0 ""
-WES_fascism_ADJ:0 "Equestian"
-WES_democratic_ADJ:0 "Equestian"
-WES_neutrality_ADJ:0 "Equestian"
-WES_communism_ADJ:0 "Equestian"
+WES_fascism_ADJ:0 "Equestrian"
+WES_democratic_ADJ:0 "Equestrian"
+WES_neutrality_ADJ:0 "Equestrian"
+WES_communism_ADJ:0 "Equestrian"
+
+CEL_neutrality:0 "Celestial state"
+CEL_neutrality_DEF:0 "Celestial state"
+CEL_fascism:0 "Celestial state"
+CEL_fascism_DEF:0 "Celestial state"
+CEL_communism:0 "Celestial state"
+CEL_communism_DEF:0 "Celestial state"
+CEL_democratic:0 "Celestial state"
+CEL_democratic_DEF:0 "Celestial state"
+CEL_fascism_ADJ:0 "Celestian"
+CEL_democratic_ADJ:0 "Celestian"
+CEL_neutrality_ADJ:0 "Celestian"
+CEL_communism_ADJ:0 "Celestian"
 
 #########################label
 # Former Crystal Empire #
@@ -435,9 +448,40 @@ MON_communism_ADJ:0 ""
 ##############label
 # South-East #
 ##############
+FIL_neutrality:0 "Fillydelphia"
+FIL_neutrality_DEF:0 "Fillydelphia"
+FIL_fascism:0 "Fillydelphia"
+FIL_fascism_DEF:0 "Fillydelphia"
+FIL_communism:0 "Fillydelphia"
+FIL_communism_DEF:0 "Fillydelphia"
+FIL_democratic:0 "Fillydelphia"
+FIL_democratic_DEF:0 "Fillydelphia"
+FIL_fascism_ADJ:0 "Fillydelphian"
+FIL_democratic_ADJ:0 "Fillydelphian"
+FIL_neutrality_ADJ:0 "Fillydelphian"
+FIL_communism_ADJ:0 "Fillydelphian"
+
 #BAL in replace/tdr_eaw_countries_overrides_l_english.yml
-#
+
 #DRG in replace/tdr_eaw_countries_overrides_l_english.yml
+
+##############label
+# South-West #
+##############
+RCV_neutrality:0 "Rockville"
+RCV_neutrality_DEF:0 "Rockville"
+RCV_fascism:0 "Rockville"
+RCV_fascism_DEF:0 "Rockville"
+RCV_communism:0 "Rockville"
+RCV_communism_DEF:0 "Rockville"
+RCV_democratic:0 "Rockville"
+RCV_democratic_DEF:0 "Rockville"
+RCV_fascism_ADJ:0 "Rockvillean"
+RCV_democratic_ADJ:0 "Rockvillean"
+RCV_neutrality_ADJ:0 "Rockvillean"
+RCV_communism_ADJ:0 "Rockvillean"
+
+#LSP in replace/tdr_eaw_countries_overrides_l_english.yml
 
 ##############label
 # North-West #
