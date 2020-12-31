@@ -74,6 +74,10 @@ LSP = "countries/LasPegasus.txt"
 RCV = "countries/Rockville.txt"
 CEL = "countries/Celestia.txt"
 FIL = "countries/Fillydelphia.txt"
+PND = "countries/Ponderosa.txt"
+TRL = "countries/Trotland.txt"
+HFC = "countries/Hoofcity.txt"
+SRH = "countries/SiresHollow.txt"
 
 #Confederacy
 ALB = "countries/Albion.txt"
@@ -88,6 +92,11 @@ SUM = "countries/Summerfield.txt"
 DPP = "countries/Dappleshore.txt"
 DET = "countries/Detrot.txt"
 STR = "countries/Stratusburg.txt"
+MNT = "countries/Moontown.txt"
+FRV = "countries/Fairville.txt"
+HRF = "countries/Hornfield.txt"
+GLP = "countries/Gallopolis.txt"
+ZAR = "countries/Zarechje.txt"
 
 # Not countries
 TST = "countries/Test.txt" # is handling some stuff that is handled by SOL in eaw

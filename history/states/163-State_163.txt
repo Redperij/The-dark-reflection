@@ -1,18 +1,15 @@
-
 state={
 	id=163
 	name="STATE_163"
 
 	history={
-		owner = TST
-		add_core_of = TST
-
+		owner = SRH
+		add_core_of = SRH
 	}
-
 	provinces={
 		3633 4927 5581 14146 14165 14187 14230 14238 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category = large_town
 }

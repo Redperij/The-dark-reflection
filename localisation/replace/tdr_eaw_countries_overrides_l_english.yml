@@ -90,6 +90,19 @@ BRI_democratic_ADJ:0 "Bridlepolis"
 BRI_neutrality_ADJ:0 "Bridlepolis"
 BRI_communism_ADJ:0 "Bridlepolis"
 
+MNT_neutrality:0 "Moontown"
+MNT_neutrality_DEF:0 "Moontown"
+MNT_fascism:0 "Moontown"
+MNT_fascism_DEF:0 "Moontown"
+MNT_communism:0 "Moontown"
+MNT_communism_DEF:0 "Moontown"
+MNT_democratic:0 "Moontown"
+MNT_democratic_DEF:0 "Moontown"
+MNT_fascism_ADJ:0 "Moontown"
+MNT_democratic_ADJ:0 "Moontown"
+MNT_neutrality_ADJ:0 "Moontown"
+MNT_communism_ADJ:0 "Moontown"
+
 ##################label
 # West Equestria #
 ##################

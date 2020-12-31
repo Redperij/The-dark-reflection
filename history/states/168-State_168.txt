@@ -2,13 +2,13 @@ state={
 	id=168
 	name="STATE_168"
 	history={
-		owner = TST
-		add_core_of = TST
+		owner = HFC
+		add_core_of = HFC
 	}
 	provinces={
 		393 2855 3233 4733 5040 13806 13811 13831 13871 13902 
 	}
 	manpower=1
-	state_category = town
+	state_category = pastoral
 	buildings_max_level_factor=1.000
 }
