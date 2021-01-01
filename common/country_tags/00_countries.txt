@@ -79,9 +79,6 @@ TRL = "countries/Trotland.txt"
 HFC = "countries/Hoofcity.txt"
 SRH = "countries/SiresHollow.txt"
 PLB = "countries/PolarBears.txt"
-CHI = "countries/Chicoltgo.txt"
-TTL = "countries/TailTale.txt"
-FRM = "countries/Foallerminster.txt"
 
 #Confederacy
 ALB = "countries/Albion.txt"
@@ -101,6 +98,9 @@ FRV = "countries/Fairville.txt"
 HRF = "countries/Hornfield.txt"
 GLP = "countries/Gallopolis.txt"
 ZAR = "countries/Zarechje.txt"
+CHI = "countries/Chicoltgo.txt"
+TTL = "countries/TailTale.txt"
+FRM = "countries/Foallerminster.txt"
 
 # Not countries
 TST = "countries/Test.txt" # is handling some stuff that is handled by SOL in eaw
