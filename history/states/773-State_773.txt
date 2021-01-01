@@ -4,6 +4,10 @@ state={
 	history={
 		owner = SEV
 		add_core_of = SEV
+
+		victory_points = {
+			11299 5
+		}
 	}
 	provinces={
 		4520 11200 11273 11299 11369 

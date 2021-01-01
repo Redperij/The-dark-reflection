@@ -1,4 +1,3 @@
-
 state={
 	id=804
 	name="STATE_804"
@@ -6,6 +5,16 @@ state={
 	history={
 		owner = SEV
 		add_core_of = SEV
+		
+		victory_points = {
+			10297 5
+		}
+		victory_points = {
+			79 5
+		}
+		victory_points = {
+			10315 20
+		}
 
 	}
 
@@ -14,5 +23,5 @@ state={
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category = city
 }

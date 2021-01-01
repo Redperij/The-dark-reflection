@@ -23,6 +23,14 @@ bookmarks = {
 			history = ""
 			ideology = neutrality
 		}
+		"CEL"={
+			history = ""
+			ideology = neutrality
+		}
+		"DRG"={
+			history = ""
+			ideology = neutrality
+		}
 		"TST"={
 			history = ""
 			ideology = democratic

@@ -1,11 +1,20 @@
 ﻿l_english:
-#VICTORY_POINTS_:0 ""
 VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
+
+#######################################################################
+# Equestria ###########################################################
+#######################################################################
 #Canterlot
 VICTORY_POINTS_13268:0 "Canterlot Palace"
 VICTORY_POINTS_13257:0 "Canterlot City"
 VICTORY_POINTS_13211:0 "North Canterlot"
 VICTORY_POINTS_13297:0 "South Canterlot"
+
+# other cities
+
+#######################################################################
+# Crystal Empire ######################################################
+#######################################################################
 #Crystal city
 VICTORY_POINTS_2793:0 "Crystal Castle"
 VICTORY_POINTS_4342:0 "Crystal City"
@@ -16,6 +25,12 @@ VICTORY_POINTS_11109:0 "Crystal City Outskirts"
 VICTORY_POINTS_10929:0 "Crystal City Outskirts"
 VICTORY_POINTS_11078:0 "Crystal City Outskirts"
 VICTORY_POINTS_11143:0 "Crystal City Outskirts"
+
+# other cities
+
+#######################################################################
+# Olenia ##############################################################
+#######################################################################
 #Hjortland
 VICTORY_POINTS_12458:0 "Hjortland Palace"
 VICTORY_POINTS_5673:0 "East Hjortland"
@@ -24,15 +39,71 @@ VICTORY_POINTS_4937:0 "West Hjortland"
 VICTORY_POINTS_12437:0 "North Hjortland"
 VICTORY_POINTS_12592:0 "South Hjortland"
 VICTORY_POINTS_3598:0 "South-West Hjortland"
-#St Petershoof
+
+#######################################################################
+# SEVERIANA ###########################################################
+#######################################################################
+# St. Petershoof
 VICTORY_POINTS_11373:0 "St. Petershoof"
 
-##############################################
-##############################################
-# Small cities ###############################
-##############################################
-##############################################
+# Ravenskoye
+VICTORY_POINTS_10479:0 "Ravensky Port"
+VICTORY_POINTS_10618:0 "Ravenskoye"
+VICTORY_POINTS_5610:0 "West Ravenskoye"
 
-# Nova Griffonia
+# Severgrad
+VICTORY_POINTS_10796:0 "Severgrad"
+VICTORY_POINTS_4925:0 "East Severgrad"
+VICTORY_POINTS_10745:0 "West Severgrad"
+
+# Zayatsk
+VICTORY_POINTS_10297:0 "Zayatsk Mines"
+VICTORY_POINTS_79:0 "South Zayatsk"
+VICTORY_POINTS_10315:0 "Zayatsk"
+
+# other cities
+VICTORY_POINTS_3264:0 "Stavropon"
+VICTORY_POINTS_11254:0 "North Severokholm"
+VICTORY_POINTS_4599:0 "South Severokholm"
+VICTORY_POINTS_11624:0 "Krasnoye Serdtse"
+VICTORY_POINTS_25:0 "Somland"
+VICTORY_POINTS_12244:0 "12244"
+VICTORY_POINTS_11984:0 "Mirazh"
+VICTORY_POINTS_12129:0 "12129"
+VICTORY_POINTS_199:0 "Bordo"
+VICTORY_POINTS_12120:0 "Kobilkyno"
+VICTORY_POINTS_4369:0 "4369"
+VICTORY_POINTS_11883:0 "Baical"
+VICTORY_POINTS_394:0 "394"
+VICTORY_POINTS_11299:0 "11299"
+VICTORY_POINTS_11638:0 "Novochernushsk"
+VICTORY_POINTS_4725:0 "East Novochernushsk"
+VICTORY_POINTS_5132:0 "West Krupochkino"
+VICTORY_POINTS_5346:0 "East Krupochkino"
+VICTORY_POINTS_3549:0 "3549"
+VICTORY_POINTS_11338:0 "11338"
+VICTORY_POINTS_2970:0 "2970"
+VICTORY_POINTS_1768:0 "1768"
+VICTORY_POINTS_4808:0 "4808"
+VICTORY_POINTS_10895:0 "West Trottingham"
+VICTORY_POINTS_10896:0 "East Trottingham"
+VICTORY_POINTS_10676:0 "Sladkiy"
+VICTORY_POINTS_3216:0 "Konzan"
+VICTORY_POINTS_10674:0 "10674"
+VICTORY_POINTS_2108:0 "2108"
+VICTORY_POINTS_4:0 "4"
+VICTORY_POINTS_11011:0 "11011"
+VICTORY_POINTS_10696:0 "St. Altidiysk"
+VICTORY_POINTS_2895:0 "2895"
+VICTORY_POINTS_9805:0 "Heringsdorf"
+VICTORY_POINTS_9849:0 "Town Up North"
+VICTORY_POINTS_9978:0 "Novocrystal'sk"
+
+#######################################################################
+# Nova Griffonia ######################################################
+#######################################################################
+# Weter
+
+
 #VICTORY_POINTS_:0 "Lüderclaw"
 #VICTORY_POINTS_:0 ""

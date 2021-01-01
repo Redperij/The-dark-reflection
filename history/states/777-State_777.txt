@@ -6,7 +6,7 @@ state={
 		add_core_of = SEV
 
 		victory_points = {
-			11373 35
+			11373 20
 		}
 		buildings = {
 			infrastructure = 8
