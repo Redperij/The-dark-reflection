@@ -2,13 +2,13 @@ state={
 	id=222
 	name="STATE_222"
 	history={
-		owner = TST
-		add_core_of = TST
+		owner = MLM
+		add_core_of = MLM
 	}
 	provinces={
 		829 1985 2017 3592 4615 5560 5645 14852 14863 14872 14886 14897 14939 
 	}
 	manpower=1
-	state_category = town
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

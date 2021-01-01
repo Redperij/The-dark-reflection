@@ -80,6 +80,23 @@ HFC = "countries/Hoofcity.txt"
 SRH = "countries/SiresHollow.txt"
 PLB = "countries/PolarBears.txt"
 
+#NEW
+
+CLL = "countries/Coltlanta.txt"
+PNT = "countries/Ponyton.txt"
+BCH = "countries/Buckhill.txt"
+JSU = "countries/JamSeedUnion.txt"
+CHR = "countries/Cherello.txt"
+FLD = "countries/Foaledo.txt"
+APP = "countries/Applino.txt"
+HST = "countries/Haystin.txt"
+TRT = "countries/Trotgaron.txt"
+CAN = "countries/Canter.txt"
+APL = "countries/Appleloosa.txt"
+SCI = "countries/SanCiliegia.txt"
+MLM = "countries/Melamuzza.txt"
+MRP = "countries/Marepolis.txt"
+
 #Confederacy
 ALB = "countries/Albion.txt"
 PRA = "countries/Prance.txt"

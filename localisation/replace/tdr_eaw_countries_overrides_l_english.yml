@@ -177,6 +177,19 @@ LSP_democratic_ADJ:0 "Las Pegasusian"
 LSP_neutrality_ADJ:0 "Las Pegasusian"
 LSP_communism_ADJ:0 "Las Pegasusian"
 
+CAN_neutrality:0 "Canter's Confederation"
+CAN_neutrality_DEF:0 "Canter's Confederation"
+CAN_fascism:0 "Canter's Confederation"
+CAN_fascism_DEF:0 "Canter's Confederation"
+CAN_communism:0 "Canter's Confederation"
+CAN_communism_DEF:0 "Canter's Confederation"
+CAN_democratic:0 "Canter's Confederation"
+CAN_democratic_DEF:0 "Canter's Confederation"
+CAN_fascism_ADJ:0 "Canter's Confederation"
+CAN_democratic_ADJ:0 "Canter's Confederation"
+CAN_neutrality_ADJ:0 "Canter's Confederation"
+CAN_communism_ADJ:0 "Canter's Confederation"
+
 ##############label
 # North-West #
 ##############

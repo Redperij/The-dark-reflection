@@ -595,9 +595,79 @@ PLB = {
 	color = rgb { 255 255 255 }
 	color_ui = rgb { 255 255 255 }
 }
-
-# Confederacy
-
+#Coltlanta
+CLL = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+#Ponyton
+PNT = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+#Buckhill
+BCH = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+#JamSeedUnion
+JSU = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+#Cherello
+CHR = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+#Foaledo
+FLD = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+#Applino
+APP = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+#Haystin
+HST = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+#Trotgaron
+TRT = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+#Canter
+CAN = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+#Appleloosa
+APL = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+#SanCiliegia
+SCI = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+#Melamuzza
+MLM = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+#Marepolis
+MRP = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+###############
+# Confederacy #
+###############
 MNT = {
 	color = rgb { 0 235 156 }
 	color_ui = rgb { 0 235 156 }
@@ -697,9 +767,9 @@ STR = {
 	color = rgb { 0 235 156 }
 	color_ui = rgb { 0 235 156 }
 }
-
-# Not actual countries
-
+########################
+# Not actual countries #
+########################
 TST = {
 	color = rgb { 50 50 50 }
 	color_ui = rgb { 50 50 50 }
