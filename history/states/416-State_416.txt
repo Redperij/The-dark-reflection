@@ -2,13 +2,20 @@ state={
 	id=416
 	name="STATE_416"
 	history={
-		owner = TST
-		add_core_of = TST
+		owner = CHI
+		add_core_of = CHI
+
+		victory_points = {
+			13510 20 
+		}
+		victory_points = {
+			3917 5
+		}
 	}
 	provinces={
 		3917 13510 
 	}
 	manpower=1
-	state_category = town
+	state_category = city
 	buildings_max_level_factor=1.000
 }

@@ -42,9 +42,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Somepony"
+	name = "Celestia"
 	desc = ""
-	picture = ""
+	picture = "Celestia.tga"
 	expire = "2000.1.1"
 	ideology = neofeudalism
 	traits = {

@@ -1,4 +1,4 @@
-﻿capital = 450
+﻿capital = 493
 
 set_research_slots = 3
 
@@ -64,9 +64,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gladmane"
+	name = "Somepony"
 	desc = ""
-	picture = "Gladmane.tga"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {

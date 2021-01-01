@@ -643,6 +643,21 @@ MAN = {
 	color_ui = rgb { 0 235 156 }
 }
 
+CHI = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+
+TTL = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+
+FRM = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+
 MHT = {
 	color = rgb { 0 235 156 }
 	color_ui = rgb { 0 235 156 }

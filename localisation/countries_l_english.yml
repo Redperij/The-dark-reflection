@@ -178,6 +178,34 @@ BLS_communism_ADJ:0 "Bales"
 
 #MAN in replace/tdr_eaw_countries_overrides_l_english.yml
 
+#CHI in replace/tdr_eaw_countries_overrides_l_english.yml
+
+TTL_neutrality:0 "Tail Tale"
+TTL_neutrality_DEF:0 "Tail Tale"
+TTL_fascism:0 "Tail Tale"
+TTL_fascism_DEF:0 "Tail Tale"
+TTL_communism:0 "Tail Tale"
+TTL_communism_DEF:0 "Tail Tale"
+TTL_democratic:0 "Tail Tale"
+TTL_democratic_DEF:0 "Tail Tale"
+TTL_fascism_ADJ:0 "Tail Tale"
+TTL_democratic_ADJ:0 "Tail Tale"
+TTL_neutrality_ADJ:0 "Tail Tale"
+TTL_communism_ADJ:0 "Tail Tale"
+
+FRM_neutrality:0 "Foallerminster"
+FRM_neutrality_DEF:0 "Foallerminster"
+FRM_fascism:0 "Foallerminster"
+FRM_fascism_DEF:0 "Foallerminster"
+FRM_communism:0 "Foallerminster"
+FRM_communism_DEF:0 "Foallerminster"
+FRM_democratic:0 "Foallerminster"
+FRM_democratic_DEF:0 "Foallerminster"
+FRM_fascism_ADJ:0 "Foallerminster"
+FRM_democratic_ADJ:0 "Foallerminster"
+FRM_neutrality_ADJ:0 "Foallerminster"
+FRM_communism_ADJ:0 "Foallerminster"
+
 MHT_neutrality:0 "Manehatan"
 MHT_neutrality_DEF:0 "Manehatan"
 MHT_fascism:0 "Manehatan"
