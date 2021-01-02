@@ -10,7 +10,7 @@ VICTORY_POINTS_13257:0 "Canterlot City"
 VICTORY_POINTS_13211:0 "North Canterlot"
 VICTORY_POINTS_13297:0 "South Canterlot"
 
-# other cities
+# Other cities
 
 #######################################################################
 # Crystal Empire ######################################################
@@ -26,7 +26,7 @@ VICTORY_POINTS_10929:0 "Crystal City Outskirts"
 VICTORY_POINTS_11078:0 "Crystal City Outskirts"
 VICTORY_POINTS_11143:0 "Crystal City Outskirts"
 
-# other cities
+# Other cities
 
 #######################################################################
 # Olenia ##############################################################
@@ -40,8 +40,10 @@ VICTORY_POINTS_12437:0 "North Hjortland"
 VICTORY_POINTS_12592:0 "South Hjortland"
 VICTORY_POINTS_3598:0 "South-West Hjortland"
 
+# Other cities
+
 #######################################################################
-# SEVERIANA ###########################################################
+# Severiana ###########################################################
 #######################################################################
 # St. Petershoof
 VICTORY_POINTS_11373:0 "St. Petershoof"
@@ -61,7 +63,7 @@ VICTORY_POINTS_10297:0 "Zayatsk Mines"
 VICTORY_POINTS_79:0 "South Zayatsk"
 VICTORY_POINTS_10315:0 "Zayatsk"
 
-# other cities
+# Other cities
 VICTORY_POINTS_3264:0 "Stavropon"
 VICTORY_POINTS_11254:0 "North Severokholm"
 VICTORY_POINTS_4599:0 "South Severokholm"
@@ -110,6 +112,7 @@ VICTORY_POINTS_3917:0 "West Chicoltgo"
 #######################################################################
 # Weter
 
+# Other cities
 
 #VICTORY_POINTS_:0 "Lüderclaw"
 #VICTORY_POINTS_:0 ""

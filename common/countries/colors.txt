@@ -1,3 +1,617 @@
+##################################################################################################################################
+# Equestrian company #
+# Equestria
+EQS = {
+	color = rgb { 42 28 147 }
+	color_ui = rgb { 42 28 147 }
+} 
+# Whinnyapolis
+WHN = {
+	color = rgb { 42 28 230 }
+	color_ui = rgb { 42 28 230 }
+}
+# WestEquestrianShore
+WES = {
+	color = rgb { 30 17 86 }
+	color_ui = rgb { 30 17 86 }
+}
+# Celestia
+CEL = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 0 }
+}
+##################################################################################################################################
+# Former Crystal Empire #
+# CrystalEmpire
+CRY = {
+	color = rgb { 124 0 221 }
+	color_ui = rgb { 124 0 221 }
+}
+# Aedirn
+AED = {
+	color = rgb { 255 153 51 }
+	color_ui = rgb { 255 255 197 }
+}
+# Kaedwen
+KDW = {
+	color = rgb { 128 204 51 }
+	color_ui = rgb { 255 255 197 }
+}
+# Lyria and Rivia
+LAR = {
+	color = rgb { 255 191 0 }
+	color_ui = rgb { 255 255 197 }
+}
+# Dol Blathanna
+DOL = {
+	color = rgb { 51 204 51 }
+	color_ui = rgb { 255 255 197 }
+}
+##################
+# East Equestria #
+# Severiana
+SEV = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+# StarlightTown
+STL = {
+	color = rgb { 255 255 197 }
+	color_ui = rgb { 255 255 197 }
+}
+# Trotsylvania
+TRS = {
+	color = rgb { 159 131 97 }
+	color_ui = rgb { 159 131 97 }
+}
+# NeighgaraFalls
+NGF = {
+	color = rgb { 148 165 97 }
+	color_ui = rgb { 148 165 97 }
+}
+##################################################################################################################################
+# East Equestria # Confederacy #
+# Prance
+PRA = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# Albion
+ALB = {
+	color = rgb { 0 235 192 }
+	color_ui = rgb { 0 235 192 }
+}
+# Bales
+BLS = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# Manehattan
+MAN = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# Chicoltgo
+CHI = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# TailTale
+TTL = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# Foallerminster
+FRM = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# Manehatan
+MHT = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# Canterbury
+CNT = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# NorthCanterbury
+NCN = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# Bridlepolis
+BRI = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# Summerfield
+SUM = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# Dappleshore
+DPP = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# Detrot
+DET = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# Stratusburg
+STR = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# Moontown
+MNT = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# FRV - Fairville
+FRV = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# HRF - Hornfield
+HRF = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# Gallopolis
+GLP = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+# Zarechje
+ZAR = {
+	color = rgb { 0 235 156 }
+	color_ui = rgb { 0 235 156 }
+}
+##################################################################################################################################
+# West Equestria #
+# Angren
+ANG = {
+	color = rgb { 39 45 7 }
+	color_ui = rgb { 255 255 197 }
+}
+# Verden
+VRD = {
+	color = rgb { 39 45 7 }
+	color_ui = rgb { 255 255 197 }
+}
+# Bremervoord
+BRM = {
+	color = rgb { 204 89 51 }
+	color_ui = rgb { 255 255 197 }
+}
+# Kerack
+KER = {
+	color = rgb { 153 102 51 }
+	color_ui = rgb { 255 255 197 }
+}
+# Temeria
+TEM = {
+	color = rgb { 11 3 102 }
+	color_ui = rgb { 255 255 197 }
+}
+# Sodden
+SOD = {
+	color = rgb { 1 93 218 }
+	color_ui = rgb { 255 255 197 }
+}
+# Redania
+RED = {
+	color = rgb { 183 0 0 }
+	color_ui = rgb { 255 255 197 }
+}
+# Mahakam
+MHK = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 197 }
+}
+# Cidaris
+CID = {
+	color = rgb { 204 89 51 }
+	color_ui = rgb { 255 255 197 }
+}
+# Brugge
+BRG = {
+	color = rgb { 31 185 99 }
+	color_ui = rgb { 255 255 197 }
+}
+# Ellander
+ELD = {
+	color = rgb { 11 3 102 }
+	color_ui = rgb { 255 255 197 }
+}
+# Carreras
+CAR = {
+	color = rgb { 11 3 102 }
+	color_ui = rgb { 255 255 197 }
+}
+# Drakenborg
+DRA = {
+	color = rgb { 183 0 0 }
+	color_ui = rgb { 255 255 197 }
+}
+# Montecalvo
+MON = {
+	color = rgb { 183 0 0 }
+	color_ui = rgb { 255 255 197 }
+}
+##################################################################################################################################
+# South-East #
+# Fillydelphia
+FIL = {
+	color = rgb { 255 217 22 }
+	color_ui = rgb { 255 217 22 }
+}
+# Dragon
+DRG = {
+	color = rgb { 217 217 217 }
+	color_ui = rgb { 217 217 217 }
+}
+# Baltimare
+BAL = {
+	color = rgb { 0 192 0 }
+	color_ui = rgb { 0 192 0 }
+}
+# Vietnam
+VIE = {
+	color = rgb { 140 179 25 }
+	color_ui = rgb { 67 67 67 }
+}
+# Cambodia
+CAM = {
+	color = rgb { 226 179 25 }
+	color_ui = rgb { 67 67 67 }
+}
+# Laos
+LAO = {
+	color = rgb { 152 188 25 }
+	color_ui = rgb { 67 67 67 }
+}
+# Siam
+SIA = {
+	color = rgb { 255 228 25 }
+	color_ui = rgb { 67 67 67 }
+}
+# DragonsCorner
+DRC = {
+	color = rgb { 255 109 25 }
+	color_ui = rgb { 67 67 67 }
+}
+##################################################################################################################################
+# South-West #
+# Rockville
+RCV = {
+	color = rgb { 240 17 59 }
+	color_ui = rgb { 240 17 59 }
+}
+# LasPegasus
+LSP = {
+	color = rgb { 165 5 27 }
+	color_ui = rgb { 165 5 27 }
+}
+# Ponderosa
+PND = {
+	color = rgb { 199 64 91 }
+	color_ui = rgb { 199 64 91 }
+}
+# Trotland
+TRL = {
+	color = rgb { 221 100 0 }
+	color_ui = rgb { 221 100 0 }
+}
+# Hoofcity
+HFC = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+# SiresHollow
+SRH = {
+	color = rgb { 212 216 0 }
+	color_ui = rgb { 212 216 0 }
+}
+# Coltlanta
+CLL = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+# Ponyton
+PNT = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+# Buckhill
+BCH = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+# JamSeedUnion
+JSU = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+# Cherello
+CHR = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+# Foaledo
+FLD = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+# Applino
+APP = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+# Haystin
+HST = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+# Trotgaron
+TRT = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+# Canter
+CAN = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+# Appleloosa
+APL = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+# SanCiliegia
+SCI = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+# Melamuzza
+MLM = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+# Marepolis
+MRP = {
+	color = rgb { 221 183 0 }
+	color_ui = rgb { 221 183 0 }
+}
+##################################################################################################################################
+# North-West #
+# Olenia
+OLE = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Cintra
+CIN = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Attre
+ATT = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Drains
+DRI = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Dol Angra
+DOA = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Toussaint
+TOU = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Nazair
+NAZ = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Mag Turga
+MAG = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Geso
+GES = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Brokilon
+BRK = {
+	color = rgb { 109 124 33 }
+	color_ui = rgb { 4 47 4 }
+}
+# Ebbing
+EBB = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Etolia
+ETO = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Gemmera
+GEM = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Vicovaro
+VIC = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Rowan
+ROW = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Ymlac
+YML = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Liddertal
+LID = {
+	color = rgb { 143 135 114 }
+	color_ui = rgb { 255 255 197 }
+}
+# Thorax
+THO = {
+	color = rgb { 117 13 92 }
+	color_ui = rgb { 255 255 197 }
+}
+# Hoorornd
+HOO = {
+	color = rgb { 33 67 67 }
+	color_ui = rgb { 33 67 67 }
+}
+# Antax
+ANT = {
+	color = rgb { 34 199 176 }
+	color_ui = rgb { 34 199 176 }
+}
+##################################################################################################################################
+# North #
+# Yakistan
+YAK = {
+	color = rgb { 39 157 192 }
+	color_ui = rgb { 39 157 192 }
+}
+# PolarBears
+PLB = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+# TheTwinTowers
+TTT = {
+	color = rgb { 24 17 18 }
+	color_ui = rgb { 24 17 18 }
+}
+# Diamondia
+DMD = {
+	color = rgb { 124 124 124 }
+	color_ui = rgb { 124 124 124 }
+}
+# KingdomOfPingland
+PNG = {
+	color = rgb { 0 0 255 }
+	color_ui = rgb { 0 0 255 }
+}
+# PinguinRepublic
+PNR = {
+	color = rgb { 100 199 255 }
+	color_ui = rgb { 100 199 255 }
+}
+# Amundsen
+AMN = {
+	color = rgb { 221 221 248 }
+	color_ui = rgb { 221 221 248 }
+}
+# Alicornia
+ALC = {
+	color = rgb { 237 237 34 }
+	color_ui = rgb { 237 237 34 }
+}
+##################################################################################################################################
+# Former Nova Griffonia #
+# MonarchistRestorationFront
+MRF = {
+	color = rgb { 246 115 11 }
+	color_ui = rgb { 246 115 11 }
+}
+# GryffonianLiberationFront
+GLF = {
+	color = rgb { 255 25 31 }
+	color_ui = rgb { 255 25 31 }
+}
+# NovaGriffonia
+GRF = {
+	color = rgb { 165 74 0 }
+	color_ui = rgb { 165 74 0 }
+}
+# Frontier
+GFF = {
+	color = rgb { 232 154 62 }
+	color_ui = rgb { 232 154 62 }
+}
+# Weter
+WET = {
+	color = rgb { 200 216 227 }
+	color_ui = rgb { 200 216 227 }
+}
+# PlumeVille
+PLV = {
+	color = rgb { 200 216 227 }
+	color_ui = rgb { 200 216 227 }
+}
+# Luderclaw
+LDC = {
+	color = rgb { 200 216 227 }
+	color_ui = rgb { 200 216 227 }
+}
+# Alexhafen
+ALH = {
+	color = rgb { 200 216 227 }
+	color_ui = rgb { 200 216 227 }
+}
+# Boreasfjord
+BFJ = {
+	color = rgb { 200 216 227 }
+	color_ui = rgb { 200 216 227 }
+}
+# NyWinghagen
+NWN = {
+	color = rgb { 205 171 36 }
+	color_ui = rgb { 205 171 36 }
+}
+# CoalitionOfNorthernCities
+CNC = {
+	color = rgb { 251 255 141 }
+	color_ui = rgb { 251 255 141 }
+}
+# Morien
+MOR = {
+	color = rgb { 96 59 34 }
+	color_ui = rgb { 96 59 34 }
+}
+##################################################################################################################################
+# Not countries #
+#Test
+TST = {
+	color = rgb { 50 50 50 }
+	color_ui = rgb { 50 50 50 }
+}
+#Wilderness
+WLD = {
+	color = rgb { 33 93 38 }
+	color_ui = rgb { 33 93 38 }
+}
+#Wasteland
+WST = {
+	color = rgb { 67 67 67 }
+	color_ui = rgb { 67 67 67 }
+}
+##################################################################################################################################
+# Dynamic tags #
 D01 = {
 	color = rgb { 122 179 97 }
 	color_ui = rgb { 159 233 126 }
@@ -197,590 +811,4 @@ D49 = {
 D50 = {
 	color = rgb { 210 106 47 }
 	color_ui = rgb { 255 138 61 }
-}
-
-EQS = {
-	color = rgb { 42 28 147 }
-	color_ui = rgb { 42 28 147 }
-}
-
-WHN = {
-	color = rgb { 42 28 230 }
-	color_ui = rgb { 42 28 230 }
-}
-
-WES = {
-	color = rgb { 30 17 86 }
-	color_ui = rgb { 30 17 86 }
-}
-
-DRG = {
-	color = rgb { 217 217 217 }
-	color_ui = rgb { 217 217 217 }
-}
-
-BAL = {
-	color = rgb { 0 192 0 }
-	color_ui = rgb { 0 192 0 }
-}
-
-CRY = {
-	color = rgb { 124 0 221 }
-	color_ui = rgb { 124 0 221 }
-}
-
-SEV = {
-	color = rgb { 255 255 255 }
-	color_ui = rgb { 255 255 255 }
-}
-
-YAK = {
-	color = rgb { 39 157 192 }
-	color_ui = rgb { 39 157 192 }
-}
-
-STL = {
-	color = rgb { 255 255 197 }
-	color_ui = rgb { 255 255 197 }
-}
-
-AED = {
-	color = rgb { 255 153 51 }
-	color_ui = rgb { 255 255 197 }
-}
-
-ANG = {
-	color = rgb { 39 45 7 }
-	color_ui = rgb { 255 255 197 }
-}
-
-BRM = {
-	color = rgb { 204 89 51 }
-	color_ui = rgb { 255 255 197 }
-}
-
-BRK = {
-	color = rgb { 109 124 33 }
-	color_ui = rgb { 4 47 4 }
-}
-
-BRG = {
-	color = rgb { 31 185 99 }
-	color_ui = rgb { 255 255 197 }
-}
-
-CAR = {
-	color = rgb { 11 3 102 }
-	color_ui = rgb { 255 255 197 }
-}
-
-CID = {
-	color = rgb { 204 89 51 }
-	color_ui = rgb { 255 255 197 }
-}
-
-DOL = {
-	color = rgb { 51 204 51 }
-	color_ui = rgb { 255 255 197 }
-}
-
-DRA = {
-	color = rgb { 183 0 0 }
-	color_ui = rgb { 255 255 197 }
-}
-
-ELD = {
-	color = rgb { 11 3 102 }
-	color_ui = rgb { 255 255 197 }
-}
-
-KDW = {
-	color = rgb { 128 204 51 }
-	color_ui = rgb { 255 255 197 }
-}
-
-KER = {
-	color = rgb { 153 102 51 }
-	color_ui = rgb { 255 255 197 }
-}
-
-LAR = {
-	color = rgb { 255 191 0 }
-	color_ui = rgb { 255 255 197 }
-}
-
-MHK = {
-	color = rgb { 255 255 0 }
-	color_ui = rgb { 255 255 197 }
-}
-
-MON = {
-	color = rgb { 183 0 0 }
-	color_ui = rgb { 255 255 197 }
-}
-
-OLE = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-RED = {
-	color = rgb { 183 0 0 }
-	color_ui = rgb { 255 255 197 }
-}
-
-SOD = {
-	color = rgb { 1 93 218 }
-	color_ui = rgb { 255 255 197 }
-}
-
-TEM = {
-	color = rgb { 11 3 102 }
-	color_ui = rgb { 255 255 197 }
-}
-
-CIN = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-ATT = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-DRI = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-DOA = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-TOU = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-NAZ = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-MAG = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-GES = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-EBB = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-ETO = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-GEM = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-VIC = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-ROW = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-YML = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-LID = {
-	color = rgb { 143 135 114 }
-	color_ui = rgb { 255 255 197 }
-}
-
-THO = {
-	color = rgb { 117 13 92 }
-	color_ui = rgb { 255 255 197 }
-}
-
-TTT = {
-	color = rgb { 24 17 18 }
-	color_ui = rgb { 24 17 18 }
-}
-
-MRF = {
-	color = rgb { 246 115 11 }
-	color_ui = rgb { 246 115 11 }
-}
-
-TRS = {
-	color = rgb { 159 131 97 }
-	color_ui = rgb { 159 131 97 }
-}
-
-NWN = {
-	color = rgb { 205 171 36 }
-	color_ui = rgb { 205 171 36 }
-}
-
-GLF = {
-	color = rgb { 255 25 31 }
-	color_ui = rgb { 255 25 31 }
-}
-
-GFF = {
-	color = rgb { 232 154 62 }
-	color_ui = rgb { 232 154 62 }
-}
-
-GRF = {
-	color = rgb { 165 74 0 }
-	color_ui = rgb { 165 74 0 }
-}
-
-CNC = {
-	color = rgb { 251 255 141 }
-	color_ui = rgb { 251 255 141 }
-}
-
-# Nova Griffonian coalition
-WET = {
-	color = rgb { 200 216 227 }
-	color_ui = rgb { 200 216 227 }
-}
-
-PLV = {
-	color = rgb { 200 216 227 }
-	color_ui = rgb { 200 216 227 }
-}
-
-LDC = {
-	color = rgb { 200 216 227 }
-	color_ui = rgb { 200 216 227 }
-}
-
-ALH = {
-	color = rgb { 200 216 227 }
-	color_ui = rgb { 200 216 227 }
-}
-
-BFJ = {
-	color = rgb { 200 216 227 }
-	color_ui = rgb { 200 216 227 }
-}
-
-PNG = {
-	color = rgb { 0 0 255 }
-	color_ui = rgb { 0 0 255 }
-}
-
-PNR = {
-	color = rgb { 100 199 255 }
-	color_ui = rgb { 100 199 255 }
-}
-
-AMN = {
-	color = rgb { 221 221 248 }
-	color_ui = rgb { 221 221 248 }
-}
-
-ALC = {
-	color = rgb { 237 237 34 }
-	color_ui = rgb { 237 237 34 }
-}
-
-DMD = {
-	color = rgb { 124 124 124 }
-	color_ui = rgb { 124 124 124 }
-}
-
-MOR = {
-	color = rgb { 96 59 34 }
-	color_ui = rgb { 96 59 34 }
-}
-
-HOO = {
-	color = rgb { 33 67 67 }
-	color_ui = rgb { 33 67 67 }
-}
-
-ANT = {
-	color = rgb { 34 199 176 }
-	color_ui = rgb { 34 199 176 }
-}
-
-NGF = {
-	color = rgb { 148 165 97 }
-	color_ui = rgb { 148 165 97 }
-}
-
-LSP = {
-	color = rgb { 165 5 27 }
-	color_ui = rgb { 165 5 27 }
-}
-
-RCV = {
-	color = rgb { 240 17 59 }
-	color_ui = rgb { 240 17 59 }
-}
-
-CEL = {
-	color = rgb { 255 255 0 }
-	color_ui = rgb { 255 255 0 }
-}
-
-FIL = {
-	color = rgb { 255 217 22 }
-	color_ui = rgb { 255 217 22 }
-}
-
-PND = {
-	color = rgb { 199 64 91 }
-	color_ui = rgb { 199 64 91 }
-}
-
-TRL = {
-	color = rgb { 221 100 0 }
-	color_ui = rgb { 221 100 0 }
-}
-
-HFC = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-
-SRH = {
-	color = rgb { 212 216 0 }
-	color_ui = rgb { 212 216 0 }
-}
-
-VIE = {
-	color = rgb { 140 179 25 }
-	color_ui = rgb { 67 67 67 }
-}
-CAM = {
-	color = rgb { 226 179 25 }
-	color_ui = rgb { 67 67 67 }
-}
-LAO = {
-	color = rgb { 152 188 25 }
-	color_ui = rgb { 67 67 67 }
-}
-SIA = {
-	color = rgb { 255 228 25 }
-	color_ui = rgb { 67 67 67 }
-}
-DRC = {
-	color = rgb { 255 109 25 }
-	color_ui = rgb { 67 67 67 }
-}
-
-PLB = {
-	color = rgb { 255 255 255 }
-	color_ui = rgb { 255 255 255 }
-}
-#Coltlanta
-CLL = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-#Ponyton
-PNT = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-#Buckhill
-BCH = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-#JamSeedUnion
-JSU = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-#Cherello
-CHR = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-#Foaledo
-FLD = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-#Applino
-APP = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-#Haystin
-HST = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-#Trotgaron
-TRT = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-#Canter
-CAN = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-#Appleloosa
-APL = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-#SanCiliegia
-SCI = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-#Melamuzza
-MLM = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-#Marepolis
-MRP = {
-	color = rgb { 221 183 0 }
-	color_ui = rgb { 221 183 0 }
-}
-###############
-# Confederacy #
-###############
-MNT = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-FRV = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-HRF = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-GLP = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-ZAR = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-ALB = {
-	color = rgb { 0 235 192 }
-	color_ui = rgb { 0 235 192 }
-}
-
-PRA = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-BLS = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-MAN = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-CHI = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-TTL = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-FRM = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-MHT = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-CNT = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-NCN = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-BRI = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-SUM = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-DPP = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-DET = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-
-STR = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
-}
-########################
-# Not actual countries #
-########################
-TST = {
-	color = rgb { 50 50 50 }
-	color_ui = rgb { 50 50 50 }
-}
-
-WLD = {
-	color = rgb { 33 93 38 }
-	color_ui = rgb { 33 93 38 }
-}
-
-WST = {
-	color = rgb { 67 67 67 }
-	color_ui = rgb { 67 67 67 }
 }

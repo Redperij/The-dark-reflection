@@ -53,9 +53,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Somepony"
+	name = "Gladmane"
 	desc = ""
-	picture = ""
+	picture = "Gladmane.tga"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {

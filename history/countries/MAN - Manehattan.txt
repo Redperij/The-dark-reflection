@@ -64,9 +64,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gladmane"
+	name = "Ocellus"
 	desc = ""
-	picture = "Gladmane.tga"
+	picture = "Ocellus.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {

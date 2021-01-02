@@ -25,7 +25,7 @@ bookmarks = {
 		}
 		"CEL"={
 			history = ""
-			ideology = neutrality
+			ideology = fascism
 		}
 		"DRG"={
 			history = ""
@@ -33,11 +33,27 @@ bookmarks = {
 		}
 		"MAN"={
 			history = ""
-			ideology = neutrality
+			ideology = democratic
 		}
 		"TST"={
 			history = ""
 			ideology = democratic
+		}
+		# minors ####
+		"MRF"={
+			minor = yes
+			history = ""
+			ideology = neutrality
+		}
+		"GLF"={
+			minor = yes
+			history = ""
+			ideology = communism
+		}
+		"LSP"={
+			minor = yes
+			history = ""
+			ideology = communism
 		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
