@@ -1,14 +1,17 @@
 state={
 	id=644
 	name="STATE_644"
+
 	history={
-		owner = CRY
-		add_core_of = CRY
+		owner = MAG
+		add_core_of = MAG
 	}
+
 	provinces={
-		2700 3438 10930 11070 11100 11110 11241 
+		477 1617 2069 3466 4276 5309 7763 7834 7835 7959 7980 7999 8026 8036 8050 8070 8082 8112 8113 8164 8165 8204 8205 8233 8254 8283 8294 8309 8336 8374 
 	}
-	manpower=1
-	state_category = rural
-	buildings_max_level_factor=1.000
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	impassable = yes
 }

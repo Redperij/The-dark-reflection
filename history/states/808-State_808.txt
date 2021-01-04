@@ -1,14 +1,17 @@
 state={
 	id=808
 	name="STATE_808"
+
 	history={
-		owner = SEV
-		add_core_of = SEV
+		owner = PNR
+		add_core_of = PNR
 	}
+
 	provinces={
-		358 1177 1256 3394 3596 4609 10056 10142 10211 10212 10224 10278 
+		1528 1582 1661 2575 2833 3539 3661 4384 4782 5568 5594 6101 6133 6151 6182 6202 6215 6223 6228 6252 6272 6281 6298 
 	}
-	manpower=320
-	state_category = pastoral
-	buildings_max_level_factor=1.000
+	manpower = 320
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	impassable = yes
 }

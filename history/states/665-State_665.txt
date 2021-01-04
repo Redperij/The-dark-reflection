@@ -1,14 +1,16 @@
 state={
 	id=665
 	name="STATE_665"
+
 	history={
 		owner = CRY
 		add_core_of = CRY
 	}
+
 	provinces={
-		3255 4233 11381 11450 11510 11584 11585 11619 11659 11668 
+		1025 3255 3748 4233 11312 11352 11381 11395 11450 11478 11510 11584 11585 11619 11659 11668 
 	}
-	manpower=1
+	manpower = 1
+	buildings_max_level_factor = 1.000
 	state_category = rural
-	buildings_max_level_factor=1.000
 }

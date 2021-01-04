@@ -1,14 +1,17 @@
 state={
 	id=751
 	name="STATE_751"
+
 	history={
-		owner = SEV
-		add_core_of = SEV
+		owner = HOO
+		add_core_of = HOO
 	}
+
 	provinces={
-		4134 5553 12005 12016 12039 12070 12121 12172 
+		1059 2269 4443 5076 5265 7740 7789 7810 7848 7865 7889 7902 7911 8002 8028 8074 8096 8131 
 	}
-	manpower=1
-	state_category = rural
-	buildings_max_level_factor=1.000
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	impassable = yes
 }

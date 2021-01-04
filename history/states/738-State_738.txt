@@ -1,14 +1,16 @@
 state={
 	id=738
 	name="STATE_738"
+
 	history={
 		owner = PRA
 		add_core_of = PRA
 	}
+
 	provinces={
-		2657 4014 5141 5566 5578 12366 12477 12507 12550 12580 
+		2657 5566 5586 5680 12301 12366 12377 
 	}
-	manpower=1
+	manpower = 1
+	buildings_max_level_factor = 1.000
 	state_category = rural
-	buildings_max_level_factor=1.000
 }

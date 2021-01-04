@@ -1,14 +1,17 @@
 state={
 	id=640
 	name="STATE_640"
+
 	history={
-		owner = CRY
-		add_core_of = CRY
+		owner = VIC
+		add_core_of = VIC
 	}
+
 	provinces={
-		90 124 3781 11529 11537 11601 11667 11750 
+		468 1537 3822 4482 5385 9783 9809 9810 9834 9871 9886 
 	}
-	manpower=1
-	state_category = rural
-	buildings_max_level_factor=1.000
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	impassable = yes
 }

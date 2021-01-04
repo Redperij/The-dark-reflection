@@ -1,14 +1,18 @@
 state={
 	id=807
 	name="STATE_807"
+
 	history={
-		owner = SEV
-		add_core_of = SEV
+		owner = VIC
+		add_core_of = VIC
+
 	}
+
 	provinces={
-		677 3866 10045 10154 10225 10231 10272 10344 10418 10419 
+		567 4394 9887 9963 9979 10026 10033 10077 10145 10175 
 	}
-	manpower=327
-	state_category = pastoral
-	buildings_max_level_factor=1.000
+	manpower = 327
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	impassable = yes
 }

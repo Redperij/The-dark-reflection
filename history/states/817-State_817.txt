@@ -1,14 +1,16 @@
 state={
 	id=817
 	name="STATE_817"
+
 	history={
 		owner = SEV
 		add_core_of = SEV
 	}
+
 	provinces={
-		1343 3012 10460 10512 10546 10583 10633 10675 10746 
+		484 1343 3012 10460 10512 10546 10567 10583 10633 10675 10746 
 	}
-	manpower=1
+	manpower = 1
+	buildings_max_level_factor = 1.000
 	state_category = rural
-	buildings_max_level_factor=1.000
 }

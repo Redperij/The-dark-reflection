@@ -1,14 +1,16 @@
 state={
 	id=806
 	name="STATE_806"
+
 	history={
 		owner = SEV
 		add_core_of = SEV
 	}
+
 	provinces={
-		3363 4113 10143 10191 10375 10450 10497 10498 10566 
+		677 3363 3866 4113 10045 10143 10154 10191 10225 10231 10272 10344 10375 10418 10419 10450 10497 10498 10566 
 	}
-	manpower=902
+	manpower = 902
+	buildings_max_level_factor = 1.000
 	state_category = pastoral
-	buildings_max_level_factor=1.000
 }

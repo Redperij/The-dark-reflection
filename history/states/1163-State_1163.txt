@@ -1,15 +1,17 @@
 state={
 	id=1163
 	name="STATE_1163"
+
 	history={
 		owner = EBB
 		add_core_of = EBB
 	}
+
 	provinces={
-		863 864 1314 1573 1608 2136 3244 4023 4399 4440 4582 4775 4919 5291 5322 8425 8447 8465 8551 8655 8678 8736 8757 8909 8920 8947 8970 8988 9030 9102 
+		863 864 1314 1573 1608 2136 4023 4399 4582 4919 5291 5322 8447 8465 8551 8655 8678 8736 8757 8909 8920 8947 8970 8988 9030 9102 
 	}
-	manpower=1
+	manpower = 1
+	buildings_max_level_factor = 1.000
 	state_category = wasteland
 	impassable = yes
-	buildings_max_level_factor=1.000
 }

@@ -1,14 +1,17 @@
 state={
 	id=582
 	name="STATE_582"
+
 	history={
-		owner = EQS
-		add_core_of = EQS
+		owner = GES
+		add_core_of = GES
 	}
+
 	provinces={
-		302 552 2026 12652 12700 12810 
+		215 366 668 724 1056 1566 1567 2513 2824 4262 4267 5519 7854 7897 7942 8010 8018 8062 8143 8154 
 	}
-	manpower=1
-	state_category = rural
-	buildings_max_level_factor=1.000
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	impassable = yes
 }
