@@ -9,6 +9,6 @@ state={
 		702 1034 3413 11565 11626 11653 11673 11694 11726 11736 11811 11823 
 	}
 	manpower=1
-	state_category = 600
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

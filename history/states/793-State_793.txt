@@ -6,7 +6,7 @@ state={
 		add_core_of = SEV
 
 		victory_points = {
-			3216 5
+			3227 5
 		}
 	}
 	provinces={

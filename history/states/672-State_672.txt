@@ -4,6 +4,10 @@ state={
 	history={
 		owner = CRY
 		add_core_of = CRY
+
+		victory_points = {
+			2651 2
+		}
 	}
 	provinces={
 		1302 2651 11177 11264 
