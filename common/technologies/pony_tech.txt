@@ -1,23 +1,23 @@
-@989 = 0
-@1007 = 0
-@1009 = 2
-@1010 = 4
-@1011 = 6
-@1012 = 8
-@1013 = 10
-@1014 = 12
-@1015 = 14
-@1016 = 16
-@1017 = 18
-@1018 = 20
-@1019 = 22
-@1020 = 24
-@1021 = 26
-@1022 = 28
-@1023 = 30
-@1024 = 32
-@1025 = 34
-@1026 = 36
+@979 = 0
+@997 = 0
+@999 = 2
+@1000 = 4
+@1001 = 6
+@1002 = 8
+@1003 = 10
+@1004 = 12
+@1005 = 14
+@1006 = 16
+@1007 = 18
+@1008 = 20
+@1009 = 22
+@1010 = 24
+@1011 = 26
+@1012 = 28
+@1013 = 30
+@1014 = 32
+@1015 = 34
+@1016 = 36
 
 technologies = {
 
@@ -53,10 +53,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
-			position = { x = 1 y = @1007 }
+			position = { x = 1 y = @997 }
 		}
 
 		categories = {
@@ -69,12 +69,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1008.1.1"
+				date > "998.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1009.1.1"
+				date > "999.1.1"
 			}
 		}
 	}
@@ -97,10 +97,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
-			position = { x = 1 y = @1010 }
+			position = { x = 1 y = @1000 }
 		}
 
 		categories = {
@@ -113,12 +113,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1014.1.1"
+				date > "1004.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1015.1.1"
+				date > "1005.1.1"
 			}
 		}
 	}
@@ -136,10 +136,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
-			position = { x = 2 y = @1013 }
+			position = { x = 2 y = @1003 }
 		}
 
 		categories = {
@@ -152,12 +152,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1017.1.1"
+				date > "1007.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1018.1.1"
+				date > "1008.1.1"
 			}
 		}
 	}
@@ -175,10 +175,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = @1013 }
+			position = { x = 0 y = @1003 }
 		}
 
 		categories = {
@@ -191,12 +191,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1017.1.1"
+				date > "1007.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1018.1.1"
+				date > "1008.1.1"
 			}
 		}
 	}
@@ -212,10 +212,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
-			position = { x = 1 y = @1016 }
+			position = { x = 1 y = @1006 }
 		}
 
 		categories = {
@@ -228,12 +228,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1011.1.1"
+				date > "1001.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 		}
 	}
@@ -254,10 +254,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
-			position = { x = 1 y = @1020 }
+			position = { x = 1 y = @1010 }
 		}
 
 		categories = {
@@ -270,12 +270,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1021.1.1"
+				date > "1011.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1022.1.1"
+				date > "1012.1.1"
 			}
 		}
 	}
@@ -298,10 +298,10 @@ technologies = {
 		xor = { tech_pony_misc_c2 }
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
-			position = { x = 2 y = @1024 }
+			position = { x = 2 y = @1014 }
 		}
 
 		categories = {
@@ -313,12 +313,12 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.5
-				date > "1025.1.1"
+				date > "1015.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1026.1.1"
+				date > "1016.1.1"
 			}
 		}
 	}
@@ -334,10 +334,10 @@ technologies = {
 		xor = { tech_pony_misc_c }
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = @1024 }
+			position = { x = 0 y = @1014 }
 		}
 
 		categories = {
@@ -349,12 +349,12 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.5
-				date > "1025.1.1"
+				date > "1015.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1026.1.1"
+				date > "1016.1.1"
 			}
 		}
 	}
@@ -395,10 +395,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = @1007 }
+			position = { x = 0 y = @997 }
 		}
 
 		categories = {
@@ -435,10 +435,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = @1010 }
+			position = { x = 0 y = @1000 }
 		}
 
 		categories = {
@@ -464,10 +464,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = @1013 }
+			position = { x = 0 y = @1003 }
 		}
 
 		on_research_complete = {
@@ -500,10 +500,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = @1016 }
+			position = { x = 0 y = @1006 }
 		}
 
 		on_research_complete = {
@@ -535,10 +535,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = @1020 }
+			position = { x = 0 y = @1010 }
 		}
 
 		on_research_complete = {
@@ -565,10 +565,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = @1024 }
+			position = { x = 0 y = @1014 }
 		}
 
 		on_research_complete = {
@@ -615,7 +615,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 2  y = 0 }
@@ -640,17 +640,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.2
-				date > "1008.1.1"
+				date > "998.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1009.1.1"
+				date > "999.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1010.1.1"
+				date > "1000.1.1"
 			}
 		}
 	}
@@ -677,7 +677,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 0  y = 2}
@@ -702,18 +702,18 @@ technologies = {
 
 			modifier = {
 				factor = 1.2
-				date > "1011.1.1"
+				date > "1001.1.1"
 			}
 
 
 			modifier = {
 				factor = 2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1013.1.1"
+				date > "1003.1.1"
 			}
 		}
 	}
@@ -737,7 +737,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 0  y = 4 }
@@ -754,17 +754,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1013.1.1"
+				date > "1003.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1014.1.1"
+				date > "1004.1.1"
 			}
 		}
 	}
@@ -787,7 +787,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 0  y = 6 }
@@ -804,17 +804,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.2
-				date > "1014.1.1"
+				date > "1004.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1015.1.1"
+				date > "1005.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1016.1.1"
+				date > "1006.1.1"
 			}
 		}
 	}
@@ -838,7 +838,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 0 y = 8 }
@@ -855,17 +855,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.2
-				date > "1017.1.1"
+				date > "1007.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1018.1.1"
+				date > "1008.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1019.1.1"
+				date > "1009.1.1"
 			}
 		}
 	}
@@ -878,7 +878,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 0 y = 10 }
@@ -901,17 +901,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.2
-				date > "1020.1.1"
+				date > "1010.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1021.1.1"
+				date > "1011.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1022.1.1"
+				date > "1012.1.1"
 			}
 		}
 	}
@@ -939,7 +939,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 4 y = 2 }
@@ -963,17 +963,17 @@ technologies = {
 			}
 			modifier = {
 				factor = 1.2
-				date > "1011.1.1"
+				date > "1001.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1013.1.1"
+				date > "1003.1.1"
 			}
 		}
 	}
@@ -996,7 +996,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 4 y = 4 }
@@ -1012,17 +1012,17 @@ technologies = {
 			factor = 2.2
 			modifier = {
 				factor = 1.2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1013.1.1"
+				date > "1003.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1014.1.1"
+				date > "1004.1.1"
 			}
 		}
 	}
@@ -1045,7 +1045,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 4 y = 6 }
@@ -1061,17 +1061,17 @@ technologies = {
 			factor = 2.2
 			modifier = {
 				factor = 1.2
-				date > "1014.1.1"
+				date > "1004.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1015.1.1"
+				date > "1005.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1016.1.1"
+				date > "1006.1.1"
 			}
 		}
 	}
@@ -1096,7 +1096,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 4 y = 8 }
@@ -1112,17 +1112,17 @@ technologies = {
 			factor = 2.2
 			modifier = {
 				factor = 1.2
-				date > "1017.1.1"
+				date > "1007.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1018.1.1"
+				date > "1008.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1019.1.1"
+				date > "1009.1.1"
 			}
 		}
 	}
@@ -1134,7 +1134,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 4 y = 10 }
@@ -1156,17 +1156,17 @@ technologies = {
 			factor = 2.2
 			modifier = {
 				factor = 1.2
-				date > "1020.1.1"
+				date > "1010.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1021.1.1"
+				date > "1011.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1022.1.1"
+				date > "1012.1.1"
 			}
 		}
 	}
@@ -1191,7 +1191,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 8  y = 2 }
@@ -1206,17 +1206,17 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.2
-				date > "1011.1.1"
+				date > "1001.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1013.1.1"
+				date > "1003.1.1"
 			}
 		}
 	}
@@ -1235,7 +1235,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 8  y = 4 }
@@ -1250,17 +1250,17 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1013.1.1"
+				date > "1003.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1014.1.1"
+				date > "1004.1.1"
 			}
 		}
 	}
@@ -1277,7 +1277,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 8  y = 6 }
@@ -1292,17 +1292,17 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.2
-				date > "1013.1.1"
+				date > "1003.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1014.1.1"
+				date > "1004.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1015.1.1"
+				date > "1005.1.1"
 			}
 		}
 	}
@@ -1321,7 +1321,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 8  y = 8 }
@@ -1336,17 +1336,17 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.2
-				date > "1017.1.1"
+				date > "1007.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1018.1.1"
+				date > "1008.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1019.1.1"
+				date > "1009.1.1"
 			}
 		}
 	}
@@ -1360,7 +1360,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 8  y = 10 }
@@ -1376,17 +1376,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.2
-				date > "1020.1.1"
+				date > "1010.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1021.1.1"
+				date > "1011.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1022.1.1"
+				date > "1012.1.1"
 			}
 		}
 	}
@@ -1407,7 +1407,7 @@ technologies = {
 		dig_in_speed_factor = 0.07
 
 		research_cost = 1.2
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 12  y = 2 }
@@ -1431,17 +1431,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.2
-				date > "1011.1.1"
+				date > "1001.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1013.1.1"
+				date > "1003.1.1"
 			}
 		}
 	}
@@ -1460,7 +1460,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 12  y = 4 }
@@ -1475,17 +1475,17 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1013.1.1"
+				date > "1003.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1014.1.1"
+				date > "1004.1.1"
 			}
 		}
 	}
@@ -1503,7 +1503,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 12  y = 6 }
@@ -1518,17 +1518,17 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.2
-				date > "1013.1.1"
+				date > "1003.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1014.1.1"
+				date > "1004.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1015.1.1"
+				date > "1005.1.1"
 			}
 		}
 	}
@@ -1547,7 +1547,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 12  y = 8 }
@@ -1562,17 +1562,17 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.2
-				date > "1017.1.1"
+				date > "1007.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1018.1.1"
+				date > "1008.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1019.1.1"
+				date > "1009.1.1"
 			}
 		}
 	}
@@ -1585,7 +1585,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = pony_folder
 			position = { x = 12  y = 10 }
@@ -1600,17 +1600,17 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.2
-				date > "1020.1.1"
+				date > "1010.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1021.1.1"
+				date > "1011.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1022.1.1"
+				date > "1012.1.1"
 			}
 		}
 	}

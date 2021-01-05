@@ -1,23 +1,23 @@
-@989 = 0
-@1007 = 0
-@1009 = 2
-@1010 = 4
-@1011 = 6
-@1012 = 8
-@1013 = 10
-@1014 = 12
-@1015 = 14
-@1016 = 16
-@1017 = 18
-@1018 = 20
-@1019 = 22
-@1020 = 24
-@1021 = 26
-@1022 = 28
-@1023 = 30
-@1024 = 32
-@1025 = 34
-@1026 = 36
+@979 = 0
+@997 = 0
+@999 = 2
+@1000 = 4
+@1001 = 6
+@1002 = 8
+@1003 = 10
+@1004 = 12
+@1005 = 14
+@1006 = 16
+@1007 = 18
+@1008 = 20
+@1009 = 22
+@1010 = 24
+@1011 = 26
+@1012 = 28
+@1013 = 30
+@1014 = 32
+@1015 = 34
+@1016 = 36
 
 technologies = {
 
@@ -70,10 +70,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 989
+		start_year = 979
 		folder = {
 			name = griffon_folder
-			position = { x = 2 y = @989 }
+			position = { x = 2 y = @979 }
 		}
 
 		categories = {
@@ -104,10 +104,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 2 y = @1010 }
+			position = { x = 2 y = @1000 }
 		}
 
 		on_research_complete = {
@@ -147,10 +147,10 @@ technologies = {
 		}
 		xor = { tech_knights_regular }
 		research_cost = 1
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 0 y = @1011 }
+			position = { x = 0 y = @1001 }
 		}
 		path = {
 			leads_to_tech = tech_knights_magical2
@@ -186,10 +186,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 0 y = @1013 }
+			position = { x = 0 y = @1003 }
 		}
 		path = {
 			leads_to_tech = tech_knights3
@@ -219,10 +219,10 @@ technologies = {
 		}
 		xor = { tech_knights_magical }
 		research_cost = 1
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 4 y = @1011 }
+			position = { x = 4 y = @1001 }
 		}
 		path = {
 			leads_to_tech = tech_knights_regular2
@@ -260,10 +260,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 4 y = @1013 }
+			position = { x = 4 y = @1003 }
 		}
 		path = {
 			leads_to_tech = tech_knights3
@@ -300,10 +300,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 2 y = @1016 }
+			position = { x = 2 y = @1006 }
 		}
 
 		on_research_complete = {
@@ -337,10 +337,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 2 y = @1019 }
+			position = { x = 2 y = @1009 }
 		}
 
 		on_research_complete = {
@@ -373,10 +373,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 2 y = @1021 }
+			position = { x = 2 y = @1011 }
 		}
 
 		on_research_complete = {
@@ -404,10 +404,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 2 y = @1024 }
+			position = { x = 2 y = @1014 }
 		}
 
 		categories = {
@@ -446,10 +446,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 6 y = @1007 }
+			position = { x = 6 y = @997 }
 		}
 
 		categories = {
@@ -462,12 +462,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1008.1.1"
+				date > "998.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1009.1.1"
+				date > "999.1.1"
 			}
 		}
 	}
@@ -485,10 +485,10 @@ technologies = {
 			infantry_weapons = 1
 		}
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 6 y = @1010 }
+			position = { x = 6 y = @1000 }
 		}
 
 		categories = {
@@ -501,12 +501,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1011.1.1"
+				date > "1001.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 		}
 	}
@@ -523,10 +523,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 6 y = @1013 }
+			position = { x = 6 y = @1003 }
 		}
 
 		categories = {
@@ -538,12 +538,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1014.1.1"
+				date > "1004.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1015.1.1"
+				date > "1005.1.1"
 			}
 		}
 	}
@@ -560,10 +560,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 6 y = @1016 }
+			position = { x = 6 y = @1006 }
 		}
 
 		categories = {
@@ -576,12 +576,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1017.1.1"
+				date > "1007.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1018.1.1"
+				date > "1008.1.1"
 			}
 		}
 	}
@@ -598,10 +598,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 6 y = @1020 }
+			position = { x = 6 y = @1010 }
 		}
 
 		categories = {
@@ -613,12 +613,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1021.1.1"
+				date > "1011.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1022.1.1"
+				date > "1012.1.1"
 			}
 		}
 	}
@@ -634,10 +634,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 6 y = @1024 }
+			position = { x = 6 y = @1014 }
 		}
 
 		categories = {
@@ -649,12 +649,12 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.5
-				date > "1025.1.1"
+				date > "1015.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1026.1.1"
+				date > "1016.1.1"
 			}
 		}
 	}
@@ -687,10 +687,10 @@ technologies = {
 		}
 
 		research_cost = 0.5
-		start_year = 800
+		start_year = 790
 		folder = {
 			name = griffon_folder
-			position = { x = 10 y = @1007 }
+			position = { x = 10 y = @997 }
 		}
 
 		categories = {
@@ -702,12 +702,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1008.1.1"
+				date > "998.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1009.1.1"
+				date > "999.1.1"
 			}
 		}
 	}
@@ -727,10 +727,10 @@ technologies = {
 		}
 		xor = { tech_griffon_army_atk2 }
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 8 y = @1010 }
+			position = { x = 8 y = @1000 }
 		}
 
 		categories = {
@@ -743,12 +743,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1011.1.1"
+				date > "1001.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 		}
 	}
@@ -779,10 +779,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 8 y = @1013 }
+			position = { x = 8 y = @1003 }
 		}
 
 		categories = {
@@ -794,12 +794,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1014.1.1"
+				date > "1004.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1015.1.1"
+				date > "1005.1.1"
 			}
 		}
 	}
@@ -822,10 +822,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 8 y = @1016 }
+			position = { x = 8 y = @1006 }
 		}
 
 		categories = {
@@ -838,12 +838,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1017.1.1"
+				date > "1007.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1018.1.1"
+				date > "1008.1.1"
 			}
 		}
 	}
@@ -864,10 +864,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 8 y = @1020 }
+			position = { x = 8 y = @1010 }
 		}
 
 		categories = {
@@ -879,12 +879,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1021.1.1"
+				date > "1011.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1022.1.1"
+				date > "1012.1.1"
 			}
 		}
 	}
@@ -905,10 +905,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 8 y = @1024 }
+			position = { x = 8 y = @1014 }
 		}
 
 		categories = {
@@ -920,12 +920,12 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.5
-				date > "1025.1.1"
+				date > "1015.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1026.1.1"
+				date > "1016.1.1"
 			}
 		}
 	}
@@ -948,10 +948,10 @@ technologies = {
 		}
 		xor = { tech_griffon_army_def2 }
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 12 y = @1010 }
+			position = { x = 12 y = @1000 }
 		}
 
 		categories = {
@@ -964,12 +964,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1011.1.1"
+				date > "1001.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 		}
 	}
@@ -990,10 +990,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 12 y = @1013 }
+			position = { x = 12 y = @1003 }
 		}
 
 		categories = {
@@ -1005,12 +1005,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1014.1.1"
+				date > "1004.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1015.1.1"
+				date > "1005.1.1"
 			}
 		}
 	}
@@ -1026,10 +1026,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 12 y = @1016 }
+			position = { x = 12 y = @1006 }
 		}
 
 		categories = {
@@ -1042,12 +1042,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1017.1.1"
+				date > "1007.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1018.1.1"
+				date > "1008.1.1"
 			}
 		}
 	}
@@ -1063,10 +1063,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 12 y = @1020 }
+			position = { x = 12 y = @1010 }
 		}
 
 		categories = {
@@ -1078,12 +1078,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1021.1.1"
+				date > "1011.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1022.1.1"
+				date > "1012.1.1"
 			}
 		}
 	}
@@ -1108,10 +1108,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 12 y = @1024 }
+			position = { x = 12 y = @1014 }
 		}
 
 		categories = {
@@ -1123,12 +1123,12 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.5
-				date > "1025.1.1"
+				date > "1015.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1026.1.1"
+				date > "1016.1.1"
 			}
 		}
 	}
@@ -1149,10 +1149,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 16 y = @1007 }
+			position = { x = 16 y = @997 }
 		}
 
 		categories = {
@@ -1166,12 +1166,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.5
-				date > "1008.1.1"
+				date > "998.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1009.1.1"
+				date > "999.1.1"
 			}
 		}
 	}
@@ -1196,10 +1196,10 @@ technologies = {
 
 
 		research_cost = 1
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 16 y = @1010 }
+			position = { x = 16 y = @1000 }
 		}
 
 		categories = {
@@ -1213,12 +1213,12 @@ technologies = {
 			factor = 3
 			modifier = {
 				factor = 1.5
-				date > "1011.1.1"
+				date > "1001.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 		}
 	}
@@ -1236,10 +1236,10 @@ technologies = {
 
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 14 y = @1013 }
+			position = { x = 14 y = @1003 }
 		}
 
 		categories = {
@@ -1258,12 +1258,12 @@ technologies = {
 			}
 			modifier = {
 				factor = 1.5
-				date > "1011.1.1"
+				date > "1001.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 		}
 	}
@@ -1282,10 +1282,10 @@ technologies = {
 
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 14 y = @1016 }
+			position = { x = 14 y = @1006 }
 		}
 
 		categories = {
@@ -1298,12 +1298,12 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.5
-				date > "1017.1.1"
+				date > "1007.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1018.1.1"
+				date > "1008.1.1"
 			}
 		}
 	}
@@ -1346,10 +1346,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 14 y = @1022 }
+			position = { x = 14 y = @1012 }
 		}
 
 		categories = {
@@ -1362,12 +1362,12 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.5
-				date > "1023.1.1"
+				date > "1013.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1024.1.1"
+				date > "1014.1.1"
 			}
 		}
 	}
@@ -1385,10 +1385,10 @@ technologies = {
 
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 18 y = @1013 }
+			position = { x = 18 y = @1003 }
 		}
 
 		categories = {
@@ -1401,12 +1401,12 @@ technologies = {
 			factor = 1.8
 			modifier = {
 				factor = 1.5
-				date > "1011.1.1"
+				date > "1001.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1012.1.1"
+				date > "1002.1.1"
 			}
 		}
 	}
@@ -1434,10 +1434,10 @@ technologies = {
 
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 18 y = @1016 }
+			position = { x = 18 y = @1006 }
 		}
 
 		categories = {
@@ -1450,12 +1450,12 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.5
-				date > "1017.1.1"
+				date > "1007.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1018.1.1"
+				date > "1008.1.1"
 			}
 		}
 	}
@@ -1466,10 +1466,10 @@ technologies = {
 		air_ace_generation_chance_factor = 0.15
 
 		research_cost = 1.5
-		start_year = 1007
+		start_year = 997
 		folder = {
 			name = griffon_folder
-			position = { x = 18 y = @1022 }
+			position = { x = 18 y = @1012 }
 		}
 
 		categories = {
@@ -1482,12 +1482,12 @@ technologies = {
 			factor = 2
 			modifier = {
 				factor = 1.5
-				date > "1023.1.1"
+				date > "1013.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1024.1.1"
+				date > "1014.1.1"
 			}
 		}
 	}

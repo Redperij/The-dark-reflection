@@ -19,7 +19,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1000
+		start_year = 990
 
 		folder = {
 			name = naval_folder
@@ -50,7 +50,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1007
+		start_year = 997
 
 		folder = {
 			name = naval_folder
@@ -81,7 +81,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1011
+		start_year = 1001
 
 		folder = {
 			name = naval_folder
@@ -99,7 +99,7 @@ technologies = {
 		}
 	}
 
-	###------> Old Destroyer (1015) <><> <><> <><> <><> <><>
+	###------> Old Destroyer (1005) <><> <><> <><> <><> <><>
 
 	advanced_destroyer = {
 
@@ -109,7 +109,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1015
+		start_year = 1005
 
 		folder = {
 			name = naval_folder
@@ -146,7 +146,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1000
+		start_year = 990
 
 		folder = {
 			name = naval_folder
@@ -181,7 +181,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1007
+		start_year = 997
 
 		folder = {
 			name = naval_folder
@@ -217,7 +217,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1011
+		start_year = 1001
 
 		folder = {
 			name = naval_folder
@@ -235,7 +235,7 @@ technologies = {
 		}
 	}
 
-	###------> Old Light Cruiser (1015) <><> <><> <><> <><> <><>
+	###------> Old Light Cruiser (1005) <><> <><> <><> <><> <><>
 
 	advanced_light_cruiser = {
 
@@ -250,7 +250,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1015
+		start_year = 1005
 
 		folder = {
 			name = naval_folder
@@ -287,7 +287,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1000
+		start_year = 990
 
 		folder = {
 			name = naval_folder
@@ -322,7 +322,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1007
+		start_year = 997
 
 		folder = {
 			name = naval_folder
@@ -357,7 +357,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1011
+		start_year = 1001
 
 		folder = {
 			name = naval_folder
@@ -374,7 +374,7 @@ technologies = {
 		}
 	}
 
-	###------> Old Heavy Cruiser (1015) <><> <><> <><> <><> <><>
+	###------> Old Heavy Cruiser (1005) <><> <><> <><> <><> <><>
 
 	advanced_heavy_cruiser = {
 
@@ -389,7 +389,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1015
+		start_year = 1005
 
 		folder = {
 			name = naval_folder
@@ -425,7 +425,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1000
+		start_year = 990
 
 		folder = {
 			name = naval_folder
@@ -442,7 +442,7 @@ technologies = {
 		}
 	}
 
-	###------> Old Battlecruiser (1015) <><> <><> <><> <><> <><>
+	###------> Old Battlecruiser (1005) <><> <><> <><> <><> <><>
 
 	basic_battlecruiser = {
 
@@ -457,7 +457,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1011
+		start_year = 1001
 
 		folder = {
 			name = naval_folder
@@ -493,7 +493,7 @@ technologies = {
 
 
 		research_cost = 1.5
-		start_year = 1000
+		start_year = 990
 
 		folder = {
 			name = naval_folder
@@ -527,7 +527,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1007
+		start_year = 997
 
 		folder = {
 			name = naval_folder
@@ -560,7 +560,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1011
+		start_year = 1001
 
 		folder = {
 			name = naval_folder
@@ -577,7 +577,7 @@ technologies = {
 		}
 	}
 
-	###------> Old Battleship (1015) <><> <><> <><> <><> <><>
+	###------> Old Battleship (1005) <><> <><> <><> <><> <><>
 
 	advanced_battleship = {
 
@@ -591,7 +591,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1015
+		start_year = 1005
 
 		folder = {
 			name = naval_folder
@@ -622,7 +622,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1007
+		start_year = 997
 
 		folder = {
 			name = naval_folder
@@ -639,7 +639,7 @@ technologies = {
 		}
 	}
 
-	###------> Old Heavy Battleship (1015) <><> <><> <><> <><> <><>
+	###------> Old Heavy Battleship (1005) <><> <><> <><> <><> <><>
 
 	heavy_battleship2 = {
 
@@ -649,7 +649,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1015
+		start_year = 1005
 
 		folder = {
 			name = naval_folder
@@ -679,7 +679,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 993
+		start_year = 983
 
 		folder = {
 			name = naval_folder
@@ -722,7 +722,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1011
+		start_year = 1001
 
 		folder = {
 			name = naval_folder
@@ -745,7 +745,7 @@ technologies = {
 		}
 	}
 
-	###------> Old Landing Craft (1015)<><> <><> <><> <><> <><>
+	###------> Old Landing Craft (1005)<><> <><> <><> <><> <><>
 
 	tank_landing_craft = {
 
@@ -759,7 +759,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1015
+		start_year = 1005
 
 		folder = {
 			name = naval_folder
@@ -801,7 +801,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1000
+		start_year = 990
 
 		folder = {
 			name = naval_folder
@@ -835,7 +835,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1007
+		start_year = 997
 
 		folder = {
 			name = naval_folder
@@ -866,7 +866,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1011
+		start_year = 1001
 
 		folder = {
 			name = naval_folder
@@ -884,7 +884,7 @@ technologies = {
 		}
 	}
 
-	###------> Old Carrier (1015) <><> <><> <><> <><> <><>
+	###------> Old Carrier (1005) <><> <><> <><> <><> <><>
 
 	advanced_carrier = {
 
@@ -894,7 +894,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1015
+		start_year = 1005
 
 		folder = {
 			name = naval_folder
@@ -931,7 +931,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1000
+		start_year = 990
 
 		folder = {
 			name = naval_folder
@@ -961,7 +961,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1007
+		start_year = 997
 
 		folder = {
 			name = naval_folder
@@ -992,7 +992,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1011
+		start_year = 1001
 
 		folder = {
 			name = naval_folder
@@ -1010,7 +1010,7 @@ technologies = {
 		}
 	}
 
-	###------> Old Submarine (1015) <><> <><> <><> <><> <><>
+	###------> Old Submarine (1005) <><> <><> <><> <><> <><>
 
 	advanced_submarine = {
 
@@ -1020,7 +1020,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1015
+		start_year = 1005
 
 		folder = {
 			name = naval_folder
@@ -1038,7 +1038,7 @@ technologies = {
 	}
 	###------> X <><> <><> <><> <><> <><>
 
-	###------> New Landing Craft (1019) (1023) <><> <><> <><> <><> <><>
+	###------> New Landing Craft (1009) (1013) <><> <><> <><> <><> <><>
 
 	semi_modern_landing_craft = {
 
@@ -1052,7 +1052,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1019
+		start_year = 1009
 
 		folder = {
 			name = naval_folder
@@ -1081,7 +1081,7 @@ technologies = {
 		naval_invasion_capacity = 150
 
 		research_cost = 2
-		start_year = 1023
+		start_year = 1013
 
 		folder = {
 			name = naval_folder
@@ -1113,7 +1113,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1007
+		start_year = 997
 
 		# only from focus!!! #####
 		allow = {
