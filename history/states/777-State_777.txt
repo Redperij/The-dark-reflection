@@ -1,12 +1,12 @@
 state={
 	id=777
 	name="STATE_777"
+
 	history={
 		owner = SEV
 		add_core_of = SEV
-
 		victory_points = {
-			11373 20
+			11373 20 
 		}
 		buildings = {
 			infrastructure = 8
@@ -16,10 +16,11 @@ state={
 			air_base = 10
 		}
 	}
+
 	provinces={
-		3332 11354 11373 11442 
+		3332 11265 11354 11373 11442 
 	}
-	manpower=10000000
+	manpower = 10000000
+	buildings_max_level_factor = 1.000
 	state_category = megalopolis
-	buildings_max_level_factor=1.000
 }
