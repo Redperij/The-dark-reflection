@@ -2,8 +2,8 @@ state={
 	id=353
 	name="STATE_353"
 	history={
-		owner = CEL
-		add_core_of = CEL
+		owner = DER
+		add_core_of = DER
 	}
 	provinces={
 		465 945 5649 13291 13306 13397 13409 13410 13449 

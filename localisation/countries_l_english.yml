@@ -44,6 +44,19 @@ CEL_democratic_ADJ:0 "Celestian"
 CEL_neutrality_ADJ:0 "Celestian"
 CEL_communism_ADJ:0 "Celestian"
 
+DER_neutrality:0 "Deer Reservation"
+DER_neutrality_DEF:0 "Deer Reservation"
+DER_fascism:0 "Deer Reservation"
+DER_fascism_DEF:0 "Deer Reservation"
+DER_communism:0 "Deer Reservation"
+DER_communism_DEF:0 "Deer Reservation"
+DER_democratic:0 "Deer Reservation"
+DER_democratic_DEF:0 "Deer Reservation"
+DER_fascism_ADJ:0 "Deer Reservation"
+DER_democratic_ADJ:0 "Deer Reservation"
+DER_neutrality_ADJ:0 "Deer Reservation"
+DER_communism_ADJ:0 "Deer Reservation"
+
 #########################label
 # Former Crystal Empire #
 #########################

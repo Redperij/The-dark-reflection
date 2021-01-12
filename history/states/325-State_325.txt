@@ -6,7 +6,7 @@ state={
 		add_core_of = CEL
 	}
 	provinces={
-		603 13403 13429 13438 13468 
+		603 13403 13429 13438 13468 13497
 	}
 	manpower=1
 	state_category = town

@@ -4,6 +4,7 @@ EQS = "countries/Equestria.txt"
 WHN = "countries/Whinnyapolis.txt"
 WES = "countries/WestEquestrianShore.txt"
 CEL = "countries/Celestia.txt"
+DER = "countries/Deer Reservation.txt"
 #########################
 # Former Crystal Empire #
 CRY = "countries/CrystalEmpire.txt"
