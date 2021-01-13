@@ -4,6 +4,12 @@ state={
 	history={
 		owner = WES
 		add_core_of = WES
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			4991 3
+		}
 	}
 	provinces={
 		4991 13301 13351 13385 

@@ -4,11 +4,20 @@ state={
 	history={
 		owner = WES
 		add_core_of = WES
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			2099 5
+		}
+		victory_points = {
+			13418 3
+		}
 	}
 	provinces={
 		2099 13401 13417 13418 13446 
 	}
-	manpower=1
+	manpower=100000
 	state_category = city
 	buildings_max_level_factor=1.000
 }
