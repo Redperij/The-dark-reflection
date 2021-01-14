@@ -36,6 +36,28 @@ VICTORY_POINTS_13017:0 "San Flankcisco"
 VICTORY_POINTS_12995:0 "North San Flankcisco"
 VICTORY_POINTS_2595:0 "South San Flankcisco"
 #######################################################################
+# Monarchy Of Fykia ###################################################
+#######################################################################
+VICTORY_POINTS_12731:0 "Pintosteyn"
+VICTORY_POINTS_12859:0 "Kerhack"
+VICTORY_POINTS_12875:0 "Maredelcampo"
+VICTORY_POINTS_12570:0 "East Tall Tale"
+VICTORY_POINTS_3049:0 "Tall Tale"
+VICTORY_POINTS_1090:0 "Zgraggentle"
+#######################################################################
+# Kingdom Of Pearls ###################################################
+#######################################################################
+VICTORY_POINTS_12584:0 "South Seaward Shoals"
+VICTORY_POINTS_4749:0 "Seaward Shoals"
+VICTORY_POINTS_12559:0 "Canterelf"
+VICTORY_POINTS_12234:0 "Caparison"
+VICTORY_POINTS_12282:0 "East Caparison"
+VICTORY_POINTS_2758:0 "North Caparison"
+VICTORY_POINTS_11756:0 "Vanhoover"
+VICTORY_POINTS_11906:0 "South Vanhoover"
+VICTORY_POINTS_11699:0 "North Vanhoover"
+VICTORY_POINTS_12162:0 "Cariole"
+#######################################################################
 # Crystal Empire ######################################################
 #######################################################################
 #Crystal city

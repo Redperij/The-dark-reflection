@@ -6,9 +6,9 @@ state={
 		add_core_of = WES
 	}
 	provinces={
-		3270 13280 13352 13386 13394 13395 13425 13426 
+		3270 13280 13352 13386 13394 13395 13425 13426 13333 13288
 	}
-	manpower=1
-	state_category = rural
+	manpower=1000
+	state_category = pastoral
 	buildings_max_level_factor=1.000
 }

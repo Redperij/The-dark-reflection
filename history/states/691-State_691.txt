@@ -8,7 +8,7 @@ state={
 	provinces={
 		759 3851 3938 4686 11770 11907 
 	}
-	manpower=1
-	state_category = town
+	manpower=9200
+	state_category = rural
 	buildings_max_level_factor=1.000
 }
