@@ -1,4 +1,4 @@
-﻿capital = 70
+﻿capital = 682
 
 set_research_slots = 3
 
@@ -31,9 +31,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Agloval"
+	name = "Winter Turnip"
 	desc = ""
-	picture = ""
+	picture = "Winter_Turnip.tga"
 	expire = "2000.1.1"
 	ideology = despotism
 	traits = {

@@ -4,11 +4,18 @@ state={
 	history={
 		owner = BRM
 		add_core_of = BRM
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			12032 10
+		
+		}
 	}
 	provinces={
 		5320 11941 11959 12032 12072 
 	}
-	manpower=1
+	manpower=21000
 	state_category = town
 	buildings_max_level_factor=1.000
 }

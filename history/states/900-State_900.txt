@@ -2,13 +2,22 @@ state={
 	id=900
 	name="STATE_900"
 	history={
-		owner = SOD
-		add_core_of = SOD
+		owner = BRG
+		add_core_of = BRG
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10427 5
+		}
+		victory_points = {
+			5393 10
+		}
 	}
 	provinces={
-		3965 10284 10338 
+		10427 5393 
 	}
-	manpower=1
-	state_category = town
+	manpower=80000
+	state_category = large_town
 	buildings_max_level_factor=1.000
 }

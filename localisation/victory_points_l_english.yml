@@ -45,7 +45,7 @@ VICTORY_POINTS_12570:0 "East Tall Tale"
 VICTORY_POINTS_3049:0 "Tall Tale"
 VICTORY_POINTS_1090:0 "Zgraggentle"
 #######################################################################
-# Kingdom Of Pearls ###################################################
+# Parel ###############################################################
 #######################################################################
 VICTORY_POINTS_12584:0 "South Seaward Shoals"
 VICTORY_POINTS_4749:0 "Seaward Shoals"
@@ -57,6 +57,41 @@ VICTORY_POINTS_11756:0 "Vanhoover"
 VICTORY_POINTS_11906:0 "South Vanhoover"
 VICTORY_POINTS_11699:0 "North Vanhoover"
 VICTORY_POINTS_12162:0 "Cariole"
+VICTORY_POINTS_11727:0 "Salt Lick City"
+#######################################################################
+# Feudatory Acadia ####################################################
+#######################################################################
+VICTORY_POINTS_4387:0 "Saddlebred"
+VICTORY_POINTS_12032:0 "Acadia Bay"
+#######################################################################
+# Wirtdun #############################################################
+#######################################################################
+VICTORY_POINTS_3580:0 "Wirtdun"
+VICTORY_POINTS_4341:0 "West Wirtdun"
+VICTORY_POINTS_3685:0 "Roanrog"
+VICTORY_POINTS_11550:0 "Gharryville"
+VICTORY_POINTS_540:0 "Whitebell"
+VICTORY_POINTS_3864:0 "Salute Lake"
+VICTORY_POINTS_4990:0 "West Salute Lake"
+VICTORY_POINTS_11284:0 "Trinity"
+#######################################################################
+# Acornage ############################################################
+#######################################################################
+VICTORY_POINTS_5393:0 "Acornage"
+VICTORY_POINTS_10427:0 "East Acornage"
+VICTORY_POINTS_620:0 "Briddle"
+VICTORY_POINTS_10942:0 "East Briddle"
+VICTORY_POINTS_10771:0 "Caracol"
+VICTORY_POINTS_1216:0 "Brezding"
+#######################################################################
+# Sorreland ###########################################################
+#######################################################################
+VICTORY_POINTS_10036:0 "Hawk Point"
+VICTORY_POINTS_2267:0 "Turtle Valley"
+VICTORY_POINTS_10489:0 "Foal Locks"
+VICTORY_POINTS_4119:0 "Neighmonton"
+VICTORY_POINTS_1128:0 "East Neighmonton"
+VICTORY_POINTS_2907:0 "Black Deer"
 #######################################################################
 # Crystal Empire ######################################################
 #######################################################################

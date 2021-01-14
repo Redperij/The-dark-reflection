@@ -6,9 +6,9 @@ state={
 		add_core_of = SOD
 	}
 	provinces={
-		3434 3654 5042 10151 10207 10276 10339 10393 10428 
+		3434 3654 5042 10151 10207 10276 10339 10393 10428 3965 10284 10338
 	}
-	manpower=1
-	state_category = town
+	manpower=6000
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

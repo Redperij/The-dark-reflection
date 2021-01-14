@@ -4,11 +4,20 @@ state={
 	history={
 		owner = VRD
 		add_core_of = VRD
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			3864 10
+		}
+		victory_points = {
+			4990 5
+		}
 	}
 	provinces={
 		3812 3864 4990 11052 
 	}
-	manpower=1
+	manpower=40000
 	state_category = town
 	buildings_max_level_factor=1.000
 }
