@@ -75,7 +75,7 @@ KDW_democratic_ADJ:0 ""
 KDW_neutrality_ADJ:0 ""
 KDW_communism_ADJ:0 ""
 
-AED_neutrality:0 "Aedirn"
+AED_neutrality:0 "Ametrin"
 AED_neutrality_DEF:0 ""
 AED_fascism:0 ""
 AED_fascism_DEF:0 ""
@@ -88,20 +88,20 @@ AED_democratic_ADJ:0 ""
 AED_neutrality_ADJ:0 ""
 AED_communism_ADJ:0 ""
 
-DOL_neutrality:0 "Dol Blathanna"
+DOL_neutrality:0 "Changelings Enclave"
 DOL_neutrality_DEF:0 ""
 DOL_fascism:0 ""
 DOL_fascism_DEF:0 ""
 DOL_communism:0 ""
 DOL_communism_DEF:0 ""
-DOL_democratic:0 "Dol Blathanna"
+DOL_democratic:0 "Changelings Enclave"
 DOL_democratic_DEF:0 ""
 DOL_fascism_ADJ:0 ""
 DOL_democratic_ADJ:0 ""
 DOL_neutrality_ADJ:0 ""
 DOL_communism_ADJ:0 ""
 
-LAR_neutrality:0 "Lyria and Rivia"
+LAR_neutrality:0 "Lopia and Roania"
 LAR_neutrality_DEF:0 ""
 LAR_fascism:0 ""
 LAR_fascism_DEF:0 ""
@@ -369,7 +369,7 @@ ZAR_communism_ADJ:0 "Zarechje"
 ##################label
 # West Equestria #
 ##################
-#ANG in replace/tdr_eaw_countries_overrides_l_english.yml
+#ANG in replace/eaw_griffon_continent_countries_overrides_l_english.yml
 
 VRD_neutrality:0 "Wirtdun"
 VRD_neutrality_DEF:0 ""

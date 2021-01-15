@@ -6,7 +6,7 @@ state={
 		add_core_of = GEM
 	}
 	provinces={
-		2357 3528 3816 5173 5624 8359 8407 8489 8563 8581 8607 8669 
+		2357 3528 3816 5173 5624 8359 8407 8489 8563 8581 8607 8669
 	}
 	manpower=920
 	state_category = pastoral

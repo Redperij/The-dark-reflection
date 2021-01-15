@@ -4,11 +4,17 @@ state={
 	history={
 		owner = AED
 		add_core_of = AED
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			10772 1
+		}
 	}
 	provinces={
 		798 5297 10439 10578 10629 10655 10656 10693 10705 10772 
 	}
-	manpower=1
-	state_category = town
+	manpower=2757
+	state_category = pastoral
 	buildings_max_level_factor=1.000
 }

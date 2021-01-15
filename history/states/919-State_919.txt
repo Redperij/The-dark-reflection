@@ -4,11 +4,18 @@ state={
 	history={
 		owner = LAR
 		add_core_of = LAR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			981 3
+		
+		}
 	}
 	provinces={
 		485 981 5009 9991 10031 10040 10067 10117 10165 10187 10242 
 	}
-	manpower=1
+	manpower=12000
 	state_category = town
 	buildings_max_level_factor=1.000
 }

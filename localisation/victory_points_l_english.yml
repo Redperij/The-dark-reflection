@@ -83,6 +83,7 @@ VICTORY_POINTS_620:0 "Briddle"
 VICTORY_POINTS_10942:0 "East Briddle"
 VICTORY_POINTS_10771:0 "Caracol"
 VICTORY_POINTS_1216:0 "Brezding"
+VICTORY_POINTS_10692:0 "Burnt Stump"
 #######################################################################
 # Sorreland ###########################################################
 #######################################################################
@@ -92,6 +93,43 @@ VICTORY_POINTS_10489:0 "Foal Locks"
 VICTORY_POINTS_4119:0 "Neighmonton"
 VICTORY_POINTS_1128:0 "East Neighmonton"
 VICTORY_POINTS_2907:0 "Black Deer"
+#######################################################################
+# Swangern ############################################################
+#######################################################################
+VICTORY_POINTS_2361:0 "Red Wagon"
+VICTORY_POINTS_9770:0 "Marginzingen"
+VICTORY_POINTS_10319:0 "Coltgary"
+VICTORY_POINTS_10370:0 "East Coltgary"
+#######################################################################
+# Lopia and Roania ####################################################
+#######################################################################
+VICTORY_POINTS_9828:0 "Lopia"
+VICTORY_POINTS_4299:0 "East Lopia"
+VICTORY_POINTS_10257:0 "Roania"
+VICTORY_POINTS_10341:0 "South Roania"
+VICTORY_POINTS_981:0 "Kingfilly"
+VICTORY_POINTS_9606:0 "Shining Tree"
+VICTORY_POINTS_4809:0 "Mustangborg"
+VICTORY_POINTS_1921:0 "Bella Bronco"
+#######################################################################
+# Ametrin #############################################################
+#######################################################################
+VICTORY_POINTS_10888:0 "Evergreen"
+VICTORY_POINTS_10851:0 "Quebuck"
+VICTORY_POINTS_10773:0 "North Quebuck"
+VICTORY_POINTS_171:0 "East Quebuck"
+VICTORY_POINTS_471:0 "South Quebuck"
+VICTORY_POINTS_3571:0 "Canterine"
+VICTORY_POINTS_10772:0 "Little Gold"
+VICTORY_POINTS_602:0 "Yellowfork"
+VICTORY_POINTS_3031:0 "Horsefly"
+#######################################################################
+# Changelings Enclave #################################################
+#######################################################################
+VICTORY_POINTS_3603:0 "South Stockade"
+VICTORY_POINTS_5155:0 "North Stockade"
+VICTORY_POINTS_9883:0 "Ruins"
+VICTORY_POINTS_1530:0 "Camp"
 #######################################################################
 # Crystal Empire ######################################################
 #######################################################################

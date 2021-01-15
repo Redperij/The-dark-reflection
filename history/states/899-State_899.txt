@@ -6,7 +6,7 @@ state={
 		add_core_of = BRG
 	}
 	provinces={
-		648 2671 4462 10306 10358 10457 10539 10601 10613 10692 
+		648 2671 4462 10306 10358 10457 10539 10601 10613 
 	}
 	manpower=9000
 	state_category = rural

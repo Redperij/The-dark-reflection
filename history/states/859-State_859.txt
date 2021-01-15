@@ -4,11 +4,23 @@ state={
 	history={
 		owner = DOL
 		add_core_of = DOL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			3603 1
+		}
+		victory_points = {
+			9883 1
+		}
+		victory_points = {
+			1530 1
+		}
 	}
 	provinces={
-		1530 2023 2190 3538 3603 4157 5517 9883 10167 10210 
+		1530 2190 3538 3603 5517 9883 10167 10210 
 	}
-	manpower=1
-	state_category = town
+	manpower=350000
+	state_category = pastoral
 	buildings_max_level_factor=1.000
 }
