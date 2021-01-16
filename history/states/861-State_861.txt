@@ -1,9 +1,15 @@
 state={
 	id=861
-	name="STATE_861"
+	name="Cozy Nook"
 	history={
 		owner = KDW
 		add_core_of = KDW
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			10670 1
+		}
 	}
 	provinces={
 		3548 4890 5549 5576 10447 10533 10579 10605 10669 10670 4604

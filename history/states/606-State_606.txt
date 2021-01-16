@@ -1,9 +1,16 @@
 state={
 	id=606
-	name="STATE_606"
+	name="Crickhollow"
 	history={
 		owner = RED
 		add_core_of = RED
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			12434 1
+		}
+
 	}
 	provinces={
 		1123 3555 4031 4174 12434 12440 12479 12528 12529 12560 12574 12612 

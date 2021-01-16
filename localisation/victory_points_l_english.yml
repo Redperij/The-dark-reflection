@@ -131,6 +131,38 @@ VICTORY_POINTS_5155:0 "North Stockade"
 VICTORY_POINTS_9883:0 "Ruins"
 VICTORY_POINTS_1530:0 "Camp"
 #######################################################################
+# Order of Belladonna-Branch ##########################################
+#######################################################################
+VICTORY_POINTS_5461:0 "Hedgewards"
+VICTORY_POINTS_11520:0 "North Hedgewards"
+VICTORY_POINTS_11688:0 "South Hedgewards"
+VICTORY_POINTS_2682:0 "West Ponytown"
+VICTORY_POINTS_10764:0 "Snowybury"
+VICTORY_POINTS_10708:0 "North Snowybury"
+VICTORY_POINTS_1907:0 "Vanderhoof"
+VICTORY_POINTS_1108:0 "East Vanderhoof"
+VICTORY_POINTS_11416:0 "Hope"
+VICTORY_POINTS_10670:0 "Cozy Nook"
+VICTORY_POINTS_4345:0 "Belt"
+VICTORY_POINTS_10908:0 "Saddle Butte"
+VICTORY_POINTS_11581:0 "Yellow Grass"
+#######################################################################
+# Farthings ###########################################################
+#######################################################################
+VICTORY_POINTS_3149:0 "Shire"
+VICTORY_POINTS_12530:0 "North Shire"
+VICTORY_POINTS_12620:0 "West Shire"
+VICTORY_POINTS_12522:0 "Shire Outskirts"
+VICTORY_POINTS_12690:0 "Bindbole Wood"
+VICTORY_POINTS_12277:0 "Whitfurrows"
+VICTORY_POINTS_2309:0 "North Whitfurrows"
+VICTORY_POINTS_1657:0 "South Whitfurrows"
+VICTORY_POINTS_5407:0 "Bucklebury"
+VICTORY_POINTS_12434:0 "Crickhollow"
+VICTORY_POINTS_5062:0 "Longbottom"
+VICTORY_POINTS_12474:0 "Tuckborough"
+
+#######################################################################
 # Crystal Empire ######################################################
 #######################################################################
 #Crystal city

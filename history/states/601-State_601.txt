@@ -8,7 +8,7 @@ state={
 	provinces={
 		154 5541 12621 12634 12651 12681 12735 12794 
 	}
-	manpower=1
-	state_category = town
+	manpower=911
+	state_category = pastoral
 	buildings_max_level_factor=1.000
 }

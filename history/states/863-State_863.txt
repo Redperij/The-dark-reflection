@@ -1,9 +1,18 @@
 state={
 	id=863
-	name="STATE_863"
+	name="Vanderhoof"
 	history={
 		owner = KDW
 		add_core_of = KDW
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			1907 3
+		}
+		victory_points = {
+			1108 2
+		}
 	}
 	provinces={
 		1108 1907 

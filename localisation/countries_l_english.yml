@@ -62,7 +62,7 @@ DER_communism_ADJ:0 "Deer Reservation"
 #########################
 #CRY in replace/tdr_eaw_countries_overrides_l_english.yml
 
-KDW_neutrality:0 "Kaedwen"
+KDW_neutrality:0 "Order of Belladonna-Branch"
 KDW_neutrality_DEF:0 ""
 KDW_fascism:0 ""
 KDW_fascism_DEF:0 ""
@@ -436,7 +436,7 @@ SOD_democratic_ADJ:0 ""
 SOD_neutrality_ADJ:0 ""
 SOD_communism_ADJ:0 ""
 
-RED_neutrality:0 "Redania"
+RED_neutrality:0 "Farthings"
 RED_neutrality_DEF:0 ""
 RED_fascism:0 ""
 RED_fascism_DEF:0 ""
