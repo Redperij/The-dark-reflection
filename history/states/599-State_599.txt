@@ -1,14 +1,22 @@
 state={
 	id=599
-	name="STATE_599"
+	name="White Bridge"
 	history={
 		owner = RED
 		add_core_of = RED
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			12989 1
+		}
+
+
 	}
 	provinces={
 		558 1115 2733 3504 12921 12987 12988 12989 13015 13055 13076 
 	}
-	manpower=860
-	state_category = pastoral
+	manpower=16427
+	state_category = town
 	buildings_max_level_factor=1.000
 }

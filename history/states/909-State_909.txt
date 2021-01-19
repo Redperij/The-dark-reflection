@@ -1,14 +1,22 @@
 state={
 	id=909
-	name="STATE_909"
+	name="Marexandria"
 	history={
 		owner = ELD
 		add_core_of = ELD
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10552 3
+		}
+
+
 	}
 	provinces={
 		374 2615 5516 10551 10552 10562 10570 10628 10637 10724 10752 10795 
 	}
-	manpower=1
+	manpower=35712
 	state_category = town
 	buildings_max_level_factor=1.000
 }

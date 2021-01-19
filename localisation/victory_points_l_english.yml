@@ -161,7 +161,39 @@ VICTORY_POINTS_5407:0 "Bucklebury"
 VICTORY_POINTS_12434:0 "Crickhollow"
 VICTORY_POINTS_5062:0 "Longbottom"
 VICTORY_POINTS_12474:0 "Tuckborough"
-
+VICTORY_POINTS_12989:0 "White Bridge"
+#######################################################################
+# Dragon City #########################################################
+#######################################################################
+VICTORY_POINTS_5280:0 "Drakenborg"
+VICTORY_POINTS_12709:0 "Dragon City"
+VICTORY_POINTS_12759:0 "Ridensford"
+#######################################################################
+# Montecanter #########################################################
+#######################################################################
+VICTORY_POINTS_11238:0 "Toll Gate"
+VICTORY_POINTS_314:0 "Montecanter"
+VICTORY_POINTS_11491:0 "Little Apples"
+VICTORY_POINTS_2602:0 "Sunnyside"
+VICTORY_POINTS_11973:0 "Greenwater"
+#######################################################################
+# Lopesiana ###########################################################
+#######################################################################
+VICTORY_POINTS_4893:0 "Horseveport"
+VICTORY_POINTS_254:0 "Foal Swamps"
+VICTORY_POINTS_10552:0 "Marexandria"
+#######################################################################
+# Gallopia ############################################################
+#######################################################################
+#VICTORY_POINTS_4893:0 "Horseveport"
+#VICTORY_POINTS_4893:0 "Horseveport"
+#VICTORY_POINTS_4893:0 "Horseveport"
+#VICTORY_POINTS_4893:0 "Horseveport"
+#VICTORY_POINTS_4893:0 "Horseveport"
+#VICTORY_POINTS_4893:0 "Horseveport"
+#VICTORY_POINTS_4893:0 "Horseveport"
+#VICTORY_POINTS_4893:0 "Horseveport"
+#VICTORY_POINTS_4893:0 "Horseveport"
 #######################################################################
 # Crystal Empire ######################################################
 #######################################################################

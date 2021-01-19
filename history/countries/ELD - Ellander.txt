@@ -1,4 +1,4 @@
-﻿capital = 70
+﻿capital = 909
 
 set_research_slots = 3
 
@@ -33,7 +33,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Hereward"
 	desc = ""
-	picture = ""
+	picture = "template_0.tga"
 	expire = "2000.1.1"
 	ideology = despotism
 	traits = {

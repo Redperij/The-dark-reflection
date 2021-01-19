@@ -1,14 +1,24 @@
 state={
 	id=605
-	name="STATE_605"
+	name="Dragon city"
 	history={
 		owner = DRA
 		add_core_of = DRA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			5280 1
+		}
+		victory_points = {
+			12709 3
+		}
+
 	}
 	provinces={
 		736 2507 5046 5280 5612 12603 12611 12643 12674 12709 12761 12770 
 	}
-	manpower=1
+	manpower=24538
 	state_category = town
 	buildings_max_level_factor=1.000
 }
