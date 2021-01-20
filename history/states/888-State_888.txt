@@ -1,14 +1,21 @@
 state={
 	id=888
-	name="STATE_888"
+	name="Emerald Creek"
 	history={
 		owner = TEM
 		add_core_of = TEM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			3974 3
+		}
+
 	}
 	provinces={
 		1126 3974 4838 11064 
 	}
-	manpower=1
+	manpower=13975
 	state_category = town
 	buildings_max_level_factor=1.000
 }

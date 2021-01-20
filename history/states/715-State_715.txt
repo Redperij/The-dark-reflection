@@ -1,14 +1,32 @@
 state={
 	id=715
-	name="STATE_715"
+	name="Horselena"
 	history={
 		owner = TEM
 		add_core_of = TEM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4754 10
+		}
+		victory_points = {
+			11308 5
+		}
+		victory_points = {
+			11108 5
+		}
+		victory_points = {
+			11186 5
+		}
+		victory_points = {
+			11285 5
+		}
 	}
 	provinces={
 		4754 11108 11186 11285 11308 
 	}
-	manpower=1
-	state_category = town
+	manpower=862671
+	state_category = large_city
 	buildings_max_level_factor=1.000
 }

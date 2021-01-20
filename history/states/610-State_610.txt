@@ -6,9 +6,9 @@ state={
 		add_core_of = TEM
 	}
 	provinces={
-		3103 11943 11961 11991 12012 12020 12021 
+		3103 11943 11961 11991 12012 12020 12021 11855
 	}
-	manpower=1
-	state_category = town
+	manpower=780
+	state_category = pastoral
 	buildings_max_level_factor=1.000
 }

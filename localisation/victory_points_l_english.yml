@@ -185,15 +185,30 @@ VICTORY_POINTS_10552:0 "Marexandria"
 #######################################################################
 # Gallopia ############################################################
 #######################################################################
-#VICTORY_POINTS_4893:0 "Horseveport"
-#VICTORY_POINTS_4893:0 "Horseveport"
-#VICTORY_POINTS_4893:0 "Horseveport"
-#VICTORY_POINTS_4893:0 "Horseveport"
-#VICTORY_POINTS_4893:0 "Horseveport"
-#VICTORY_POINTS_4893:0 "Horseveport"
-#VICTORY_POINTS_4893:0 "Horseveport"
-#VICTORY_POINTS_4893:0 "Horseveport"
-#VICTORY_POINTS_4893:0 "Horseveport"
+VICTORY_POINTS_4754:0 "Horselena"
+VICTORY_POINTS_11308:0 "South Horselena"
+VICTORY_POINTS_11285:0 "West Horselena"
+VICTORY_POINTS_11108:0 "Horselena Inland port"
+VICTORY_POINTS_12237:0 "Yonderhill"
+VICTORY_POINTS_12290:0 "South Yonderhill"
+VICTORY_POINTS_824:0 "East Yonderhill"
+VICTORY_POINTS_5698:0 "Mariposa"
+VICTORY_POINTS_74:0 "West Mariposa"
+VICTORY_POINTS_11813:0 "South Mariposa"
+VICTORY_POINTS_3974:0 "Emerald Creek"
+VICTORY_POINTS_11830:0 "Sundale"
+VICTORY_POINTS_12010:0 "Greenhorn"
+VICTORY_POINTS_11701:0 "Override"
+VICTORY_POINTS_4250:0 "Richland"
+VICTORY_POINTS_11831:0 "Bridlle"
+VICTORY_POINTS_3334:0 "Hoofington"
+VICTORY_POINTS_10926:0 "Bridlenna"
+#######################################################################
+# Coursing ############################################################
+#######################################################################
+VICTORY_POINTS_12406:0 "Steedchester"
+VICTORY_POINTS_12265:0 "Cheyneigh"
+VICTORY_POINTS_12459:0 "Trottort"
 #######################################################################
 # Crystal Empire ######################################################
 #######################################################################

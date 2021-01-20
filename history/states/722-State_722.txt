@@ -1,14 +1,21 @@
 state={
 	id=722
-	name="STATE_722"
+	name="Bridlle"
 	history={
 		owner = TEM
 		add_core_of = TEM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			11831 1
+		}
+
 	}
 	provinces={
 		3423 4467 11631 11757 11793 11794 11831 11899 12011 
 	}
-	manpower=1
+	manpower=17456
 	state_category = town
 	buildings_max_level_factor=1.000
 }

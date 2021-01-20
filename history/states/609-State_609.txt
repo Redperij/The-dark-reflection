@@ -1,14 +1,27 @@
 state={
 	id=609
-	name="STATE_609"
+	name="Mariposa"
 	history={
 		owner = TEM
 		add_core_of = TEM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			5698 15
+		}
+		victory_points = {
+			74 3
+		}
+		victory_points = {
+			11813 2
+		}
+
 	}
 	provinces={
-		74 5698 11813 11855 
+		74 5698 11813
 	}
-	manpower=1
-	state_category = town
+	manpower=175145
+	state_category = city
 	buildings_max_level_factor=1.000
 }
