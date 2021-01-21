@@ -13302,7 +13302,7 @@
 13301;200;138;201;land;false;plains;1
 13302;237;196;242;land;false;forest;1
 13303;180;152;228;land;false;forest;1
-13304;72;206;241;land;false;urban;1
+13304;72;206;241;land;false;plains;1
 13305;67;221;240;land;false;urban;1
 13306;208;222;99;land;false;forest;1
 13307;151;235;169;land;false;mountain;1
@@ -13372,7 +13372,7 @@
 13371;145;192;221;land;true;plains;1
 13372;233;240;76;land;false;forest;1
 13373;210;164;241;land;false;plains;1
-13374;212;249;249;land;false;urban;1
+13374;212;249;249;land;false;plains;1
 13375;185;140;233;land;false;plains;1
 13376;163;232;196;land;false;plains;1
 13377;202;163;203;land;true;plains;1

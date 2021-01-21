@@ -1,6 +1,6 @@
 state={
 	id=366
-	name="STATE_366"
+	name="Aphidburg"
 	history={
 		owner = WES
 		add_core_of = WES
@@ -14,7 +14,7 @@ state={
 	provinces={
 		4991 13301 13351 13385 
 	}
-	manpower=14000
+	manpower=19964
 	state_category = town
 	buildings_max_level_factor=1.000
 }
