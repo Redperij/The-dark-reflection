@@ -5,10 +5,11 @@ state={
 	history={
 		owner = SEV
 		add_core_of = SEV
+
 	}
 
 	provinces={
-		2655 4007 11640 11660 11693 11724 11778 11803 11865 
+		2655 4007 11574 11640 11660 11693 11724 11778 11803 11865 
 	}
 	manpower = 1
 	buildings_max_level_factor = 1.000

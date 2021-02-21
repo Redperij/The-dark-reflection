@@ -4,6 +4,10 @@ state={
 	history={
 		owner = LDC
 		add_core_of = LDC
+
+		victory_points = {
+			4292 15 
+		}
 	}
 	provinces={
 		4292 4410 8317 8352 8402 

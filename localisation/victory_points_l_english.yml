@@ -218,10 +218,10 @@ VICTORY_POINTS_4342:0 "Crystal City"
 VICTORY_POINTS_7123:0 "Crystal City"
 VICTORY_POINTS_10594:0 "Crystal City"
 VICTORY_POINTS_7855:0 "Crystal City"
-VICTORY_POINTS_11109:0 "Crystal City Outskirts"
-VICTORY_POINTS_10929:0 "Crystal City Outskirts"
-VICTORY_POINTS_11078:0 "Crystal City Outskirts"
-VICTORY_POINTS_11143:0 "Crystal City Outskirts"
+VICTORY_POINTS_248:0 "North Crystal City Outskirts"
+VICTORY_POINTS_10929:0 "West Crystal City Outskirts"
+VICTORY_POINTS_11078:0 "South Crystal City Outskirts"
+VICTORY_POINTS_8053:0 "East Crystal City Outskirts"
 
 # Other cities
 
@@ -246,28 +246,35 @@ VICTORY_POINTS_2651:0 "Porridge Town"
 VICTORY_POINTS_11373:0 "St. Petershoof"
 VICTORY_POINTS_11354:0 "Petergof"
 VICTORY_POINTS_3332:0 "Petershoof Airport"
-VICTORY_POINTS_11265:0 "East Petershoof"
-VICTORY_POINTS_11442:0 "South Petershoof"
+VICTORY_POINTS_11265:0 "Nevnogorod"
+VICTORY_POINTS_11442:0 "Tailney"
+VICTORY_POINTS_11204:0 "Sekretaril'sk"
+VICTORY_POINTS_2360:0 "Volkovo"
+VICTORY_POINTS_11372:0 "Shamburg"
+VICTORY_POINTS_1711:0 "Avrora Port"
+VICTORY_POINTS_5144:0 "Kyetown"
 
 # Ravenskoye
-VICTORY_POINTS_10479:0 "Ravensky Port"
 VICTORY_POINTS_10618:0 "Ravenskoye"
-VICTORY_POINTS_5610:0 "West Ravenskoye"
+VICTORY_POINTS_10479:0 "Ravensky Port"
 
 # Severgrad
 VICTORY_POINTS_10796:0 "Severgrad"
-VICTORY_POINTS_4925:0 "East Severgrad"
-VICTORY_POINTS_10745:0 "West Severgrad"
+VICTORY_POINTS_4925:0 "Severianskiy"
+VICTORY_POINTS_10745:0 "Ivangrad"
 
 # Zayatsk
-VICTORY_POINTS_10297:0 "Zayatsk Mines"
-VICTORY_POINTS_79:0 "South Zayatsk"
 VICTORY_POINTS_10315:0 "Zayatsk"
+VICTORY_POINTS_10297:0 "Snezhinka"
+VICTORY_POINTS_79:0 "Zayatsk Mines"
+
+# Sedlovsk
+VICTORY_POINTS_1768:0 "Sedlovsk"
+VICTORY_POINTS_2970:0 "Sedlovsk Port"
 
 # Other cities
 VICTORY_POINTS_3264:0 "Stavropon"
-VICTORY_POINTS_11254:0 "North Severokholm"
-VICTORY_POINTS_4599:0 "South Severokholm"
+VICTORY_POINTS_4599:0 "Severokholm"
 VICTORY_POINTS_11624:0 "Krasnoye Serdtse"
 VICTORY_POINTS_25:0 "Somland"
 VICTORY_POINTS_12244:0 "Zelenogradsk"
@@ -275,45 +282,44 @@ VICTORY_POINTS_11984:0 "Mirazh"
 VICTORY_POINTS_12129:0 "Tikhorechenskoye"
 VICTORY_POINTS_199:0 "Bordo"
 VICTORY_POINTS_12120:0 "Kobilkyno"
-VICTORY_POINTS_4369:0 "Novokopitsk"
+VICTORY_POINTS_4369:0 "Novochernushsk"
+VICTORY_POINTS_1542:0 "Novokopitsk"
 VICTORY_POINTS_11883:0 "Baical"
 VICTORY_POINTS_394:0 "Severskoye"
 VICTORY_POINTS_11299:0 "East Porridge Town"
-VICTORY_POINTS_11638:0 "Novochernushsk"
-VICTORY_POINTS_4725:0 "East Novochernushsk"
-VICTORY_POINTS_5132:0 "West Krupochkino"
-VICTORY_POINTS_5346:0 "East Krupochkino"
+VICTORY_POINTS_11638:0 "Krupochkino"
+VICTORY_POINTS_5132:0 "White Wheat"
 VICTORY_POINTS_3549:0 "Nizhny Novokopitsk"
 VICTORY_POINTS_11338:0 "Skakunsk"
-VICTORY_POINTS_2970:0 "South Sedlovsk"
-VICTORY_POINTS_1768:0 "Sedlovsk"
 VICTORY_POINTS_4808:0 "Pluga"
 VICTORY_POINTS_10895:0 "West Trottingham"
 VICTORY_POINTS_10896:0 "East Trottingham"
 VICTORY_POINTS_10676:0 "Sladkiy"
 VICTORY_POINTS_3227:0 "Konzan"
-VICTORY_POINTS_10674:0 "Revoltsovo"
-VICTORY_POINTS_2108:0 "East Revoltsovo"
+VICTORY_POINTS_2108:0 "Revoltsovo"
 VICTORY_POINTS_4:0 "West Revoltsovo"
-VICTORY_POINTS_11011:0 "Stremiaslavl"
+VICTORY_POINTS_11011:0 "Nevozovsk"
 VICTORY_POINTS_10696:0 "St. Altidiysk"
-VICTORY_POINTS_2895:0 "Koshkino"
+VICTORY_POINTS_2895:0 "Krasivsk"
 VICTORY_POINTS_9805:0 "Heringsdorf"
 VICTORY_POINTS_9849:0 "Town Up North"
 VICTORY_POINTS_9978:0 "Novocrystal'sk"
+VICTORY_POINTS_3345:0 "Sirius"
 
 #######################################################################
 # Nova Griffonia ######################################################
 #######################################################################
-VICTORY_POINTS_13510:0 "Chicoltgo"
-VICTORY_POINTS_3917:0 "West Chicoltgo"
 
-#######################################################################
-# Nova Griffonia ######################################################
-#######################################################################
 # Weter
 
 # Other cities
-
-#VICTORY_POINTS_:0 "Lüderclaw"
+VICTORY_POINTS_4292:0 "Lüderclaw"
 #VICTORY_POINTS_:0 ""
+
+#######################################################################
+# Manehattan Confederation ############################################
+#######################################################################
+
+# CHI - Chicoltgo
+VICTORY_POINTS_13510:0 "Chicoltgo"
+VICTORY_POINTS_3917:0 "West Chicoltgo"
