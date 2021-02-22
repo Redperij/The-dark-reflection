@@ -5,6 +5,22 @@ state={
 	history={
 		owner = SEV
 		add_core_of = SEV
+
+		victory_points = {
+			10435 20
+		}
+		victory_points = {
+			2672 1
+		}
+		victory_points = {
+			1435 1
+		}
+		victory_points = {
+			654 1
+		}
+		victory_points = {
+			10281 1
+		}
 	}
 
 	provinces={
@@ -12,5 +28,5 @@ state={
 	}
 	manpower = 1
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = city
 }

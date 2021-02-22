@@ -7,6 +7,12 @@ state={
 		owner = SEV
 		add_core_of = SEV
 
+		victory_points = {
+			10260 5
+		}
+		victory_points = {
+			3815 1
+		}
 	}
 
 	provinces={
