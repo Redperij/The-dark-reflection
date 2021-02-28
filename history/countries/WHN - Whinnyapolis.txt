@@ -31,9 +31,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Discord"
+	name = "Discord P.Sullivan"
 	desc = ""
-	picture = ""
+	picture = "normal_discord.tga"
 	expire = "5000.1.1"
 	ideology = despotism
 	traits = {

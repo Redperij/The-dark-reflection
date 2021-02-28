@@ -42,9 +42,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Princess Mi Amore Cadenza"
+	name = "Princess Mi Amore Cadance"
 	desc = ""
-	picture = "Cadence.tga"
+	picture = "Cadance.tga"
 	expire = "2000.1.1"
 	ideology = neofeudalism
 	female = yes
