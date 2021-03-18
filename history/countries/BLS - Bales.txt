@@ -31,7 +31,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Somepony"
+	name = "Merciless Gerechtigkeit"
 	desc = ""
 	picture = ""
 	expire = "2000.1.1"
