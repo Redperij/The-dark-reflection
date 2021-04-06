@@ -5,8 +5,8 @@
 #####################
 #EQS in replace/tdr_eaw_countries_overrides_l_english.yml
 
-WHN_neutrality:0 "Protectorate Whinnyapolis"
-WHN_neutrality_DEF:0 "Protectorate Whinnyapolis"
+WHN_neutrality:0 "Governorate Whinnyapolis"
+WHN_neutrality_DEF:0 "Governorate Whinnyapolis"
 WHN_fascism:0 ""
 WHN_fascism_DEF:0 ""
 WHN_communism:0 ""

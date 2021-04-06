@@ -1,9 +1,12 @@
 state={
 	id=565
-	name="STATE_565"
+	name="Hippogriffe-Falls"
 	history={
 		owner = WHN
 		add_core_of = WHN
+			victory_points = {
+			12293 10
+		}
 	}
 	provinces={
 		2423 5209 12293 

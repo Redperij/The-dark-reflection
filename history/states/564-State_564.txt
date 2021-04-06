@@ -1,14 +1,26 @@
 state={
 	id=564
-	name="STATE_564"
+	name="Whinnysota"
 	history={
 		owner = WHN
 		add_core_of = WHN
+		victory_points = {
+			3835 20
+		}
+		victory_points = {
+			4528 5
+		}
+		victory_points = {
+			2797 3
+		}
+		victory_points = {
+			1740 2
+		}
 	}
 	provinces={
-		1740 3566 3835 4528 
+		3835 4528 2797 1740
 	}
-	manpower=1000000
-	state_category = large_city
+	manpower=1927500
+	state_category = metropolis
 	buildings_max_level_factor=1.000
 }

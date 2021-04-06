@@ -1,14 +1,17 @@
 state={
 	id=629
-	name="STATE_629"
+	name="Dappleluth"
 	history={
 		owner = WHN
 		add_core_of = WHN
+			victory_points = {
+			2334 5
+		}
 	}
 	provinces={
 		2334 11714 11891 
 	}
-	manpower=1
-	state_category = town
+	manpower=329819
+	state_category = large_city
 	buildings_max_level_factor=1.000
 }
