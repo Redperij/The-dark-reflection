@@ -4,6 +4,19 @@ state={
 	history={
 		owner = MRF
 		add_core_of = MRF
+
+		victory_points = {
+			1638 20
+	    }
+		victory_points = {
+			9346 5
+	    }
+		victory_points = {
+			3229 5
+	    }
+		victory_points = {
+			9266 5
+	    }
 	}
 	provinces={
 		1638 3229 9266 9346 

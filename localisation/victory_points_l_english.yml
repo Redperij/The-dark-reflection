@@ -402,13 +402,94 @@ VICTORY_POINTS_11233:0 "Loshadsk"
 #######################################################################
 # Nova Griffonia ######################################################
 #######################################################################
-#Weter
-
-VICTORY_POINTS_4292:0 "Lüderclaw"
 #VICTORY_POINTS_:0 ""
+
+#GRF - Nova Griffonia
+VICTORY_POINTS_8721:0 "Gänsegeierburg" #Gänsegeierburg
+VICTORY_POINTS_1488:0 "West Gänsegeierburg"
+VICTORY_POINTS_4428:0 "South Gänsegeierburg"
+VICTORY_POINTS_8044:0 "Federstadt" #Federstadt
+VICTORY_POINTS_7713:0 "Bounnois" #Bounnois
+VICTORY_POINTS_4548:0 "River Bounnois"
+VICTORY_POINTS_1497:0 "Guidonuovo" #Guidonuovo
+VICTORY_POINTS_7575:0 "STATE_1284" #STATE_1284
+VICTORY_POINTS_1651:0 "STATE_1270" #STATE_1270
+VICTORY_POINTS_2556:0 "East STATE_1270"
+VICTORY_POINTS_7700:0 "South STATE_1270"
+VICTORY_POINTS_3432:0 "Frosthill" #Frosthill
+
+#GFF - Frontier
+VICTORY_POINTS_4936:0 "Tsasbaatar" #Tsasbaatar
+VICTORY_POINTS_7464:0 "West Tsasbaatar"
+VICTORY_POINTS_7440:0 "East Tsasbaatar"
+VICTORY_POINTS_7648:0 "Röhrig" #Röhrig
+VICTORY_POINTS_7649:0 "East Röhrig"
+VICTORY_POINTS_7606:0 "Bruchhagen" #Bruchhagen
+
+#ALH - Alexhafen
+VICTORY_POINTS_7371:0 "Alexhafen" #Alexhafen
+
+#BFJ - Boreasfjord
+VICTORY_POINTS_7873:0 "Boreasfjord" #Boreasfjord
+VICTORY_POINTS_7882:0 "Boreasfjord Port"
+
+#WET - Weter
+VICTORY_POINTS_8484:0 "Weter" #Weter
+VICTORY_POINTS_8527:0 "West Weter"
+VICTORY_POINTS_8616:0 "South Weter"
+VICTORY_POINTS_8560:0 "Weter Port"
+VICTORY_POINTS_5628:0 "Industrial Weter"
+VICTORY_POINTS_8446:0 "North Weter"
+
+#LDC - Lüderclaw
+VICTORY_POINTS_4292:0 "Lüderclaw" #Lüderclaw
+
+#PLV - Plume Ville
+VICTORY_POINTS_4648:0 "Plume Ville" #Plume Ville
+
+#NWG - Ny Winghagen
+VICTORY_POINTS_10038:0 "Ny Winghagen" #Ny Winghagen
+VICTORY_POINTS_10102:0 "South Winghagen"
+VICTORY_POINTS_1179:0 "North Winghagen"
+
+#CNC - Northern Cities
+VICTORY_POINTS_2620:0 "STATE_995" #STATE_995
+VICTORY_POINTS_7185:0 "STATE_996" #STATE_996
+VICTORY_POINTS_6922:0 "STATE_999" #STATE_999
+VICTORY_POINTS_7128:0 "STATE_997" #STATE_997
+VICTORY_POINTS_78:0 "STATE_993" #STATE_993
+VICTORY_POINTS_5655:0 "STATE_988" #STATE_988
+VICTORY_POINTS_456:0 "STATE_987" #STATE_987
+VICTORY_POINTS_6483:0 "Groenstein" #Groenstein
+VICTORY_POINTS_6512:0 "STATE_991" #STATE_991
+VICTORY_POINTS_6160:0 "STATE_1013" #STATE_1013
+
+#MOR - Morien
+VICTORY_POINTS_6797:0 "STATE_1017" #STATE_1017
+
+#GLF - Griffonian Liberation Front
+VICTORY_POINTS_1477:0 "Kluv Khot" #Kluv Khot
+VICTORY_POINTS_9062:0 "East Kluv Khot"
+VICTORY_POINTS_1464:0 "Nieuw Mirabelle" #Nieuw Mirabelle
+VICTORY_POINTS_3817:0 "Mörön" #Mörön
+VICTORY_POINTS_9045:0 "Holy Jak grove"
+VICTORY_POINTS_8872:0 "Uchte" #Uchte
+VICTORY_POINTS_4356:0 "West Uchte"
+
+#MRF - Monarchist Restoration Front
+VICTORY_POINTS_3065:0 "Zerkshed Skäll" #Zerkshed Skäll
+VICTORY_POINTS_9047:0 "North Zerkshed Skäll"
+VICTORY_POINTS_9079:0 "East Zerkshed Skäll"
+VICTORY_POINTS_1638:0 "Nouveau Aquila" #Nouveau Aquila
+VICTORY_POINTS_9346:0 "West Nouveau Aquila"
+VICTORY_POINTS_3229:0 "North Nouveau Aquila"
+VICTORY_POINTS_9266:0 "Nouveau Aquila Port"
+VICTORY_POINTS_8833:0 "Klauwitz" #Klauwitz
+
 #######################################################################
 # Manehattan Confederation ############################################
 #######################################################################
+#VICTORY_POINTS_:0 ""
 #CHI - Chicoltgo
 VICTORY_POINTS_13510:0 "Chicoltgo"
 VICTORY_POINTS_3917:0 "West Chicoltgo"

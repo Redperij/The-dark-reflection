@@ -4,6 +4,16 @@ state={
 	history={
 		owner = NWN
 		add_core_of = NWN
+
+		victory_points = {
+			10038 20
+	    }
+		victory_points = {
+			10102 5
+	    }
+		victory_points = {
+			1179 5
+	    }
 	}
 	provinces={
 		775 1135 1179 3787 4178 4649 10038 10102 

@@ -4,6 +4,25 @@ state={
 	history={
 		owner = WET
 		add_core_of = WET
+
+		victory_points = {
+			8484 20
+	    }
+		victory_points = {
+			8527 5
+	    }
+		victory_points = {
+			8616 5
+	    }
+		victory_points = {
+			8560 5
+	    }
+		victory_points = {
+			5628 1
+	    }
+		victory_points = {
+			8446 1
+	    }
 	}
 	provinces={
 		5628 8446 8484 8527 8560 8616 
