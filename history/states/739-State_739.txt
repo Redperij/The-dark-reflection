@@ -4,6 +4,10 @@ state={
 	history={
 		owner = ZAR
 		add_core_of = ZAR
+
+		victory_points = {
+			2787 5
+	    }
 	}
 	provinces={
 		2787 4186 5554 12259 

@@ -1,6 +1,6 @@
 state={
 	id=543
-	name="Lonesand"
+	name="STATE_543"
 	history={
 		owner = WHN
 		add_core_of = WHN

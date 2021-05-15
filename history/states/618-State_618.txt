@@ -1,6 +1,6 @@
 state={
 	id=618
-	name="Greenwater"
+	name="STATE_618"
 	history={
 		owner = MON
 		add_core_of = MON

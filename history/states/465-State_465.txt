@@ -4,6 +4,16 @@ state={
 	history={
 		owner = BRI
 		add_core_of = BRI
+
+		victory_points = {
+			155 20
+	    }
+		victory_points = {
+			3275 5
+	    }
+		victory_points = {
+			5105 5
+	    }
 	}
 	provinces={
 		155 3275 5105 

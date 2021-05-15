@@ -1,6 +1,6 @@
 state={
 	id=433
-	name="Ridensford"
+	name="STATE_433"
 	history={
 		owner = DRA
 		add_core_of = DRA

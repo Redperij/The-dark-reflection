@@ -1,6 +1,6 @@
 state={
 	id=722
-	name="Bridlle"
+	name="STATE_722"
 	history={
 		owner = TEM
 		add_core_of = TEM

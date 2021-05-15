@@ -1,6 +1,6 @@
 state={
 	id=711
-	name="Override"
+	name="STATE_711"
 	history={
 		owner = TEM
 		add_core_of = TEM

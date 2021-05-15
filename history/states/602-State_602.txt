@@ -1,6 +1,6 @@
 state={
 	id=602
-	name="Tuckborough"
+	name="STATE_602"
 	history={
 		owner = RED
 		add_core_of = RED

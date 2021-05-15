@@ -1,6 +1,6 @@
 state={
 	id=621
-	name="Burnsville"
+	name="STATE_621"
 	history={
 		owner = WHN
 		add_core_of = WHN

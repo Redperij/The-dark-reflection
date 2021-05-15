@@ -263,6 +263,7 @@ VICTORY_POINTS_3598:0 "South-West Hjortland"
 #######################################################################
 # Severiana ###########################################################
 #######################################################################
+#SEV - Severiana
 VICTORY_POINTS_11373:0 "St. Petershoof" #St. Petershoof
 VICTORY_POINTS_11354:0 "Petergof"
 VICTORY_POINTS_3332:0 "Petershoof Airport"
@@ -309,7 +310,6 @@ VICTORY_POINTS_10660:0 "Devyatka"
 VICTORY_POINTS_10642:0 "Upstream village"
 VICTORY_POINTS_9805:0 "Heringsdorf" #Heringsdorf
 VICTORY_POINTS_9849:0 "Town Up North" #Town Up North
-VICTORY_POINTS_9978:0 "Novocrystal'sk" #Novocrystal'sk
 VICTORY_POINTS_3345:0 "Sirius" #Azkaban
 VICTORY_POINTS_11126:0 "Mayakovskiy" #Drozdniy
 VICTORY_POINTS_11060:0 "Kobylki"
@@ -370,40 +370,33 @@ VICTORY_POINTS_10100:0 "Zvezdopadovo" #Zvezdopadovo
 VICTORY_POINTS_9953:0 "Starryskiy Mine"
 VICTORY_POINTS_10008:0 "Prevozmogalovo"
 VICTORY_POINTS_2601:0 "Arctichik"
-
 VICTORY_POINTS_10852:0 "Polovskiy" #Polovskiy
 VICTORY_POINTS_10883:0 "Cheestopol"
 VICTORY_POINTS_1864:0 "Owovka"
-
 VICTORY_POINTS_11180:0 "Smovskoy" #Smovskoy
 VICTORY_POINTS_11157:0 "Leonsk"
-
 VICTORY_POINTS_59:0 "Muffinskoye" #Muffinskoye
 VICTORY_POINTS_11359:0 "Vilnia"
 VICTORY_POINTS_11353:0 "Gybloye"
-
 VICTORY_POINTS_11134:0 "Hoofbeat Town" #Hoofbeat
 VICTORY_POINTS_11122:0 "Zhukovka"
 VICTORY_POINTS_372:0 "Lesopilkino"
-
 VICTORY_POINTS_5077:0 "Ensk" #Enskiy Okrug
 VICTORY_POINTS_10869:0 "Rekagrad"
-
 VICTORY_POINTS_10687:0 "Cherryabinsk" #Cherryabinsk
 VICTORY_POINTS_2375:0 "Milklovka"
 VICTORY_POINTS_10830:0 "Lyulino"
 VICTORY_POINTS_2932:0 "Pivno"
-
 VICTORY_POINTS_2890:0 "Bukhovo" #Bukhovo
 VICTORY_POINTS_4626:0 "Vishnepon'"
-
 VICTORY_POINTS_3005:0 "Bezdna" #Bezdna
 VICTORY_POINTS_11233:0 "Loshadsk"
+#STL - Starlight's Town
+VICTORY_POINTS_9978:0 "Novocrystal'sk" #Novocrystal'sk
 #######################################################################
 # Nova Griffonia ######################################################
 #######################################################################
 #VICTORY_POINTS_:0 ""
-
 #GRF - Nova Griffonia
 VICTORY_POINTS_8721:0 "Gänsegeierburg" #Gänsegeierburg
 VICTORY_POINTS_1488:0 "West Gänsegeierburg"
@@ -417,7 +410,6 @@ VICTORY_POINTS_1651:0 "STATE_1270" #STATE_1270
 VICTORY_POINTS_2556:0 "East STATE_1270"
 VICTORY_POINTS_7700:0 "South STATE_1270"
 VICTORY_POINTS_3432:0 "Frosthill" #Frosthill
-
 #GFF - Frontier
 VICTORY_POINTS_4936:0 "Tsasbaatar" #Tsasbaatar
 VICTORY_POINTS_7464:0 "West Tsasbaatar"
@@ -425,14 +417,11 @@ VICTORY_POINTS_7440:0 "East Tsasbaatar"
 VICTORY_POINTS_7648:0 "Röhrig" #Röhrig
 VICTORY_POINTS_7649:0 "East Röhrig"
 VICTORY_POINTS_7606:0 "Bruchhagen" #Bruchhagen
-
 #ALH - Alexhafen
 VICTORY_POINTS_7371:0 "Alexhafen" #Alexhafen
-
 #BFJ - Boreasfjord
 VICTORY_POINTS_7873:0 "Boreasfjord" #Boreasfjord
 VICTORY_POINTS_7882:0 "Boreasfjord Port"
-
 #WET - Weter
 VICTORY_POINTS_8484:0 "Weter" #Weter
 VICTORY_POINTS_8527:0 "West Weter"
@@ -440,18 +429,14 @@ VICTORY_POINTS_8616:0 "South Weter"
 VICTORY_POINTS_8560:0 "Weter Port"
 VICTORY_POINTS_5628:0 "Industrial Weter"
 VICTORY_POINTS_8446:0 "North Weter"
-
 #LDC - Lüderclaw
 VICTORY_POINTS_4292:0 "Lüderclaw" #Lüderclaw
-
 #PLV - Plume Ville
 VICTORY_POINTS_4648:0 "Plume Ville" #Plume Ville
-
 #NWG - Ny Winghagen
 VICTORY_POINTS_10038:0 "Ny Winghagen" #Ny Winghagen
 VICTORY_POINTS_10102:0 "South Winghagen"
 VICTORY_POINTS_1179:0 "North Winghagen"
-
 #CNC - Northern Cities
 VICTORY_POINTS_2620:0 "STATE_995" #STATE_995
 VICTORY_POINTS_7185:0 "STATE_996" #STATE_996
@@ -463,10 +448,8 @@ VICTORY_POINTS_456:0 "STATE_987" #STATE_987
 VICTORY_POINTS_6483:0 "Groenstein" #Groenstein
 VICTORY_POINTS_6512:0 "STATE_991" #STATE_991
 VICTORY_POINTS_6160:0 "STATE_1013" #STATE_1013
-
 #MOR - Morien
 VICTORY_POINTS_6797:0 "STATE_1017" #STATE_1017
-
 #GLF - Griffonian Liberation Front
 VICTORY_POINTS_1477:0 "Kluv Khot" #Kluv Khot
 VICTORY_POINTS_9062:0 "East Kluv Khot"
@@ -475,7 +458,6 @@ VICTORY_POINTS_3817:0 "Mörön" #Mörön
 VICTORY_POINTS_9045:0 "Holy Jak grove"
 VICTORY_POINTS_8872:0 "Uchte" #Uchte
 VICTORY_POINTS_4356:0 "West Uchte"
-
 #MRF - Monarchist Restoration Front
 VICTORY_POINTS_3065:0 "Zerkshed Skäll" #Zerkshed Skäll
 VICTORY_POINTS_9047:0 "North Zerkshed Skäll"
@@ -493,3 +475,73 @@ VICTORY_POINTS_8833:0 "Klauwitz" #Klauwitz
 #CHI - Chicoltgo
 VICTORY_POINTS_13510:0 "Chicoltgo"
 VICTORY_POINTS_3917:0 "West Chicoltgo"
+#DPP - Dappleshore
+VICTORY_POINTS_13593:0 "Dappleshore" #Dappleshore
+VICTORY_POINTS_5058:0 "Dappleshore Port"
+#TTL - Tail Tale
+VICTORY_POINTS_13463:0 "Tail Tale" #Tail Tale
+VICTORY_POINTS_13445:0 "East Tail Tale"
+VICTORY_POINTS_3260:0 "STATE_448" #STATE_448
+VICTORY_POINTS_13226:0 "STATE_466" #STATE_466
+VICTORY_POINTS_3166:0 "STATE_467" #STATE_467
+#BLS - Bales
+VICTORY_POINTS_5398:0 "Bales" #Bales
+VICTORY_POINTS_2077:0 "North Bales"
+VICTORY_POINTS_12814:0 "West Bales"
+VICTORY_POINTS_13130:0 "STATE_502" #STATE_502
+VICTORY_POINTS_3607:0 "Manesbury" #Manesbury
+VICTORY_POINTS_3201:0 "Hollow Shades" #Hollow Shades
+#FRM - Foallerminster
+VICTORY_POINTS_12825:0 "Foallerminster" #Foallerminster
+VICTORY_POINTS_12979:0 "STATE_494" #STATE_494
+VICTORY_POINTS_3276:0 "STATE_469" #STATE_469
+#BRI - Bridlepolis
+VICTORY_POINTS_155:0 "Bridlepolis" #Bridlepolis
+VICTORY_POINTS_3275:0 "North Bridlepolis"
+VICTORY_POINTS_5105:0 "South Bridlepolis"
+#MAN - Manehattan
+VICTORY_POINTS_13279:0 "Manehattan" #Manehattan
+VICTORY_POINTS_13328:0 "South Manehattan"
+VICTORY_POINTS_5520:0 "West Manehattan"
+VICTORY_POINTS_2443:0 "North Manehattan"
+#MHT - Manehatan
+VICTORY_POINTS_13213:0 "Manehatan" #Manehatan
+#SUM - Summerfield
+VICTORY_POINTS_1471:0 "Summerfield" #Summerfield
+VICTORY_POINTS_13188:0 "South Summerfield"
+#STR - Stratusburg
+VICTORY_POINTS_4995:0 "Stratusburg" #Stratusburg
+#GLP - Gallopolis
+VICTORY_POINTS_2884:0 "Gallopolis" #Gallopolis
+VICTORY_POINTS_12557:0 "South Gallopolis"
+VICTORY_POINTS_12493:0 "North Gallopolis"
+#ZAR - Zarechje
+VICTORY_POINTS_905:0 "Veliky Southgorod" #Veliky Southgorod
+VICTORY_POINTS_2787:0 "Kobyliakovo" #Kobyliakovo
+VICTORY_POINTS_12036:0 "Ponchiki" #Ponchiki
+#HRF - Hornfield
+VICTORY_POINTS_12457:0 "Hornfield" #Hornfield
+#DET - Detrot
+VICTORY_POINTS_12719:0 "Detrot" #Detrot
+#PRA - Prance
+VICTORY_POINTS_874:0 "Prance" #Prance
+VICTORY_POINTS_12688:0 "STATE_457" #STATE_457
+VICTORY_POINTS_753:0 "STATE_736" #STATE_736
+#ALB - Albion
+VICTORY_POINTS_12689:0 "Albion" #Albion
+VICTORY_POINTS_12367:0 "Lesnoye" #Lesnoye
+#FRV - Fairville
+VICTORY_POINTS_13180:0 "Fairville" #Fairville
+#MNT - Moontown
+VICTORY_POINTS_13126:0 "Moontown" #Moontown
+VICTORY_POINTS_13149:0 "Moontown Port"
+#CNT - Canterbury
+VICTORY_POINTS_5336:0 "Canterbury" #Canterbury
+VICTORY_POINTS_13085:0 "South Canterbury"
+#NCN - North Canterbury
+VICTORY_POINTS_12985:0 "North Canterbury" #North Canterbury
+#FIL - Fillydelphia
+VICTORY_POINTS_13631:0 "Fillydelphia" #Fillydelphia
+VICTORY_POINTS_3716:0 "Fillydelphia Port"
+VICTORY_POINTS_4638:0 "West Fillydelphia"
+VICTORY_POINTS_13653:0 "South Fillydelphia"

@@ -4,6 +4,16 @@ state={
 	history={
 		owner = GLP
 		add_core_of = GLP
+
+		victory_points = {
+			2884 20
+	    }
+		victory_points = {
+			12557 5
+	    }
+		victory_points = {
+			12493 5
+	    }
 	}
 	provinces={
 		2884 12493 12557 
