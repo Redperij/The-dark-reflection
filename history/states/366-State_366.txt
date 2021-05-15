@@ -1,6 +1,6 @@
 state={
 	id=366
-	name="Aphidburg"
+	name="STATE_366"
 	history={
 		owner = WES
 		add_core_of = WES

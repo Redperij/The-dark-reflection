@@ -1,6 +1,6 @@
 state={
 	id=565
-	name="Hippogriffe-Falls"
+	name="STATE_565"
 	history={
 		owner = WHN
 		add_core_of = WHN

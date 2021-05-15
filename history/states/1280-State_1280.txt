@@ -4,6 +4,10 @@ state={
 	history={
 		owner = GRF
 		add_core_of = GRF
+
+		victory_points = {
+			1497 10
+	    }
 	}
 	provinces={
 		1497 7830 8005 

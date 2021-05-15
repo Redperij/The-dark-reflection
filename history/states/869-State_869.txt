@@ -1,6 +1,6 @@
 state={
 	id=869
-	name="Hope"
+	name="STATE_869"
 	history={
 		owner = KDW
 		add_core_of = KDW

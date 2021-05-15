@@ -1,6 +1,6 @@
 state={
 	id=606
-	name="Crickhollow"
+	name="STATE_606"
 	history={
 		owner = RED
 		add_core_of = RED
@@ -15,7 +15,7 @@ state={
 	provinces={
 		1123 3555 4031 4174 12434 12440 12479 12528 12529 12560 12574 12612 12461 12473 5389
 	}
-	manpower=192s81
+	manpower=19281
 	state_category = town
 	buildings_max_level_factor=1.000
 }

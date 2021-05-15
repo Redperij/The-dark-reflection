@@ -4,6 +4,10 @@ state={
 	history={
 		owner = PRA
 		add_core_of = PRA
+
+		victory_points = {
+			874 20
+	    }
 	}
 	provinces={
 		874 1459 5074 

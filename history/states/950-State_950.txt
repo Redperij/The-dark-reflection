@@ -7,6 +7,15 @@ state={
 		owner = MRF
 		add_core_of = MRF
 
+		victory_points = {
+			3065 20
+	    }
+		victory_points = {
+			9047 5
+	    }
+		victory_points = {
+			9079 5
+	    }
 	}
 
 	provinces={

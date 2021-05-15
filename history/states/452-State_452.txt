@@ -4,6 +4,10 @@ state={
 	history={
 		owner = FRV
 		add_core_of = FRV
+
+		victory_points = {
+			13180 5
+	    }
 	}
 	provinces={
 		13180 

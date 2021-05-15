@@ -4,6 +4,13 @@ state={
 	history={
 		owner = GFF
 		add_core_of = GFF
+
+		victory_points = {
+			7648 10
+	    }
+		victory_points = {
+			7649 5
+	    }
 	}
 	provinces={
 		1715 1810 7648 7649 
