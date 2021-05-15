@@ -1,6 +1,6 @@
 state={
 	id=884
-	name="Hoofington"
+	name="STATE_884"
 	history={
 		owner = TEM
 		add_core_of = TEM

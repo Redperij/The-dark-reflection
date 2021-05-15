@@ -1,6 +1,6 @@
 state={
 	id=909
-	name="Marexandria"
+	name="STATE_909"
 	history={
 		owner = ELD
 		add_core_of = ELD

@@ -4,6 +4,10 @@ state={
 	history={
 		owner = TTL
 		add_core_of = TTL
+
+		victory_points = {
+			3260 5
+	    }
 	}
 	provinces={
 		1359 3260 3792 13266 13330 13392 

@@ -1,6 +1,6 @@
 state={
 	id=364
-	name="Fleatsam"
+	name="STATE_364"
 	history={
 		owner = WES
 		add_core_of = WES

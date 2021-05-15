@@ -4,6 +4,10 @@ state={
 	history={
 		owner = WLD
 		add_core_of = WLD
+	
+		victory_points = {
+			4465 5
+	    }
 	}
 	provinces={
 		3875 4465 5004 6870 6918 6961 7002 

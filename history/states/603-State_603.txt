@@ -1,6 +1,6 @@
 state={
 	id=603
-	name="Longbottom"
+	name="STATE_603"
 	history={
 		owner = RED
 		add_core_of = RED

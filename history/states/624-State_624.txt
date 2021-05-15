@@ -1,6 +1,6 @@
 state={
 	id=624
-	name="Cheyneigh"
+	name="STATE_624"
 	history={
 		owner = CAR
 		add_core_of = CAR

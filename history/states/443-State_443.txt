@@ -4,6 +4,13 @@ state={
 	history={
 		owner = DPP
 		add_core_of = DPP
+
+		victory_points = {
+			13593 15
+	    }
+		victory_points = {
+			5058 5
+	    }
 	}
 	provinces={
 		5058 5577 13593 

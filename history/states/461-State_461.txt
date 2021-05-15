@@ -4,6 +4,7 @@ state={
 	history={
 		owner = CNT
 		add_core_of = CNT
+		add_core_of = NCN
 	}
 	provinces={
 		2013 2518 13003 13063 

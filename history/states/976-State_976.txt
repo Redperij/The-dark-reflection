@@ -4,6 +4,13 @@ state={
 	history={
 		owner = BFJ
 		add_core_of = BFJ
+
+		victory_points = {
+			7873 10
+	    }
+		victory_points = {
+			7882 5
+	    }
 	}
 	provinces={
 		7785 7797 7873 7882 7939 7951 

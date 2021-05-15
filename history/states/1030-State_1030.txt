@@ -4,6 +4,19 @@ state={
 	history={
 		owner = ALC
 		add_core_of = ALC
+
+		victory_points = {
+			6150 20
+	    }
+		victory_points = {
+			1465 20
+	    }
+		victory_points = {
+			6171 20
+	    }
+		victory_points = {
+			6200 20
+	    }
 	}
 	provinces={
 		1465 6150 6171 6200 

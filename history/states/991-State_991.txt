@@ -4,6 +4,10 @@ state={
 	history={
 		owner = CNC
 		add_core_of = CNC
+
+		victory_points = {
+			6512 5
+	    }
 	}
 	provinces={
 		198 206 701 6456 6512 
