@@ -545,3 +545,40 @@ VICTORY_POINTS_13631:0 "Fillydelphia" #Fillydelphia
 VICTORY_POINTS_3716:0 "Fillydelphia Port"
 VICTORY_POINTS_4638:0 "West Fillydelphia"
 VICTORY_POINTS_13653:0 "South Fillydelphia"
+
+#######################################################################
+# Far North ###########################################################
+#######################################################################
+#VICTORY_POINTS_:0 ""
+#DMD - Diamondia
+VICTORY_POINTS_7000:0 "Diamondia" #Diamondia
+VICTORY_POINTS_6969:0 "East Diamondia"
+#WLD - Wilderness
+VICTORY_POINTS_4465:0 "Sverdrup" #Sverdrup
+#AMN - Amundsen
+VICTORY_POINTS_5799:0 "Amundsen" #Amundsen
+#PNG - Kingdom of Pingland
+VICTORY_POINTS_5829:0 "STATE_1010" #STATE_1010
+VICTORY_POINTS_5870:0 "STATE_1010 Port"
+VICTORY_POINTS_5816:0 "Nansen" #Nansen
+#PNR - Pingland Republic
+VICTORY_POINTS_5790:0 "Dachaigh" #Dachaigh
+VICTORY_POINTS_5733:0 "Noth Dachaigh"
+VICTORY_POINTS_5767:0 "West Dachaigh"
+VICTORY_POINTS_5779:0 "Dachaigh Port"
+VICTORY_POINTS_5823:0 "South Dachaigh"
+VICTORY_POINTS_6183:0 "Ingstad" #Ingstad
+VICTORY_POINTS_6229:0 "West Ingstad"
+VICTORY_POINTS_3088:0 "Ingstad Port"
+#ALC - Alicornia
+VICTORY_POINTS_6150:0 "?" #Undiscovered city
+VICTORY_POINTS_1465:0 "?"
+VICTORY_POINTS_6171:0 "?"
+VICTORY_POINTS_6200:0 "?"
+#PLB - Polar Bear Communities
+VICTORY_POINTS_6310:0 "Mathair Fearainn" #Mathair Fearainn
+VICTORY_POINTS_6584:0 "STATE_1300" #STATE_1300
+VICTORY_POINTS_6630:0 " East STATE_1300"
+VICTORY_POINTS_1946:0 "STATE_1310" #STATE_1310
+VICTORY_POINTS_:0 "STATE_1111" #STATE_1111
+VICTORY_POINTS_:0 "STATE_1111 Port"
