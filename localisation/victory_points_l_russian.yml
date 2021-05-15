@@ -1,6 +1,12 @@
-l_russian:
- VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
- VICTORY_POINTS_179:0 "Кантерлот"
+﻿l_russian:
+VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
+#######################################################################
+# Equestria ###########################################################
+#######################################################################
+VICTORY_POINTS_13268:0 "Кантерслотский Дворец" #Canterlot
+VICTORY_POINTS_13257:0 "Кантерлот"
+VICTORY_POINTS_13211:0 "Северный Кантерлот"
+VICTORY_POINTS_13297:0 "Южный Кантерлот"
 #######################################################################
 # Governorate Whinnyapolis ############################################
 #######################################################################
@@ -37,3 +43,540 @@ VICTORY_POINTS_12317:0 "Баркфилд"
 VICTORY_POINTS_3193:0 "Дюфрост"
 VICTORY_POINTS_12094:0 "Хилс Гроув"
 VICTORY_POINTS_2424:0 "Касл Дейнджер"
+#######################################################################
+# West Equestrian Shore ###############################################
+#######################################################################
+VICTORY_POINTS_5453:0 "Новый Весалиполис"
+VICTORY_POINTS_13134:0 "Южный Новый Весалиполис"
+VICTORY_POINTS_13088:0 "Западный Новый Весалиполис"
+VICTORY_POINTS_13043:0 "Северный Новый Весалиполис"
+VICTORY_POINTS_13098:0 "Восточный Новый Весалиполис"
+VICTORY_POINTS_2099:0 "Малиновая Роща"
+VICTORY_POINTS_13418:0 "Западная Малиновая Роща"
+VICTORY_POINTS_13305:0 "Колорадо"
+VICTORY_POINTS_13304:0 "Западное Колорадо"
+VICTORY_POINTS_13374:0 "Южное Колорадо"
+VICTORY_POINTS_4912:0 "Флитзам"
+VICTORY_POINTS_4991:0 "Апхидбург"
+VICTORY_POINTS_13255:0 "Майтфилд"
+VICTORY_POINTS_13086:0 "Эпплвуд"
+VICTORY_POINTS_13017:0 "Сан Фланкциско"
+VICTORY_POINTS_12995:0 "Северный Сан Фланкциско"
+VICTORY_POINTS_2595:0 "Южный Сан Фланкциско"
+#######################################################################
+# Monarchy Of Fykia ###################################################
+#######################################################################
+VICTORY_POINTS_12731:0 "Пинтоштейн"
+VICTORY_POINTS_12859:0 "Керхак"
+VICTORY_POINTS_12875:0 "Мэйрделькампо"
+VICTORY_POINTS_12570:0 "Восточный Толл Тейл"
+VICTORY_POINTS_3049:0 "Толл Тейл"
+VICTORY_POINTS_1090:0 "Граджентл"
+#######################################################################
+# Parel ###############################################################
+#######################################################################
+VICTORY_POINTS_12584:0 "Южный Сивард Шоалс"
+VICTORY_POINTS_4749:0 "Сивард Шоалс"
+VICTORY_POINTS_12559:0 "Кантерельф"
+VICTORY_POINTS_12234:0 "Капарисон"
+VICTORY_POINTS_12282:0 "Восточный Капарисон"
+VICTORY_POINTS_2758:0 "Северный Капарисон"
+VICTORY_POINTS_11756:0 "Ванхувер"
+VICTORY_POINTS_11906:0 "Южный Ванхувер"
+VICTORY_POINTS_11699:0 "Северный Ванхувер"
+VICTORY_POINTS_12162:0 "Кариоле"
+VICTORY_POINTS_11727:0 "Солт-Лик-Сити"
+#######################################################################
+# Feudatory Acadia ####################################################
+#######################################################################
+VICTORY_POINTS_4387:0 "Саддлбрэд"
+VICTORY_POINTS_12032:0 "Акадия Бэй"
+#######################################################################
+# Wirtdun #############################################################
+#######################################################################
+VICTORY_POINTS_3580:0 "Виртдун"
+VICTORY_POINTS_4341:0 "Западный Виртдун"
+VICTORY_POINTS_3685:0 "Роанрог"
+VICTORY_POINTS_11550:0 "Гхарривилль"
+VICTORY_POINTS_540:0 "Уайтбелл"
+VICTORY_POINTS_3864:0 "Салют Лэйк"
+VICTORY_POINTS_4990:0 "Западный Салют Лейк"
+VICTORY_POINTS_11284:0 "Тринити"
+#######################################################################
+# Acornage ############################################################
+#######################################################################
+VICTORY_POINTS_5393:0 "Акорнейдж"
+VICTORY_POINTS_10427:0 "Восточный Акорнейдж"
+VICTORY_POINTS_620:0 "Бриддл"
+VICTORY_POINTS_10942:0 "Восточный Бриддл"
+VICTORY_POINTS_10771:0 "Каракол"
+VICTORY_POINTS_1216:0 "Брездинг"
+VICTORY_POINTS_10692:0 "Бёрнт Стамп"
+#######################################################################
+# Sorreland ###########################################################
+#######################################################################
+VICTORY_POINTS_10036:0 "Хавк Поинт"
+VICTORY_POINTS_2267:0 "Туртл Вэлли"
+VICTORY_POINTS_10489:0 "Фоал Локс"
+VICTORY_POINTS_4119:0 "Нейтмонтон"
+VICTORY_POINTS_1128:0 "Восточный Нейтмонтон"
+VICTORY_POINTS_2907:0 "Блэк Дир"
+#######################################################################
+# Swangern ############################################################
+#######################################################################
+VICTORY_POINTS_2361:0 "Красная Биндюга"
+VICTORY_POINTS_9770:0 "Маргинзинген"
+VICTORY_POINTS_10319:0 "Кольтгэри"
+VICTORY_POINTS_10370:0 "Восточный Кольтгэри"
+#######################################################################
+# Lopia and Roania ####################################################
+#######################################################################
+VICTORY_POINTS_9828:0 "Лопия"
+VICTORY_POINTS_4299:0 "Восточная Лопия"
+VICTORY_POINTS_10257:0 "Роания"
+VICTORY_POINTS_10341:0 "Южная Роания"
+VICTORY_POINTS_981:0 "Кингфилли"
+VICTORY_POINTS_9606:0 "Шайнинг Три"
+VICTORY_POINTS_4809:0 "Мустангборг"
+VICTORY_POINTS_1921:0 "Бэлла Бронко"
+#######################################################################
+# Ametrin #############################################################
+#######################################################################
+VICTORY_POINTS_10888:0 "Эвергрин"
+VICTORY_POINTS_10851:0 "Квебак"
+VICTORY_POINTS_10773:0 "Северный Квебак"
+VICTORY_POINTS_171:0 "Восточный Квебак"
+VICTORY_POINTS_471:0 "Южный Квебак"
+VICTORY_POINTS_3571:0 "Кантерин"
+VICTORY_POINTS_10772:0 "Литтл Голд"
+VICTORY_POINTS_602:0 "Йеллоуфорк"
+VICTORY_POINTS_3031:0 "Хорсфлай"
+#######################################################################
+# Changelings Enclave #################################################
+#######################################################################
+VICTORY_POINTS_3603:0 "Южный Частокол"
+VICTORY_POINTS_5155:0 "Северный Частокол"
+VICTORY_POINTS_9883:0 "Руины"
+VICTORY_POINTS_1530:0 "Лагерь"
+#######################################################################
+# Order of Belladonna-Branch ##########################################
+#######################################################################
+VICTORY_POINTS_5461:0 "Хэджвардс"
+VICTORY_POINTS_11520:0 "Северный Хэджвардс"
+VICTORY_POINTS_11688:0 "Южный Хэджвардс"
+VICTORY_POINTS_2682:0 "Западный Понитаун"
+VICTORY_POINTS_10764:0 "Сноуибьюри"
+VICTORY_POINTS_10708:0 "Северный Сноуибьюри"
+VICTORY_POINTS_1907:0 "Вондерхуф"
+VICTORY_POINTS_1108:0 "Восточный Вондерхуф"
+VICTORY_POINTS_11416:0 "Хоуп"
+VICTORY_POINTS_10670:0 "Коузи Нук"
+VICTORY_POINTS_4345:0 "Бэлт"
+VICTORY_POINTS_10908:0 "Саддл Баттэ"
+VICTORY_POINTS_11581:0 "Йеллоу Грасс"
+#######################################################################
+# Farthings ###########################################################
+#######################################################################
+VICTORY_POINTS_3149:0 "Шир"
+VICTORY_POINTS_12530:0 "Северный Шир"
+VICTORY_POINTS_12620:0 "Западный Шир"
+VICTORY_POINTS_12522:0 "Пригород Шира"
+VICTORY_POINTS_12690:0 "Байндбол Вуд"
+VICTORY_POINTS_12277:0 "Витфарроус"
+VICTORY_POINTS_2309:0 "Северный Витфарроус"
+VICTORY_POINTS_1657:0 "Южный Витфарроус"
+VICTORY_POINTS_5407:0 "Бакклбьюри"
+VICTORY_POINTS_12434:0 "Крикхоллоу"
+VICTORY_POINTS_5062:0 "Лонгботтом"
+VICTORY_POINTS_12474:0 "Такбороу"
+VICTORY_POINTS_12989:0 "Вайт Бридж"
+#######################################################################
+# Dragon City #########################################################
+#######################################################################
+VICTORY_POINTS_5280:0 "Дракенборг"
+VICTORY_POINTS_12709:0 "Драгон Сити"
+VICTORY_POINTS_12759:0 "Риденсфьорд"
+#######################################################################
+# Montecanter #########################################################
+#######################################################################
+VICTORY_POINTS_11238:0 "Толл Гейт"
+VICTORY_POINTS_314:0 "Монтэкантер"
+VICTORY_POINTS_11491:0 "Литтл Эпплс"
+VICTORY_POINTS_2602:0 "Саннисайд"
+VICTORY_POINTS_11973:0 "Гринуотер"
+#######################################################################
+# Lopesiana ###########################################################
+#######################################################################
+VICTORY_POINTS_4893:0 "Хорсэверпорт"
+VICTORY_POINTS_254:0 "Фоал Свомпс"
+VICTORY_POINTS_10552:0 "Мэйрксандрия"
+#######################################################################
+# Gallopia ############################################################
+#######################################################################
+VICTORY_POINTS_4754:0 "Хорслеана"
+VICTORY_POINTS_11308:0 "Южная Хорслеана"
+VICTORY_POINTS_11285:0 "Западная Хорслеана"
+VICTORY_POINTS_11108:0 "Хорслеанский Внутренний Порт"
+VICTORY_POINTS_12237:0 "Йондерхилл"
+VICTORY_POINTS_12290:0 "Южный Йондерхилл"
+VICTORY_POINTS_824:0 "Восточный Йондерхилл"
+VICTORY_POINTS_5698:0 "Марипоза"
+VICTORY_POINTS_74:0 "Западная Марипоза"
+VICTORY_POINTS_11813:0 "Южная Марипоза"
+VICTORY_POINTS_3974:0 "Эмеральд Крик"
+VICTORY_POINTS_11830:0 "Сандейл"
+VICTORY_POINTS_12010:0 "Гринхорн"
+VICTORY_POINTS_11701:0 "Оверрайд"
+VICTORY_POINTS_4250:0 "Ричлэнд"
+VICTORY_POINTS_11831:0 "Бридлль"
+VICTORY_POINTS_3334:0 "Хуфингтон"
+VICTORY_POINTS_10926:0 "Бридленна"
+#######################################################################
+# Coursing ############################################################
+#######################################################################
+VICTORY_POINTS_12406:0 "Стидчестэр"
+VICTORY_POINTS_12265:0 "Чейнейт"
+VICTORY_POINTS_12459:0 "Тротторт"
+#######################################################################
+# Crystal Empire ######################################################
+#######################################################################
+VICTORY_POINTS_2793:0 "Кристальный Замок" #Crystal city
+VICTORY_POINTS_4342:0 "Кристальный Город"
+VICTORY_POINTS_7123:0 "Кристальный Город"
+VICTORY_POINTS_10594:0 "Кристальный Город"
+VICTORY_POINTS_7855:0 "Кристальный Город"
+VICTORY_POINTS_248:0 "Северные Окраины Кристального Города"
+VICTORY_POINTS_10929:0 "Западные Окраины Кристального Города"
+VICTORY_POINTS_11078:0 "Южные Окраины Кристального Города"
+VICTORY_POINTS_8053:0 "Восточные Окраины Кристального Города"
+VICTORY_POINTS_2651:0 "Порридж Таун" #Porridge Town
+#######################################################################
+# Olenia ##############################################################
+#######################################################################
+VICTORY_POINTS_12458:0 "Дворец Хьёртланда" #Hjortland
+VICTORY_POINTS_5673:0 "Восточный Хьёртланд"
+VICTORY_POINTS_12494:0 "Хьёртландский Маяк"
+VICTORY_POINTS_4937:0 "Западный Хьёртланд"
+VICTORY_POINTS_12437:0 "Северный Хьёртланд"
+VICTORY_POINTS_12592:0 "Южный Хьёртланд"
+VICTORY_POINTS_3598:0 "Юго-западный Хьёртланд"
+#######################################################################
+# Severiana ###########################################################
+#######################################################################
+#SEV - Severiana
+VICTORY_POINTS_11373:0 "Санкт-Петерсхуф" #St. Petershoof
+VICTORY_POINTS_11354:0 "Петергоф"
+VICTORY_POINTS_3332:0 "Петерсхуфский Аэропорт"
+VICTORY_POINTS_11265:0 "Невногород"
+VICTORY_POINTS_11442:0 "Тэйлней"
+VICTORY_POINTS_11204:0 "Секретарильск"
+VICTORY_POINTS_2360:0 "Волково"
+VICTORY_POINTS_11372:0 "Шамбург"
+VICTORY_POINTS_1711:0 "Порт Авроры"
+VICTORY_POINTS_5144:0 "Китайгород"
+VICTORY_POINTS_10315:0 "Заяцк" #Zayatsk
+VICTORY_POINTS_10297:0 "Снежинка"
+VICTORY_POINTS_79:0 "Заяцкие Шахты"
+VICTORY_POINTS_10451:0 "Бировный"
+VICTORY_POINTS_1768:0 "Седловск" #Sedlovsk
+VICTORY_POINTS_2970:0 "Седловский Порт"
+VICTORY_POINTS_10895:0 "Западный Троттингем" #Trottingham
+VICTORY_POINTS_10896:0 "Восточный Троттингем"
+VICTORY_POINTS_2108:0 "Револьцово" #Revoltsovo
+VICTORY_POINTS_4:0 "Западное Револьцово"
+VICTORY_POINTS_10796:0 "Северград" #Severgrad
+VICTORY_POINTS_4925:0 "Северянский"
+VICTORY_POINTS_10745:0 "Иванград"
+VICTORY_POINTS_11624:0 "Красное Сердце" #Krasnoye Serdtse
+VICTORY_POINTS_25:0 "Сомлэнд" #Somland
+VICTORY_POINTS_12244:0 "Зеленоградск" #Zelenogradsk
+VICTORY_POINTS_11984:0 "Мираж" #Mirazh
+VICTORY_POINTS_12129:0 "Тихореченское" #Tikhorechenskoye
+VICTORY_POINTS_199:0 "Бордо" #Bordo
+VICTORY_POINTS_12120:0 "Кобылкино" #Kobylkyno
+VICTORY_POINTS_4369:0 "Новочернушск" #Novochernushsk
+VICTORY_POINTS_1542:0 "Новокопытск"
+VICTORY_POINTS_11883:0 "Байкал" #Baical
+VICTORY_POINTS_394:0 "Северское" #Severskoye
+VICTORY_POINTS_11299:0 "Восточный Порридж Таун" #East Porridge Town
+VICTORY_POINTS_11638:0 "Крупочкино" #Krupochkino
+VICTORY_POINTS_5132:0 "Белая Пшеница" #White Wheat
+VICTORY_POINTS_3549:0 "Нижний Новокопытск" #Nizhny Novokopitsk
+VICTORY_POINTS_11338:0 "Скакунск" #Skakunsk
+VICTORY_POINTS_4808:0 "Плуга" #Pluga
+VICTORY_POINTS_11011:0 "Невозовск" #Enskiy Okrug
+VICTORY_POINTS_10696:0 "Санкт-Альтидийск" #St. Altidiysk
+VICTORY_POINTS_10660:0 "Девятка"
+VICTORY_POINTS_10642:0 "Деревня Вверх-по-течению"
+VICTORY_POINTS_9805:0 "Герингсдорф" #Heringsdorf
+VICTORY_POINTS_9849:0 "Северный Городок" #Town Up North
+VICTORY_POINTS_3345:0 "Сириус" #Azkaban
+VICTORY_POINTS_11126:0 "Маяковский" #Drozdniy
+VICTORY_POINTS_11060:0 "Кобылки"
+VICTORY_POINTS_11021:0 "Дроздный"
+VICTORY_POINTS_2640:0 "Марьяново"
+VICTORY_POINTS_11288:0 "Буктогорск" #Booktogorsk
+VICTORY_POINTS_4599:0 "Северхольм" #Severokholm
+VICTORY_POINTS_4723:0 "Пряничное" #Pryanichnoye
+VICTORY_POINTS_11124:0 "Новоржековск" #Novorzhekovsk
+VICTORY_POINTS_5252:0 "Маршалы"
+VICTORY_POINTS_11020:0 "Сырное" #Tvorozhninsk
+VICTORY_POINTS_11103:0 "Плохта"
+VICTORY_POINTS_88:0 "Творожинск"
+VICTORY_POINTS_3227:0 "Конзань" #Konzan'
+VICTORY_POINTS_10922:0 "Йессерсты"
+VICTORY_POINTS_5521:0 "Печеньков"
+VICTORY_POINTS_10676:0 "Сладкий" #Sladkiy
+VICTORY_POINTS_3641:0 "Владизлак"
+VICTORY_POINTS_10801:0 "Тараский"
+VICTORY_POINTS_3264:0 "Ставропонь" #Stavropon
+VICTORY_POINTS_10758:0 "Мяуский"
+VICTORY_POINTS_10677:0 "Солнцево" #Solntsevo
+VICTORY_POINTS_4089:0 "Василянка"
+VICTORY_POINTS_2435:0 "Луневск"
+VICTORY_POINTS_10697:0 "Нижнеравенспорт"
+VICTORY_POINTS_10813:0 "Октявкар"
+VICTORY_POINTS_10618:0 "Равеское" #Ravenskoye
+VICTORY_POINTS_10479:0 "Гриффимск"
+VICTORY_POINTS_10480:0 "Рассвет"
+VICTORY_POINTS_10500:0 "Теочевск"
+VICTORY_POINTS_1315:0 "Эстуарий-таун" #Estuariy
+VICTORY_POINTS_10462:0 "Сватовский"
+VICTORY_POINTS_416:0 "Понкпанков"
+VICTORY_POINTS_772:0 "Дифиск"
+VICTORY_POINTS_10675:0 "Ковкино" #Kovkino
+VICTORY_POINTS_10746:0 "Подковка"
+VICTORY_POINTS_10460:0 "Глазин"
+VICTORY_POINTS_2895:0 "Красивск" #Krasivsk
+VICTORY_POINTS_10361:0 "Муково"
+VICTORY_POINTS_10461:0 "Волонеж"
+VICTORY_POINTS_457:0 "Смолово" #Severgradskiy Okrug
+VICTORY_POINTS_929:0 "Корки"
+VICTORY_POINTS_10596:0 "Надеждов"
+VICTORY_POINTS_3384:0 "Геологово"
+VICTORY_POINTS_10260:0 "Помск" #Pomsk
+VICTORY_POINTS_3815:0 "Лорга"
+VICTORY_POINTS_10435:0 "Златоцвет" #Zlatotsvet
+VICTORY_POINTS_2672:0 "Розоваленск"
+VICTORY_POINTS_1435:0 "Ставичи"
+VICTORY_POINTS_654:0 "Ренкута"
+VICTORY_POINTS_10281:0 "Шутеевск"
+VICTORY_POINTS_3081:0 "Совки" #Sovki
+VICTORY_POINTS_10144:0 "Макаев Курган" #Makayev
+VICTORY_POINTS_5397:0 "Старый Лес" #Stary Les
+VICTORY_POINTS_4693:0 "Морской"
+VICTORY_POINTS_10173:0 "Лужский"
+VICTORY_POINTS_10100:0 "Звездопадово" #Zvezdopadovo
+VICTORY_POINTS_9953:0 "Старриская Шахта"
+VICTORY_POINTS_10008:0 "Превозмогалово"
+VICTORY_POINTS_2601:0 "Арктичик"
+VICTORY_POINTS_10852:0 "Половский" #Polovskiy
+VICTORY_POINTS_10883:0 "Чизтополь"
+VICTORY_POINTS_1864:0 "Ововка"
+VICTORY_POINTS_11180:0 "Смовской" #Smovskoy
+VICTORY_POINTS_11157:0 "Леонск"
+VICTORY_POINTS_59:0 "Маффинское" #Muffinskoye
+VICTORY_POINTS_11359:0 "Вильня"
+VICTORY_POINTS_11353:0 "Гиблое"
+VICTORY_POINTS_11134:0 "Хуфбит Таун" #Hoofbeat
+VICTORY_POINTS_11122:0 "Жуковка"
+VICTORY_POINTS_372:0 "Лесопилкино"
+VICTORY_POINTS_5077:0 "Энск" #Enskiy Okrug
+VICTORY_POINTS_10869:0 "Рекаград"
+VICTORY_POINTS_10687:0 "Черрябинск" #Cherryabinsk
+VICTORY_POINTS_2375:0 "Милкловка"
+VICTORY_POINTS_10830:0 "Люлино"
+VICTORY_POINTS_2932:0 "Пивно"
+VICTORY_POINTS_2890:0 "Буково" #Bukhovo
+VICTORY_POINTS_4626:0 "Вишнепонь"
+VICTORY_POINTS_3005:0 "Бездна" #Bezdna
+VICTORY_POINTS_11233:0 "Лошадск"
+#STL - Starlight's Town
+VICTORY_POINTS_9978:0 "Новокристальск" #Novocrystal'sk
+#######################################################################
+# Nova Griffonia ######################################################
+#######################################################################
+#VICTORY_POINTS_:0 ""
+#GRF - Nova Griffonia
+VICTORY_POINTS_8721:0 "Гансегейербург" #Gänsegeierburg
+VICTORY_POINTS_1488:0 "Западный Гансегейербург"
+VICTORY_POINTS_4428:0 "Южный Гансегейербург"
+VICTORY_POINTS_8044:0 "Федерштадт" #Federstadt
+VICTORY_POINTS_7713:0 "Буннуа" #Bounnois
+VICTORY_POINTS_4548:0 "Речной Буннуа"
+VICTORY_POINTS_1497:0 "Гвидонуово" #Guidonuovo
+VICTORY_POINTS_7575:0 "STATE_1284" #STATE_1284
+VICTORY_POINTS_1651:0 "STATE_1270" #STATE_1270
+VICTORY_POINTS_2556:0 "Восточный STATE_1270"
+VICTORY_POINTS_7700:0 "Южный STATE_1270"
+VICTORY_POINTS_3432:0 "Фростхилл" #Frosthill
+#GFF - Frontier
+VICTORY_POINTS_4936:0 "Тсасбаатар" #Tsasbaatar
+VICTORY_POINTS_7464:0 "Западный Тсасбаатар"
+VICTORY_POINTS_7440:0 "Восточный Тсасбаатар"
+VICTORY_POINTS_7648:0 "Рёриг" #Röhrig
+VICTORY_POINTS_7649:0 "Восточный Рёриг"
+VICTORY_POINTS_7606:0 "Брукхаген" #Bruchhagen
+#ALH - Alexhafen
+VICTORY_POINTS_7371:0 "Алексхафен" #Alexhafen
+#BFJ - Boreasfjord
+VICTORY_POINTS_7873:0 "Боерасфьорд" #Boreasfjord
+VICTORY_POINTS_7882:0 "Боерасфьордский Порт"
+#WET - Weter
+VICTORY_POINTS_8484:0 "Вэтэр" #Weter
+VICTORY_POINTS_8527:0 "Западный Вэтэр"
+VICTORY_POINTS_8616:0 "Южный Вэтэр"
+VICTORY_POINTS_8560:0 "Вэтэрский Порт"
+VICTORY_POINTS_5628:0 "Пром Вэтэр"
+VICTORY_POINTS_8446:0 "Северный Вэтэр"
+#LDC - Lüderclaw
+VICTORY_POINTS_4292:0 "Людеркло" #Lüderclaw
+#PLV - Plume Ville
+VICTORY_POINTS_4648:0 "Плюм Вилль" #Plume Ville
+#NWG - Ny Winghagen
+VICTORY_POINTS_10038:0 "Ню Вингхаген" #Ny Winghagen
+VICTORY_POINTS_10102:0 "Южный Ню Вингхаген"
+VICTORY_POINTS_1179:0 "Северный Ню Вингхаген"
+#CNC - Northern Cities
+VICTORY_POINTS_2620:0 "STATE_995" #STATE_995
+VICTORY_POINTS_7185:0 "STATE_996" #STATE_996
+VICTORY_POINTS_6922:0 "STATE_999" #STATE_999
+VICTORY_POINTS_7128:0 "STATE_997" #STATE_997
+VICTORY_POINTS_78:0 "STATE_993" #STATE_993
+VICTORY_POINTS_5655:0 "STATE_988" #STATE_988
+VICTORY_POINTS_456:0 "STATE_987" #STATE_987
+VICTORY_POINTS_6483:0 "Гроенштейн" #Groenstein
+VICTORY_POINTS_6512:0 "STATE_991" #STATE_991
+VICTORY_POINTS_6160:0 "STATE_1013" #STATE_1013
+#MOR - Morien
+VICTORY_POINTS_6797:0 "STATE_1017" #STATE_1017
+#GLF - Griffonian Liberation Front
+VICTORY_POINTS_1477:0 "Клув Хот" #Kluv Khot
+VICTORY_POINTS_9062:0 "Восточный Клув Хот"
+VICTORY_POINTS_1464:0 "Нию Мирабель" #Nieuw Mirabelle
+VICTORY_POINTS_3817:0 "Мёрон" #Mörön
+VICTORY_POINTS_9045:0 "Святая Йакская Роща"
+VICTORY_POINTS_8872:0 "Ухте" #Uchte
+VICTORY_POINTS_4356:0 "Западный Ухте"
+#MRF - Monarchist Restoration Front
+VICTORY_POINTS_3065:0 "Зеркшед Скалл" #Zerkshed Skäll
+VICTORY_POINTS_9047:0 "Северный Зеркшед Скалл"
+VICTORY_POINTS_9079:0 "Восточный Зеркшед Скалл"
+VICTORY_POINTS_1638:0 "Нуво Аквила" #Nouveau Aquila
+VICTORY_POINTS_9346:0 "Западная Нуво Аквила"
+VICTORY_POINTS_3229:0 "Северная Нуво Аквила"
+VICTORY_POINTS_9266:0 "Порт Нуво Аквилы"
+VICTORY_POINTS_8833:0 "Клаувитз" #Klauwitz
+#######################################################################
+# Manehattan Confederation ############################################
+#######################################################################
+#VICTORY_POINTS_:0 ""
+#CHI - Chicoltgo
+VICTORY_POINTS_13510:0 "Чикольтго"
+VICTORY_POINTS_3917:0 "Западный Чикольтго"
+#DPP - Dappleshore
+VICTORY_POINTS_13593:0 "Дэпплшор" #Dappleshore
+VICTORY_POINTS_5058:0 "Дэпплшорский Порт"
+#TTL - Tail Tale
+VICTORY_POINTS_13463:0 "Теил Тейл" #Tail Tale
+VICTORY_POINTS_13445:0 "Восточный Теил Тейл"
+VICTORY_POINTS_3260:0 "STATE_448" #STATE_448
+VICTORY_POINTS_13226:0 "STATE_466" #STATE_466
+VICTORY_POINTS_3166:0 "STATE_467" #STATE_467
+#BLS - Bales
+VICTORY_POINTS_5398:0 "Бэйлс" #Bales
+VICTORY_POINTS_2077:0 "Северный Бэйлс"
+VICTORY_POINTS_12814:0 "Западный Бэйлс"
+VICTORY_POINTS_13130:0 "STATE_502" #STATE_502
+VICTORY_POINTS_3607:0 "Мейнсбьюри" #Manesbury
+VICTORY_POINTS_3201:0 "Холлоу Шейдс" #Hollow Shades
+#FRM - Foallerminster
+VICTORY_POINTS_12825:0 "Фоаллерминстер" #Foallerminster
+VICTORY_POINTS_12979:0 "STATE_494" #STATE_494
+VICTORY_POINTS_3276:0 "STATE_469" #STATE_469
+#BRI - Bridlepolis
+VICTORY_POINTS_155:0 "Бридлполис" #Bridlepolis
+VICTORY_POINTS_3275:0 "Северный Бридлполис"
+VICTORY_POINTS_5105:0 "Южный Бридлполис"
+#MAN - Manehattan
+VICTORY_POINTS_13279:0 "Мейнхеттен" #Manehattan
+VICTORY_POINTS_13328:0 "Южный Мейнхеттен"
+VICTORY_POINTS_5520:0 "Западный Мейнхеттен"
+VICTORY_POINTS_2443:0 "Северный Мейнхеттен"
+#MHT - Manehatan
+VICTORY_POINTS_13213:0 "Мейнхетен" #Manehatan
+#SUM - Summerfield
+VICTORY_POINTS_1471:0 "Саммерфилд" #Summerfield
+VICTORY_POINTS_13188:0 "Южный Саммерфилд"
+#STR - Stratusburg
+VICTORY_POINTS_4995:0 "Стратусбург" #Stratusburg
+#GLP - Gallopolis
+VICTORY_POINTS_2884:0 "галлополис" #Gallopolis
+VICTORY_POINTS_12557:0 "Южный Галлополис"
+VICTORY_POINTS_12493:0 "Северный Галлополис"
+#ZAR - Zarechje
+VICTORY_POINTS_905:0 "Великий Саутгород" #Veliky Southgorod
+VICTORY_POINTS_2787:0 "Кобыляково" #Kobyliakovo
+VICTORY_POINTS_12036:0 "Пончики" #Ponchiki
+#HRF - Hornfield
+VICTORY_POINTS_12457:0 "Хорнфилд" #Hornfield
+#DET - Detrot
+VICTORY_POINTS_12719:0 "Детрот" #Detrot
+#PRA - Prance
+VICTORY_POINTS_874:0 "Пранция" #Prance
+VICTORY_POINTS_12688:0 "STATE_457" #STATE_457
+VICTORY_POINTS_753:0 "STATE_736" #STATE_736
+#ALB - Albion
+VICTORY_POINTS_12689:0 "Альбион" #Albion
+VICTORY_POINTS_12367:0 "Лесное" #Lesnoye
+#FRV - Fairville
+VICTORY_POINTS_13180:0 "Фэйрвилль" #Fairville
+#MNT - Moontown
+VICTORY_POINTS_13126:0 "Мунтаун" #Moontown
+VICTORY_POINTS_13149:0 "Мунтаунский Порт"
+#CNT - Canterbury
+VICTORY_POINTS_5336:0 "Кантербьюри" #Canterbury
+VICTORY_POINTS_13085:0 "Южный Кантербьюри"
+#NCN - North Canterbury
+VICTORY_POINTS_12985:0 "Северный Кантербьюри" #North Canterbury
+#FIL - Fillydelphia
+VICTORY_POINTS_13631:0 "Филлидельфия" #Fillydelphia
+VICTORY_POINTS_3716:0 "Филлидельфийский Порт"
+VICTORY_POINTS_4638:0 "Западная Филлидельфия"
+VICTORY_POINTS_13653:0 "Южная Филлидельфия"
+#######################################################################
+# Far North ###########################################################
+#######################################################################
+#VICTORY_POINTS_:0 ""
+#DMD - Diamondia
+VICTORY_POINTS_7000:0 "Диамондия" #Diamondia
+VICTORY_POINTS_6969:0 "Восточная Диамондия"
+#WLD - Wilderness
+VICTORY_POINTS_4465:0 "Свердруп" #Sverdrup
+#AMN - Amundsen
+VICTORY_POINTS_5799:0 "Амундсен" #Amundsen
+#PNG - Kingdom of Pingland
+VICTORY_POINTS_5829:0 "STATE_1010" #STATE_1010
+VICTORY_POINTS_5870:0 "STATE_1010 Порт"
+VICTORY_POINTS_5816:0 "Нансен" #Nansen
+#PNR - Pingland Republic
+VICTORY_POINTS_5790:0 "Дахаих" #Dachaigh
+VICTORY_POINTS_5733:0 "Северный Дахаих"
+VICTORY_POINTS_5767:0 "Западный Дахаих"
+VICTORY_POINTS_5779:0 "Дахаихский Порт"
+VICTORY_POINTS_5823:0 "Южный Дахаих"
+VICTORY_POINTS_6183:0 "Ингстад" #Ingstad
+VICTORY_POINTS_6229:0 "Западный Ингстад"
+VICTORY_POINTS_3088:0 "Ингстадский Порт"
+#ALC - Alicornia
+VICTORY_POINTS_6150:0 "?" #Undiscovered city
+VICTORY_POINTS_1465:0 "?"
+VICTORY_POINTS_6171:0 "?"
+VICTORY_POINTS_6200:0 "?"
+#PLB - Polar Bear Communities
+VICTORY_POINTS_6310:0 "Мафар Фьярран" #Mathair Fearainn
+VICTORY_POINTS_6584:0 "STATE_1300" #STATE_1300
+VICTORY_POINTS_6630:0 "Восточный STATE_1300"
+VICTORY_POINTS_1946:0 "STATE_1310" #STATE_1310
+VICTORY_POINTS_:0 "STATE_1111" #STATE_1111
+VICTORY_POINTS_:0 "STATE_1111 Порт"

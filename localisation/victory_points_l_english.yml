@@ -72,7 +72,7 @@ VICTORY_POINTS_12859:0 "Kerhack"
 VICTORY_POINTS_12875:0 "Maredelcampo"
 VICTORY_POINTS_12570:0 "East Tall Tale"
 VICTORY_POINTS_3049:0 "Tall Tale"
-VICTORY_POINTS_1090:0 "Zgraggentle"
+VICTORY_POINTS_1090:0 "Gragentle"
 #######################################################################
 # Parel ###############################################################
 #######################################################################
@@ -208,7 +208,7 @@ VICTORY_POINTS_11973:0 "Greenwater"
 #######################################################################
 # Lopesiana ###########################################################
 #######################################################################
-VICTORY_POINTS_4893:0 "Horseveport"
+VICTORY_POINTS_4893:0 "Horseverport"
 VICTORY_POINTS_254:0 "Foal Swamps"
 VICTORY_POINTS_10552:0 "Marexandria"
 #######################################################################
@@ -217,7 +217,7 @@ VICTORY_POINTS_10552:0 "Marexandria"
 VICTORY_POINTS_4754:0 "Horselena"
 VICTORY_POINTS_11308:0 "South Horselena"
 VICTORY_POINTS_11285:0 "West Horselena"
-VICTORY_POINTS_11108:0 "Horselena Inland port"
+VICTORY_POINTS_11108:0 "Horselena Inland Port"
 VICTORY_POINTS_12237:0 "Yonderhill"
 VICTORY_POINTS_12290:0 "South Yonderhill"
 VICTORY_POINTS_824:0 "East Yonderhill"
@@ -353,8 +353,8 @@ VICTORY_POINTS_10361:0 "Mukovo"
 VICTORY_POINTS_10461:0 "Volonezh"
 VICTORY_POINTS_457:0 "Smolovo" #Severgradskiy Okrug
 VICTORY_POINTS_929:0 "Korki"
-VICTORY_POINTS_10596:0 "Nadezhov"
-VICTORY_POINTS_3384:0 "Gelogovo"
+VICTORY_POINTS_10596:0 "Nadezhdov"
+VICTORY_POINTS_3384:0 "Geologovo"
 VICTORY_POINTS_10260:0 "Pomsk" #Pomsk
 VICTORY_POINTS_3815:0 "Lorga"
 VICTORY_POINTS_10435:0 "Zlatotsvet" #Zlatotsvet
@@ -468,7 +468,6 @@ VICTORY_POINTS_9346:0 "West Nouveau Aquila"
 VICTORY_POINTS_3229:0 "North Nouveau Aquila"
 VICTORY_POINTS_9266:0 "Nouveau Aquila Port"
 VICTORY_POINTS_8833:0 "Klauwitz" #Klauwitz
-
 #######################################################################
 # Manehattan Confederation ############################################
 #######################################################################
@@ -546,7 +545,6 @@ VICTORY_POINTS_13631:0 "Fillydelphia" #Fillydelphia
 VICTORY_POINTS_3716:0 "Fillydelphia Port"
 VICTORY_POINTS_4638:0 "West Fillydelphia"
 VICTORY_POINTS_13653:0 "South Fillydelphia"
-
 #######################################################################
 # Far North ###########################################################
 #######################################################################
@@ -564,7 +562,7 @@ VICTORY_POINTS_5870:0 "STATE_1010 Port"
 VICTORY_POINTS_5816:0 "Nansen" #Nansen
 #PNR - Pingland Republic
 VICTORY_POINTS_5790:0 "Dachaigh" #Dachaigh
-VICTORY_POINTS_5733:0 "Noth Dachaigh"
+VICTORY_POINTS_5733:0 "North Dachaigh"
 VICTORY_POINTS_5767:0 "West Dachaigh"
 VICTORY_POINTS_5779:0 "Dachaigh Port"
 VICTORY_POINTS_5823:0 "South Dachaigh"
@@ -579,7 +577,7 @@ VICTORY_POINTS_6200:0 "?"
 #PLB - Polar Bear Communities
 VICTORY_POINTS_6310:0 "Mathair Fearainn" #Mathair Fearainn
 VICTORY_POINTS_6584:0 "STATE_1300" #STATE_1300
-VICTORY_POINTS_6630:0 " East STATE_1300"
+VICTORY_POINTS_6630:0 "East STATE_1300"
 VICTORY_POINTS_1946:0 "STATE_1310" #STATE_1310
 VICTORY_POINTS_:0 "STATE_1111" #STATE_1111
 VICTORY_POINTS_:0 "STATE_1111 Port"
