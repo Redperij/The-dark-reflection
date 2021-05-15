@@ -4,6 +4,10 @@ state={
 	history={
 		owner = AMN
 		add_core_of = AMN
+
+		victory_points = {
+			5799 15
+	    }
 	}
 	provinces={
 		297 1402 5773 5799 

@@ -5,6 +5,16 @@ state={
 	history={
 		owner = PNR
 		add_core_of = PNR
+
+		victory_points = {
+			6183 20
+	    }
+		victory_points = {
+			6229 5
+	    }
+		victory_points = {
+			3088 5
+	    }
 	}
 
 	provinces={
