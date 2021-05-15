@@ -17,24 +17,24 @@ VICTORY_POINTS_1740:0 "Риверпуль"
 VICTORY_POINTS_11815:0 "Доббин Лейк"
 VICTORY_POINTS_3444:0 "Родчестер"
 VICTORY_POINTS_12074:0 "Восточный Родчестер"
-VICTORY_POINTS_2334:0 "Дапплелут"
+VICTORY_POINTS_2334:0 "Дэппллут"
 VICTORY_POINTS_12293:0 "Гиппогрифф-Фолс"
 VICTORY_POINTS_11571:0 "Бакмингтон Бридж"
 VICTORY_POINTS_12694:0 "Иглган"
 VICTORY_POINTS_4094:0 "Бронко Парк"
-VICTORY_POINTS_12062:0 "Бернсвилл"
+VICTORY_POINTS_12062:0 "Бёрнсвилль"
 VICTORY_POINTS_11872:0 "Мyнхэд"
 VICTORY_POINTS_12310:0 "Красный Кантерлот"
 VICTORY_POINTS_12554:0 "Мейпл Гроув"
 VICTORY_POINTS_12350:0 "Вудбьюрри"
 VICTORY_POINTS_11773:0 "Инвер Хуфед Хайтс"
-VICTORY_POINTS_11979:0 "Розвилл"
+VICTORY_POINTS_11979:0 "Роузвилль"
 VICTORY_POINTS_12166:0 "Виннитонка"
 VICTORY_POINTS_11741:0 "Макинкато"
 VICTORY_POINTS_11859:0 "Ричфилд"
 VICTORY_POINTS_12023:0 "Винтерчила Рапидс"
 VICTORY_POINTS_11861:0 "Фриз Шор"
-VICTORY_POINTS_2724:0 "Флудвилл"
+VICTORY_POINTS_2724:0 "Флудвилль"
 VICTORY_POINTS_4320:0 "Понтория"
 VICTORY_POINTS_1804:0 "Флом"
 VICTORY_POINTS_12506:0 "Сандаун"
@@ -63,6 +63,7 @@ VICTORY_POINTS_13086:0 "Эпплвуд"
 VICTORY_POINTS_13017:0 "Сан Фланкциско"
 VICTORY_POINTS_12995:0 "Северный Сан Фланкциско"
 VICTORY_POINTS_2595:0 "Южный Сан Фланкциско"
+VICTORY_POINTS_13205:0 "Медовый Курорт" #Mead Resort
 #######################################################################
 # Monarchy Of Fykia ###################################################
 #######################################################################
@@ -209,7 +210,7 @@ VICTORY_POINTS_11973:0 "Гринуотер"
 #######################################################################
 VICTORY_POINTS_4893:0 "Хорсэверпорт"
 VICTORY_POINTS_254:0 "Фоал Свомпс"
-VICTORY_POINTS_10552:0 "Мэйрксандрия"
+VICTORY_POINTS_10552:0 "Мейрксандрия"
 #######################################################################
 # Gallopia ############################################################
 #######################################################################
@@ -229,7 +230,7 @@ VICTORY_POINTS_12010:0 "Гринхорн"
 VICTORY_POINTS_11701:0 "Оверрайд"
 VICTORY_POINTS_4250:0 "Ричлэнд"
 VICTORY_POINTS_11831:0 "Бридлль"
-VICTORY_POINTS_3334:0 "Хуфингтон"
+VICTORY_POINTS_3334:0 "Хуффингтон"
 VICTORY_POINTS_10926:0 "Бридленна"
 #######################################################################
 # Coursing ############################################################
@@ -263,6 +264,7 @@ VICTORY_POINTS_3598:0 "Юго-западный Хьёртланд"
 #######################################################################
 # Severiana ###########################################################
 #######################################################################
+#VICTORY_POINTS_:0 ""
 #SEV - Severiana
 VICTORY_POINTS_11373:0 "Санкт-Петерсхуф" #St. Petershoof
 VICTORY_POINTS_11354:0 "Петергоф"
@@ -336,7 +338,7 @@ VICTORY_POINTS_4089:0 "Василянка"
 VICTORY_POINTS_2435:0 "Луневск"
 VICTORY_POINTS_10697:0 "Нижнеравенспорт"
 VICTORY_POINTS_10813:0 "Октявкар"
-VICTORY_POINTS_10618:0 "Равеское" #Ravenskoye
+VICTORY_POINTS_10618:0 "Равенское" #Ravenskoye
 VICTORY_POINTS_10479:0 "Гриффимск"
 VICTORY_POINTS_10480:0 "Рассвет"
 VICTORY_POINTS_10500:0 "Теочевск"
@@ -511,7 +513,7 @@ VICTORY_POINTS_13188:0 "Южный Саммерфилд"
 #STR - Stratusburg
 VICTORY_POINTS_4995:0 "Стратусбург" #Stratusburg
 #GLP - Gallopolis
-VICTORY_POINTS_2884:0 "галлополис" #Gallopolis
+VICTORY_POINTS_2884:0 "Галлополис" #Gallopolis
 VICTORY_POINTS_12557:0 "Южный Галлополис"
 VICTORY_POINTS_12493:0 "Северный Галлополис"
 #ZAR - Zarechje

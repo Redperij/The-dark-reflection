@@ -64,6 +64,7 @@ VICTORY_POINTS_13086:0 "Applewood"
 VICTORY_POINTS_13017:0 "San Flankcisco"
 VICTORY_POINTS_12995:0 "North San Flankcisco"
 VICTORY_POINTS_2595:0 "South San Flankcisco"
+VICTORY_POINTS_13205:0 "Mead Resort" #Mead Resort
 #######################################################################
 # Monarchy Of Fykia ###################################################
 #######################################################################
@@ -264,6 +265,7 @@ VICTORY_POINTS_3598:0 "South-West Hjortland"
 #######################################################################
 # Severiana ###########################################################
 #######################################################################
+#VICTORY_POINTS_:0 ""
 #SEV - Severiana
 VICTORY_POINTS_11373:0 "St. Petershoof" #St. Petershoof
 VICTORY_POINTS_11354:0 "Petergof"
