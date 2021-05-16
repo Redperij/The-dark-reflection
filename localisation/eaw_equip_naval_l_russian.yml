@@ -439,289 +439,162 @@ NAME_THEME_NEUTRAL_GENERIC_CARRIERS:0 "Стандартные авианосцы
  
  ### STL - Novokristal'sk ###
  
- STL_destroyer_1:0 "Our First Destroyer Class"
-
+ STL_destroyer_1:0 "Our First Destroyer Class" #tot
  STL_destroyer_2:0 "Our Second Destroyer Class"
-
  STL_destroyer_3:0 "Our Third Destroyer Class"
-
  STL_destroyer_4:0 "Our Fourth Destroyer Class"
-
  STL_destroyer_5:0 "Our Fifth Destroyer Class"
  STL_destroyer_5_short:0 "Our Fifth Destroyer Class"
-
  STL_destroyer_6:0 "Our Sixth Destroyer Class"
  STL_destroyer_6_short:0 "Our Sixth Destroyer Class"
-
  STL_destroyer_7:0 "Our Seventh Destroyer Class"
  STL_destroyer_7_short:0 "Our Seventh Destroyer Class"
-
-
  STL_light_cruiser_1:0 "Our First Light Cruiser Class"
-
  STL_light_cruiser_2:0 "Our Second Light Cruiser Class"
-
  STL_light_cruiser_3:0 "Our Third Light Cruiser Class"
-
  STL_light_cruiser_4:0 "Our Fourth Light Cruiser Class"
-
  STL_light_cruiser_5:0 "Our Fifth Light Cruiser Class"
  STL_light_cruiser_5_short:0 "Our Fifth Light Cruiser Class"
-
  STL_light_cruiser_6:0 "Our Sixth Light Cruiser Class"
  STL_light_cruiser_6_short:0 "Our Sixth Light Cruiser Class"
-
  STL_light_cruiser_7:0 "Our Seventh Light Cruiser Class"
  STL_light_cruiser_7_short:0 "Our Seventh Light Cruiser Class"
-
-
  STL_heavy_cruiser_1:0 "Our First Heavy Cruiser Class"
-
  STL_heavy_cruiser_2:0 "Our Second Heavy Cruiser Class"
-
  STL_heavy_cruiser_3:0 "Our Third Heavy Cruiser Class"
-
  STL_heavy_cruiser_4:0 "Our Fourth Heavy Cruiser Class"
-
  STL_heavy_cruiser_5:0 "Our Fifth Heavy Cruiser Class"
  STL_heavy_cruiser_5_short:0 "Our Fifth Heavy Cruiser Class"
-
  STL_heavy_cruiser_6:0 "Our Sixth Heavy Cruiser Class"
  STL_heavy_cruiser_6_short:0 "Our Sixth Heavy Cruiser Class"
-
  STL_heavy_cruiser_7:0 "Our Seventh Heavy Cruiser Class"
  STL_heavy_cruiser_7_short:0 "Our Seventh Heavy Cruiser Class"
-
-
  STL_battle_cruiser_1:0 "Our First Battlecruiser Class"
-
  STL_battle_cruiser_2:0 "Our Second Battlecruiser Class"
-
  STL_battle_cruiser_3:0 "Our Third Battlecruiser Class"
  STL_battle_cruiser_3_short:0 "Our Third Battlecruiser Class"
-
-
  STL_battleship_1:0 "Our First Battleship Class"
- 
  STL_battleship_2:0 "Our Second Battleship Class"
-
  STL_battleship_3:0 "Our Third Battleship Class"
-
  STL_battleship_4:0 "Our Fourth Battleship Class"
-
  STL_battleship_5:0 "Our Fifth Battleship Class"
  STL_battleship_5_short:0 "Our Fifth Battleship Class"
-
  STL_battleship_6:0 "Our Sixth Battleship Class"
  STL_battleship_6_short:0 "Our Sixth Battleship Class"
-
  STL_battleship_7:0 "Our Seventh Battleship Class"
  STL_battleship_7_short:0 "Our Seventh Battleship Class"
-
-
  STL_battleship_nuc:0 "Our First Nuclear Battleship Class"
  STL_battleship_nuc_short:0 "Our First Nuclear Battleship Class"
-
-
  STL_SH_battleship_1:0 "Our First Superheavy Battleship Class"
-
  STL_SH_battleship_2:0 "Our Second Superheavy Battleship Class"
-
  STL_SH_battleship_3:0 "Our Third Superheavy Battleship Class"
  STL_SH_battleship_3_short:0 "Our Third Superheavy Battleship Class"
-
-
  STL_carrier_1:0 "Our First Carrier Class"
-
  STL_carrier_2:0 "Our First Carrier Class"
-
  STL_carrier_3:0 "Our Second Carrier Class"
-
  STL_carrier_4:0 "Our Third Carrier Class"
-
  STL_carrier_5:0 "Our Fourth Carrier Class"
  STL_carrier_5_short:0 "Our Fourth Carrier Class"
-
  STL_carrier_6:0 "Our Fifth Carrier Class"
  STL_carrier_6_short:0 "Our Fifth Carrier Class"
-
  STL_carrier_7:0 "Our Sixth Carrier Class"
  STL_carrier_7_short:0 "Our Sixth Carrier Class"
-
-
  STL_carrier_nuc:0 "Our First Nuclear Carrier Class"
  STL_carrier_nuc_short:0 "Our First Nuclear Carrier Class"
-
-
  STL_light_carrier_1:0 "Our First Light Carrier Class"
-
  STL_light_carrier_2:0 "Our Second Light Carrier Class"
-
  STL_light_carrier_3:0 "Our Third Light Carrier Class"
  STL_light_carrier_3_short:0 "Our Third Light Carrier Class"
-
-
  STL_submarine_1:0 "Our First Submarine Class"
-
  STL_submarine_2:0 "Our Second Submarine Class"
-
  STL_submarine_3:0 "Our Third Submarine Class"
-
  STL_submarine_4:0 "Our Fourth Submarine Class"
-
  STL_submarine_5:0 "Our Fifth Submarine Class"
  STL_submarine_5_short:0 "Our Fifth Submarine Class"
-
  STL_submarine_6:0 "Our Sixth Submarine Class"
  STL_submarine_6_short:0 "Our Sixth Submarine Class"
-
  STL_submarine_7:0 "Our Seventh Submarine Class"
  STL_submarine_7_short:0 "Our Seventh Submarine Class"
-
-
  STL_submarine_nuc:0 "Our First Nuclear Submarine Class"
  STL_submarine_nuc_short:0 "Our First Nuclear Submarine Class"
 
  ### SEV - Severiana ###
  
- SEV_destroyer_1:0 "Sovremmeny Class"
-
+ SEV_destroyer_1:0 "Sovremmeny Class" #tot
  SEV_destroyer_2:0 "Udaloy Class"
-
  SEV_destroyer_3:0 "Kanin Class"
-
  SEV_destroyer_4:0 "Kildin Class"
-
  SEV_destroyer_5:0 "Kotlin Class"
  SEV_destroyer_5_short:0 "Kotlin Class"
-
  SEV_destroyer_6:0 "Tashkent Class"
  SEV_destroyer_6_short:0 "Tashkent Class"
-
  SEV_destroyer_7:0 "Orfey Class"
  SEV_destroyer_7_short:0 "Orfey Class"
-
-
  SEV_light_cruiser_1:0 "Krivak Class"
-
  SEV_light_cruiser_2:0 "Krasniy Krym Class"
-
  SEV_light_cruiser_3:0 "Komsomolets Class"
-
  SEV_light_cruiser_4:0 "Chapayev Class"
-
  SEV_light_cruiser_5:0 "Sverdlov Class"
  SEV_light_cruiser_5_short:0 "Sverdlov Class"
-
  SEV_light_cruiser_6:0 "Kresta Class"
  SEV_light_cruiser_6_short:0 "Kresta Class"
-
  SEV_light_cruiser_7:0 "Kynda Class"
  SEV_light_cruiser_7_short:0 "Kynda Class"
-
-
  SEV_heavy_cruiser_1:0 "Krasniy Kavkaz Class"
-
  SEV_heavy_cruiser_2:0 "Kirov Class"
-
  SEV_heavy_cruiser_3:0 "Maxim Gorky Class"
-
  SEV_heavy_cruiser_4:0 "Project 22"
-
  SEV_heavy_cruiser_5:0 "Project 66"
  SEV_heavy_cruiser_5_short:0 "Project 66"
-
  SEV_heavy_cruiser_6:0 "Kara Class"
  SEV_heavy_cruiser_6_short:0 "Kara Class"
-
  SEV_heavy_cruiser_7:0 "Slava Class"
  SEV_heavy_cruiser_7_short:0 "Slava Class"
-
-
  SEV_battle_cruiser_1:0 "Borodino Class"
-
  SEV_battle_cruiser_2:0 "Kronshtadt Class"
-
  SEV_battle_cruiser_3:0 "Ravenskoye Class"
  SEV_battle_cruiser_3_short:0 "Ravenskoye Class"
-
-
  SEV_battleship_1:0 "Marat Class"
-
  SEV_battleship_2:0 "Project 21"
-
  SEV_battleship_3:0 "Lenin class"
-
  SEV_battleship_4:0 "Stalliongrad Class"
-
  SEV_battleship_5:0 "Gangut Class"
  SEV_battleship_5_short:0 "Gangut Class"
-
  SEV_battleship_6:0 "Sovenok Class"
  SEV_battleship_6_short:0 "Sovenok Class"
-
  SEV_battleship_7:0 "Potemkin Class"
  SEV_battleship_7_short:0 "Potemkin Class"
-
-
  SEV_battleship_nuc:0 "Kirov Class"
  SEV_battleship_nuc_short:0 "Kirov Class"
-
-
  SEV_SH_battleship_1:0 "Sovetsky Soyuz Class"
-
  SEV_SH_battleship_2:0 "Project 23bis"
-
  SEV_SH_battleship_3:0 "Zayatsk Class"
  SEV_SH_battleship_3_short:0 "Zayatsk Class"
-
-
  SEV_carrier_1:0 "Ismail Class"
-
  SEV_carrier_2:0 "Krasnyi Vozdukh"
-
  SEV_carrier_3:0 "Project 71B"
-
  SEV_carrier_4:0 "Project 72"
-
  SEV_carrier_5:0 "Admiral Kuznetsov Class"
  SEV_carrier_5_short:0 "Admiral Kuznetsov Class"
-
  SEV_carrier_6:0 "Kiev Class"
  SEV_carrier_6_short:0 "Kiev Class"
-
  SEV_carrier_7:0 "Orel Class"
  SEV_carrier_7_short:0 "Orel Class"
-
-
  SEV_carrier_nuc:0 "Shtorm Class"
  SEV_carrier_nuc_short:0 "Shtorm Class"
-
-
  SEV_light_carrier_1:0 "Moskva Class"
-
  SEV_light_carrier_2:0 "Ulyanovsk Class"
-
  SEV_light_carrier_3:0 "Project 314"
  SEV_light_carrier_3_short:0 "Project 314"
-
-
  SEV_submarine_1:0 "AG Class"
-
  SEV_submarine_2:0 "Debakrist Class"
-
  SEV_submarine_3:0 "Shchuka Class"
-
  SEV_submarine_4:0 "Srednyaya Class"
-
  SEV_submarine_5:0 "Shchuka Class"
  SEV_submarine_5_short:0 "Shchuka Class"
-
  SEV_submarine_6:0 "K Class"
  SEV_submarine_6_short:0 "K Class"
-
  SEV_submarine_7:0 "Project 611"
  SEV_submarine_7_short:0 "Project 611"
-
  SEV_submarine_nuc:0 "White October Class"
  SEV_submarine_nuc_short:0 "White October Class"
