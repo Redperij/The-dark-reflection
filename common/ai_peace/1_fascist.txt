@@ -70,9 +70,6 @@ fascist_peace = {
 				}
 			}
 			NOT = { any_owned_state = { OR = { is_coastal = yes is_island_state = yes } } }
-			else = {
-				always = no
-			}
 		}
 	}
 
