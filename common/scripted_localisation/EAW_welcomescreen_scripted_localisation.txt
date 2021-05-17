@@ -11,56 +11,1030 @@
 defined_text = { # Country
 	name = GetNiceCountryName
 	text = {
-		trigger = { original_tag = STL }
-		localization_key = EAW_WS_STL
+		trigger = { original_tag = EQS }
+		localization_key = TDR_WS_EQS
 	}
 	text = {
-		trigger = { original_tag = OLE }
-		localization_key = EAW_WS_OLE
+		trigger = { original_tag = WHN }
+		localization_key = TDR_WS_WHN
+	}
+	text = {
+		trigger = { original_tag = WES }
+		localization_key = TDR_WS_WES
+	}
+	text = {
+		trigger = { original_tag = CEL }
+		localization_key = TDR_WS_CEL
+	}
+	text = {
+		trigger = { original_tag = DER }
+		localization_key = TDR_WS_DER
 	}
 	text = {
 		trigger = { original_tag = CRY }
-		localization_key = EAW_WS_CRY
+		localization_key = TDR_WS_CRY
 	}
 	text = {
-		trigger = {
-			original_tag = YAK
-		}
-		localization_key = EAW_WS_YAK
+		trigger = { original_tag = AED }
+		localization_key = TDR_WS_AED
+	}
+	text = {
+		trigger = { original_tag = KDW }
+		localization_key = TDR_WS_KDW
+	}
+	text = {
+		trigger = { original_tag = LAR }
+		localization_key = TDR_WS_LAR
+	}
+	text = {
+		trigger = { original_tag = DOL }
+		localization_key = TDR_WS_DOL
+	}
+	text = {
+		trigger = { original_tag = SEV }
+		localization_key = TDR_WS_SEV
+	}
+	text = {
+		trigger = { original_tag = STL }
+		localization_key = TDR_WS_STL
+	}
+	text = {
+		trigger = { original_tag = TRS }
+		localization_key = TDR_WS_TRS
+	}
+	text = {
+		trigger = { original_tag = NGF }
+		localization_key = TDR_WS_NGF
+	}
+	text = {
+		trigger = { original_tag = PRA }
+		localization_key = TDR_WS_PRA
+	}
+	text = {
+		trigger = { original_tag = ALB }
+		localization_key = TDR_WS_ALB
+	}
+	text = {
+		trigger = { original_tag = BLS }
+		localization_key = TDR_WS_BLS
+	}
+	text = {
+		trigger = { original_tag = MAN }
+		localization_key = TDR_WS_MAN
+	}
+	text = {
+		trigger = { original_tag = CHI }
+		localization_key = TDR_WS_CHI
+	}
+	text = {
+		trigger = { original_tag = TTL }
+		localization_key = TDR_WS_TTL
+	}
+	text = {
+		trigger = { original_tag = FRM }
+		localization_key = TDR_WS_FRM
+	}
+	text = {
+		trigger = { original_tag = MHT }
+		localization_key = TDR_WS_MHT
+	}
+	text = {
+		trigger = { original_tag = CNT }
+		localization_key = TDR_WS_CNT
+	}
+	text = {
+		trigger = { original_tag = NCN }
+		localization_key = TDR_WS_NCN
+	}
+	text = {
+		trigger = { original_tag = BRI }
+		localization_key = TDR_WS_BRI
+	}
+	text = {
+		trigger = { original_tag = SUM }
+		localization_key = TDR_WS_SUM
+	}
+	text = {
+		trigger = { original_tag = DPP }
+		localization_key = TDR_WS_DPP
+	}
+	text = {
+		trigger = { original_tag = DET }
+		localization_key = TDR_WS_DET
+	}
+	text = {
+		trigger = { original_tag = STR }
+		localization_key = TDR_WS_STR
+	}
+	text = {
+		trigger = { original_tag = MNT }
+		localization_key = TDR_WS_MNT
+	}
+	text = {
+		trigger = { original_tag = FRV }
+		localization_key = TDR_WS_FRV
+	}
+	text = {
+		trigger = { original_tag = HRF }
+		localization_key = TDR_WS_HRF
+	}
+	text = {
+		trigger = { original_tag = GLP }
+		localization_key = TDR_WS_GLP
+	}
+	text = {
+		trigger = { original_tag = ZAR }
+		localization_key = TDR_WS_ZAR
+	}
+	text = {
+		trigger = { original_tag = ANG }
+		localization_key = TDR_WS_ANG
+	}
+	text = {
+		trigger = { original_tag = VRD }
+		localization_key = TDR_WS_VRD
+	}
+	text = {
+		trigger = { original_tag = BRM }
+		localization_key = TDR_WS_BRM
+	}
+	text = {
+		trigger = { original_tag = KER }
+		localization_key = TDR_WS_KER
+	}
+	text = {
+		trigger = { original_tag = TEM }
+		localization_key = TDR_WS_TEM
+	}
+	text = {
+		trigger = { original_tag = SOD }
+		localization_key = TDR_WS_SOD
+	}
+	text = {
+		trigger = { original_tag = RED }
+		localization_key = TDR_WS_RED
+	}
+	text = {
+		trigger = { original_tag = MHK }
+		localization_key = TDR_WS_MHK
+	}
+	text = {
+		trigger = { original_tag = CID }
+		localization_key = TDR_WS_CID
+	}
+	text = {
+		trigger = { original_tag = BRG }
+		localization_key = TDR_WS_BRG
+	}
+	text = {
+		trigger = { original_tag = ELD }
+		localization_key = TDR_WS_ELD
+	}
+	text = {
+		trigger = { original_tag = CAR }
+		localization_key = TDR_WS_CAR
+	}
+	text = {
+		trigger = { original_tag = DRA }
+		localization_key = TDR_WS_DRA
+	}
+	text = {
+		trigger = { original_tag = MON }
+		localization_key = TDR_WS_MON
+	}
+	text = {
+		trigger = { original_tag = FIL }
+		localization_key = TDR_WS_FIL
+	}
+	text = {
+		trigger = { original_tag = DRG }
+		localization_key = TDR_WS_DRG
+	}
+	text = {
+		trigger = { original_tag = BAL }
+		localization_key = TDR_WS_BAL
+	}
+	text = {
+		trigger = { original_tag = VIE }
+		localization_key = TDR_WS_VIE
+	}
+	text = {
+		trigger = { original_tag = CAM }
+		localization_key = TDR_WS_CAM
+	}
+	text = {
+		trigger = { original_tag = LAO }
+		localization_key = TDR_WS_LAO
+	}
+	text = {
+		trigger = { original_tag = SIA }
+		localization_key = TDR_WS_SIA
+	}
+	text = {
+		trigger = { original_tag = DRC }
+		localization_key = TDR_WS_DRC
+	}
+	text = {
+		trigger = { original_tag = RCV }
+		localization_key = TDR_WS_RCV
+	}
+	text = {
+		trigger = { original_tag = LSP }
+		localization_key = TDR_WS_LSP
+	}
+	text = {
+		trigger = { original_tag = PND }
+		localization_key = TDR_WS_PND
+	}
+	text = {
+		trigger = { original_tag = TRL }
+		localization_key = TDR_WS_TRL
+	}
+	text = {
+		trigger = { original_tag = HFC }
+		localization_key = TDR_WS_HFC
+	}
+	text = {
+		trigger = { original_tag = SRH }
+		localization_key = TDR_WS_SRH
+	}
+	text = {
+		trigger = { original_tag = CLL }
+		localization_key = TDR_WS_CLL
+	}
+	text = {
+		trigger = { original_tag = PNT }
+		localization_key = TDR_WS_PNT
+	}
+	text = {
+		trigger = { original_tag = BCH }
+		localization_key = TDR_WS_BCH
+	}
+	text = {
+		trigger = { original_tag = JSU }
+		localization_key = TDR_WS_JSU
+	}
+	text = {
+		trigger = { original_tag = CHR }
+		localization_key = TDR_WS_CHR
+	}
+	text = {
+		trigger = { original_tag = FLD }
+		localization_key = TDR_WS_FLD
+	}
+	text = {
+		trigger = { original_tag = APP }
+		localization_key = TDR_WS_APP
+	}
+	text = {
+		trigger = { original_tag = HST }
+		localization_key = TDR_WS_HST
+	}
+	text = {
+		trigger = { original_tag = TRT }
+		localization_key = TDR_WS_TRT
+	}
+	text = {
+		trigger = { original_tag = CAN }
+		localization_key = TDR_WS_CAN
+	}
+	text = {
+		trigger = { original_tag = APL }
+		localization_key = TDR_WS_APL
+	}
+	text = {
+		trigger = { original_tag = SCI }
+		localization_key = TDR_WS_SCI
+	}
+	text = {
+		trigger = { original_tag = MLM }
+		localization_key = TDR_WS_MLM
+	}
+	text = {
+		trigger = { original_tag = MRP }
+		localization_key = TDR_WS_MRP
+	}
+	text = {
+		trigger = { original_tag = OLE }
+		localization_key = TDR_WS_OLE
+	}
+	text = {
+		trigger = { original_tag = CIN }
+		localization_key = TDR_WS_CIN
+	}
+	text = {
+		trigger = { original_tag = ATT }
+		localization_key = TDR_WS_ATT
+	}
+	text = {
+		trigger = { original_tag = DRI }
+		localization_key = TDR_WS_DRI
+	}
+	text = {
+		trigger = { original_tag = DOA }
+		localization_key = TDR_WS_DOA
+	}
+	text = {
+		trigger = { original_tag = TOU }
+		localization_key = TDR_WS_TOU
+	}
+	text = {
+		trigger = { original_tag = NAZ }
+		localization_key = TDR_WS_NAZ
+	}
+	text = {
+		trigger = { original_tag = MAG }
+		localization_key = TDR_WS_MAG
+	}
+	text = {
+		trigger = { original_tag = GES }
+		localization_key = TDR_WS_GES
+	}
+	text = {
+		trigger = { original_tag = BRK }
+		localization_key = TDR_WS_BRK
+	}
+	text = {
+		trigger = { original_tag = EBB }
+		localization_key = TDR_WS_EBB
+	}
+	text = {
+		trigger = { original_tag = ETO }
+		localization_key = TDR_WS_ETO
+	}
+	text = {
+		trigger = { original_tag = GEM }
+		localization_key = TDR_WS_GEM
+	}
+	text = {
+		trigger = { original_tag = VIC }
+		localization_key = TDR_WS_VIC
+	}
+	text = {
+		trigger = { original_tag = ROW }
+		localization_key = TDR_WS_ROW
+	}
+	text = {
+		trigger = { original_tag = YML }
+		localization_key = TDR_WS_YML
+	}
+	text = {
+		trigger = { original_tag = LID }
+		localization_key = TDR_WS_LID
+	}
+	text = {
+		trigger = { original_tag = THO }
+		localization_key = TDR_WS_THO
+	}
+	text = {
+		trigger = { original_tag = HOO }
+		localization_key = TDR_WS_HOO
+	}
+	text = {
+		trigger = { original_tag = ANT }
+		localization_key = TDR_WS_ANT
+	}
+	text = {
+		trigger = { original_tag = YAK }
+		localization_key = TDR_WS_YAK
+	}
+	text = {
+		trigger = { original_tag = PLB }
+		localization_key = TDR_WS_PLB
+	}
+	text = {
+		trigger = { original_tag = TTT }
+		localization_key = TDR_WS_TTT
+	}
+	text = {
+		trigger = { original_tag = DMD }
+		localization_key = TDR_WS_DMD
+	}
+	text = {
+		trigger = { original_tag = PNG }
+		localization_key = TDR_WS_PNG
+	}
+	text = {
+		trigger = { original_tag = PNR }
+		localization_key = TDR_WS_PNR
+	}
+	text = {
+		trigger = { original_tag = AMN }
+		localization_key = TDR_WS_AMN
+	}
+	text = {
+		trigger = { original_tag = ALC }
+		localization_key = TDR_WS_ALC
+	}
+	text = {
+		trigger = { original_tag = MRF }
+		localization_key = TDR_WS_MRF
+	}
+	text = {
+		trigger = { original_tag = GLF }
+		localization_key = TDR_WS_GLF
+	}
+	text = {
+		trigger = { original_tag = GRF }
+		localization_key = TDR_WS_GRF
+	}
+	text = {
+		trigger = { original_tag = GFF }
+		localization_key = TDR_WS_GFF
+	}
+	text = {
+		trigger = { original_tag = WET }
+		localization_key = TDR_WS_WET
+	}
+	text = {
+		trigger = { original_tag = PLV }
+		localization_key = TDR_WS_PLV
+	}
+	text = {
+		trigger = { original_tag = LDC }
+		localization_key = TDR_WS_LDC
+	}
+	text = {
+		trigger = { original_tag = ALH }
+		localization_key = TDR_WS_ALH
+	}
+	text = {
+		trigger = { original_tag = BFJ }
+		localization_key = TDR_WS_BFJ
+	}
+	text = {
+		trigger = { original_tag = NWN }
+		localization_key = TDR_WS_NWN
+	}
+	text = {
+		trigger = { original_tag = CNC }
+		localization_key = TDR_WS_CNC
+	}
+	text = {
+		trigger = { original_tag = MOR }
+		localization_key = TDR_WS_MOR
+	}
+	text = {
+		trigger = { original_tag = TST }
+		localization_key = TDR_WS_TST
+	}
+	text = {
+		trigger = { original_tag = WLD }
+		localization_key = TDR_WS_WLD
+	}
+	text = {
+		trigger = { original_tag = WST }
+		localization_key = TDR_WS_WST
+	}
+	text = {
+		localization_key = "[Root.GetNameDef]"
 	}
 }
 
 defined_text = {
 	name = GetCountryIntro
 	text = {
-		trigger = { original_tag = STL }
-		localization_key = EAW_WS_STL_desc
+		trigger = { original_tag = EQS }
+		localization_key = TDR_WS_EQS_desc
 	}
 	text = {
-		trigger = { original_tag = OLE }
-		localization_key = EAW_WS_OLE_desc
+		trigger = { original_tag = WHN }
+		localization_key = TDR_WS_WHN_desc
+	}
+	text = {
+		trigger = { original_tag = WES }
+		localization_key = TDR_WS_WES_desc
+	}
+	text = {
+		trigger = { original_tag = CEL }
+		localization_key = TDR_WS_CEL_desc
+	}
+	text = {
+		trigger = { original_tag = DER }
+		localization_key = TDR_WS_DER_desc
 	}
 	text = {
 		trigger = { original_tag = CRY }
-		localization_key = EAW_WS_CRY_desc
+		localization_key = TDR_WS_CRY_desc
 	}
 	text = {
-		trigger = {
-			original_tag = YAK
-		}
-		localization_key = EAW_WS_YAK_desc
+		trigger = { original_tag = AED }
+		localization_key = TDR_WS_AED_desc
+	}
+	text = {
+		trigger = { original_tag = KDW }
+		localization_key = TDR_WS_KDW_desc
+	}
+	text = {
+		trigger = { original_tag = LAR }
+		localization_key = TDR_WS_LAR_desc
+	}
+	text = {
+		trigger = { original_tag = DOL }
+		localization_key = TDR_WS_DOL_desc
+	}
+	text = {
+		trigger = { original_tag = SEV }
+		localization_key = TDR_WS_SEV_desc
+	}
+	text = {
+		trigger = { original_tag = STL }
+		localization_key = TDR_WS_STL_desc
+	}
+	text = {
+		trigger = { original_tag = TRS }
+		localization_key = TDR_WS_TRS_desc
+	}
+	text = {
+		trigger = { original_tag = NGF }
+		localization_key = TDR_WS_NGF_desc
+	}
+	text = {
+		trigger = { original_tag = PRA }
+		localization_key = TDR_WS_PRA_desc
+	}
+	text = {
+		trigger = { original_tag = ALB }
+		localization_key = TDR_WS_ALB_desc
+	}
+	text = {
+		trigger = { original_tag = BLS }
+		localization_key = TDR_WS_BLS_desc
+	}
+	text = {
+		trigger = { original_tag = MAN }
+		localization_key = TDR_WS_MAN_desc
+	}
+	text = {
+		trigger = { original_tag = CHI }
+		localization_key = TDR_WS_CHI_desc
+	}
+	text = {
+		trigger = { original_tag = TTL }
+		localization_key = TDR_WS_TTL_desc
+	}
+	text = {
+		trigger = { original_tag = FRM }
+		localization_key = TDR_WS_FRM_desc
+	}
+	text = {
+		trigger = { original_tag = MHT }
+		localization_key = TDR_WS_MHT_desc
+	}
+	text = {
+		trigger = { original_tag = CNT }
+		localization_key = TDR_WS_CNT_desc
+	}
+	text = {
+		trigger = { original_tag = NCN }
+		localization_key = TDR_WS_NCN_desc
+	}
+	text = {
+		trigger = { original_tag = BRI }
+		localization_key = TDR_WS_BRI_desc
+	}
+	text = {
+		trigger = { original_tag = SUM }
+		localization_key = TDR_WS_SUM_desc
+	}
+	text = {
+		trigger = { original_tag = DPP }
+		localization_key = TDR_WS_DPP_desc
+	}
+	text = {
+		trigger = { original_tag = DET }
+		localization_key = TDR_WS_DET_desc
+	}
+	text = {
+		trigger = { original_tag = STR }
+		localization_key = TDR_WS_STR_desc
+	}
+	text = {
+		trigger = { original_tag = MNT }
+		localization_key = TDR_WS_MNT_desc
+	}
+	text = {
+		trigger = { original_tag = FRV }
+		localization_key = TDR_WS_FRV_desc
+	}
+	text = {
+		trigger = { original_tag = HRF }
+		localization_key = TDR_WS_HRF_desc
+	}
+	text = {
+		trigger = { original_tag = GLP }
+		localization_key = TDR_WS_GLP_desc
+	}
+	text = {
+		trigger = { original_tag = ZAR }
+		localization_key = TDR_WS_ZAR_desc
+	}
+	text = {
+		trigger = { original_tag = ANG }
+		localization_key = TDR_WS_ANG_desc
+	}
+	text = {
+		trigger = { original_tag = VRD }
+		localization_key = TDR_WS_VRD_desc
+	}
+	text = {
+		trigger = { original_tag = BRM }
+		localization_key = TDR_WS_BRM_desc
+	}
+	text = {
+		trigger = { original_tag = KER }
+		localization_key = TDR_WS_KER_desc
+	}
+	text = {
+		trigger = { original_tag = TEM }
+		localization_key = TDR_WS_TEM_desc
+	}
+	text = {
+		trigger = { original_tag = SOD }
+		localization_key = TDR_WS_SOD_desc
+	}
+	text = {
+		trigger = { original_tag = RED }
+		localization_key = TDR_WS_RED_desc
+	}
+	text = {
+		trigger = { original_tag = MHK }
+		localization_key = TDR_WS_MHK_desc
+	}
+	text = {
+		trigger = { original_tag = CID }
+		localization_key = TDR_WS_CID_desc
+	}
+	text = {
+		trigger = { original_tag = BRG }
+		localization_key = TDR_WS_BRG_desc
+	}
+	text = {
+		trigger = { original_tag = ELD }
+		localization_key = TDR_WS_ELD_desc
+	}
+	text = {
+		trigger = { original_tag = CAR }
+		localization_key = TDR_WS_CAR_desc
+	}
+	text = {
+		trigger = { original_tag = DRA }
+		localization_key = TDR_WS_DRA_desc
+	}
+	text = {
+		trigger = { original_tag = MON }
+		localization_key = TDR_WS_MON_desc
+	}
+	text = {
+		trigger = { original_tag = FIL }
+		localization_key = TDR_WS_FIL_desc
+	}
+	text = {
+		trigger = { original_tag = DRG }
+		localization_key = TDR_WS_DRG_desc
+	}
+	text = {
+		trigger = { original_tag = BAL }
+		localization_key = TDR_WS_BAL_desc
+	}
+	text = {
+		trigger = { original_tag = VIE }
+		localization_key = TDR_WS_VIE_desc
+	}
+	text = {
+		trigger = { original_tag = CAM }
+		localization_key = TDR_WS_CAM_desc
+	}
+	text = {
+		trigger = { original_tag = LAO }
+		localization_key = TDR_WS_LAO_desc
+	}
+	text = {
+		trigger = { original_tag = SIA }
+		localization_key = TDR_WS_SIA_desc
+	}
+	text = {
+		trigger = { original_tag = DRC }
+		localization_key = TDR_WS_DRC_desc
+	}
+	text = {
+		trigger = { original_tag = RCV }
+		localization_key = TDR_WS_RCV_desc
+	}
+	text = {
+		trigger = { original_tag = LSP }
+		localization_key = TDR_WS_LSP_desc
+	}
+	text = {
+		trigger = { original_tag = PND }
+		localization_key = TDR_WS_PND_desc
+	}
+	text = {
+		trigger = { original_tag = TRL }
+		localization_key = TDR_WS_TRL_desc
+	}
+	text = {
+		trigger = { original_tag = HFC }
+		localization_key = TDR_WS_HFC_desc
+	}
+	text = {
+		trigger = { original_tag = SRH }
+		localization_key = TDR_WS_SRH_desc
+	}
+	text = {
+		trigger = { original_tag = CLL }
+		localization_key = TDR_WS_CLL_desc
+	}
+	text = {
+		trigger = { original_tag = PNT }
+		localization_key = TDR_WS_PNT_desc
+	}
+	text = {
+		trigger = { original_tag = BCH }
+		localization_key = TDR_WS_BCH_desc
+	}
+	text = {
+		trigger = { original_tag = JSU }
+		localization_key = TDR_WS_JSU_desc
+	}
+	text = {
+		trigger = { original_tag = CHR }
+		localization_key = TDR_WS_CHR_desc
+	}
+	text = {
+		trigger = { original_tag = FLD }
+		localization_key = TDR_WS_FLD_desc
+	}
+	text = {
+		trigger = { original_tag = APP }
+		localization_key = TDR_WS_APP_desc
+	}
+	text = {
+		trigger = { original_tag = HST }
+		localization_key = TDR_WS_HST_desc
+	}
+	text = {
+		trigger = { original_tag = TRT }
+		localization_key = TDR_WS_TRT_desc
+	}
+	text = {
+		trigger = { original_tag = CAN }
+		localization_key = TDR_WS_CAN_desc
+	}
+	text = {
+		trigger = { original_tag = APL }
+		localization_key = TDR_WS_APL_desc
+	}
+	text = {
+		trigger = { original_tag = SCI }
+		localization_key = TDR_WS_SCI_desc
+	}
+	text = {
+		trigger = { original_tag = MLM }
+		localization_key = TDR_WS_MLM_desc
+	}
+	text = {
+		trigger = { original_tag = MRP }
+		localization_key = TDR_WS_MRP_desc
+	}
+	text = {
+		trigger = { original_tag = OLE }
+		localization_key = TDR_WS_OLE_desc
+	}
+	text = {
+		trigger = { original_tag = CIN }
+		localization_key = TDR_WS_CIN_desc
+	}
+	text = {
+		trigger = { original_tag = ATT }
+		localization_key = TDR_WS_ATT_desc
+	}
+	text = {
+		trigger = { original_tag = DRI }
+		localization_key = TDR_WS_DRI_desc
+	}
+	text = {
+		trigger = { original_tag = DOA }
+		localization_key = TDR_WS_DOA_desc
+	}
+	text = {
+		trigger = { original_tag = TOU }
+		localization_key = TDR_WS_TOU_desc
+	}
+	text = {
+		trigger = { original_tag = NAZ }
+		localization_key = TDR_WS_NAZ_desc
+	}
+	text = {
+		trigger = { original_tag = MAG }
+		localization_key = TDR_WS_MAG_desc
+	}
+	text = {
+		trigger = { original_tag = GES }
+		localization_key = TDR_WS_GES_desc
+	}
+	text = {
+		trigger = { original_tag = BRK }
+		localization_key = TDR_WS_BRK_desc
+	}
+	text = {
+		trigger = { original_tag = EBB }
+		localization_key = TDR_WS_EBB_desc
+	}
+	text = {
+		trigger = { original_tag = ETO }
+		localization_key = TDR_WS_ETO_desc
+	}
+	text = {
+		trigger = { original_tag = GEM }
+		localization_key = TDR_WS_GEM_desc
+	}
+	text = {
+		trigger = { original_tag = VIC }
+		localization_key = TDR_WS_VIC_desc
+	}
+	text = {
+		trigger = { original_tag = ROW }
+		localization_key = TDR_WS_ROW_desc
+	}
+	text = {
+		trigger = { original_tag = YML }
+		localization_key = TDR_WS_YML_desc
+	}
+	text = {
+		trigger = { original_tag = LID }
+		localization_key = TDR_WS_LID_desc
+	}
+	text = {
+		trigger = { original_tag = THO }
+		localization_key = TDR_WS_THO_desc
+	}
+	text = {
+		trigger = { original_tag = HOO }
+		localization_key = TDR_WS_HOO_desc
+	}
+	text = {
+		trigger = { original_tag = ANT }
+		localization_key = TDR_WS_ANT_desc
+	}
+	text = {
+		trigger = { original_tag = YAK }
+		localization_key = TDR_WS_YAK_desc
+	}
+	text = {
+		trigger = { original_tag = PLB }
+		localization_key = TDR_WS_PLB_desc
+	}
+	text = {
+		trigger = { original_tag = TTT }
+		localization_key = TDR_WS_TTT_desc
+	}
+	text = {
+		trigger = { original_tag = DMD }
+		localization_key = TDR_WS_DMD_desc
+	}
+	text = {
+		trigger = { original_tag = PNG }
+		localization_key = TDR_WS_PNG_desc
+	}
+	text = {
+		trigger = { original_tag = PNR }
+		localization_key = TDR_WS_PNR_desc
+	}
+	text = {
+		trigger = { original_tag = AMN }
+		localization_key = TDR_WS_AMN_desc
+	}
+	text = {
+		trigger = { original_tag = ALC }
+		localization_key = TDR_WS_ALC_desc
+	}
+	text = {
+		trigger = { original_tag = MRF }
+		localization_key = TDR_WS_MRF_desc
+	}
+	text = {
+		trigger = { original_tag = GLF }
+		localization_key = TDR_WS_GLF_desc
+	}
+	text = {
+		trigger = { original_tag = GRF }
+		localization_key = TDR_WS_GRF_desc
+	}
+	text = {
+		trigger = { original_tag = GFF }
+		localization_key = TDR_WS_GFF_desc
+	}
+	text = {
+		trigger = { original_tag = WET }
+		localization_key = TDR_WS_WET_desc
+	}
+	text = {
+		trigger = { original_tag = PLV }
+		localization_key = TDR_WS_PLV_desc
+	}
+	text = {
+		trigger = { original_tag = LDC }
+		localization_key = TDR_WS_LDC_desc
+	}
+	text = {
+		trigger = { original_tag = ALH }
+		localization_key = TDR_WS_ALH_desc
+	}
+	text = {
+		trigger = { original_tag = BFJ }
+		localization_key = TDR_WS_BFJ_desc
+	}
+	text = {
+		trigger = { original_tag = NWN }
+		localization_key = TDR_WS_NWN_desc
+	}
+	text = {
+		trigger = { original_tag = CNC }
+		localization_key = TDR_WS_CNC_desc
+	}
+	text = {
+		trigger = { original_tag = MOR }
+		localization_key = TDR_WS_MOR_desc
+	}
+	text = {
+		trigger = { original_tag = TST }
+		localization_key = TDR_WS_TST_desc
+	}
+	text = {
+		trigger = { original_tag = WLD }
+		localization_key = TDR_WS_WLD_desc
+	}
+	text = {
+		trigger = { original_tag = WST }
+		localization_key = TDR_WS_WST_desc
+	}
+	text = {
+	localization_key = "[Root.GetNameDef]"
 	}
 }
 
 defined_text = { # Country
 	name = GetRegionName
 	text = {
-		trigger = { is_northern_equestria_country = yes }
-		localization_key = EAW_WS_Northern_Equestria
+		trigger = { is_in_severianas_sphere = yes }
+		localization_key = TDR_WS_Severianian_Sphere
 	}
 	text = {
-		trigger = { is_southern_equestria_country = yes }
-		localization_key = EAW_WS_Southern_Equestria
+		trigger = { is_in_nova_griffonia = yes }
+		localization_key = TDR_WS_Nova_Griffonia
+	}
+	text = {
+		trigger = { is_in_far_north = yes }
+		localization_key = TDR_WS_Far_North
+	}
+	text = {
+		trigger = { is_in_crystal_empire = yes }
+		localization_key = TDR_WS_Crystal_Empire
+	}
+	text = {
+		trigger = { is_in_manehattan_confederation = yes }
+		localization_key = TDR_WS_Manehattan_Confederation
+	}
+	text = {
+		trigger = { is_in_crossmountain = yes }
+		localization_key = TDR_WS_Crossmountain
+	}
+	text = {
+		trigger = { is_northern_kingdom = yes }
+		localization_key = TDR_WS_Northern_Kingdoms
+	}
+	text = {
+		trigger = { is_central_equestian_country = yes }
+		localization_key = TDR_WS_Central_Equestria
+	}
+	text = {
+		trigger = { is_on_crossway = yes }
+		localization_key = TDR_WS_Crossway
+	}
+	text = {
+		trigger = { is_independent_hive = yes }
+		localization_key = TDR_WS_Independent_Hive
+	}
+	text = {
+		trigger = { is_south_west_equestian_country = yes }
+		localization_key = TDR_WS_South_West_Equestria
+	}
+	text = {
+		trigger = { is_south_east_equestrian_country = yes }
+		localization_key = TDR_WS_South_East_Equestria
+	}
+	text = {
+		trigger = { is_griffonian_nation = yes }
+		localization_key = TDR_WS_Griffonian_Nation
+	}
+	text = {
+		trigger = { is_occupied_hive = yes }
+		localization_key = TDR_WS_Occupied_Hive
+	}
+	text = {
+		trigger = { is_olenian_country = yes }
+		localization_key = TDR_WS_Olenian_Country
 	}
 	text = {
 		localization_key = "[Root.GetNameDef]"
@@ -70,14 +1044,73 @@ defined_text = { # Country
 defined_text = { # Country
 	name = GetRegionDesc
 	text = {
-		trigger = { is_northern_equestria_country = yes }
-		localization_key = EAW_WS_Northern_Equestria_desc
+		trigger = { is_in_severianas_sphere = yes }
+		localization_key = TDR_WS_Severianian_Sphere_desc
 	}
 	text = {
-		trigger = { is_southern_equestria_country = yes }
-		localization_key = EAW_WS_Southern_Equestria_desc
+		trigger = { is_in_nova_griffonia = yes }
+		localization_key = TDR_WS_Nova_Griffonia_desc
+	}
+	text = {
+		trigger = { is_in_far_north = yes }
+		localization_key = TDR_WS_Far_North_desc
+	}
+	text = {
+		trigger = { is_in_crystal_empire = yes }
+		localization_key = TDR_WS_Crystal_Empire_desc
+	}
+	text = {
+		trigger = { is_in_manehattan_confederation = yes }
+		localization_key = TDR_WS_Manehattan_Confederation_desc
+	}
+	text = {
+		trigger = { is_in_crossmountain = yes }
+		localization_key = TDR_WS_Crossmountain_desc
+	}
+	text = {
+		trigger = { is_northern_kingdom = yes }
+		localization_key = TDR_WS_Northern_Kingdoms_desc
+	}
+	text = {
+		trigger = { is_central_equestian_country = yes }
+		localization_key = TDR_WS_Central_Equestria_desc
+	}
+	text = {
+		trigger = { is_on_crossway = yes }
+		localization_key = TDR_WS_Crossway_desc
+	}
+	text = {
+		trigger = { is_independent_hive = yes }
+		localization_key = TDR_WS_Independent_Hive_desc
+	}
+	text = {
+		trigger = { is_south_west_equestian_country = yes }
+		localization_key = TDR_WS_South_West_Equestria_desc
+	}
+	text = {
+		trigger = { is_south_east_equestrian_country = yes }
+		localization_key = TDR_WS_South_East_Equestria_desc
+	}
+	text = {
+		trigger = { is_griffonian_nation = yes }
+		localization_key = TDR_WS_Griffonian_Nation_desc
+	}
+	text = {
+		trigger = { is_occupied_hive = yes }
+		localization_key = TDR_WS_Occupied_Hive_desc
+	}
+	text = {
+		trigger = { is_olenian_country = yes }
+		localization_key = TDR_WS_Olenian_Country_desc
 	}
 	text = {
 		localization_key = "[Root.GetNameDef]"
+	}
+}
+
+defined_text = {
+	name = GetHeaderText
+	text = {
+		localization_key = TDR_WS_standard_header_text
 	}
 }
