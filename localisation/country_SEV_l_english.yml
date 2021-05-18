@@ -37,8 +37,17 @@ SEV_start_desc:0 ""
 severianian_crown:0 "Severianian Crown"
 severianian_crown_desc:0 ""
 #######################################################
+##### DECISIONS #######################################
+#######################################################
+SEV_talks:0 "Let's talk to closest friends and advisors"
+SEV_talk_to_sinister:0 "Talk to Sinister Serov"
+#######################################################
 ##### EVENTS ##########################################
 #######################################################
 severiana.0.t:0 "Start"
 severiana.0.d:0 ""
 severiana.0.a:0 "Let's go"
+
+severiana.1.t:0 "Sinister says"
+severiana.1.d:0 "HA HA HA HA HA"
+severiana.1.a:0 "Thanks"

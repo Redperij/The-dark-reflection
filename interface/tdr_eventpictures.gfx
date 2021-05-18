@@ -1,0 +1,8 @@
+spriteTypes = {
+	### War at Equestria ###
+
+	spriteType = {
+		name = "GFX_sinister"
+		texturefile = "gfx/interface/event_pictures/event_sinister_stg.dds"
+	}
+}

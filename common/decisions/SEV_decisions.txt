@@ -1,0 +1,23 @@
+SEV_talks = {
+	SEV_talk_to_sinister = {
+		icon = red_star
+		available = {
+			always = yes
+		}
+		cost = 1
+		days_remove = 1
+		ai_will_do = {
+			factor = 0
+		}
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SEV_talk_to_sinister"
+			SEV = {
+				country_event = { id = severiana.1 days = 0 }
+			}
+		}
+	}
+}
