@@ -1,0 +1,14 @@
+add_namespace = severiana
+
+country_event = {
+	id = severiana.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.0"}
+	title = severiana.0.t
+	desc = severiana.0.d
+	picture = GFX_event_stg_techno_magic
+
+	is_triggered_only = yes
+	option = {
+		name = severiana.0.a
+	}
+}
