@@ -1,0 +1,28 @@
+﻿l_english:
+
+####################
+####### CORE #######
+####################
+state_lore_text_container_title:0 "Twinkle Sprinkle's Abridged Guide to the Places of the World ([state_lore_text_date] ed.)"
+state_lore_text_tt:0 "The history of §Y[state_lore_text_container_state_name_short]§!."
+state_lore_text_tt_delayed:0 "Click here to open up §YTwinkle Sprinkle's Abridged Guide to the Places of the World§!, introducing the [This.Owner.GetAdjective] §YState§! of §Y[state_lore_text_container_state_name_short]§!." 
+
+####################
+####### DATES ######
+####################
+state_lore_text_date_default:0 "997"
+
+####################
+#### CANTERLOT #####
+####################
+state_lore_text_container_state_name_short_155:0 "Canterlot Palace"
+state_lore_text_container_state_name_155:0 "The §YHeart§! of §YEquestria§!"
+state_lore_text_container_state_description_155:0 "§YCanterlot Palace§!"
+
+state_lore_text_container_state_name_short_341:0 "Canterlot"
+state_lore_text_container_state_name_341:0 "The §YHeart§! of §YEquestria§!"
+state_lore_text_container_state_description_341:0 "§YCanterlot§!"
+
+####################
+####   CITIES   ####
+####################

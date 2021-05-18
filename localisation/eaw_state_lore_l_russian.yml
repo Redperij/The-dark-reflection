@@ -1,0 +1,28 @@
+﻿l_russian:
+
+####################
+####### CORE #######
+####################
+state_lore_text_container_title:0 "Краткое руководство Твинкл Спринкл по примечательным местам мира (издание [state_lore_text_date] года)"
+state_lore_text_tt:0 "История города §Y[state_lore_text_container_state_name_short]§!."
+state_lore_text_tt_delayed:0 "Нажмите сюда, чтобы открыть §YКраткое руководство Твинкл Спринкл по примечательным местам мира§!, рассказывающее о §Y[This.Owner.GetAdjective]§! регионе §Y[state_lore_text_container_state_name_short]§!."
+
+####################
+####### DATES ######
+####################
+state_lore_text_date_default:0 "997"
+
+####################
+#### CANTERLOT #####
+####################
+state_lore_text_container_state_name_short_155:0 "Кантерлотcкий Замок"
+state_lore_text_container_state_name_155:0 "§YСердце Эквестрии§!"
+state_lore_text_container_state_description_155:0 "§YКантерлотcкий Замок§!"
+
+state_lore_text_container_state_name_short_341:0 "Кантерлот"
+state_lore_text_container_state_name_341:0 "§YСердце Эквестрии§!"
+state_lore_text_container_state_description_341:0 "§YКантерлот§!"
+
+####################
+####   CITIES   ####
+####################
