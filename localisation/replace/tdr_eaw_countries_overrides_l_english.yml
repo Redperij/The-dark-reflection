@@ -43,10 +43,10 @@ STL_communism:0 ""
 STL_communism_DEF:0 ""
 STL_democratic:0 ""
 STL_democratic_DEF:0 ""
-STL_fascism_ADJ:0 "Severian"
-STL_democratic_ADJ:0 "Severian"
-STL_neutrality_ADJ:0 "Severian"
-STL_communism_ADJ:0 "Severian"
+STL_fascism_ADJ:0 "Severianian"
+STL_democratic_ADJ:0 "Severianian"
+STL_neutrality_ADJ:0 "Severianian"
+STL_communism_ADJ:0 "Severianian"
 
 ################################label
 # East Equestria # Confederacy #

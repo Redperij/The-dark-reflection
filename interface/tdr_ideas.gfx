@@ -1,0 +1,8 @@
+spriteTypes = {
+	### War at Equestria ###
+
+	spriteType = {
+		name = "GFX_idea_severianian_crown"
+		texturefile = "gfx/interface/ideas/LIT_crown_4.tga"
+	}
+}

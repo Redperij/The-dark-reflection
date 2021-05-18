@@ -1,0 +1,9 @@
+SEV_talks = {
+	allowed = {
+		original_tag = SEV
+	}
+	icon = hammer_and_horseshoe
+	priority = {
+		base = 0
+	}
+}
