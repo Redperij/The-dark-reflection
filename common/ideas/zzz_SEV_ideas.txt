@@ -1,0 +1,15 @@
+ideas = {
+	country = {
+		severianian_crown = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.25
+			}
+		}
+	}
+}

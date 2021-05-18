@@ -33,6 +33,10 @@ set_popularities = {
 	fascism = 30
 }
 
+add_ideas = {
+	severianian_crown
+}
+
 set_convoys = 100
 
 add_equipment_to_stockpile = {
