@@ -1,0 +1,106 @@
+ ##  ###     ###  ### #  #  ##  #   # ###  ##  ###  
+#  #  #      #  # #   #  # #  # #   #  #  #  # #  # 
+####  #      ###  ##  #### ####  # #   #  #  # ###  
+#  #  #      #  # #   #  # #  #  # #   #  #  # #  # 
+#  # ###     ###  ### #  # #  #   #   ###  ##  #  # 
+
+EQS_ai_behavior = {
+	name = "EQS_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}
+CRY_ai_behavior = {
+	name = "CRY_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}
+SEV_ai_behavior = {
+	name = "SEV_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}
+#  ##   ##  #   # ###      ## ### ### #  # ###  
+# #    #  # ## ## #       #   #    #  #  # #  # 
+# # ## #### # # # ##       #  ##   #  #  # ###  
+# #  # #  # #   # #         # #    #  #  # #    
+#  ##  #  # #   # ###     ##  ###  #   ##  # 
+equestria_united_status = {
+	name = "EQS_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_EQS_STATUS_DESC"
+	}
+	option = {
+		name = EQS_STATUS_UNITED
+		text = "RULE_OPTION_EQS_STATUS_UNITED"
+		desc = "RULE_OPTION_EQS_STATUS_UNITED_DESC"
+		
+	}
+}
+infunstructure = {
+	name = "INFUNSTRUCTURE"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_INFUNSTRUCTURE_DESC"
+	}
+	option = {
+		name = PSODY_MODE
+		text = "RULE_OPTION_PSODY_MODE"
+		desc = "RULE_OPTION_PSODY_MODE_DESC"
+		
+	}
+}
+allow_faction = {
+	name = "RULE_ALLOW_FACTION"
+	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
+	icon = "GFX_take_over_faction_leadership"
+	option = {
+		name = "ALLOWED"
+		text = "RULE_OPTION_ALLOWED"
+		desc = "RULE_ALLOW_FACTION_ALLOWED_DESC"
+		
+	}
+	option = {
+		name = "HUMANS_ONLY"
+		text = "RULE_OPTION_HUMANS_ONLY"
+		desc = "RULE_ALLOW_FACTION_HUMANS_ONLY_DESC"
+		
+	}
+	default = {
+		name = "BLOCKED"
+		text = "RULE_OPTION_BLOCKED"
+		desc = "RULE_ALLOW_FACTION_BLOCKED_DESC"
+	}
+}
+ai_division_limiter = {
+	name = "RULE_AI_DIVISION_LIMITER"
+	group = "RULE_GROUP_GAMEPLAY"
+	icon = "GFX_volunteers"
+	default = {
+		name = yes
+		text = "RULE_OPTION_ALLOWED"
+		desc = "RULE_AI_DIVISION_LIMITER_ALLOWED_DESC"
+	}
+	option = {
+		name = no
+		text = "RULE_OPTION_BLOCKED"
+		desc = "RULE_AI_DIVISION_LIMITER_BLOCKED_DESC"
+		
+	}
+}
