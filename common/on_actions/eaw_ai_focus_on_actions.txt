@@ -1,0 +1,51 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SEV = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = SEV_ai_behavior
+							option = DEFAULT
+						}
+					}
+					#Adds up to 100
+					random_list = {
+						50 = { SEV = { set_country_flag = SEV_hist_template_rule } }
+						50 = { SEV = { set_country_flag = SEV_alt_template_rule } }
+					}
+				}
+			}
+			EQS = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = EQS_ai_behavior
+							option = DEFAULT
+						}
+					}
+					#Adds up to 100
+					random_list = {
+						50 = { EQS = { set_country_flag = EQS_hist_template_rule } }
+						50 = { EQS = { set_country_flag = EQS_alt_template_rule } }
+					}
+				}
+			}
+			CRY = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = CRY_ai_behavior
+							option = DEFAULT
+						}
+					}
+					#Adds up to 100
+					random_list = {
+						50 = { CRY = { set_country_flag = CRY_hist_template_rule } }
+						50 = { CRY = { set_country_flag = CRY_alt_template_rule } }
+					}
+				}
+			}
+		}
+	}
+}

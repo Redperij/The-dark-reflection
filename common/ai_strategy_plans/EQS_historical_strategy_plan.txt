@@ -1,0 +1,33 @@
+EQS_historical_template_path = {
+	name = "Just a template"
+	desc = "For Historical Path"
+
+	allowed = {
+		original_tag = EQS
+	}
+
+	enable = {
+		has_country_flag = EQS_hist_template_rule
+	}
+
+	abort = {}
+
+	ai_national_focuses = {}
+
+	focus_factors = {}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	weight = {
+		factor = 1
+		modifier = {
+			factor = 1.0
+		}
+	}
+}

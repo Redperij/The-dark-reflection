@@ -1,0 +1,33 @@
+SEV_alternate_template_path = {
+	name = "Just a template"
+	desc = "For Alternate Path"
+
+	allowed = {
+		original_tag = SEV
+	}
+
+	enable = {
+		has_country_flag = SEV_alt_template_rule
+	}
+
+	abort = {}
+
+	ai_national_focuses = {}
+
+	focus_factors = {}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	weight = {
+		factor = 1
+		modifier = {
+			factor = 1.0
+		}
+	}
+}

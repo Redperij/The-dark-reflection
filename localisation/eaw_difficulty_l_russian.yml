@@ -1,0 +1,4 @@
+﻿l_russian:
+ #TheAxisIndustry:0 "Промышленность Оси"# Identical duplicate from hoi4
+ #diff_custom_industry:0 "Сложность промышленности по выбору"# Identical duplicate from hoi4
+ custom_diff_strong_eqs:0 "@EQS Усилить Эквестрию"
