@@ -20,26 +20,9 @@ autonomy_states_personal_union = {
 autonomy_states_feudal = {
 	OR = { has_dlc = "Together for Victory" has_dlc = "Death or Dishonor" }
 	autonomy_states_personal_union = no
-	OR = {
-		is_feudal_vassal = yes
-	}
-	if = {
-		limit = {
-			NOT = {
-				AND = {
-					is_griffon_empire_country = yes
-					overlord = { tag = event_target:griffonian_empire }
-				}
-			}
-		}
-		NOT = {
-			has_government = communism
-		}
-	}
+	is_feudal_vassal = yes
 	overlord = {
-		OR = {
-			is_feudal_vassal = yes
-		}
+		is_feudal_vassal = yes
 	}
 }
 

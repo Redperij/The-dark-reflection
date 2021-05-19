@@ -272,20 +272,21 @@ is_underdeveloped_country = {
 		
 	}
 }
-is_jer_country = {
-	OR = {
-		
-	}
-}
-is_wng_country = {
-	OR = {
-		
-	}
-}
 
 is_feudal_vassal = {
 	OR = {
-		
+		original_tag = SEV
+		original_tag = NWN
+		original_tag = STL
+		original_tag = OLE
+		original_tag = TOU
+		original_tag = CIN
+		original_tag = DOA
+		original_tag = DRI
+		original_tag = GEM
+		original_tag = GES
+		original_tag = LID
+		original_tag = YML
 	}
 }
 
