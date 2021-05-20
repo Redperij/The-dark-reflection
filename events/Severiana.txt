@@ -11,34 +11,61 @@ country_event = {
 	option = {
 		name = severiana.0.a
 		sev_unlock_all_talks = yes
+		set_country_flag = severiana_first_talks
 	}
 }
 
 country_event = { # Speaking with Sinister
 	id = severiana.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.1"}
-	title = severiana.1.t
-	desc = severiana.1.d
+	title = {
+		text = severiana.1.t1
+		trigger = {
+			has_country_flag = severiana_first_talks
+		}
+	}
+	desc = {
+		text = severiana.1.d1
+		trigger = {
+			has_country_flag = severiana_first_talks
+		}
+	}
 	picture = GFX_winter_sinister_event
 
 	is_triggered_only = yes
 	option = {
-		name = severiana.1.a
+		name = severiana.1.a1
 		clr_country_flag = is_talking
+		trigger = {
+			has_country_flag = severiana_first_talks
+		}
 	}
 }
 
 country_event = { # Speaking with Nestor
 	id = severiana.2
 	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.2"}
-	title = severiana.2.t
-	desc = severiana.2.d
+	title = {
+		text = severiana.2.t1
+		trigger = {
+			has_country_flag = severiana_first_talks
+		}
+	}
+	desc = {
+		text = severiana.2.d1
+		trigger = {
+			has_country_flag = severiana_first_talks
+		}
+	}
 	picture = GFX_event_stg_techno_magic
 
 	is_triggered_only = yes
 	option = {
-		name = severiana.2.a
+		name = severiana.2.a1
 		clr_country_flag = is_talking
+		trigger = {
+			has_country_flag = severiana_first_talks
+		}
 	}
 }
 

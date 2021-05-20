@@ -63,13 +63,13 @@ severiana.0.t:0 "Начало"
 severiana.0.d:0 ""
 severiana.0.a:0 "Поехали
 
-severiana.1.t:0 "Синистер говорит"
-severiana.1.d:0 "ХА ХА ХА ХА ХА"
-severiana.1.a:0 "Спасибо"
+severiana.1.t1:0 "Синистер говорит"
+severiana.1.d1:0 "ХА ХА ХА ХА ХА"
+severiana.1.a1:0 "Спасибо"
 
-severiana.2.t:0 "Нестор говорит"
-severiana.2.d:0 "ХА ХА ХА ХА ХА"
-severiana.2.a:0 "Спасибо"
+severiana.2.t1:0 "Нестор говорит"
+severiana.2.d1:0 "ХА ХА ХА ХА ХА"
+severiana.2.a1:0 "Спасибо"
 
 severiana.3.t:0 "Шпигель говорит"
 severiana.3.d:0 "ХА ХА ХА ХА ХА"
