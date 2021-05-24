@@ -5,12 +5,19 @@ state={
 	history={
 		owner = SEV
 		add_core_of = SEV
+
+		victory_points = {
+			10419 1
+		}
+		victory_points = {
+			10225 1
+		}
 	}
 
 	provinces={
 		677 3363 3866 4113 10045 10143 10154 10191 10225 10231 10272 10344 10375 10418 10419 10450 10497 10498 10566 
 	}
-	manpower = 902
+	manpower = 9102
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 }

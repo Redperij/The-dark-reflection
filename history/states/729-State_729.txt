@@ -4,11 +4,18 @@ state={
 	history={
 		owner = SEV
 		add_core_of = SEV
+
+		victory_points = {
+			1824 1
+		}
+		victory_points = {
+			2590 5
+		}
 	}
 	provinces={
 		1824 1978 2590 12137 12199 12249 12347 
 	}
-	manpower=1
-	state_category = small_island
+	manpower=19245
+	state_category = rural
 	buildings_max_level_factor=1.000
 }
