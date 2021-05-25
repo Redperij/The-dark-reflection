@@ -1,14 +1,21 @@
+
 state={
 	id=1267
 	name="STATE_1267"
+
 	history={
 		owner = GLF
 		add_core_of = GLF
+
+		victory_points = {
+			4356 5 
+		}
 	}
+
 	provinces={
-		4040 
+		4356 
 	}
-	manpower=1
-	state_category = enclave
+	manpower=710083
 	buildings_max_level_factor=1.000
+	state_category=city
 }

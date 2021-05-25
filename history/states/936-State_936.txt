@@ -1,21 +1,21 @@
+
 state={
 	id=936
 	name="STATE_936"
+
 	history={
 		owner = GLF
 		add_core_of = GLF
+		victory_points = {
+			8872 20 
+		}
 
-		victory_points = {
-			8872 20
-	    }
-		victory_points = {
-			4356 5
-	    }
 	}
+
 	provinces={
-		4356 4863 8872 8965 
+		4863 8872 8965 
 	}
-	manpower=2047703
-	state_category = city
+	manpower=1337620
 	buildings_max_level_factor=1.000
+	state_category=city
 }

@@ -1,20 +1,21 @@
+
 state={
 	id=770
 	name="STATE_770"
 
 	history={
-		owner = SEV
-		add_core_of = SEV
-		
+		owner = GRF
+		add_core_of = GRF
+
 		victory_points = {
-			11288 5
+			4428 5 
 		}
 	}
 
 	provinces={
-		5120 11112 11168 11255 11288 11301 11337 11371 11422 
+		4428 
 	}
-	manpower = 56432
-	buildings_max_level_factor = 1.000
-	state_category = town
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
 }
