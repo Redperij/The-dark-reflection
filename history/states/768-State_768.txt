@@ -1,18 +1,24 @@
+
 state={
 	id=768
 	name="STATE_768"
+
 	history={
 		owner = SEV
 		add_core_of = SEV
 
 		victory_points = {
-			4599 5
+			4599 5 
+		}
+		victory_points = {
+			11288 5 
 		}
 	}
+
 	provinces={
-		4599 11254 11421 11441 
+		4599 5120 11112 11168 11254 11255 11288 11301 11337 11371 11421 11422 11441 
 	}
-	manpower=59392
-	state_category = large_town
+	manpower=115824
 	buildings_max_level_factor=1.000
+	state_category=large_town
 }
