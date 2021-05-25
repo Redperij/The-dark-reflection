@@ -1,14 +1,18 @@
+
 state={
 	id=935
 	name="STATE_935"
+
 	history={
 		owner = GLF
 		add_core_of = GLF
+
 	}
+
 	provinces={
-		526 2605 3028 3243 3388 3492 5193 9089 9096 9154 9164 9165 9247 9320 9345 
+		526 2605 3028 3243 3388 3492 5193 9096 9154 9165 9247 9320 9345 
 	}
 	manpower=1
-	state_category = rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
