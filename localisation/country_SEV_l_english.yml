@@ -19,8 +19,8 @@ SEV_communism_ADJ:0 "Severianian"
 #######################################################
 SEV_fascism_party:0 "SSS"
 SEV_fascism_party_long:0 "Soyuz Spasenija Severa"
-SEV_neutrality_party:0 "Crown"
-SEV_neutrality_party_long:0 "Severianian Crown"
+SEV_neutrality_party:0 "Revolcovs"
+SEV_neutrality_party_long:0 "Revolcov Dinasty"
 SEV_democratic_party:0 "APK"
 SEV_democratic_party_long:0 "Associacija Progressivnih Knyazej"
 SEV_communism_party:0 "Bunt"
@@ -29,18 +29,33 @@ SEV_communism_party_long:0 "Strike"
 ##### FOCUSES #########################################
 #######################################################
 Severiana_focus:0 "Severianian Focus Tree"
-SEV_start:0 "..."
-SEV_start_desc:0 ""
+SEV_start:0 "New Year"
+SEV_start_desc:0 "New reports, problems..."
 #######################################################
 ##### IDEAS ###########################################
 #######################################################
 severianian_crown:0 "Severianian Crown"
 severianian_crown_desc:0 ""
+
+no_talk_to_sinister:0 "Haven't talked"
+no_talk_to_nestor:0 "Haven't talked"
+no_talk_to_spiegel:0 "Haven't talked"
+no_talk_to_vasily:0 "Haven't talked"
+no_talk_to_danilka:0 "Haven't talked"
+no_talk_to_skorpin:0 "Haven't talked"
+no_talk_to_vinous:0 "Haven't talked"
+is_talking:0 "Already talking to somebody"
 #######################################################
 ##### DECISIONS #######################################
 #######################################################
-SEV_talks:0 "Let's talk to closest friends and advisors"
-SEV_talk_to_sinister:0 "Talk to Sinister Serov"
+SEV_talks:0 "Talk to"
+SEV_talk_to_sinister:0 "Sinister Serov"
+SEV_talk_to_nestor:0 "Nestor Lunin"
+SEV_talk_to_spiegel:0 "Spike Spiegel"
+SEV_talk_to_vasily:0 "Vasily Pantsushenko"
+SEV_talk_to_danilka:0 "Danilka"
+SEV_talk_to_skorpin:0 "Yury Skorpin"
+SEV_talk_to_vinous:0 "Vinous Kostylev"
 #######################################################
 ##### EVENTS ##########################################
 #######################################################
@@ -48,6 +63,30 @@ severiana.0.t:0 "Start"
 severiana.0.d:0 ""
 severiana.0.a:0 "Let's go"
 
-severiana.1.t:0 "Sinister says"
-severiana.1.d:0 "HA HA HA HA HA"
-severiana.1.a:0 "Thanks"
+severiana.1.t1:0 "Sinister says"
+severiana.1.d1:0 "HA HA HA HA HA"
+severiana.1.a1:0 "Thanks"
+
+severiana.2.t1:0 "Nestor says"
+severiana.2.d1:0 "HA HA HA HA HA"
+severiana.2.a1:0 "Thanks"
+
+severiana.3.t:0 "Spiegel says"
+severiana.3.d:0 "HA HA HA HA HA"
+severiana.3.a:0 "Thanks"
+
+severiana.4.t:0 "Vasily says"
+severiana.4.d:0 "HA HA HA HA HA"
+severiana.4.a:0 "Thanks"
+
+severiana.5.t:0 "Danilka says"
+severiana.5.d:0 "HA HA HA HA HA"
+severiana.5.a:0 "Thanks"
+
+severiana.6.t:0 "Skorpin says"
+severiana.6.d:0 "HA HA HA HA HA"
+severiana.6.a:0 "Thanks"
+
+severiana.7.t:0 "Vinous says"
+severiana.7.d:0 "HA HA HA HA HA"
+severiana.7.a:0 "Thanks"

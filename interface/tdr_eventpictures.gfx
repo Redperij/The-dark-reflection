@@ -2,7 +2,12 @@ spriteTypes = {
 	### War at Equestria ###
 
 	spriteType = {
-		name = "GFX_sinister"
-		texturefile = "gfx/interface/event_pictures/event_sinister_stg.dds"
+		name = "GFX_winter_sinister_event"
+		texturefile = "gfx/event_pictures/event_sinister_speaks.dds"
 	}
+	spriteType = {
+		name = "GFX_vasya_event"
+		texturefile = "gfx/event_pictures/event_vasya_speaks.dds"
+	}
+	
 }

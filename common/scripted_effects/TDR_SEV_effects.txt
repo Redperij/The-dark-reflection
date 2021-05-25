@@ -1,0 +1,44 @@
+sev_unlock_all_talks = {
+	if = {
+		limit = { 
+			NOT = { has_country_flag = no_talk_to_sinister }
+		}
+		set_country_flag = no_talk_to_sinister
+	}
+	if = {
+		limit = { 
+			NOT = { has_country_flag = no_talk_to_nestor }
+		}
+		set_country_flag = no_talk_to_nestor
+	}
+	if = {
+		limit = { 
+			NOT = { has_country_flag = no_talk_to_spiegel }
+		}
+		set_country_flag = no_talk_to_spiegel
+	}
+	if = {
+		limit = { 
+			NOT = { has_country_flag = no_talk_to_vasily }
+		}
+		set_country_flag = no_talk_to_vasily
+	}
+	if = {
+		limit = { 
+			NOT = { has_country_flag = no_talk_to_danilka }
+		}
+		set_country_flag = no_talk_to_danilka
+	}
+	if = {
+		limit = { 
+			NOT = { has_country_flag = no_talk_to_skorpin }
+		}
+		set_country_flag = no_talk_to_skorpin
+	}
+	if = {
+		limit = { 
+			NOT = { has_country_flag = no_talk_to_vinous }
+		}
+		set_country_flag = no_talk_to_vinous
+	}
+}

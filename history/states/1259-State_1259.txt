@@ -6,7 +6,7 @@ state={
 		add_core_of = GLF
 	}
 	provinces={
-		1490 2078 2152 3819 4102 9438 9456 9457 9535 9549 9613 
+		1490 2078 2152 3819 4102 9438 9456 9457 9501 9535 9549 9613 
 	}
 	manpower=1
 	state_category = pastoral

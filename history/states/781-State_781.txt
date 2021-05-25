@@ -4,11 +4,15 @@ state={
 	history={
 		owner = SEV
 		add_core_of = SEV
+
+		victory_points = {
+			11482 1
+		}
 	}
 	provinces={
 		11434 11482 
 	}
-	manpower=937
+	manpower=5937
 	state_category = tiny_island
 	buildings_max_level_factor=1.000
 }

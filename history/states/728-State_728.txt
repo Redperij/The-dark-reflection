@@ -12,7 +12,7 @@ state={
 	provinces={
 		25 2954 12467 12526 
 	}
-	manpower=19932
-	state_category = small_island
+	manpower=39932
+	state_category = town
 	buildings_max_level_factor=1.000
 }

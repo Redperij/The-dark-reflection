@@ -10,18 +10,131 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = severiana.0.a
+		sev_unlock_all_talks = yes
+		set_country_flag = severiana_first_talks
 	}
 }
 
-country_event = {
+country_event = { # Speaking with Sinister
 	id = severiana.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.1"}
-	title = severiana.1.t
-	desc = severiana.1.d
-	picture = GFX_sinister
+	title = {
+		text = severiana.1.t1
+		trigger = {
+			has_country_flag = severiana_first_talks
+		}
+	}
+	desc = {
+		text = severiana.1.d1
+		trigger = {
+			has_country_flag = severiana_first_talks
+		}
+	}
+	picture = GFX_winter_sinister_event
 
 	is_triggered_only = yes
 	option = {
-		name = severiana.1.a
+		name = severiana.1.a1
+		clr_country_flag = is_talking
+		trigger = {
+			has_country_flag = severiana_first_talks
+		}
+	}
+}
+
+country_event = { # Speaking with Nestor
+	id = severiana.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.2"}
+	title = {
+		text = severiana.2.t1
+		trigger = {
+			has_country_flag = severiana_first_talks
+		}
+	}
+	desc = {
+		text = severiana.2.d1
+		trigger = {
+			has_country_flag = severiana_first_talks
+		}
+	}
+	picture = GFX_event_stg_techno_magic
+
+	is_triggered_only = yes
+	option = {
+		name = severiana.2.a1
+		clr_country_flag = is_talking
+		trigger = {
+			has_country_flag = severiana_first_talks
+		}
+	}
+}
+
+country_event = { # Speaking with Spiegel
+	id = severiana.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.3"}
+	title = severiana.3.t
+	desc = severiana.3.d
+	picture = GFX_event_stg_techno_magic
+
+	is_triggered_only = yes
+	option = {
+		name = severiana.3.a
+		clr_country_flag = is_talking
+	}
+}
+
+country_event = { # Speaking with Vasily
+	id = severiana.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.4"}
+	title = severiana.4.t
+	desc = severiana.4.d
+	picture = GFX_vasya_event
+
+	is_triggered_only = yes
+	option = {
+		name = severiana.4.a
+		clr_country_flag = is_talking
+	}
+}
+
+country_event = { # Speaking with Danilka
+	id = severiana.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.5"}
+	title = severiana.5.t
+	desc = severiana.5.d
+	picture = GFX_event_stg_techno_magic
+
+	is_triggered_only = yes
+	option = {
+		name = severiana.5.a
+		clr_country_flag = is_talking
+	}
+}
+
+country_event = { # Speaking with Skorpin
+	id = severiana.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.6"}
+	title = severiana.6.t
+	desc = severiana.6.d
+	picture = GFX_event_stg_techno_magic
+
+	is_triggered_only = yes
+	option = {
+		name = severiana.6.a
+		clr_country_flag = is_talking
+	}
+}
+
+country_event = { # Speaking with Vinous
+	id = severiana.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.7"}
+	title = severiana.7.t
+	desc = severiana.7.d
+	picture = GFX_event_stg_techno_magic
+
+	is_triggered_only = yes
+	option = {
+		name = severiana.7.a
+		clr_country_flag = is_talking
 	}
 }

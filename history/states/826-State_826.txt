@@ -8,23 +8,23 @@ state={
 		add_core_of = SEV
 
 		victory_points = {
-			10100 5
+			10100 20
 		}
 		victory_points = {
 			9953 1
 		}
 		victory_points = {
-			10008 1
+			10008 5
 		}
 		victory_points = {
-			2601 1
+			2601 3
 		}
 	}
 
 	provinces={
 		438 1899 2092 2601 3167 5455 9953 9996 10008 10019 10075 10100 10101 10181 
 	}
-	manpower = 1
+	manpower = 264645
 	buildings_max_level_factor = 1.000
 	state_category = large_town
 }

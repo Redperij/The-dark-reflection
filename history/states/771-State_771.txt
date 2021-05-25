@@ -23,7 +23,7 @@ state={
 	provinces={
 		371 1269 2614 2640 11021 11060 11113 11126 11169 11203 
 	}
-	manpower = 124
+	manpower = 139124
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = large_town
 }
