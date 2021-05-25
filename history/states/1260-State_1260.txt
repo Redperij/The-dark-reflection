@@ -4,11 +4,15 @@ state={
 	history={
 		owner = GLF
 		add_core_of = GLF
+
+		victory_points = {
+			9286 5
+	    }
 	}
 	provinces={
 		1085 2331 2925 3493 9124 9190 9286 9304 9378 9387 
 	}
-	manpower=1
+	manpower=75022
 	state_category = pastoral
 	buildings_max_level_factor=1.000
 }
