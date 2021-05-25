@@ -1,18 +1,21 @@
+
 state={
 	id=755
 	name="STATE_755"
+
 	history={
 		owner = SEV
 		add_core_of = SEV
-
 		victory_points = {
-			11624 5
+			11624 5 
 		}
+
 	}
+
 	provinces={
-		917 3710 11624 11625 11802 11909 
+		917 3710 11624 11802 11909 
 	}
 	manpower=47477
-	state_category = town
 	buildings_max_level_factor=1.000
+	state_category=town
 }

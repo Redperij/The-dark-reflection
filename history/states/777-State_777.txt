@@ -1,3 +1,4 @@
+
 state={
 	id=777
 	name="STATE_777"
@@ -21,19 +22,19 @@ state={
 			11442 5 
 		}
 		victory_points = {
-			1711 5
+			1711 5 
 		}
 		victory_points = {
-			2360 5
+			2360 5 
 		}
 		victory_points = {
-			11372 5
+			11372 5 
 		}
 		victory_points = {
-			5144 5
+			5144 5 
 		}
 		victory_points = {
-			11204 5
+			11204 5 
 		}
 		buildings = {
 			infrastructure = 9
@@ -55,9 +56,9 @@ state={
 	}
 
 	provinces={
-		1711 2360 3332 5144 11204 11265 11354 11372 11373 11442 11503 11532 
+		1711 2360 3332 5144 11204 11265 11354 11372 11373 11442 
 	}
-	manpower = 3594031
-	buildings_max_level_factor = 1.000
-	state_category = megalopolis
+	manpower=3594031
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
 }
