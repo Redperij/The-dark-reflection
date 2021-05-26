@@ -7,12 +7,15 @@ state={
 		owner = GRF
 		add_core_of = GRF
 
+		victory_points = {
+			8514 5 
+		}
 	}
 
 	provinces={
 		902 1038 2656 3440 4040 8261 8282 8303 8330 8351 8358 8368 8431 8443 8514 
 	}
-	manpower=1
+	manpower=109468
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }
