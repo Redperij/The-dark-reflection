@@ -4,11 +4,18 @@ state={
 	history={
 		owner = MRF
 		add_core_of = MRF
+
+		victory_points = {
+			4245 5 
+		}
+		victory_points = {
+			125 5 
+		}
 	}
 	provinces={
 		125 1255 1368 4245 4711 4834 9140 9222 9223 9287 
 	}
-	manpower=1
-	state_category = rural
+	manpower=196047
+	state_category = town
 	buildings_max_level_factor=1.000
 }

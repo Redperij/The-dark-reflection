@@ -4,11 +4,15 @@ state={
 	history={
 		owner = MRF
 		add_core_of = MRF
+
+		victory_points = {
+			9347 20
+	    }
 	}
 	provinces={
 		5013 9248 9347 
 	}
-	manpower=1
+	manpower=502653
 	state_category = small_island
 	buildings_max_level_factor=1.000
 }
