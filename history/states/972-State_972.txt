@@ -4,11 +4,15 @@ state={
 	history={
 		owner = LDC
 		add_core_of = LDC
+
+		victory_points = {
+			3844 5 
+		}
 	}
 	provinces={
 		1168 2308 3844 4105 5361 7957 
 	}
-	manpower=1
+	manpower=160025
 	state_category = rural
 	buildings_max_level_factor=1.000
 }

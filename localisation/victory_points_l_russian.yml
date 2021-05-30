@@ -433,9 +433,9 @@ VICTORY_POINTS_9978:0 "Новокристальск" #Novocrystal'sk
 #######################################################################
 #VICTORY_POINTS_:0 ""
 #GRF - Nova Griffonia
-VICTORY_POINTS_8721:0 "Гансегейербург" #Gänsegeierburg
-VICTORY_POINTS_1488:0 "Западный Гансегейербург"
-VICTORY_POINTS_4428:0 "Южный Гансегейербург"
+VICTORY_POINTS_8721:0 "Ганзегайербург" #Gänsegeierburg
+VICTORY_POINTS_1488:0 "Западный Ганзегайербург"
+VICTORY_POINTS_4428:0 "Южный Ганзегайербург"
 VICTORY_POINTS_8044:0 "Федерштадт" #Federstadt
 VICTORY_POINTS_7713:0 "Буннуа" #Bounnois
 VICTORY_POINTS_4548:0 "Речной Буннуа"
@@ -518,6 +518,9 @@ VICTORY_POINTS_8664:0 "" #STATE_967
 VICTORY_POINTS_8791:0 ""
 #LDC - Lüderclaw
 VICTORY_POINTS_4292:0 "Людеркло" #Lüderclaw
+VICTORY_POINTS_7815:0 "" #STATE_984
+VICTORY_POINTS_3844:0 "" #STATE_972
+VICTORY_POINTS_2029:0 "" #STATE_973
 #PLV - Plume Ville
 VICTORY_POINTS_4648:0 "Плюм Вилль" #Plume Ville
 VICTORY_POINTS_3722:0 "" #STATE_974
