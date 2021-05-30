@@ -4,11 +4,15 @@ state={
 	history={
 		owner = BFJ
 		add_core_of = BFJ
+
+		victory_points = {
+			7609 5 
+		}
 	}
 	provinces={
 		42 1152 1485 7576 7609 7631 7716 7757 7796 
 	}
-	manpower=1
+	manpower=90341
 	state_category = pastoral
 	buildings_max_level_factor=1.000
 }

@@ -4,11 +4,15 @@ state={
 	history={
 		owner = BFJ
 		add_core_of = BFJ
+
+		victory_points = {
+			3838 5 
+		}
 	}
 	provinces={
 		751 941 3838 7958 8015 8023 8033 8092 8159 8190 
 	}
-	manpower=1
+	manpower=161036
 	state_category = rural
 	buildings_max_level_factor=1.000
 }
