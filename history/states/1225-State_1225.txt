@@ -4,11 +4,15 @@ state={
 	history={
 		owner = GFF
 		add_core_of = GFF
+
+		victory_points = {
+			7393 5
+	    }
 	}
 	provinces={
 		324 531 729 1522 5405 7293 7332 7393 7432 
 	}
-	manpower=1
+	manpower=50465
 	state_category = rural
 	buildings_max_level_factor=1.000
 }

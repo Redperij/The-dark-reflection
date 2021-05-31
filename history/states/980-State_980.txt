@@ -4,11 +4,15 @@ state={
 	history={
 		owner = ALH
 		add_core_of = ALH
+
+		victory_points = {
+			7639 5 
+		}
 	}
 	provinces={
 		1131 1498 7477 7515 7577 7601 7639 7734 
 	}
-	manpower=1
+	manpower=199707
 	state_category = rural
 	buildings_max_level_factor=1.000
 }

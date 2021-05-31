@@ -4,11 +4,15 @@ state={
 	history={
 		owner = MRF
 		add_core_of = MRF
+
+		victory_points = {
+			9078 5 
+		}
 	}
 	provinces={
 		305 1696 4076 5325 8993 9063 9078 9173 9220 9221 9273 
 	}
-	manpower=1
+	manpower=120546
 	state_category = pastoral
 	buildings_max_level_factor=1.000
 }

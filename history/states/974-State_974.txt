@@ -4,11 +4,15 @@ state={
 	history={
 		owner = PLV
 		add_core_of = PLV
+
+		victory_points = {
+			3722 5
+	    }
 	}
 	provinces={
 		222 3722 8008 8045 8059 8102 8151 8173 8189 8201 8214 8225 
 	}
-	manpower=1
+	manpower=76048
 	state_category = pastoral
 	buildings_max_level_factor=1.000
 }
