@@ -1,0 +1,15 @@
+music = {
+	name = "RUM"
+	file = "rum.ogg"
+	volume = 0.9
+}
+music = {
+	name = "Rick_Astley_Never_Gonna_Give_You_Up"
+	file = "RickRoll.ogg"
+	volume = 0.9
+}
+music = {
+	name = "Durdom"
+	file = "hoi4mainthemeallies.ogg"
+	volume = 0.9
+}
