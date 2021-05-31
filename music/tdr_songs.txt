@@ -1,0 +1,43 @@
+music_station = "tdr"
+
+music = {
+	song = "RUM"
+	
+	chance = {
+	    factor = 2
+		modifier = {
+			factor = 3
+
+			has_war = no
+			
+		}		
+	}	
+}
+
+music = {
+	song = "Rick_Astley_Never_Gonna_Give_You_Up"
+	
+	chance = {
+	    factor = 2
+		modifier = {
+			factor = 3
+
+			has_war = no
+			
+		}		
+	}	
+}
+
+music = {
+	song = "Durdom"
+	
+	chance = {
+	    factor = 2
+		modifier = {
+			factor = 3
+
+			has_war = no
+			
+		}		
+	}	
+}
