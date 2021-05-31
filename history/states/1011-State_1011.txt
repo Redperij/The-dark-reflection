@@ -4,11 +4,15 @@ state={
 	history={
 		owner = CNC
 		add_core_of = CNC
+
+		victory_points = {
+			6168 5 
+		}
 	}
 	provinces={
 		915 4096 6167 6168 6224 6262 6275 6287 6338 6339 6396 
 	}
-	manpower=1
+	manpower=82203
 	state_category = rural
 	buildings_max_level_factor=1.000
 }
