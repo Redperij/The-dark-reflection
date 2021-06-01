@@ -1,14 +1,25 @@
+
 state={
 	id=747
 	name="STATE_747"
+
 	history={
 		owner = ZAR
 		add_core_of = ZAR
+		add_core_of = SEV
+
+		victory_points = {
+			12159 5
+	    }
+		victory_points = {
+			12225 5
+	    }
 	}
+
 	provinces={
-		186 12004 12024 12058 12096 12110 12159 12189 12257 
+		186 12004 12024 12058 12096 12110 12159 12189 12225 12257 
 	}
-	manpower=1
-	state_category = rural
+	manpower=89540
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
