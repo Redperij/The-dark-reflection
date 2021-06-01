@@ -4,11 +4,15 @@ state={
 	history={
 		owner = HRF
 		add_core_of = HRF
+
+		victory_points = {
+			2333 5
+	    }
 	}
 	provinces={
 		2333 12579 12617 12646 12696 12697 12752 
 	}
-	manpower=1
+	manpower=120316
 	state_category = rural
 	buildings_max_level_factor=1.000
 }

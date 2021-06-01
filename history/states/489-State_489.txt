@@ -4,11 +4,15 @@ state={
 	history={
 		owner = GLP
 		add_core_of = GLP
+
+		victory_points = {
+			4952 5
+	    }
 	}
 	provinces={
 		4706 4952 12344 12429 12456 12497 12533 
 	}
-	manpower=1
+	manpower=160587
 	state_category = rural
 	buildings_max_level_factor=1.000
 }
