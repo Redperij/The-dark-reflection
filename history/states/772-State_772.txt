@@ -4,6 +4,7 @@ state={
 	history={
 		owner = SEV
 		add_core_of = SEV
+		add_core_of = ZAR
 
 		victory_points = {
 			11835 5

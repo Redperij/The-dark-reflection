@@ -4,6 +4,7 @@ state={
 	history={
 		owner = SEV
 		add_core_of = SEV
+		add_core_of = ZAR
 	}
 	provinces={
 		92 452 821 1979 3262 5630 11894 11922 11996 

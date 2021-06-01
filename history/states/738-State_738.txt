@@ -5,6 +5,8 @@ state={
 	history={
 		owner = PRA
 		add_core_of = PRA
+		add_core_of = ZAR
+		add_core_of = SEV
 
 		victory_points = {
 			5566 5
