@@ -5,12 +5,13 @@ state = {
 	history = {
 		owner = SEV
 		add_core_of = SEV
+		add_core_of = CRY
 	}
 
 	provinces = {
 		159 510 1112 1412 1842 1853 2055 2373 3163 3693 3805 3963 4701 5487 9892 9917 9977 10023 10047 10098 10099 10109 10180 10192 10232 10259 10296 10345 10499 
 	}
-	manpower = 0
+	manpower = 143
 	buildings_max_level_factor = 1.000
 	state_category = wasteland
 	impassable = yes

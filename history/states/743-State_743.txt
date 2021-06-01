@@ -5,12 +5,26 @@ state={
 	history={
 		owner = ZAR
 		add_core_of = ZAR
+		add_core_of = SEV
+
+		victory_points = {
+			4400 5
+	    }
+		victory_points = {
+			12226 5
+	    }
+		victory_points = {
+			12119 5
+	    }
+		victory_points = {
+			12258 5
+	    }
 	}
 
 	provinces={
 		426 799 3800 3943 4400 4707 5001 12082 12119 12226 12258 12270 12324 12345 12399 12412 
 	}
-	manpower = 1
+	manpower = 132051
 	buildings_max_level_factor = 1.000
 	state_category = rural
 }

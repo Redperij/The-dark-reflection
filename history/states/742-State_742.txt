@@ -5,16 +5,20 @@ state={
 	history={
 		owner = ZAR
 		add_core_of = ZAR
+		add_core_of = SEV
 
 		victory_points = {
 			905 20
+	    }
+		victory_points = {
+			12104 5
 	    }
 	}
 
 	provinces={
 		905 3240 3602 12025 12069 12104 12136 
 	}
-	manpower = 1
+	manpower = 561084
 	buildings_max_level_factor = 1.000
 	state_category = large_town
 }
