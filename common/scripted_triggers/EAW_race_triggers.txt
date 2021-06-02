@@ -17,19 +17,15 @@
 is_pony_race = {
 	has_tech = pony_race
 }
-
 is_changeling_race = {
 	has_tech = changeling_race
 }
-
 is_deer_race = {
 	has_tech = deer_race
 }
-
 is_griffon_race = {
 	has_tech = griffon_race
 }
-
 is_diamond_dog_race = {
 	has_tech = diamond_dog_race
 }
@@ -53,6 +49,9 @@ is_yak_race = {
 }
 is_polar_race = {
 	has_tech = polar_race
+}
+is_thestral_race = {
+	has_tech = thestral_race
 }
 
 is_generic_race = {
@@ -120,46 +119,77 @@ is_same_race_as_PREV = {
 			PREV = { is_diamond_dog_race = yes }
 		}
 		AND = {
+			is_thestral_race = yes
+			PREV = { is_thestral_race = yes }
+		}
+		AND = {
 			is_generic_race = yes
 			PREV = { is_generic_race = yes }
 		}
 	}
 }
 
-uses_pony_generic_portraits = {
-	NOT = {
-		OR = {
-			original_tag = CRY
-			original_tag = SEV
-			original_tag = EQS
-			original_tag = YAK
-			original_tag = OLE
-		}
+uses_pony_EQS_portraits = {
+	OR = {
+		original_tag = EQS
+		original_tag = WHN
 	}
 }
 
-uses_pony_EQS_portraits = {
-	original_tag = EQS
-}
-
 uses_pony_CRY_portraits = {
-	original_tag = CRY
+	OR = {
+		original_tag = CRY
+		original_tag = KDW
+		original_tag = AED
+		original_tag = LAR
+	}
 }
 
 uses_pony_SEV_portraits = {
-	original_tag = SEV
+	OR = {
+		original_tag = SEV
+		original_tag = STL
+	}
 }
 
 uses_thestral_portraits = {
-	always = no
+	OR = {
+		original_tag = VIE
+		original_tag = LAO
+		original_tag = CAM
+	}
 }
 
 uses_griffon_generic_portraits = {
-	always = no
+	OR = {
+		original_tag = GRF
+		original_tag = GFF
+		original_tag = CNC
+		original_tag = ALH
+		original_tag = BFJ
+		original_tag = WET
+		original_tag = LDC
+		original_tag = PLV
+		original_tag = MRF
+		original_tag = NWN
+		original_tag = GLF
+	}
 }
 
 uses_changeling_portraits = {
-	always = no
+	OR = {
+		original_tag = THO
+		original_tag = ANT
+		original_tag = HOO
+		original_tag = BRK
+		original_tag = MAG
+		original_tag = GES
+		original_tag = DOA
+		original_tag = DRI
+		original_tag = EBB
+		original_tag = DOL
+		original_tag = WES
+	}
 }
 
 uses_yak_portraits = {
@@ -167,15 +197,36 @@ uses_yak_portraits = {
 }
 
 uses_diamond_dog_portraits = {
-	always = no
+	OR = {
+		original_tag = DMD
+		original_tag = MOR
+		original_tag = TTT
+	}
 }
 
 uses_deer_portraits = {
-	original_tag = OLE
+	OR = {
+		original_tag = OLE
+		original_tag = DER
+		original_tag = ETO
+		original_tag = VIC
+		original_tag = GEM
+		original_tag = ROW
+		original_tag = YML
+		original_tag = TOU
+		original_tag = LID
+		original_tag = ATT
+		original_tag = NAZ
+		original_tag = CIN
+	}
 }
 
 uses_undead_portraits = {
-	always = no
+	OR = {
+		original_tag = WST
+		original_tag = TST
+		original_tag = WLD
+	}
 }
 
 uses_minotaur_portraits = {
@@ -183,11 +234,15 @@ uses_minotaur_portraits = {
 }
 
 uses_penguin_portraits = {
-	always = no
+	OR = {
+		original_tag = PNR
+		original_tag = PNG
+		original_tag = AMN
+	}
 }
 
 uses_bear_portraits = {
-	always = no
+	original_tag = PLB
 }
 
 uses_buffalo_portraits = {
@@ -195,7 +250,30 @@ uses_buffalo_portraits = {
 }
 
 uses_dragon_portraits = {
-	always = no
+	OR = {
+		original_tag = DRG
+		original_tag = DRC
+	}
+}
+
+uses_pony_generic_portraits = {
+	NOT = {
+		uses_pony_EQS_portraits = yes
+		uses_pony_CRY_portraits = yes
+		uses_pony_SEV_portraits = yes
+		uses_thestral_portraits = yes
+		uses_griffon_generic_portraits = yes
+		uses_changeling_portraits = yes
+		uses_yak_portraits = yes
+		uses_diamond_dog_portraits = yes
+		uses_deer_portraits = yes
+		uses_undead_portraits = yes
+		uses_minotaur_portraits = yes
+		uses_penguin_portraits = yes
+		uses_bear_portraits = yes
+		uses_buffalo_portraits = yes
+		uses_dragon_portraits = yes
+	}
 }
 
 has_unit_leader_race_trait = {
@@ -219,60 +297,102 @@ has_unit_leader_race_trait = {
 }
 
 is_country_main_culture_changeling = {
-	always = no
+	OR = {
+		original_tag = THO
+		original_tag = ANT
+		original_tag = HOO
+		original_tag = BRK
+		original_tag = MAG
+		original_tag = GES
+		original_tag = DOA
+		original_tag = DRI
+		original_tag = EBB
+		original_tag = DOL
+		original_tag = WES
+	}
 }
 
 is_country_main_culture_olenian = {
 	OR = {
 		original_tag = OLE
+		original_tag = DER
+		original_tag = ETO
+		original_tag = VIC
+		original_tag = GEM
+		original_tag = ROW
+		original_tag = YML
+		original_tag = TOU
+		original_tag = LID
+		original_tag = ATT
+		original_tag = NAZ
+		original_tag = CIN
 	}
 }
 
 is_country_main_culture_diamond_dog = {
-	always = no
+	OR = {
+		original_tag = DMD
+		original_tag = MOR
+		original_tag = TTT
+	}
 }
 
 is_country_main_culture_dragon = {
 	OR = {
 		original_tag = DRG
+		original_tag = DRC
 	}
 }
 
 is_country_main_culture_bear = {
-	always = no
+	original_tag = PLB
 }
 
 is_country_main_culture_buffalo = {
 	always = no
 }
 
-is_country_main_culture_aquileian = {
-	always = no
+is_country_main_culture_griffonian = {
+	OR = {
+		original_tag = GRF
+		original_tag = CNC
+		original_tag = ALH
+		original_tag = BFJ
+		original_tag = WET
+		original_tag = LDC
+		original_tag = PLV
+		original_tag = MRF
+		original_tag = NWN
+		original_tag = GLF
+	}
+}
+
+is_country_main_culture_native_griffonian = {
+	original_tag = GFF
 }
 
 is_country_main_culture_equestrian = {
 	OR = {
-		original_tag = SEV
+		original_tag = WES
 		original_tag = EQS
-		original_tag = CRY
-		original_tag = BAL
+		original_tag = WHN
 	}
-}
-
-is_country_main_culture_herzlander = {
-	always = no
 }
 
 is_country_main_culture_northerner = {
 	always = no
 }
 
-is_country_main_culture_penguin = {
+is_country_main_culture_southerner = {
 	always = no
 }
 
-is_country_main_culture_southerner = {
-	always = no
+is_country_main_culture_penguin = {
+	OR = {
+		original_tag = PNR
+		original_tag = PNG
+		original_tag = AMN
+	}
 }
 
 is_country_main_culture_undead = {
@@ -284,39 +404,44 @@ is_country_main_culture_yak = {
 }
 
 is_state_main_culture_changeling = {
-	always = no
+	is_in_array = { global.changeling_states }
 }
 
 is_state_main_culture_olenian = {
-	always = no
+	is_in_array = { global.deer_states }
 }
 
 is_state_main_culture_diamond_dog = {
-	always = no
+	is_in_array = { global.dog_states }
 }
 
 is_state_main_culture_dragon = {
-	always = no
+	is_in_array = { global.dragon_states }
 }
 
 is_state_main_culture_bear = {
-	always = no
+	is_in_array = { global.bear_states }
 }
 
-is_state_main_culture_buffalo = {
-	always = no
+is_state_main_culture_griffonian = {
+	AND = {
+		NOT = {
+			is_in_array = { state_original_cores = GFF }
+		}
+		is_in_array = { global.griffon_state }
+	}
 }
 
-is_state_main_culture_aquileian = {
-	always = no
+is_state_main_culture_native_griffonian = {
+	is_in_array = { state_original_cores = GFF }
 }
 
 is_state_main_culture_equestrian = {
-	always = no
-}
-
-is_state_main_culture_herzlander = {
-	always = no
+	OR = {
+		is_in_array = { state_original_cores = EQS }
+		is_in_array = { state_original_cores = WES }
+		is_in_array = { state_original_cores = WHN }
+	}
 }
 
 is_state_main_culture_northerner = {
@@ -324,7 +449,7 @@ is_state_main_culture_northerner = {
 }
 
 is_state_main_culture_penguin = {
-	always = no
+	is_in_array = { global.penguin_states }
 }
 
 is_state_main_culture_southerner = {
@@ -336,35 +461,75 @@ is_state_main_culture_undead = {
 }
 
 is_state_main_culture_yak = {
-	always = no
+	is_in_array = { global.yak_states }
 }
 
 is_operative_main_culture_changeling = {
-	always = no
+	OR = {
+		has_nationality = WES
+		has_nationality = EBB
+		has_nationality = GES
+		has_nationality = DRI
+		has_nationality = DOA
+		has_nationality = MAG
+		has_nationality = BRK
+		has_nationality = THO
+		has_nationality = ANT
+		has_nationality = HOO
+	}
 }
 
 is_operative_main_culture_olenian = {
-	always = no
+	OR = {
+		has_nationality = OLE
+		has_nationality = ETO
+		has_nationality = VIC
+		has_nationality = GEM
+		has_nationality = ROW
+		has_nationality = YML
+		has_nationality = TOU
+		has_nationality = LID
+		has_nationality = ATT
+		has_nationality = CIN
+		has_nationality = NAZ
+	}
 }
 
 is_operative_main_culture_diamond_dog = {
-	always = no
+	OR = {
+		has_nationality = TTT
+		has_nationality = MOR
+		has_nationality = DMD
+	}
 }
 
 is_operative_main_culture_dragon = {
-	has_nationality = DRG
+	OR = {
+		has_nationality = DRG
+		has_nationality = DRC
+	}
 }
 
 is_operative_main_culture_bear = {
-	always = no
+	has_nationality = PLB
 }
 
-is_operative_main_culture_buffalo = {
-	always = no
+is_operative_main_culture_griffonian = {
+	OR = {
+		has_nationality = WET
+		has_nationality = CNC
+		has_nationality = ALH
+		has_nationality = BFJ
+		has_nationality = LDC
+		has_nationality = PLV
+		has_nationality = MRF
+		has_nationality = GLF
+		has_nationality = GRF
+	}
 }
 
-is_operative_main_culture_aquileian = {
-	always = no
+is_operative_main_culture_native_griffonian = {
+	has_nationality = GFF
 }
 
 is_operative_main_culture_equestrian = {
@@ -375,16 +540,16 @@ is_operative_main_culture_equestrian = {
 	}
 }
 
-is_operative_main_culture_herzlander = {
-	always = no
-}
-
 is_operative_main_culture_northerner = {
 	always = no
 }
 
 is_operative_main_culture_penguin = {
-	always = no
+	OR = {
+		has_nationality = PNR
+		has_nationality = PNG
+		has_nationality = AMN
+	}
 }
 
 is_operative_main_culture_southerner = {
@@ -424,24 +589,19 @@ is_country_secondary_culture_bear = {
 	OR = {
 	}
 }
-is_country_secondary_culture_buffalo = {
-	always = no
+is_country_secondary_culture_griffonian = {
 	OR = {
+		original_tag = MOR
 	}
 }
-is_country_secondary_culture_aquileian = {
-	always = no
+is_country_secondary_culture_native_griffonian = {
 	OR = {
+		original_tag = GRF
 	}
 }
 is_country_secondary_culture_equestrian = {
-	always = no
 	OR = {
-	}
-}
-is_country_secondary_culture_herzlander = {
-	always = no
-	OR = {
+		original_tag = WES
 	}
 }
 is_country_secondary_culture_northerner = {

@@ -1,0 +1,203 @@
+on_actions = {
+
+	#Not run on a specific country.
+	on_startup = {
+		effect = {
+			log = "[GetDateText] War at Equestria main on_startup begin"
+			
+			#States by races
+			#added 1-40, 206, 300, 564, 627, 727-730, 740-741, 748-859, 1000, 1174, 1301, 1488
+			#exclusions: 843
+			add_to_array = { global.pony_states = 564.id }
+			add_to_array = { global.pony_states = 727.id }
+			add_to_array = { global.pony_states = 730.id }
+			add_to_array = { global.pony_states = 740.id }
+			add_to_array = { global.pony_states = 748.id }
+			add_to_array = { global.pony_states = 752.id }
+			add_to_array = { global.pony_states = 753.id }
+			add_to_array = { global.pony_states = 755.id }
+			add_to_array = { global.pony_states = 756.id }
+			add_to_array = { global.pony_states = 757.id }
+			add_to_array = { global.pony_states = 758.id }
+			add_to_array = { global.pony_states = 759.id }
+			add_to_array = { global.pony_states = 762.id }
+			add_to_array = { global.pony_states = 763.id }
+			add_to_array = { global.pony_states = 764.id }
+			add_to_array = { global.pony_states = 766.id }
+			add_to_array = { global.pony_states = 768.id }
+			add_to_array = { global.pony_states = 769.id }
+			add_to_array = { global.pony_states = 776.id }
+			add_to_array = { global.pony_states = 777.id }
+			add_to_array = { global.pony_states = 778.id }
+			add_to_array = { global.pony_states = 780.id }
+			add_to_array = { global.pony_states = 783.id }
+			add_to_array = { global.pony_states = 784.id }
+			add_to_array = { global.pony_states = 785.id }
+			add_to_array = { global.pony_states = 786.id }
+			add_to_array = { global.pony_states = 787.id }
+			add_to_array = { global.pony_states = 788.id }
+			add_to_array = { global.pony_states = 789.id }
+			add_to_array = { global.pony_states = 790.id }
+			add_to_array = { global.pony_states = 793.id }
+			add_to_array = { global.pony_states = 800.id }
+			add_to_array = { global.pony_states = 801.id }
+			add_to_array = { global.pony_states = 802.id }
+			add_to_array = { global.pony_states = 803.id }
+			add_to_array = { global.pony_states = 804.id }
+			add_to_array = { global.pony_states = 805.id }
+			add_to_array = { global.pony_states = 815.id }
+			add_to_array = { global.pony_states = 816.id }
+			add_to_array = { global.pony_states = 817.id }
+			add_to_array = { global.pony_states = 819.id }
+			add_to_array = { global.pony_states = 820.id }
+			add_to_array = { global.pony_states = 821.id }
+			add_to_array = { global.pony_states = 822.id }
+			add_to_array = { global.pony_states = 823.id }
+			add_to_array = { global.pony_states = 824.id }
+			add_to_array = { global.pony_states = 826.id }
+			add_to_array = { global.pony_states = 856.id }
+			add_to_array = { global.pony_states = 857.id }
+
+			add_to_array = { global.crystal_pony_states = 773.id }
+			add_to_array = { global.crystal_pony_states = 806.id }
+			add_to_array = { global.crystal_pony_states = 809.id }
+			add_to_array = { global.crystal_pony_states = 825.id }
+			add_to_array = { global.crystal_pony_states = 858.id }
+
+			add_to_array = { global.earthpony_states = 206.id }
+			add_to_array = { global.earthpony_states = 741.id }
+			add_to_array = { global.earthpony_states = 749.id }
+			add_to_array = { global.earthpony_states = 760.id }
+			add_to_array = { global.earthpony_states = 761.id }
+			add_to_array = { global.earthpony_states = 765.id }
+			add_to_array = { global.earthpony_states = 771.id }
+			add_to_array = { global.earthpony_states = 772.id }
+			add_to_array = { global.earthpony_states = 774.id }
+			add_to_array = { global.earthpony_states = 779.id }
+			add_to_array = { global.earthpony_states = 791.id }
+			add_to_array = { global.earthpony_states = 794.id }
+			add_to_array = { global.earthpony_states = 795.id }
+			add_to_array = { global.earthpony_states = 796.id }
+			add_to_array = { global.earthpony_states = 797.id }
+			add_to_array = { global.earthpony_states = 798.id }
+			add_to_array = { global.earthpony_states = 799.id }
+
+			add_to_array = { global.pegasy_states = 300.id }
+			add_to_array = { global.pegasy_states = 728.id }
+			add_to_array = { global.pegasy_states = 729.id }
+			add_to_array = { global.pegasy_states = 767.id }
+			add_to_array = { global.pegasy_states = 775.id }
+			add_to_array = { global.pegasy_states = 781.id }
+			add_to_array = { global.pegasy_states = 782.id }
+
+			add_to_array = { global.unicorn_states = 627.id }
+			add_to_array = { global.unicorn_states = 750.id }
+			add_to_array = { global.unicorn_states = 754.id }
+			
+			add_to_array = { global.griffon_states = 22.id }
+			add_to_array = { global.griffon_states = 23.id }
+			add_to_array = { global.griffon_states = 24.id }
+			add_to_array = { global.griffon_states = 25.id }
+			add_to_array = { global.griffon_states = 26.id }
+			add_to_array = { global.griffon_states = 27.id }
+			add_to_array = { global.griffon_states = 28.id }
+			add_to_array = { global.griffon_states = 29.id }
+			add_to_array = { global.griffon_states = 30.id }
+			add_to_array = { global.griffon_states = 31.id }
+			add_to_array = { global.griffon_states = 32.id }
+			add_to_array = { global.griffon_states = 770.id }
+			add_to_array = { global.griffon_states = 827.id }
+			add_to_array = { global.griffon_states = 828.id }
+			add_to_array = { global.griffon_states = 829.id }
+			add_to_array = { global.griffon_states = 830.id }
+			add_to_array = { global.griffon_states = 831.id }
+			add_to_array = { global.griffon_states = 832.id }
+			add_to_array = { global.griffon_states = 833.id }
+			add_to_array = { global.griffon_states = 834.id }
+			add_to_array = { global.griffon_states = 835.id }
+			add_to_array = { global.griffon_states = 836.id }
+			add_to_array = { global.griffon_states = 837.id }
+			add_to_array = { global.griffon_states = 838.id }
+			add_to_array = { global.griffon_states = 839.id }
+			add_to_array = { global.griffon_states = 840.id }
+			add_to_array = { global.griffon_states = 841.id }
+			add_to_array = { global.griffon_states = 842.id }
+			add_to_array = { global.griffon_states = 853.id }
+			add_to_array = { global.griffon_states = 855.id }
+
+			add_to_array = { global.deer_states = 1.id }
+			add_to_array = { global.deer_states = 807.id }
+
+			add_to_array = { global.thestral_states = 34.id }
+			add_to_array = { global.thestral_states = 35.id }
+			add_to_array = { global.thestral_states = 36.id }
+			add_to_array = { global.thestral_states = 37.id }
+			add_to_array = { global.thestral_states = 38.id }
+			add_to_array = { global.thestral_states = 39.id }
+			add_to_array = { global.thestral_states = 40.id }
+
+			add_to_array = { global.dragon_states = 2.id }
+			add_to_array = { global.dragon_states = 3.id }
+			add_to_array = { global.dragon_states = 4.id }
+			add_to_array = { global.dragon_states = 5.id }
+			add_to_array = { global.dragon_states = 6.id }
+			add_to_array = { global.dragon_states = 7.id }
+			add_to_array = { global.dragon_states = 8.id }
+			add_to_array = { global.dragon_states = 9.id }
+			add_to_array = { global.dragon_states = 10.id }
+			add_to_array = { global.dragon_states = 11.id }
+			add_to_array = { global.dragon_states = 12.id }
+			add_to_array = { global.dragon_states = 13.id }
+			add_to_array = { global.dragon_states = 14.id }
+			add_to_array = { global.dragon_states = 15.id }
+			add_to_array = { global.dragon_states = 16.id }
+			add_to_array = { global.dragon_states = 17.id }
+			add_to_array = { global.dragon_states = 18.id }
+			add_to_array = { global.dragon_states = 19.id }
+			add_to_array = { global.dragon_states = 20.id }
+			add_to_array = { global.dragon_states = 21.id }
+			add_to_array = { global.dragon_states = 33.id }
+
+			add_to_array = { global.bear_states = 818.id }
+			add_to_array = { global.bear_states = 1301.id }
+
+			add_to_array = { global.changeling_states = 751.id }
+			add_to_array = { global.changeling_states = 846.id }
+			add_to_array = { global.changeling_states = 859.id }
+			add_to_array = { global.changeling_states = 1488.id }
+
+			add_to_array = { global.penguin_states = 808.id }
+			add_to_array = { global.penguin_states = 1000.id }
+
+			add_to_array = { global.yak_states = 844.id }
+			add_to_array = { global.yak_states = 845.id }
+			add_to_array = { global.yak_states = 847.id }
+			add_to_array = { global.yak_states = 848.id }
+			add_to_array = { global.yak_states = 849.id }
+			add_to_array = { global.yak_states = 850.id }
+			add_to_array = { global.yak_states = 851.id }
+			add_to_array = { global.yak_states = 852.id }
+			add_to_array = { global.yak_states = 854.id }
+			add_to_array = { global.yak_states = 1174.id }
+
+			add_to_array = { global.dog_states = 792.id }
+			add_to_array = { global.dog_states = 810.id }
+			add_to_array = { global.dog_states = 811.id }
+			add_to_array = { global.dog_states = 812.id }
+			add_to_array = { global.dog_states = 813.id }
+			add_to_array = { global.dog_states = 814.id }
+
+			#for_each_loop = {
+			#	array = global.pony_states
+			#	var:v = { 
+			#		add_province_modifier = {
+			#			static_modifiers = { scheisswald_forest }
+			#			province = {
+			#				all_provinces = yes
+			#			}
+			#		}
+			#	}
+			#}
+		}
+	}
+}
