@@ -1,0 +1,17 @@
+guiTypes = {  #инфа о создании гуя
+	containerWindowType = {
+		#Контейнер ниже, все в контйнерах всегда в гуях
+		name = "court_button"
+                position = { x = 0 y = 0 } #Позиция окна
+		Orientation = CENTER  #Орентация чисто этого онкна (CENTER;UPPER_LEFT;LOWER_LEFT;UPPER_RIGHT;LOWER_RIGHT)
+		
+		buttonType = {  #Объявляем, что в контейнере кнопка (на вики больше типов [не только кнопки])
+			name = "Severiana_Court"  #Назывие кнопки (!)
+			position = { x = -60 y = 379 } 	#Координаты кнопки
+			quadTextureSprite = "GFX_seal_ivan" #Отсылка к картинке (классика)
+			clicksound = click_default #Звук при нажатии
+			Orientation = LOWER_RIGHT #локальную систему координат кнопки
+			pdx_tooltip = "court_button_tooltip" #Описание кнопки (локализация)
+		}
+    }
+}

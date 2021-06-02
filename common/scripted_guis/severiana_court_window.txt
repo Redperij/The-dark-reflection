@@ -1,0 +1,51 @@
+scripted_gui = {
+
+    court_window = { #опять же к чему обращается
+    
+        context_type = player_context #Для игроков
+		
+		window_name = "court_window" #название 
+		
+		visible = { #Условия видимости
+			is_ai = no #Не ИИ
+                        has_variable = global.open_door #Пока оно блять имеется есть и окно
+		}
+		#ГЛАВНОЕ БЛЯТЬ СУКА ЕБАНАЯ НАХУЙ button_add_click показывает ИМЯВАШЕЙКНОПКИ_click и нажатие
+		effects = {
+        
+			button_add_click = { #добавили 2 при нажатии 
+                                add_to_variable = { example1Variable = 2 }
+			}
+			button_subtract_click = { #отняли 1 тк субтракт це вычитание
+                                subtract_from_variable = { example1Variable = 1 }
+			}
+            
+			button_add_control_click = { #control_click це когда зажатие CNTRL прибавляет больше 
+                                add_to_variable = { example1Variable = 5 }
+                                clamp_variable = { var = example1Variable min = 0 max = 10 }
+								#клампус це зажим, интервал от нуля до 10
+			}
+			button_subtract_control_click = {
+                                subtract_from_variable = { example1Variable = 5 }
+                                clamp_variable = { var = example1Variable min = 0 max = 10 }
+			}
+			button_close_click = {        #Чисти говно (переменная)     
+				clear_variable = global.open_door
+			}
+		}
+        
+		triggers = { #проверка check_variable + установка интервала от 0 до 10, не присваивает значение блять
+           
+			button_add_click_enabled = {
+                                check_variable = { example1Variable < 10 }
+			}
+			button_subtract_click_enabled = {
+                                check_variable = { example1Variable > 0 }
+			}
+            #Условие на видимость, если натыкал до example1Variable > 5, то появится текст text_2
+            text_2_visible = {
+                check_variable = { example1Variable > 5 }
+            }
+        }
+    }
+} 

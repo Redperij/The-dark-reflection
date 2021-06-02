@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_nikki_cabinet"
+		texturefile = "gfx/interface/GFX_nikki_cabinet.dds"
+	}
+}

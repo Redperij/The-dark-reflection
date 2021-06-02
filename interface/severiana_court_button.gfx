@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_seal_ivan"
+		texturefile = "gfx/interface/GFX_seal_ivan.dds"
+	}
+}
