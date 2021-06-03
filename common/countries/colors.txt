@@ -78,8 +78,8 @@ NGF = {
 # East Equestria # Confederacy #
 # Prance
 PRA = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
+	color = rgb { 0 235 192 }
+	color_ui = rgb { 0 235 192 }
 }
 # Albion
 ALB = {
@@ -173,8 +173,8 @@ GLP = {
 }
 # Zarechje
 ZAR = {
-	color = rgb { 0 235 156 }
-	color_ui = rgb { 0 235 156 }
+	color = rgb { 136 235 156 }
+	color_ui = rgb { 136 235 156 }
 }
 ##################################################################################################################################
 # West Equestria #
