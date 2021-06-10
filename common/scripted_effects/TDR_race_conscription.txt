@@ -1,0 +1,66 @@
+# This counts mountly recruit growth. Paradox, thanks (not) for the variable.
+#
+# mouthly_manpower_gain = 1000 * pop_growth * target_conscription_amount
+#
+# pop_growth - population growth for whole country
+# target_conscription_amount - currently active conscription law in the state (PDX, at least something)
+# 1000 - reverting number to represent every single recruit ( I know, that it isn't precise but it really shouldn't be ) # I'm just lazy :)
+
+# Current mistakes:
+# 1. Sometimes it goes over the actual manpower growth ( not much )
+# 2. When conscription law is changed it is not affecting the country right away so we go over the actual growth for 2 - 3 months
+
+count_monthly_manpower_gain = {
+	for_each_scope_loop = {
+		array = global.countries
+
+		# 
+		set_variable = {
+			var = THIS.monthly_manpower_growth
+			value = max_manpower_k
+		}
+
+		if = { # If somebody, for some reason, decides to change pop growth base in a country then he must set a variable for that specific country.
+			limit = {
+				has_variable = pop_growth # must be multiplied by 1000 in advance
+			}
+			multiply_variable = {
+				var = monthly_manpower_growth
+				value = pop_growth
+			}
+		}
+		else = {
+			multiply_variable = {
+				var = monthly_manpower_growth
+				value = 1.25 # Here is *1000 as well
+			}
+		}
+
+		multiply_variable = {
+			var = monthly_manpower_growth
+			value = target_conscription_amount
+		}
+
+		round_variable = monthly_manpower_growth
+	}
+}
+
+# Part of every race from total country manpower.
+# 0 pony # NEVER USE JUST PONY AS A MAIN RACE
+# 1 crystal_pony
+# 2 earthpony
+# 3 pegasy
+# 4 unicorn
+# 5 griffon
+# 6 deer
+# 7 thestral
+# 8 dragon
+# 9 bear
+# 10 changeling
+# 11 penguin
+# 12 yak
+# 13 dog
+
+count_race_part_in_country = {
+	
+}

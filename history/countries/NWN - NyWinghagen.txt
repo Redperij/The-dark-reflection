@@ -1,5 +1,6 @@
 ﻿capital = 955
 
+oob = "NWN_997"
 set_research_slots = 3
 
 set_technology = {
@@ -28,6 +29,12 @@ set_popularities = {
 	communism = 15
 	neutrality = 2
 	fascism = 29
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 500
+	producer = NWN
 }
 
 create_country_leader = {
@@ -70,6 +77,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
-
+		army_logistics_infinite
 	}
 }

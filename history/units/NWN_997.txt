@@ -1,0 +1,19 @@
+﻿division_template = {
+	name = "Griffon Militia"
+
+	regiments = {
+		griffon_infantry = { x = 0 y = 0 }
+	}
+
+	support = {
+	}
+	priority = 0
+}
+units = {
+	division = {
+		name = "Griffon Check"
+		location = 3391
+		division_template = "Griffon Militia"
+		start_experience_factor = 0.2
+	}
+}

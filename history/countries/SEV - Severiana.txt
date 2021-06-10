@@ -1,6 +1,6 @@
 ﻿capital = 777
 
-oob = "SEV_1007"
+oob = "SEV_997"
 set_research_slots = 3
 
 set_technology = {

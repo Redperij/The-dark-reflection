@@ -3810,6 +3810,10 @@ leader_traits = {
 			factor = 6
 		}
 	}
+
+	army_logistics_infinite = { # Ground units suffer 10000% less attrition
+		attrition = -100.0
+	}
 	
 	
 	air_chief_reform_1 = {  # Rate at which air experience is gained increases by 5%

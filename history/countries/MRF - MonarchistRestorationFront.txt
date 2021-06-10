@@ -1,5 +1,6 @@
 ﻿capital = 950
 
+oob = "MRF_997"
 set_research_slots = 3
 
 set_technology = {
@@ -28,6 +29,12 @@ set_popularities = {
 	communism = 21
 	neutrality = 40
 	fascism = 22
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 500
+	producer = MRF
 }
 
 create_country_leader = {

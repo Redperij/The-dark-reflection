@@ -1,0 +1,18 @@
+#into on_daily for any country scope
+count_equipment_in_armies = {
+	for_each_scope_loop = {
+		array = global.countries
+		set_variable = {
+			army_equipment = num_equipment_in_armies@infantry_equipment
+		}
+	}
+}
+
+count_required_equipment_in_armies = {
+	for_each_scope_loop = {
+		array = global.countries
+		set_variable = {
+			required_army_equipment = num_target_equipment_in_armies@infantry_equipment
+		}
+	}
+}
