@@ -7,7 +7,13 @@ GENERIC_PONY_DESTROYER = {
 	name = NAME_THEME_PONY_GENERIC_DESTROYERS
 
 	can_use = { 
-		has_idea = pony_race
+		OR = {
+			has_idea = pony_race
+			has_idea = crystal_pony_race
+			has_idea = earthpony_race
+			has_idea = pegasi_race
+			has_idea = unicorn_race
+		}
 	}
 
 	type = ship
@@ -97,7 +103,13 @@ GENERIC_PONY_CRUISER = {
 	name = NAME_THEME_PONY_GENERIC_CL_CA
 
 	can_use = { 
-		has_idea = pony_race
+		OR = {
+			has_idea = pony_race
+			has_idea = crystal_pony_race
+			has_idea = earthpony_race
+			has_idea = pegasi_race
+			has_idea = unicorn_race
+		}
 	}
 
 	type = ship
@@ -191,7 +203,13 @@ GENERIC_PONY_BATTLESHIP = {
 	name = NAME_THEME_PONY_GENERIC_BB_BC
 
 	can_use = { 
-		has_idea = pony_race
+		OR = {
+			has_idea = pony_race
+			has_idea = crystal_pony_race
+			has_idea = earthpony_race
+			has_idea = pegasi_race
+			has_idea = unicorn_race
+		}
 	}
 
 	type = ship
@@ -270,7 +288,13 @@ GENERIC_PONY_CARRIER = {
 	name = NAME_THEME_PONY_GENERIC_CARRIERS
 
 	can_use = { 
-		has_idea = pony_race
+		OR = {
+			has_idea = pony_race
+			has_idea = crystal_pony_race
+			has_idea = earthpony_race
+			has_idea = pegasi_race
+			has_idea = unicorn_race
+		}
 	}
 
 	type = ship
@@ -325,8 +349,14 @@ GENERIC_PONY_CARRIER = {
 	# name = NAME_THEME_PONY_GENERIC_SUBMARINES
 
 	# can_use = { 
-		# has_idea = pony_race
-	# }
+	#	OR = {
+	#		has_idea = pony_race
+	#		has_idea = crystal_pony_race
+	#		has_idea = earthpony_race
+	#		has_idea = pegasi_race
+	#		has_idea = unicorn_race
+	#	}
+	#}
 
 	# type = ship
 	# ship_types = { ship_hull_submarine submarine }
@@ -1466,6 +1496,10 @@ GENERIC_GEM = {
 	can_use = { 
 		OR = {
 			has_idea = pony_race
+			has_idea = crystal_pony_race
+			has_idea = earthpony_race
+			has_idea = pegasi_race
+			has_idea = unicorn_race
 			has_idea = diamond_dog_race
 		}
 	}
@@ -1510,6 +1544,10 @@ GENERIC_FLOWER = {
 	can_use = { 
 		OR = {
 			has_idea = pony_race
+			has_idea = crystal_pony_race
+			has_idea = earthpony_race
+			has_idea = pegasi_race
+			has_idea = unicorn_race
 			has_government = democratic
 		}
 	}
@@ -1648,6 +1686,10 @@ GENERIC_CONSTELLATION = {
 	can_use = { 
 		OR = {
 			has_idea = pony_race
+			has_idea = crystal_pony_race
+			has_idea = earthpony_race
+			has_idea = pegasi_race
+			has_idea = unicorn_race
 			has_idea = deer_race
 		}
 	}

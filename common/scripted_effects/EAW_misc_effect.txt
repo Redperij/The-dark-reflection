@@ -280,6 +280,22 @@ transfer_race_ideas = {
 		add_ideas = pony_race
 	}
 	else_if = {
+		limit = { PREV = { has_idea = crystal_pony_race } }
+		add_ideas = crystal_pony_race
+	}
+	else_if = {
+		limit = { PREV = { has_idea = earthpony_race } }
+		add_ideas = earthpony_race
+	}
+	else_if = {
+		limit = { PREV = { has_idea = pegasi_race } }
+		add_ideas = pegasi_race
+	}
+	else_if = {
+		limit = { PREV = { has_idea = unicorn_race } }
+		add_ideas = unicorn_race
+	}
+	else_if = {
 		limit = { PREV = { has_idea = changeling_race } }
 		add_ideas = changeling_race
 	}

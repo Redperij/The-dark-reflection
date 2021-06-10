@@ -49,7 +49,7 @@ count_monthly_manpower_gain = {
 # 0 pony # NEVER USE JUST PONY AS A MAIN RACE
 # 1 crystal_pony
 # 2 earthpony
-# 3 pegasy
+# 3 pegasi
 # 4 unicorn
 # 5 griffon
 # 6 deer
@@ -62,5 +62,5 @@ count_monthly_manpower_gain = {
 # 13 dog
 
 count_race_part_in_country = {
-	
+
 }

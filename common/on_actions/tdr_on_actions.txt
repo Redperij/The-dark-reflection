@@ -82,13 +82,13 @@ on_actions = {
 			add_to_array = { global.earthpony_states = 798.id }
 			add_to_array = { global.earthpony_states = 799.id }
 
-			add_to_array = { global.pegasy_states = 300.id }
-			add_to_array = { global.pegasy_states = 728.id }
-			add_to_array = { global.pegasy_states = 729.id }
-			add_to_array = { global.pegasy_states = 767.id }
-			add_to_array = { global.pegasy_states = 775.id }
-			add_to_array = { global.pegasy_states = 781.id }
-			add_to_array = { global.pegasy_states = 782.id }
+			add_to_array = { global.pegasi_states = 300.id }
+			add_to_array = { global.pegasi_states = 728.id }
+			add_to_array = { global.pegasi_states = 729.id }
+			add_to_array = { global.pegasi_states = 767.id }
+			add_to_array = { global.pegasi_states = 775.id }
+			add_to_array = { global.pegasi_states = 781.id }
+			add_to_array = { global.pegasi_states = 782.id }
 
 			add_to_array = { global.unicorn_states = 627.id }
 			add_to_array = { global.unicorn_states = 750.id }
