@@ -442,23 +442,23 @@ is_country_main_culture_yak = {
 }
 
 is_state_main_culture_changeling = {
-	is_in_array = { global.changeling_states }
+	is_in_array = { global.changeling_states = THIS }
 }
 
 is_state_main_culture_olenian = {
-	is_in_array = { global.deer_states }
+	is_in_array = { global.deer_states = THIS }
 }
 
 is_state_main_culture_diamond_dog = {
-	is_in_array = { global.dog_states }
+	is_in_array = { global.dog_states = THIS }
 }
 
 is_state_main_culture_dragon = {
-	is_in_array = { global.dragon_states }
+	is_in_array = { global.dragon_states = THIS }
 }
 
 is_state_main_culture_bear = {
-	is_in_array = { global.bear_states }
+	is_in_array = { global.bear_states = THIS }
 }
 
 is_state_main_culture_griffonian = {
@@ -466,7 +466,7 @@ is_state_main_culture_griffonian = {
 		NOT = {
 			is_in_array = { state_original_cores = GFF }
 		}
-		is_in_array = { global.griffon_state }
+		is_in_array = { global.griffon_states = THIS }
 	}
 }
 
@@ -487,7 +487,7 @@ is_state_main_culture_northerner = {
 }
 
 is_state_main_culture_penguin = {
-	is_in_array = { global.penguin_states }
+	is_in_array = { global.penguin_states = THIS }
 }
 
 is_state_main_culture_southerner = {
@@ -499,7 +499,7 @@ is_state_main_culture_undead = {
 }
 
 is_state_main_culture_yak = {
-	is_in_array = { global.yak_states }
+	is_in_array = { global.yak_states = THIS }
 }
 
 is_operative_main_culture_changeling = {
@@ -550,6 +550,10 @@ is_operative_main_culture_dragon = {
 
 is_operative_main_culture_bear = {
 	has_nationality = PLB
+}
+
+is_operative_main_culture_buffalo = {
+	always = no
 }
 
 is_operative_main_culture_griffonian = {
@@ -623,6 +627,11 @@ is_country_secondary_culture_dragon = {
 	}
 }
 is_country_secondary_culture_bear = {
+	always = no
+	OR = {
+	}
+}
+is_country_secondary_culture_buffalo = {
 	always = no
 	OR = {
 	}

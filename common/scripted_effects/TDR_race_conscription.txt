@@ -46,7 +46,7 @@ count_monthly_manpower_gain = {
 }
 
 # Part of every race from total country manpower.
-# 0 pony # NEVER USE JUST PONY AS A MAIN RACE
+# 0 pony
 # 1 crystal_pony
 # 2 earthpony
 # 3 pegasi
@@ -61,6 +61,15 @@ count_monthly_manpower_gain = {
 # 12 yak
 # 13 dog
 
-count_race_part_in_country = {
-
-}
+#count_race_part_in_country = {
+#	every_controlled_state = {
+#		limit = {
+#			OR = {
+#				is_in_array = {
+#					array = x
+#					value = x
+#				}
+#			}
+#		}
+#	}
+#}

@@ -40,7 +40,7 @@ ideas = {
 				is_crystal_pony_race = yes
 			}
 			visible = {
-				has_idea = is_crystal_pony_race
+				has_idea = crystal_pony_race
 			}
 			removal_cost = -1
 			cancel_if_invalid = no

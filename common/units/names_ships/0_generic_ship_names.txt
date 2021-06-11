@@ -1188,10 +1188,7 @@ GENERIC_BIRDS = {
 	type = ship
 	
 	can_use = { 
-		OR = {
-			has_idea = griffon_race
-			original_tag = NIM
-		}
+		has_idea = griffon_race
 	}
 	
 	prefix =""

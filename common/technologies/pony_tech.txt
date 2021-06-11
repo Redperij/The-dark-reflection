@@ -476,7 +476,6 @@ technologies = {
 
 			modifier = {
 				factor = 1000
-				has_completed_focus = CRY_SOL_military_of_the_inquisition
 			}
 		}
 	}

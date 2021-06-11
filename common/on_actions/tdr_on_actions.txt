@@ -271,7 +271,7 @@ on_actions = {
 
 	on_daily = {
 		effect = {
-			SEV = {
+			TST = {
 				count_equipment_in_armies = yes
 				count_required_equipment_in_armies = yes
 			}
