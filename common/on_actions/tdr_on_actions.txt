@@ -201,7 +201,9 @@ on_actions = {
 			TST = {
 				count_monthly_manpower_gain = yes
 			}
-			
+			count_race_part_in_country = yes
+			get_montly_race_conscripts = yes
+
 			#for_each_scope_loop = {
 			#	array = global.countries
 #
@@ -232,6 +234,9 @@ on_actions = {
 			TST = {
 				count_monthly_manpower_gain = yes
 			}
+			count_race_part_in_country = yes
+			get_montly_race_conscripts = yes
+
 			#for_each_scope_loop = {
 			#	array = global.countries
 			#	add_to_variable = {

@@ -3,18 +3,17 @@
 # mouthly_manpower_gain = 1000 * pop_growth * target_conscription_amount
 #
 # pop_growth - population growth for whole country
-# target_conscription_amount - currently active conscription law in the state (PDX, at least something)
-# 1000 - reverting number to represent every single recruit ( I know, that it isn't precise but it really shouldn't be ) # I'm just lazy :)
+# target_conscription_amount - currently active conscription law in the state (Thanks PDX, at least something)
+# 1000 - reverting number to represent every single recruit ( I know that it isn't precise but it really shouldn't be much ) # I'm just lazy :)
 
 # Current mistakes:
 # 1. Sometimes it goes over the actual manpower growth ( not much )
-# 2. When conscription law is changed it is not affecting the country right away so we go over the actual growth for 2 - 3 months
+# 2. When conscription law is changed it is not affecting the country right away so we go over the actual growth for 2-3 months
 
 count_monthly_manpower_gain = {
 	for_each_scope_loop = {
 		array = global.countries
 
-		# 
 		set_variable = {
 			var = THIS.monthly_manpower_growth
 			value = max_manpower_k
@@ -22,7 +21,7 @@ count_monthly_manpower_gain = {
 
 		if = { # If somebody, for some reason, decides to change pop growth base in a country then he must set a variable for that specific country.
 			limit = {
-				has_variable = pop_growth # must be multiplied by 1000 in advance
+				has_variable = pop_growth # MUST BE MULTYPLIED BY 1000 IN ADVANCE
 			}
 			multiply_variable = {
 				var = monthly_manpower_growth
@@ -32,7 +31,7 @@ count_monthly_manpower_gain = {
 		else = {
 			multiply_variable = {
 				var = monthly_manpower_growth
-				value = 1.25 # Here is *1000 as well
+				value = 1.25 # Here is *1000 as well, base growth is 0.00125
 			}
 		}
 
@@ -46,6 +45,7 @@ count_monthly_manpower_gain = {
 }
 
 # Part of every race from total country manpower.
+# Number to race in the array
 # 0 pony
 # 1 crystal_pony
 # 2 earthpony
@@ -61,15 +61,238 @@ count_monthly_manpower_gain = {
 # 12 yak
 # 13 dog
 
-#count_race_part_in_country = {
-#	every_controlled_state = {
-#		limit = {
-#			OR = {
-#				is_in_array = {
-#					array = x
-#					value = x
-#				}
-#			}
-#		}
-#	}
-#}
+count_race_part_in_country = {
+	set_temp_variable = { effect_root = THIS }
+
+	#log = "[Root.GetName]: Count Race Part" #debug
+	clear_array = effect_root:race_part
+	resize_array = {
+		array = effect_root:race_part # Holds all races race_manpower/total_manpower values
+		size = 14
+	}
+	every_controlled_state = {
+		limit = {
+			OR = {
+				is_in_array = { global.pony_states = THIS }
+				is_in_array = { global.crystal_pony_states = THIS }
+				is_in_array = { global.earthpony_states = THIS }
+				is_in_array = { global.pegasi_states = THIS }
+				is_in_array = { global.unicorn_states = THIS }
+				is_in_array = { global.griffon_states = THIS }
+				is_in_array = { global.deer_states = THIS }
+				is_in_array = { global.thestral_states = THIS }
+				is_in_array = { global.dragon_states = THIS }
+				is_in_array = { global.bear_states = THIS }
+				is_in_array = { global.changeling_states = THIS }
+				is_in_array = { global.penguin_states = THIS }
+				is_in_array = { global.yak_states = THIS }
+				is_in_array = { global.dog_states = THIS }
+			} 
+		}
+		if = {
+			limit = {
+				is_in_array = { global.pony_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 0
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.crystal_pony_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.earthpony_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 2
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.pegasi_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 3
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.unicorn_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 4
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.griffon_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 5
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.deer_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 6
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.thestral_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 7
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.dragon_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 8
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.bear_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 9
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.changeling_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 10
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.penguin_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 11
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.yak_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 12
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.dog_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 13
+			}
+		}
+
+		add_to_variable = {
+			var = effect_root:race_part^n
+			value = state_population_k
+		}
+	}
+	# log = "[?effect_root:race_part^0|3]k ponies live in [Root.GetName]" #debug
+	# Now we have an array race_part with all present races manpower in a country
+	# Horrific division to get a part of the race in a country
+	if = {
+		limit = {
+			NOT = {
+				check_variable = {
+					effect_root:max_manpower_k = 0 
+				}
+			}
+		}
+		for_loop_effect = {
+			start = 0
+			end = 14
+			value = i
+
+			divide_variable = {
+				var = effect_root:race_part^i
+				value = effect_root:max_manpower_k
+			}
+		}
+	}
+	#log = "[?effect_root:race_part^0|3] part ponies live in [Root.GetName]" #debug
+}
+
+# How many conscripts of each race will the country receive monthly
+# Number to race in the array
+# 0 pony
+# 1 crystal_pony
+# 2 earthpony
+# 3 pegasi
+# 4 unicorn
+# 5 griffon
+# 6 deer
+# 7 thestral
+# 8 dragon
+# 9 bear
+# 10 changeling
+# 11 penguin
+# 12 yak
+# 13 dog
+
+get_montly_race_conscripts = {
+	set_temp_variable = { effect_root = THIS }
+
+	#log = "[?effect_root:race_part^0|3] part ponies live in [Root.GetName]" #debug
+	resize_array = {
+		array = effect_root:race_conscripts # Holds all races conscripts in a country
+		size = 14
+	}
+	resize_temp_array = {
+		array = effect_root:added_race_conscripts
+		size = 14
+	}
+	for_loop_effect = {
+		start = 0
+		end = 14
+		value = i
+
+		add_to_temp_variable = {
+			var = effect_root:added_race_conscripts^i
+			value = effect_root:race_part^i
+		}
+		multiply_temp_variable = {
+			var = effect_root:added_race_conscripts^i
+			value = effect_root:monthly_manpower_growth
+		}
+		round_temp_variable = effect_root:added_race_conscripts^i
+		add_to_variable = {
+			var = effect_root:race_conscripts^i
+			value = effect_root:added_race_conscripts^i
+		}
+	}
+	#log = "[?Root.race_conscripts^0|3] ponies reporting for duty in [Root.GetName]" #debug
+}
