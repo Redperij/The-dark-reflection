@@ -1,12 +1,12 @@
 state={
 	id=829
-	name="STATE_829"
+	name="STATE_829" #Gumbinnen
 	history={
 		owner = SEV
 		add_core_of = SEV
 
 		victory_points = {
-			5016 5
+			5016 5 #Gumbinnen
 		}
 	}
 	provinces={

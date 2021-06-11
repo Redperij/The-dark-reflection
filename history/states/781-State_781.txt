@@ -1,12 +1,12 @@
 state={
 	id=781
-	name="STATE_781"
+	name="STATE_781" #Wuelens
 	history={
 		owner = SEV
 		add_core_of = SEV
 
 		victory_points = {
-			11482 1
+			11482 1 #Wuelens
 		}
 	}
 	provinces={

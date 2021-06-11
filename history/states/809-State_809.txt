@@ -8,10 +8,10 @@ state={
 		add_core_of = CRY
 
 		victory_points = {
-			10496 1
+			10496 1 #Sahard
 		}
 		victory_points = {
-			2912 1
+			2912 1 #Yurbark
 		}
 	}
 

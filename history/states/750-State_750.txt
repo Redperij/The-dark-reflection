@@ -1,6 +1,6 @@
 state={
 	id=750
-	name="STATE_750"
+	name="STATE_750" #Mirazh
 
 	history={
 		owner = SEV
@@ -8,10 +8,10 @@ state={
 		add_core_of = ZAR
 
 		victory_points = {
-			11984 5 
+			11984 5 #Mirazh
 		}
 		victory_points = {
-			12005 5 
+			12005 5 #Khabarov
 		}
 	}
 

@@ -1,13 +1,13 @@
 state={
 	id=753
-	name="STATE_753"
+	name="STATE_753" #Darugi
 	history={
 		owner = SEV
 		add_core_of = SEV
 		add_core_of = ZAR
 
 		victory_points = {
-			11936 5
+			11936 5 #Darugi
 		}
 	}
 	provinces={

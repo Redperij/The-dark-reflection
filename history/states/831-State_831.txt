@@ -6,7 +6,7 @@ state={
 		add_core_of = SEV
 
 		victory_points = {
-			2727 5
+			2727 5 #Tapiau
 		}
 	}
 	provinces={

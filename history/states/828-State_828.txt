@@ -1,13 +1,16 @@
 state={
 	id=828
-	name="STATE_828"
+	name="STATE_828" #Kalininberg
 
 	history={
 		owner = SEV
 		add_core_of = SEV
 
 		victory_points = {
-			9849 5
+			9849 5 #Town Up North
+		}
+		victory_points = {
+			9869 15 #Kalininberg
 		}
 	}
 

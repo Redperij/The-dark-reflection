@@ -1,12 +1,12 @@
 state={
 	id=832
-	name="STATE_832"
+	name="STATE_832" #Tilsit
 	history={
 		owner = SEV
 		add_core_of = SEV
 
 		victory_points = {
-			2963 5
+			2963 5 #Tilsit
 		}
 	}
 	provinces={

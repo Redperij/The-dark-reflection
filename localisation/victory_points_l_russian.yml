@@ -293,7 +293,7 @@ VICTORY_POINTS_11624:0 "Красное Сердце" #Krasnoye Serdtse
 VICTORY_POINTS_25:0 "Сомлэнд" #Somland
 VICTORY_POINTS_12244:0 "Зеленоградск" #Zelenogradsk
 VICTORY_POINTS_11984:0 "Мираж" #Mirazh
-VICTORY_POINTS_12005:0 ""
+VICTORY_POINTS_12005:0 "Хабаров" #Mirazh
 VICTORY_POINTS_12129:0 "Тихореченское" #Tikhorechenskoye
 VICTORY_POINTS_199:0 "Бордо" #Bordo
 VICTORY_POINTS_12120:0 "Кобылкино" #Kobylkyno
@@ -312,7 +312,8 @@ VICTORY_POINTS_10696:0 "Санкт-Альтидийск" #St. Altidiysk
 VICTORY_POINTS_10660:0 "Девятка"
 VICTORY_POINTS_10642:0 "Деревня Вверх-по-течению"
 VICTORY_POINTS_9805:0 "Герингсдорф" #Heringsdorf
-VICTORY_POINTS_9849:0 "Северный Городок" #Town Up North
+VICTORY_POINTS_9849:0 "Северный Городок" #Kalininberg
+VICTORY_POINTS_9869:0 "Калининберг" Kalininberg
 VICTORY_POINTS_3345:0 "Сириус" #Azkaban
 VICTORY_POINTS_11126:0 "Маяковский" #Drozdniy
 VICTORY_POINTS_11060:0 "Кобылки"
@@ -395,37 +396,37 @@ VICTORY_POINTS_4626:0 "Вишнепонь"
 VICTORY_POINTS_5039:0 ""
 VICTORY_POINTS_3005:0 "Бездна" #Bezdna
 VICTORY_POINTS_11233:0 "Лошадск"
-VICTORY_POINTS_5016:0 "" #STATE_829
-VICTORY_POINTS_2727:0 "" #STATE_831
-VICTORY_POINTS_2963:0 "" #STATE_832
+VICTORY_POINTS_5016:0 "Гумбиннен" #Gumbinnen
+VICTORY_POINTS_2727:0 "Тапиау" #Tapiau
+VICTORY_POINTS_2963:0 "Тильзит" #Tilsit
 VICTORY_POINTS_11244:0 "Особняк Скорпина" #STATE_785
-VICTORY_POINTS_11035:0 ""
-VICTORY_POINTS_11385:0 "" #STATE_776
-VICTORY_POINTS_11481:0 ""
-VICTORY_POINTS_11482:0 "" #STATE_781
+VICTORY_POINTS_11035:0 "Холмогоры" #Holmogory
+VICTORY_POINTS_11385:0 "Отборск" #Otborsk
+VICTORY_POINTS_11481:0 "Черепово" #Otborsk
+VICTORY_POINTS_11482:0 "Уэльсен" #Wuelens
 VICTORY_POINTS_538:0 "" #Korolevskiy Island
-VICTORY_POINTS_10419:0 "" #STATE_806
-VICTORY_POINTS_10225:0 ""
-VICTORY_POINTS_10496:0 "" #STATE_809
-VICTORY_POINTS_10496:0 ""
-VICTORY_POINTS_11057:0 "" #STATE_858
-VICTORY_POINTS_10821:0 ""
+VICTORY_POINTS_10419:0 "Нарыльск" #Naryl'sk
+VICTORY_POINTS_10225:0 "Волкута" #Naryl'sk
+VICTORY_POINTS_10496:0 "Сахард" #Sahard
+VICTORY_POINTS_2912:0 "Юрбарк" #Sahard
+VICTORY_POINTS_11057:0 "Берестье" #Berest'e
+VICTORY_POINTS_10821:0 "Бричковичи" #Berest'e
 VICTORY_POINTS_432:0 "" #Kukuruzza
-VICTORY_POINTS_11835:0 "" #Malinovka
-VICTORY_POINTS_11555:0 ""
-VICTORY_POINTS_11455:0 "" #STATE_765
-VICTORY_POINTS_11776:0 "" #STATE_766
-VICTORY_POINTS_3986:0 "" #STATE_741
-VICTORY_POINTS_11864:0 "" #STATE_758
-VICTORY_POINTS_4533:0 ""
-VICTORY_POINTS_11936:0 "" #STATE_753
-VICTORY_POINTS_11968:0 "" #STATE_756
-VICTORY_POINTS_1710:0 ""
-VICTORY_POINTS_2066:0 "" #STATE_754
-VICTORY_POINTS_11778:0 "" #STATE_757
-VICTORY_POINTS_11574:0 ""
-VICTORY_POINTS_2590:0 "" #STATE_729
-VICTORY_POINTS_1824:0 ""
+VICTORY_POINTS_11835:0 "Царицын" #Malinovka
+VICTORY_POINTS_11555:0 "Вороное" #Malinovka
+VICTORY_POINTS_11455:0 "Челобитное" #Chelobitnoe
+VICTORY_POINTS_11776:0 "Савраст" #Savrast
+VICTORY_POINTS_3986:0 "Красный Острог" #Krasnyy Ostrog
+VICTORY_POINTS_11864:0 "Aргамак" #Plotbishche
+VICTORY_POINTS_4533:0 "Плотбище" #Plotbishche
+VICTORY_POINTS_11936:0 "Даруги" #Darugi
+VICTORY_POINTS_11968:0 "Цета" #Tseta
+VICTORY_POINTS_1710:0 "Верхнееловск" #Tseta
+VICTORY_POINTS_2066:0 "Углежогово" #Uglezhogovo
+VICTORY_POINTS_11778:0 "Кижучск" #Trukhlyavoye
+VICTORY_POINTS_11574:0 "Трухлявое" #Trukhlyavoye
+VICTORY_POINTS_2590:0 "Северо-Лопатинск" #Kaurskiye Islands
+VICTORY_POINTS_1824:0 "Байково" #Kaurskiye Islands
 #STL - Starlight's Town
 VICTORY_POINTS_9978:0 "Новокристальск" #Novocrystal'sk
 #######################################################################

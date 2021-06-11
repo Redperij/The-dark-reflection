@@ -1,13 +1,13 @@
 state={
 	id=754
-	name="STATE_754"
+	name="STATE_754" #Uglezhogovo
 	history={
 		owner = SEV
 		add_core_of = SEV
 		add_core_of = ZAR
 
 		victory_points = {
-			2066 4 
+			2066 4 #Uglezhogovo
 		}
 	}
 	provinces={
