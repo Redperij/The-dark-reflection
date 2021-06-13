@@ -20,10 +20,18 @@ is_pony_race = {
 		has_tech = earthpony_race
 		has_tech = pegasi_race
 		has_tech = unicorn_race
+		has_tech = crystal_earthpony_race
+		has_tech = crystal_pegasi_race
+		has_tech = crystal_unicorn_race
 	}
 	has_tech = pony_race
 }
 is_crystal_pony_race = {
+	NOT = {
+		has_tech = crystal_earthpony_race
+		has_tech = crystal_pegasi_race
+		has_tech = crystal_unicorn_race
+	}
 	has_tech = crystal_pony_race
 }
 is_earthpony_race = {
@@ -34,6 +42,15 @@ is_pegasi_race = {
 }
 is_unicorn_race = {
 	has_tech = unicorn_race
+}
+is_crystal_earthpony_race = {
+	has_tech = crystal_earthpony_race
+}
+is_crystal_pegasi_race = {
+	has_tech = crystal_pegasi_race
+}
+is_crystal_unicorn_race = {
+	has_tech = crystal_unicorn_race
 }
 is_changeling_race = {
 	has_tech = changeling_race

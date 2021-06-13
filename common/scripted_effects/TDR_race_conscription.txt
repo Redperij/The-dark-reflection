@@ -60,6 +60,9 @@ count_monthly_manpower_gain = {
 # 11 penguin
 # 12 yak
 # 13 dog
+# 14 crystal_earthpony
+# 15 crystal_pegasi
+# 16 crystal_unicorn
 
 count_race_part_in_country = {
 	set_temp_variable = { effect_root = THIS }
@@ -68,7 +71,7 @@ count_race_part_in_country = {
 	clear_array = effect_root:race_part
 	resize_array = {
 		array = effect_root:race_part # Holds all races race_manpower/total_manpower values
-		size = 14
+		size = 17
 	}
 	every_controlled_state = {
 		limit = {
@@ -87,6 +90,9 @@ count_race_part_in_country = {
 				is_in_array = { global.penguin_states = THIS }
 				is_in_array = { global.yak_states = THIS }
 				is_in_array = { global.dog_states = THIS }
+				is_in_array = { global.crystal_earthpony_states = THIS }
+				is_in_array = { global.crystal_pegasi_states = THIS }
+				is_in_array = { global.crystal_unicorn_states = THIS }
 			} 
 		}
 		if = {
@@ -215,6 +221,33 @@ count_race_part_in_country = {
 				value = 13
 			}
 		}
+		else_if = {
+			limit = {
+				is_in_array = { global.crystal_earthpony_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 14
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.crystal_pegasi_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 15
+			}
+		}
+		else_if = {
+			limit = {
+				is_in_array = { global.crystal_unicorn_states = THIS }
+			}
+			set_temp_variable = {
+				var = n
+				value = 16
+			}
+		}
 
 		add_to_variable = {
 			var = effect_root:race_part^n
@@ -234,7 +267,7 @@ count_race_part_in_country = {
 		}
 		for_loop_effect = {
 			start = 0
-			end = 14
+			end = 17
 			value = i
 
 			divide_variable = {
@@ -262,6 +295,9 @@ count_race_part_in_country = {
 # 11 penguin
 # 12 yak
 # 13 dog
+# 14 crystal_earthpony
+# 15 crystal_pegasi
+# 16 crystal_unicorn
 
 get_montly_race_conscripts = {
 	set_temp_variable = { effect_root = THIS }
@@ -269,15 +305,15 @@ get_montly_race_conscripts = {
 	#log = "[?effect_root:race_part^0|3] part ponies live in [Root.GetName]" #debug
 	resize_array = {
 		array = effect_root:race_conscripts # Holds all races conscripts in a country
-		size = 14
+		size = 17
 	}
 	resize_temp_array = {
 		array = effect_root:added_race_conscripts
-		size = 14
+		size = 17
 	}
 	for_loop_effect = {
 		start = 0
-		end = 14
+		end = 17
 		value = i
 
 		add_to_temp_variable = {
@@ -295,4 +331,177 @@ get_montly_race_conscripts = {
 		}
 	}
 	#log = "[?Root.race_conscripts^0|3] ponies reporting for duty in [Root.GetName]" #debug
+
+	#####################################################################################################
+	# Funnier stuff ( laggy as fuck )                                                                   #
+	# Pony race and Crystal pony race are just dummies to count actual recruits for their subdivisions  #
+	#####################################################################################################
+	# Getting all pony recruits
+	set_temp_variable = {
+		var = conscripts_to_add
+		value = effect_root:race_conscripts^0
+	}
+	# Getting random variable
+	set_temp_variable = {
+		var = random_division
+		value = 1
+	}
+	randomize_temp_variable = {
+		var = random_division
+		distribution = uniform
+		min = 2
+		max = 4
+	}
+	#THIS = { #debug
+	#	if = {
+	#		limit = {
+	#			original_tag = SEV
+	#		}
+	#		log = "[?conscripts_to_add|3] conscripts_to_add before first division in [Root.GetName]" #debug
+	#	}
+	#}
+	# Dividing it using that temporary random variable
+	divide_temp_variable = {
+		var = conscripts_to_add
+		value = random_division
+	}
+	#THIS = { #debug
+	#	if = {
+	#		limit = {
+	#			original_tag = SEV
+	#		}
+	#		log = "[?conscripts_to_add|3] conscripts_to_add after first division in [Root.GetName]" #debug
+	#	}
+	#}
+	# Rounding the result
+	round_temp_variable = conscripts_to_add
+
+	# It goes to the earthponies
+	add_to_variable = {
+		var = effect_root:race_conscripts^2
+		value = conscripts_to_add
+	}
+	# ponies - taken_earthponies = ponies_left
+	subtract_from_variable = {
+		var = effect_root:race_conscripts^0
+		value = conscripts_to_add
+	}
+
+	# Getting left ponies to distribute
+	set_temp_variable = {
+		var = conscripts_to_add
+		value = effect_root:race_conscripts^0
+	}
+	# Different randomization method
+	randomize_temp_variable = {
+		var = random_division
+		distribution = uniform
+		min = 1.5
+		max = 2.5
+	}
+	# Dividing it using that temporary random variable
+	divide_temp_variable = {
+		var = conscripts_to_add
+		value = random_division
+	}
+	# Rounding the result
+	round_temp_variable = conscripts_to_add
+
+	# It goes to the pegasi
+	add_to_variable = {
+		var = effect_root:race_conscripts^3
+		value = conscripts_to_add
+	}
+	# ponies - taken_pegasi = ponies_left
+	subtract_from_variable = {
+		var = effect_root:race_conscripts^0
+		value = conscripts_to_add
+	}
+
+	# ponies_left = unicorns
+	add_to_variable = {
+		var = effect_root:race_conscripts^4
+		value = effect_root:race_conscripts^0
+	}
+	# We don't have any ponies to distribute, so emptying the variable
+	set_variable = {
+		var = effect_root:race_conscripts^0
+		value = 0
+	}
+	#######################################
+	# Now the same for the crystal ponies #
+	#######################################
+
+	# Getting all crystal_pony recruits
+	set_temp_variable = {
+		var = conscripts_to_add
+		value = effect_root:race_conscripts^1
+	}
+	# Getting random variable
+	randomize_temp_variable = {
+		var = random_division
+		distribution = uniform
+		min = 2
+		max = 4
+	}
+	# Dividing it using that temporary random variable
+	divide_temp_variable = {
+		var = conscripts_to_add
+		value = random_division
+	}
+	# Rounding the result
+	round_temp_variable = conscripts_to_add
+
+	# It goes to the crystal_earthponies
+	add_to_variable = {
+		var = effect_root:race_conscripts^14
+		value = conscripts_to_add
+	}
+	# crystal_ponies - taken_crystal_earthponies = crystal_ponies_left
+	subtract_from_variable = {
+		var = effect_root:race_conscripts^1
+		value = conscripts_to_add
+	}
+
+	# Getting left crystal_ponies to distribute
+	set_temp_variable = {
+		var = conscripts_to_add
+		value = effect_root:race_conscripts^1
+	}
+	# Different randomization method
+	randomize_temp_variable = {
+		var = random_division
+		distribution = uniform
+		min = 1.5
+		max = 2.5
+	}
+	# Dividing it using that temporary random variable
+	divide_temp_variable = {
+		var = conscripts_to_add
+		value = random_division
+	}
+	# Rounding the result
+	round_temp_variable = conscripts_to_add
+
+	# It goes to the crystal_pegasi
+	add_to_variable = {
+		var = effect_root:race_conscripts^15
+		value = conscripts_to_add
+	}
+	# crystal_ponies - taken_crystal_pegasi = crystal_ponies_left
+	subtract_from_variable = {
+		var = effect_root:race_conscripts^1
+		value = conscripts_to_add
+	}
+
+	# crystal_ponies_left = crystal_unicorns
+	add_to_variable = {
+		var = effect_root:race_conscripts^16
+		value = effect_root:race_conscripts^1
+	}
+	# We don't have any crystal_ponies to distribute, so emptying the variable
+	set_variable = {
+		var = effect_root:race_conscripts^1
+		value = 0
+	}
 }

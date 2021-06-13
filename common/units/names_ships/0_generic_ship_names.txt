@@ -13,6 +13,9 @@ GENERIC_PONY_DESTROYER = {
 			has_idea = earthpony_race
 			has_idea = pegasi_race
 			has_idea = unicorn_race
+			has_idea = crystal_earthpony_race
+			has_idea = crystal_pegasi_race
+			has_idea = crystal_unicorn_race
 		}
 	}
 
@@ -109,6 +112,9 @@ GENERIC_PONY_CRUISER = {
 			has_idea = earthpony_race
 			has_idea = pegasi_race
 			has_idea = unicorn_race
+			has_idea = crystal_earthpony_race
+			has_idea = crystal_pegasi_race
+			has_idea = crystal_unicorn_race
 		}
 	}
 
@@ -209,6 +215,9 @@ GENERIC_PONY_BATTLESHIP = {
 			has_idea = earthpony_race
 			has_idea = pegasi_race
 			has_idea = unicorn_race
+			has_idea = crystal_earthpony_race
+			has_idea = crystal_pegasi_race
+			has_idea = crystal_unicorn_race
 		}
 	}
 
@@ -294,6 +303,9 @@ GENERIC_PONY_CARRIER = {
 			has_idea = earthpony_race
 			has_idea = pegasi_race
 			has_idea = unicorn_race
+			has_idea = crystal_earthpony_race
+			has_idea = crystal_pegasi_race
+			has_idea = crystal_unicorn_race
 		}
 	}
 
@@ -355,6 +367,9 @@ GENERIC_PONY_CARRIER = {
 	#		has_idea = earthpony_race
 	#		has_idea = pegasi_race
 	#		has_idea = unicorn_race
+	#		has_idea = crystal_earthpony_race
+	#		has_idea = crystal_pegasi_race
+	#		has_idea = crystal_unicorn_race
 	#	}
 	#}
 
@@ -1498,6 +1513,9 @@ GENERIC_GEM = {
 			has_idea = pegasi_race
 			has_idea = unicorn_race
 			has_idea = diamond_dog_race
+			has_idea = crystal_earthpony_race
+			has_idea = crystal_pegasi_race
+			has_idea = crystal_unicorn_race
 		}
 	}
 	
@@ -1545,6 +1563,9 @@ GENERIC_FLOWER = {
 			has_idea = earthpony_race
 			has_idea = pegasi_race
 			has_idea = unicorn_race
+			has_idea = crystal_earthpony_race
+			has_idea = crystal_pegasi_race
+			has_idea = crystal_unicorn_race
 			has_government = democratic
 		}
 	}
@@ -1688,6 +1709,9 @@ GENERIC_CONSTELLATION = {
 			has_idea = pegasi_race
 			has_idea = unicorn_race
 			has_idea = deer_race
+			has_idea = crystal_earthpony_race
+			has_idea = crystal_pegasi_race
+			has_idea = crystal_unicorn_race
 		}
 	}
 	unique = 	{

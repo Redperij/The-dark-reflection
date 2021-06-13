@@ -6,7 +6,7 @@ on_actions = {
 			log = "[GetDateText] War at Equestria main on_startup begin"
 			
 			#States by races
-			#added 1-40, 206, 300, 564, 627, 727-730, 740-741, 748-859, 1000, 1174, 1301, 1488
+			#added 1-40, 206, 300, 564, 627, 643, 661, 727-730, 740-741, 748-859, 1000, 1174, 1301, 1488
 			#exclusions: 843
 			add_to_array = { global.pony_states = 564.id }
 			add_to_array = { global.pony_states = 727.id }
@@ -90,7 +90,6 @@ on_actions = {
 			add_to_array = { global.pegasi_states = 781.id }
 			add_to_array = { global.pegasi_states = 782.id }
 
-			add_to_array = { global.unicorn_states = 627.id }
 			add_to_array = { global.unicorn_states = 750.id }
 			add_to_array = { global.unicorn_states = 754.id }
 			
@@ -186,6 +185,12 @@ on_actions = {
 			add_to_array = { global.dog_states = 812.id }
 			add_to_array = { global.dog_states = 813.id }
 			add_to_array = { global.dog_states = 814.id }
+
+			add_to_array = { global.crystal_earthpony_states = 643.id }
+
+			add_to_array = { global.crystal_pegasi_states = 661.id }
+
+			add_to_array = { global.crystal_unicorn_states = 627.id }
 
 			#for_each_loop = {
 			#	array = global.pony_states

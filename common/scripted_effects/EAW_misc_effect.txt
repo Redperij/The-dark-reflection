@@ -296,6 +296,18 @@ transfer_race_ideas = {
 		add_ideas = unicorn_race
 	}
 	else_if = {
+		limit = { PREV = { has_idea = crystal_earthpony_race } }
+		add_ideas = crystal_earthpony_race
+	}
+	else_if = {
+		limit = { PREV = { has_idea = crystal_pegasi_race } }
+		add_ideas = crystal_pegasi_race
+	}
+	else_if = {
+		limit = { PREV = { has_idea = crystal_unicorn_race } }
+		add_ideas = crystal_unicorn_race
+	}
+	else_if = {
 		limit = { PREV = { has_idea = changeling_race } }
 		add_ideas = changeling_race
 	}

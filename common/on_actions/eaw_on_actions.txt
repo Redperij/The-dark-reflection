@@ -65,6 +65,18 @@ on_actions = {
 					add_ideas = unicorn_race
 				}
 				else_if = {
+					limit = { is_crystal_earthpony_race = yes }
+					add_ideas = crystal_earthpony_race
+				}
+				else_if = {
+					limit = { is_crystal_pegasi_race = yes }
+					add_ideas = crystal_pegasi_race
+				}
+				else_if = {
+					limit = { is_crystal_unicorn_race = yes }
+					add_ideas = crystal_unicorn_race
+				}
+				else_if = {
 					limit = { is_changeling_race = yes }
 					add_ideas = changeling_race
 				}

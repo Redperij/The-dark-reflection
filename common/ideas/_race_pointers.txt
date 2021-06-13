@@ -251,5 +251,47 @@ ideas = {
 				factor = 0
 			}
 		}
+		crystal_earthpony_race = {
+			default = yes
+			allowed = {
+				is_crystal_earthpony_race = yes
+			}
+			visible = {
+				has_idea = crystal_earthpony_race
+			}
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		crystal_pegasi_race = {
+			default = yes
+			allowed = {
+				is_crystal_pegasi_race = yes
+			}
+			visible = {
+				has_idea = crystal_pegasi_race
+			}
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		crystal_unicorn_race = {
+			default = yes
+			allowed = {
+				is_crystal_unicorn_race = yes
+			}
+			visible = {
+				has_idea = crystal_unicorn_race
+			}
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 0
+			}
+		}
 	}
 }

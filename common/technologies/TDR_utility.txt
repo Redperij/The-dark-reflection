@@ -23,8 +23,6 @@ technologies = {
 
 	all_spec_equipment = {
 		enable_equipments = {
-			melee_equipped_pony_hoof_0
-			melee_equipped_crystal_pony_hoof_0
 			melee_equipped_earthpony_hoof_0
 			melee_equipped_pegasi_hoof_0
 			melee_equipped_unicorn_hoof_0
@@ -39,9 +37,10 @@ technologies = {
 			melee_equipped_dog_paw_0
 			melee_equipped_yak_0
 			melee_equipped_penguin_0
+			melee_equipped_crystal_earthpony_hoof_0
+			melee_equipped_crystal_pegasi_hoof_0
+			melee_equipped_crystal_unicorn_hoof_0
 			
-			melee_equipped_pony_hoof_1
-			melee_equipped_crystal_pony_hoof_1
 			melee_equipped_earthpony_hoof_1
 			melee_equipped_pegasi_hoof_1
 			melee_equipped_unicorn_hoof_1
@@ -56,9 +55,10 @@ technologies = {
 			melee_equipped_dog_paw_1
 			melee_equipped_yak_1
 			melee_equipped_penguin_1
+			melee_equipped_crystal_earthpony_hoof_1
+			melee_equipped_crystal_pegasi_hoof_1
+			melee_equipped_crystal_unicorn_hoof_1
 
-			infantry_equipped_pony_hoof_0
-			infantry_equipped_crystal_pony_hoof_0
 			infantry_equipped_earthpony_hoof_0
 			infantry_equipped_pegasi_hoof_0
 			infantry_equipped_unicorn_hoof_0
@@ -73,9 +73,10 @@ technologies = {
 			infantry_equipped_dog_paw_0
 			infantry_equipped_yak_0
 			infantry_equipped_penguin_0
+			infantry_equipped_crystal_earthpony_hoof_0
+			infantry_equipped_crystal_pegasi_hoof_0
+			infantry_equipped_crystal_unicorn_hoof_0
 			
-			infantry_equipped_pony_hoof_1
-			infantry_equipped_crystal_pony_hoof_1
 			infantry_equipped_earthpony_hoof_1
 			infantry_equipped_pegasi_hoof_1
 			infantry_equipped_unicorn_hoof_1
@@ -90,9 +91,10 @@ technologies = {
 			infantry_equipped_dog_paw_1
 			infantry_equipped_yak_1
 			infantry_equipped_penguin_1
+			infantry_equipped_crystal_earthpony_hoof_1
+			infantry_equipped_crystal_pegasi_hoof_1
+			infantry_equipped_crystal_unicorn_hoof_1
 
-			infantry_equipped_pony_hoof_2
-			infantry_equipped_crystal_pony_hoof_2
 			infantry_equipped_earthpony_hoof_2
 			infantry_equipped_pegasi_hoof_2
 			infantry_equipped_unicorn_hoof_2
@@ -107,9 +109,10 @@ technologies = {
 			infantry_equipped_dog_paw_2
 			infantry_equipped_yak_2
 			infantry_equipped_penguin_2
+			infantry_equipped_crystal_earthpony_hoof_2
+			infantry_equipped_crystal_pegasi_hoof_2
+			infantry_equipped_crystal_unicorn_hoof_2
 		
-			infantry_equipped_pony_hoof_3
-			infantry_equipped_crystal_pony_hoof_3
 			infantry_equipped_earthpony_hoof_3
 			infantry_equipped_pegasi_hoof_3
 			infantry_equipped_unicorn_hoof_3
@@ -124,9 +127,10 @@ technologies = {
 			infantry_equipped_dog_paw_3
 			infantry_equipped_yak_3
 			infantry_equipped_penguin_3
+			infantry_equipped_crystal_earthpony_hoof_3
+			infantry_equipped_crystal_pegasi_hoof_3
+			infantry_equipped_crystal_unicorn_hoof_3
 
-			infantry_equipped_pony_hoof_x
-			infantry_equipped_crystal_pony_hoof_x
 			infantry_equipped_earthpony_hoof_x
 			infantry_equipped_pegasi_hoof_x
 			infantry_equipped_unicorn_hoof_x
@@ -141,9 +145,10 @@ technologies = {
 			infantry_equipped_dog_paw_x
 			infantry_equipped_yak_x
 			infantry_equipped_penguin_x
+			infantry_equipped_crystal_earthpony_hoof_x
+			infantry_equipped_crystal_pegasi_hoof_x
+			infantry_equipped_crystal_unicorn_hoof_x
 
-			infantry_equipped_pony_hoof_x_2
-			infantry_equipped_crystal_pony_hoof_x_2
 			infantry_equipped_earthpony_hoof_x_2
 			infantry_equipped_pegasi_hoof_x_2
 			infantry_equipped_unicorn_hoof_x_2
@@ -158,6 +163,9 @@ technologies = {
 			infantry_equipped_dog_paw_x_2
 			infantry_equipped_yak_x_2
 			infantry_equipped_penguin_x_2
+			infantry_equipped_crystal_earthpony_hoof_x_2
+			infantry_equipped_crystal_pegasi_hoof_x_2
+			infantry_equipped_crystal_unicorn_hoof_x_2
 		}
 
 		research_cost = 1

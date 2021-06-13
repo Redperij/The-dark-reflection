@@ -1274,60 +1274,6 @@ equipments = {
 #####                                                          #####
 ####################################################################
 
-	melee_equipped_pony_hoof_0 = {
-		year = 800
-		archetype = infantry_equipment
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_crystal_pony_hoof_0 = {
-		year = 800
-		archetype = infantry_equipment
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
 	melee_equipped_earthpony_hoof_0 = {
 		year = 800
 		archetype = infantry_equipment
@@ -1706,53 +1652,82 @@ equipments = {
 		}
 	}
 
-	melee_equipped_pony_hoof_1 = {
+	melee_equipped_crystal_earthpony_hoof_0 = {
 		year = 800
 		archetype = infantry_equipment
 		is_buildable = no
-		parent = melee_equipped_pony_hoof_0
-		priority = 11
+		priority = 12
 		visual_level = 0
 		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
 		hardness = 0.001
 		armor_value = 0.001
-		reliability = 0.6
+
+		reliability = 0.8
+
 		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
+		soft_attack = 1
+		hard_attack = 0.001
 		ap_attack = 0.001
 
 
-		build_cost_ic = 0.4
+		build_cost_ic = 0.25
 		resources = {
 			steel = 1
 		}
 	}
 
-	melee_equipped_crystal_pony_hoof_1 = {
+	melee_equipped_crystal_pegasi_hoof_0 = {
 		year = 800
 		archetype = infantry_equipment
 		is_buildable = no
-		parent = melee_equipped_crystal_pony_hoof_0
-		priority = 11
+		priority = 12
 		visual_level = 0
 		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
 		hardness = 0.001
 		armor_value = 0.001
-		reliability = 0.6
+
+		reliability = 0.8
+
 		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
+		soft_attack = 1
+		hard_attack = 0.001
 		ap_attack = 0.001
 
 
-		build_cost_ic = 0.4
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	melee_equipped_crystal_unicorn_hoof_0 = {
+		year = 800
+		archetype = infantry_equipment
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
 		resources = {
 			steel = 1
 		}
@@ -2122,28 +2097,82 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_pony_hoof_0 = {
-		year = 989
-
+	melee_equipped_crystal_earthpony_hoof_1 = {
+		year = 800
 		archetype = infantry_equipment
 		is_buildable = no
-		parent = melee_equipped_pony_hoof_1
-
-		priority = 05
+		parent = melee_equipped_crystal_earthpony_hoof_0
+		priority = 11
 		visual_level = 0
-		is_convertable = yes
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
 	}
 
-	infantry_equipped_crystal_pony_hoof_0 = {
-		year = 989
-
+	melee_equipped_crystal_pegasi_hoof_1 = {
+		year = 800
 		archetype = infantry_equipment
 		is_buildable = no
-		parent = melee_equipped_crystal_pony_hoof_1
-
-		priority = 05
+		parent = melee_equipped_crystal_pegasi_hoof_0
+		priority = 11
 		visual_level = 0
-		is_convertable = yes
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	melee_equipped_crystal_unicorn_hoof_1 = {
+		year = 800
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = melee_equipped_crystal_unicorn_hoof_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
 	}
 
 	infantry_equipped_earthpony_hoof_0 = {
@@ -2314,61 +2343,43 @@ equipments = {
 		is_convertable = yes
 	}
 
+	infantry_equipped_crystal_earthpony_hoof_0 = {
+		year = 989
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = melee_equipped_crystal_earthpony_hoof_1
+
+		priority = 05
+		visual_level = 0
+		is_convertable = yes
+	}
+
+	infantry_equipped_crystal_pegasi_hoof_0 = {
+		year = 989
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = melee_equipped_crystal_pegasi_hoof_1
+
+		priority = 05
+		visual_level = 0
+		is_convertable = yes
+	}
+
+	infantry_equipped_crystal_unicorn_hoof_0 = {
+		year = 989
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = melee_equipped_crystal_unicorn_hoof_1
+
+		priority = 05
+		visual_level = 0
+		is_convertable = yes
+	}
+
 	# Regular infantry  1936
-	infantry_equipped_pony_hoof_1 = {
-		year = 1007
-
-		archetype = infantry_equipment
-		is_buildable = no
-		parent = infantry_equipped_pony_hoof_0
-		priority = 10
-		visual_level = 1
-
-		can_convert_from = {
-			infantry_equipped_pony_hoof_0
-		}
-
-		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
-
-		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
-
-
-		build_cost_ic = 0.5
-		is_convertable = yes
-	}
-
-	infantry_equipped_crystal_pony_hoof_1 = {
-		year = 1007
-
-		archetype = infantry_equipment
-		is_buildable = no
-		parent = infantry_equipped_crystal_pony_hoof_0
-		priority = 10
-		visual_level = 1
-
-		can_convert_from = {
-			infantry_equipped_crystal_pony_hoof_0
-		}
-
-		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
-
-		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
-
-
-		build_cost_ic = 0.5
-		is_convertable = yes
-	}
-
 	infantry_equipped_earthpony_hoof_1 = {
 		year = 1007
 
@@ -2747,69 +2758,88 @@ equipments = {
 		is_convertable = yes
 	}
 
+	infantry_equipped_crystal_earthpony_hoof_1 = {
+		year = 1007
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = infantry_equipped_crystal_earthpony_hoof_0
+		priority = 10
+		visual_level = 1
+
+		can_convert_from = {
+			infantry_equipped_crystal_earthpony_hoof_0
+		}
+
+		#Defensive Abilities
+		defense = 22
+		breakthrough = 3
+
+		#Offensive Abilities
+		soft_attack = 6
+		hard_attack = 1
+		ap_attack = 4
+
+
+		build_cost_ic = 0.5
+		is_convertable = yes
+	}
+
+	infantry_equipped_crystal_pegasi_hoof_1 = {
+		year = 1007
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = infantry_equipped_crystal_pegasi_hoof_0
+		priority = 10
+		visual_level = 1
+
+		can_convert_from = {
+			infantry_equipped_crystal_pegasi_hoof_0
+		}
+
+		#Defensive Abilities
+		defense = 22
+		breakthrough = 3
+
+		#Offensive Abilities
+		soft_attack = 6
+		hard_attack = 1
+		ap_attack = 4
+
+
+		build_cost_ic = 0.5
+		is_convertable = yes
+	}
+
+	infantry_equipped_crystal_unicorn_hoof_1 = {
+		year = 1007
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = infantry_equipped_crystal_unicorn_hoof_0
+		priority = 10
+		visual_level = 1
+
+		can_convert_from = {
+			infantry_equipped_crystal_unicorn_hoof_0
+		}
+
+		#Defensive Abilities
+		defense = 22
+		breakthrough = 3
+
+		#Offensive Abilities
+		soft_attack = 6
+		hard_attack = 1
+		ap_attack = 4
+
+
+		build_cost_ic = 0.5
+		is_convertable = yes
+	}
+
 	# Improved weapons  ~1939
-	infantry_equipped_pony_hoof_2 = {
-		year = 1010
-
-		archetype = infantry_equipment
-		is_buildable = no
-		parent = infantry_equipped_pony_hoof_1
-		priority = 10
-		visual_level = 2
-
-		can_convert_from = {
-			infantry_equipped_pony_hoof_0
-			infantry_equipped_pony_hoof_1
-		}
-
-		#Defensive Abilities
-		defense = 28
-		breakthrough = 4
-
-		#Offensive Abilities
-		soft_attack = 9
-		hard_attack = 1.5
-		ap_attack = 5
-
-
-		build_cost_ic = 0.58
-		resources = {
-			steel = 3
-		}
-		is_convertable = yes
-	}
-
-	infantry_equipped_crystal_pony_hoof_2 = {
-		year = 1010
-
-		archetype = infantry_equipment
-		is_buildable = no
-		parent = infantry_equipped_crystal_pony_hoof_1
-		priority = 10
-		visual_level = 2
-
-		can_convert_from = {
-			infantry_equipped_crystal_pony_hoof_0
-			infantry_equipped_crystal_pony_hoof_1
-		}
-
-		#Defensive Abilities
-		defense = 28
-		breakthrough = 4
-
-		#Offensive Abilities
-		soft_attack = 9
-		hard_attack = 1.5
-		ap_attack = 5
-
-
-		build_cost_ic = 0.58
-		resources = {
-			steel = 3
-		}
-		is_convertable = yes
-	}
-
 	infantry_equipped_earthpony_hoof_2 = {
 		year = 1010
 
@@ -3244,71 +3274,100 @@ equipments = {
 		is_convertable = yes
 	}
 
+	infantry_equipped_crystal_earthpony_hoof_2 = {
+		year = 1010
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = infantry_equipped_crystal_earthpony_hoof_1
+		priority = 10
+		visual_level = 2
+
+		can_convert_from = {
+			infantry_equipped_crystal_earthpony_hoof_0
+			infantry_equipped_crystal_earthpony_hoof_1
+		}
+
+		#Defensive Abilities
+		defense = 28
+		breakthrough = 4
+
+		#Offensive Abilities
+		soft_attack = 9
+		hard_attack = 1.5
+		ap_attack = 5
+
+
+		build_cost_ic = 0.58
+		resources = {
+			steel = 3
+		}
+		is_convertable = yes
+	}
+
+	infantry_equipped_crystal_pegasi_hoof_2 = {
+		year = 1010
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = infantry_equipped_crystal_pegasi_hoof_1
+		priority = 10
+		visual_level = 2
+
+		can_convert_from = {
+			infantry_equipped_crystal_pegasi_hoof_0
+			infantry_equipped_crystal_pegasi_hoof_1
+		}
+
+		#Defensive Abilities
+		defense = 28
+		breakthrough = 4
+
+		#Offensive Abilities
+		soft_attack = 9
+		hard_attack = 1.5
+		ap_attack = 5
+
+
+		build_cost_ic = 0.58
+		resources = {
+			steel = 3
+		}
+		is_convertable = yes
+	}
+
+	infantry_equipped_crystal_unicorn_hoof_2 = {
+		year = 1010
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = infantry_equipped_crystal_unicorn_hoof_1
+		priority = 10
+		visual_level = 2
+
+		can_convert_from = {
+			infantry_equipped_crystal_unicorn_hoof_0
+			infantry_equipped_crystal_unicorn_hoof_1
+		}
+
+		#Defensive Abilities
+		defense = 28
+		breakthrough = 4
+
+		#Offensive Abilities
+		soft_attack = 9
+		hard_attack = 1.5
+		ap_attack = 5
+
+
+		build_cost_ic = 0.58
+		resources = {
+			steel = 3
+		}
+		is_convertable = yes
+	}
+
 	# Advanced weapons  ~1942
-	infantry_equipped_pony_hoof_3 = {
-		year = 1013
-
-		archetype = infantry_equipment
-		is_buildable = no
-		parent = infantry_equipped_pony_hoof_2
-		priority = 10
-		visual_level = 3
-
-		can_convert_from = {
-			infantry_equipped_pony_hoof_1
-			infantry_equipped_pony_hoof_2
-		}
-
-		#Defensive Abilities
-		defense = 34
-		breakthrough = 5
-
-		#Offensive Abilities
-		soft_attack = 12
-		hard_attack = 2
-		ap_attack = 10
-
-
-		reliability = 0.8
-		build_cost_ic = 0.69
-		resources = {
-			steel = 4
-		}
-		is_convertable = yes
-	}
-
-	infantry_equipped_crystal_pony_hoof_3 = {
-		year = 1013
-
-		archetype = infantry_equipment
-		is_buildable = no
-		parent = infantry_equipped_crystal_pony_hoof_2
-		priority = 10
-		visual_level = 3
-
-		can_convert_from = {
-			infantry_equipped_crystal_pony_hoof_1
-			infantry_equipped_crystal_pony_hoof_2
-		}
-
-		#Defensive Abilities
-		defense = 34
-		breakthrough = 5
-
-		#Offensive Abilities
-		soft_attack = 12
-		hard_attack = 2
-		ap_attack = 10
-
-
-		reliability = 0.8
-		build_cost_ic = 0.69
-		resources = {
-			steel = 4
-		}
-		is_convertable = yes
-	}
-
 	infantry_equipped_earthpony_hoof_3 = {
 		year = 1013
 
@@ -3757,72 +3816,103 @@ equipments = {
 		is_convertable = yes
 	}
 
+	infantry_equipped_crystal_earthpony_hoof_3 = {
+		year = 1013
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = infantry_equipped_crystal_earthpony_hoof_2
+		priority = 10
+		visual_level = 3
+
+		can_convert_from = {
+			infantry_equipped_crystal_earthpony_hoof_1
+			infantry_equipped_crystal_earthpony_hoof_2
+		}
+
+		#Defensive Abilities
+		defense = 34
+		breakthrough = 5
+
+		#Offensive Abilities
+		soft_attack = 12
+		hard_attack = 2
+		ap_attack = 10
+
+
+		reliability = 0.8
+		build_cost_ic = 0.69
+		resources = {
+			steel = 4
+		}
+		is_convertable = yes
+	}
+
+	infantry_equipped_crystal_pegasi_hoof_3 = {
+		year = 1013
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = infantry_equipped_crystal_pegasi_hoof_2
+		priority = 10
+		visual_level = 3
+
+		can_convert_from = {
+			infantry_equipped_crystal_pegasi_hoof_1
+			infantry_equipped_crystal_pegasi_hoof_2
+		}
+
+		#Defensive Abilities
+		defense = 34
+		breakthrough = 5
+
+		#Offensive Abilities
+		soft_attack = 12
+		hard_attack = 2
+		ap_attack = 10
+
+
+		reliability = 0.8
+		build_cost_ic = 0.69
+		resources = {
+			steel = 4
+		}
+		is_convertable = yes
+	}
+
+	infantry_equipped_crystal_unicorn_hoof_3 = {
+		year = 1013
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = infantry_equipped_crystal_unicorn_hoof_2
+		priority = 10
+		visual_level = 3
+
+		can_convert_from = {
+			infantry_equipped_crystal_unicorn_hoof_1
+			infantry_equipped_crystal_unicorn_hoof_2
+		}
+
+		#Defensive Abilities
+		defense = 34
+		breakthrough = 5
+
+		#Offensive Abilities
+		soft_attack = 12
+		hard_attack = 2
+		ap_attack = 10
+
+
+		reliability = 0.8
+		build_cost_ic = 0.69
+		resources = {
+			steel = 4
+		}
+		is_convertable = yes
+	}
+
 	###------> New Infantry Equipment   <><> <><> <><> <><> <><>
-
-	infantry_equipped_pony_hoof_x = {
-		year = 1019
-
-		archetype = infantry_equipment
-		is_buildable = no
-		parent = infantry_equipped_pony_hoof_3
-		priority = 10
-		visual_level = 3
-
-		can_convert_from = {
-			infantry_equipped_pony_hoof_2
-			infantry_equipped_pony_hoof_3
-		}
-
-		#Defensive Abilities
-		defense = 40
-		breakthrough = 6
-
-		#Offensive Abilities
-		soft_attack = 15
-		hard_attack = 2.5
-		ap_attack = 15
-
-
-		reliability = 0.85
-		build_cost_ic = 0.8
-		resources = {
-			steel = 5
-		}
-		is_convertable = yes
-	}
-
-	infantry_equipped_crystal_pony_hoof_x = {
-		year = 1019
-
-		archetype = infantry_equipment
-		is_buildable = no
-		parent = infantry_equipped_crystal_pony_hoof_3
-		priority = 10
-		visual_level = 3
-
-		can_convert_from = {
-			infantry_equipped_crystal_pony_hoof_2
-			infantry_equipped_crystal_pony_hoof_3
-		}
-
-		#Defensive Abilities
-		defense = 40
-		breakthrough = 6
-
-		#Offensive Abilities
-		soft_attack = 15
-		hard_attack = 2.5
-		ap_attack = 15
-
-
-		reliability = 0.85
-		build_cost_ic = 0.8
-		resources = {
-			steel = 5
-		}
-		is_convertable = yes
-	}
-
 	infantry_equipped_earthpony_hoof_x = {
 		year = 1019
 
@@ -4271,66 +4361,100 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_pony_hoof_x_2 = {
-		year = 1025
+	infantry_equipped_crystal_earthpony_hoof_x = {
+		year = 1019
 
 		archetype = infantry_equipment
 		is_buildable = no
-		parent = infantry_equipped_pony_hoof_x
+		parent = infantry_equipped_crystal_earthpony_hoof_3
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_pony_hoof_3
-			infantry_equipped_pony_hoof_x
+			infantry_equipped_crystal_earthpony_hoof_2
+			infantry_equipped_crystal_earthpony_hoof_3
 		}
 
 		#Defensive Abilities
-		defense = 46
-		breakthrough = 7
+		defense = 40
+		breakthrough = 6
 
 		#Offensive Abilities
-		soft_attack = 18
-		hard_attack = 3
-		ap_attack = 20
+		soft_attack = 15
+		hard_attack = 2.5
+		ap_attack = 15
 
 
-		reliability = 0.9
-		build_cost_ic = 0.9
+		reliability = 0.85
+		build_cost_ic = 0.8
 		resources = {
-			steel = 6
+			steel = 5
 		}
+		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_pony_hoof_x_2 = {
-		year = 1025
+	infantry_equipped_crystal_pegasi_hoof_x = {
+		year = 1019
 
 		archetype = infantry_equipment
 		is_buildable = no
-		parent = infantry_equipped_crystal_pony_hoof_x
+		parent = infantry_equipped_crystal_pegasi_hoof_3
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_crystal_pony_hoof_3
-			infantry_equipped_crystal_pony_hoof_x
+			infantry_equipped_crystal_pegasi_hoof_2
+			infantry_equipped_crystal_pegasi_hoof_3
 		}
 
 		#Defensive Abilities
-		defense = 46
-		breakthrough = 7
+		defense = 40
+		breakthrough = 6
 
 		#Offensive Abilities
-		soft_attack = 18
-		hard_attack = 3
-		ap_attack = 20
+		soft_attack = 15
+		hard_attack = 2.5
+		ap_attack = 15
 
 
-		reliability = 0.9
-		build_cost_ic = 0.9
+		reliability = 0.85
+		build_cost_ic = 0.8
 		resources = {
-			steel = 6
+			steel = 5
 		}
+		is_convertable = yes
+	}
+
+	infantry_equipped_crystal_unicorn_hoof_x = {
+		year = 1019
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = infantry_equipped_crystal_unicorn_hoof_3
+		priority = 10
+		visual_level = 3
+
+		can_convert_from = {
+			infantry_equipped_crystal_unicorn_hoof_2
+			infantry_equipped_crystal_unicorn_hoof_3
+		}
+
+		#Defensive Abilities
+		defense = 40
+		breakthrough = 6
+
+		#Offensive Abilities
+		soft_attack = 15
+		hard_attack = 2.5
+		ap_attack = 15
+
+
+		reliability = 0.85
+		build_cost_ic = 0.8
+		resources = {
+			steel = 5
+		}
+		is_convertable = yes
 	}
 
 	infantry_equipped_earthpony_hoof_x_2 = {
@@ -4748,6 +4872,99 @@ equipments = {
 		can_convert_from = {
 			infantry_equipped_penguin_3
 			infantry_equipped_penguin_x
+		}
+
+		#Defensive Abilities
+		defense = 46
+		breakthrough = 7
+
+		#Offensive Abilities
+		soft_attack = 18
+		hard_attack = 3
+		ap_attack = 20
+
+
+		reliability = 0.9
+		build_cost_ic = 0.9
+		resources = {
+			steel = 6
+		}
+	}
+
+	infantry_equipped_crystal_earthpony_hoof_x_2 = {
+		year = 1025
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = infantry_equipped_crystal_earthpony_hoof_x
+		priority = 10
+		visual_level = 3
+
+		can_convert_from = {
+			infantry_equipped_crystal_earthpony_hoof_3
+			infantry_equipped_crystal_earthpony_hoof_x
+		}
+
+		#Defensive Abilities
+		defense = 46
+		breakthrough = 7
+
+		#Offensive Abilities
+		soft_attack = 18
+		hard_attack = 3
+		ap_attack = 20
+
+
+		reliability = 0.9
+		build_cost_ic = 0.9
+		resources = {
+			steel = 6
+		}
+	}
+
+	infantry_equipped_crystal_pegasi_hoof_x_2 = {
+		year = 1025
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = infantry_equipped_crystal_pegasi_hoof_x
+		priority = 10
+		visual_level = 3
+
+		can_convert_from = {
+			infantry_equipped_crystal_pegasi_hoof_3
+			infantry_equipped_crystal_pegasi_hoof_x
+		}
+
+		#Defensive Abilities
+		defense = 46
+		breakthrough = 7
+
+		#Offensive Abilities
+		soft_attack = 18
+		hard_attack = 3
+		ap_attack = 20
+
+
+		reliability = 0.9
+		build_cost_ic = 0.9
+		resources = {
+			steel = 6
+		}
+	}
+
+	infantry_equipped_crystal_unicorn_hoof_x_2 = {
+		year = 1025
+
+		archetype = infantry_equipment
+		is_buildable = no
+		parent = infantry_equipped_crystal_unicorn_hoof_x
+		priority = 10
+		visual_level = 3
+
+		can_convert_from = {
+			infantry_equipped_crystal_unicorn_hoof_3
+			infantry_equipped_crystal_unicorn_hoof_x
 		}
 
 		#Defensive Abilities
