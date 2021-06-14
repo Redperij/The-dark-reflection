@@ -1,3 +1,9 @@
+# In this file is the core mechanics of the race conscipts for every country.
+
+
+
+
+
 # This counts mountly recruit growth. Paradox, thanks (not) for the variable.
 #
 # mouthly_manpower_gain = 1000 * pop_growth * target_conscription_amount
@@ -9,6 +15,7 @@
 # Current mistakes:
 # 1. Sometimes it goes over the actual manpower growth ( not much )
 # 2. When conscription law is changed it is not affecting the country right away so we go over the actual growth for 2-3 months
+# 3. Compliance isn't a thing, we count occupied states as simple cored states. ( not hard to fix, but it isn't a priority )
 
 count_monthly_manpower_gain = {
 	for_each_scope_loop = {
@@ -67,7 +74,6 @@ count_monthly_manpower_gain = {
 count_race_part_in_country = {
 	set_temp_variable = { effect_root = THIS }
 
-	#log = "[Root.GetName]: Count Race Part" #debug
 	clear_array = effect_root:race_part
 	resize_array = {
 		array = effect_root:race_part # Holds all races race_manpower/total_manpower values
@@ -254,7 +260,6 @@ count_race_part_in_country = {
 			value = state_population_k
 		}
 	}
-	# log = "[?effect_root:race_part^0|3]k ponies live in [Root.GetName]" #debug
 	# Now we have an array race_part with all present races manpower in a country
 	# Horrific division to get a part of the race in a country
 	if = {
@@ -302,13 +307,8 @@ count_race_part_in_country = {
 get_montly_race_conscripts = {
 	set_temp_variable = { effect_root = THIS }
 
-	#log = "[?effect_root:race_part^0|3] part ponies live in [Root.GetName]" #debug
 	resize_array = {
 		array = effect_root:race_conscripts # Holds all races conscripts in a country
-		size = 17
-	}
-	resize_temp_array = {
-		array = effect_root:added_race_conscripts
 		size = 17
 	}
 	for_loop_effect = {
@@ -316,25 +316,30 @@ get_montly_race_conscripts = {
 		end = 17
 		value = i
 
+		set_temp_variable = {
+			var = added_race_conscripts
+			value = 0
+		}
+
 		add_to_temp_variable = {
-			var = effect_root:added_race_conscripts^i
+			var = added_race_conscripts
 			value = effect_root:race_part^i
 		}
 		multiply_temp_variable = {
-			var = effect_root:added_race_conscripts^i
+			var = added_race_conscripts
 			value = effect_root:monthly_manpower_growth
 		}
-		round_temp_variable = effect_root:added_race_conscripts^i
+		round_temp_variable = added_race_conscripts
 		add_to_variable = {
 			var = effect_root:race_conscripts^i
-			value = effect_root:added_race_conscripts^i
+			value = added_race_conscripts
 		}
 	}
-	#log = "[?Root.race_conscripts^0|3] ponies reporting for duty in [Root.GetName]" #debug
 
 	#####################################################################################################
 	# Funnier stuff ( laggy as fuck )                                                                   #
 	# Pony race and Crystal pony race are just dummies to count actual recruits for their subdivisions  #
+	# - earthponies, pegasi, unicorns and their crystal versions                                        #
 	#####################################################################################################
 	# Getting all pony recruits
 	set_temp_variable = {
@@ -504,4 +509,23 @@ get_montly_race_conscripts = {
 		var = effect_root:race_conscripts^1
 		value = 0
 	}
+
+	#log = "[Root.GetTag] - ROOT and [This.GetTag] - THIS" #debug
+	#log = "[?This.race_conscripts^0|0] recruits for pony race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^1|0] recruits for crystal_pony race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^2|0] recruits for earthpony race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^3|0] recruits for pegasi race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^4|0] recruits for unicorn race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^5|0] recruits for griffon race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^6|0] recruits for deer race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^7|0] recruits for thestral race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^8|0] recruits for dragon race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^9|0] recruits for bear race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^10|0] recruits for changeling race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^11|0] recruits for penguin race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^12|0] recruits for yak race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^13|0] recruits for dog race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^14|0] recruits for crystal_earthpony race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^15|0] recruits for crystal_pegasi race reporting for duty in [This.GetName]" #debug
+	#log = "[?This.race_conscripts^16|0] recruits for crystal_unicorn race reporting for duty in [This.GetName]" #debug
 }

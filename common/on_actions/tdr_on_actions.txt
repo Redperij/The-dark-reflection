@@ -203,79 +203,32 @@ on_actions = {
 			#		}
 			#	}
 			#}
+
+			#Race conscripts mechanic
 			TST = {
 				count_monthly_manpower_gain = yes
 			}
-			count_race_part_in_country = yes
-			get_montly_race_conscripts = yes
+			for_each_loop = {
+				array = global.countries
 
-			#for_each_scope_loop = {
-			#	array = global.countries
-#
-			#	#if = {
-			#	#	limit = {
-			#	#		has_manpower < 1000000
-			#	#	}
-			#	#	
-			#	#}
-			#	
-			#	add_to_variable = {
-			#		var = prev_manpower
-			#		value = 999998
-			#	}
-#
-			#}
-			#SEV = {
-			#	add_to_variable = {
-			#		var = abra
-			#		value = 2147480
-			#	}
-			#}
+				var:v = {
+					count_race_part_in_country = yes
+					get_montly_race_conscripts = yes
+				}
+			}
+
 		}
 	}
 
 	on_monthly = {
 		effect = {
+			#Race conscripts mechanic
 			TST = {
 				count_monthly_manpower_gain = yes
 			}
 			count_race_part_in_country = yes
 			get_montly_race_conscripts = yes
 
-			#for_each_scope_loop = {
-			#	array = global.countries
-			#	add_to_variable = {
-			#		var = prev_manpower
-			#		value = 0
-			#	}
-			#}
-#
-			#if = {
-			#	limit = {
-			#		original_tag = SEV
-			#	}
-#
-			#	add_to_variable = {
-			#		var = prev_manpower
-			#		value = -1
-			#	}
-#
-			#	add_to_variable = {
-			#		var = abra
-			#		value = 10
-			#	}
-			#}
-#
-			#if = {
-			#	limit = {
-			#		original_tag = NWN
-			#	}
-#
-			#	add_to_variable = {
-			#		var = prev_manpower
-			#		value = -2
-			#	}
-			#}
 		}
 	}
 
