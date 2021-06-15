@@ -1,16 +1,16 @@
 state={
 	id=758
-	name="STATE_758"
+	name="STATE_758" #Plotbishche
 	history={
 		owner = SEV
 		add_core_of = SEV
 		add_core_of = ZAR
 
 		victory_points = {
-			11864 5
+			11864 5 #Argamak
 		}
 		victory_points = {
-			4533 5
+			4533 5 #Plotbishche
 		}
 	}
 	provinces={

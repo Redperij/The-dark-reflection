@@ -1,17 +1,17 @@
 
 state={
 	id=756
-	name="STATE_756"
+	name="STATE_756" #Tseta
 
 	history={
 		owner = SEV
 		add_core_of = SEV
 		add_core_of = ZAR
 		victory_points = {
-			11968 5 
+			11968 5 #Verkhneyelovsk
 		}
 		victory_points = {
-			1710 5 
+			1710 5 #Tseta
 		}
 
 	}

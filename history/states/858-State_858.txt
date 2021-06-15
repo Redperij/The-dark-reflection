@@ -1,16 +1,16 @@
 state={
 	id=858
-	name="STATE_858"
+	name="STATE_858" #Berest'e
 	history={
 		owner = SEV
 		add_core_of = SEV
 		add_core_of = CRY
 
 		victory_points = {
-			11057 5
+			11057 5 #Berest'e
 		}
 		victory_points = {
-			10821 5
+			10821 5 #Brichkovichi
 		}
 	}
 	provinces={

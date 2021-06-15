@@ -1,16 +1,16 @@
 state={
 	id=729
-	name="STATE_729"
+	name="STATE_729" #Каурские Острова
 	history={
 		owner = SEV
 		add_core_of = SEV
 		add_core_of = ZAR
 
 		victory_points = {
-			1824 1
+			1824 1 #Baykovo
 		}
 		victory_points = {
-			2590 5
+			2590 5 #Severo-Lopatinsk
 		}
 	}
 	provinces={

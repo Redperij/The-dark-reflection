@@ -3,7 +3,7 @@ strategic_region={
 	id=219
 	name="STRATEGICREGION_219"
 	provinces={
-		15559 15591 15594 15599 15623 15624 15630 15637 15652 15783 15814 
+		15559 15594 15599 15623 15624 15630 15637 15652 15783 15814 
 	}
 	naval_terrain=water_deep_ocean
 	static_modifiers={

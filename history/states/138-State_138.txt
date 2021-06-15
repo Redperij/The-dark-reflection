@@ -8,7 +8,7 @@ state={
 	provinces={
 		259 2293 2320 3346 4284 5694 13985 13989 14027 14031 14049 14085 
 	}
-	manpower=0
+	manpower=1
 	state_category = wasteland
 	impassable = yes
 	buildings_max_level_factor=1.000

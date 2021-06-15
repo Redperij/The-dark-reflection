@@ -1,16 +1,16 @@
 state={
 	id=772
-	name="STATE_772"
+	name="STATE_772" #Voronoe
 	history={
 		owner = SEV
 		add_core_of = SEV
 		add_core_of = ZAR
 
 		victory_points = {
-			11835 5
+			11835 5 #Voronoe
 		}
 		victory_points = {
-			11555 5
+			11555 5 #Tsaritsyn
 		}
 	}
 	provinces={

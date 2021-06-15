@@ -8,10 +8,10 @@ state={
 		add_core_of = SEV
 		add_core_of = ZAR
 		victory_points = {
-			11778 5 
+			11778 5 #Kizhuchsk
 		}
 		victory_points = {
-			11574 5 
+			11574 5 #Trukhlyavoye
 		}
 
 	}
