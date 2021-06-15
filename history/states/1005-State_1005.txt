@@ -4,11 +4,15 @@ state={
 	history={
 		owner = PNR
 		add_core_of = PNR
+
+		victory_points = {
+			5750 3
+	    }
 	}
 	provinces={
 		5750 5789 
 	}
-	manpower=1
+	manpower=13005
 	state_category = small_island
 	buildings_max_level_factor=1.000
 }

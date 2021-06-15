@@ -4,11 +4,15 @@ state={
 	history={
 		owner = PNR
 		add_core_of = PNR
+
+		victory_points = {
+			5988 5
+	    }
 	}
 	provinces={
 		431 4258 5225 5987 5988 6013 6023 6072 6102 6126 
 	}
-	manpower=1
+	manpower=12490
 	state_category = rural
 	buildings_max_level_factor=1.000
 }
