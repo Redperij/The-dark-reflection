@@ -4,11 +4,15 @@ state={
 	history={
 		owner = PNG
 		add_core_of = PNG
+
+		victory_points = {
+			5876 5
+	    }
 	}
 	provinces={
 		112 1850 3251 4133 5876 5908 5928 5949 5977 
 	}
-	manpower=1
+	manpower=4015
 	state_category = pastoral
 	buildings_max_level_factor=1.000
 }
