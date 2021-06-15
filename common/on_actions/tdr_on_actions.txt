@@ -6,12 +6,15 @@ on_actions = {
 			log = "[GetDateText] War at Equestria main on_startup begin"
 			
 			#States by races
-			#added 1-40, 206, 300, 564, 627, 643, 661, 727-730, 740-741, 748-859, 1000, 1174, 1301, 1488
-			#exclusions: 843
+			#added 1-40, 206, 300, 541, 564, 627, 643, 661, 727-730, 739-859, 935-1090, 1100-1115, 1171-1301, 1488
+			#exclusions: 
 			add_to_array = { global.pony_states = 564.id }
 			add_to_array = { global.pony_states = 727.id }
 			add_to_array = { global.pony_states = 730.id }
+			add_to_array = { global.pony_states = 739.id }
 			add_to_array = { global.pony_states = 740.id }
+			add_to_array = { global.pony_states = 742.id }
+			add_to_array = { global.pony_states = 746.id }
 			add_to_array = { global.pony_states = 748.id }
 			add_to_array = { global.pony_states = 752.id }
 			add_to_array = { global.pony_states = 753.id }
@@ -63,9 +66,12 @@ on_actions = {
 			add_to_array = { global.crystal_pony_states = 809.id }
 			add_to_array = { global.crystal_pony_states = 825.id }
 			add_to_array = { global.crystal_pony_states = 858.id }
+			add_to_array = { global.crystal_pony_states = 1199.id }
+			add_to_array = { global.crystal_pony_states = 1283.id }
 
 			add_to_array = { global.earthpony_states = 206.id }
 			add_to_array = { global.earthpony_states = 741.id }
+			add_to_array = { global.earthpony_states = 743.id }
 			add_to_array = { global.earthpony_states = 749.id }
 			add_to_array = { global.earthpony_states = 760.id }
 			add_to_array = { global.earthpony_states = 761.id }
@@ -85,11 +91,13 @@ on_actions = {
 			add_to_array = { global.pegasi_states = 300.id }
 			add_to_array = { global.pegasi_states = 728.id }
 			add_to_array = { global.pegasi_states = 729.id }
+			add_to_array = { global.pegasi_states = 747.id }
 			add_to_array = { global.pegasi_states = 767.id }
 			add_to_array = { global.pegasi_states = 775.id }
 			add_to_array = { global.pegasi_states = 781.id }
 			add_to_array = { global.pegasi_states = 782.id }
 
+			add_to_array = { global.unicorn_states = 745.id }
 			add_to_array = { global.unicorn_states = 750.id }
 			add_to_array = { global.unicorn_states = 754.id }
 			
@@ -123,6 +131,121 @@ on_actions = {
 			add_to_array = { global.griffon_states = 842.id }
 			add_to_array = { global.griffon_states = 853.id }
 			add_to_array = { global.griffon_states = 855.id }
+			add_to_array = { global.griffon_states = 935.id }
+			add_to_array = { global.griffon_states = 936.id }
+			add_to_array = { global.griffon_states = 937.id }
+			add_to_array = { global.griffon_states = 938.id }
+			add_to_array = { global.griffon_states = 939.id }
+			add_to_array = { global.griffon_states = 940.id }
+			add_to_array = { global.griffon_states = 941.id }
+			add_to_array = { global.griffon_states = 942.id }
+			add_to_array = { global.griffon_states = 943.id }
+			add_to_array = { global.griffon_states = 944.id }
+			add_to_array = { global.griffon_states = 945.id }
+			add_to_array = { global.griffon_states = 946.id }
+			add_to_array = { global.griffon_states = 947.id }
+			add_to_array = { global.griffon_states = 948.id }
+			add_to_array = { global.griffon_states = 949.id }
+			add_to_array = { global.griffon_states = 950.id }
+			add_to_array = { global.griffon_states = 951.id }
+			add_to_array = { global.griffon_states = 952.id }
+			add_to_array = { global.griffon_states = 953.id }
+			add_to_array = { global.griffon_states = 954.id }
+			add_to_array = { global.griffon_states = 955.id }
+			add_to_array = { global.griffon_states = 956.id }
+			add_to_array = { global.griffon_states = 957.id }
+			add_to_array = { global.griffon_states = 958.id }
+			add_to_array = { global.griffon_states = 959.id }
+			add_to_array = { global.griffon_states = 960.id }
+			add_to_array = { global.griffon_states = 961.id }
+			add_to_array = { global.griffon_states = 962.id }
+			add_to_array = { global.griffon_states = 963.id }
+			add_to_array = { global.griffon_states = 964.id }
+			add_to_array = { global.griffon_states = 965.id }
+			add_to_array = { global.griffon_states = 966.id }
+			add_to_array = { global.griffon_states = 967.id }
+			add_to_array = { global.griffon_states = 968.id }
+			add_to_array = { global.griffon_states = 969.id }
+			add_to_array = { global.griffon_states = 970.id }
+			add_to_array = { global.griffon_states = 971.id }
+			add_to_array = { global.griffon_states = 972.id }
+			add_to_array = { global.griffon_states = 973.id }
+			add_to_array = { global.griffon_states = 974.id }
+			add_to_array = { global.griffon_states = 975.id }
+			add_to_array = { global.griffon_states = 976.id }
+			add_to_array = { global.griffon_states = 977.id }
+			add_to_array = { global.griffon_states = 978.id }
+			add_to_array = { global.griffon_states = 979.id }
+			add_to_array = { global.griffon_states = 980.id }
+			add_to_array = { global.griffon_states = 981.id }
+			add_to_array = { global.griffon_states = 982.id }
+			add_to_array = { global.griffon_states = 983.id }
+			add_to_array = { global.griffon_states = 984.id }
+			add_to_array = { global.griffon_states = 987.id }
+			add_to_array = { global.griffon_states = 988.id }
+			add_to_array = { global.griffon_states = 990.id }
+			add_to_array = { global.griffon_states = 991.id }
+			add_to_array = { global.griffon_states = 992.id }
+			add_to_array = { global.griffon_states = 993.id }
+			add_to_array = { global.griffon_states = 994.id }
+			add_to_array = { global.griffon_states = 995.id }
+			add_to_array = { global.griffon_states = 996.id }
+			add_to_array = { global.griffon_states = 997.id }
+			add_to_array = { global.griffon_states = 998.id }
+			add_to_array = { global.griffon_states = 999.id }
+			add_to_array = { global.griffon_states = 1011.id }
+			add_to_array = { global.griffon_states = 1012.id }
+			add_to_array = { global.griffon_states = 1014.id }
+			add_to_array = { global.griffon_states = 1114.id }
+			add_to_array = { global.griffon_states = 1215.id }
+			add_to_array = { global.griffon_states = 1216.id }
+			add_to_array = { global.griffon_states = 1217.id }
+			add_to_array = { global.griffon_states = 1218.id }
+			add_to_array = { global.griffon_states = 1219.id }
+			add_to_array = { global.griffon_states = 1220.id }
+			add_to_array = { global.griffon_states = 1221.id }
+			add_to_array = { global.griffon_states = 1222.id }
+			add_to_array = { global.griffon_states = 1223.id }
+			add_to_array = { global.griffon_states = 1224.id }
+			add_to_array = { global.griffon_states = 1225.id }
+			add_to_array = { global.griffon_states = 1226.id }
+			add_to_array = { global.griffon_states = 1227.id }
+			add_to_array = { global.griffon_states = 1228.id }
+			add_to_array = { global.griffon_states = 1255.id }
+			add_to_array = { global.griffon_states = 1257.id }
+			add_to_array = { global.griffon_states = 1258.id }
+			add_to_array = { global.griffon_states = 1267.id }
+			add_to_array = { global.griffon_states = 1268.id }
+			add_to_array = { global.griffon_states = 1269.id }
+			add_to_array = { global.griffon_states = 1270.id }
+			add_to_array = { global.griffon_states = 1271.id }
+			add_to_array = { global.griffon_states = 1272.id }
+			add_to_array = { global.griffon_states = 1273.id }
+			add_to_array = { global.griffon_states = 1274.id }
+			add_to_array = { global.griffon_states = 1275.id }
+			add_to_array = { global.griffon_states = 1276.id }
+			add_to_array = { global.griffon_states = 1277.id }
+			add_to_array = { global.griffon_states = 1278.id }
+			add_to_array = { global.griffon_states = 1279.id }
+			add_to_array = { global.griffon_states = 1280.id }
+			add_to_array = { global.griffon_states = 1281.id }
+			add_to_array = { global.griffon_states = 1282.id }
+			add_to_array = { global.griffon_states = 1284.id }
+			add_to_array = { global.griffon_states = 1285.id }
+			add_to_array = { global.griffon_states = 1286.id }
+			add_to_array = { global.griffon_states = 1287.id }
+			add_to_array = { global.griffon_states = 1288.id }
+			add_to_array = { global.griffon_states = 1289.id }
+			add_to_array = { global.griffon_states = 1290.id }
+			add_to_array = { global.griffon_states = 1291.id }
+			add_to_array = { global.griffon_states = 1292.id }
+			add_to_array = { global.griffon_states = 1293.id }
+			add_to_array = { global.griffon_states = 1294.id }
+			add_to_array = { global.griffon_states = 1295.id }
+			add_to_array = { global.griffon_states = 1296.id }
+			add_to_array = { global.griffon_states = 1297.id }
+			add_to_array = { global.griffon_states = 1298.id }
+			add_to_array = { global.griffon_states = 1299.id }
 
 			add_to_array = { global.deer_states = 1.id }
 			add_to_array = { global.deer_states = 807.id }
@@ -158,15 +281,60 @@ on_actions = {
 			add_to_array = { global.dragon_states = 33.id }
 
 			add_to_array = { global.bear_states = 818.id }
+			add_to_array = { global.bear_states = 1100.id }
+			add_to_array = { global.bear_states = 1111.id }
+			add_to_array = { global.bear_states = 1300.id }
 			add_to_array = { global.bear_states = 1301.id }
 
+			add_to_array = { global.changeling_states = 541.id }
 			add_to_array = { global.changeling_states = 751.id }
 			add_to_array = { global.changeling_states = 846.id }
 			add_to_array = { global.changeling_states = 859.id }
+			add_to_array = { global.changeling_states = 1235.id }
 			add_to_array = { global.changeling_states = 1488.id }
 
+			add_to_array = { global.penguin_states = 744.id }
 			add_to_array = { global.penguin_states = 808.id }
 			add_to_array = { global.penguin_states = 1000.id }
+			add_to_array = { global.penguin_states = 1001.id }
+			add_to_array = { global.penguin_states = 1002.id }
+			add_to_array = { global.penguin_states = 1003.id }
+			add_to_array = { global.penguin_states = 1004.id }
+			add_to_array = { global.penguin_states = 1005.id }
+			add_to_array = { global.penguin_states = 1006.id }
+			add_to_array = { global.penguin_states = 1007.id }
+			add_to_array = { global.penguin_states = 1008.id }
+			add_to_array = { global.penguin_states = 1009.id }
+			add_to_array = { global.penguin_states = 1010.id }
+			add_to_array = { global.penguin_states = 1013.id }
+			add_to_array = { global.penguin_states = 1015.id }
+			add_to_array = { global.penguin_states = 1016.id }
+			add_to_array = { global.penguin_states = 1020.id }
+			add_to_array = { global.penguin_states = 1021.id }
+			add_to_array = { global.penguin_states = 1022.id }
+			add_to_array = { global.penguin_states = 1023.id }
+			add_to_array = { global.penguin_states = 1024.id }
+			add_to_array = { global.penguin_states = 1028.id }
+			add_to_array = { global.penguin_states = 1071.id }
+			add_to_array = { global.penguin_states = 1072.id }
+			add_to_array = { global.penguin_states = 1073.id }
+			add_to_array = { global.penguin_states = 1074.id }
+			add_to_array = { global.penguin_states = 1075.id }
+			add_to_array = { global.penguin_states = 1076.id }
+			add_to_array = { global.penguin_states = 1077.id }
+			add_to_array = { global.penguin_states = 1078.id }
+			add_to_array = { global.penguin_states = 1079.id }
+			add_to_array = { global.penguin_states = 1080.id }
+			add_to_array = { global.penguin_states = 1081.id }
+			add_to_array = { global.penguin_states = 1082.id }
+			add_to_array = { global.penguin_states = 1083.id }
+			add_to_array = { global.penguin_states = 1084.id }
+			add_to_array = { global.penguin_states = 1085.id }
+			add_to_array = { global.penguin_states = 1086.id }
+			add_to_array = { global.penguin_states = 1087.id }
+			add_to_array = { global.penguin_states = 1088.id }
+			add_to_array = { global.penguin_states = 1089.id }
+			add_to_array = { global.penguin_states = 1090.id }
 
 			add_to_array = { global.yak_states = 844.id }
 			add_to_array = { global.yak_states = 845.id }
@@ -177,7 +345,85 @@ on_actions = {
 			add_to_array = { global.yak_states = 851.id }
 			add_to_array = { global.yak_states = 852.id }
 			add_to_array = { global.yak_states = 854.id }
+			add_to_array = { global.yak_states = 1113.id }
+			add_to_array = { global.yak_states = 1115.id }
+			add_to_array = { global.yak_states = 1171.id }
+			add_to_array = { global.yak_states = 1172.id }
+			add_to_array = { global.yak_states = 1173.id }
 			add_to_array = { global.yak_states = 1174.id }
+			add_to_array = { global.yak_states = 1175.id }
+			add_to_array = { global.yak_states = 1176.id }
+			add_to_array = { global.yak_states = 1177.id }
+			add_to_array = { global.yak_states = 1178.id }
+			add_to_array = { global.yak_states = 1179.id }
+			add_to_array = { global.yak_states = 1180.id }
+			add_to_array = { global.yak_states = 1181.id }
+			add_to_array = { global.yak_states = 1182.id }
+			add_to_array = { global.yak_states = 1183.id }
+			add_to_array = { global.yak_states = 1184.id }
+			add_to_array = { global.yak_states = 1185.id }
+			add_to_array = { global.yak_states = 1186.id }
+			add_to_array = { global.yak_states = 1187.id }
+			add_to_array = { global.yak_states = 1188.id }
+			add_to_array = { global.yak_states = 1189.id }
+			add_to_array = { global.yak_states = 1190.id }
+			add_to_array = { global.yak_states = 1191.id }
+			add_to_array = { global.yak_states = 1192.id }
+			add_to_array = { global.yak_states = 1193.id }
+			add_to_array = { global.yak_states = 1194.id }
+			add_to_array = { global.yak_states = 1195.id }
+			add_to_array = { global.yak_states = 1196.id }
+			add_to_array = { global.yak_states = 1197.id }
+			add_to_array = { global.yak_states = 1198.id }
+			add_to_array = { global.yak_states = 1200.id }
+			add_to_array = { global.yak_states = 1201.id }
+			add_to_array = { global.yak_states = 1202.id }
+			add_to_array = { global.yak_states = 1203.id }
+			add_to_array = { global.yak_states = 1204.id }
+			add_to_array = { global.yak_states = 1205.id }
+			add_to_array = { global.yak_states = 1206.id }
+			add_to_array = { global.yak_states = 1207.id }
+			add_to_array = { global.yak_states = 1208.id }
+			add_to_array = { global.yak_states = 1209.id }
+			add_to_array = { global.yak_states = 1210.id }
+			add_to_array = { global.yak_states = 1211.id }
+			add_to_array = { global.yak_states = 1212.id }
+			add_to_array = { global.yak_states = 1213.id }
+			add_to_array = { global.yak_states = 1214.id }
+			add_to_array = { global.yak_states = 1229.id }
+			add_to_array = { global.yak_states = 1230.id }
+			add_to_array = { global.yak_states = 1231.id }
+			add_to_array = { global.yak_states = 1232.id }
+			add_to_array = { global.yak_states = 1233.id }
+			add_to_array = { global.yak_states = 1234.id }
+			add_to_array = { global.yak_states = 1236.id }
+			add_to_array = { global.yak_states = 1237.id }
+			add_to_array = { global.yak_states = 1238.id }
+			add_to_array = { global.yak_states = 1239.id }
+			add_to_array = { global.yak_states = 1240.id }
+			add_to_array = { global.yak_states = 1241.id }
+			add_to_array = { global.yak_states = 1242.id }
+			add_to_array = { global.yak_states = 1243.id }
+			add_to_array = { global.yak_states = 1244.id }
+			add_to_array = { global.yak_states = 1245.id }
+			add_to_array = { global.yak_states = 1246.id }
+			add_to_array = { global.yak_states = 1247.id }
+			add_to_array = { global.yak_states = 1248.id }
+			add_to_array = { global.yak_states = 1249.id }
+			add_to_array = { global.yak_states = 1250.id }
+			add_to_array = { global.yak_states = 1251.id }
+			add_to_array = { global.yak_states = 1252.id }
+			add_to_array = { global.yak_states = 1253.id }
+			add_to_array = { global.yak_states = 1254.id }
+			add_to_array = { global.yak_states = 1256.id }
+			add_to_array = { global.yak_states = 1259.id }
+			add_to_array = { global.yak_states = 1260.id }
+			add_to_array = { global.yak_states = 1261.id }
+			add_to_array = { global.yak_states = 1262.id }
+			add_to_array = { global.yak_states = 1263.id }
+			add_to_array = { global.yak_states = 1264.id }
+			add_to_array = { global.yak_states = 1265.id }
+			add_to_array = { global.yak_states = 1266.id }
 
 			add_to_array = { global.dog_states = 792.id }
 			add_to_array = { global.dog_states = 810.id }
@@ -185,12 +431,76 @@ on_actions = {
 			add_to_array = { global.dog_states = 812.id }
 			add_to_array = { global.dog_states = 813.id }
 			add_to_array = { global.dog_states = 814.id }
+			add_to_array = { global.dog_states = 985.id }
+			add_to_array = { global.dog_states = 986.id }
+			add_to_array = { global.dog_states = 989.id }
+			add_to_array = { global.dog_states = 1017.id }
+			add_to_array = { global.dog_states = 1018.id }
+			add_to_array = { global.dog_states = 1019.id }
+			add_to_array = { global.dog_states = 1025.id }
+			add_to_array = { global.dog_states = 1037.id }
+			add_to_array = { global.dog_states = 1053.id }
+			add_to_array = { global.dog_states = 1054.id }
+			add_to_array = { global.dog_states = 1055.id }
+			add_to_array = { global.dog_states = 1056.id }
+			add_to_array = { global.dog_states = 1057.id }
+			add_to_array = { global.dog_states = 1058.id }
+			add_to_array = { global.dog_states = 1059.id }
+			add_to_array = { global.dog_states = 1060.id }
+			add_to_array = { global.dog_states = 1061.id }
+			add_to_array = { global.dog_states = 1062.id }
+			add_to_array = { global.dog_states = 1063.id }
+			add_to_array = { global.dog_states = 1064.id }
+			add_to_array = { global.dog_states = 1101.id }
+			add_to_array = { global.dog_states = 1102.id }
+			add_to_array = { global.dog_states = 1103.id }
+			add_to_array = { global.dog_states = 1104.id }
+			add_to_array = { global.dog_states = 1105.id }
+			add_to_array = { global.dog_states = 1106.id }
+			add_to_array = { global.dog_states = 1107.id }
+			add_to_array = { global.dog_states = 1109.id }
 
 			add_to_array = { global.crystal_earthpony_states = 643.id }
 
 			add_to_array = { global.crystal_pegasi_states = 661.id }
 
 			add_to_array = { global.crystal_unicorn_states = 627.id }
+
+			add_to_array = { global.special_states = 843.id }
+			add_to_array = { global.special_states = 1026.id }
+			add_to_array = { global.special_states = 1027.id }
+			add_to_array = { global.special_states = 1029.id }
+			add_to_array = { global.special_states = 1030.id }
+			add_to_array = { global.special_states = 1031.id }
+			add_to_array = { global.special_states = 1032.id }
+			add_to_array = { global.special_states = 1033.id }
+			add_to_array = { global.special_states = 1034.id }
+			add_to_array = { global.special_states = 1035.id }
+			add_to_array = { global.special_states = 1036.id }
+			add_to_array = { global.special_states = 1038.id }
+			add_to_array = { global.special_states = 1039.id }
+			add_to_array = { global.special_states = 1040.id }
+			add_to_array = { global.special_states = 1041.id }
+			add_to_array = { global.special_states = 1042.id }
+			add_to_array = { global.special_states = 1043.id }
+			add_to_array = { global.special_states = 1044.id }
+			add_to_array = { global.special_states = 1045.id }
+			add_to_array = { global.special_states = 1046.id }
+			add_to_array = { global.special_states = 1047.id }
+			add_to_array = { global.special_states = 1048.id }
+			add_to_array = { global.special_states = 1049.id }
+			add_to_array = { global.special_states = 1050.id }
+			add_to_array = { global.special_states = 1051.id }
+			add_to_array = { global.special_states = 1052.id }
+			add_to_array = { global.special_states = 1065.id }
+			add_to_array = { global.special_states = 1066.id }
+			add_to_array = { global.special_states = 1067.id }
+			add_to_array = { global.special_states = 1068.id }
+			add_to_array = { global.special_states = 1069.id }
+			add_to_array = { global.special_states = 1070.id }
+			add_to_array = { global.special_states = 1108.id }
+			add_to_array = { global.special_states = 1110.id }
+			add_to_array = { global.special_states = 1112.id }
 
 			#for_each_loop = {
 			#	array = global.pony_states
@@ -228,22 +538,7 @@ on_actions = {
 
 	on_daily = {
 		effect = {
-			TST = {
-				count_equipment_in_armies = yes
-				count_required_equipment_in_armies = yes
-			}
-		}
-	}
 
-	on_army_leader_won_combat = {
-		effect = {
-			
-		}
-	}
-
-	on_army_leader_lost_combat = {
-		effect = {
-			
 		}
 	}
 }
