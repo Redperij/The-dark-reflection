@@ -205,16 +205,12 @@ on_actions = {
 			#}
 
 			#Race conscripts mechanic
-			TST = {
-				count_monthly_manpower_gain = yes
-			}
-			for_each_loop = {
+			for_each_scope_loop = {
 				array = global.countries
 
-				var:v = {
-					count_race_part_in_country = yes
-					get_montly_race_conscripts = yes
-				}
+				count_monthly_manpower_gain = yes
+				count_race_part_in_country = yes
+				get_montly_race_conscripts = yes
 			}
 
 		}
@@ -223,9 +219,7 @@ on_actions = {
 	on_monthly = {
 		effect = {
 			#Race conscripts mechanic
-			TST = {
-				count_monthly_manpower_gain = yes
-			}
+			count_monthly_manpower_gain = yes
 			count_race_part_in_country = yes
 			get_montly_race_conscripts = yes
 

@@ -1,8 +1,5 @@
 # In this file is the core mechanics of the race conscipts for every country.
-
-
-
-
+# Most of the code is commented, so it shouldn't be too complicated.
 
 # This counts mountly recruit growth. Paradox, thanks (not) for the variable.
 #
@@ -18,9 +15,6 @@
 # 3. Compliance isn't a thing, we count occupied states as simple cored states. ( not hard to fix, but it isn't a priority )
 
 count_monthly_manpower_gain = {
-	for_each_scope_loop = {
-		array = global.countries
-
 		set_variable = {
 			var = THIS.monthly_manpower_growth
 			value = max_manpower_k
@@ -28,7 +22,7 @@ count_monthly_manpower_gain = {
 
 		if = { # If somebody, for some reason, decides to change pop growth base in a country then he must set a variable for that specific country.
 			limit = {
-				has_variable = pop_growth # MUST BE MULTYPLIED BY 1000 IN ADVANCE
+				has_variable = pop_growth # MUST BE MULTIPLIED BY 1000 IN ADVANCE!!!
 			}
 			multiply_variable = {
 				var = monthly_manpower_growth
@@ -48,7 +42,6 @@ count_monthly_manpower_gain = {
 		}
 
 		round_variable = monthly_manpower_growth
-	}
 }
 
 # Part of every race from total country manpower.
@@ -337,7 +330,7 @@ get_montly_race_conscripts = {
 	}
 
 	#####################################################################################################
-	# Funnier stuff ( laggy as fuck )                                                                   #
+	# Funnier stuff ( laggy as fuck, considering ponies are the majority on the continent )             #
 	# Pony race and Crystal pony race are just dummies to count actual recruits for their subdivisions  #
 	# - earthponies, pegasi, unicorns and their crystal versions                                        #
 	#####################################################################################################
@@ -357,7 +350,8 @@ get_montly_race_conscripts = {
 		min = 2
 		max = 4
 	}
-	#THIS = { #debug
+
+	#THIS = { #debug (left for balancing)
 	#	if = {
 	#		limit = {
 	#			original_tag = SEV
@@ -365,12 +359,14 @@ get_montly_race_conscripts = {
 	#		log = "[?conscripts_to_add|3] conscripts_to_add before first division in [Root.GetName]" #debug
 	#	}
 	#}
+
 	# Dividing it using that temporary random variable
 	divide_temp_variable = {
 		var = conscripts_to_add
 		value = random_division
 	}
-	#THIS = { #debug
+
+	#THIS = { #debug (left for balancing)
 	#	if = {
 	#		limit = {
 	#			original_tag = SEV
@@ -378,6 +374,7 @@ get_montly_race_conscripts = {
 	#		log = "[?conscripts_to_add|3] conscripts_to_add after first division in [Root.GetName]" #debug
 	#	}
 	#}
+
 	# Rounding the result
 	round_temp_variable = conscripts_to_add
 
