@@ -14,6 +14,5 @@ units = {
 		name = "Griffon Check"
 		location = 9550
 		division_template = "Griffon Militia"
-		start_experience_factor = 0.2
 	}
 }

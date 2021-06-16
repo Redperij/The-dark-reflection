@@ -1,91 +1,4 @@
 ﻿division_template = {
-	name = "Pony's Militia"
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 0 y = 3 }
-	}
-
-	support = {
-	}
-	priority = 0
-}
-division_template = {
-	name = "Kopytnaya Diviziya"
-	division_names_group = SEV_INF_01
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-	}
-
-	support = {
-		artillery = { x = 0 y = 0 }
-	}
-}
-division_template = {
-	name = "Motokopytnyaya Diviziya"
-	division_names_group = SEV_MOT_01
-	regiments = {
-		motorized = { x = 0 y = 0 }
-		motorized = { x = 0 y = 1 }
-		motorized = { x = 0 y = 2 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-	}
-
-	support = {
-	}
-}
-division_template = {
-	name = "Tankovaya Brigada"
-
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-	}
-	support = {
-	}
-}
-
-division_template = {
-	name = "Tankovaya Diviziya"
-	division_names_group = SEV_ARM_01
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
-		light_armor = { x = 0 y = 3 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-		motorized = { x = 1 y = 3 }
-	}
-}
-division_template = {
-	name = "Diviziya Pegasov"
-	regiments = {
-		pegasi = { x = 0 y = 0 }
-		pegasi = { x = 0 y = 1 }
-		pegasi = { x = 0 y = 2 }
-		pegasi = { x = 1 y = 0 }
-		pegasi = { x = 1 y = 1 }
-		pegasi = { x = 1 y = 2 }
-	}
-
-	support = {
-		recon = { x = 0 y = 0 }
-	}
-}
-division_template = {
 	name = "Earthpony TEST"
 
 	regiments = {
@@ -102,64 +15,9 @@ units = {
 		location = 9637
 		division_template = "Earthpony TEST"
 	}
-	division = {
-		name = "Diviziya im. Stalliona"
-		location = 11373
-		division_template = "Pony's Militia"
-		start_experience_factor = 0.2 }
-	division = {
-		name = "Pervaya Pegasiya"
-		location = 11373
-		division_template = "Diviziya Pegasov"
-		start_experience_factor = 0.05
-		start_equipment_factor = 0.8 }
-	division = {
-		name = "Kvass Militia"
-		location = 11373
-		division_template = "Pony's Militia"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9 }
-	division = {
-		name = "Forest Brothers"
-		location = 11373
-		division_template = "Pony's Militia"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SEV" creator = "EQS" } } }
-	division = {
-		name = "Diviziya Krasnoi Revolutsii"
-		location = 11373
-		division_template = "Pony's Militia"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9 }
-	division = {
-		name = "Diviziya Podkovi i Molota"
-		location = 11373
-		division_template = "Kopytnaya Diviziya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7 }
-	division = {
-		name = "Diviziya Novoczernuszkih Boytsov"
-		location = 11373
-		division_template = "Kopytnaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5 }
-	division = {
-		name = "Motokopytnyaya Diviziya Stavroponya"
-		location = 11373
-		division_template = "Motokopytnyaya Diviziya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.65 }
-	division = {
-		name = "Brigada Krepkaya Bronya"
-		location = 11373
-		division_template = "Tankovaya Brigada"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.30 }
 }
 air_wings = {
 	777 = {
-		# 1. lmao
 		fighter_equipment_0 = {
 			owner = "SEV"
 			amount = 150
@@ -173,7 +31,6 @@ air_wings = {
 		}
 	}
 	777 = {
-		# 1. lmao
 		tac_bomber_equipment_0 = {
 			owner = "SEV"
 			amount = 90

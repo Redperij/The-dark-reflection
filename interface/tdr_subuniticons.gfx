@@ -1,0 +1,388 @@
+spriteTypes = {
+
+	##################################
+	### Large images for DIVISIONS ###
+
+	spriteType = { 
+		name = "GFX_unit_earthpony_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_earthpony_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_pegasi_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_pegasi_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_unicorn_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_unicorn_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_griffon_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_griffon_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_deer_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_deer_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_thestral_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_thestral_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_dragon_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_dragon_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_bear_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_bear_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_changeling_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_changeling_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_penguin_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_penguin_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_yak_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_yak_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_dog_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_dog_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_crystal_earthpony_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_crystal_earthpony_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_crystal_pegasi_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_crystal_pegasi_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_crystal_unicorn_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_crystal_unicorn_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	####################################################
+	### Small images for DIVISIONS (On-map-counters) ###
+
+	spriteType = { 
+		name = "GFX_unit_earthpony_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_earthpony_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_pegasi_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_pegasi_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_unicorn_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_unicorn_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_griffon_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_griffon_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_deer_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_deer_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_thestral_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_thestral_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_dragon_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_dragon_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_bear_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_bear_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_changeling_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_changeling_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_penguin_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_penguin_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_yak_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_yak_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_dog_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_dog_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_crystal_earthpony_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_crystal_earthpony_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_crystal_pegasi_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_crystal_pegasi_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { 
+		name = "GFX_unit_crystal_unicorn_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_crystal_unicorn_infantry_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	#################
+	### Texticons ###
+
+
+	spriteType = {
+		name = "GFX_nato_unit_earthpony_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_earthpony_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_earthpony_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_earthpony_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_pegasi_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_pegasi_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_pegasi_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_pegasi_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_unicorn_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_unicorn_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_unicorn_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_unicorn_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_griffon_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_griffon_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_griffon_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_griffon_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_deer_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_deer_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_deer_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_deer_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_thestral_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_thestral_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_thestral_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_thestral_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_dragon_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_dragon_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_dragon_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_dragon_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_bear_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_bear_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_bear_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_bear_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_changeling_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_changeling_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_changeling_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_changeling_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_penguin_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_penguin_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_penguin_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_penguin_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_yak_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_yak_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_yak_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_yak_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_dog_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_dog_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_dog_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_dog_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_crystal_earthpony_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_crystal_earthpony_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_crystal_earthpony_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_crystal_earthpony_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_crystal_pegasi_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_crystal_pegasi_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_crystal_pegasi_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_crystal_pegasi_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_crystal_unicorn_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_crystal_unicorn_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_crystal_unicorn_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_crystal_unicorn_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+}
