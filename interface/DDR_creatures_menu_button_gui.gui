@@ -1,0 +1,16 @@
+guiTypes = {
+	containerWindowType = {
+		name = "creatures_menu_button_container"
+                position = { x = 0 y = 0 }
+		Orientation = UPPER_LEFT
+		
+		buttonType = {
+			name = "creatures_menu_button"
+			position = { x = 412 y = 4 }			
+			quadTextureSprite = "GFX_creatures_menu_button"
+			clicksound = click_default
+			Orientation = UPPER_LEFT
+			pdx_tooltip = "creatures_menu_button_tooltip"
+		}
+    }
+}
