@@ -108,7 +108,7 @@ operative_add_nationalities_aquileian = {
 		array = global.countries
 		if = {
 			limit = {
-				var:v = { is_country_main_culture_aquileian = yes }
+				var:v = { is_country_main_culture_griffonian = yes }
 			}
 			add_nationality = var:v
 		}
@@ -138,7 +138,7 @@ operative_add_nationalities_herzlander = {
 		array = global.countries
 		if = {
 			limit = {
-				var:v = { is_country_main_culture_herzlander = yes }
+				var:v = { is_country_main_culture_native_griffonian = yes }
 			}
 			add_nationality = var:v
 		}
@@ -299,7 +299,7 @@ operative_add_main_nationalities_from_PREV = {
 			limit = {
 				PREV = {
 					OR = {
-						is_country_main_culture_aquileian = yes
+						is_country_main_culture_griffonian = yes
 
 					}
 				}
@@ -310,7 +310,7 @@ operative_add_main_nationalities_from_PREV = {
 			limit = {
 				PREV = {
 					OR = {
-						is_country_main_culture_herzlander = yes
+						is_country_main_culture_native_griffonian = yes
 
 					}
 				}
@@ -514,7 +514,7 @@ operative_add_secondary_nationalities_from_PREV = {
 			limit = {
 				PREV = {
 					OR = {
-						is_country_secondary_culture_aquileian = yes
+						is_country_secondary_culture_griffonian = yes
 
 					}
 				}
@@ -525,7 +525,7 @@ operative_add_secondary_nationalities_from_PREV = {
 			limit = {
 				PREV = {
 					OR = {
-						is_country_secondary_culture_herzlander = yes
+						is_country_secondary_culture_native_griffonian = yes
 
 					}
 				}
@@ -679,10 +679,10 @@ operative_handle_secondary_cultures_races = {
 				has_unit_leader_race_trait = no
 				FROM = {
 					OR = {
-						is_country_main_culture_herzlander = yes
+						is_country_main_culture_native_griffonian = yes
 						is_country_main_culture_southerner = yes
 						is_country_main_culture_northerner = yes
-						is_country_main_culture_aquileian = yes
+						is_country_main_culture_griffonian = yes
 					}
 				}
 			}
@@ -746,14 +746,14 @@ operative_add_starting_nationalities_and_race = {
 		}
 		else_if = {
 			limit = {
-				is_operative_main_culture_aquileian = yes
+				is_operative_main_culture_griffonian = yes
 			}
 			add_unit_leader_trait = griffon_race_trait
 			operative_add_nationalities_aquileian = yes
 		}
 		else_if = {
 			limit = {
-				is_operative_main_culture_herzlander = yes
+				is_operative_main_culture_native_griffonian = yes
 			}
 			add_unit_leader_trait = griffon_race_trait
 			operative_add_nationalities_herzlander = yes

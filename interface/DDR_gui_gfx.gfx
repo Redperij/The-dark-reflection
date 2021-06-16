@@ -1,0 +1,38 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_creatures_equipment_window_pony_background"
+		texturefile = "gfx/interface/GFX_creatures_equipment_window_pony_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_creatures_menu_button"
+		texturefile = "gfx/interface/GFX_creatures_menu_button_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_creatures_equipment_window_crystal_background"
+		texturefile = "gfx/interface/GFX_creatures_equipment_window_crystal_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_creatures_equipment_window_hooves_background"
+		texturefile = "gfx/interface/GFX_creatures_equipment_window_hooves_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_creatures_equipment_window_claws_background"
+		texturefile = "gfx/interface/GFX_creatures_equipment_window_claws_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_creatures_equipment_window_paws_background"
+		texturefile = "gfx/interface/GFX_creatures_equipment_window_paws_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_creatures_equipment_window_yak_background"
+		texturefile = "gfx/interface/GFX_creatures_equipment_window_yak_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_creatures_equipment_window_penguins_background"
+		texturefile = "gfx/interface/GFX_creatures_equipment_window_penguins_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_creatures_equipment_window_magic_equipment_background"
+		texturefile = "gfx/interface/GFX_creatures_equipment_window_magic_icon.dds"
+	}
+}

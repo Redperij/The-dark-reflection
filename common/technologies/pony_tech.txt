@@ -37,6 +37,118 @@ technologies = {
 
 	}
 
+	crystal_pony_race = {
+
+		research_cost = 1
+
+		intel_network_gain_factor = -0.3
+
+		recon = {
+			maximum_speed = 0.6
+		}
+		
+		allow = {
+			always = no
+		}
+
+	}
+
+	earthpony_race = {
+
+		research_cost = 1
+
+		intel_network_gain_factor = -0.3
+
+		recon = {
+			maximum_speed = 0.6
+		}
+		
+		allow = {
+			always = no
+		}
+
+	}
+
+	pegasi_race = {
+
+		research_cost = 1
+
+		intel_network_gain_factor = -0.3
+
+		recon = {
+			maximum_speed = 0.6
+		}
+		
+		allow = {
+			always = no
+		}
+
+	}
+
+	unicorn_race = {
+
+		research_cost = 1
+
+		intel_network_gain_factor = -0.3
+
+		recon = {
+			maximum_speed = 0.6
+		}
+		
+		allow = {
+			always = no
+		}
+
+	}
+
+	crystal_earthpony_race = {
+
+		research_cost = 1
+
+		intel_network_gain_factor = -0.3
+
+		recon = {
+			maximum_speed = 0.6
+		}
+		
+		allow = {
+			always = no
+		}
+
+	}
+
+	crystal_pegasi_race = {
+
+		research_cost = 1
+
+		intel_network_gain_factor = -0.3
+
+		recon = {
+			maximum_speed = 0.6
+		}
+		
+		allow = {
+			always = no
+		}
+
+	}
+
+	crystal_unicorn_race = {
+
+		research_cost = 1
+
+		intel_network_gain_factor = -0.3
+
+		recon = {
+			maximum_speed = 0.6
+		}
+		
+		allow = {
+			always = no
+		}
+
+	}
+	
 	#Earth pony farming
 	tech_pony_misc = {
 
@@ -412,7 +524,6 @@ technologies = {
 
 			modifier = {
 				factor = 1000
-				has_completed_focus = CRY_SOL_military_of_the_inquisition
 			}
 		}
 	}

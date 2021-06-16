@@ -1,9 +1,10 @@
 ﻿capital = 777
 
-oob = "SEV_1007"
+oob = "SEV_997"
 set_research_slots = 3
 
 set_technology = {
+	all_spec_equipment = 1
 	pony_race = 1
 	melee_weapons = 1
 	melee_weapons1 = 1
@@ -63,6 +64,12 @@ add_equipment_to_stockpile = {
 	producer = SEV
 }
 
+add_equipment_to_stockpile = {
+	type = infantry_equipped_earthpony_hoof_1
+	amount = 500
+	producer = SEV
+}
+
 create_country_leader = {
 	name = "Empress Altidiya Revoltsova"
 	desc = ""
@@ -71,7 +78,7 @@ create_country_leader = {
 	ideology = despotism
 	female = yes
 	traits = {
-		critique_god
+		#critique_god
 	}
 }
 

@@ -1,0 +1,99 @@
+﻿division_template = {
+	name = "Earthpony TEST"
+
+	regiments = {
+		earthpony_infantry = { x = 0 y = 0 }
+	}
+
+	support = {
+	}
+	priority = 0
+}
+units = {
+	division = {
+		name = "TESTING"
+		location = 9637
+		division_template = "Earthpony TEST"
+	}
+}
+air_wings = {
+	777 = {
+		fighter_equipment_0 = {
+			owner = "SEV"
+			amount = 150
+		}
+		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
+			modifier="fighter_genius"
+			name="Marble"
+			surname="Pie"
+			callsign="Marble Wings"
+			portrait=1 # Pick random index here, or make special GFX_EQS_ace_Night_Glider n to override.
+		}
+	}
+	777 = {
+		tac_bomber_equipment_0 = {
+			owner = "SEV"
+			amount = 90
+		}
+	}
+	777 = {
+
+		fighter_equipment_0 = {
+			owner = "SEV"
+			amount = 20
+		}
+		tac_bomber_equipment_0 = {
+			owner = "SEV"
+			amount = 10
+		}
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SEV"
+		}
+		requested_factories = 1
+		progress = 0.86
+		efficiency = 90
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "SEV"
+		}
+		requested_factories = 1
+		progress = 0.16
+		efficiency = 20
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "SEV"
+		}
+		requested_factories = 1
+		progress = 0.56
+		efficiency = 60
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "SEV"
+		}
+		requested_factories = 1
+		progress = 0.90
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_0
+			creator = "SEV"
+		}
+		requested_factories = 1
+		progress = 0.50
+		efficiency = 20
+	}
+}

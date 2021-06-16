@@ -49,6 +49,34 @@ on_actions = {
 					add_ideas = pony_race
 				}
 				else_if = {
+					limit = { is_crystal_pony_race = yes }
+					add_ideas = crystal_pony_race
+				}
+				else_if = {
+					limit = { is_earthpony_race = yes }
+					add_ideas = earthpony_race
+				}
+				else_if = {
+					limit = { is_pegasi_race = yes }
+					add_ideas = pegasi_race
+				}
+				else_if = {
+					limit = { is_unicorn_race = yes }
+					add_ideas = unicorn_race
+				}
+				else_if = {
+					limit = { is_crystal_earthpony_race = yes }
+					add_ideas = crystal_earthpony_race
+				}
+				else_if = {
+					limit = { is_crystal_pegasi_race = yes }
+					add_ideas = crystal_pegasi_race
+				}
+				else_if = {
+					limit = { is_crystal_unicorn_race = yes }
+					add_ideas = crystal_unicorn_race
+				}
+				else_if = {
 					limit = { is_changeling_race = yes }
 					add_ideas = changeling_race
 				}
@@ -266,6 +294,13 @@ on_actions = {
 					}
 					set_country_flag = started_out_as_landlocked
 				}
+				every_owned_state = {
+					for_each_scope_loop = {
+						array = core_countries
+						add_to_array = { original_cores = PREV }
+						add_to_array = { PREV.state_original_cores = THIS }
+					}
+				}
 				adjust_research_modifier = yes
 				if = {
 					limit = { NOT = { has_country_flag = weapons_fixed_at_start } }
@@ -316,7 +351,7 @@ on_actions = {
 			#		}
 			#	}
 			#}
-
+			
 			# this extra loop is intentional
 			# adjust_research_modifier needs to be fired again after force_update_dynamic_modifier for the value to work correctly
 			# first loop is above, in every_country

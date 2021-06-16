@@ -232,13 +232,13 @@ on_actions = {
 								has_trait = griffon_race_trait
 								FROM = {
 									OR = {
-										is_country_main_culture_herzlander = yes
+										is_country_main_culture_native_griffonian = yes
 										is_country_main_culture_southerner = yes
-										is_country_main_culture_aquileian = yes
+										is_country_main_culture_griffonian = yes
 										is_country_main_culture_northerner = yes
-										is_country_secondary_culture_herzlander = yes
+										is_country_secondary_culture_native_griffonian = yes
 										is_country_secondary_culture_southerner = yes
-										is_country_secondary_culture_aquileian = yes
+										is_country_secondary_culture_griffonian = yes
 										is_country_secondary_culture_northerner = yes
 									}
 								}

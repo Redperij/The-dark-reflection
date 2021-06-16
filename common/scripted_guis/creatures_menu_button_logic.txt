@@ -1,0 +1,25 @@
+scripted_gui = { 
+    topbar = {
+        context_type = player_context
+		window_name = "creatures_menu_button_container"
+		
+		visible = {
+			is_ai = no
+		}
+		
+		effects = {
+			creatures_menu_button_click = {
+				if = {
+					limit = { NOT = { has_variable = pony_menu } }
+					set_variable = { pony_menu = 1 }
+				}
+				else = {
+					clear_variable = pony_menu
+				}
+			}
+		}
+        
+		triggers = {
+        }
+    }
+}
