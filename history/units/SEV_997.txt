@@ -85,7 +85,23 @@ division_template = {
 		recon = { x = 0 y = 0 }
 	}
 }
+division_template = {
+	name = "Earthpony TEST"
+
+	regiments = {
+		earthpony_infantry = { x = 0 y = 0 }
+	}
+
+	support = {
+	}
+	priority = 0
+}
 units = {
+	division = {
+		name = "TESTING"
+		location = 9637
+		division_template = "Earthpony TEST"
+	}
 	division = {
 		name = "Diviziya im. Stalliona"
 		location = 11373

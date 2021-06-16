@@ -64,6 +64,12 @@ add_equipment_to_stockpile = {
 	producer = SEV
 }
 
+add_equipment_to_stockpile = {
+	type = infantry_equipped_earthpony_hoof_1
+	amount = 500
+	producer = SEV
+}
+
 create_country_leader = {
 	name = "Empress Altidiya Revoltsova"
 	desc = ""
@@ -72,7 +78,7 @@ create_country_leader = {
 	ideology = despotism
 	female = yes
 	traits = {
-		critique_god
+		#critique_god
 	}
 }
 

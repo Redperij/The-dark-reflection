@@ -11,7 +11,7 @@
 
 # Current mistakes:
 # 1. Sometimes it goes over the actual manpower growth ( not much )
-# 2. When conscription law is changed it is not affecting the country right away so we go over the actual growth for 2-3 months
+# 2. When conscription law is changed it is not affecting the country right away so we go over the actual growth for 2-3 months ( And even more than that... )
 # 3. Compliance isn't a thing, we count occupied states as simple cored states. ( not hard to fix, but it isn't a priority )
 
 count_monthly_manpower_gain = {
