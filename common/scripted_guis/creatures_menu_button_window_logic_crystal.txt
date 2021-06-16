@@ -1,0 +1,52 @@
+scripted_gui = {
+
+    open_creatures_equipment_window_container_crystal = {
+    
+        context_type = player_context
+		
+		window_name = "open_creatures_equipment_window_container_crystal"
+		
+		visible = {
+			is_ai = no
+                        has_variable = crystal_menu
+		}
+		
+		effects = {
+        
+			button_pony_click = {
+			add_to_variable = { pony_menu = 1 }
+			clear_variable = crystal_menu
+			}
+			button_hooves_click = {
+			add_to_variable = { hooves_menu = 1 }
+			clear_variable = crystal_menu
+			}
+			button_claws_click = {
+			add_to_variable = { claws_menu = 1 }
+			clear_variable = crystal_menu
+			}
+			button_paws_click = {
+			add_to_variable = { paws_menu = 1 }
+			clear_variable = crystal_menu
+			}
+			button_yak_click = {
+			add_to_variable = { yak_menu = 1 }
+			clear_variable = crystal_menu
+			}
+			button_penguins_click = {
+			add_to_variable = { penguins_menu = 1 }
+			clear_variable = crystal_menu
+			}
+			button_magic_equipment_click = {
+			add_to_variable = { magic_equipment_menu = 1 }
+			clear_variable = crystal_menu
+			}
+			button_close_click = {            
+				clear_variable = crystal_menu
+			}
+		}
+        
+		triggers = {
+        }
+    }
+} 
