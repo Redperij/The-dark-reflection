@@ -3,3 +3,7 @@
 creatures_menu_button_tooltip:0 "Equipment menu for different creatures"
 creaturespowe_automation_tooltip:0 "Automate the creation of equipment"
 creature_create_tooltip:0 "Create equipment"
+
+EARTHPONY_EQUIPMENT:0 "Equipment: [?Root.num_equipment@infantry_equipment_hoof]"
+EARTHPONY_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^2]"
+EARTHPONY_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_earthpony]"

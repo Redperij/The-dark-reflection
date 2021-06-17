@@ -1,0 +1,756 @@
+# This code is handling player's actions in the cretures_menu gui
+# From the best to the worst equipment it converts manpower and infantry_equipment into the infantry_equipped, which is used by the army
+# (Yeah, it is how we handle our race 'manpower', it is just restricted to produce eqipment unless we have enough manpower for that race (Usually equipment loss is close to the manpower loss))
+
+# *And I know, that it could be done with 'for', but 'melee_equipment' and '_x' '_x_2' - must be changed then, which I'm a little bit afraid to do. (We are still a submod, aren't we) 
+count_race_equipped = {
+	set_temp_variable = { effect_root = THIS }
+	log = "[?effect_root.GetName|0] - count_race_equipped ####################" #debug
+
+	log = "[?race_manpower|0] - race manpower and [?effect_root:race] ?" #debug
+	meta_effect = {
+		text = {
+			set_variable = {
+				race_manpower = effect_root:race_conscripts^[RACE_NUMBER]
+			}
+		}
+		RACE_NUMBER = "[?effect_root:race]"
+	}
+	log = "[?race_manpower|0] - race manpower and [RACE_NUMBER]?" #debug
+
+	#infantry_equipment_[EQUIPMENT_TYPE]_x_2
+	meta_effect = {
+		text = {
+			set_variable = {
+				var = equipment_type_num
+				value = num_equipment@infantry_equipment_[EQUIPMENT_TYPE]_x_2
+			}
+		}
+		EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+	}
+	log = "[?equipment_type_num|0] equip for x_2" #debug
+	if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+			check_variable = { equipment_type_num < race_manpower }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_x_2
+					amount = equipment_type_num
+				}
+				
+				# Time for substracting
+				multiply_variable = {
+					var = equipment_type_num
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_[EQUIPMENT_TYPE]_x_2
+					amount = equipment_type_num
+				}
+
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = race_manpower
+					value = equipment_type_num
+				}
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = equipment_type_num
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_x_2
+					amount = race_manpower
+				}
+
+				# Time for substracting
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_[EQUIPMENT_TYPE]_x_2
+					amount = race_manpower
+				}
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = race_manpower
+				}
+
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	clear_variable = equipment_type_num
+
+	#infantry_equipment_[EQUIPMENT_TYPE]_x
+	meta_effect = {
+		text = {
+			set_variable = {
+				var = equipment_type_num
+				value = num_equipment@infantry_equipment_[EQUIPMENT_TYPE]_x
+			}
+		}
+		EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+	}
+	log = "[?equipment_type_num|0] equip for x" #debug
+	if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+			check_variable = { equipment_type_num < race_manpower }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_x
+					amount = equipment_type_num
+				}
+				
+				# Time for substracting
+				multiply_variable = {
+					var = equipment_type_num
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_[EQUIPMENT_TYPE]_x
+					amount = equipment_type_num
+				}
+
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = race_manpower
+					value = equipment_type_num
+				}
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = equipment_type_num
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_x
+					amount = race_manpower
+				}
+
+				# Time for substracting
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_[EQUIPMENT_TYPE]_x
+					amount = race_manpower
+				}
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = race_manpower
+				}
+
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	clear_variable = equipment_type_num
+
+	#infantry_equipment_[EQUIPMENT_TYPE]_3
+	meta_effect = {
+		text = {
+			set_variable = {
+				var = equipment_type_num
+				value = num_equipment@infantry_equipment_[EQUIPMENT_TYPE]_3
+			}
+		}
+		EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+	}
+	log = "[?equipment_type_num|0] equip for 3" #debug
+	if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+			check_variable = { equipment_type_num < race_manpower }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_3
+					amount = equipment_type_num
+				}
+				
+				# Time for substracting
+				multiply_variable = {
+					var = equipment_type_num
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_[EQUIPMENT_TYPE]_3
+					amount = equipment_type_num
+				}
+
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = race_manpower
+					value = equipment_type_num
+				}
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = equipment_type_num
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_3
+					amount = race_manpower
+				}
+
+				# Time for substracting
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_[EQUIPMENT_TYPE]_3
+					amount = race_manpower
+				}
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = race_manpower
+				}
+
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	clear_variable = equipment_type_num
+
+	#infantry_equipment_[EQUIPMENT_TYPE]_2
+	meta_effect = {
+		text = {
+			set_variable = {
+				var = equipment_type_num
+				value = num_equipment@infantry_equipment_[EQUIPMENT_TYPE]_2
+			}
+		}
+		EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+	}
+	log = "[?equipment_type_num|0] equip for 2" #debug
+	if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+			check_variable = { equipment_type_num < race_manpower }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_2
+					amount = equipment_type_num
+				}
+				
+				# Time for substracting
+				multiply_variable = {
+					var = equipment_type_num
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_[EQUIPMENT_TYPE]_2
+					amount = equipment_type_num
+				}
+
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = race_manpower
+					value = equipment_type_num
+				}
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = equipment_type_num
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_2
+					amount = race_manpower
+				}
+
+				# Time for substracting
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_[EQUIPMENT_TYPE]_2
+					amount = race_manpower
+				}
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = race_manpower
+				}
+
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	clear_variable = equipment_type_num
+
+	#infantry_equipment_[EQUIPMENT_TYPE]_1
+	meta_effect = {
+		text = {
+			set_variable = {
+				var = equipment_type_num
+				value = num_equipment@infantry_equipment_[EQUIPMENT_TYPE]_1
+			}
+		}
+		EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+	}
+	log = "[?equipment_type_num|0] equip for 1" #debug
+	if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+			check_variable = { equipment_type_num < race_manpower }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_1
+					amount = equipment_type_num
+				}
+				
+				# Time for substracting
+				multiply_variable = {
+					var = equipment_type_num
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_[EQUIPMENT_TYPE]_1
+					amount = equipment_type_num
+				}
+
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = race_manpower
+					value = equipment_type_num
+				}
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = equipment_type_num
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_1
+					amount = race_manpower
+				}
+
+				# Time for substracting
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_[EQUIPMENT_TYPE]_1
+					amount = race_manpower
+				}
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = race_manpower
+				}
+
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	clear_variable = equipment_type_num
+
+	#infantry_equipment_[EQUIPMENT_TYPE]_0
+	meta_effect = {
+		text = {
+			set_variable = {
+				var = equipment_type_num
+				value = num_equipment@infantry_equipment_[EQUIPMENT_TYPE]_0
+			}
+		}
+		EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+	}
+	log = "[?equipment_type_num|0] equip for 0" #debug
+	if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+			check_variable = { equipment_type_num < race_manpower }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_0
+					amount = equipment_type_num
+				}
+				
+				# Time for substracting
+				multiply_variable = {
+					var = equipment_type_num
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_[EQUIPMENT_TYPE]_0
+					amount = equipment_type_num
+				}
+
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = race_manpower
+					value = equipment_type_num
+				}
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = equipment_type_num
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_0
+					amount = race_manpower
+				}
+
+				# Time for substracting
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_[EQUIPMENT_TYPE]_0
+					amount = race_manpower
+				}
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = race_manpower
+				}
+
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	clear_variable = equipment_type_num
+
+	#melee_equipment_[EQUIPMENT_TYPE]_1
+	meta_effect = {
+		text = {
+			set_variable = {
+				var = equipment_type_num
+				value = num_equipment@melee_equipment_[EQUIPMENT_TYPE]_1
+			}
+		}
+		EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+	}
+	log = "[?equipment_type_num|0] equip for melee 1" #debug
+	if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+			check_variable = { equipment_type_num < race_manpower }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = melee_equipped_[RACE]_[EQUIPMENT_TYPE]_1
+					amount = equipment_type_num
+				}
+				
+				# Time for substracting
+				multiply_variable = {
+					var = equipment_type_num
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = melee_equipment_[EQUIPMENT_TYPE]_1
+					amount = equipment_type_num
+				}
+
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = race_manpower
+					value = equipment_type_num
+				}
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = equipment_type_num
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = melee_equipped_[RACE]_[EQUIPMENT_TYPE]_1
+					amount = race_manpower
+				}
+
+				# Time for substracting
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = melee_equipment_[EQUIPMENT_TYPE]_1
+					amount = race_manpower
+				}
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = race_manpower
+				}
+
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	clear_variable = equipment_type_num
+
+	#melee_equipment_[EQUIPMENT_TYPE]_0
+	meta_effect = {
+		text = {
+			set_variable = {
+				var = equipment_type_num
+				value = num_equipment@melee_equipment_[EQUIPMENT_TYPE]_0
+			}
+		}
+		EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+	}
+	log = "[?equipment_type_num|0] equip for melee 0" #debug
+	if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+			check_variable = { equipment_type_num < race_manpower }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = melee_equipped_[RACE]_[EQUIPMENT_TYPE]_0
+					amount = equipment_type_num
+				}
+				
+				# Time for substracting
+				multiply_variable = {
+					var = equipment_type_num
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = melee_equipment_[EQUIPMENT_TYPE]_0
+					amount = equipment_type_num
+				}
+
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = race_manpower
+					value = equipment_type_num
+				}
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = equipment_type_num
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { equipment_type_num = 0 } }
+			NOT = { check_variable = { race_manpower = 0 } }
+		}
+		meta_effect = {
+			text = {
+				# Adding converted value to stockpile
+				add_equipment_to_stockpile = {
+					type = melee_equipped_[RACE]_[EQUIPMENT_TYPE]_0
+					amount = race_manpower
+				}
+
+				# Time for substracting
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+				# Substracting value from equipment
+				add_equipment_to_stockpile = {
+					type = melee_equipment_[EQUIPMENT_TYPE]_0
+					amount = race_manpower
+				}
+				# Substracting value from race manpower
+				add_to_variable = {
+					var = effect_root:race_conscripts^[RACE_NUMBER]
+					value = race_manpower
+				}
+
+				multiply_variable = {
+					var = race_manpower
+					value = -1
+				}
+			}
+			RACE_NUMBER = "[?effect_root:race]"
+			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+			RACE = "[?effect_root.GetRace]"
+		}
+	}
+	clear_variable = equipment_type_num
+}

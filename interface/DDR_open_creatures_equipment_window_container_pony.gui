@@ -103,7 +103,7 @@ guiTypes = {
 				}
 				################################################################################################################ 1 панель
 				instantTextBoxType = {
-                name = "species_earth_01"
+                name = "species_earthpony_01"
                 position = { x = 70 y = 80 }
                 font = "hoi_18mbs"
                 text = "Земные" #[?pony_menu]
@@ -113,10 +113,10 @@ guiTypes = {
                 allwaystransparent = yes
 				}
 				instantTextBoxType = {
-				name = "equipment_earth_01"
+				name = "equipment_earthpony_01"
 				position = { x = 70 y = 100 }
 				font = "hoi_16mbs"
-				text = "Экипировка: [?pony_menu]" 
+				text = "EARTHPONY_EQUIPMENT" 
 				maxWidth = 175
 				maxHeight = 500
 				Orientation = "UPPER_LEFT"	
@@ -124,7 +124,7 @@ guiTypes = {
 				format = right
 				}
 				buttonType = {
-				name = "equipment_earth_02"
+				name = "equipment_earthpony_button"
 				position = {x = 387 y = 92}
 				spriteType = "GFX_sort_button_100x29_2"
 				frame = 2
@@ -134,17 +134,17 @@ guiTypes = {
 				pdx_tooltip = "creature_create_tooltip"
 				}
 				instantTextBoxType = {
-				name = "creaturespower_earth_01"
+				name = "creaturespower_earthpony_01"
 				position = { x = 70 y = 120 }
 				font = "hoi_16mbs"
-				text = "Мобилизационный ресурс: [?pony_menu]" 
+				text = "EARTHPONY_CREATUREPOWER" 
 				maxWidth = 180
 				maxHeight = 500
 				Orientation = "UPPER_LEFT"	
 				allwaystransparent = yes
 				}
 				checkBoxType = {
-				name = "creaturespower_earth_02"
+				name = "creaturespower_earthpony_checkbox"
 				position = { x = 387 y = 120 }
 				quadTextureSprite = "GFX_generic_checkbox3"
 				clicksound = decisions_ui_button
@@ -152,10 +152,10 @@ guiTypes = {
 				pdx_tooltip = "creaturespowe_automation_tooltip" #Автоматизировать создание экипировки
 				}
 				instantTextBoxType = {
-				name = "created_equipment_earth_01"
+				name = "created_equipment_earthpony_01"
 				position = { x = 70 y = 140 }
 				font = "hoi_16mbs"
-				text = "Созданная экипировка: [?pony_menu]" 
+				text = "EARTHPONY_CREATED_EQUIPMENT" 
 				maxWidth = 175
 				maxHeight = 500
 				Orientation = "UPPER_LEFT"	
@@ -185,7 +185,7 @@ guiTypes = {
 				format = right
 				}
 				buttonType = {
-				name = "equipment_unicorn_02"
+				name = "equipment_unicorn_button"
 				position = {x = 1087 y = 92}
 				spriteType = "GFX_sort_button_100x29_2"
 				frame = 2
@@ -205,7 +205,7 @@ guiTypes = {
 				allwaystransparent = yes
 				}
 				checkBoxType = {
-				name = "creaturespower_unicorn_02"
+				name = "creaturespower_unicorn_checkbox"
 				position = { x = 1087 y = 120 }
 				quadTextureSprite = "GFX_generic_checkbox3"
 				clicksound = decisions_ui_button
@@ -246,7 +246,7 @@ guiTypes = {
 				format = right
 				}
 				buttonType = {
-				name = "equipment_pegasus_02"
+				name = "equipment_pegasus_button"
 				position = {x = 387 y = 462}
 				spriteType = "GFX_sort_button_100x29_2"
 				frame = 2
@@ -266,7 +266,7 @@ guiTypes = {
 				allwaystransparent = yes
 				}
 				checkBoxType = {
-				name = "creaturespower_pegasus_02"
+				name = "creaturespower_pegasus_checkbox"
 				position = { x = 387 y = 490 }
 				quadTextureSprite = "GFX_generic_checkbox3"
 				clicksound = decisions_ui_button
