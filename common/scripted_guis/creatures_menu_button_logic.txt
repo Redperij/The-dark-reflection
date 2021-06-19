@@ -16,6 +16,42 @@ scripted_gui = {
 				else = {
 					clear_variable = pony_menu
 				}
+				if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_earthpony_checkbox_blank
+                            has_variable = equipment_earthpony_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_earthpony_checkbox_blank = 1 }
+                }
+				if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_unicorn_checkbox_blank
+                            has_variable = equipment_unicorn_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_unicorn_checkbox_blank = 1 }
+                }
+				if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_pegasus_checkbox_blank
+                            has_variable = equipment_pegasus_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_pegasus_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_zmih_checkbox_blank
+                            has_variable = equipment_zmih_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_zmih_checkbox_blank = 1 }
+                }
 			}
 		}
         
