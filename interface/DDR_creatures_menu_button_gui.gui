@@ -10,7 +10,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_creatures_menu_button"
 			clicksound = click_default
 			Orientation = UPPER_LEFT
-			pdx_tooltip = "creatures_menu_button_tooltip"
+			pdx_tooltip = "CREATURES_MENU_BUTTON_TOOLTIP"
 		}
     }
 }

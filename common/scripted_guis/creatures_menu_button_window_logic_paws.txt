@@ -8,11 +8,49 @@ scripted_gui = {
 		
 		visible = {
 			is_ai = no
-                        has_variable = paws_menu
+            has_variable = paws_menu
 		}
 		
 		effects = {
         
+			equipment_dogs_button_click = {
+				ROOT = {
+					set_variable = {
+						var = race_equipment_type
+						value = 4
+					}
+					set_variable = {
+						var = race
+						value = 12
+					}
+
+					log = "[?this.GetEquipmentType] equipment type for [?this.GetRace] race" #debug
+					count_race_equipped = yes
+					
+					clear_variable = race_equipment_type
+					clear_variable = race
+				}
+			}
+			equipment_bears_button_click = {
+				ROOT = {
+					set_variable = {
+						var = race_equipment_type
+						value = 4
+					}
+					set_variable = {
+						var = race
+						value = 9
+					}
+
+					log = "[?this.GetEquipmentType] equipment type for [?this.GetRace] race" #debug
+					count_race_equipped = yes
+					
+					clear_variable = race_equipment_type
+					clear_variable = race
+				}
+			}
+
+			# Selection bar
 			button_pony_click = {
 			add_to_variable = { pony_menu = 1 }
 			clear_variable = paws_menu

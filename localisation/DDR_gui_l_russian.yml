@@ -1,3 +1,85 @@
 ﻿l_russian:
 
-creatures_menu_button_tooltip:0 "Меню снаряжения для различных существ"
+CREATURES_MENU_BUTTON_TOOLTIP:0 "Меню снаряжения для различных существ"
+CREATURESPOWER_AUTOMATION_TOOLTIP:0 "Автоматизировать создание снаряжения"
+CREATURE_CREATE_TOOLTIP:0 "Создать Экипировку"
+EQUIPMENT_SELECTION_MENU_TEXT:0 "Меню выбора экипировки для разных существ"
+
+CREATE_BUTTON_TEXT:0 "Создать"
+CLOSE_BUTTON_TEXT:0 "Закрыть"
+
+PONIES:0 "Пони"
+CRYSTAL_PONIES:0 "Кристальные Пони"
+HOOVES:0 "Копыта"
+CLAWS:0 "Когти"
+PAWS:0 "Лапы"
+YAKS:0 "Яки"
+PENGUINS:0 "Пингвины"
+MAGICAL:0 "Магическое"
+
+EARTHPONIES:0 "Земнопони"
+PEGASI:0 "Пегасы"
+UNICORNS:0 "Единороги"
+GRIFFONS:0 "Гриффоны"
+DEERS:0 "Олени"
+THESTRALS:0 "Фестралы"
+DRAGONS:0 "Драконы"
+BEARS:0 "Медведи"
+CHANGELINGS:0 "Чейнджлинги"
+PENGUINS:0 "Пингвины"
+DOGS:0 "Алмазные псы"
+CRYSTAL_EARTHPONIES:0 "Кристальные Земнопони"
+CRYSTAL_PEGASI:0 "Кристальные Пегасы"
+CRYSTAL_UNICORNS:0 "Кристальные Единороги"
+
+HOOF_EQUIPMENT:0 "Экипировка: [?Root.num_equipment@infantry_equipment_hoof]"
+MAGICAL_EQUIPMENT:0 "Экипировка: [?Root.num_equipment@infantry_equipment_magical]"
+CLAW_EQUIPMENT:0 "Экипировка: [?Root.num_equipment@infantry_equipment_claw]"
+PAW_EQUIPMENT:0 "Экипировка: [?Root.num_equipment@infantry_equipment_paw]"
+YAK_EQUIPMENT:0 "Экипировка: [?Root.num_equipment@infantry_equipment_yak]"
+PENGUIN_EQUIPMENT:0 "Экипировка: [?Root.num_equipment@infantry_equipment_penguin]"
+
+EARTHPONY_CREATUREPOWER:0 "Мобилизационный ресурс: [?Root.race_conscripts^2]"
+EARTHPONY_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_earthpony]"
+
+PEGASI_CREATUREPOWER:0 "Мобилизационный ресурс: [?Root.race_conscripts^3]"
+PEGASI_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_pegasi]"
+
+UNICORN_CREATUREPOWER:0 "Мобилизационный ресурс: [?Root.race_conscripts^4]"
+UNICORN_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_unicorn]"
+
+GRIFFON_CREATUREPOWER:0 "Мобилизационный ресурс: [?Root.race_conscripts^5]"
+GRIFFON_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_griffon]"
+
+DEER_CREATUREPOWER:0 "Мобилизационный ресурс: [?Root.race_conscripts^6]"
+DEER_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_deer]"
+
+THESTRAL_CREATUREPOWER:0 "Созданная экипировка: [?Root.race_conscripts^7]"
+THESTRAL_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_thestral]"
+
+DRAGON_CREATUREPOWER:0 "Мобилизационный ресурс: [?Root.race_conscripts^8]"
+DRAGON_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_dragon]"
+
+BEAR_CREATUREPOWER:0 "Мобилизационный ресурс: [?Root.race_conscripts^9]"
+BEAR_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_bear]"
+
+CHANGELING_CREATUREPOWER:0 "Мобилизационный ресурс: [?Root.race_conscripts^10]"
+CHANGELING_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_changeling]"
+
+PENGUIN_CREATUREPOWER:0 "Мобилизационный ресурс: [?Root.race_conscripts^11]"
+PENGUIN_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_penguin]"
+
+YAK_CREATUREPOWER:0 "Мобилизационный ресурс: [?Root.race_conscripts^12]"
+YAK_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_yak]"
+
+DOG_CREATUREPOWER:0 "Мобилизационный ресурс: [?Root.race_conscripts^13]"
+DOG_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_dog]"
+
+CRYSTAL_EARTHPONY_CREATUREPOWER:0 "Мобилизационный ресурс: [?Root.race_conscripts^14]"
+CRYSTAL_EARTHPONY_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_crystal_earthpony]"
+
+CRYSTAL_PEGASI_CREATUREPOWER:0 "Мобилизационный ресурс: [?Root.race_conscripts^15]"
+CRYSTAL_PEGASI_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_crystal_pegasi]"
+
+CRYSTAL_UNICORN_CREATUREPOWER:0 "Мобилизационный ресурс: [?Root.race_conscripts^16]"
+CRYSTAL_UNICORN_CREATED_EQUIPMENT:0 "Созданная экипировка: [?Root.num_equipment@infantry_equipped_crystal_unicorn]"

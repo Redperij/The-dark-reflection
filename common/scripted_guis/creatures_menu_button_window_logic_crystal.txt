@@ -8,11 +8,66 @@ scripted_gui = {
 		
 		visible = {
 			is_ai = no
-                        has_variable = crystal_menu
+            has_variable = crystal_menu
 		}
 		
 		effects = {
-        
+			equipment_crystal_earthpony_button_click = {
+				ROOT = {
+					set_variable = {
+						var = race_equipment_type
+						value = 1
+					}
+					set_variable = {
+						var = race
+						value = 14
+					}
+
+					log = "[?this.GetEquipmentType] equipment type for [?this.GetRace] race" #debug
+					count_race_equipped = yes
+					
+					clear_variable = race_equipment_type
+					clear_variable = race
+				}
+			}
+			equipment_crystal_unicorns_button_click = {
+				ROOT = {
+					set_variable = {
+						var = race_equipment_type
+						value = 1
+					}
+					set_variable = {
+						var = race
+						value = 16
+					}
+
+					log = "[?this.GetEquipmentType] equipment type for [?this.GetRace] race" #debug
+					count_race_equipped = yes
+					
+					clear_variable = race_equipment_type
+					clear_variable = race
+				}
+			}
+			equipment_crystal_pegasi_button_click = {
+				ROOT = {
+					set_variable = {
+						var = race_equipment_type
+						value = 1
+					}
+					set_variable = {
+						var = race
+						value = 15
+					}
+
+					log = "[?this.GetEquipmentType] equipment type for [?this.GetRace] race" #debug
+					count_race_equipped = yes
+					
+					clear_variable = race_equipment_type
+					clear_variable = race
+				}
+			}
+
+			# Selection bar
 			button_pony_click = {
 			add_to_variable = { pony_menu = 1 }
 			clear_variable = crystal_menu

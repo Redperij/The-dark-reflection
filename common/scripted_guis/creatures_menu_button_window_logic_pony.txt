@@ -14,18 +14,6 @@ scripted_gui = {
 		effects = {
 			equipment_earthpony_button_click = {
 				ROOT = {
-					#set_temp_variable = {
-					#	var = race_manpower
-					#	value = this.race_conscripts^2
-					#}
-					#set_temp_variable = {
-					#	var = race_equipment
-					#	value = this.num_equipment@infantry_equipment_hoof
-					#}
-					#set_temp_variable = {
-					#	var = race_equipped
-					#	value = 0
-					#}
 					set_variable = {
 						var = race_equipment_type
 						value = 1
@@ -62,7 +50,22 @@ scripted_gui = {
 				}
 			}
 			equipment_pegasus_button_click = {
+				ROOT = {
+					set_variable = {
+						var = race_equipment_type
+						value = 1
+					}
+					set_variable = {
+						var = race
+						value = 3
+					}
 
+					log = "[?this.GetEquipmentType] equipment type for [?this.GetRace] race" #debug
+					count_race_equipped = yes
+					
+					clear_variable = race_equipment_type
+					clear_variable = race
+				}
 			}
 			
 			# Selection bar

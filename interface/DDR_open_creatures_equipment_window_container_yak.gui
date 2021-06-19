@@ -23,7 +23,7 @@ guiTypes = {
 			position = { x = 260 y = 5 }
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
-			text = "Equipment selection menu for different creatures"
+			text = "EQUIPMENT_SELECTION_MENU_TEXT"
 			maxWidth = 10000
 			maxHeight = 20
 			format = left	
@@ -35,7 +35,7 @@ guiTypes = {
                 spriteType = "GFX_sort_button_100x29_2"
                 frame = 2
 			    buttonFont = "hoi_16mbs"
-			    buttonText = "Пони"
+			    buttonText = "PONIES"
 			    Orientation = "UPPER_LEFT"
                 }
                 buttonType = {
@@ -44,7 +44,7 @@ guiTypes = {
                 spriteType = "GFX_sort_button_100x29_2"
                 frame = 2
 			    buttonFont = "hoi_16mbs"
-			    buttonText = "Кристальные Пони"
+			    buttonText = "CRYSTAL_PONIES"
 			    Orientation = "UPPER_LEFT"
                 }
 				buttonType = {
@@ -53,7 +53,7 @@ guiTypes = {
 				spriteType = "GFX_sort_button_100x29_2"
 				frame = 2
 		        buttonFont = "hoi_16mbs"
-		        buttonText = "Копыта"
+		        buttonText = "HOOVES"
 		        Orientation = "UPPER_LEFT"
 			    }
 				buttonType = {
@@ -62,7 +62,7 @@ guiTypes = {
 				spriteType = "GFX_sort_button_100x29_2"
 				frame = 2
 				buttonFont = "hoi_16mbs"
-				buttonText = "Когти"
+				buttonText = "CLAWS"
 				Orientation = "UPPER_LEFT"
 				}
 				buttonType = {
@@ -71,7 +71,7 @@ guiTypes = {
 				spriteType = "GFX_sort_button_100x29_2"
 				frame = 2
 				buttonFont = "hoi_16mbs"
-				buttonText = "Лапы"
+				buttonText = "PAWS"
 				Orientation = "UPPER_LEFT"
 				}
 				buttonType = {
@@ -80,7 +80,7 @@ guiTypes = {
 				spriteType = "GFX_sort_button_100x29_2"
 				frame = 2
 				buttonFont = "hoi_16mbs"
-				buttonText = "Яки"
+				buttonText = "YAKS"
 				Orientation = "UPPER_LEFT"
 				}
 				buttonType = {
@@ -89,7 +89,7 @@ guiTypes = {
 				spriteType = "GFX_sort_button_100x29_2"
 				frame = 2
 				buttonFont = "hoi_16mbs"
-				buttonText = "Пингвины"
+				buttonText = "PENGUINS"
 				Orientation = "UPPER_LEFT"
 				}
 				buttonType = {
@@ -98,7 +98,7 @@ guiTypes = {
 				spriteType = "GFX_sort_button_100x29_2"
 				frame = 2
 				buttonFont = "hoi_16mbs"
-				buttonText = "Магическое"
+				buttonText = "MAGICAL"
 				Orientation = "UPPER_LEFT"
 				}
 				################################################################################################################ 1 панель
@@ -106,7 +106,7 @@ guiTypes = {
                 name = "species_yak_01"
                 position = { x = 70 y = 80 }
                 font = "hoi_18mbs"
-                text = "Яки" #[?pony_menu]
+                text = "YAKS"
                 maxWidth = 1000
                 maxHeight = 500
                 Orientation = "UPPER_LEFT"	
@@ -116,7 +116,7 @@ guiTypes = {
 				name = "equipment_yak_01"
 				position = { x = 70 y = 100 }
 				font = "hoi_16mbs"
-				text = "Экипировка: [?pony_menu]" 
+				text = "YAK_EQUIPMENT" 
 				maxWidth = 175
 				maxHeight = 500
 				Orientation = "UPPER_LEFT"	
@@ -124,20 +124,20 @@ guiTypes = {
 				format = right
 				}
 				buttonType = {
-				name = "equipment_yak_02"
+				name = "equipment_yak_button"
 				position = {x = 387 y = 92}
 				spriteType = "GFX_sort_button_100x29_2"
 				frame = 2
 				buttonFont = "hoi_16mbs"
-				buttonText = "Создать"
+				buttonText = "CREATE_BUTTON_TEXT"
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "creature_create_tooltip"
+				pdx_tooltip = "CREATURE_CREATE_TOOLTIP"
 				}
 				instantTextBoxType = {
 				name = "creaturespower_yak_01"
 				position = { x = 70 y = 120 }
 				font = "hoi_16mbs"
-				text = "Мобилизационный ресурс: [?pony_menu]" 
+				text = "YAK_CREATUREPOWER" 
 				maxWidth = 180
 				maxHeight = 500
 				Orientation = "UPPER_LEFT"	
@@ -149,13 +149,13 @@ guiTypes = {
 				quadTextureSprite = "GFX_generic_checkbox3"
 				clicksound = decisions_ui_button
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "creaturespowe_automation_tooltip" #Автоматизировать создание экипировки
+				pdx_tooltip = "CREATURESPOWER_AUTOMATION_TOOLTIP" #Автоматизировать создание экипировки
 				}
 				instantTextBoxType = {
 				name = "created_equipment_yak_01"
 				position = { x = 70 y = 140 }
 				font = "hoi_16mbs"
-				text = "Созданная экипировка: [?pony_menu]" 
+				text = "YAK_CREATED_EQUIPMENT" 
 				maxWidth = 175
 				maxHeight = 500
 				Orientation = "UPPER_LEFT"	
@@ -169,7 +169,7 @@ guiTypes = {
 			    spriteType = "GFX_sort_button_100x29_2"
                 frame = 2
 			    buttonFont = "hoi_16mbs"
-			    buttonText = "Закрыть"
+			    buttonText = "CLOSE_BUTTON_TEXT"
 			    clicksound = click_close
 			    pdx_tooltip = "CLOSE"
 			    Orientation = "UPPER_LEFT"

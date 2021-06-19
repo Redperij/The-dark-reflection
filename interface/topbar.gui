@@ -287,7 +287,7 @@ guiTypes = {
 		#	clicksound = click_close
 		#	oversound = ui_menu_over
 		#	shortcut = "k"
-		#	pdx_tooltip = "creatures_menu_button_tooltip"
+		#	pdx_tooltip = "CREATURES_MENU_BUTTON_TOOLTIP"
 		#}
 		
 		iconType ={

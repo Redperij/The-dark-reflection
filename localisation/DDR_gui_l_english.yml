@@ -1,9 +1,86 @@
 ﻿l_english:
 
-creatures_menu_button_tooltip:0 "Equipment menu for different creatures"
-creaturespowe_automation_tooltip:0 "Automate the creation of equipment"
-creature_create_tooltip:0 "Create equipment"
+CREATURES_MENU_BUTTON_TOOLTIP:0 "Equipment menu for different creatures"
+CREATURESPOWER_AUTOMATION_TOOLTIP:0 "Automate the creation of equipment"
+CREATURE_CREATE_TOOLTIP:0 "Create equipment"
+EQUIPMENT_SELECTION_MENU_TEXT:0 "Equipment selection menu for different creatures"
 
-EARTHPONY_EQUIPMENT:0 "Equipment: [?Root.num_equipment@infantry_equipment_hoof]"
+CREATE_BUTTON_TEXT:0 "Create"
+CLOSE_BUTTON_TEXT:0 "Close"
+
+PONIES:0 "Ponies"
+CRYSTAL_PONIES:0 "Crystal Ponies"
+HOOVES:0 "Hooves"
+CLAWS:0 "Claws"
+PAWS:0 "Paws"
+YAKS:0 "Yaks"
+PENGUINS:0 "Penguins"
+MAGICAL:0 "Magical"
+
+EARTHPONIES:0 "Earthponies"
+PEGASI:0 "Pegasi"
+UNICORNS:0 "Unicorns"
+GRIFFONS:0 "Griffons"
+DEERS:0 "Deers"
+THESTRALS:0 "Thestrals"
+DRAGONS:0 "Dragons"
+BEARS:0 "Bears"
+CHANGELINGS:0 "Changelings"
+PENGUINS:0 "Penguins"
+YAKS:0 "Yaks"
+DOGS:0 "Diamond Dogs"
+CRYSTAL_EARTHPONIES:0 "Crystal Earthponies"
+CRYSTAL_PEGASI:0 "Crystal Pegasi"
+CRYSTAL_UNICORNS:0 "Crystal Unicorns"
+
+HOOF_EQUIPMENT:0 "Equipment: [?Root.num_equipment@infantry_equipment_hoof]"
+MAGICAL_EQUIPMENT:0 "Equipment: [?Root.num_equipment@infantry_equipment_magical]"
+CLAW_EQUIPMENT:0 "Equipment: [?Root.num_equipment@infantry_equipment_claw]"
+PAW_EQUIPMENT:0 "Equipment: [?Root.num_equipment@infantry_equipment_paw]"
+YAK_EQUIPMENT:0 "Equipment: [?Root.num_equipment@infantry_equipment_yak]"
+PENGUIN_EQUIPMENT:0 "Equipment: [?Root.num_equipment@infantry_equipment_penguin]"
+
 EARTHPONY_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^2]"
 EARTHPONY_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_earthpony]"
+
+PEGASI_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^3]"
+PEGASI_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_pegasi]"
+
+UNICORN_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^4]"
+UNICORN_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_unicorn]"
+
+GRIFFON_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^5]"
+GRIFFON_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_griffon]"
+
+DEER_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^6]"
+DEER_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_deer]"
+
+THESTRAL_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^7]"
+THESTRAL_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_thestral]"
+
+DRAGON_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^8]"
+DRAGON_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_dragon]"
+
+BEAR_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^9]"
+BEAR_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_bear]"
+
+CHANGELING_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^10]"
+CHANGELING_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_changeling]"
+
+PENGUIN_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^11]"
+PENGUIN_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_penguin]"
+
+YAK_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^12]"
+YAK_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_yak]"
+
+DOG_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^13]"
+DOG_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_dog]"
+
+CRYSTAL_EARTHPONY_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^14]"
+CRYSTAL_EARTHPONY_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_crystal_earthpony]"
+
+CRYSTAL_PEGASI_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^15]"
+CRYSTAL_PEGASI_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_crystal_pegasi]"
+
+CRYSTAL_UNICORN_CREATUREPOWER:0 "Conscripts: [?Root.race_conscripts^16]"
+CRYSTAL_UNICORN_CREATED_EQUIPMENT:0 "Equipped: [?Root.num_equipment@infantry_equipped_crystal_unicorn]"
