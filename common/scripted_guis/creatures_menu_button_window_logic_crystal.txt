@@ -96,12 +96,60 @@ scripted_gui = {
 			add_to_variable = { magic_equipment_menu = 1 }
 			clear_variable = crystal_menu
 			}
+			equipment_crystal_earthpony_checkbox_blank_click = {
+			limit = { NOT = { has_variable = equipment_crystal_earthpony_checkbox_signed } }
+			set_variable = { equipment_crystal_earthpony_checkbox_signed = 1 }
+			clear_variable = equipment_crystal_earthpony_checkbox_blank
+			}
+			equipment_crystal_earthpony_checkbox_signed_click = {
+			limit = { NOT = { has_variable = equipment_crystal_earthpony_checkbox_blank } }
+			set_variable = { equipment_crystal_earthpony_checkbox_blank = 1 }
+			clear_variable = equipment_crystal_earthpony_checkbox_signed
+			}
+			equipment_crystal_unicorns_checkbox_blank_click = {
+			limit = { NOT = { has_variable = equipment_crystal_unicorn_checkbox_signed } }
+			set_variable = { equipment_crystal_unicorns_checkbox_signed = 1 }
+			clear_variable = equipment_crystal_unicorns_checkbox_blank
+			}
+			equipment_crystal_unicorns_checkbox_signed_click = {
+			limit = { NOT = { has_variable = equipment_crystal_unicorns_checkbox_blank } }
+			set_variable = { equipment_crystal_unicorns_checkbox_blank = 1 }
+			clear_variable = equipment_crystal_unicorns_checkbox_signed
+			}
+			equipment_crystal_pegasi_checkbox_blank_click = {
+			limit = { NOT = { has_variable = equipment_crystal_pegasi_checkbox_signed } }
+			set_variable = { equipment_crystal_pegasi_checkbox_signed = 1 }
+			clear_variable = equipment_crystal_pegasi_checkbox_blank
+			}
+			equipment_crystal_pegasi_checkbox_signed_click = {
+			limit = { NOT = { has_variable = equipment_crystal_pegasi_checkbox_blank } }
+			set_variable = { equipment_crystal_pegasi_checkbox_blank = 1 }
+			clear_variable = equipment_crystal_pegasi_checkbox_signed
+			}
 			button_close_click = {            
 				clear_variable = crystal_menu
 			}
 		}
         
 		triggers = {
+			equipment_crystal_earthpony_checkbox_blank_visible = {
+				has_variable = equipment_crystal_earthpony_checkbox_blank
+				}
+				equipment_crystal_earthpony_checkbox_signed_visible = {
+				has_variable = equipment_crystal_earthpony_checkbox_signed
+				}
+				equipment_crystal_unicorns_checkbox_blank_visible = {
+				has_variable = equipment_crystal_unicorns_checkbox_blank
+				}
+				equipment_crystal_unicorns_checkbox_signed_visible = {
+				has_variable = equipment_crystal_unicorns_checkbox_signed
+				}
+				equipment_crystal_pegasi_checkbox_blank_visible = {
+				has_variable = equipment_crystal_pegasi_checkbox_blank
+				}
+				equipment_crystal_pegasi_checkbox_signed_visible = {
+				has_variable = equipment_crystal_pegasi_checkbox_signed
+				}
         }
     }
 } 

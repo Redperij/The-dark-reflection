@@ -168,6 +168,31 @@ guiTypes = {
 		allwaystransparent = yes
 		format = right
 		}
+		instantTextBoxType = {
+		name = "set_amount_of_equipment_earthpony_window"
+		position = { x = 188 y = 175 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_EARTHPONY" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_earthpony_add_button"
+		position = {x = 280s y = 170}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_earthpony_remove_button"
+		position = {x =90 y = 170}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
 		################################################################################################################ 2 панель
 		instantTextBoxType = {
 		name = "species_unicorn_01"
@@ -234,6 +259,31 @@ guiTypes = {
 		Orientation = "UPPER_LEFT"	
 		allwaystransparent = yes
 		format = right
+		}
+		instantTextBoxType = {
+		name = "set_amount_of_equipment_unicorn_window"
+		position = { x = 890 y = 175 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_UNICORN" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_unicorn_add_button"
+		position = {x = 982 y = 170}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_unicorn_remove_button"
+		position = {x = 792 y = 170}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
 		}
 		#################################################################################################### 3 панель
 		instantTextBoxType = {
@@ -302,6 +352,31 @@ guiTypes = {
 		allwaystransparent = yes
 		format = right
 		}
+		instantTextBoxType = {
+		name = "set_amount_of_equipment_pegasus_window"
+		position = { x = 188 y = 540 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_PEGASUS" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_pegasus_add_button"
+		position = {x = 280s y = 535}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_pegasus_remove_button"
+		position = {x =90 y = 535}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
 		########################################################################################################### 4 панель
 		instantTextBoxType = {
 		name = "species_zmih_01"
@@ -324,14 +399,6 @@ guiTypes = {
 		allwaystransparent = yes
 		format = right
 		}
-		#editBoxType = {
-		#position = {x=1080 y=460}
-		#name = "equipment_zmih_02"
-		#font = "hoi_16mbs"
-		#borderSize = {x=10 y=10}	
-		#size = {x=70 y=30}
-		#text = "0.000"
-		#}
 		buttonType = {
 		name = "equipment_zmih_02"
 		position = {x = 1087 y = 462}
@@ -376,6 +443,31 @@ guiTypes = {
 		Orientation = "UPPER_LEFT"	
 		allwaystransparent = yes
 		format = right
+		}
+		instantTextBoxType = {
+		name = "set_amount_of_equipment_zmih_window"
+		position = { x = 890 y = 540 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_ZMIH" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_zmih_add_button"
+		position = {x = 982 y = 535}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_zmih_remove_button"
+		position = {x = 792 y = 535}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
 		}
 		########################################################################################################### кнопка закрытия панель
 		buttonType = {

@@ -52,6 +52,35 @@ scripted_gui = {
                     }
                     set_variable = { equipment_zmih_checkbox_blank = 1 }
                 }
+                ######################################################################## 1 вкладка
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_crystal_earthpony_checkbox_blank
+                            has_variable = equipment_crystal_earthpony_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_crystal_earthpony_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_crystal_unicorns_checkbox_blank
+                            has_variable = equipment_crystal_unicorns_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_crystal_unicorns_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_crystal_pegasi_checkbox_blank
+                            has_variable = equipment_crystal_pegasi_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_crystal_pegasi_checkbox_blank = 1 }
+                }
+                ######################################################################## 2 вкладка
 			}
 		}
         

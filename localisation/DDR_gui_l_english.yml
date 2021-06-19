@@ -8,6 +8,11 @@ EQUIPMENT_SELECTION_MENU_TEXT:0 "Equipment selection menu for different creature
 CREATE_BUTTON_TEXT:0 "Create"
 CLOSE_BUTTON_TEXT:0 "Close"
 
+SET_AMOUNT_OF_EQUIPMENT_EARTHPONY:0 "[?equipment_plan_earthpony]"
+SET_AMOUNT_OF_EQUIPMENT_UNICORN:0 "[?equipment_plan_unicorn]"
+SET_AMOUNT_OF_EQUIPMENT_PEGASUS:0 "[?equipment_plan_pegasus]"
+SET_AMOUNT_OF_EQUIPMENT_ZMIH:0 "[?equipment_plan_zmih]"
+
 PONIES:0 "Ponies"
 CRYSTAL_PONIES:0 "Crystal Ponies"
 HOOVES:0 "Hooves"
