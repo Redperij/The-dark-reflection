@@ -27,12 +27,12 @@ technologies = {
 
 		enable_equipments = {
 			melee_equipment_0
-			melee_equipment_hoof_0
-			melee_equipment_magical_0
-			melee_equipment_claw_0
-			melee_equipment_paw_0
-			melee_equipment_yak_0
-			melee_equipment_penguin_0
+			infantry_equipment_hoof_0
+			infantry_equipment_magical_0
+			infantry_equipment_claw_0
+			infantry_equipment_paw_0
+			infantry_equipment_yak_0
+			infantry_equipment_penguin_0
 		}
 
 		enable_subunits = {
@@ -70,12 +70,12 @@ technologies = {
 
 		enable_equipments = {
 			melee_equipment_1
-			melee_equipment_hoof_1
-			melee_equipment_magical_1
-			melee_equipment_claw_1
-			melee_equipment_paw_1
-			melee_equipment_yak_1
-			melee_equipment_penguin_1
+			infantry_equipment_hoof_1
+			infantry_equipment_magical_1
+			infantry_equipment_claw_1
+			infantry_equipment_paw_1
+			infantry_equipment_yak_1
+			infantry_equipment_penguin_1
 		}
 
 		research_cost = 0.5
@@ -104,12 +104,12 @@ technologies = {
 
 		enable_equipments = {
 			infantry_equipment_0
-			infantry_equipment_hoof_0
-			infantry_equipment_magical_0
-			infantry_equipment_claw_0
-			infantry_equipment_paw_0
-			infantry_equipment_yak_0
-			infantry_equipment_penguin_0
+			infantry_equipment_hoof_2
+			infantry_equipment_magical_2
+			infantry_equipment_claw_2
+			infantry_equipment_paw_2
+			infantry_equipment_yak_2
+			infantry_equipment_penguin_2
 		}
 
 		enable_subunits = {
@@ -156,12 +156,12 @@ technologies = {
 
 		enable_equipments = {
 			infantry_equipment_1
-			infantry_equipment_hoof_1
-			infantry_equipment_magical_1
-			infantry_equipment_claw_1
-			infantry_equipment_paw_1
-			infantry_equipment_yak_1
-			infantry_equipment_penguin_1
+			infantry_equipment_hoof_3
+			infantry_equipment_magical_3
+			infantry_equipment_claw_3
+			infantry_equipment_paw_3
+			infantry_equipment_yak_3
+			infantry_equipment_penguin_3
 		}
 
 		path = {
@@ -253,12 +253,12 @@ technologies = {
 
 		enable_equipments = {
 			infantry_equipment_2
-			infantry_equipment_hoof_2
-			infantry_equipment_magical_2
-			infantry_equipment_claw_2
-			infantry_equipment_paw_2
-			infantry_equipment_yak_2
-			infantry_equipment_penguin_2
+			infantry_equipment_hoof_4
+			infantry_equipment_magical_4
+			infantry_equipment_claw_4
+			infantry_equipment_paw_4
+			infantry_equipment_yak_4
+			infantry_equipment_penguin_4
 		}
 
 		path = {
@@ -673,12 +673,12 @@ technologies = {
 
 		enable_equipments = {
 			infantry_equipment_3
-			infantry_equipment_hoof_3
-			infantry_equipment_magical_3
-			infantry_equipment_claw_3
-			infantry_equipment_paw_3
-			infantry_equipment_yak_3
-			infantry_equipment_penguin_3
+			infantry_equipment_hoof_5
+			infantry_equipment_magical_5
+			infantry_equipment_claw_5
+			infantry_equipment_paw_5
+			infantry_equipment_yak_5
+			infantry_equipment_penguin_5
 		}
 
 		path = {
@@ -2681,12 +2681,12 @@ technologies = {
 
 		enable_equipments = {
 			infantry_equipment_x
-			infantry_equipment_hoof_x
-			infantry_equipment_magical_x
-			infantry_equipment_claw_x
-			infantry_equipment_paw_x
-			infantry_equipment_yak_x
-			infantry_equipment_penguin_x
+			infantry_equipment_hoof_6
+			infantry_equipment_magical_6
+			infantry_equipment_claw_6
+			infantry_equipment_paw_6
+			infantry_equipment_yak_6
+			infantry_equipment_penguin_6
 		}
 
 		path = {
@@ -2792,12 +2792,12 @@ technologies = {
 
 		enable_equipments = {
 			infantry_equipment_x_2
-			infantry_equipment_hoof_x_2
-			infantry_equipment_magical_x_2
-			infantry_equipment_claw_x_2
-			infantry_equipment_paw_x_2
-			infantry_equipment_yak_x_2
-			infantry_equipment_penguin_x_2
+			infantry_equipment_hoof_7
+			infantry_equipment_magical_7
+			infantry_equipment_claw_7
+			infantry_equipment_paw_7
+			infantry_equipment_yak_7
+			infantry_equipment_penguin_7
 		}
 
 		research_cost = 1.5

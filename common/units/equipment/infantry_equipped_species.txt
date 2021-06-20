@@ -666,1170 +666,1170 @@ equipments = {
 	}
 
 
-	melee_equipped_earthpony_hoof_0 = {
-		year = 800
-		archetype = infantry_equipped_earthpony
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_pegasi_hoof_0 = {
-		year = 800
-		archetype = infantry_equipped_pegasi
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_unicorn_hoof_0 = {
-		year = 800
-		archetype = infantry_equipped_unicorn
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_deer_hoof_0 = {
-		year = 800
-		archetype = infantry_equipped_deer
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_thestral_hoof_0 = {
-		year = 800
-		archetype = infantry_equipped_thestral
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_changeling_hoof_0 = {
-		year = 800
-		archetype = infantry_equipped_changeling
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_unicorn_magical_0 = {
-		year = 800
-		archetype = infantry_equipped_unicorn
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_changeling_magical_0 = {
-		year = 800
-		archetype = infantry_equipped_changeling
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_griffon_claw_0 = {
-		year = 800
-		archetype = infantry_equipped_griffon
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_dragon_claw_0 = {
-		year = 800
-		archetype = infantry_equipped_dragon
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_bear_paw_0 = {
-		year = 800
-		archetype = infantry_equipped_bear
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_dog_paw_0 = {
-		year = 800
-		archetype = infantry_equipped_dog
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_yak_0 = {
-		year = 800
-		archetype = infantry_equipped_yak
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_penguin_0 = {
-		year = 800
-		archetype = infantry_equipped_penguin
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_crystal_earthpony_hoof_0 = {
-		year = 800
-		archetype = infantry_equipped_crystal_earthpony
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_crystal_pegasi_hoof_0 = {
-		year = 800
-		archetype = infantry_equipped_crystal_pegasi
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_crystal_unicorn_hoof_0 = {
-		year = 800
-		archetype = infantry_equipped_crystal_unicorn
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_crystal_unicorn_magical_0 = {
-		year = 800
-		archetype = infantry_equipped_crystal_unicorn
-		is_buildable = no
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_earthpony_hoof_1 = {
-		year = 800
-		archetype = infantry_equipped_earthpony
-		is_buildable = no
-		parent = melee_equipped_earthpony_hoof_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_pegasi_hoof_1 = {
-		year = 800
-		archetype = infantry_equipped_pegasi
-		is_buildable = no
-		parent = melee_equipped_pegasi_hoof_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_unicorn_hoof_1 = {
-		year = 800
-		archetype = infantry_equipped_unicorn
-		is_buildable = no
-		parent = melee_equipped_unicorn_hoof_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_deer_hoof_1 = {
-		year = 800
-		archetype = infantry_equipped_deer
-		is_buildable = no
-		parent = melee_equipped_deer_hoof_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_thestral_hoof_1 = {
-		year = 800
-		archetype = infantry_equipped_thestral
-		is_buildable = no
-		parent = melee_equipped_thestral_hoof_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_changeling_hoof_1 = {
-		year = 800
-		archetype = infantry_equipped_changeling
-		is_buildable = no
-		parent = melee_equipped_changeling_hoof_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_unicorn_magical_1 = {
-		year = 800
-		archetype = infantry_equipped_unicorn
-		is_buildable = no
-		parent = melee_equipped_unicorn_magical_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_changeling_magical_1 = {
-		year = 800
-		archetype = infantry_equipped_changeling
-		is_buildable = no
-		parent = melee_equipped_changeling_magical_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_griffon_claw_1 = {
-		year = 800
-		archetype = infantry_equipped_griffon
-		is_buildable = no
-		parent = melee_equipped_griffon_claw_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_dragon_claw_1 = {
-		year = 800
-		archetype = infantry_equipped_dragon
-		is_buildable = no
-		parent = melee_equipped_dragon_claw_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_bear_paw_1 = {
-		year = 800
-		archetype = infantry_equipped_bear
-		is_buildable = no
-		parent = melee_equipped_bear_paw_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_dog_paw_1 = {
-		year = 800
-		archetype = infantry_equipped_dog
-		is_buildable = no
-		parent = melee_equipped_dog_paw_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_yak_1 = {
-		year = 800
-		archetype = infantry_equipped_yak
-		is_buildable = no
-		parent = melee_equipped_yak_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_penguin_1 = {
-		year = 800
-		archetype = infantry_equipped_penguin
-		is_buildable = no
-		parent = melee_equipped_penguin_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_crystal_earthpony_hoof_1 = {
-		year = 800
-		archetype = infantry_equipped_crystal_earthpony
-		is_buildable = no
-		parent = melee_equipped_crystal_earthpony_hoof_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_crystal_pegasi_hoof_1 = {
-		year = 800
-		archetype = infantry_equipped_crystal_pegasi
-		is_buildable = no
-		parent = melee_equipped_crystal_pegasi_hoof_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_crystal_unicorn_hoof_1 = {
-		year = 800
-		archetype = infantry_equipped_crystal_unicorn
-		is_buildable = no
-		parent = melee_equipped_crystal_unicorn_hoof_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipped_crystal_unicorn_magical_1 = {
-		year = 800
-		archetype = infantry_equipped_crystal_unicorn
-		is_buildable = no
-		parent = melee_equipped_crystal_unicorn_magical_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
-		hardness = 0.001
-		armor_value = 0.001
-		reliability = 0.6
-		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.4
-		resources = {
-			steel = 1
-		}
-	}
-
 	infantry_equipped_earthpony_hoof_0 = {
-		year = 989
-
+		year = 800
 		archetype = infantry_equipped_earthpony
 		is_buildable = no
-		parent = melee_equipped_earthpony_hoof_1
-
-		priority = 05
+		priority = 12
 		visual_level = 0
-		is_convertable = yes
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
 	}
 
 	infantry_equipped_pegasi_hoof_0 = {
+		year = 800
+		archetype = infantry_equipped_pegasi
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_unicorn_hoof_0 = {
+		year = 800
+		archetype = infantry_equipped_unicorn
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_deer_hoof_0 = {
+		year = 800
+		archetype = infantry_equipped_deer
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_thestral_hoof_0 = {
+		year = 800
+		archetype = infantry_equipped_thestral
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_changeling_hoof_0 = {
+		year = 800
+		archetype = infantry_equipped_changeling
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_unicorn_magical_0 = {
+		year = 800
+		archetype = infantry_equipped_unicorn
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_changeling_magical_0 = {
+		year = 800
+		archetype = infantry_equipped_changeling
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_griffon_claw_0 = {
+		year = 800
+		archetype = infantry_equipped_griffon
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_dragon_claw_0 = {
+		year = 800
+		archetype = infantry_equipped_dragon
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_bear_paw_0 = {
+		year = 800
+		archetype = infantry_equipped_bear
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_dog_paw_0 = {
+		year = 800
+		archetype = infantry_equipped_dog
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_yak_yak_0 = {
+		year = 800
+		archetype = infantry_equipped_yak
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_penguin_penguin_0 = {
+		year = 800
+		archetype = infantry_equipped_penguin
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_crystal_earthpony_hoof_0 = {
+		year = 800
+		archetype = infantry_equipped_crystal_earthpony
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_crystal_pegasi_hoof_0 = {
+		year = 800
+		archetype = infantry_equipped_crystal_pegasi
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_crystal_unicorn_hoof_0 = {
+		year = 800
+		archetype = infantry_equipped_crystal_unicorn
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_crystal_unicorn_magical_0 = {
+		year = 800
+		archetype = infantry_equipped_crystal_unicorn
+		is_buildable = no
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_earthpony_hoof_1 = {
+		year = 800
+		archetype = infantry_equipped_earthpony
+		is_buildable = no
+		parent = infantry_equipped_earthpony_hoof_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_pegasi_hoof_1 = {
+		year = 800
+		archetype = infantry_equipped_pegasi
+		is_buildable = no
+		parent = infantry_equipped_pegasi_hoof_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_unicorn_hoof_1 = {
+		year = 800
+		archetype = infantry_equipped_unicorn
+		is_buildable = no
+		parent = infantry_equipped_unicorn_hoof_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_deer_hoof_1 = {
+		year = 800
+		archetype = infantry_equipped_deer
+		is_buildable = no
+		parent = infantry_equipped_deer_hoof_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_thestral_hoof_1 = {
+		year = 800
+		archetype = infantry_equipped_thestral
+		is_buildable = no
+		parent = infantry_equipped_thestral_hoof_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_changeling_hoof_1 = {
+		year = 800
+		archetype = infantry_equipped_changeling
+		is_buildable = no
+		parent = infantry_equipped_changeling_hoof_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_unicorn_magical_1 = {
+		year = 800
+		archetype = infantry_equipped_unicorn
+		is_buildable = no
+		parent = infantry_equipped_unicorn_magical_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_changeling_magical_1 = {
+		year = 800
+		archetype = infantry_equipped_changeling
+		is_buildable = no
+		parent = infantry_equipped_changeling_magical_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_griffon_claw_1 = {
+		year = 800
+		archetype = infantry_equipped_griffon
+		is_buildable = no
+		parent = infantry_equipped_griffon_claw_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_dragon_claw_1 = {
+		year = 800
+		archetype = infantry_equipped_dragon
+		is_buildable = no
+		parent = infantry_equipped_dragon_claw_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_bear_paw_1 = {
+		year = 800
+		archetype = infantry_equipped_bear
+		is_buildable = no
+		parent = infantry_equipped_bear_paw_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_dog_paw_1 = {
+		year = 800
+		archetype = infantry_equipped_dog
+		is_buildable = no
+		parent = infantry_equipped_dog_paw_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_yak_yak_1 = {
+		year = 800
+		archetype = infantry_equipped_yak
+		is_buildable = no
+		parent = infantry_equipped_yak_yak_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_penguin_penguin_1 = {
+		year = 800
+		archetype = infantry_equipped_penguin
+		is_buildable = no
+		parent = infantry_equipped_penguin_penguin_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_crystal_earthpony_hoof_1 = {
+		year = 800
+		archetype = infantry_equipped_crystal_earthpony
+		is_buildable = no
+		parent = infantry_equipped_crystal_earthpony_hoof_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_crystal_pegasi_hoof_1 = {
+		year = 800
+		archetype = infantry_equipped_crystal_pegasi
+		is_buildable = no
+		parent = infantry_equipped_crystal_pegasi_hoof_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_crystal_unicorn_hoof_1 = {
+		year = 800
+		archetype = infantry_equipped_crystal_unicorn
+		is_buildable = no
+		parent = infantry_equipped_crystal_unicorn_hoof_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_crystal_unicorn_magical_1 = {
+		year = 800
+		archetype = infantry_equipped_crystal_unicorn
+		is_buildable = no
+		parent = infantry_equipped_crystal_unicorn_magical_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipped_earthpony_hoof_2 = {
+		year = 989
+
+		archetype = infantry_equipped_earthpony
+		is_buildable = no
+		parent = infantry_equipped_earthpony_hoof_1
+
+		priority = 05
+		visual_level = 0
+		is_convertable = yes
+	}
+
+	infantry_equipped_pegasi_hoof_2 = {
 		year = 989
 
 		archetype = infantry_equipped_pegasi
 		is_buildable = no
-		parent = melee_equipped_pegasi_hoof_1
+		parent = infantry_equipped_pegasi_hoof_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_unicorn_hoof_0 = {
+	infantry_equipped_unicorn_hoof_2 = {
 		year = 989
 
 		archetype = infantry_equipped_unicorn
 		is_buildable = no
-		parent = melee_equipped_unicorn_hoof_1
+		parent = infantry_equipped_unicorn_hoof_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_deer_hoof_0 = {
+	infantry_equipped_deer_hoof_2 = {
 		year = 989
 
 		archetype = infantry_equipped_deer
 		is_buildable = no
-		parent = melee_equipped_deer_hoof_1
+		parent = infantry_equipped_deer_hoof_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_thestral_hoof_0 = {
+	infantry_equipped_thestral_hoof_2 = {
 		year = 989
 
 		archetype = infantry_equipped_thestral
 		is_buildable = no
-		parent = melee_equipped_thestral_hoof_1
+		parent = infantry_equipped_thestral_hoof_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_changeling_hoof_0 = {
+	infantry_equipped_changeling_hoof_2 = {
 		year = 989
 
 		archetype = infantry_equipped_changeling
 		is_buildable = no
-		parent = melee_equipped_changeling_hoof_1
+		parent = infantry_equipped_changeling_hoof_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_unicorn_magical_0 = {
+	infantry_equipped_unicorn_magical_2 = {
 		year = 989
 
 		archetype = infantry_equipped_unicorn
 		is_buildable = no
-		parent = melee_equipped_unicorn_magical_1
+		parent = infantry_equipped_unicorn_magical_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_changeling_magical_0 = {
+	infantry_equipped_changeling_magical_2 = {
 		year = 989
 
 		archetype = infantry_equipped_changeling
 		is_buildable = no
-		parent = melee_equipped_changeling_magical_1
+		parent = infantry_equipped_changeling_magical_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_griffon_claw_0 = {
+	infantry_equipped_griffon_claw_2 = {
 		year = 989
 
 		archetype = infantry_equipped_griffon
 		is_buildable = no
-		parent = melee_equipped_griffon_claw_1
+		parent = infantry_equipped_griffon_claw_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_dragon_claw_0 = {
+	infantry_equipped_dragon_claw_2 = {
 		year = 989
 
 		archetype = infantry_equipped_dragon
 		is_buildable = no
-		parent = melee_equipped_dragon_claw_1
+		parent = infantry_equipped_dragon_claw_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_bear_paw_0 = {
+	infantry_equipped_bear_paw_2 = {
 		year = 989
 
 		archetype = infantry_equipped_bear
 		is_buildable = no
-		parent = melee_equipped_bear_paw_1
+		parent = infantry_equipped_bear_paw_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_dog_paw_0 = {
+	infantry_equipped_dog_paw_2 = {
 		year = 989
 
 		archetype = infantry_equipped_dog
 		is_buildable = no
-		parent = melee_equipped_dog_paw_1
+		parent = infantry_equipped_dog_paw_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_yak_0 = {
+	infantry_equipped_yak_yak_2 = {
 		year = 989
 
 		archetype = infantry_equipped_yak
 		is_buildable = no
-		parent = melee_equipped_yak_1
+		parent = infantry_equipped_yak_yak_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_penguin_0 = {
+	infantry_equipped_penguin_penguin_2 = {
 		year = 989
 
 		archetype = infantry_equipped_penguin
 		is_buildable = no
-		parent = melee_equipped_penguin_1
+		parent = infantry_equipped_penguin_penguin_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_earthpony_hoof_0 = {
+	infantry_equipped_crystal_earthpony_hoof_2 = {
 		year = 989
 
 		archetype = infantry_equipped_crystal_earthpony
 		is_buildable = no
-		parent = melee_equipped_crystal_earthpony_hoof_1
+		parent = infantry_equipped_crystal_earthpony_hoof_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_pegasi_hoof_0 = {
+	infantry_equipped_crystal_pegasi_hoof_2 = {
 		year = 989
 
 		archetype = infantry_equipped_crystal_pegasi
 		is_buildable = no
-		parent = melee_equipped_crystal_pegasi_hoof_1
+		parent = infantry_equipped_crystal_pegasi_hoof_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_unicorn_hoof_0 = {
+	infantry_equipped_crystal_unicorn_hoof_2 = {
 		year = 989
 
 		archetype = infantry_equipped_crystal_unicorn
 		is_buildable = no
-		parent = melee_equipped_crystal_unicorn_hoof_1
+		parent = infantry_equipped_crystal_unicorn_hoof_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_unicorn_magical_0 = {
+	infantry_equipped_crystal_unicorn_magical_2 = {
 		year = 989
 
 		archetype = infantry_equipped_crystal_unicorn
 		is_buildable = no
-		parent = melee_equipped_crystal_unicorn_magical_1
+		parent = infantry_equipped_crystal_unicorn_magical_1
 
 		priority = 05
 		visual_level = 0
@@ -1837,17 +1837,17 @@ equipments = {
 	}
 
 	# Regular infantry  1936
-	infantry_equipped_earthpony_hoof_1 = {
+	infantry_equipped_earthpony_hoof_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_earthpony
 		is_buildable = no
-		parent = infantry_equipped_earthpony_hoof_0
+		parent = infantry_equipped_earthpony_hoof_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_earthpony_hoof_0
+			infantry_equipped_earthpony_hoof_2
 		}
 
 		#Defensive Abilities
@@ -1864,17 +1864,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_pegasi_hoof_1 = {
+	infantry_equipped_pegasi_hoof_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_pegasi
 		is_buildable = no
-		parent = infantry_equipped_pegasi_hoof_0
+		parent = infantry_equipped_pegasi_hoof_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_pegasi_hoof_0
+			infantry_equipped_pegasi_hoof_2
 		}
 
 		#Defensive Abilities
@@ -1891,17 +1891,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_unicorn_hoof_1 = {
+	infantry_equipped_unicorn_hoof_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_unicorn
 		is_buildable = no
-		parent = infantry_equipped_unicorn_hoof_0
+		parent = infantry_equipped_unicorn_hoof_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_unicorn_hoof_0
+			infantry_equipped_unicorn_hoof_2
 		}
 
 		#Defensive Abilities
@@ -1918,17 +1918,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_deer_hoof_1 = {
+	infantry_equipped_deer_hoof_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_deer
 		is_buildable = no
-		parent = infantry_equipped_deer_hoof_0
+		parent = infantry_equipped_deer_hoof_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_deer_hoof_0
+			infantry_equipped_deer_hoof_2
 		}
 
 		#Defensive Abilities
@@ -1945,17 +1945,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_thestral_hoof_1 = {
+	infantry_equipped_thestral_hoof_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_thestral
 		is_buildable = no
-		parent = infantry_equipped_thestral_hoof_0
+		parent = infantry_equipped_thestral_hoof_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_thestral_hoof_0
+			infantry_equipped_thestral_hoof_2
 		}
 
 		#Defensive Abilities
@@ -1972,17 +1972,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_changeling_hoof_1 = {
+	infantry_equipped_changeling_hoof_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_changeling
 		is_buildable = no
-		parent = infantry_equipped_changeling_hoof_0
+		parent = infantry_equipped_changeling_hoof_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_changeling_hoof_0
+			infantry_equipped_changeling_hoof_2
 		}
 
 		#Defensive Abilities
@@ -1999,17 +1999,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_unicorn_magical_1 = {
+	infantry_equipped_unicorn_magical_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_unicorn
 		is_buildable = no
-		parent = infantry_equipped_unicorn_magical_0
+		parent = infantry_equipped_unicorn_magical_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_unicorn_magical_0
+			infantry_equipped_unicorn_magical_2
 		}
 
 		#Defensive Abilities
@@ -2026,17 +2026,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_changeling_magical_1 = {
+	infantry_equipped_changeling_magical_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_changeling
 		is_buildable = no
-		parent = infantry_equipped_changeling_magical_0
+		parent = infantry_equipped_changeling_magical_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_changeling_magical_0
+			infantry_equipped_changeling_magical_2
 		}
 
 		#Defensive Abilities
@@ -2053,17 +2053,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_griffon_claw_1 = {
+	infantry_equipped_griffon_claw_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_griffon
 		is_buildable = no
-		parent = infantry_equipped_griffon_claw_0
+		parent = infantry_equipped_griffon_claw_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_griffon_claw_0
+			infantry_equipped_griffon_claw_2
 		}
 
 		#Defensive Abilities
@@ -2080,17 +2080,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_dragon_claw_1 = {
+	infantry_equipped_dragon_claw_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_dragon
 		is_buildable = no
-		parent = infantry_equipped_dragon_claw_0
+		parent = infantry_equipped_dragon_claw_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_dragon_claw_0
+			infantry_equipped_dragon_claw_2
 		}
 
 		#Defensive Abilities
@@ -2107,17 +2107,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_bear_paw_1 = {
+	infantry_equipped_bear_paw_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_bear
 		is_buildable = no
-		parent = infantry_equipped_bear_paw_0
+		parent = infantry_equipped_bear_paw_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_bear_paw_0
+			infantry_equipped_bear_paw_2
 		}
 
 		#Defensive Abilities
@@ -2134,17 +2134,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_dog_paw_1 = {
+	infantry_equipped_dog_paw_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_dog
 		is_buildable = no
-		parent = infantry_equipped_dog_paw_0
+		parent = infantry_equipped_dog_paw_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_dog_paw_0
+			infantry_equipped_dog_paw_2
 		}
 
 		#Defensive Abilities
@@ -2161,17 +2161,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_yak_1 = {
+	infantry_equipped_yak_yak_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_yak
 		is_buildable = no
-		parent = infantry_equipped_yak_0
+		parent = infantry_equipped_yak_yak_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_yak_0
+			infantry_equipped_yak_yak_2
 		}
 
 		#Defensive Abilities
@@ -2188,17 +2188,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_penguin_1 = {
+	infantry_equipped_penguin_penguin_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_penguin
 		is_buildable = no
-		parent = infantry_equipped_penguin_0
+		parent = infantry_equipped_penguin_penguin_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_penguin_0
+			infantry_equipped_penguin_penguin_2
 		}
 
 		#Defensive Abilities
@@ -2215,17 +2215,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_earthpony_hoof_1 = {
+	infantry_equipped_crystal_earthpony_hoof_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_crystal_earthpony
 		is_buildable = no
-		parent = infantry_equipped_crystal_earthpony_hoof_0
+		parent = infantry_equipped_crystal_earthpony_hoof_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_crystal_earthpony_hoof_0
+			infantry_equipped_crystal_earthpony_hoof_2
 		}
 
 		#Defensive Abilities
@@ -2242,17 +2242,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_pegasi_hoof_1 = {
+	infantry_equipped_crystal_pegasi_hoof_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_crystal_pegasi
 		is_buildable = no
-		parent = infantry_equipped_crystal_pegasi_hoof_0
+		parent = infantry_equipped_crystal_pegasi_hoof_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_crystal_pegasi_hoof_0
+			infantry_equipped_crystal_pegasi_hoof_2
 		}
 
 		#Defensive Abilities
@@ -2269,17 +2269,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_unicorn_hoof_1 = {
+	infantry_equipped_crystal_unicorn_hoof_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_crystal_unicorn
 		is_buildable = no
-		parent = infantry_equipped_crystal_unicorn_hoof_0
+		parent = infantry_equipped_crystal_unicorn_hoof_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_crystal_unicorn_hoof_0
+			infantry_equipped_crystal_unicorn_hoof_2
 		}
 
 		#Defensive Abilities
@@ -2296,17 +2296,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_unicorn_magical_1 = {
+	infantry_equipped_crystal_unicorn_magical_3 = {
 		year = 1007
 
 		archetype = infantry_equipped_crystal_unicorn
 		is_buildable = no
-		parent = infantry_equipped_crystal_unicorn_magical_0
+		parent = infantry_equipped_crystal_unicorn_magical_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipped_crystal_unicorn_magical_0
+			infantry_equipped_crystal_unicorn_magical_2
 		}
 
 		#Defensive Abilities
@@ -2324,18 +2324,18 @@ equipments = {
 	}
 
 	# Improved weapons  ~1939
-	infantry_equipped_earthpony_hoof_2 = {
+	infantry_equipped_earthpony_hoof_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_earthpony
 		is_buildable = no
-		parent = infantry_equipped_earthpony_hoof_1
+		parent = infantry_equipped_earthpony_hoof_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_earthpony_hoof_0
-			infantry_equipped_earthpony_hoof_1
+			infantry_equipped_earthpony_hoof_2
+			infantry_equipped_earthpony_hoof_3
 		}
 
 		#Defensive Abilities
@@ -2355,18 +2355,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_pegasi_hoof_2 = {
+	infantry_equipped_pegasi_hoof_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_pegasi
 		is_buildable = no
-		parent = infantry_equipped_pegasi_hoof_1
+		parent = infantry_equipped_pegasi_hoof_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_pegasi_hoof_0
-			infantry_equipped_pegasi_hoof_1
+			infantry_equipped_pegasi_hoof_2
+			infantry_equipped_pegasi_hoof_3
 		}
 
 		#Defensive Abilities
@@ -2386,18 +2386,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_unicorn_hoof_2 = {
+	infantry_equipped_unicorn_hoof_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_unicorn
 		is_buildable = no
-		parent = infantry_equipped_unicorn_hoof_1
+		parent = infantry_equipped_unicorn_hoof_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_unicorn_hoof_0
-			infantry_equipped_unicorn_hoof_1
+			infantry_equipped_unicorn_hoof_2
+			infantry_equipped_unicorn_hoof_3
 		}
 
 		#Defensive Abilities
@@ -2417,18 +2417,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_deer_hoof_2 = {
+	infantry_equipped_deer_hoof_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_deer
 		is_buildable = no
-		parent = infantry_equipped_deer_hoof_1
+		parent = infantry_equipped_deer_hoof_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_deer_hoof_0
-			infantry_equipped_deer_hoof_1
+			infantry_equipped_deer_hoof_2
+			infantry_equipped_deer_hoof_3
 		}
 
 		#Defensive Abilities
@@ -2448,18 +2448,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_thestral_hoof_2 = {
+	infantry_equipped_thestral_hoof_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_thestral
 		is_buildable = no
-		parent = infantry_equipped_thestral_hoof_1
+		parent = infantry_equipped_thestral_hoof_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_thestral_hoof_0
-			infantry_equipped_thestral_hoof_1
+			infantry_equipped_thestral_hoof_2
+			infantry_equipped_thestral_hoof_3
 		}
 
 		#Defensive Abilities
@@ -2479,18 +2479,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_changeling_hoof_2 = {
+	infantry_equipped_changeling_hoof_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_changeling
 		is_buildable = no
-		parent = infantry_equipped_changeling_hoof_1
+		parent = infantry_equipped_changeling_hoof_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_changeling_hoof_0
-			infantry_equipped_changeling_hoof_1
+			infantry_equipped_changeling_hoof_2
+			infantry_equipped_changeling_hoof_3
 		}
 
 		#Defensive Abilities
@@ -2510,18 +2510,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_unicorn_magical_2 = {
+	infantry_equipped_unicorn_magical_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_unicorn
 		is_buildable = no
-		parent = infantry_equipped_unicorn_magical_1
+		parent = infantry_equipped_unicorn_magical_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_unicorn_magical_0
-			infantry_equipped_unicorn_magical_1
+			infantry_equipped_unicorn_magical_2
+			infantry_equipped_unicorn_magical_3
 		}
 
 		#Defensive Abilities
@@ -2541,18 +2541,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_changeling_magical_2 = {
+	infantry_equipped_changeling_magical_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_changeling
 		is_buildable = no
-		parent = infantry_equipped_changeling_magical_1
+		parent = infantry_equipped_changeling_magical_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_changeling_magical_0
-			infantry_equipped_changeling_magical_1
+			infantry_equipped_changeling_magical_2
+			infantry_equipped_changeling_magical_3
 		}
 
 		#Defensive Abilities
@@ -2572,18 +2572,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_griffon_claw_2 = {
+	infantry_equipped_griffon_claw_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_griffon
 		is_buildable = no
-		parent = infantry_equipped_griffon_claw_1
+		parent = infantry_equipped_griffon_claw_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_griffon_claw_0
-			infantry_equipped_griffon_claw_1
+			infantry_equipped_griffon_claw_2
+			infantry_equipped_griffon_claw_3
 		}
 
 		#Defensive Abilities
@@ -2603,18 +2603,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_dragon_claw_2 = {
+	infantry_equipped_dragon_claw_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_dragon
 		is_buildable = no
-		parent = infantry_equipped_dragon_claw_1
+		parent = infantry_equipped_dragon_claw_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_dragon_claw_0
-			infantry_equipped_dragon_claw_1
+			infantry_equipped_dragon_claw_2
+			infantry_equipped_dragon_claw_3
 		}
 
 		#Defensive Abilities
@@ -2634,18 +2634,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_bear_paw_2 = {
+	infantry_equipped_bear_paw_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_bear
 		is_buildable = no
-		parent = infantry_equipped_bear_paw_1
+		parent = infantry_equipped_bear_paw_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_bear_paw_0
-			infantry_equipped_bear_paw_1
+			infantry_equipped_bear_paw_2
+			infantry_equipped_bear_paw_3
 		}
 
 		#Defensive Abilities
@@ -2665,18 +2665,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_dog_paw_2 = {
+	infantry_equipped_dog_paw_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_dog
 		is_buildable = no
-		parent = infantry_equipped_dog_paw_1
+		parent = infantry_equipped_dog_paw_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_dog_paw_0
-			infantry_equipped_dog_paw_1
+			infantry_equipped_dog_paw_2
+			infantry_equipped_dog_paw_3
 		}
 
 		#Defensive Abilities
@@ -2696,18 +2696,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_yak_2 = {
+	infantry_equipped_yak_yak_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_yak
 		is_buildable = no
-		parent = infantry_equipped_yak_1
+		parent = infantry_equipped_yak_yak_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_yak_0
-			infantry_equipped_yak_1
+			infantry_equipped_yak_yak_2
+			infantry_equipped_yak_yak_3
 		}
 
 		#Defensive Abilities
@@ -2727,18 +2727,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_penguin_2 = {
+	infantry_equipped_penguin_penguin_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_penguin
 		is_buildable = no
-		parent = infantry_equipped_penguin_1
+		parent = infantry_equipped_penguin_penguin_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_penguin_0
-			infantry_equipped_penguin_1
+			infantry_equipped_penguin_penguin_2
+			infantry_equipped_penguin_penguin_3
 		}
 
 		#Defensive Abilities
@@ -2758,18 +2758,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_earthpony_hoof_2 = {
+	infantry_equipped_crystal_earthpony_hoof_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_crystal_earthpony
 		is_buildable = no
-		parent = infantry_equipped_crystal_earthpony_hoof_1
+		parent = infantry_equipped_crystal_earthpony_hoof_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_crystal_earthpony_hoof_0
-			infantry_equipped_crystal_earthpony_hoof_1
+			infantry_equipped_crystal_earthpony_hoof_2
+			infantry_equipped_crystal_earthpony_hoof_3
 		}
 
 		#Defensive Abilities
@@ -2789,18 +2789,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_pegasi_hoof_2 = {
+	infantry_equipped_crystal_pegasi_hoof_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_crystal_pegasi
 		is_buildable = no
-		parent = infantry_equipped_crystal_pegasi_hoof_1
+		parent = infantry_equipped_crystal_pegasi_hoof_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_crystal_pegasi_hoof_0
-			infantry_equipped_crystal_pegasi_hoof_1
+			infantry_equipped_crystal_pegasi_hoof_2
+			infantry_equipped_crystal_pegasi_hoof_3
 		}
 
 		#Defensive Abilities
@@ -2820,18 +2820,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_unicorn_hoof_2 = {
+	infantry_equipped_crystal_unicorn_hoof_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_crystal_unicorn
 		is_buildable = no
-		parent = infantry_equipped_crystal_unicorn_hoof_1
+		parent = infantry_equipped_crystal_unicorn_hoof_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_crystal_unicorn_hoof_0
-			infantry_equipped_crystal_unicorn_hoof_1
+			infantry_equipped_crystal_unicorn_hoof_2
+			infantry_equipped_crystal_unicorn_hoof_3
 		}
 
 		#Defensive Abilities
@@ -2851,18 +2851,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_unicorn_magical_2 = {
+	infantry_equipped_crystal_unicorn_magical_4 = {
 		year = 1010
 
 		archetype = infantry_equipped_crystal_unicorn
 		is_buildable = no
-		parent = infantry_equipped_crystal_unicorn_magical_1
+		parent = infantry_equipped_crystal_unicorn_magical_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipped_crystal_unicorn_magical_0
-			infantry_equipped_crystal_unicorn_magical_1
+			infantry_equipped_crystal_unicorn_magical_2
+			infantry_equipped_crystal_unicorn_magical_3
 		}
 
 		#Defensive Abilities
@@ -2883,18 +2883,18 @@ equipments = {
 	}
 
 	# Advanced weapons  ~1942
-	infantry_equipped_earthpony_hoof_3 = {
+	infantry_equipped_earthpony_hoof_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_earthpony
 		is_buildable = no
-		parent = infantry_equipped_earthpony_hoof_2
+		parent = infantry_equipped_earthpony_hoof_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_earthpony_hoof_1
-			infantry_equipped_earthpony_hoof_2
+			infantry_equipped_earthpony_hoof_3
+			infantry_equipped_earthpony_hoof_4
 		}
 
 		#Defensive Abilities
@@ -2915,18 +2915,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_pegasi_hoof_3 = {
+	infantry_equipped_pegasi_hoof_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_pegasi
 		is_buildable = no
-		parent = infantry_equipped_pegasi_hoof_2
+		parent = infantry_equipped_pegasi_hoof_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_pegasi_hoof_1
-			infantry_equipped_pegasi_hoof_2
+			infantry_equipped_pegasi_hoof_3
+			infantry_equipped_pegasi_hoof_4
 		}
 
 		#Defensive Abilities
@@ -2947,18 +2947,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_unicorn_hoof_3 = {
+	infantry_equipped_unicorn_hoof_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_unicorn
 		is_buildable = no
-		parent = infantry_equipped_unicorn_hoof_2
+		parent = infantry_equipped_unicorn_hoof_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_unicorn_hoof_1
-			infantry_equipped_unicorn_hoof_2
+			infantry_equipped_unicorn_hoof_3
+			infantry_equipped_unicorn_hoof_4
 		}
 
 		#Defensive Abilities
@@ -2979,18 +2979,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_deer_hoof_3 = {
+	infantry_equipped_deer_hoof_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_deer
 		is_buildable = no
-		parent = infantry_equipped_deer_hoof_2
+		parent = infantry_equipped_deer_hoof_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_deer_hoof_1
-			infantry_equipped_deer_hoof_2
+			infantry_equipped_deer_hoof_3
+			infantry_equipped_deer_hoof_4
 		}
 
 		#Defensive Abilities
@@ -3011,18 +3011,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_thestral_hoof_3 = {
+	infantry_equipped_thestral_hoof_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_thestral
 		is_buildable = no
-		parent = infantry_equipped_thestral_hoof_2
+		parent = infantry_equipped_thestral_hoof_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_thestral_hoof_1
-			infantry_equipped_thestral_hoof_2
+			infantry_equipped_thestral_hoof_3
+			infantry_equipped_thestral_hoof_4
 		}
 
 		#Defensive Abilities
@@ -3043,18 +3043,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_changeling_hoof_3 = {
+	infantry_equipped_changeling_hoof_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_changeling
 		is_buildable = no
-		parent = infantry_equipped_changeling_hoof_2
+		parent = infantry_equipped_changeling_hoof_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_changeling_hoof_1
-			infantry_equipped_changeling_hoof_2
+			infantry_equipped_changeling_hoof_3
+			infantry_equipped_changeling_hoof_4
 		}
 
 		#Defensive Abilities
@@ -3075,18 +3075,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_unicorn_magical_3 = {
+	infantry_equipped_unicorn_magical_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_unicorn
 		is_buildable = no
-		parent = infantry_equipped_unicorn_magical_2
+		parent = infantry_equipped_unicorn_magical_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_unicorn_magical_1
-			infantry_equipped_unicorn_magical_2
+			infantry_equipped_unicorn_magical_3
+			infantry_equipped_unicorn_magical_4
 		}
 
 		#Defensive Abilities
@@ -3107,18 +3107,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_changeling_magical_3 = {
+	infantry_equipped_changeling_magical_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_changeling
 		is_buildable = no
-		parent = infantry_equipped_changeling_magical_2
+		parent = infantry_equipped_changeling_magical_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_changeling_magical_1
-			infantry_equipped_changeling_magical_2
+			infantry_equipped_changeling_magical_3
+			infantry_equipped_changeling_magical_4
 		}
 
 		#Defensive Abilities
@@ -3139,18 +3139,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_griffon_claw_3 = {
+	infantry_equipped_griffon_claw_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_griffon
 		is_buildable = no
-		parent = infantry_equipped_griffon_claw_2
+		parent = infantry_equipped_griffon_claw_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_griffon_claw_1
-			infantry_equipped_griffon_claw_2
+			infantry_equipped_griffon_claw_3
+			infantry_equipped_griffon_claw_4
 		}
 
 		#Defensive Abilities
@@ -3171,18 +3171,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_dragon_claw_3 = {
+	infantry_equipped_dragon_claw_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_dragon
 		is_buildable = no
-		parent = infantry_equipped_dragon_claw_2
+		parent = infantry_equipped_dragon_claw_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_dragon_claw_1
-			infantry_equipped_dragon_claw_2
+			infantry_equipped_dragon_claw_3
+			infantry_equipped_dragon_claw_4
 		}
 
 		#Defensive Abilities
@@ -3203,18 +3203,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_bear_paw_3 = {
+	infantry_equipped_bear_paw_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_bear
 		is_buildable = no
-		parent = infantry_equipped_bear_paw_2
+		parent = infantry_equipped_bear_paw_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_bear_paw_1
-			infantry_equipped_bear_paw_2
+			infantry_equipped_bear_paw_3
+			infantry_equipped_bear_paw_4
 		}
 
 		#Defensive Abilities
@@ -3235,18 +3235,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_dog_paw_3 = {
+	infantry_equipped_dog_paw_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_dog
 		is_buildable = no
-		parent = infantry_equipped_dog_paw_2
+		parent = infantry_equipped_dog_paw_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_dog_paw_1
-			infantry_equipped_dog_paw_2
+			infantry_equipped_dog_paw_3
+			infantry_equipped_dog_paw_4
 		}
 
 		#Defensive Abilities
@@ -3267,18 +3267,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_yak_3 = {
+	infantry_equipped_yak_yak_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_yak
 		is_buildable = no
-		parent = infantry_equipped_yak_2
+		parent = infantry_equipped_yak_yak_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_yak_1
-			infantry_equipped_yak_2
+			infantry_equipped_yak_yak_3
+			infantry_equipped_yak_yak_4
 		}
 
 		#Defensive Abilities
@@ -3299,18 +3299,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_penguin_3 = {
+	infantry_equipped_penguin_penguin_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_penguin
 		is_buildable = no
-		parent = infantry_equipped_penguin_2
+		parent = infantry_equipped_penguin_penguin_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_penguin_1
-			infantry_equipped_penguin_2
+			infantry_equipped_penguin_penguin_3
+			infantry_equipped_penguin_penguin_4
 		}
 
 		#Defensive Abilities
@@ -3331,18 +3331,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_earthpony_hoof_3 = {
+	infantry_equipped_crystal_earthpony_hoof_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_crystal_earthpony
 		is_buildable = no
-		parent = infantry_equipped_crystal_earthpony_hoof_2
+		parent = infantry_equipped_crystal_earthpony_hoof_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_crystal_earthpony_hoof_1
-			infantry_equipped_crystal_earthpony_hoof_2
+			infantry_equipped_crystal_earthpony_hoof_3
+			infantry_equipped_crystal_earthpony_hoof_4
 		}
 
 		#Defensive Abilities
@@ -3363,18 +3363,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_pegasi_hoof_3 = {
+	infantry_equipped_crystal_pegasi_hoof_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_crystal_pegasi
 		is_buildable = no
-		parent = infantry_equipped_crystal_pegasi_hoof_2
+		parent = infantry_equipped_crystal_pegasi_hoof_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_crystal_pegasi_hoof_1
-			infantry_equipped_crystal_pegasi_hoof_2
+			infantry_equipped_crystal_pegasi_hoof_3
+			infantry_equipped_crystal_pegasi_hoof_4
 		}
 
 		#Defensive Abilities
@@ -3395,18 +3395,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_unicorn_hoof_3 = {
+	infantry_equipped_crystal_unicorn_hoof_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_crystal_unicorn
 		is_buildable = no
-		parent = infantry_equipped_crystal_unicorn_hoof_2
+		parent = infantry_equipped_crystal_unicorn_hoof_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_crystal_unicorn_hoof_1
-			infantry_equipped_crystal_unicorn_hoof_2
+			infantry_equipped_crystal_unicorn_hoof_3
+			infantry_equipped_crystal_unicorn_hoof_4
 		}
 
 		#Defensive Abilities
@@ -3427,18 +3427,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_unicorn_magical_3 = {
+	infantry_equipped_crystal_unicorn_magical_5 = {
 		year = 1013
 
 		archetype = infantry_equipped_crystal_unicorn
 		is_buildable = no
-		parent = infantry_equipped_crystal_unicorn_magical_2
+		parent = infantry_equipped_crystal_unicorn_magical_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_crystal_unicorn_magical_1
-			infantry_equipped_crystal_unicorn_magical_2
+			infantry_equipped_crystal_unicorn_magical_3
+			infantry_equipped_crystal_unicorn_magical_4
 		}
 
 		#Defensive Abilities
@@ -3460,18 +3460,18 @@ equipments = {
 	}
 
 	###------> New Infantry Equipment   <><> <><> <><> <><> <><>
-	infantry_equipped_earthpony_hoof_x = {
+	infantry_equipped_earthpony_hoof_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_earthpony
 		is_buildable = no
-		parent = infantry_equipped_earthpony_hoof_3
+		parent = infantry_equipped_earthpony_hoof_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_earthpony_hoof_2
-			infantry_equipped_earthpony_hoof_3
+			infantry_equipped_earthpony_hoof_4
+			infantry_equipped_earthpony_hoof_5
 		}
 
 		#Defensive Abilities
@@ -3492,18 +3492,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_pegasi_hoof_x = {
+	infantry_equipped_pegasi_hoof_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_pegasi
 		is_buildable = no
-		parent = infantry_equipped_pegasi_hoof_3
+		parent = infantry_equipped_pegasi_hoof_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_pegasi_hoof_2
-			infantry_equipped_pegasi_hoof_3
+			infantry_equipped_pegasi_hoof_4
+			infantry_equipped_pegasi_hoof_5
 		}
 
 		#Defensive Abilities
@@ -3524,18 +3524,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_unicorn_hoof_x = {
+	infantry_equipped_unicorn_hoof_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_unicorn
 		is_buildable = no
-		parent = infantry_equipped_unicorn_hoof_3
+		parent = infantry_equipped_unicorn_hoof_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_unicorn_hoof_2
-			infantry_equipped_unicorn_hoof_3
+			infantry_equipped_unicorn_hoof_4
+			infantry_equipped_unicorn_hoof_5
 		}
 
 		#Defensive Abilities
@@ -3556,18 +3556,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_deer_hoof_x = {
+	infantry_equipped_deer_hoof_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_deer
 		is_buildable = no
-		parent = infantry_equipped_deer_hoof_3
+		parent = infantry_equipped_deer_hoof_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_deer_hoof_2
-			infantry_equipped_deer_hoof_3
+			infantry_equipped_deer_hoof_4
+			infantry_equipped_deer_hoof_5
 		}
 
 		#Defensive Abilities
@@ -3588,18 +3588,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_thestral_hoof_x = {
+	infantry_equipped_thestral_hoof_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_thestral
 		is_buildable = no
-		parent = infantry_equipped_thestral_hoof_3
+		parent = infantry_equipped_thestral_hoof_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_thestral_hoof_2
-			infantry_equipped_thestral_hoof_3
+			infantry_equipped_thestral_hoof_4
+			infantry_equipped_thestral_hoof_5
 		}
 
 		#Defensive Abilities
@@ -3620,18 +3620,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_changeling_hoof_x = {
+	infantry_equipped_changeling_hoof_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_changeling
 		is_buildable = no
-		parent = infantry_equipped_changeling_hoof_3
+		parent = infantry_equipped_changeling_hoof_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_changeling_hoof_2
-			infantry_equipped_changeling_hoof_3
+			infantry_equipped_changeling_hoof_4
+			infantry_equipped_changeling_hoof_5
 		}
 
 		#Defensive Abilities
@@ -3652,18 +3652,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_unicorn_magical_x = {
+	infantry_equipped_unicorn_magical_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_unicorn
 		is_buildable = no
-		parent = infantry_equipped_unicorn_magical_3
+		parent = infantry_equipped_unicorn_magical_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_unicorn_magical_2
-			infantry_equipped_unicorn_magical_3
+			infantry_equipped_unicorn_magical_4
+			infantry_equipped_unicorn_magical_5
 		}
 
 		#Defensive Abilities
@@ -3684,18 +3684,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_changeling_magical_x = {
+	infantry_equipped_changeling_magical_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_changeling
 		is_buildable = no
-		parent = infantry_equipped_changeling_magical_3
+		parent = infantry_equipped_changeling_magical_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_changeling_magical_2
-			infantry_equipped_changeling_magical_3
+			infantry_equipped_changeling_magical_4
+			infantry_equipped_changeling_magical_5
 		}
 
 		#Defensive Abilities
@@ -3716,18 +3716,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_griffon_claw_x = {
+	infantry_equipped_griffon_claw_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_griffon
 		is_buildable = no
-		parent = infantry_equipped_griffon_claw_3
+		parent = infantry_equipped_griffon_claw_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_griffon_claw_2
-			infantry_equipped_griffon_claw_3
+			infantry_equipped_griffon_claw_4
+			infantry_equipped_griffon_claw_5
 		}
 
 		#Defensive Abilities
@@ -3748,18 +3748,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_dragon_claw_x = {
+	infantry_equipped_dragon_claw_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_dragon
 		is_buildable = no
-		parent = infantry_equipped_dragon_claw_3
+		parent = infantry_equipped_dragon_claw_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_dragon_claw_2
-			infantry_equipped_dragon_claw_3
+			infantry_equipped_dragon_claw_4
+			infantry_equipped_dragon_claw_5
 		}
 
 		#Defensive Abilities
@@ -3780,18 +3780,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_bear_paw_x = {
+	infantry_equipped_bear_paw_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_bear
 		is_buildable = no
-		parent = infantry_equipped_bear_paw_3
+		parent = infantry_equipped_bear_paw_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_bear_paw_2
-			infantry_equipped_bear_paw_3
+			infantry_equipped_bear_paw_4
+			infantry_equipped_bear_paw_5
 		}
 
 		#Defensive Abilities
@@ -3812,18 +3812,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_dog_paw_x = {
+	infantry_equipped_dog_paw_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_dog
 		is_buildable = no
-		parent = infantry_equipped_dog_paw_3
+		parent = infantry_equipped_dog_paw_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_dog_paw_2
-			infantry_equipped_dog_paw_3
+			infantry_equipped_dog_paw_4
+			infantry_equipped_dog_paw_5
 		}
 
 		#Defensive Abilities
@@ -3844,18 +3844,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_yak_x = {
+	infantry_equipped_yak_yak_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_yak
 		is_buildable = no
-		parent = infantry_equipped_yak_3
+		parent = infantry_equipped_yak_yak_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_yak_2
-			infantry_equipped_yak_3
+			infantry_equipped_yak_yak_4
+			infantry_equipped_yak_yak_5
 		}
 
 		#Defensive Abilities
@@ -3876,18 +3876,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_penguin_x = {
+	infantry_equipped_penguin_penguin_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_penguin
 		is_buildable = no
-		parent = infantry_equipped_penguin_3
+		parent = infantry_equipped_penguin_penguin_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_penguin_2
-			infantry_equipped_penguin_3
+			infantry_equipped_penguin_penguin_4
+			infantry_equipped_penguin_penguin_5
 		}
 
 		#Defensive Abilities
@@ -3908,18 +3908,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_earthpony_hoof_x = {
+	infantry_equipped_crystal_earthpony_hoof_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_crystal_earthpony
 		is_buildable = no
-		parent = infantry_equipped_crystal_earthpony_hoof_3
+		parent = infantry_equipped_crystal_earthpony_hoof_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_crystal_earthpony_hoof_2
-			infantry_equipped_crystal_earthpony_hoof_3
+			infantry_equipped_crystal_earthpony_hoof_4
+			infantry_equipped_crystal_earthpony_hoof_5
 		}
 
 		#Defensive Abilities
@@ -3940,18 +3940,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_pegasi_hoof_x = {
+	infantry_equipped_crystal_pegasi_hoof_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_crystal_pegasi
 		is_buildable = no
-		parent = infantry_equipped_crystal_pegasi_hoof_3
+		parent = infantry_equipped_crystal_pegasi_hoof_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_crystal_pegasi_hoof_2
-			infantry_equipped_crystal_pegasi_hoof_3
+			infantry_equipped_crystal_pegasi_hoof_4
+			infantry_equipped_crystal_pegasi_hoof_5
 		}
 
 		#Defensive Abilities
@@ -3972,18 +3972,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_unicorn_hoof_x = {
+	infantry_equipped_crystal_unicorn_hoof_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_crystal_unicorn
 		is_buildable = no
-		parent = infantry_equipped_crystal_unicorn_hoof_3
+		parent = infantry_equipped_crystal_unicorn_hoof_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_crystal_unicorn_hoof_2
-			infantry_equipped_crystal_unicorn_hoof_3
+			infantry_equipped_crystal_unicorn_hoof_4
+			infantry_equipped_crystal_unicorn_hoof_5
 		}
 
 		#Defensive Abilities
@@ -4004,18 +4004,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_crystal_unicorn_magical_x = {
+	infantry_equipped_crystal_unicorn_magical_6 = {
 		year = 1019
 
 		archetype = infantry_equipped_crystal_unicorn
 		is_buildable = no
-		parent = infantry_equipped_crystal_unicorn_magical_3
+		parent = infantry_equipped_crystal_unicorn_magical_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_crystal_unicorn_magical_2
-			infantry_equipped_crystal_unicorn_magical_3
+			infantry_equipped_crystal_unicorn_magical_4
+			infantry_equipped_crystal_unicorn_magical_5
 		}
 
 		#Defensive Abilities
@@ -4036,18 +4036,18 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipped_earthpony_hoof_x_2 = {
+	infantry_equipped_earthpony_hoof_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_earthpony
 		is_buildable = no
-		parent = infantry_equipped_earthpony_hoof_x
+		parent = infantry_equipped_earthpony_hoof_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_earthpony_hoof_3
-			infantry_equipped_earthpony_hoof_x
+			infantry_equipped_earthpony_hoof_5
+			infantry_equipped_earthpony_hoof_6
 		}
 
 		#Defensive Abilities
@@ -4067,18 +4067,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_pegasi_hoof_x_2 = {
+	infantry_equipped_pegasi_hoof_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_pegasi
 		is_buildable = no
-		parent = infantry_equipped_pegasi_hoof_x
+		parent = infantry_equipped_pegasi_hoof_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_pegasi_hoof_3
-			infantry_equipped_pegasi_hoof_x
+			infantry_equipped_pegasi_hoof_5
+			infantry_equipped_pegasi_hoof_6
 		}
 
 		#Defensive Abilities
@@ -4098,18 +4098,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_unicorn_hoof_x_2 = {
+	infantry_equipped_unicorn_hoof_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_unicorn
 		is_buildable = no
-		parent = infantry_equipped_unicorn_hoof_x
+		parent = infantry_equipped_unicorn_hoof_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_unicorn_hoof_3
-			infantry_equipped_unicorn_hoof_x
+			infantry_equipped_unicorn_hoof_5
+			infantry_equipped_unicorn_hoof_6
 		}
 
 		#Defensive Abilities
@@ -4129,18 +4129,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_deer_hoof_x_2 = {
+	infantry_equipped_deer_hoof_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_deer
 		is_buildable = no
-		parent = infantry_equipped_deer_hoof_x
+		parent = infantry_equipped_deer_hoof_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_deer_hoof_3
-			infantry_equipped_deer_hoof_x
+			infantry_equipped_deer_hoof_5
+			infantry_equipped_deer_hoof_6
 		}
 
 		#Defensive Abilities
@@ -4160,18 +4160,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_thestral_hoof_x_2 = {
+	infantry_equipped_thestral_hoof_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_thestral
 		is_buildable = no
-		parent = infantry_equipped_thestral_hoof_x
+		parent = infantry_equipped_thestral_hoof_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_thestral_hoof_3
-			infantry_equipped_thestral_hoof_x
+			infantry_equipped_thestral_hoof_5
+			infantry_equipped_thestral_hoof_6
 		}
 
 		#Defensive Abilities
@@ -4191,18 +4191,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_changeling_hoof_x_2 = {
+	infantry_equipped_changeling_hoof_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_changeling
 		is_buildable = no
-		parent = infantry_equipped_changeling_hoof_x
+		parent = infantry_equipped_changeling_hoof_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_changeling_hoof_3
-			infantry_equipped_changeling_hoof_x
+			infantry_equipped_changeling_hoof_5
+			infantry_equipped_changeling_hoof_6
 		}
 
 		#Defensive Abilities
@@ -4222,18 +4222,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_unicorn_magical_x_2 = {
+	infantry_equipped_unicorn_magical_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_unicorn
 		is_buildable = no
-		parent = infantry_equipped_unicorn_magical_x
+		parent = infantry_equipped_unicorn_magical_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_unicorn_magical_3
-			infantry_equipped_unicorn_magical_x
+			infantry_equipped_unicorn_magical_5
+			infantry_equipped_unicorn_magical_6
 		}
 
 		#Defensive Abilities
@@ -4253,18 +4253,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_changeling_magical_x_2 = {
+	infantry_equipped_changeling_magical_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_changeling
 		is_buildable = no
-		parent = infantry_equipped_changeling_magical_x
+		parent = infantry_equipped_changeling_magical_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_changeling_magical_3
-			infantry_equipped_changeling_magical_x
+			infantry_equipped_changeling_magical_5
+			infantry_equipped_changeling_magical_6
 		}
 
 		#Defensive Abilities
@@ -4284,18 +4284,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_griffon_claw_x_2 = {
+	infantry_equipped_griffon_claw_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_griffon
 		is_buildable = no
-		parent = infantry_equipped_griffon_claw_x
+		parent = infantry_equipped_griffon_claw_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_griffon_claw_3
-			infantry_equipped_griffon_claw_x
+			infantry_equipped_griffon_claw_5
+			infantry_equipped_griffon_claw_6
 		}
 
 		#Defensive Abilities
@@ -4315,18 +4315,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_dragon_claw_x_2 = {
+	infantry_equipped_dragon_claw_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_dragon
 		is_buildable = no
-		parent = infantry_equipped_dragon_claw_x
+		parent = infantry_equipped_dragon_claw_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_dragon_claw_3
-			infantry_equipped_dragon_claw_x
+			infantry_equipped_dragon_claw_5
+			infantry_equipped_dragon_claw_6
 		}
 
 		#Defensive Abilities
@@ -4346,18 +4346,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_bear_paw_x_2 = {
+	infantry_equipped_bear_paw_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_bear
 		is_buildable = no
-		parent = infantry_equipped_bear_paw_x
+		parent = infantry_equipped_bear_paw_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_bear_paw_3
-			infantry_equipped_bear_paw_x
+			infantry_equipped_bear_paw_5
+			infantry_equipped_bear_paw_6
 		}
 
 		#Defensive Abilities
@@ -4377,18 +4377,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_dog_paw_x_2 = {
+	infantry_equipped_dog_paw_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_dog
 		is_buildable = no
-		parent = infantry_equipped_dog_paw_x
+		parent = infantry_equipped_dog_paw_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_dog_paw_3
-			infantry_equipped_dog_paw_x
+			infantry_equipped_dog_paw_5
+			infantry_equipped_dog_paw_6
 		}
 
 		#Defensive Abilities
@@ -4408,18 +4408,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_yak_x_2 = {
+	infantry_equipped_yak_yak_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_yak
 		is_buildable = no
-		parent = infantry_equipped_yak_x
+		parent = infantry_equipped_yak_yak_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_yak_3
-			infantry_equipped_yak_x
+			infantry_equipped_yak_yak_5
+			infantry_equipped_yak_yak_6
 		}
 
 		#Defensive Abilities
@@ -4439,18 +4439,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_penguin_x_2 = {
+	infantry_equipped_penguin_penguin_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_penguin
 		is_buildable = no
-		parent = infantry_equipped_penguin_x
+		parent = infantry_equipped_penguin_penguin_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_penguin_3
-			infantry_equipped_penguin_x
+			infantry_equipped_penguin_penguin_5
+			infantry_equipped_penguin_penguin_6
 		}
 
 		#Defensive Abilities
@@ -4470,18 +4470,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_crystal_earthpony_hoof_x_2 = {
+	infantry_equipped_crystal_earthpony_hoof_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_crystal_earthpony
 		is_buildable = no
-		parent = infantry_equipped_crystal_earthpony_hoof_x
+		parent = infantry_equipped_crystal_earthpony_hoof_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_crystal_earthpony_hoof_3
-			infantry_equipped_crystal_earthpony_hoof_x
+			infantry_equipped_crystal_earthpony_hoof_5
+			infantry_equipped_crystal_earthpony_hoof_6
 		}
 
 		#Defensive Abilities
@@ -4501,18 +4501,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_crystal_pegasi_hoof_x_2 = {
+	infantry_equipped_crystal_pegasi_hoof_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_crystal_pegasi
 		is_buildable = no
-		parent = infantry_equipped_crystal_pegasi_hoof_x
+		parent = infantry_equipped_crystal_pegasi_hoof_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_crystal_pegasi_hoof_3
-			infantry_equipped_crystal_pegasi_hoof_x
+			infantry_equipped_crystal_pegasi_hoof_5
+			infantry_equipped_crystal_pegasi_hoof_6
 		}
 
 		#Defensive Abilities
@@ -4532,18 +4532,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_crystal_unicorn_hoof_x_2 = {
+	infantry_equipped_crystal_unicorn_hoof_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_crystal_unicorn
 		is_buildable = no
-		parent = infantry_equipped_crystal_unicorn_hoof_x
+		parent = infantry_equipped_crystal_unicorn_hoof_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_crystal_unicorn_hoof_3
-			infantry_equipped_crystal_unicorn_hoof_x
+			infantry_equipped_crystal_unicorn_hoof_5
+			infantry_equipped_crystal_unicorn_hoof_6
 		}
 
 		#Defensive Abilities
@@ -4563,18 +4563,18 @@ equipments = {
 		}
 	}
 
-	infantry_equipped_crystal_unicorn_magical_x_2 = {
+	infantry_equipped_crystal_unicorn_magical_7 = {
 		year = 1025
 
 		archetype = infantry_equipped_crystal_unicorn
 		is_buildable = no
-		parent = infantry_equipped_crystal_unicorn_magical_x
+		parent = infantry_equipped_crystal_unicorn_magical_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipped_crystal_unicorn_magical_3
-			infantry_equipped_crystal_unicorn_magical_x
+			infantry_equipped_crystal_unicorn_magical_5
+			infantry_equipped_crystal_unicorn_magical_6
 		}
 
 		#Defensive Abilities
