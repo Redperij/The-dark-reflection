@@ -181,7 +181,7 @@ guiTypes = {
 		}
 		buttonType = {
 		name = "set_amount_of_equipment_earthpony_add_button"
-		position = {x = 280s y = 170}
+		position = {x = 280 y = 170}
 		spriteType = "GFX_zoom_in"
 		Orientation = "UPPER_LEFT"
 		pdx_tooltip = "creaturespowe_automation_tooltip"
@@ -365,7 +365,7 @@ guiTypes = {
 		}
 		buttonType = {
 		name = "set_amount_of_equipment_pegasus_add_button"
-		position = {x = 280s y = 535}
+		position = {x = 280 y = 535}
 		spriteType = "GFX_zoom_in"
 		Orientation = "UPPER_LEFT"
 		pdx_tooltip = "creaturespowe_automation_tooltip"

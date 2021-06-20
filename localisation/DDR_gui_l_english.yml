@@ -13,6 +13,27 @@ SET_AMOUNT_OF_EQUIPMENT_UNICORN:0 "[?equipment_plan_unicorn]"
 SET_AMOUNT_OF_EQUIPMENT_PEGASUS:0 "[?equipment_plan_pegasus]"
 SET_AMOUNT_OF_EQUIPMENT_ZMIH:0 "[?equipment_plan_zmih]"
 
+SET_AMOUNT_OF_EQUIPMENT_CRYSTAL_EARTHPONY:0 "[?equipment_plan_crystal_earthpony]"
+SET_AMOUNT_OF_EQUIPMENT_CRYSTAL_UNICORNS:0 "[?equipment_plan_crystal_unicorns]"
+SET_AMOUNT_OF_EQUIPMENT_CRYSTAL_PEGASI:0 "[?equipment_plan_crystal_pegasi]"
+
+SET_AMOUNT_OF_EQUIPMENT_DEER:0 "[?equipment_plan_deer]"
+SET_AMOUNT_OF_EQUIPMENT_CHANGELING:0 "[?equipment_plan_changeling]"
+SET_AMOUNT_OF_EQUIPMENT_THESTRALS:0 "[?equipment_plan_thestrals]"
+
+SET_AMOUNT_OF_EQUIPMENT_GRIFFINS:0 "[?equipment_plan_griffins]"
+SET_AMOUNT_OF_EQUIPMENT_DRAGONS:0 "[?equipment_plan_dragons]"
+
+SET_AMOUNT_OF_EQUIPMENT_DOGS:0 "[?equipment_plan_dogs]"
+SET_AMOUNT_OF_EQUIPMENT_BEARS:0 "[?equipment_plan_bears]"
+
+SET_AMOUNT_OF_EQUIPMENT_YAK:0 "[?equipment_plan_yak]"
+
+SET_AMOUNT_OF_EQUIPMENT_PENGUINS:0 "[?equipment_plan_penguins]"
+
+SET_AMOUNT_OF_EQUIPMENT_MAGIC_UNICORN:0 "[?equipment_plan_magic_unicorn]"
+SET_AMOUNT_OF_EQUIPMENT_MAGIC_CHANGELING:0 "[?equipment_plan_magic_changeling]"
+
 PONIES:0 "Ponies"
 CRYSTAL_PONIES:0 "Crystal Ponies"
 HOOVES:0 "Hooves"

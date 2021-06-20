@@ -89,7 +89,7 @@ scripted_gui = {
 			clear_variable = equipment_griffins_checkbox_signed
 			}
 			equipment_dragons_checkbox_blank_click = {
-			limit = { NOT = { has_variable = equipment_crystal_unicorn_checkbox_signed } }
+			limit = { NOT = { has_variable = equipment_dragons_checkbox_signed } }
 			set_variable = { equipment_dragons_checkbox_signed = 1 }
 			clear_variable = equipment_dragons_checkbox_blank
 			}
@@ -98,6 +98,169 @@ scripted_gui = {
 			set_variable = { equipment_dragons_checkbox_blank = 1 }
 			clear_variable = equipment_dragons_checkbox_signed
 			}
+			############################################################################## 1
+			set_amount_of_equipment_griffins_add_button_click = {
+			add_to_variable = { equipment_plan_griffins = 1 }
+			clamp_variable = {
+			var = equipment_plan_griffins
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_griffins_add_button_control_click = {
+			add_to_variable = { equipment_plan_griffins = 10 }
+			clamp_variable = {
+			var = equipment_plan_griffins
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_griffins_add_button_shift_click = {
+			add_to_variable = { equipment_plan_griffins = 50 }
+			clamp_variable = {
+			var = equipment_plan_griffins
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_griffins_add_button_control_shift_click = {
+			add_to_variable = { equipment_plan_griffins = 100 }
+			clamp_variable = {
+			var = equipment_plan_griffins
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_griffins_add_button_alt_click = {
+			add_to_variable = { equipment_plan_griffins = 500 }
+			clamp_variable = {
+			var = equipment_plan_griffins
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_griffins_remove_button_click = {
+			subtract_from_variable = { equipment_plan_griffins = 1 }
+			clamp_variable = {
+			var = equipment_plan_griffins
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_griffins_remove_button_control_click = {
+			subtract_from_variable = { equipment_plan_griffins = 10 }
+			clamp_variable = {
+			var = equipment_plan_griffins
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_griffins_remove_button_shift_click = {
+			subtract_from_variable = { equipment_plan_griffins = 50 }
+			clamp_variable = {
+			var = equipment_plan_griffins
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_griffins_remove_button_control_shift_click = {
+			subtract_from_variable = { equipment_plan_griffins = 100 }
+			clamp_variable = {
+			var = equipment_plan_griffins
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_griffins_remove_button_alt_click = {
+			subtract_from_variable = { equipment_plan_griffins = 500 }
+			clamp_variable = {
+			var = equipment_plan_griffins
+			min = 0
+			max = 999999
+			}
+			}
+			##################################################################################### 2
+			set_amount_of_equipment_dragons_add_button_click = {
+			add_to_variable = { equipment_plan_dragons = 1 }
+			clamp_variable = {
+			var = equipment_plan_dragons
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dragons_add_button_control_click = {
+			add_to_variable = { equipment_plan_dragons = 10 }
+			clamp_variable = {
+			var = equipment_plan_dragons
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dragons_add_button_shift_click = {
+			add_to_variable = { equipment_plan_dragons = 50 }
+			clamp_variable = {
+			var = equipment_plan_dragons
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dragons_add_button_control_shift_click = {
+			add_to_variable = { equipment_plan_dragons = 100 }
+			clamp_variable = {
+			var = equipment_plan_dragons
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dragons_add_button_alt_click = {
+			add_to_variable = { equipment_plan_dragons = 500 }
+			clamp_variable = {
+			var = equipment_plan_dragons
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dragons_remove_button_click = {
+			subtract_from_variable = { equipment_plan_dragons = 1 }
+			clamp_variable = {
+			var = equipment_plan_dragons
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dragons_remove_button_control_click = {
+			subtract_from_variable = { equipment_plan_dragons = 10 }
+			clamp_variable = {
+			var = equipment_plan_dragons
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dragons_remove_button_shift_click = {
+			subtract_from_variable = { equipment_plan_dragons = 50 }
+			clamp_variable = {
+			var = equipment_plan_dragons
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dragons_remove_button_control_shift_click = {
+			subtract_from_variable = { equipment_plan_dragons = 100 }
+			clamp_variable = {
+			var = equipment_plan_dragons
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dragons_remove_button_alt_click = {
+			subtract_from_variable = { equipment_plan_dragons = 500 }
+			clamp_variable = {
+			var = equipment_plan_dragons
+			min = 0
+			max = 999999
+			}
+			}
+			##################################################################################### vse
 			button_close_click = {            
 				clear_variable = claws_menu
 			}

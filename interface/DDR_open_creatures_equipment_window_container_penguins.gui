@@ -168,6 +168,31 @@ guiTypes = {
 		allwaystransparent = yes
 		format = right
 		}
+		instantTextBoxType = {
+		name = "set_amount_of_equipment_penguins_window"
+		position = { x = 188 y = 175 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_PENGUINS" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_penguins_add_button"
+		position = {x = 280 y = 170}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_penguins_remove_button"
+		position = {x =90 y = 170}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
 		########################################################################################################### кнопка закрытия панель
 		buttonType = {
 		name = "button_close"

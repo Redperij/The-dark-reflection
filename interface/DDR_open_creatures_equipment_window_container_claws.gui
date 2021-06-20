@@ -168,6 +168,31 @@ guiTypes = {
 		allwaystransparent = yes
 		format = right
 		}
+		instantTextBoxType = {
+		name = "set_amount_of_equipment_griffins_window"
+		position = { x = 188 y = 175 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_GRIFFINS" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_griffins_add_button"
+		position = {x = 280s y = 170}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_griffins_remove_button"
+		position = {x =90 y = 170}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
 		################################################################################################################ 2 панель
 		instantTextBoxType = {
 		name = "species_dragons_01"
@@ -234,6 +259,31 @@ guiTypes = {
 		Orientation = "UPPER_LEFT"	
 		allwaystransparent = yes
 		format = right
+		}
+		instantTextBoxType = {
+		name = "set_amount_of_equipment_dragons_window"
+		position = { x = 890 y = 175 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_DRAGONS" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_dragons_add_button"
+		position = {x = 982 y = 170}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_dragons_remove_button"
+		position = {x = 792 y = 170}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
 		}
 		########################################################################################################### кнопка закрытия панель
 		buttonType = {

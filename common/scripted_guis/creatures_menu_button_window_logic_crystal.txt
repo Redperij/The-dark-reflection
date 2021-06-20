@@ -126,6 +126,249 @@ scripted_gui = {
 			set_variable = { equipment_crystal_pegasi_checkbox_blank = 1 }
 			clear_variable = equipment_crystal_pegasi_checkbox_signed
 			}
+			set_amount_of_equipment_crystal_earthpony_add_button_click = {
+			add_to_variable = { equipment_plan_crystal_earthpony = 1 }
+			clamp_variable = {
+			var = equipment_plan_crystal_earthpony
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_earthpony_add_button_control_click = {
+			add_to_variable = { equipment_plan_crystal_earthpony = 10 }
+			clamp_variable = {
+			var = equipment_plan_crystal_earthpony
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_earthpony_add_button_shift_click = {
+			add_to_variable = { equipment_plan_crystal_earthpony = 50 }
+			clamp_variable = {
+			var = equipment_plan_crystal_earthpony
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_earthpony_add_button_control_shift_click = {
+			add_to_variable = { equipment_plan_crystal_earthpony = 100 }
+			clamp_variable = {
+			var = equipment_plan_crystal_earthpony
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_earthpony_add_button_alt_click = {
+			add_to_variable = { equipment_plan_crystal_earthpony = 500 }
+			clamp_variable = {
+			var = equipment_plan_crystal_earthpony
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_earthpony_remove_button_click = {
+			subtract_from_variable = { equipment_plan_crystal_earthpony = 1 }
+			clamp_variable = {
+			var = equipment_plan_crystal_earthpony
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_earthpony_remove_button_control_click = {
+			subtract_from_variable = { equipment_plan_crystal_earthpony = 10 }
+			clamp_variable = {
+			var = equipment_plan_crystal_earthpony
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_earthpony_remove_button_shift_click = {
+			subtract_from_variable = { equipment_plan_crystal_earthpony = 50 }
+			clamp_variable = {
+			var = equipment_plan_crystal_earthpony
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_earthpony_remove_button_control_shift_click = {
+			subtract_from_variable = { equipment_plan_crystal_earthpony = 100 }
+			clamp_variable = {
+			var = equipment_plan_crystal_earthpony
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_earthpony_remove_button_alt_click = {
+			subtract_from_variable = { equipment_plan_crystal_earthpony = 500 }
+			clamp_variable = {
+			var = equipment_plan_crystal_earthpony
+			min = 0
+			max = 999999
+			}
+			}
+			##################################################################################### 2
+			set_amount_of_equipment_crystal_unicorns_add_button_click = {
+			add_to_variable = { equipment_plan_crystal_unicorns = 1 }
+			clamp_variable = {
+			var = equipment_plan_crystal_unicorns
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_unicorns_add_button_control_click = {
+			add_to_variable = { equipment_plan_crystal_unicorns = 10 }
+			clamp_variable = {
+			var = equipment_plan_crystal_unicorns
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_unicorns_add_button_shift_click = {
+			add_to_variable = { equipment_plan_crystal_unicorns = 50 }
+			clamp_variable = {
+			var = equipment_plan_crystal_unicorns
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_unicorns_add_button_control_shift_click = {
+			add_to_variable = { equipment_plan_crystal_unicorns = 100 }
+			clamp_variable = {
+			var = equipment_plan_crystal_unicorns
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_unicorns_add_button_alt_click = {
+			add_to_variable = { equipment_plan_crystal_unicorns = 500 }
+			clamp_variable = {
+			var = equipment_plan_crystal_unicorns
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_unicorns_remove_button_click = {
+			subtract_from_variable = { equipment_plan_crystal_unicorns = 1 }
+			clamp_variable = {
+			var = equipment_plan_crystal_unicorns
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_unicorns_remove_button_control_click = {
+			subtract_from_variable = { equipment_plan_crystal_unicorns = 10 }
+			clamp_variable = {
+			var = equipment_plan_crystal_unicorns
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_unicorns_remove_button_shift_click = {
+			subtract_from_variable = { equipment_plan_crystal_unicorns = 50 }
+			clamp_variable = {
+			var = equipment_plan_crystal_unicorns
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_unicorns_remove_button_control_shift_click = {
+			subtract_from_variable = { equipment_plan_crystal_unicorns = 100 }
+			clamp_variable = {
+			var = equipment_plan_crystal_unicorns
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_unicorns_remove_button_alt_click = {
+			subtract_from_variable = { equipment_plan_crystal_unicorns = 500 }
+			clamp_variable = {
+			var = equipment_plan_crystal_unicorns
+			min = 0
+			max = 999999
+			}
+			}
+			##################################################################################### 3
+			set_amount_of_equipment_crystal_pegasi_add_button_click = {
+			add_to_variable = { equipment_plan_crystal_pegasi = 1 }
+			clamp_variable = {
+			var = equipment_plan_crystal_pegasi
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_pegasi_add_button_control_click = {
+			add_to_variable = { equipment_plan_crystal_pegasi = 10 }
+			clamp_variable = {
+			var = equipment_plan_crystal_pegasi
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_pegasi_add_button_shift_click = {
+			add_to_variable = { equipment_plan_crystal_pegasi = 50 }
+			clamp_variable = {
+			var = equipment_plan_crystal_pegasi
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_pegasi_add_button_control_shift_click = {
+			add_to_variable = { equipment_plan_crystal_pegasi = 100 }
+			clamp_variable = {
+			var = equipment_plan_crystal_pegasi
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_pegasi_add_button_alt_click = {
+			add_to_variable = { equipment_plan_crystal_pegasi = 500 }
+			clamp_variable = {
+			var = equipment_plan_crystal_pegasi
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_pegasi_remove_button_click = {
+			subtract_from_variable = { equipment_plan_crystal_pegasi = 1 }
+			clamp_variable = {
+			var = equipment_plan_crystal_pegasi
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_pegasi_remove_button_control_click = {
+			subtract_from_variable = { equipment_plan_crystal_pegasi = 10 }
+			clamp_variable = {
+			var = equipment_plan_crystal_pegasi
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_pegasi_remove_button_shift_click = {
+			subtract_from_variable = { equipment_plan_crystal_pegasi = 50 }
+			clamp_variable = {
+			var = equipment_plan_crystal_pegasi
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_pegasi_remove_button_control_shift_click = {
+			subtract_from_variable = { equipment_plan_crystal_pegasi = 100 }
+			clamp_variable = {
+			var = equipment_plan_crystal_pegasi
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_crystal_pegasi_remove_button_alt_click = {
+			subtract_from_variable = { equipment_plan_crystal_pegasi = 500 }
+			clamp_variable = {
+			var = equipment_plan_crystal_pegasi
+			min = 0
+			max = 999999
+			}
+			}
+			##################################################################################### vse	
 			button_close_click = {            
 				clear_variable = crystal_menu
 			}

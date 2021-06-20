@@ -168,6 +168,31 @@ guiTypes = {
 		allwaystransparent = yes
 		format = right
 		}
+		instantTextBoxType = {
+		name = "set_amount_of_crystal_earthpony_window"
+		position = { x = 188 y = 175 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_CRYSTAL_EARTHPONY" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_crystal_earthpony_add_button"
+		position = {x = 280s y = 170}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_crystal_earthpony_remove_button"
+		position = {x =90 y = 170}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
 		################################################################################################################ 2 панель
 		instantTextBoxType = {
 		name = "species_crystal_unicorns_01"
@@ -235,6 +260,31 @@ guiTypes = {
 		allwaystransparent = yes
 		format = right
 		}
+		instantTextBoxType = {
+		name = "set_amount_of_equipment_crystal_unicorns_window"
+		position = { x = 890 y = 175 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_CRYSTAL_UNICORNS" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_crystal_unicorns_add_button"
+		position = {x = 982 y = 170}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_crystal_unicorns_remove_button"
+		position = {x = 792 y = 170}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
 		#################################################################################################### 3 панель
 		instantTextBoxType = {
 		name = "species_pegasus_01"
@@ -301,6 +351,31 @@ guiTypes = {
 		Orientation = "UPPER_LEFT"	
 		allwaystransparent = yes
 		format = right
+		}
+		instantTextBoxType = {
+		name = "set_amount_of_equipment_crystal_pegasi_window"
+		position = { x = 188 y = 540 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_CRYSTAL_PEGASI" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_crystal_pegasi_add_button"
+		position = {x = 280 y = 535}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_crystal_pegasi_remove_button"
+		position = {x =90 y = 535}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
 		}
 		########################################################################################################### кнопка закрытия панель
 		buttonType = {

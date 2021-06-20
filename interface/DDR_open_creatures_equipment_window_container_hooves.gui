@@ -168,6 +168,31 @@ guiTypes = {
 		allwaystransparent = yes
 		format = right
 		}
+		instantTextBoxType = {
+		name = "set_amount_of_equipment_deer_window"
+		position = { x = 188 y = 175 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_DEER" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_deer_add_button"
+		position = {x = 280s y = 170}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_deer_remove_button"
+		position = {x =90 y = 170}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
 		################################################################################################################ 2 панель
 		instantTextBoxType = {
 		name = "species_changeling_01"
@@ -235,6 +260,31 @@ guiTypes = {
 		allwaystransparent = yes
 		format = right
 		}
+		instantTextBoxType = {
+		name = "set_amount_of_equipment_changeling_window"
+		position = { x = 890 y = 175 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_CHANGELING" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_changeling_add_button"
+		position = {x = 982 y = 170}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_changeling_remove_button"
+		position = {x = 792 y = 170}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
 		#################################################################################################### 3 панель
 		instantTextBoxType = {
 		name = "species_thestrals_01"
@@ -301,6 +351,31 @@ guiTypes = {
 		Orientation = "UPPER_LEFT"	
 		allwaystransparent = yes
 		format = right
+		}
+		instantTextBoxType = {
+		name = "set_amount_of_equipment_thestrals_window"
+		position = { x = 188 y = 540 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_THESTRALS" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_thestrals_add_button"
+		position = {x = 280s y = 535}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_thestrals_remove_button"
+		position = {x =90 y = 535}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
 		}
 		########################################################################################################### кнопка закрытия панель
 		buttonType = {
