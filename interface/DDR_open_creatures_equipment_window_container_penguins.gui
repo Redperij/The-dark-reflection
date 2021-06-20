@@ -143,13 +143,19 @@ guiTypes = {
 		Orientation = "UPPER_LEFT"	
 		allwaystransparent = yes
 		}
-		checkBoxType = {
-		name = "creaturespower_penguins_02"
-		position = { x = 387 y = 120 }
-		quadTextureSprite = "GFX_generic_checkbox3"
-		clicksound = decisions_ui_button
+		buttonType = {
+		name = "equipment_penguins_checkbox_blank"
+		position = {x = 389 y = 120}
+		spriteType = "GFX_checkbox_blank"
 		Orientation = "UPPER_LEFT"
-		pdx_tooltip = "CREATURESPOWER_AUTOMATION_TOOLTIP" #Автоматизировать создание экипировки
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "equipment_penguins_checkbox_signed"
+		position = {x = 389 y = 120}
+		spriteType = "GFX_checkbox_signed"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
 		}
 		instantTextBoxType = {
 		name = "created_equipment_penguins_01"

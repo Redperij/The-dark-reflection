@@ -96,12 +96,60 @@ scripted_gui = {
 			add_to_variable = { magic_equipment_menu = 1 }
 			clear_variable = hooves_menu
 			}
+			equipment_deer_checkbox_blank_click = {
+			limit = { NOT = { has_variable = equipment_deer_checkbox_signed } }
+			set_variable = { equipment_deer_checkbox_signed = 1 }
+			clear_variable = equipment_deer_checkbox_blank
+			}
+			equipment_deer_checkbox_signed_click = {
+			limit = { NOT = { has_variable = equipment_deer_checkbox_blank } }
+			set_variable = { equipment_deer_checkbox_blank = 1 }
+			clear_variable = equipment_deer_checkbox_signed
+			}
+			equipment_changeling_checkbox_blank_click = {
+			limit = { NOT = { has_variable = equipment_crystal_unicorn_checkbox_signed } }
+			set_variable = { equipment_changeling_checkbox_signed = 1 }
+			clear_variable = equipment_changeling_checkbox_blank
+			}
+			equipment_changeling_checkbox_signed_click = {
+			limit = { NOT = { has_variable = equipment_changeling_checkbox_blank } }
+			set_variable = { equipment_changeling_checkbox_blank = 1 }
+			clear_variable = equipment_changeling_checkbox_signed
+			}
+			equipment_thestrals_checkbox_blank_click = {
+			limit = { NOT = { has_variable = equipment_thestrals_checkbox_signed } }
+			set_variable = { equipment_thestrals_checkbox_signed = 1 }
+			clear_variable = equipment_thestrals_checkbox_blank
+			}
+			equipment_thestrals_checkbox_signed_click = {
+			limit = { NOT = { has_variable = equipment_thestrals_checkbox_blank } }
+			set_variable = { equipment_thestrals_checkbox_blank = 1 }
+			clear_variable = equipment_thestrals_checkbox_signed
+			}
 			button_close_click = {            
 				clear_variable = hooves_menu
 			}
 		}
         
 		triggers = {
+			equipment_deer_checkbox_blank_visible = {
+				has_variable = equipment_deer_checkbox_blank
+				}
+				equipment_deer_checkbox_signed_visible = {
+				has_variable = equipment_deer_checkbox_signed
+				}
+				equipment_changeling_checkbox_blank_visible = {
+				has_variable = equipment_changeling_checkbox_blank
+				}
+				equipment_changeling_checkbox_signed_visible = {
+				has_variable = equipment_changeling_checkbox_signed
+				}
+				equipment_thestrals_checkbox_blank_visible = {
+				has_variable = equipment_thestrals_checkbox_blank
+				}
+				equipment_thestrals_checkbox_signed_visible = {
+				has_variable = equipment_thestrals_checkbox_signed
+				}
         }
     }
 } 

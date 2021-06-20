@@ -52,7 +52,7 @@ scripted_gui = {
                     }
                     set_variable = { equipment_zmih_checkbox_blank = 1 }
                 }
-                ######################################################################## 1 вкладка
+                ######################################################################## 2 вкладка
                 if = {
                     limit = {
                         NOT = {
@@ -80,7 +80,111 @@ scripted_gui = {
                     }
                     set_variable = { equipment_crystal_pegasi_checkbox_blank = 1 }
                 }
-                ######################################################################## 2 вкладка
+                ######################################################################## 3 вкладка
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_deer_checkbox_blank
+                            has_variable = equipment_deer_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_deer_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_changeling_checkbox_blank
+                            has_variable = equipment_changeling_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_changeling_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_thestrals_checkbox_blank
+                            has_variable = equipment_thestrals_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_thestrals_checkbox_blank = 1 }
+                }
+                ######################################################################## 4 вкладка
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_griffins_checkbox_blank
+                            has_variable = equipment_griffins_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_griffins_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_dragons_checkbox_blank
+                            has_variable = equipment_dragons_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_dragons_checkbox_blank = 1 }
+                }
+                ######################################################################## 5 вкладка
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_dogs_checkbox_blank
+                            has_variable = equipment_dogs_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_dogs_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_bears_checkbox_blank
+                            has_variable = equipment_bears_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_bears_checkbox_blank = 1 }
+                }
+                ######################################################################## 6 вкладка
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_yak_checkbox_blank
+                            has_variable = equipment_yak_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_yak_checkbox_blank = 1 }
+                }
+                ######################################################################## 7 вкладка
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_penguins_checkbox_blank
+                            has_variable = equipment_penguins_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_penguins_checkbox_blank = 1 }
+                }
+                ######################################################################## 8 вкладка
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_magic_unicorn_equipment_checkbox_blank
+                            has_variable = equipment_magic_unicorn_equipment_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_magic_unicorn_equipment_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_magic_сhangeling_checkbox_blank
+                            has_variable = equipment_magic_сhangeling_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_magic_сhangeling_checkbox_blank = 1 }
+                }
 			}
 		}
         

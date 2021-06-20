@@ -79,12 +79,44 @@ scripted_gui = {
 			add_to_variable = { magic_equipment_menu = 1 }
 			clear_variable = paws_menu
 			}
+			equipment_dogs_checkbox_blank_click = {
+			limit = { NOT = { has_variable = equipment_dogs_checkbox_signed } }
+			set_variable = { equipment_dogs_checkbox_signed = 1 }
+			clear_variable = equipment_dogs_checkbox_blank
+			}
+			equipment_dogs_checkbox_signed_click = {
+			limit = { NOT = { has_variable = equipment_dogs_checkbox_blank } }
+			set_variable = { equipment_dogs_checkbox_blank = 1 }
+			clear_variable = equipment_dogs_checkbox_signed
+			}
+			equipment_bears_checkbox_blank_click = {
+			limit = { NOT = { has_variable = equipment_crystal_unicorn_checkbox_signed } }
+			set_variable = { equipment_bears_checkbox_signed = 1 }
+			clear_variable = equipment_bears_checkbox_blank
+			}
+			equipment_bears_checkbox_signed_click = {
+			limit = { NOT = { has_variable = equipment_bears_checkbox_blank } }
+			set_variable = { equipment_bears_checkbox_blank = 1 }
+			clear_variable = equipment_bears_checkbox_signed
+			}
 			button_close_click = {            
 				clear_variable = paws_menu
 			}
 		}
         
 		triggers = {
+			equipment_dogs_checkbox_blank_visible = {
+			has_variable = equipment_dogs_checkbox_blank
+			}
+			equipment_dogs_checkbox_signed_visible = {
+			has_variable = equipment_dogs_checkbox_signed
+			}
+			equipment_bears_checkbox_blank_visible = {
+			has_variable = equipment_bears_checkbox_blank
+			}
+			equipment_bears_checkbox_signed_visible = {
+			has_variable = equipment_bears_checkbox_signed
+			}
         }
     }
 } 

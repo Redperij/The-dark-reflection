@@ -133,23 +133,23 @@ scripted_gui = {
         
 		triggers = {
 			equipment_crystal_earthpony_checkbox_blank_visible = {
-				has_variable = equipment_crystal_earthpony_checkbox_blank
-				}
-				equipment_crystal_earthpony_checkbox_signed_visible = {
-				has_variable = equipment_crystal_earthpony_checkbox_signed
-				}
-				equipment_crystal_unicorns_checkbox_blank_visible = {
-				has_variable = equipment_crystal_unicorns_checkbox_blank
-				}
-				equipment_crystal_unicorns_checkbox_signed_visible = {
-				has_variable = equipment_crystal_unicorns_checkbox_signed
-				}
-				equipment_crystal_pegasi_checkbox_blank_visible = {
-				has_variable = equipment_crystal_pegasi_checkbox_blank
-				}
-				equipment_crystal_pegasi_checkbox_signed_visible = {
-				has_variable = equipment_crystal_pegasi_checkbox_signed
-				}
+			has_variable = equipment_crystal_earthpony_checkbox_blank
+			}
+			equipment_crystal_earthpony_checkbox_signed_visible = {
+			has_variable = equipment_crystal_earthpony_checkbox_signed
+			}
+			equipment_crystal_unicorns_checkbox_blank_visible = {
+			has_variable = equipment_crystal_unicorns_checkbox_blank
+			}
+			equipment_crystal_unicorns_checkbox_signed_visible = {
+			has_variable = equipment_crystal_unicorns_checkbox_signed
+			}
+			equipment_crystal_pegasi_checkbox_blank_visible = {
+			has_variable = equipment_crystal_pegasi_checkbox_blank
+			}
+			equipment_crystal_pegasi_checkbox_signed_visible = {
+			has_variable = equipment_crystal_pegasi_checkbox_signed
+			}
         }
     }
 } 

@@ -78,12 +78,44 @@ scripted_gui = {
 			add_to_variable = { penguins_menu = 1 }
 			clear_variable = magic_equipment_menu
 			}
+			equipment_magic_unicorn_equipment_checkbox_blank_click = {
+			limit = { NOT = { has_variable = equipment_magic_unicorn_equipment_checkbox_signed } }
+			set_variable = { equipment_magic_unicorn_equipment_checkbox_signed = 1 }
+			clear_variable = equipment_magic_unicorn_equipment_checkbox_blank
+			}
+			equipment_magic_unicorn_equipment_checkbox_signed_click = {
+			limit = { NOT = { has_variable = equipment_magic_unicorn_equipment_checkbox_blank } }
+			set_variable = { equipment_magic_unicorn_equipment_checkbox_blank = 1 }
+			clear_variable = equipment_magic_unicorn_equipment_checkbox_signed
+			}
+			equipment_magic_сhangeling_checkbox_blank_click = {
+			limit = { NOT = { has_variable = equipment_magic_сhangeling_checkbox_signed } }
+			set_variable = { equipment_magic_сhangeling_checkbox_signed = 1 }
+			clear_variable = equipment_magic_сhangeling_checkbox_blank
+			}
+			equipment_magic_сhangeling_checkbox_signed_click = {
+			limit = { NOT = { has_variable = equipment_magic_сhangeling_checkbox_blank } }
+			set_variable = { equipment_magic_сhangeling_checkbox_blank = 1 }
+			clear_variable = equipment_magic_сhangeling_checkbox_signed
+			}
 			button_close_click = {            
 				clear_variable = magic_equipment_menu
 			}
 		}
         
 		triggers = {
+			equipment_magic_unicorn_equipment_checkbox_blank_visible = {
+			has_variable = equipment_magic_unicorn_equipment_checkbox_blank
+			}
+			equipment_magic_unicorn_equipment_checkbox_signed_visible = {
+			has_variable = equipment_magic_unicorn_equipment_checkbox_signed
+			}
+			equipment_magic_сhangeling_checkbox_blank_visible = {
+			has_variable = equipment_magic_сhangeling_checkbox_blank
+			}
+			equipment_magic_сhangeling_checkbox_signed_visible = {
+			has_variable = equipment_magic_сhangeling_checkbox_signed
+			}
         }
     }
 } 
