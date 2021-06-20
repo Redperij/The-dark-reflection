@@ -4,11 +4,15 @@ state={
 	history={
 		owner = YAK
 		add_core_of = YAK
+
+		victory_points = {
+			2619 5
+		}
 	}
 	provinces={
 		903 1055 2619 3328 5702 9272 9355 9499 9533 
 	}
-	manpower=1
-	state_category = pastoral
+	manpower=13051
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

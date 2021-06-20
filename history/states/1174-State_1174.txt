@@ -4,11 +4,18 @@ state={
 	history={
 		owner = YAK
 		add_core_of = YAK
+
+		victory_points = {
+			566 25
+  		}
+		victory_points = {
+			4103 5
+  		}
 	}
 	provinces={
 		566 4103 
 	}
-	manpower=5000000
+	manpower=5024490
 	state_category = megalopolis
 	buildings_max_level_factor=1.000
 }

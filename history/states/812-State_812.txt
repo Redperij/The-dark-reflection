@@ -4,11 +4,18 @@ state={
 	history={
 		owner = TTT
 		add_core_of = TTT
+
+		victory_points = {
+			9794 10
+  		}
+		  victory_points = {
+			9772 5
+  		}
 	}
 	provinces={
 		4287 9711 9772 9794 9795 9857 9916 
 	}
-	manpower=1
+	manpower=43022
 	state_category = town
 	buildings_max_level_factor=1.000
 }
