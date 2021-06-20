@@ -67,307 +67,302 @@ scripted_gui = {
 				}
 			}
 
-			# Selection bar
-			button_pony_click = {
-			add_to_variable = { pony_menu = 1 }
-			clear_variable = hooves_menu
-			}
-			button_crystal_click = {
-			add_to_variable = { crystal_menu = 1 }
-			clear_variable = hooves_menu
-            }
-			button_claws_click = {
-			add_to_variable = { claws_menu = 1 }
-			clear_variable = hooves_menu
-			}
-			button_paws_click = {
-			add_to_variable = { paws_menu = 1 }
-			clear_variable = hooves_menu
-			}
-			button_yak_click = {
-			add_to_variable = { yak_menu = 1 }
-			clear_variable = hooves_menu
-			}
-			button_penguins_click = {
-			add_to_variable = { penguins_menu = 1 }
-			clear_variable = hooves_menu
-			}
-			button_magic_equipment_click = {
-			add_to_variable = { magic_equipment_menu = 1 }
-			clear_variable = hooves_menu
-			}
 			equipment_deer_checkbox_blank_click = {
-			limit = { NOT = { has_variable = equipment_deer_checkbox_signed } }
-			set_variable = { equipment_deer_checkbox_signed = 1 }
-			clear_variable = equipment_deer_checkbox_blank
+			set_variable = { equipment_deer_hoof_checkbox_signed = 1 }
+			clear_variable = equipment_deer_hoof_checkbox_blank
 			}
 			equipment_deer_checkbox_signed_click = {
-			limit = { NOT = { has_variable = equipment_deer_checkbox_blank } }
-			set_variable = { equipment_deer_checkbox_blank = 1 }
-			clear_variable = equipment_deer_checkbox_signed
+			set_variable = { equipment_deer_hoof_checkbox_blank = 1 }
+			clear_variable = equipment_deer_hoof_checkbox_signed
 			}
 			equipment_changeling_checkbox_blank_click = {
-			limit = { NOT = { has_variable = equipment_changeling_checkbox_signed } }
-			set_variable = { equipment_changeling_checkbox_signed = 1 }
-			clear_variable = equipment_changeling_checkbox_blank
+			set_variable = { equipment_changeling_hoof_checkbox_signed = 1 }
+			clear_variable = equipment_changeling_hoof_checkbox_blank
 			}
 			equipment_changeling_checkbox_signed_click = {
-			limit = { NOT = { has_variable = equipment_changeling_checkbox_blank } }
-			set_variable = { equipment_changeling_checkbox_blank = 1 }
-			clear_variable = equipment_changeling_checkbox_signed
+			set_variable = { equipment_changeling_hoof_checkbox_blank = 1 }
+			clear_variable = equipment_changeling_hoof_checkbox_signed
 			}
 			equipment_thestrals_checkbox_blank_click = {
-			limit = { NOT = { has_variable = equipment_thestrals_checkbox_signed } }
-			set_variable = { equipment_thestrals_checkbox_signed = 1 }
-			clear_variable = equipment_thestrals_checkbox_blank
+			set_variable = { equipment_thestrals_hoof_checkbox_signed = 1 }
+			clear_variable = equipment_thestrals_hoof_checkbox_blank
 			}
 			equipment_thestrals_checkbox_signed_click = {
-			limit = { NOT = { has_variable = equipment_thestrals_checkbox_blank } }
-			set_variable = { equipment_thestrals_checkbox_blank = 1 }
-			clear_variable = equipment_thestrals_checkbox_signed
+			set_variable = { equipment_thestrals_hoof_checkbox_blank = 1 }
+			clear_variable = equipment_thestrals_hoof_checkbox_signed
 			}
 			############################################################################## 1
 			set_amount_of_equipment_deer_add_button_click = {
-			add_to_variable = { equipment_plan_deer = 1 }
+			add_to_variable = { equipment_cap_deer_hoof = 1 }
 			clamp_variable = {
-			var = equipment_plan_deer
+			var = equipment_cap_deer_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_deer_add_button_control_click = {
-			add_to_variable = { equipment_plan_deer = 10 }
+			add_to_variable = { equipment_cap_deer_hoof = 10 }
 			clamp_variable = {
-			var = equipment_plan_deer
+			var = equipment_cap_deer_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_deer_add_button_shift_click = {
-			add_to_variable = { equipment_plan_deer = 50 }
+			add_to_variable = { equipment_cap_deer_hoof = 50 }
 			clamp_variable = {
-			var = equipment_plan_deer
+			var = equipment_cap_deer_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_deer_add_button_control_shift_click = {
-			add_to_variable = { equipment_plan_deer = 100 }
+			add_to_variable = { equipment_cap_deer_hoof = 100 }
 			clamp_variable = {
-			var = equipment_plan_deer
+			var = equipment_cap_deer_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_deer_add_button_alt_click = {
-			add_to_variable = { equipment_plan_deer = 500 }
+			add_to_variable = { equipment_cap_deer_hoof = 500 }
 			clamp_variable = {
-			var = equipment_plan_deer
+			var = equipment_cap_deer_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_deer_remove_button_click = {
-			subtract_from_variable = { equipment_plan_deer = 1 }
+			subtract_from_variable = { equipment_cap_deer_hoof = 1 }
 			clamp_variable = {
-			var = equipment_plan_deer
+			var = equipment_cap_deer_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_deer_remove_button_control_click = {
-			subtract_from_variable = { equipment_plan_deer = 10 }
+			subtract_from_variable = { equipment_cap_deer_hoof = 10 }
 			clamp_variable = {
-			var = equipment_plan_deer
+			var = equipment_cap_deer_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_deer_remove_button_shift_click = {
-			subtract_from_variable = { equipment_plan_deer = 50 }
+			subtract_from_variable = { equipment_cap_deer_hoof = 50 }
 			clamp_variable = {
-			var = equipment_plan_deer
+			var = equipment_cap_deer_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_deer_remove_button_control_shift_click = {
-			subtract_from_variable = { equipment_plan_deer = 100 }
+			subtract_from_variable = { equipment_cap_deer_hoof = 100 }
 			clamp_variable = {
-			var = equipment_plan_deer
+			var = equipment_cap_deer_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_deer_remove_button_alt_click = {
-			subtract_from_variable = { equipment_plan_deer = 500 }
+			subtract_from_variable = { equipment_cap_deer_hoof = 500 }
 			clamp_variable = {
-			var = equipment_plan_deer
+			var = equipment_cap_deer_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			##################################################################################### 2
 			set_amount_of_equipment_changeling_add_button_click = {
-			add_to_variable = { equipment_plan_changeling = 1 }
+			add_to_variable = { equipment_cap_changeling_hoof = 1 }
 			clamp_variable = {
-			var = equipment_plan_changeling
+			var = equipment_cap_changeling_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_changeling_add_button_control_click = {
-			add_to_variable = { equipment_plan_changeling = 10 }
+			add_to_variable = { equipment_cap_changeling_hoof = 10 }
 			clamp_variable = {
-			var = equipment_plan_changeling
+			var = equipment_cap_changeling_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_changeling_add_button_shift_click = {
-			add_to_variable = { equipment_plan_changeling = 50 }
+			add_to_variable = { equipment_cap_changeling_hoof = 50 }
 			clamp_variable = {
-			var = equipment_plan_changeling
+			var = equipment_cap_changeling_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_changeling_add_button_control_shift_click = {
-			add_to_variable = { equipment_plan_changeling = 100 }
+			add_to_variable = { equipment_cap_changeling_hoof = 100 }
 			clamp_variable = {
-			var = equipment_plan_changeling
+			var = equipment_cap_changeling_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_changeling_add_button_alt_click = {
-			add_to_variable = { equipment_plan_changeling = 500 }
+			add_to_variable = { equipment_cap_changeling_hoof = 500 }
 			clamp_variable = {
-			var = equipment_plan_changeling
+			var = equipment_cap_changeling_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_changeling_remove_button_click = {
-			subtract_from_variable = { equipment_plan_changeling = 1 }
+			subtract_from_variable = { equipment_cap_changeling_hoof = 1 }
 			clamp_variable = {
-			var = equipment_plan_changeling
+			var = equipment_cap_changeling_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_changeling_remove_button_control_click = {
-			subtract_from_variable = { equipment_plan_changeling = 10 }
+			subtract_from_variable = { equipment_cap_changeling_hoof = 10 }
 			clamp_variable = {
-			var = equipment_plan_changeling
+			var = equipment_cap_changeling_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_changeling_remove_button_shift_click = {
-			subtract_from_variable = { equipment_plan_changeling = 50 }
+			subtract_from_variable = { equipment_cap_changeling_hoof = 50 }
 			clamp_variable = {
-			var = equipment_plan_changeling
+			var = equipment_cap_changeling_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_changeling_remove_button_control_shift_click = {
-			subtract_from_variable = { equipment_plan_changeling = 100 }
+			subtract_from_variable = { equipment_cap_changeling_hoof = 100 }
 			clamp_variable = {
-			var = equipment_plan_changeling
+			var = equipment_cap_changeling_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_changeling_remove_button_alt_click = {
-			subtract_from_variable = { equipment_plan_changeling = 500 }
+			subtract_from_variable = { equipment_cap_changeling_hoof = 500 }
 			clamp_variable = {
-			var = equipment_plan_changeling
+			var = equipment_cap_changeling_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			##################################################################################### 3
 			set_amount_of_equipment_thestrals_add_button_click = {
-			add_to_variable = { equipment_plan_thestrals = 1 }
+			add_to_variable = { equipment_cap_thestrals_hoof = 1 }
 			clamp_variable = {
-			var = equipment_plan_thestrals
+			var = equipment_cap_thestrals_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_thestrals_add_button_control_click = {
-			add_to_variable = { equipment_plan_thestrals = 10 }
+			add_to_variable = { equipment_cap_thestrals_hoof = 10 }
 			clamp_variable = {
-			var = equipment_plan_thestrals
+			var = equipment_cap_thestrals_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_thestrals_add_button_shift_click = {
-			add_to_variable = { equipment_plan_thestrals = 50 }
+			add_to_variable = { equipment_cap_thestrals_hoof = 50 }
 			clamp_variable = {
-			var = equipment_plan_thestrals
+			var = equipment_cap_thestrals_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_thestrals_add_button_control_shift_click = {
-			add_to_variable = { equipment_plan_thestrals = 100 }
+			add_to_variable = { equipment_cap_thestrals_hoof = 100 }
 			clamp_variable = {
-			var = equipment_plan_thestrals
+			var = equipment_cap_thestrals_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_thestrals_add_button_alt_click = {
-			add_to_variable = { equipment_plan_thestrals = 500 }
+			add_to_variable = { equipment_cap_thestrals_hoof = 500 }
 			clamp_variable = {
-			var = equipment_plan_thestrals
+			var = equipment_cap_thestrals_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_thestrals_remove_button_click = {
-			subtract_from_variable = { equipment_plan_thestrals = 1 }
+			subtract_from_variable = { equipment_cap_thestrals_hoof = 1 }
 			clamp_variable = {
-			var = equipment_plan_thestrals
+			var = equipment_cap_thestrals_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_thestrals_remove_button_control_click = {
-			subtract_from_variable = { equipment_plan_thestrals = 10 }
+			subtract_from_variable = { equipment_cap_thestrals_hoof = 10 }
 			clamp_variable = {
-			var = equipment_plan_thestrals
+			var = equipment_cap_thestrals_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_thestrals_remove_button_shift_click = {
-			subtract_from_variable = { equipment_plan_thestrals = 50 }
+			subtract_from_variable = { equipment_cap_thestrals_hoof = 50 }
 			clamp_variable = {
-			var = equipment_plan_thestrals
+			var = equipment_cap_thestrals_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_thestrals_remove_button_control_shift_click = {
-			subtract_from_variable = { equipment_plan_thestrals = 100 }
+			subtract_from_variable = { equipment_cap_thestrals_hoof = 100 }
 			clamp_variable = {
-			var = equipment_plan_thestrals
+			var = equipment_cap_thestrals_hoof
 			min = 0
 			max = 999999
 			}
 			}
 			set_amount_of_equipment_thestrals_remove_button_alt_click = {
-			subtract_from_variable = { equipment_plan_thestrals = 500 }
+			subtract_from_variable = { equipment_cap_thestrals_hoof = 500 }
 			clamp_variable = {
-			var = equipment_plan_thestrals
+			var = equipment_cap_thestrals_hoof
 			min = 0
 			max = 999999
 			}
+			}
+
+			# Selection bar
+			button_pony_click = {
+				add_to_variable = { pony_menu = 1 }
+				clear_variable = hooves_menu
+			}
+			button_crystal_click = {
+				add_to_variable = { crystal_menu = 1 }
+				clear_variable = hooves_menu
+			}
+			button_claws_click = {
+				add_to_variable = { claws_menu = 1 }
+				clear_variable = hooves_menu
+			}
+			button_paws_click = {
+				add_to_variable = { paws_menu = 1 }
+				clear_variable = hooves_menu
+			}
+			button_yak_click = {
+				add_to_variable = { yak_menu = 1 }
+				clear_variable = hooves_menu
+			}
+			button_penguins_click = {
+				add_to_variable = { penguins_menu = 1 }
+				clear_variable = hooves_menu
+			}
+			button_magic_equipment_click = {
+				add_to_variable = { magic_equipment_menu = 1 }
+				clear_variable = hooves_menu
 			}
 			##################################################################################### vse
 			button_close_click = {            
@@ -377,22 +372,22 @@ scripted_gui = {
         
 		triggers = {
 			equipment_deer_checkbox_blank_visible = {
-				has_variable = equipment_deer_checkbox_blank
+				has_variable = equipment_deer_hoof_checkbox_blank
 				}
 				equipment_deer_checkbox_signed_visible = {
-				has_variable = equipment_deer_checkbox_signed
+				has_variable = equipment_deer_hoof_checkbox_signed
 				}
 				equipment_changeling_checkbox_blank_visible = {
-				has_variable = equipment_changeling_checkbox_blank
+				has_variable = equipment_changeling_hoof_checkbox_blank
 				}
 				equipment_changeling_checkbox_signed_visible = {
-				has_variable = equipment_changeling_checkbox_signed
+				has_variable = equipment_changeling_hoof_checkbox_signed
 				}
 				equipment_thestrals_checkbox_blank_visible = {
-				has_variable = equipment_thestrals_checkbox_blank
+				has_variable = equipment_thestrals_hoof_checkbox_blank
 				}
 				equipment_thestrals_checkbox_signed_visible = {
-				has_variable = equipment_thestrals_checkbox_signed
+				has_variable = equipment_thestrals_hoof_checkbox_signed
 				}
         }
     }

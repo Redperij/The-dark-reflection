@@ -8,14 +8,14 @@ EQUIPMENT_SELECTION_MENU_TEXT:0 "Меню выбора экипировки дл
 CREATE_BUTTON_TEXT:0 "Создать"
 CLOSE_BUTTON_TEXT:0 "Закрыть"
 
-SET_AMOUNT_OF_EQUIPMENT_EARTHPONY:0 "[?equipment_plan_earthpony]"
-SET_AMOUNT_OF_EQUIPMENT_UNICORN:0 "[?equipment_plan_unicorn]"
-SET_AMOUNT_OF_EQUIPMENT_PEGASUS:0 "[?equipment_plan_pegasus]"
-SET_AMOUNT_OF_EQUIPMENT_ZMIH:0 "[?equipment_plan_zmih]"
+SET_AMOUNT_OF_EQUIPMENT_EARTHPONY:0 "[?equipment_cap_earthpony_hoof]"
+SET_AMOUNT_OF_EQUIPMENT_UNICORN:0 "[?equipment_cap_unicorn_hoof]"
+SET_AMOUNT_OF_EQUIPMENT_PEGASUS:0 "[?equipment_cap_pegasi_hoof]"
+SET_AMOUNT_OF_EQUIPMENT_ZMIH:0 "[?equipment_cap_zmih_hoof]"
 
-SET_AMOUNT_OF_EQUIPMENT_CRYSTAL_EARTHPONY:0 "[?equipment_plan_crystal_earthpony]"
-SET_AMOUNT_OF_EQUIPMENT_UNICORN:0 "[?equipment_plan_unicorn]"
-SET_AMOUNT_OF_EQUIPMENT_PEGASUS:0 "[?equipment_plan_pegasus]"
+SET_AMOUNT_OF_EQUIPMENT_CRYSTAL_EARTHPONY:0 "[?equipment_cap_crystal_earthpony_hoof]"
+SET_AMOUNT_OF_EQUIPMENT_UNICORN:0 "[?equipment_cap_unicorn_hoof]"
+SET_AMOUNT_OF_EQUIPMENT_PEGASUS:0 "[?equipment_cap_pegasi_hoof]"
 
 PONIES:0 "Пони"
 CRYSTAL_PONIES:0 "Кристальные Пони"
