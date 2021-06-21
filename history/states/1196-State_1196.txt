@@ -1,14 +1,29 @@
 state={
 	id=1196
 	name="STATE_1196"
+
 	history={
-		owner = YAK
-		add_core_of = YAK
+		owner = CRY
+		add_core_of = CRY
+
+		victory_points = {
+			248 5 
+		}
+		victory_points = {
+			10929 5 
+		}
+		victory_points = {
+			11078 5 
+		}
+		victory_points = {
+			8053 5 
+		}
 	}
+
 	provinces={
-		2804 2810 8658 
+		248 8053 10929 11078 
 	}
 	manpower=1
-	state_category = town
 	buildings_max_level_factor=1.000
+	state_category=large_city
 }

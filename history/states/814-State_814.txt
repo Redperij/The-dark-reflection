@@ -4,11 +4,15 @@ state={
 	history={
 		owner = TTT
 		add_core_of = TTT
+
+		victory_points = {
+			9600 1
+  		}
 	}
 	provinces={
 		9600 
 	}
-	manpower=1
+	manpower=99
 	state_category = wasteland
 	buildings_max_level_factor=1.000
 }
