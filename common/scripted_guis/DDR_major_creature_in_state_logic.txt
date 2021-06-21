@@ -1,0 +1,20 @@
+scripted_gui = { 
+    major_creature_in_state_container = {
+        context_type = player_context
+        parent_window_token = selected_state_view
+		window_name = "major_creature_in_state_container"
+		
+		visible = {
+			is_ai = no
+		}
+		
+		effects = {
+		}
+        
+		triggers = {
+            major_creature_in_state_icon_bear_visible = {
+                always = no
+            }
+        }
+    }
+}

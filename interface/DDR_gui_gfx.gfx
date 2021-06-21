@@ -43,4 +43,72 @@ spriteTypes = {
 		name = "GFX_checkbox_signed"
 		texturefile = "gfx/interface/GFX_checkbox_signed.dds"
 	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_bear"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_bear.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_changeling"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_changeling.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_crystal_earthpony"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_crystal_earthpony.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_crystal_pegasi"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_crystal_pegasi.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_crystal_pony"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_crystal_pony.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_crystal_unicorn"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_crystal_unicorn.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_deer"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_deer.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_dog"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_dog.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_dragon"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_dragon.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_earthpony"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_earthpony.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_griffon"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_griffon.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_pegasi"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_pegasi.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_penguins"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_penguins.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_pony"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_pony.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_thestral"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_thestral.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_unicorn"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_unicorn.dds"
+	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_yak"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_yak.dds"
+	}
 }
