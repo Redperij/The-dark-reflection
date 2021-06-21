@@ -89,7 +89,7 @@ guiTypes = {
 			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_PEGASI"
 		}
 		iconType = {
-			name = "major_creature_in_state_penguins"
+			name = "major_creature_in_state_icon_penguin"
 			position = { x = -155 y = -25 }			
 			spriteType = "GFX_type_of_creature_in_state_penguins"
 			Orientation = CENTER

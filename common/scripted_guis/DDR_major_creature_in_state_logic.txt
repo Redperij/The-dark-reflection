@@ -1,20 +1,103 @@
 scripted_gui = { 
     major_creature_in_state_container = {
-        context_type = player_context
+        context_type = selected_state_context
         parent_window_token = selected_state_view
 		window_name = "major_creature_in_state_container"
-		
-		visible = {
-			is_ai = no
-		}
 		
 		effects = {
 		}
         
 		triggers = {
-            major_creature_in_state_icon_bear_visible = {
-                always = no
+            major_creature_in_state_icon_pony_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_pony_flag
+                }
             }
+            major_creature_in_state_icon_crystal_pony_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_crystal_pony_flag
+                }
+            }
+            major_creature_in_state_icon_earthpony_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_earthpony_flag
+                }
+            }
+            major_creature_in_state_icon_pegasi_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_pegasi_flag
+                }
+            }
+            major_creature_in_state_icon_unicorn_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_unicorn_flag
+                }
+            }
+            major_creature_in_state_icon_griffon_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_griffon_flag
+                }
+            }
+            major_creature_in_state_icon_deer_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_deer_flag
+                }
+            }
+            major_creature_in_state_icon_thestral_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_thestral_flag
+                }
+            }
+            major_creature_in_state_icon_dragon_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_dragon_flag
+                }
+            }
+            major_creature_in_state_icon_bear_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_bear_flag
+                }
+            }
+            major_creature_in_state_icon_changeling_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_changeling_flag
+                }
+            }
+            major_creature_in_state_icon_penguin_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_penguin_flag
+                }
+            }
+            major_creature_in_state_icon_yak_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_yak_flag
+                }
+            }
+            major_creature_in_state_icon_dog_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_dog_flag
+                }
+            }
+            major_creature_in_state_icon_crystal_earthpony_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_crystal_earthpony_flag
+                }
+            }
+            major_creature_in_state_icon_crystal_pegasi_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_crystal_pegasi_flag
+                }
+            }
+            major_creature_in_state_icon_crystal_unicorn_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_crystal_unicorn_flag
+                }
+            }
+            #major_creature_in_state_icon_special_visible = {
+            #    THIS = {
+            #        has_state_flag = major_creature_in_state_special_flag
+            #    }
+            #}
         }
     }
 }

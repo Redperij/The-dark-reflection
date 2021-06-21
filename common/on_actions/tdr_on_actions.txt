@@ -514,6 +514,27 @@ on_actions = {
 			#	}
 			#}
 
+			# Giving each state a flag corresponding to race ( needed for mark in gui )
+			TST = {
+				for_loop_effect = {
+					start = 0
+					end = 18
+					value = race
+
+					meta_effect = {
+						text = {
+							for_each_loop = {
+								array = global.[RACE]_states
+								var:v = { 
+									set_state_flag = major_creature_in_state_[RACE]_flag
+								}
+							}
+						}
+						RACE = "[?this.GetRace]"
+					}
+				}
+			}
+
 			#Race conscripts mechanic
 			for_each_scope_loop = {
 				array = global.countries
