@@ -533,6 +533,8 @@ on_actions = {
 			count_race_part_in_country = yes
 			get_montly_race_conscripts = yes
 
+			#Monthly equipment conversion
+			auto_equip_conversion = yes
 		}
 	}
 
