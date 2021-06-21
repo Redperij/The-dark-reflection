@@ -1,0 +1,144 @@
+defined_text = {
+	name = GetEquipmentType
+	text = {
+		trigger = {
+			check_variable = { race_equipment_type = 1 }
+		}
+		localization_key = "hoof"
+	}
+	text = {
+		trigger = {
+			check_variable = { race_equipment_type = 2 }
+		}
+		localization_key = "magical"
+	}
+	text = {
+		trigger = {
+			check_variable = { race_equipment_type = 3 }
+		}
+		localization_key = "claw"
+	}
+	text = {
+		trigger = {
+			check_variable = { race_equipment_type = 4 }
+		}
+		localization_key = "paw"
+	}
+	text = {
+		trigger = {
+			check_variable = { race_equipment_type = 5 }
+		}
+		localization_key = "yak"
+	}
+	text = {
+		trigger = {
+			check_variable = { race_equipment_type = 6 }
+		}
+		localization_key = "penguin"
+	}
+}
+defined_text = {
+	name = GetRace
+	text = {
+		trigger = {
+			check_variable = { race = 0 }
+		}
+		localization_key = "pony"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 1 }
+		}
+		localization_key = "crystal_pony"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 2 }
+		}
+		localization_key = "earthpony"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 3 }
+		}
+		localization_key = "pegasi"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 4 }
+		}
+		localization_key = "unicorn"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 5 }
+		}
+		localization_key = "griffon"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 6 }
+		}
+		localization_key = "deer"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 7 }
+		}
+		localization_key = "thestral"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 8 }
+		}
+		localization_key = "dragon"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 9 }
+		}
+		localization_key = "bear"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 10 }
+		}
+		localization_key = "changeling"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 11 }
+		}
+		localization_key = "penguin"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 12 }
+		}
+		localization_key = "yak"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 13 }
+		}
+		localization_key = "dog"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 14 }
+		}
+		localization_key = "crystal_earthpony"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 15 }
+		}
+		localization_key = "crystal_pegasi"
+	}
+	text = {
+		trigger = {
+			check_variable = { race = 16 }
+		}
+		localization_key = "crystal_unicorn"
+	}
+}

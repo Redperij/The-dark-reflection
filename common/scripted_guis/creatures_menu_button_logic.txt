@@ -16,6 +16,175 @@ scripted_gui = {
 				else = {
 					clear_variable = pony_menu
 				}
+				if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_earthpony_hoof_checkbox_blank
+                            has_variable = equipment_earthpony_hoof_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_earthpony_hoof_checkbox_blank = 1 }
+                }
+				if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_unicorn_hoof_checkbox_blank
+                            has_variable = equipment_unicorn_hoof_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_unicorn_hoof_checkbox_blank = 1 }
+                }
+				if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_pegasi_hoof_checkbox_blank
+                            has_variable = equipment_pegasi_hoof_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_pegasi_hoof_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_zmih_hoof_checkbox_blank
+                            has_variable = equipment_zmih_hoof_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_zmih_hoof_checkbox_blank = 1 }
+                }
+                ######################################################################## 2 вкладка
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_crystal_earthpony_hoof_checkbox_blank
+                            has_variable = equipment_crystal_earthpony_hoof_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_crystal_earthpony_hoof_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_crystal_unicorn_hoof_checkbox_blank
+                            has_variable = equipment_crystal_unicorn_hoof_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_crystal_unicorn_hoof_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_crystal_pegasi_hoof_checkbox_blank
+                            has_variable = equipment_crystal_pegasi_hoof_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_crystal_pegasi_hoof_checkbox_blank = 1 }
+                }
+                ######################################################################## 3 вкладка
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_deer_hoof_checkbox_blank
+                            has_variable = equipment_deer_hoof_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_deer_hoof_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_changeling_hoof_checkbox_blank
+                            has_variable = equipment_changeling_hoof_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_changeling_hoof_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_thestrals_hoof_checkbox_blank
+                            has_variable = equipment_thestrals_hoof_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_thestrals_hoof_checkbox_blank = 1 }
+                }
+                ######################################################################## 4 вкладка
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_griffon_claw_checkbox_blank
+                            has_variable = equipment_griffon_claw_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_griffon_claw_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_dragon_claw_checkbox_blank
+                            has_variable = equipment_dragon_claw_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_dragon_claw_checkbox_blank = 1 }
+                }
+                ######################################################################## 5 вкладка
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_dog_paw_checkbox_blank
+                            has_variable = equipment_dog_paw_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_dog_paw_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_bear_paw_checkbox_blank
+                            has_variable = equipment_bear_paw_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_bear_paw_checkbox_blank = 1 }
+                }
+                ######################################################################## 6 вкладка
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_yak_yak_checkbox_blank
+                            has_variable = equipment_yak_yak_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_yak_yak_checkbox_blank = 1 }
+                }
+                ######################################################################## 7 вкладка
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_penguin_penguin_checkbox_blank
+                            has_variable = equipment_penguin_penguin_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_penguin_penguin_checkbox_blank = 1 }
+                }
+                ######################################################################## 8 вкладка
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_unicorn_magical_checkbox_blank
+                            has_variable = equipment_unicorn_magical_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_unicorn_magical_checkbox_blank = 1 }
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = equipment_сhangeling_magical_checkbox_blank
+                            has_variable = equipment_сhangeling_magical_checkbox_signed
+                        }
+                    }
+                    set_variable = { equipment_сhangeling_magical_checkbox_blank = 1 }
+                }
 			}
 		}
         

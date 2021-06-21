@@ -18,222 +18,284 @@ guiTypes = {
 			quadTextureSprite = "GFX_creatures_equipment_window_claws_background"
 		}
 
-                instantTextboxType = {
+        instantTextboxType = {
 			name = "title"
 			position = { x = 260 y = 5 }
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
-			text = "Equipment selection menu for different creatures"
+			text = "EQUIPMENT_SELECTION_MENU_TEXT"
 			maxWidth = 10000
 			maxHeight = 20
 			format = left	
 		}
-                #################################################################################################### Вкладки
-                buttonType = {
-                name = "button_pony"
-                position = {x = 67 y = 45}
-                spriteType = "GFX_sort_button_100x29_2"
-                frame = 2
-			    buttonFont = "hoi_16mbs"
-			    buttonText = "Пони"
-			    Orientation = "UPPER_LEFT"
-                }
-                buttonType = {
-                name = "button_crystal"
-                position = {x = 205 y = 45}
-                spriteType = "GFX_sort_button_100x29_2"
-                frame = 2
-			    buttonFont = "hoi_16mbs"
-			    buttonText = "Кристальные Пони"
-			    Orientation = "UPPER_LEFT"
-                }
-				buttonType = {
-				name = "button_hooves"
-				position = {x = 343 y = 45}
-				spriteType = "GFX_sort_button_100x29_2"
-				frame = 2
-		        buttonFont = "hoi_16mbs"
-		        buttonText = "Копыта"
-		        Orientation = "UPPER_LEFT"
-			    }
-				buttonType = {
-				name = "button_claws"
-				position = {x = 481 y = 45} 
-				spriteType = "GFX_sort_button_100x29_2"
-				frame = 2
-				buttonFont = "hoi_16mbs"
-				buttonText = "Когти"
-				Orientation = "UPPER_LEFT"
-				}
-				buttonType = {
-				name = "button_paws"
-				position = {x = 619 y = 45}
-				spriteType = "GFX_sort_button_100x29_2"
-				frame = 2
-				buttonFont = "hoi_16mbs"
-				buttonText = "Лапы"
-				Orientation = "UPPER_LEFT"
-				}
-				buttonType = {
-				name = "button_yak"
-				position = {x = 757 y = 45}
-				spriteType = "GFX_sort_button_100x29_2"
-				frame = 2
-				buttonFont = "hoi_16mbs"
-				buttonText = "Яки"
-				Orientation = "UPPER_LEFT"
-				}
-				buttonType = {
-				name = "button_penguins"
-				position = {x = 895 y = 45}
-				spriteType = "GFX_sort_button_100x29_2"
-				frame = 2
-				buttonFont = "hoi_16mbs"
-				buttonText = "Пингвины"
-				Orientation = "UPPER_LEFT"
-				}
-				buttonType = {
-				name = "button_magic_equipment"
-				position = {x = 1033 y = 45}
-				spriteType = "GFX_sort_button_100x29_2"
-				frame = 2
-				buttonFont = "hoi_16mbs"
-				buttonText = "Магическое"
-				Orientation = "UPPER_LEFT"
-				}
-				################################################################################################################ 1 панель
-				instantTextBoxType = {
-                name = "species_griffins_01"
-                position = { x = 70 y = 80 }
-                font = "hoi_18mbs"
-                text = "Грифоны" #[?pony_menu]
-                maxWidth = 1000
-                maxHeight = 500
-                Orientation = "UPPER_LEFT"	
-                allwaystransparent = yes
-				}
-				instantTextBoxType = {
-				name = "equipment_griffins_01"
-				position = { x = 70 y = 100 }
-				font = "hoi_16mbs"
-				text = "Экипировка: [?pony_menu]" 
-				maxWidth = 175
-				maxHeight = 500
-				Orientation = "UPPER_LEFT"	
-				allwaystransparent = yes
-				format = right
-				}
-				buttonType = {
-				name = "equipment_griffins_02"
-				position = {x = 387 y = 92}
-				spriteType = "GFX_sort_button_100x29_2"
-				frame = 2
-				buttonFont = "hoi_16mbs"
-				buttonText = "Создать"
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "creature_create_tooltip"
-				}
-				instantTextBoxType = {
-				name = "creaturespower_griffins_01"
-				position = { x = 70 y = 120 }
-				font = "hoi_16mbs"
-				text = "Мобилизационный ресурс: [?pony_menu]" 
-				maxWidth = 180
-				maxHeight = 500
-				Orientation = "UPPER_LEFT"	
-				allwaystransparent = yes
-				}
-				checkBoxType = {
-				name = "creaturespower_griffins_02"
-				position = { x = 387 y = 120 }
-				quadTextureSprite = "GFX_generic_checkbox3"
-				clicksound = decisions_ui_button
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "creaturespowe_automation_tooltip" #Автоматизировать создание экипировки
-				}
-				instantTextBoxType = {
-				name = "created_equipment_griffins_01"
-				position = { x = 70 y = 140 }
-				font = "hoi_16mbs"
-				text = "Созданная экипировка: [?pony_menu]" 
-				maxWidth = 175
-				maxHeight = 500
-				Orientation = "UPPER_LEFT"	
-				allwaystransparent = yes
-				format = right
-				}
-				################################################################################################################ 2 панель
-				instantTextBoxType = {
-				name = "species_dragons_01"
-				position = { x = 770 y = 80 }
-				font = "hoi_18mbs"
-				text = "Драконы" #[?pony_menu]
-				maxWidth = 1000
-				maxHeight = 500
-				Orientation = "UPPER_LEFT"	
-				allwaystransparent = yes
-				}
-				instantTextBoxType = {
-				name = "equipment_dragons_01"
-				position = { x = 770 y = 100 }
-				font = "hoi_16mbs"
-				text = "Экипировка: [?pony_menu]" 
-				maxWidth = 175
-				maxHeight = 500
-				Orientation = "UPPER_LEFT"	
-				allwaystransparent = yes
-				format = right
-				}
-				buttonType = {
-				name = "equipment_dragons_02"
-				position = {x = 1087 y = 92}
-				spriteType = "GFX_sort_button_100x29_2"
-				frame = 2
-				buttonFont = "hoi_16mbs"
-				buttonText = "Создать"
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "creature_create_tooltip"
-				}
-				instantTextBoxType = {
-				name = "creaturespower_dragons_01"
-				position = { x = 770 y = 120 }
-				font = "hoi_16mbs"
-				text = "Мобилизационный ресурс: [?pony_menu]" 
-				maxWidth = 180
-				maxHeight = 500
-				Orientation = "UPPER_LEFT"	
-				allwaystransparent = yes
-				}
-				checkBoxType = {
-				name = "creaturespower_dragons_02"
-				position = { x = 1087 y = 120 }
-				quadTextureSprite = "GFX_generic_checkbox3"
-				clicksound = decisions_ui_button
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "creaturespowe_automation_tooltip" #Автоматизировать создание экипировки
-				}
-				instantTextBoxType = {
-				name = "created_equipment_dragons_01"
-				position = { x = 770 y = 140 }
-				font = "hoi_16mbs"
-				text = "Созданная экипировка: [?pony_menu]" 
-				maxWidth = 175
-				maxHeight = 500
-				Orientation = "UPPER_LEFT"	
-				allwaystransparent = yes
-				format = right
-				}
-				########################################################################################################### кнопка закрытия панель
-		        buttonType = {
-			    name = "button_close"
-			    position = { x = 1050 y = 683 }
-			    spriteType = "GFX_sort_button_100x29_2"
-                frame = 2
-			    buttonFont = "hoi_16mbs"
-			    buttonText = "Закрыть"
-			    clicksound = click_close
-			    pdx_tooltip = "CLOSE"
-			    Orientation = "UPPER_LEFT"
-			    }
+        #################################################################################################### Вкладки
+        buttonType = {
+        name = "button_pony"
+        position = {x = 67 y = 45}
+        spriteType = "GFX_sort_button_100x29_2"
+        frame = 2
+		buttonFont = "hoi_16mbs"
+		buttonText = "PONIES"
+		Orientation = "UPPER_LEFT"
+        }
+        buttonType = {
+        name = "button_crystal"
+        position = {x = 205 y = 45}
+        spriteType = "GFX_sort_button_100x29_2"
+        frame = 2
+		buttonFont = "hoi_16mbs"
+		buttonText = "CRYSTAL_PONIES"
+		Orientation = "UPPER_LEFT"
+        }
+		buttonType = {
+		name = "button_hooves"
+		position = {x = 343 y = 45}
+		spriteType = "GFX_sort_button_100x29_2"
+		frame = 2
+		buttonFont = "hoi_16mbs"
+		buttonText = "HOOVES"
+		Orientation = "UPPER_LEFT"
+		}
+		buttonType = {
+		name = "button_claws"
+		position = {x = 481 y = 45} 
+		spriteType = "GFX_sort_button_100x29_2"
+		frame = 2
+		buttonFont = "hoi_16mbs"
+		buttonText = "CLAWS"
+		Orientation = "UPPER_LEFT"
+		}
+		buttonType = {
+		name = "button_paws"
+		position = {x = 619 y = 45}
+		spriteType = "GFX_sort_button_100x29_2"
+		frame = 2
+		buttonFont = "hoi_16mbs"
+		buttonText = "PAWS"
+		Orientation = "UPPER_LEFT"
+		}
+		buttonType = {
+		name = "button_yak"
+		position = {x = 757 y = 45}
+		spriteType = "GFX_sort_button_100x29_2"
+		frame = 2
+		buttonFont = "hoi_16mbs"
+		buttonText = "YAKS"
+		Orientation = "UPPER_LEFT"
+		}
+		buttonType = {
+		name = "button_penguins"
+		position = {x = 895 y = 45}
+		spriteType = "GFX_sort_button_100x29_2"
+		frame = 2
+		buttonFont = "hoi_16mbs"
+		buttonText = "PENGUINS"
+		Orientation = "UPPER_LEFT"
+		}
+		buttonType = {
+		name = "button_magic_equipment"
+		position = {x = 1033 y = 45}
+		spriteType = "GFX_sort_button_100x29_2"
+		frame = 2
+		buttonFont = "hoi_16mbs"
+		buttonText = "MAGICAL"
+		Orientation = "UPPER_LEFT"
+		}
+		################################################################################################################ 1 панель
+		instantTextBoxType = {
+        name = "species_griffins_01"
+        position = { x = 70 y = 80 }
+        font = "hoi_18mbs"
+        text = "GRIFFONS"
+        maxWidth = 1000
+        maxHeight = 500
+        Orientation = "UPPER_LEFT"	
+        allwaystransparent = yes
+		}
+		instantTextBoxType = {
+		name = "equipment_griffins_01"
+		position = { x = 70 y = 100 }
+		font = "hoi_16mbs"
+		text = "CLAW_EQUIPMENT" 
+		maxWidth = 175
+		maxHeight = 500
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = right
+		}
+		buttonType = {
+		name = "equipment_griffins_button"
+		position = {x = 387 y = 92}
+		spriteType = "GFX_sort_button_100x29_2"
+		frame = 2
+		buttonFont = "hoi_16mbs"
+		buttonText = "CREATE_BUTTON_TEXT"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "CREATURE_CREATE_TOOLTIP"
+		}
+		instantTextBoxType = {
+		name = "creaturespower_griffins_01"
+		position = { x = 70 y = 120 }
+		font = "hoi_16mbs"
+		text = "GRIFFON_CREATUREPOWER" 
+		maxWidth = 180
+		maxHeight = 500
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		}
+		buttonType = {
+		name = "equipment_griffins_checkbox_blank"
+		position = {x = 389 y = 120}
+		spriteType = "GFX_checkbox_blank"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "equipment_griffins_checkbox_signed"
+		position = {x = 389 y = 120}
+		spriteType = "GFX_checkbox_signed"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		instantTextBoxType = {
+		name = "created_equipment_griffins_01"
+		position = { x = 70 y = 140 }
+		font = "hoi_16mbs"
+		text = "GRIFFON_CREATED_EQUIPMENT" 
+		maxWidth = 175
+		maxHeight = 500
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = right
+		}
+		instantTextBoxType = {
+		name = "set_amount_of_equipment_griffins_window"
+		position = { x = 188 y = 175 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_GRIFFINS" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_griffins_add_button"
+		position = {x = 280s y = 170}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_griffins_remove_button"
+		position = {x =90 y = 170}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		################################################################################################################ 2 панель
+		instantTextBoxType = {
+		name = "species_dragons_01"
+		position = { x = 770 y = 80 }
+		font = "hoi_18mbs"
+		text = "DRAGONS"
+		maxWidth = 1000
+		maxHeight = 500
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		}
+		instantTextBoxType = {
+		name = "equipment_dragons_01"
+		position = { x = 770 y = 100 }
+		font = "hoi_16mbs"
+		text = "CLAW_EQUIPMENT" 
+		maxWidth = 175
+		maxHeight = 500
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = right
+		}
+		buttonType = {
+		name = "equipment_dragons_button"
+		position = {x = 1087 y = 92}
+		spriteType = "GFX_sort_button_100x29_2"
+		frame = 2
+		buttonFont = "hoi_16mbs"
+		buttonText = "CREATE_BUTTON_TEXT"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "CREATURE_CREATE_TOOLTIP"
+		}
+		instantTextBoxType = {
+		name = "creaturespower_dragons_01"
+		position = { x = 770 y = 120 }
+		font = "hoi_16mbs"
+		text = "DRAGON_CREATUREPOWER" 
+		maxWidth = 180
+		maxHeight = 500
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		}
+		buttonType = {
+		name = "equipment_dragons_checkbox_blank"
+		position = {x = 1089 y = 120}
+		spriteType = "GFX_checkbox_blank"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "equipment_dragons_checkbox_signed"
+		position = {x = 1089 y = 120}
+		spriteType = "GFX_checkbox_signed"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		instantTextBoxType = {
+		name = "created_equipment_dragons_01"
+		position = { x = 770 y = 140 }
+		font = "hoi_16mbs"
+		text = "DRAGON_CREATED_EQUIPMENT" 
+		maxWidth = 175
+		maxHeight = 500
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = right
+		}
+		instantTextBoxType = {
+		name = "set_amount_of_equipment_dragons_window"
+		position = { x = 890 y = 175 }
+		font = "hoi_16mbs"
+		text = "SET_AMOUNT_OF_EQUIPMENT_DRAGONS" 
+		maxWidth = 43
+		maxHeight = 20
+		Orientation = "UPPER_LEFT"	
+		allwaystransparent = yes
+		format = centre
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_dragons_add_button"
+		position = {x = 982 y = 170}
+		spriteType = "GFX_zoom_in"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		buttonType = {
+		name = "set_amount_of_equipment_dragons_remove_button"
+		position = {x = 792 y = 170}
+		spriteType = "GFX_zoom_out"
+		Orientation = "UPPER_LEFT"
+		pdx_tooltip = "creaturespowe_automation_tooltip"
+		}
+		########################################################################################################### кнопка закрытия панель
+		buttonType = {
+		name = "button_close"
+		position = { x = 1050 y = 683 }
+		spriteType = "GFX_sort_button_100x29_2"
+        frame = 2
+		buttonFont = "hoi_16mbs"
+		buttonText = "CLOSE_BUTTON_TEXT"
+		clicksound = click_close
+		pdx_tooltip = "CLOSE"
+		Orientation = "UPPER_LEFT"
+		}
     }
 }

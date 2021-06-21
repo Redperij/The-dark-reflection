@@ -7,7 +7,7 @@ on_actions = {
 			
 			#States by races
 			#added 1-40, 206, 300, 541, 564, 627, 643, 661, 727-730, 739-859, 935-1090, 1100-1115, 1171-1301, 1488
-			#exclusions: 
+			#exclusions 
 			add_to_array = { global.pony_states = 564.id }
 			add_to_array = { global.pony_states = 727.id }
 			add_to_array = { global.pony_states = 730.id }
@@ -533,6 +533,8 @@ on_actions = {
 			count_race_part_in_country = yes
 			get_montly_race_conscripts = yes
 
+			#Monthly equipment conversion
+			auto_equip_conversion = yes
 		}
 	}
 

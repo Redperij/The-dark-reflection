@@ -65,7 +65,7 @@ add_equipment_to_stockpile = {
 }
 
 add_equipment_to_stockpile = {
-	type = infantry_equipped_earthpony_hoof_1
+	type = infantry_equipped_earthpony_hoof_3
 	amount = 500
 	producer = SEV
 }

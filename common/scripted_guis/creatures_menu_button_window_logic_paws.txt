@@ -8,45 +8,275 @@ scripted_gui = {
 		
 		visible = {
 			is_ai = no
-                        has_variable = paws_menu
+            has_variable = paws_menu
 		}
 		
 		effects = {
         
+			equipment_dogs_button_click = {
+				ROOT = {
+					set_variable = {
+						var = race_equipment_type
+						value = 4
+					}
+					set_variable = {
+						var = race
+						value = 12
+					}
+
+					log = "[?this.GetEquipmentType] equipment type for [?this.GetRace] race" #debug
+					count_race_equipped = yes
+					
+					clear_variable = race_equipment_type
+					clear_variable = race
+				}
+			}
+			equipment_bears_button_click = {
+				ROOT = {
+					set_variable = {
+						var = race_equipment_type
+						value = 4
+					}
+					set_variable = {
+						var = race
+						value = 9
+					}
+
+					log = "[?this.GetEquipmentType] equipment type for [?this.GetRace] race" #debug
+					count_race_equipped = yes
+					
+					clear_variable = race_equipment_type
+					clear_variable = race
+				}
+			}
+
+			equipment_dogs_checkbox_blank_click = {
+			set_variable = { equipment_dog_paw_checkbox_signed = 1 }
+			clear_variable = equipment_dog_paw_checkbox_blank
+			}
+			equipment_dogs_checkbox_signed_click = {
+			set_variable = { equipment_dog_paw_checkbox_blank = 1 }
+			clear_variable = equipment_dog_paw_checkbox_signed
+			}
+			equipment_bears_checkbox_blank_click = {
+			set_variable = { equipment_bear_paw_checkbox_signed = 1 }
+			clear_variable = equipment_bear_paw_checkbox_blank
+			}
+			equipment_bears_checkbox_signed_click = {
+			set_variable = { equipment_bear_paw_checkbox_blank = 1 }
+			clear_variable = equipment_bear_paw_checkbox_signed
+			}
+			############################################################################## 1
+			set_amount_of_equipment_dogs_add_button_click = {
+			add_to_variable = { equipment_cap_dog_paw = 1 }
+			clamp_variable = {
+			var = equipment_cap_dog_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dogs_add_button_control_click = {
+			add_to_variable = { equipment_cap_dog_paw = 10 }
+			clamp_variable = {
+			var = equipment_cap_dog_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dogs_add_button_shift_click = {
+			add_to_variable = { equipment_cap_dog_paw = 50 }
+			clamp_variable = {
+			var = equipment_cap_dog_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dogs_add_button_control_shift_click = {
+			add_to_variable = { equipment_cap_dog_paw = 100 }
+			clamp_variable = {
+			var = equipment_cap_dog_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dogs_add_button_alt_click = {
+			add_to_variable = { equipment_cap_dog_paw = 500 }
+			clamp_variable = {
+			var = equipment_cap_dog_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dogs_remove_button_click = {
+			subtract_from_variable = { equipment_cap_dog_paw = 1 }
+			clamp_variable = {
+			var = equipment_cap_dog_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dogs_remove_button_control_click = {
+			subtract_from_variable = { equipment_cap_dog_paw = 10 }
+			clamp_variable = {
+			var = equipment_cap_dog_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dogs_remove_button_shift_click = {
+			subtract_from_variable = { equipment_cap_dog_paw = 50 }
+			clamp_variable = {
+			var = equipment_cap_dog_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dogs_remove_button_control_shift_click = {
+			subtract_from_variable = { equipment_cap_dog_paw = 100 }
+			clamp_variable = {
+			var = equipment_cap_dog_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_dogs_remove_button_alt_click = {
+			subtract_from_variable = { equipment_cap_dog_paw = 500 }
+			clamp_variable = {
+			var = equipment_cap_dog_paw
+			min = 0
+			max = 999999
+			}
+			}
+			##################################################################################### 2
+			set_amount_of_equipment_bears_add_button_click = {
+			add_to_variable = { equipment_cap_bear_paw = 1 }
+			clamp_variable = {
+			var = equipment_cap_bear_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_bears_add_button_control_click = {
+			add_to_variable = { equipment_cap_bear_paw = 10 }
+			clamp_variable = {
+			var = equipment_cap_bear_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_bears_add_button_shift_click = {
+			add_to_variable = { equipment_cap_bear_paw = 50 }
+			clamp_variable = {
+			var = equipment_cap_bear_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_bears_add_button_control_shift_click = {
+			add_to_variable = { equipment_cap_bear_paw = 100 }
+			clamp_variable = {
+			var = equipment_cap_bear_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_bears_add_button_alt_click = {
+			add_to_variable = { equipment_cap_bear_paw = 500 }
+			clamp_variable = {
+			var = equipment_cap_bear_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_bears_remove_button_click = {
+			subtract_from_variable = { equipment_cap_bear_paw = 1 }
+			clamp_variable = {
+			var = equipment_cap_bear_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_bears_remove_button_control_click = {
+			subtract_from_variable = { equipment_cap_bear_paw = 10 }
+			clamp_variable = {
+			var = equipment_cap_bear_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_bears_remove_button_shift_click = {
+			subtract_from_variable = { equipment_cap_bear_paw = 50 }
+			clamp_variable = {
+			var = equipment_cap_bear_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_bears_remove_button_control_shift_click = {
+			subtract_from_variable = { equipment_cap_bear_paw = 100 }
+			clamp_variable = {
+			var = equipment_cap_bear_paw
+			min = 0
+			max = 999999
+			}
+			}
+			set_amount_of_equipment_bears_remove_button_alt_click = {
+			subtract_from_variable = { equipment_cap_bear_paw = 500 }
+			clamp_variable = {
+			var = equipment_cap_bear_paw
+			min = 0
+			max = 999999
+			}
+			}
+
+			# Selection bar
 			button_pony_click = {
-			add_to_variable = { pony_menu = 1 }
-			clear_variable = paws_menu
+				add_to_variable = { pony_menu = 1 }
+				clear_variable = paws_menu
 			}
 			button_crystal_click = {
-			add_to_variable = { crystal_menu = 1 }
-			clear_variable = paws_menu
-            }
+				add_to_variable = { crystal_menu = 1 }
+				clear_variable = paws_menu
+			}
 			button_hooves_click = {
-			add_to_variable = { hooves_menu = 1 }
-			clear_variable = paws_menu
+				add_to_variable = { hooves_menu = 1 }
+				clear_variable = paws_menu
 			}
 			button_claws_click = {
-			add_to_variable = { claws_menu = 1 }
-			clear_variable = paws_menu
+				add_to_variable = { claws_menu = 1 }
+				clear_variable = paws_menu
 			}
 			button_yak_click = {
-			add_to_variable = { yak_menu = 1 }
-			clear_variable = paws_menu
+				add_to_variable = { yak_menu = 1 }
+				clear_variable = paws_menu
 			}
 			button_penguins_click = {
-			add_to_variable = { penguins_menu = 1 }
-			clear_variable = paws_menu
+				add_to_variable = { penguins_menu = 1 }
+				clear_variable = paws_menu
 			}
 			button_magic_equipment_click = {
-			add_to_variable = { magic_equipment_menu = 1 }
-			clear_variable = paws_menu
+				add_to_variable = { magic_equipment_menu = 1 }
+				clear_variable = paws_menu
 			}
+			##################################################################################### vse
 			button_close_click = {            
 				clear_variable = paws_menu
 			}
 		}
         
 		triggers = {
+			equipment_dogs_checkbox_blank_visible = {
+			has_variable = equipment_dog_paw_checkbox_blank
+			}
+			equipment_dogs_checkbox_signed_visible = {
+			has_variable = equipment_dog_paw_checkbox_signed
+			}
+			equipment_bears_checkbox_blank_visible = {
+			has_variable = equipment_bear_paw_checkbox_blank
+			}
+			equipment_bears_checkbox_signed_visible = {
+			has_variable = equipment_bear_paw_checkbox_signed
+			}
         }
     }
 } 

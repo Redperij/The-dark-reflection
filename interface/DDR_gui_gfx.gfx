@@ -35,4 +35,12 @@ spriteTypes = {
 		name = "GFX_creatures_equipment_window_magic_equipment_background"
 		texturefile = "gfx/interface/GFX_creatures_equipment_window_magic_icon.dds"
 	}
+	spriteType = {
+		name = "GFX_checkbox_blank"
+		texturefile = "gfx/interface/GFX_checkbox_blank.dds"
+	}
+	spriteType = {
+		name = "GFX_checkbox_signed"
+		texturefile = "gfx/interface/GFX_checkbox_signed.dds"
+	}
 }

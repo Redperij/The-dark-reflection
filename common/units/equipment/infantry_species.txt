@@ -1,372 +1,630 @@
 # This is equipment for races
 equipments = {
 
-	melee_equipment_hoof_0 = {
-		year = 800
-		archetype = infantry_equipment
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
+	infantry_equipment_hoof = {
+		year = 1007
 
-		reliability = 0.8
+		is_archetype = yes
+		picture = archetype_infantry_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype
 
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
+		interface_category = interface_category_land
 
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
+		active = yes
+		upgrades = {
+			inf_atc_upgrade
+			inf_rel_upgrade
+			inf_def_upgrade
+			inf_weight_upgrade
 		}
-	}
+		#Misc Abilities
+		reliability = 0.9
+		maximum_speed = 4
 
-	melee_equipment_magical_0 = {
-		year = 800
-		archetype = infantry_equipment
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipment_claw_0 = {
-		year = 800
-		archetype = infantry_equipment
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipment_paw_0 = {
-		year = 800
-		archetype = infantry_equipment
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipment_yak_0 = {
-		year = 800
-		archetype = infantry_equipment
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipment_penguin_0 = {
-		year = 800
-		archetype = infantry_equipment
-		priority = 12
-		visual_level = 0
-		is_convertable = no
-		## Defensitve Abilities
-		defense = 3
-		breakthrough = 0.5
-		hardness = 0.001
-		armor_value = 0.001
-
-		reliability = 0.8
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0.001
-		ap_attack = 0.001
-
-
-		build_cost_ic = 0.25
-		resources = {
-			steel = 1
-		}
-	}
-
-	melee_equipment_hoof_1 = {
-		year = 800
-		archetype = infantry_equipment
-		parent = melee_equipment_hoof_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
 		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
+		defense = 20
+		breakthrough = 2
 		hardness = 0.001
 		armor_value = 0.001
-		reliability = 0.6
+
 		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
+		soft_attack = 3
+		hard_attack = 0.5
+		ap_attack = 1
+		air_attack = 0.001
 
+		#Space taken in convoy
+		lend_lease_cost = 1
 
-		build_cost_ic = 0.4
+		build_cost_ic = 0.43
 		resources = {
-			steel = 1
+			steel = 2
 		}
 	}
 
-	melee_equipment_magical_1 = {
-		year = 800
-		archetype = infantry_equipment
-		parent = melee_equipment_magical_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
+	infantry_equipment_magical = {
+		year = 1007
+
+		is_archetype = yes
+		picture = archetype_infantry_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+
+		interface_category = interface_category_land
+
+		active = yes
+		upgrades = {
+			inf_atc_upgrade
+			inf_rel_upgrade
+			inf_def_upgrade
+			inf_weight_upgrade
+		}
+		#Misc Abilities
+		reliability = 0.9
+		maximum_speed = 4
+
 		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
+		defense = 20
+		breakthrough = 2
 		hardness = 0.001
 		armor_value = 0.001
-		reliability = 0.6
+
 		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
+		soft_attack = 3
+		hard_attack = 0.5
+		ap_attack = 1
+		air_attack = 0.001
 
+		#Space taken in convoy
+		lend_lease_cost = 1
 
-		build_cost_ic = 0.4
+		build_cost_ic = 0.43
 		resources = {
-			steel = 1
+			steel = 2
 		}
 	}
 
-	melee_equipment_claw_1 = {
-		year = 800
-		archetype = infantry_equipment
-		parent = melee_equipment_claw_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
+	infantry_equipment_claw = {
+		year = 1007
+
+		is_archetype = yes
+		picture = archetype_infantry_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+
+		interface_category = interface_category_land
+
+		active = yes
+		upgrades = {
+			inf_atc_upgrade
+			inf_rel_upgrade
+			inf_def_upgrade
+			inf_weight_upgrade
+		}
+		#Misc Abilities
+		reliability = 0.9
+		maximum_speed = 4
+
 		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
+		defense = 20
+		breakthrough = 2
 		hardness = 0.001
 		armor_value = 0.001
-		reliability = 0.6
+
 		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
+		soft_attack = 3
+		hard_attack = 0.5
+		ap_attack = 1
+		air_attack = 0.001
 
+		#Space taken in convoy
+		lend_lease_cost = 1
 
-		build_cost_ic = 0.4
+		build_cost_ic = 0.43
 		resources = {
-			steel = 1
+			steel = 2
 		}
 	}
 
-	melee_equipment_paw_1 = {
-		year = 800
-		archetype = infantry_equipment
-		parent = melee_equipment_paw_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
+	infantry_equipment_paw = {
+		year = 1007
+
+		is_archetype = yes
+		picture = archetype_infantry_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+
+		interface_category = interface_category_land
+
+		active = yes
+		upgrades = {
+			inf_atc_upgrade
+			inf_rel_upgrade
+			inf_def_upgrade
+			inf_weight_upgrade
+		}
+		#Misc Abilities
+		reliability = 0.9
+		maximum_speed = 4
+
 		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
+		defense = 20
+		breakthrough = 2
 		hardness = 0.001
 		armor_value = 0.001
-		reliability = 0.6
+
 		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
+		soft_attack = 3
+		hard_attack = 0.5
+		ap_attack = 1
+		air_attack = 0.001
 
+		#Space taken in convoy
+		lend_lease_cost = 1
 
-		build_cost_ic = 0.4
+		build_cost_ic = 0.43
 		resources = {
-			steel = 1
+			steel = 2
 		}
 	}
 
-	melee_equipment_yak_1 = {
-		year = 800
-		archetype = infantry_equipment
-		parent = melee_equipment_yak_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
+	infantry_equipment_yak = {
+		year = 1007
+
+		is_archetype = yes
+		picture = archetype_infantry_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+
+		interface_category = interface_category_land
+
+		active = yes
+		upgrades = {
+			inf_atc_upgrade
+			inf_rel_upgrade
+			inf_def_upgrade
+			inf_weight_upgrade
+		}
+		#Misc Abilities
+		reliability = 0.9
+		maximum_speed = 4
+
 		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
+		defense = 20
+		breakthrough = 2
 		hardness = 0.001
 		armor_value = 0.001
-		reliability = 0.6
+
 		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
+		soft_attack = 3
+		hard_attack = 0.5
+		ap_attack = 1
+		air_attack = 0.001
 
+		#Space taken in convoy
+		lend_lease_cost = 1
 
-		build_cost_ic = 0.4
+		build_cost_ic = 0.43
 		resources = {
-			steel = 1
+			steel = 2
 		}
 	}
 
-	melee_equipment_penguin_1 = {
-		year = 800
-		archetype = infantry_equipment
-		parent = melee_equipment_penguin_0
-		priority = 11
-		visual_level = 0
-		is_convertable = no
+	infantry_equipment_penguin = {
+		year = 1007
+
+		is_archetype = yes
+		picture = archetype_infantry_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+
+		interface_category = interface_category_land
+
+		active = yes
+		upgrades = {
+			inf_atc_upgrade
+			inf_rel_upgrade
+			inf_def_upgrade
+			inf_weight_upgrade
+		}
+		#Misc Abilities
+		reliability = 0.9
+		maximum_speed = 4
+
 		#Defensive Abilities
-		defense = 7
-		breakthrough = 1
+		defense = 20
+		breakthrough = 2
 		hardness = 0.001
 		armor_value = 0.001
-		reliability = 0.6
+
 		#Offensive Abilities
-		soft_attack = 2
-		hard_attack = 0.2
-		ap_attack = 0.001
+		soft_attack = 3
+		hard_attack = 0.5
+		ap_attack = 1
+		air_attack = 0.001
 
+		#Space taken in convoy
+		lend_lease_cost = 1
 
-		build_cost_ic = 0.4
+		build_cost_ic = 0.43
 		resources = {
-			steel = 1
+			steel = 2
 		}
 	}
 
 	infantry_equipment_hoof_0 = {
-		year = 989
-
-		archetype = infantry_equipment
-		parent = melee_equipment_hoof_1
-
-		priority = 05
+		year = 800
+		archetype = infantry_equipment_hoof
+		priority = 12
 		visual_level = 0
-		is_convertable = yes
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
 	}
 
 	infantry_equipment_magical_0 = {
-		year = 989
-
-		archetype = infantry_equipment
-		parent = melee_equipment_magical_1
-
-		priority = 05
+		year = 800
+		archetype = infantry_equipment_magical
+		priority = 12
 		visual_level = 0
-		is_convertable = yes
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
 	}
 
 	infantry_equipment_claw_0 = {
-		year = 989
-
-		archetype = infantry_equipment
-		parent = melee_equipment_claw_1
-
-		priority = 05
+		year = 800
+		archetype = infantry_equipment_claw
+		priority = 12
 		visual_level = 0
-		is_convertable = yes
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
 	}
 
 	infantry_equipment_paw_0 = {
-		year = 989
-
-		archetype = infantry_equipment
-		parent = melee_equipment_paw_1
-
-		priority = 05
+		year = 800
+		archetype = infantry_equipment_paw
+		priority = 12
 		visual_level = 0
-		is_convertable = yes
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
 	}
 
 	infantry_equipment_yak_0 = {
+		year = 800
+		archetype = infantry_equipment_yak
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipment_penguin_0 = {
+		year = 800
+		archetype = infantry_equipment_penguin
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 3
+		breakthrough = 0.5
+		hardness = 0.001
+		armor_value = 0.001
+
+		reliability = 0.8
+
+		#Offensive Abilities
+		soft_attack = 1
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.25
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipment_hoof_1 = {
+		year = 800
+		archetype = infantry_equipment_hoof
+		parent = infantry_equipment_hoof_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipment_magical_1 = {
+		year = 800
+		archetype = infantry_equipment_magical
+		parent = infantry_equipment_magical_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipment_claw_1 = {
+		year = 800
+		archetype = infantry_equipment_claw
+		parent = infantry_equipment_claw_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipment_paw_1 = {
+		year = 800
+		archetype = infantry_equipment_paw
+		parent = infantry_equipment_paw_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipment_yak_1 = {
+		year = 800
+		archetype = infantry_equipment_yak
+		parent = infantry_equipment_yak_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipment_penguin_1 = {
+		year = 800
+		archetype = infantry_equipment_penguin
+		parent = infantry_equipment_penguin_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 1
+		hardness = 0.001
+		armor_value = 0.001
+		reliability = 0.6
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.4
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipment_hoof_2 = {
 		year = 989
 
-		archetype = infantry_equipment
-		parent = melee_equipment_yak_1
+		archetype = infantry_equipment_hoof
+		parent = infantry_equipment_hoof_1
 
 		priority = 05
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	infantry_equipment_penguin_0 = {
+	infantry_equipment_magical_2 = {
 		year = 989
 
-		archetype = infantry_equipment
-		parent = melee_equipment_penguin_1
+		archetype = infantry_equipment_magical
+		parent = infantry_equipment_magical_1
+
+		priority = 05
+		visual_level = 0
+		is_convertable = yes
+	}
+
+	infantry_equipment_claw_2 = {
+		year = 989
+
+		archetype = infantry_equipment_claw
+		parent = infantry_equipment_claw_1
+
+		priority = 05
+		visual_level = 0
+		is_convertable = yes
+	}
+
+	infantry_equipment_paw_2 = {
+		year = 989
+
+		archetype = infantry_equipment_paw
+		parent = infantry_equipment_paw_1
+
+		priority = 05
+		visual_level = 0
+		is_convertable = yes
+	}
+
+	infantry_equipment_yak_2 = {
+		year = 989
+
+		archetype = infantry_equipment_yak
+		parent = infantry_equipment_yak_1
+
+		priority = 05
+		visual_level = 0
+		is_convertable = yes
+	}
+
+	infantry_equipment_penguin_2 = {
+		year = 989
+
+		archetype = infantry_equipment_penguin
+		parent = infantry_equipment_penguin_1
 
 		priority = 05
 		visual_level = 0
@@ -374,16 +632,16 @@ equipments = {
 	}
 
 	# Regular infantry  1936
-	infantry_equipment_hoof_1 = {
+	infantry_equipment_hoof_3 = {
 		year = 1007
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_hoof_0
+		archetype = infantry_equipment_hoof
+		parent = infantry_equipment_hoof_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipment_hoof_0
+			infantry_equipment_hoof_2
 		}
 
 		#Defensive Abilities
@@ -400,16 +658,16 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_magical_1 = {
+	infantry_equipment_magical_3 = {
 		year = 1007
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_magical_0
+		archetype = infantry_equipment_magical
+		parent = infantry_equipment_magical_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipment_magical_0
+			infantry_equipment_magical_2
 		}
 
 		#Defensive Abilities
@@ -426,16 +684,16 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_claw_1 = {
+	infantry_equipment_claw_3 = {
 		year = 1007
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_claw_0
+		archetype = infantry_equipment_claw
+		parent = infantry_equipment_claw_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipment_claw_0
+			infantry_equipment_claw_2
 		}
 
 		#Defensive Abilities
@@ -452,16 +710,16 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_paw_1 = {
+	infantry_equipment_paw_3 = {
 		year = 1007
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_paw_0
+		archetype = infantry_equipment_paw
+		parent = infantry_equipment_paw_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipment_paw_0
+			infantry_equipment_paw_2
 		}
 
 		#Defensive Abilities
@@ -478,16 +736,16 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_yak_1 = {
+	infantry_equipment_yak_3 = {
 		year = 1007
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_yak_0
+		archetype = infantry_equipment_yak
+		parent = infantry_equipment_yak_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipment_yak_0
+			infantry_equipment_yak_2
 		}
 
 		#Defensive Abilities
@@ -504,16 +762,16 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_penguin_1 = {
+	infantry_equipment_penguin_3 = {
 		year = 1007
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_penguin_0
+		archetype = infantry_equipment_penguin
+		parent = infantry_equipment_penguin_2
 		priority = 10
 		visual_level = 1
 
 		can_convert_from = {
-			infantry_equipment_penguin_0
+			infantry_equipment_penguin_2
 		}
 
 		#Defensive Abilities
@@ -531,17 +789,17 @@ equipments = {
 	}
 
 	# Improved weapons  ~1939
-	infantry_equipment_hoof_2 = {
+	infantry_equipment_hoof_4 = {
 		year = 1010
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_hoof_1
+		archetype = infantry_equipment_hoof
+		parent = infantry_equipment_hoof_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipment_hoof_0
-			infantry_equipment_hoof_1
+			infantry_equipment_hoof_2
+			infantry_equipment_hoof_3
 		}
 
 		#Defensive Abilities
@@ -561,17 +819,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_magical_2 = {
+	infantry_equipment_magical_4 = {
 		year = 1010
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_magical_1
+		archetype = infantry_equipment_magical
+		parent = infantry_equipment_magical_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipment_magical_0
-			infantry_equipment_magical_1
+			infantry_equipment_magical_2
+			infantry_equipment_magical_3
 		}
 
 		#Defensive Abilities
@@ -591,17 +849,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_claw_2 = {
+	infantry_equipment_claw_4 = {
 		year = 1010
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_claw_1
+		archetype = infantry_equipment_claw
+		parent = infantry_equipment_claw_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipment_claw_0
-			infantry_equipment_claw_1
+			infantry_equipment_claw_2
+			infantry_equipment_claw_3
 		}
 
 		#Defensive Abilities
@@ -621,17 +879,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_paw_2 = {
+	infantry_equipment_paw_4 = {
 		year = 1010
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_paw_1
+		archetype = infantry_equipment_paw
+		parent = infantry_equipment_paw_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipment_paw_0
-			infantry_equipment_paw_1
+			infantry_equipment_paw_2
+			infantry_equipment_paw_3
 		}
 
 		#Defensive Abilities
@@ -651,17 +909,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_yak_2 = {
+	infantry_equipment_yak_4 = {
 		year = 1010
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_yak_1
+		archetype = infantry_equipment_yak
+		parent = infantry_equipment_yak_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipment_yak_0
-			infantry_equipment_yak_1
+			infantry_equipment_yak_2
+			infantry_equipment_yak_3
 		}
 
 		#Defensive Abilities
@@ -681,17 +939,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_penguin_2 = {
+	infantry_equipment_penguin_4 = {
 		year = 1010
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_penguin_1
+		archetype = infantry_equipment_penguin
+		parent = infantry_equipment_penguin_3
 		priority = 10
 		visual_level = 2
 
 		can_convert_from = {
-			infantry_equipment_penguin_0
-			infantry_equipment_penguin_1
+			infantry_equipment_penguin_2
+			infantry_equipment_penguin_3
 		}
 
 		#Defensive Abilities
@@ -712,17 +970,17 @@ equipments = {
 	}
 
 	# Advanced weapons  ~1942
-	infantry_equipment_hoof_3 = {
+	infantry_equipment_hoof_5 = {
 		year = 1013
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_hoof_2
+		archetype = infantry_equipment_hoof
+		parent = infantry_equipment_hoof_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_hoof_1
-			infantry_equipment_hoof_2
+			infantry_equipment_hoof_3
+			infantry_equipment_hoof_4
 		}
 
 		#Defensive Abilities
@@ -743,17 +1001,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_magical_3 = {
+	infantry_equipment_magical_5 = {
 		year = 1013
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_magical_2
+		archetype = infantry_equipment_magical
+		parent = infantry_equipment_magical_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_magical_1
-			infantry_equipment_magical_2
+			infantry_equipment_magical_3
+			infantry_equipment_magical_4
 		}
 
 		#Defensive Abilities
@@ -774,17 +1032,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_claw_3 = {
+	infantry_equipment_claw_5 = {
 		year = 1013
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_claw_2
+		archetype = infantry_equipment_claw
+		parent = infantry_equipment_claw_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_claw_1
-			infantry_equipment_claw_2
+			infantry_equipment_claw_3
+			infantry_equipment_claw_4
 		}
 
 		#Defensive Abilities
@@ -805,17 +1063,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_paw_3 = {
+	infantry_equipment_paw_5 = {
 		year = 1013
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_paw_2
+		archetype = infantry_equipment_paw
+		parent = infantry_equipment_paw_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_paw_1
-			infantry_equipment_paw_2
+			infantry_equipment_paw_3
+			infantry_equipment_paw_4
 		}
 
 		#Defensive Abilities
@@ -836,17 +1094,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_yak_3 = {
+	infantry_equipment_yak_5 = {
 		year = 1013
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_yak_2
+		archetype = infantry_equipment_yak
+		parent = infantry_equipment_yak_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_yak_1
-			infantry_equipment_yak_2
+			infantry_equipment_yak_3
+			infantry_equipment_yak_4
 		}
 
 		#Defensive Abilities
@@ -867,17 +1125,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_penguin_3 = {
+	infantry_equipment_penguin_5 = {
 		year = 1013
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_penguin_2
+		archetype = infantry_equipment_penguin
+		parent = infantry_equipment_penguin_4
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_penguin_1
-			infantry_equipment_penguin_2
+			infantry_equipment_penguin_3
+			infantry_equipment_penguin_4
 		}
 
 		#Defensive Abilities
@@ -900,17 +1158,17 @@ equipments = {
 
 	###------> New Infantry Equipment   <><> <><> <><> <><> <><>
 
-	infantry_equipment_hoof_x = {
+	infantry_equipment_hoof_6 = {
 		year = 1019
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_hoof_3
+		archetype = infantry_equipment_hoof
+		parent = infantry_equipment_hoof_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_hoof_2
-			infantry_equipment_hoof_3
+			infantry_equipment_hoof_4
+			infantry_equipment_hoof_5
 		}
 
 		#Defensive Abilities
@@ -931,17 +1189,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_magical_x = {
+	infantry_equipment_magical_6 = {
 		year = 1019
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_magical_3
+		archetype = infantry_equipment_magical
+		parent = infantry_equipment_magical_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_magical_2
-			infantry_equipment_magical_3
+			infantry_equipment_magical_4
+			infantry_equipment_magical_5
 		}
 
 		#Defensive Abilities
@@ -962,17 +1220,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_claw_x = {
+	infantry_equipment_claw_6 = {
 		year = 1019
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_claw_3
+		archetype = infantry_equipment_claw
+		parent = infantry_equipment_claw_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_claw_2
-			infantry_equipment_claw_3
+			infantry_equipment_claw_4
+			infantry_equipment_claw_5
 		}
 
 		#Defensive Abilities
@@ -993,17 +1251,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_paw_x = {
+	infantry_equipment_paw_6 = {
 		year = 1019
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_paw_3
+		archetype = infantry_equipment_paw
+		parent = infantry_equipment_paw_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_paw_2
-			infantry_equipment_paw_3
+			infantry_equipment_paw_4
+			infantry_equipment_paw_5
 		}
 
 		#Defensive Abilities
@@ -1024,17 +1282,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_yak_x = {
+	infantry_equipment_yak_6 = {
 		year = 1019
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_yak_3
+		archetype = infantry_equipment_yak
+		parent = infantry_equipment_yak_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_yak_2
-			infantry_equipment_yak_3
+			infantry_equipment_yak_4
+			infantry_equipment_yak_5
 		}
 
 		#Defensive Abilities
@@ -1055,17 +1313,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_penguin_x = {
+	infantry_equipment_penguin_6 = {
 		year = 1019
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_penguin_3
+		archetype = infantry_equipment_penguin
+		parent = infantry_equipment_penguin_5
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_penguin_2
-			infantry_equipment_penguin_3
+			infantry_equipment_penguin_4
+			infantry_equipment_penguin_5
 		}
 
 		#Defensive Abilities
@@ -1086,17 +1344,17 @@ equipments = {
 		is_convertable = yes
 	}
 
-	infantry_equipment_hoof_x_2 = {
+	infantry_equipment_hoof_7 = {
 		year = 1025
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_hoof_x
+		archetype = infantry_equipment_hoof
+		parent = infantry_equipment_hoof_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_hoof_3
-			infantry_equipment_hoof_x
+			infantry_equipment_hoof_5
+			infantry_equipment_hoof_6
 		}
 
 		#Defensive Abilities
@@ -1116,17 +1374,17 @@ equipments = {
 		}
 	}
 
-	infantry_equipment_magical_x_2 = {
+	infantry_equipment_magical_7 = {
 		year = 1025
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_magical_x
+		archetype = infantry_equipment_magical
+		parent = infantry_equipment_magical_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_magical_3
-			infantry_equipment_magical_x
+			infantry_equipment_magical_5
+			infantry_equipment_magical_6
 		}
 
 		#Defensive Abilities
@@ -1146,17 +1404,17 @@ equipments = {
 		}
 	}
 
-	infantry_equipment_claw_x_2 = {
+	infantry_equipment_claw_7 = {
 		year = 1025
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_claw_x
+		archetype = infantry_equipment_claw
+		parent = infantry_equipment_claw_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_claw_3
-			infantry_equipment_claw_x
+			infantry_equipment_claw_5
+			infantry_equipment_claw_6
 		}
 
 		#Defensive Abilities
@@ -1176,17 +1434,17 @@ equipments = {
 		}
 	}
 
-	infantry_equipment_paw_x_2 = {
+	infantry_equipment_paw_7 = {
 		year = 1025
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_paw_x
+		archetype = infantry_equipment_paw
+		parent = infantry_equipment_paw_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_paw_3
-			infantry_equipment_paw_x
+			infantry_equipment_paw_5
+			infantry_equipment_paw_6
 		}
 
 		#Defensive Abilities
@@ -1206,17 +1464,17 @@ equipments = {
 		}
 	}
 
-	infantry_equipment_yak_x_2 = {
+	infantry_equipment_yak_7 = {
 		year = 1025
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_yak_x
+		archetype = infantry_equipment_yak
+		parent = infantry_equipment_yak_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_yak_3
-			infantry_equipment_yak_x
+			infantry_equipment_yak_5
+			infantry_equipment_yak_6
 		}
 
 		#Defensive Abilities
@@ -1236,17 +1494,17 @@ equipments = {
 		}
 	}
 
-	infantry_equipment_penguin_x_2 = {
+	infantry_equipment_penguin_7 = {
 		year = 1025
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_penguin_x
+		archetype = infantry_equipment_penguin
+		parent = infantry_equipment_penguin_6
 		priority = 10
 		visual_level = 3
 
 		can_convert_from = {
-			infantry_equipment_penguin_3
-			infantry_equipment_penguin_x
+			infantry_equipment_penguin_5
+			infantry_equipment_penguin_6
 		}
 
 		#Defensive Abilities
