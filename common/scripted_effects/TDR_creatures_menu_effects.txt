@@ -1,8 +1,6 @@
 # This code is handling player's actions in the cretures_menu gui
 # From the best to the worst equipment it converts manpower and infantry_equipment into the infantry_equipped, which is used by the army
-# (Yeah, it is how we handle our race 'manpower', it is just restricted to produce eqipment unless we have enough manpower for that race (Usually equipment loss is close to the manpower loss))
-
-# *And I know, that it could be done with 'for', but 'infantry_equipment' and '_6' '_7' - must be changed then, which I'm a little bit afraid to do. (We are still a submod, aren't we) 
+# (Yeah, it is how we handle our race 'manpower'. It is restricted to produce equipment unless we have enough manpower for that race (Usually equipment loss is close to the manpower loss))
 count_race_equipped = {
 	set_temp_variable = { effect_root = THIS }
 	log = "[?effect_root.GetName|0] - count_race_equipped ####################" #debug
@@ -18,7 +16,24 @@ count_race_equipped = {
 	}
 	log = "[?race_manpower|0] - race manpower" #debug
 
-	#infantry_equipment_[EQUIPMENT_TYPE]_7
+	meta_effect = {
+		text = {
+			set_variable = {
+				equipped_sum = num_equipment@infantry_equipped_[RACE]
+			}
+			set_variable = {
+				equipped_cap = equipment_cap_[RACE]_[EQUIPMENT_TYPE]
+			}
+		}
+
+		EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+		RACE = "[?effect_root.GetRace]"
+	}
+
+	log = "[?equipped_sum|0] - equipped_sum" #debug
+	log = "[?equipped_cap|0] - equipped_cap" #debug
+
+	# Looping through different levels of equipment ( From best to worst )
 	for_loop_effect = {
 		start = 7
 		end = 0
@@ -26,104 +41,125 @@ count_race_equipped = {
 		add = -1
 		value = i
 
-		meta_effect = {
-			text = {
-				set_variable = {
-					var = equipment_type_num
-					value = num_equipment@infantry_equipment_[EQUIPMENT_TYPE]_[EQUIPMENT_NUM]
-				}
-			}
-			EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
-			EQUIPMENT_NUM = "[?i]"
-		}
-		log = "[?equipment_type_num|0] equip for [?i]" #debug
 		if = {
 			limit = {
-				NOT = { check_variable = { equipment_type_num = 0 } }
-				NOT = { check_variable = { race_manpower = 0 } }
-				check_variable = { equipment_type_num < race_manpower }
+				check_variable = {
+					equipped_sum < equipped_cap
+				}
 			}
-			meta_effect = {
+			meta_effect = { #Getting number of current equipment
 				text = {
-					# Adding converted value to stockpile
-					add_equipment_to_stockpile = {
-						type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_[EQUIPMENT_NUM]
-						amount = equipment_type_num
-					}
-
-					# Time for substracting
-					multiply_variable = {
+					set_variable = {
 						var = equipment_type_num
-						value = -1
-					}
-					# Substracting value from equipment
-					add_equipment_to_stockpile = {
-						type = infantry_equipment_[EQUIPMENT_TYPE]_[EQUIPMENT_NUM]
-						amount = equipment_type_num
-					}
-
-					# Substracting value from race manpower
-					add_to_variable = {
-						var = race_manpower
-						value = equipment_type_num
-					}
-					add_to_variable = {
-						var = effect_root:race_conscripts^[RACE_NUMBER]
-						value = equipment_type_num
+						value = num_equipment@infantry_equipment_[EQUIPMENT_TYPE]_[EQUIPMENT_NUM]
 					}
 				}
-				RACE_NUMBER = "[?effect_root:race]"
 				EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
-				RACE = "[?effect_root.GetRace]"
 				EQUIPMENT_NUM = "[?i]"
 			}
-		}
-		else_if = {
-			limit = {
-				NOT = { check_variable = { equipment_type_num = 0 } }
-				NOT = { check_variable = { race_manpower = 0 } }
-			}
-			meta_effect = {
-				text = {
-					# Adding converted value to stockpile
-					add_equipment_to_stockpile = {
-						type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_[EQUIPMENT_NUM]
-						amount = race_manpower
-					}
 
-					# Time for substracting
-					multiply_variable = {
-						var = race_manpower
-						value = -1
+			log = "[?equipment_type_num|0] equip for [?i]" #debug
+
+			if = {
+				limit = {
+					check_variable = { race_manpower > 0 }
+					check_variable = { equipment_type_num > 0 }
+				}
+				if = { # Two cases: we have too much equipment or too much manpower, so to_add value depends on what we have less
+					limit = {
+						check_variable = { equipment_type_num > race_manpower }
 					}
-					# Substracting value from equipment
-					add_equipment_to_stockpile = {
-						type = infantry_equipment_[EQUIPMENT_TYPE]_[EQUIPMENT_NUM]
-						amount = race_manpower
-					}
-					# Substracting value from race manpower
-					add_to_variable = {
-						var = effect_root:race_conscripts^[RACE_NUMBER]
+					set_variable = { #Less equipment
+						var = equipment_to_add
 						value = race_manpower
 					}
-
-					multiply_variable = {
-						var = race_manpower
-						value = -1
+				}
+				else = {
+					set_variable = { #Less manpower
+						var = equipment_to_add
+						value = equipment_type_num
 					}
 				}
-				RACE_NUMBER = "[?effect_root:race]"
-				EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
-				RACE = "[?effect_root.GetRace]"
-				EQUIPMENT_NUM = "[?i]"
-			}
 
-			subtract_from_variable = {
-				var = race_manpower
-				value = race_manpower
+				# Checking if the value will go over cap after addition
+				set_temp_variable = {
+					var = temp_result
+					value = equipped_sum
+				}
+				add_to_temp_variable = {
+					var = temp_result
+					value = equipment_to_add
+				}
+				log = "[?temp_result|0] temp_result for [?i]" #debug
+				if = { # In that case we need to subtract the leftover from current to_add value
+					limit = {
+						check_variable = { temp_result > equipped_cap }
+					}
+					subtract_from_temp_variable = {
+						var = temp_result
+						value = equipped_cap
+					}
+					subtract_from_variable = {
+						var = equipment_to_add
+						value = temp_result
+					}
+					log = "[?equipment_to_add|0] new equipment_to_add for [?i]" #debug
+				}
+				# Now we have clean to_add variable
+				meta_effect = {
+					text = {
+						# Adding converted value to stockpile
+						add_equipment_to_stockpile = {
+							type = infantry_equipped_[RACE]_[EQUIPMENT_TYPE]_[EQUIPMENT_NUM]
+							amount = equipment_to_add
+						}
+
+						# Time for subtracting
+						multiply_variable = {
+							var = equipment_to_add
+							value = -1
+						}
+						# Subtracting value from equipment
+						add_equipment_to_stockpile = {
+							type = infantry_equipment_[EQUIPMENT_TYPE]_[EQUIPMENT_NUM]
+							amount = equipment_to_add
+						}
+						# Subtracting value from actual race conscripts
+						add_to_variable = {
+							var = effect_root:race_conscripts^[RACE_NUMBER]
+							value = equipment_to_add
+						}
+						multiply_variable = {
+							var = equipment_to_add
+							value = -1
+						}
+					}
+					RACE_NUMBER = "[?effect_root:race]"
+					EQUIPMENT_TYPE = "[?effect_root.GetEquipmentType]"
+					RACE = "[?effect_root.GetRace]"
+					EQUIPMENT_NUM = "[?i]"
+				}
+				subtract_from_variable = {
+					var = race_manpower
+					value = equipment_to_add
+				}
+				# Yep, we have to check for sum of equipment in order not to go over cap
+				add_to_variable = {
+					var = equipped_sum
+					value = equipment_to_add
+				}
+				clear_variable = equipment_to_add
+
+				log = "[?race_manpower|0] - race manpower after [?i]" #debug
+
 			}
 		}
-		clear_variable = equipment_type_num
-		log = "[?race_manpower|0] - race manpower after [?i]" #debug
+		else = {
+			set_temp_variable = {
+				break = 1
+			}
+			# Getting error message or something ( Over the cap )
+		}
 	}
+
 }

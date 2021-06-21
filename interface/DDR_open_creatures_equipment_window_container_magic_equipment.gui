@@ -137,7 +137,7 @@ guiTypes = {
 		name = "creaturespower_magic_unicorn_equipment_01"
 		position = { x = 70 y = 120 }
 		font = "hoi_16mbs"
-		text = "CRYSTAL_UNICORN_CREATUREPOWER" 
+		text = "UNICORN_CREATUREPOWER" 
 		maxWidth = 180
 		maxHeight = 500
 		Orientation = "UPPER_LEFT"	
@@ -161,7 +161,7 @@ guiTypes = {
 		name = "created_equipment_magic_unicorn_equipment_01"
 		position = { x = 70 y = 140 }
 		font = "hoi_16mbs"
-		text = "CRYSTAL_UNICORN_CREATED_EQUIPMENT" 
+		text = "UNICORN_CREATED_EQUIPMENT" 
 		maxWidth = 175
 		maxHeight = 500
 		Orientation = "UPPER_LEFT"	
