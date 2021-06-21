@@ -141,4 +141,10 @@ defined_text = {
 		}
 		localization_key = "crystal_unicorn"
 	}
+	text = {
+		trigger = {
+			check_variable = { race = 17 }
+		}
+		localization_key = "special"
+	}
 }

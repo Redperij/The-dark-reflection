@@ -1,0 +1,134 @@
+guiTypes = {
+	containerWindowType = {
+		name = "major_creature_in_state_container"
+                position = { x = 0 y = 0 }
+		Orientation = CENTER
+		
+		iconType = {
+			name = "major_creature_in_state_icon_bear"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_bear"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_BEAR"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_changeling"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_changeling"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_CHANGELING"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_crystal_earthpony"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_crystal_earthpony"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_CRYSTAL_EARTHPONY"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_crystal_pegasi"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_crystal_pegasi"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_CRYSTAL_PEGASI"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_crystal_pony"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_crystal_pony"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_CRYSTAL_PONY"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_crystal_unicorn"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_crystal_unicorn"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_CRYSTAL_UNICORN"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_deer"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_deer"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_DEER"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_dog"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_dog"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_DOG"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_dragon"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_dragon"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_DRAGON"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_earthpony"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_earthpony"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_EARTHPONY"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_griffon"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_griffon"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_GRIFFON"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_pegasi"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_pegasi"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_PEGASI"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_penguin"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_penguins"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_PENGUINS"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_pony"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_pony"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_PONY"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_thestral"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_thestral"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_THESTRAL"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_unicorn"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_unicorn"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_UNICORN"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_yak"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_yak"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_YAK"
+		}
+		iconType = {
+			name = "major_creature_in_state_icon_special"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_special"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_SPECIAL"
+		}
+    }
+}

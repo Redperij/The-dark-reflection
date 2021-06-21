@@ -6,9 +6,48 @@ on_actions = {
 			log = "[GetDateText] War at Equestria main on_startup begin"
 			
 			#States by races
-			#added 1-40, 206, 300, 541, 564, 627, 643, 661, 727-730, 739-859, 935-1090, 1100-1115, 1171-1301, 1488
-			#exclusions 
+			#added 1-40, 155, 206, 300, 341-342, 346, 349, 362, 526, 532, 541, 548-591, 620, 627, 643, 661, 727-730, 739-859, 935-1090, 1100-1115, 1171-1301, 1488
+			# 
+			add_to_array = { global.pony_states = 155.id }
+			add_to_array = { global.pony_states = 341.id }
+			add_to_array = { global.pony_states = 362.id }
+			add_to_array = { global.pony_states = 548.id }
+			add_to_array = { global.pony_states = 549.id }
+			add_to_array = { global.pony_states = 550.id }
+			add_to_array = { global.pony_states = 551.id }
+			add_to_array = { global.pony_states = 552.id }
+			add_to_array = { global.pony_states = 554.id }
+			add_to_array = { global.pony_states = 555.id }
+			add_to_array = { global.pony_states = 557.id }
+			add_to_array = { global.pony_states = 558.id }
+			add_to_array = { global.pony_states = 559.id }
+			add_to_array = { global.pony_states = 560.id }
+			add_to_array = { global.pony_states = 561.id }
+			add_to_array = { global.pony_states = 562.id }
+			add_to_array = { global.pony_states = 563.id }
 			add_to_array = { global.pony_states = 564.id }
+			add_to_array = { global.pony_states = 565.id }
+			add_to_array = { global.pony_states = 566.id }
+			add_to_array = { global.pony_states = 567.id }
+			add_to_array = { global.pony_states = 570.id }
+			add_to_array = { global.pony_states = 571.id }
+			add_to_array = { global.pony_states = 572.id }
+			add_to_array = { global.pony_states = 573.id }
+			add_to_array = { global.pony_states = 574.id }
+			add_to_array = { global.pony_states = 575.id }
+			add_to_array = { global.pony_states = 576.id }
+			add_to_array = { global.pony_states = 578.id }
+			add_to_array = { global.pony_states = 579.id }
+			add_to_array = { global.pony_states = 580.id }
+			add_to_array = { global.pony_states = 581.id }
+			add_to_array = { global.pony_states = 583.id }
+			add_to_array = { global.pony_states = 584.id }
+			add_to_array = { global.pony_states = 586.id }
+			add_to_array = { global.pony_states = 587.id }
+			add_to_array = { global.pony_states = 589.id }
+			add_to_array = { global.pony_states = 590.id }
+			add_to_array = { global.pony_states = 591.id }
+			add_to_array = { global.pony_states = 620.id }
 			add_to_array = { global.pony_states = 727.id }
 			add_to_array = { global.pony_states = 730.id }
 			add_to_array = { global.pony_states = 739.id }
@@ -64,15 +103,17 @@ on_actions = {
 			add_to_array = { global.crystal_pony_states = 773.id }
 			add_to_array = { global.crystal_pony_states = 806.id }
 			add_to_array = { global.crystal_pony_states = 809.id }
-			add_to_array = { global.crystal_pony_states = 825.id }
 			add_to_array = { global.crystal_pony_states = 858.id }
 			add_to_array = { global.crystal_pony_states = 1199.id }
-			add_to_array = { global.crystal_pony_states = 1283.id }
 
 			add_to_array = { global.earthpony_states = 206.id }
+			add_to_array = { global.earthpony_states = 556.id }
+			add_to_array = { global.earthpony_states = 569.id }
+			add_to_array = { global.earthpony_states = 577.id }
+			add_to_array = { global.earthpony_states = 585.id }
+			add_to_array = { global.earthpony_states = 588.id }
 			add_to_array = { global.earthpony_states = 741.id }
 			add_to_array = { global.earthpony_states = 743.id }
-			add_to_array = { global.earthpony_states = 749.id }
 			add_to_array = { global.earthpony_states = 760.id }
 			add_to_array = { global.earthpony_states = 761.id }
 			add_to_array = { global.earthpony_states = 765.id }
@@ -89,6 +130,8 @@ on_actions = {
 			add_to_array = { global.earthpony_states = 799.id }
 
 			add_to_array = { global.pegasi_states = 300.id }
+			add_to_array = { global.pegasi_states = 349.id }
+			add_to_array = { global.pegasi_states = 442.id }
 			add_to_array = { global.pegasi_states = 728.id }
 			add_to_array = { global.pegasi_states = 729.id }
 			add_to_array = { global.pegasi_states = 747.id }
@@ -257,6 +300,11 @@ on_actions = {
 			add_to_array = { global.thestral_states = 38.id }
 			add_to_array = { global.thestral_states = 39.id }
 			add_to_array = { global.thestral_states = 40.id }
+			add_to_array = { global.thestral_states = 342.id }
+			add_to_array = { global.thestral_states = 526.id }
+			add_to_array = { global.thestral_states = 532.id }
+			add_to_array = { global.thestral_states = 553.id }
+			add_to_array = { global.thestral_states = 749.id }
 
 			add_to_array = { global.dragon_states = 2.id }
 			add_to_array = { global.dragon_states = 3.id }
@@ -287,6 +335,7 @@ on_actions = {
 			add_to_array = { global.bear_states = 1301.id }
 
 			add_to_array = { global.changeling_states = 541.id }
+			add_to_array = { global.changeling_states = 582.id }
 			add_to_array = { global.changeling_states = 751.id }
 			add_to_array = { global.changeling_states = 846.id }
 			add_to_array = { global.changeling_states = 859.id }
@@ -462,10 +511,14 @@ on_actions = {
 
 			add_to_array = { global.crystal_earthpony_states = 643.id }
 
+			add_to_array = { global.crystal_pegasi_states = 568.id }
 			add_to_array = { global.crystal_pegasi_states = 661.id }
+			add_to_array = { global.crystal_pegasi_states = 825.id }
+			add_to_array = { global.crystal_pegasi_states = 1283.id }
 
 			add_to_array = { global.crystal_unicorn_states = 627.id }
 
+			add_to_array = { global.special_states = 346.id }
 			add_to_array = { global.special_states = 843.id }
 			add_to_array = { global.special_states = 1026.id }
 			add_to_array = { global.special_states = 1027.id }
@@ -513,6 +566,27 @@ on_actions = {
 			#		}
 			#	}
 			#}
+
+			# Giving each state a flag corresponding to race ( needed for mark in gui )
+			TST = {
+				for_loop_effect = {
+					start = 0
+					end = 18
+					value = race
+
+					meta_effect = {
+						text = {
+							for_each_loop = {
+								array = global.[RACE]_states
+								var:v = { 
+									set_state_flag = major_creature_in_state_[RACE]_flag
+								}
+							}
+						}
+						RACE = "[?this.GetRace]"
+					}
+				}
+			}
 
 			#Race conscripts mechanic
 			for_each_scope_loop = {
