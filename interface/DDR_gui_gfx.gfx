@@ -111,4 +111,8 @@ spriteTypes = {
 		name = "GFX_type_of_creature_in_state_yak"
 		texturefile = "gfx/interface/GFX_type_of_creature_in_state_yak.dds"
 	}
+	spriteType = {
+		name = "GFX_type_of_creature_in_state_special"
+		texturefile = "gfx/interface/GFX_type_of_creature_in_state_special.dds"
+	}
 }

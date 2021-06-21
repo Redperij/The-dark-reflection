@@ -123,5 +123,12 @@ guiTypes = {
 			Orientation = CENTER
 			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_YAK"
 		}
+		iconType = {
+			name = "major_creature_in_state_icon_special"
+			position = { x = -155 y = -25 }			
+			spriteType = "GFX_type_of_creature_in_state_special"
+			Orientation = CENTER
+			pdx_tooltip = "MAJOR_CREATURE_IN_STATE_TOOLTIP_SPECIAL"
+		}
     }
 }

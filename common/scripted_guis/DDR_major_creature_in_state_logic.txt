@@ -93,11 +93,11 @@ scripted_gui = {
                     has_state_flag = major_creature_in_state_crystal_unicorn_flag
                 }
             }
-            #major_creature_in_state_icon_special_visible = {
-            #    THIS = {
-            #        has_state_flag = major_creature_in_state_special_flag
-            #    }
-            #}
+            major_creature_in_state_icon_special_visible = {
+                THIS = {
+                    has_state_flag = major_creature_in_state_special_flag
+                }
+            }
         }
     }
 }
