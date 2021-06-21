@@ -7,6 +7,24 @@ VICTORY_POINTS_13268:0 "Кантерслотский Дворец" #Canterlot
 VICTORY_POINTS_13257:0 "Кантерлот"
 VICTORY_POINTS_13211:0 "Северный Кантерлот"
 VICTORY_POINTS_13297:0 "Южный Кантерлот"
+VICTORY_POINTS_2908:0 "Луна Нова" #Luna Nova
+VICTORY_POINTS_13019:0 "Восток Луна Новы" #Luna Nova
+VICTORY_POINTS_1236:0 "Хоуп Холлоу" #Hope Hollow
+VICTORY_POINTS_12795:0 "Южный Хоуп Холлоу" #Hope Hollow
+VICTORY_POINTS_2565:0 "Правобережье Хоуп Холлоу" #Hope Hollow
+VICTORY_POINTS_12371:0 "Мейрчестер" #Marechester
+VICTORY_POINTS_12442:0 "Западный Мейрчестер" #Marechester
+VICTORY_POINTS_1350:0 "Северный Мейрчестер" #Marechester
+VICTORY_POINTS_12410:0 "Восточный Мейрчестер" #Marechester
+VICTORY_POINTS_12480:0 "Южный Мейрчестер" #Marechester
+VICTORY_POINTS_12983:0 "Биттерберри" #Marechester
+VICTORY_POINTS_3810:0 "Речной Порт Биттерберри" #Marechester
+VICTORY_POINTS_13036:0 "Восточный Биттерберри" #Marechester
+VICTORY_POINTS_13354:0 "Руины Клаудсдейла" #Ruins of Cloudsdale
+VICTORY_POINTS_3503:0 "Дейл" #Dale
+VICTORY_POINTS_13129:0 "Вичита" #Wichita
+VICTORY_POINTS_2646:0 "Овлаха" #Owlaha
+VICTORY_POINTS_3300:0 "Топспуд" #Topspud
 #######################################################################
 # Governorate Whinnyapolis ############################################
 #######################################################################
@@ -185,7 +203,6 @@ VICTORY_POINTS_12522:0 "Пригород Шира"
 VICTORY_POINTS_12690:0 "Байндбол Вуд"
 VICTORY_POINTS_12277:0 "Витфарроус"
 VICTORY_POINTS_2309:0 "Северный Витфарроус"
-VICTORY_POINTS_1657:0 "Южный Витфарроус"
 VICTORY_POINTS_5407:0 "Бакклбьюри"
 VICTORY_POINTS_12434:0 "Крикхоллоу"
 VICTORY_POINTS_5062:0 "Лонгботтом"

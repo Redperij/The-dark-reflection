@@ -6,7 +6,7 @@ state={
 		add_core_of = EQS
 	}
 	provinces={
-		4792 12184 12221 12238 12253 12298 12308 12342 12362 
+		4792 12184 12221 12238 12253 12298 12308 12342 12362
 	}
 	manpower=1
 	state_category = pastoral

@@ -13,12 +13,9 @@ state={
 		victory_points = {
 			2309 3
 		}
-		victory_points = {
-			1657 2
-		}
 	}
 	provinces={
-		1657 2309 12277 
+		2309 12277 
 	}
 	manpower= 357531
 	state_category = large_city

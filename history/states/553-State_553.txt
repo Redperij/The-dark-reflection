@@ -1,14 +1,17 @@
 state={
 	id=553
-	name="STATE_553"
+	name="STATE_553" #Topspud
 	history={
 		owner = EQS
 		add_core_of = EQS
+		victory_points = {
+			3300 1 #Topspud
+		}
 	}
 	provinces={
-		2148 2965 5177 13067 13080 13113 13138 13143 13174 13175 13183 
+		2148 2965 5177 13067 13080 13113 13138 13143 13174 13175 13183 3300
 	}
-	manpower=1
-	state_category = town
+	manpower=16129
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

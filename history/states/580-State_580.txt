@@ -1,14 +1,29 @@
 state={
 	id=580
-	name="STATE_580"
+	name="STATE_580" #Marechester
 	history={
 		owner = EQS
 		add_core_of = EQS
+		victory_points = {
+			12371 20 #Marechester
+		}
+		victory_points = {
+			12442 3  #West Marechester
+		}
+		victory_points = {
+			1350 2  #North Marechester
+		}
+		victory_points = {
+			12410 2  #East Marechester
+		}
+		victory_points = {
+			12480 2  #South Marechester
+		}
 	}
 	provinces={
-		1350 12371 12410 12442 
+		1350 12371 12442 12480 12410
 	}
-	manpower=1
-	state_category = large_town
+	manpower=776325
+	state_category = large_city
 	buildings_max_level_factor=1.000
 }

@@ -8,6 +8,24 @@ VICTORY_POINTS_13268:0 "Canterlot Palace" #Canterlot
 VICTORY_POINTS_13257:0 "Canterlot City"
 VICTORY_POINTS_13211:0 "North Canterlot"
 VICTORY_POINTS_13297:0 "South Canterlot"
+VICTORY_POINTS_2908:0 "Luna Nova" #Luna Nova
+VICTORY_POINTS_13019:0 "East Luna Nova" #Luna Nova
+VICTORY_POINTS_1236:0 "Hope Hollow" #Hope Hollow
+VICTORY_POINTS_12795:0 "South Hope Hollow" #Hope Hollow
+VICTORY_POINTS_2565:0 "Right Bank Hope Hollow" #Hope Hollow
+VICTORY_POINTS_12371:0 "Marechester" #Marechester
+VICTORY_POINTS_12442:0 "West Marechester" #Marechester
+VICTORY_POINTS_1350:0 "North Marechester" #Marechester
+VICTORY_POINTS_12410:0 "East Marechester" #Marechester
+VICTORY_POINTS_12480:0 "South Marechester" #Marechester
+VICTORY_POINTS_12983:0 "Bitterberry" #Marechester
+VICTORY_POINTS_3810:0 "Bitterberry River Port" #Marechester
+VICTORY_POINTS_13036:0 "East Bitterberry" #Marechester
+VICTORY_POINTS_13354:0 "Ruins of Cloudsdale" #Ruins of Cloudsdale
+VICTORY_POINTS_3503:0 "Dale" #Dale
+VICTORY_POINTS_13129:0 "Wichita" #Wichita
+VICTORY_POINTS_2646:0 "Owlaha" #Owlaha
+VICTORY_POINTS_3300:0 "Topspud" #Topspud
 #######################################################################
 # Governorate Whinnyapolis ############################################
 #######################################################################
@@ -186,7 +204,6 @@ VICTORY_POINTS_12522:0 "Shire Outskirts"
 VICTORY_POINTS_12690:0 "Bindbole Wood"
 VICTORY_POINTS_12277:0 "Whitfurrows"
 VICTORY_POINTS_2309:0 "North Whitfurrows"
-VICTORY_POINTS_1657:0 "South Whitfurrows"
 VICTORY_POINTS_5407:0 "Bucklebury"
 VICTORY_POINTS_12434:0 "Crickhollow"
 VICTORY_POINTS_5062:0 "Longbottom"
