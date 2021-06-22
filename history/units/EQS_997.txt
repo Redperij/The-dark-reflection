@@ -1,0 +1,22 @@
+﻿division_template = {
+	name = "Earthpony Militia"
+
+	regiments = {
+		earthpony_infantry = { x = 0 y = 0 }
+		earthpony_infantry = { x = 1 y = 1 }
+		earthpony_infantry = { x = 1 y = 0 }
+		earthpony_infantry = { x = 0 y = 1 }
+		earthpony_infantry = { x = 2 y = 0 }
+	}
+
+	support = {
+	}
+	priority = 1
+}
+units = {
+	division = {
+		name = "Earthpony Check"
+		location = 13356
+		division_template = "Earthpony Militia"
+	}
+}
