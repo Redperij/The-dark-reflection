@@ -1,8 +1,10 @@
 ﻿capital = 155
 
+oob = "EQS_997"
 set_research_slots = 3
 
 set_technology = {
+	all_spec_equipment = 1
 	pony_race = 1
 	melee_weapons = 1
 	melee_weapons1 = 1
@@ -30,9 +32,16 @@ set_popularities = {
 	fascism = 5
 }
 
+set_stability = 0.6
+set_war_support = 0.1
+
+create_faction = Equestrian_Territory
+add_to_faction = WES
+add_to_faction = WHN
+
 create_country_leader = {
-	name = "Sombra"
-	desc = "POLITICS_SOMBRA_DESC"
+	name = "King Sombra"
+	desc = "KING_SOMBRA_LEADER_DESC"
 	picture = "Sombra.tga"
 	expire = "2000.1.1"
 	ideology = despotism
@@ -64,8 +73,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Somepony"
-	desc = ""
+	name = "Princess Luna"
+	desc = "LUNA_HARMONY_LEADER_DESC"
 	picture = ""
 	expire = "1965.1.1"
 	ideology = liberalism

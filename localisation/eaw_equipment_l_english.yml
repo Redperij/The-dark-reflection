@@ -151,8 +151,6 @@ windigo_equipment_desc:0 "Look, why do incorporeal snow spirits even need equipm
  melee_equipment_1:0 "Muzzle-loading Guns"
  melee_equipment_1_short:0 "Muzzle-loaders"
  melee_equipment_1_desc:0 "Gunpowder weapons are slowly being adapted, but so far gunsmiths are only able to make basic muzzle-loading firearms with wheellocks, flintlocks or matchlocks, which use black powder to propel bullets across a relatively long distance. The weapons are highly inaccurate and take a long time to reload, which means the most effective way to use the weapon in battle is to form up in long, organized lines."
- melee_weapons:0 "Primitive Weapons"
- melee_weapons1:0 "Muzzle-loaders"
 
  magical_equipment:0 "Magical Infantry Equipment"
  magical_equipment_short:0 "Magical Eq."
