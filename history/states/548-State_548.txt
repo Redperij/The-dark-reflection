@@ -1,17 +1,20 @@
 state={
 	id=548
-	name="STATE_548" #Kingpony
+	name="STATE_548"
+
 	history={
 		owner = EQS
 		add_core_of = EQS
+
 		victory_points = {
-			12632 3 #Kingpony
+			12632 3 
 		}
 	}
+
 	provinces={
-		1030 12576 12632 12693 
+		1030 12576 12605 12632 12636 12692 12693 
 	}
 	manpower=38415
-	state_category = town
 	buildings_max_level_factor=1.000
+	state_category=town
 }
