@@ -5,7 +5,7 @@ state={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-			3503 1 #Dale
+			3503 5 #Dale
 		}
 	}
 	provinces={

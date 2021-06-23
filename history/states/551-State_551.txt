@@ -11,7 +11,7 @@ state={
 			3810 3 #Bitterberry River Port
 		}
 		victory_points = {
-			13036 1 #East Bitterberry
+			13036 2 #East Bitterberry
 		}
 	}
 	provinces={

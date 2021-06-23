@@ -1,14 +1,17 @@
 state={
 	id=563
-	name="STATE_563"
+	name="STATE_563" #Hill City
 	history={
+		victory_points = {
+			4261 4 #Hill City
+		}
 		owner = EQS
 		add_core_of = EQS
 	}
 	provinces={
 		1966 2516 3135 4261 13035 13079 13106 13133 
 	}
-	manpower=1
-	state_category = rural
+	manpower=111257
+	state_category = large_city
 	buildings_max_level_factor=1.000
 }

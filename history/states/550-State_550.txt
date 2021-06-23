@@ -5,10 +5,10 @@ state={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-			2908 10 #Luna Nova
+			2908 6 #Luna Nova
 		}
 		victory_points = {
-			13019 5 #East Luna Nova
+			13019 4 #East Luna Nova
 		}
 	}
 	provinces={

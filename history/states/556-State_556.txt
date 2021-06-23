@@ -1,14 +1,17 @@
 state={
 	id=556
-	name="STATE_556"
+	name="STATE_556" #Broken Bow
 	history={
 		owner = EQS
 		add_core_of = EQS
+		victory_points = {
+			12872 1 #Broken Bow
+		}
 	}
 	provinces={
 		2338 5573 12871 12872 12913 12922 12926 12976 13020 13028 
 	}
-	manpower=1
+	manpower=9824
 	state_category = rural
 	buildings_max_level_factor=1.000
 }

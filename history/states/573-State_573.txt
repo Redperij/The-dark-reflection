@@ -1,14 +1,17 @@
 state={
 	id=573
-	name="STATE_573"
+	name="STATE_573" #Harmony
 	history={
+		victory_points = {
+			13077 1 #Harmony
+		}
 		owner = EQS
 		add_core_of = EQS
 	}
 	provinces={
 		12961 12962 12990 13007 13031 13032 13068 13077 
 	}
-	manpower=1
+	manpower=7835
 	state_category = rural
 	buildings_max_level_factor=1.000
 }

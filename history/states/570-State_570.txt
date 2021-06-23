@@ -1,14 +1,17 @@
 state={
 	id=570
-	name="STATE_570"
+	name="STATE_570" #Reed Point
 	history={
+		victory_points = {
+			12964 1 #Reed Point
+		}
 		owner = EQS
 		add_core_of = EQS
 	}
 	provinces={
 		2327 3392 12903 12912 12952 12964 12992 13010 13034 
 	}
-	manpower=1
+	manpower=9871
 	state_category = rural
 	buildings_max_level_factor=1.000
 }
