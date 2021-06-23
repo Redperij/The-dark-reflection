@@ -1,14 +1,17 @@
 state={
 	id=558
-	name="STATE_558"
+	name="STATE_558" #Winona
 	history={
 		owner = EQS
 		add_core_of = EQS
+		victory_points = {
+			12812 1 #Winona
+		}
 	}
 	provinces={
 		3001 3284 3809 4429 5416 12712 12738 12766 12788 12812 12819 12855 
 	}
-	manpower=1
+	manpower=12734
 	state_category = rural
 	buildings_max_level_factor=1.000
 }

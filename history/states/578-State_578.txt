@@ -1,14 +1,17 @@
 state={
 	id=578
-	name="STATE_578"
+	name="STATE_578" #Spotted Cow
 	history={
+		victory_points = {
+			12778 1 #Spotted Cow
+		}
 		owner = EQS
 		add_core_of = EQS
 	}
 	provinces={
 		955 1888 2422 12684 12691 12722 12737 12747 12778 12787 12811 12854 
 	}
-	manpower=1
+	manpower=10501
 	state_category = rural
 	buildings_max_level_factor=1.000
 }

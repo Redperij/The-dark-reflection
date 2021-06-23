@@ -1,14 +1,17 @@
 state={
 	id=575
-	name="STATE_575"
+	name="STATE_575" #Aspen Meadows
 	history={
+		victory_points = {
+			4902 1 #Aspen Meadows
+		}
 		owner = EQS
 		add_core_of = EQS
 	}
 	provinces={
 		534 807 1321 2694 4902 12624 12653 12654 12701 12755 
 	}
-	manpower=1
+	manpower=9897
 	state_category = rural
 	buildings_max_level_factor=1.000
 }

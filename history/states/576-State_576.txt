@@ -2,13 +2,19 @@ state={
 	id=576
 	name="STATE_576"
 	history={
+		victory_points = {
+			4558 7 #Sugarloaf
+		}
+		victory_points = {
+			12389 3 #North Sugarloaf
+		}
 		owner = EQS
 		add_core_of = EQS
 	}
 	provinces={
-		2131 4558 12389 
+		4558 12389 
 	}
-	manpower=1
+	manpower=246124
 	state_category = city
 	buildings_max_level_factor=1.000
 }

@@ -1,14 +1,17 @@
 state={
 	id=346
-	name="STATE_346"
+	name="STATE_346" #Ruins of Cloudsdale
 	history={
 		owner = EQS
 		add_core_of = EQS
+		victory_points = {
+			13354 1 #Ruins of Cloudsdale
+		}
 	}
 	provinces={
 		2146 2155 5005 13354 13440 
 	}
-	manpower=1
+	manpower=1001
 	state_category = wasteland
 	buildings_max_level_factor=1.000
 }
