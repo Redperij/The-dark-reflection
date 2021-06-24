@@ -6,7 +6,48 @@
 		earthpony_infantry = { x = 1 y = 1 }
 		earthpony_infantry = { x = 1 y = 0 }
 		earthpony_infantry = { x = 0 y = 1 }
-		earthpony_infantry = { x = 2 y = 0 }
+	}
+
+	support = {
+	}
+	priority = 1
+}
+division_template = {
+	name = "Pegasi Militia"
+
+	regiments = {
+		pegasi_infantry = { x = 0 y = 0 }
+		pegasi_infantry = { x = 1 y = 1 }
+		pegasi_infantry = { x = 1 y = 0 }
+		pegasi_infantry = { x = 0 y = 1 }
+	}
+
+	support = {
+	}
+	priority = 1
+}
+division_template = {
+	name = "Unicorn Militia"
+
+	regiments = {
+		unicorn_infantry = { x = 0 y = 0 }
+		unicorn_infantry = { x = 1 y = 1 }
+		unicorn_infantry = { x = 1 y = 0 }
+		unicorn_infantry = { x = 0 y = 1 }
+	}
+
+	support = {
+	}
+	priority = 1
+}
+division_template = {
+	name = "Thestral Militia"
+
+	regiments = {
+		thestral_infantry = { x = 0 y = 0 }
+		thestral_infantry = { x = 1 y = 1 }
+		thestral_infantry = { x = 1 y = 0 }
+		thestral_infantry = { x = 0 y = 1 }
 	}
 
 	support = {
@@ -15,8 +56,34 @@
 }
 units = {
 	division = {
-		name = "Earthpony Check"
+		name = "Earthpony Canterlot Guards"
 		location = 13356
 		division_template = "Earthpony Militia"
+		force_equipment_variants = { infantry_equipped_earthpony_hoof_3 = { owner = "EQS" } }
+		
+	}
+}
+units = {
+	division = {
+		name = "Unicorn Canterlot Guards"
+		location = 13268
+		division_template = "Unicorn Militia"
+		force_equipment_variants = { infantry_equipped_unicorn_magical_3 = { owner = "EQS" } }
+	}
+}
+units = {
+	division = {
+		name = "Pegasi Canterlot Guards"
+		location = 13311
+		division_template = "Pegasi Militia"
+		force_equipment_variants = { infantry_equipped_pegasi_hoof_3 = { owner = "EQS" } }
+	}
+}
+units = {
+	division = {
+		name = "Thestral Canterlot Guards"
+		location = 3300
+		division_template = "Thestral Militia"
+		force_equipment_variants = { infantry_equipped_thestral_hoof_3 = { owner = "EQS" } }
 	}
 }

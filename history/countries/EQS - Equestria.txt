@@ -39,6 +39,37 @@ create_faction = Equestrian_Territory
 add_to_faction = WES
 add_to_faction = WHN
 
+add_equipment_to_stockpile = {
+	type = infantry_equipped_earthpony_hoof_3
+	amount = 500
+	producer = EQS
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipped_unicorn_magical_3
+	amount = 500
+	producer = EQS
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipped_pegasi_hoof_3
+	amount = 500
+	producer = EQS
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipped_thestral_hoof_3
+	amount = 500
+	producer = EQS
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_hoof_3
+	amount = 1000
+	producer = EQS
+}
+
+
 create_country_leader = {
 	name = "King Sombra"
 	desc = "KING_SOMBRA_LEADER_DESC"
@@ -51,7 +82,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Somepony"
+	name = "Inkwell"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
@@ -66,7 +97,7 @@ create_country_leader = {
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = democratic_socialism
 	traits = {
 		
 	}
@@ -76,8 +107,8 @@ create_country_leader = {
 	name = "Princess Luna"
 	desc = "LUNA_HARMONY_LEADER_DESC"
 	picture = ""
-	expire = "1965.1.1"
-	ideology = liberalism
+	expire = "2000.1.1"
+	ideology = socialism
 	traits = {
 
 	}
