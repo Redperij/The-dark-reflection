@@ -592,6 +592,8 @@ on_actions = {
 			for_each_scope_loop = {
 				array = global.countries
 
+				country_lock_all_division_template = yes
+
 				count_monthly_manpower_gain = yes
 				count_race_part_in_country = yes
 				get_montly_race_conscripts = yes
