@@ -5,6 +5,11 @@ EQS = {
 	color = rgb { 42 28 147 }
 	color_ui = rgb { 42 28 147 }
 } 
+# Luna
+LUN = {
+	color = rgb { 0 0 106 }
+	color_ui = rgb { 0 0 106 }
+} 
 # Whinnyapolis
 WHN = {
 	color = rgb { 42 28 230 }
@@ -73,6 +78,10 @@ TRS = {
 NGF = {
 	color = rgb { 148 165 97 }
 	color_ui = rgb { 148 165 97 }
+}
+HAU = {
+	color = rgb { 144 75 41 }
+	color_ui = rgb { 144 75 41 }
 }
 ##################################################################################################################################
 # East Equestria # Confederacy #

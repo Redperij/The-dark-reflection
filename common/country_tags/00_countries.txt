@@ -1,6 +1,7 @@
 ######################
 # Equestrian company #
 EQS = "countries/Equestria.txt"
+LUN = "countries/Luna.txt"
 WHN = "countries/Whinnyapolis.txt"
 WES = "countries/WestEquestrianShore.txt"
 CEL = "countries/Celestia.txt"
@@ -18,6 +19,7 @@ SEV = "countries/Severiana.txt"
 STL = "countries/StarlightTown.txt"
 TRS = "countries/Trotsylvania.txt"
 NGF = "countries/NeighgaraFalls.txt"
+HAU = "countries/Haukland.txt"
 ################################
 # East Equestria # Confederacy #
 PRA = "countries/Prance.txt"

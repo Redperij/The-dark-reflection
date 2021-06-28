@@ -1,4 +1,3 @@
-
 state={
 	id=155
 	name="STATE_155"
@@ -7,14 +6,14 @@ state={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-			13268 19
+			13268 19 
 		}
 	}
 
 	provinces={
 		13268 
 	}
-	manpower=4873
+	manpower=2854
 	buildings_max_level_factor=2.000
 	state_category=enclave
 }
