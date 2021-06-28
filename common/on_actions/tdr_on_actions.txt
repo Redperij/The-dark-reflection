@@ -6,7 +6,7 @@ on_actions = {
 			log = "[GetDateText] War at Equestria main on_startup begin"
 			
 			#States by races
-			#added 1-40, 155, 206, 300, 341-342, 346, 349, 362, 526, 532, 541, 548-591, 620, 627, 643, 661, 727-730, 739-859, 935-1090, 1100-1115, 1171-1301, 1488
+			#added 1-40, 155, 206, 300, 341-342, 346, 349, 362, 526, 532, 541, 548-591, 620, 627, 643, 661, 727-730, 739-859, 935-1090, 1099-1115, 1171-1301, 1488
 			# 
 			add_to_array = { global.pony_states = 155.id }
 			add_to_array = { global.pony_states = 341.id }
@@ -99,6 +99,7 @@ on_actions = {
 			add_to_array = { global.pony_states = 826.id }
 			add_to_array = { global.pony_states = 856.id }
 			add_to_array = { global.pony_states = 857.id }
+			add_to_array = { global.pony_states = 1099.id }
 
 			add_to_array = { global.crystal_pony_states = 773.id }
 			add_to_array = { global.crystal_pony_states = 806.id }

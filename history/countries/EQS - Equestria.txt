@@ -38,6 +38,7 @@ set_war_support = 0.1
 create_faction = Equestrian_Territory
 add_to_faction = WES
 add_to_faction = WHN
+add_to_faction = LUN
 
 create_country_leader = {
 	name = "King Sombra"

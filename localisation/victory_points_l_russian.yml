@@ -3,8 +3,9 @@ VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
 #######################################################################
 # Equestria ###########################################################
 #######################################################################
-VICTORY_POINTS_13268:0 "Кантерслотский Дворец" #Canterlot
-VICTORY_POINTS_13257:0 "Кантерлот"
+#EQS - Equestria
+VICTORY_POINTS_13268:0 "Южный Кантерлотский Дворец" #South Canterlot Palace
+VICTORY_POINTS_13257:0 "Кантерлот" #Canterlot
 VICTORY_POINTS_13211:0 "Северный Кантерлот"
 VICTORY_POINTS_13297:0 "Южный Кантерлот"
 VICTORY_POINTS_2908:0 "Луна Нова" #Luna Nova
@@ -52,6 +53,8 @@ VICTORY_POINTS_815:0 "Джейдестаун" #Jadestown
 VICTORY_POINTS_12964:0 "Рид Пойнт" #Reed Point
 VICTORY_POINTS_12818:0 "Лингл" #Lingle
 VICTORY_POINTS_12778:0 "Споттед Кау" #Spotted Cow
+#LUN - Princess Luna
+VICTORY_POINTS_13240:0 "Северный Кантерлотский Дворец" #North Canterlot Palace
 #######################################################################
 # Governorate Whinnyapolis ############################################
 #######################################################################

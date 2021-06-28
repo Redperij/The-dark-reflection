@@ -5,6 +5,19 @@
 #####################
 #EQS in replace/tdr_eaw_countries_overrides_l_english.yml
 
+LUN_neutrality:0 "Luna"
+LUN_neutrality_DEF:0 "Princess Luna"
+LUN_fascism:0 "Luna"
+LUN_fascism_DEF:0 "Princess Luna"
+LUN_communism:0 "Luna"
+LUN_communism_DEF:0 "Princess Luna"
+LUN_democratic:0 "Luna"
+LUN_democratic_DEF:0 "Princess Luna"
+LUN_fascism_ADJ:0 "Lunar"
+LUN_democratic_ADJ:0 "Lunar"
+LUN_neutrality_ADJ:0 "Lunar"
+LUN_communism_ADJ:0 "Lunar"
+
 WHN_neutrality:0 "Governorate Whinnyapolis"
 WHN_neutrality_DEF:0 "Governorate Whinnyapolis"
 WHN_fascism:0 ""

@@ -4,6 +4,19 @@
 #####################
 #EQS in replace/tdr_eaw_countries_overrides_l_russian.yml
 
+LUN_neutrality:0 "Луна"
+LUN_neutrality_DEF:0 "Принцесса Луна"
+LUN_fascism:0 "Луна"
+LUN_fascism_DEF:0 "Принцесса Луна"
+LUN_communism:0 "Луна"
+LUN_communism_DEF:0 "Принцесса Луна"
+LUN_democratic:0 "Луна"
+LUN_democratic_DEF:0 "Принцесса Луна"
+LUN_fascism_ADJ:0 "Луны"
+LUN_democratic_ADJ:0 "Луны"
+LUN_neutrality_ADJ:0 "Луны"
+LUN_communism_ADJ:0 "Луны"
+
 WHN_neutrality:0 "Говернорат Винниаполис"
 WHN_neutrality_DEF:0 "Говернорат Винниаполис"
 WHN_fascism:0 "Говернорат Винниаполис"
