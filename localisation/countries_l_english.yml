@@ -171,6 +171,19 @@ NGF_democratic_ADJ:0 "Neighgarian"
 NGF_neutrality_ADJ:0 "Neighgarian"
 NGF_communism_ADJ:0 "Neighgarian"
 
+HAU_neutrality:0 "Haukland"
+HAU_neutrality_DEF:0 "Haukland"
+HAU_fascism:0 "Haukland State"
+HAU_fascism_DEF:0 "The Haukland State"
+HAU_communism:0 "Haukland People's Republic"
+HAU_communism_DEF:0 "The Haukland People's Republic"
+HAU_democratic:0 "Haukland Republic"
+HAU_democratic_DEF:0 "The Haukland Republic"
+HAU_fascism_ADJ:0 "Hauklander"
+HAU_democratic_ADJ:0 "Hauklander"
+HAU_neutrality_ADJ:0 "Hauklander"
+HAU_communism_ADJ:0 "Hauklander"
+
 ################################label
 # East Equestria # Confederacy #
 ################################

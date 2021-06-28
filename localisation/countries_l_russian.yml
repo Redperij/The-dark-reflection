@@ -170,6 +170,19 @@ NGF_democratic_ADJ:0 "Нейагарск"
 NGF_neutrality_ADJ:0 "Нейагарск"
 NGF_communism_ADJ:0 "Нейагарск"
 
+HAU_neutrality:0 "Хаукленд"
+HAU_neutrality_DEF:0 "Хаукленд"
+HAU_fascism:0 "Хауклендская Клика"
+HAU_fascism_DEF:0 "Хауклендская Клика"
+HAU_communism:0 "Хауклендская Народная Республика"
+HAU_communism_DEF:0 "Хауклендская Народная Республика"
+HAU_democratic:0 "Хауклендская Республика"
+HAU_democratic_DEF:0 "Хауклендская Республика"
+HAU_fascism_ADJ:0 "Хауклендск"
+HAU_democratic_ADJ:0 "Хауклендск"
+HAU_neutrality_ADJ:0 "Хауклендск"
+HAU_communism_ADJ:0 "Хауклендск"
+
 ################################label
 # East Equestria # Confederacy #
 ################################
