@@ -1,0 +1,58 @@
+add_namespace = equestria
+
+country_event = {
+	id = equestria.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event equestria.0"}
+	title = equestria.0.t
+	desc = equestria.0.d
+	picture = GFX_event_canterlot
+
+	is_triggered_only = yes
+	option = {
+		name = equestria.0.a
+		set_country_flag = blue_light
+		country_event = { id = equestria.1 days = 0  }
+	}
+	option = {
+		name = equestria.0.b
+		set_country_flag = yellow_light
+		country_event = { id = equestria.1 days = 0  }
+	}
+}
+
+country_event = {
+	id = equestria.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event equestria.1"}
+	title = {
+		trigger = {
+			has_country_flag = blue_light
+		}
+		text = equestria.1.t1
+	}
+	title = {
+		trigger = {
+			has_country_flag = yellow_light
+		}
+		text = equestria.1.t2
+	}
+	desc = {
+		trigger = {
+			has_country_flag = blue_light
+		}
+		text = equestria.1.d1
+	}
+	desc = {
+		trigger = {
+			has_country_flag = yellow_light
+		}
+		text = equestria.1.d2
+	}
+	picture = GFX_event_luna_work_sad
+
+	is_triggered_only = yes
+	option = {
+		name = equestria.1.a
+		clr_country_flag = yellow_light
+		clr_country_flag = blue_light
+	}
+}

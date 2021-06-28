@@ -600,6 +600,18 @@ on_actions = {
 				get_montly_race_conscripts = yes
 			}
 
+			##############################
+			# COUNTRIES AND EVENTS STUFF #
+			##############################
+			EQS = {
+				save_global_event_target_as = equestria
+				country_event = { id = equestria.0 hours = 1 }
+			}
+			SEV = {
+				save_global_event_target_as = severiana
+				country_event = { id = severiana.0 hours = 1 }
+			}
+
 		}
 	}
 
