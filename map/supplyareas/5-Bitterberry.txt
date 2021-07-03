@@ -1,0 +1,8 @@
+supply_area={
+	id=5
+	name="Bitterberry"
+	value=4
+	states={
+		553 551 556 557
+	}
+}

@@ -1,0 +1,8 @@
+supply_area={
+	id=16
+	name="Woodbury"
+	value=4
+	states={
+		569 585 587 586 588 
+	}
+}
