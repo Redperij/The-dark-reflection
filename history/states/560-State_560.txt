@@ -1,17 +1,20 @@
 state={
 	id=560
 	name="STATE_560"
+
 	history={
 		victory_points = {
-			898 4 #Little Equestria
+			898 4 
 		}
 		owner = EQS
 		add_core_of = EQS
+
 	}
+
 	provinces={
-		898 4309 13111 13112 16031
+		898 4309 13111 13112 
 	}
 	manpower=83551
-	state_category = large_town
 	buildings_max_level_factor=1.000
+	state_category=large_town
 }
