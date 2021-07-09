@@ -3,56 +3,239 @@ add_namespace = equestria
 country_event = {
 	id = equestria.0
 	immediate = {log = "[GetDateText]: [Root.GetName]: event equestria.0"}
-	title = equestria.0.t
-	desc = equestria.0.d
+	title = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+		}
+		text = equestria.0.t_eqs
+	}
+	title = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+		}
+		text = equestria.0.t_lun
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+		}
+		text = equestria.0.d_eqs
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+		}
+		text = equestria.0.d_lun
+	}
 	picture = GFX_event_canterlot
 
 	is_triggered_only = yes
 	option = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+		}
 		name = equestria.0.a
-		set_country_flag = blue_light
-		country_event = { id = equestria.1 days = 0  }
+		set_country_flag = EQS_chosen_equestria0
+
+		ai_chance = {
+			factor = 1000
+		}
+
+		set_variable = { tag1 = EQS }
+		set_variable = { tag2 = LUN }
+		set_variable = { event1 = 0 }
+		set_variable = { event_to_fire1 = 0 }
+		set_variable = { event2 = 0 }
+		set_variable = { event_to_fire2 = 0 }
+
+		set_country_flag = sombra_init
+		fire_event_after_two_countries_chosen = yes
 	}
 	option = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+		}
 		name = equestria.0.b
-		set_country_flag = yellow_light
-		country_event = { id = equestria.1 days = 0  }
+		set_country_flag = EQS_chosen_equestria0
+
+		set_variable = { tag1 = EQS }
+		set_variable = { tag2 = LUN }
+		set_variable = { event1 = 0 }
+		set_variable = { event_to_fire1 = 0 }
+		set_variable = { event2 = 0 }
+		set_variable = { event_to_fire2 = 0 }
+		
+		fire_event_after_two_countries_chosen = yes
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+		}
+		name = equestria.0.c
+		set_country_flag = LUN_chosen_equestria0
+
+		set_variable = { tag1 = LUN }
+		set_variable = { tag2 = EQS }
+		set_variable = { event1 = 0 }
+		set_variable = { event_to_fire1 = 0 }
+		set_variable = { event2 = 0 }
+		set_variable = { event_to_fire2 = 0 }
+
+		set_country_flag = luna_init
+		fire_event_after_two_countries_chosen = yes
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+		}
+		name = equestria.0.d
+		set_country_flag = LUN_chosen_equestria0
+
+		set_variable = { tag1 = LUN }
+		set_variable = { tag2 = EQS }
+		set_variable = { event1 = 0 }
+		set_variable = { event_to_fire1 = 0 }
+		set_variable = { event2 = 0 }
+		set_variable = { event_to_fire2 = 0 }
+
+		fire_event_after_two_countries_chosen = yes
 	}
 }
 
 country_event = {
 	id = equestria.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event equestria.1"}
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event equestria.1"
+		clr_country_flag = EQS_chosen_equestria0
+		clr_country_flag = LUN_chosen_equestria0
+	}
 	title = {
 		trigger = {
-			has_country_flag = blue_light
+			AND = {
+				LUN = {
+					NOT = { has_country_flag = luna_init }
+				}
+				EQS = {
+					has_country_flag = sombra_init
+				}
+			}
 		}
 		text = equestria.1.t1
 	}
 	title = {
 		trigger = {
-			has_country_flag = yellow_light
+			AND = {
+				LUN = {
+					has_country_flag = luna_init
+				}
+				EQS = {
+					NOT = { has_country_flag = sombra_init }
+				}
+			}
 		}
 		text = equestria.1.t2
 	}
+	title = {
+		trigger = {
+			AND = {
+				LUN = {
+					has_country_flag = luna_init
+				}
+				EQS = {
+					has_country_flag = sombra_init
+				}
+			}
+		}
+		text = equestria.1.t3
+	}
+	title = {
+		trigger = {
+			AND = {
+				LUN = {
+					NOT = { has_country_flag = luna_init }
+				}
+				EQS = {
+					NOT = { has_country_flag = sombra_init }
+				}
+			}
+		}
+		text = equestria.1.t4
+	}
 	desc = {
 		trigger = {
-			has_country_flag = blue_light
+			AND = {
+				LUN = {
+					NOT = { has_country_flag = luna_init }
+				}
+				EQS = {
+					has_country_flag = sombra_init
+				}
+			}
 		}
 		text = equestria.1.d1
 	}
 	desc = {
 		trigger = {
-			has_country_flag = yellow_light
+			AND = {
+				LUN = {
+					has_country_flag = luna_init
+				}
+				EQS = {
+					NOT = { has_country_flag = sombra_init }
+				}
+			}
 		}
 		text = equestria.1.d2
 	}
+	desc = {
+		trigger = {
+			AND = {
+				LUN = {
+					has_country_flag = luna_init
+				}
+				EQS = {
+					has_country_flag = sombra_init
+				}
+			}
+		}
+		text = equestria.1.d3
+	}
+	desc = {
+		trigger = {
+			AND = {
+				LUN = {
+					NOT = { has_country_flag = luna_init }
+				}
+				EQS = {
+					NOT = { has_country_flag = sombra_init }
+				}
+			}
+		}
+		text = equestria.1.d4
+	}
+
 	picture = GFX_event_luna_work_sad
 
 	is_triggered_only = yes
 	option = {
 		name = equestria.1.a
-		clr_country_flag = yellow_light
-		clr_country_flag = blue_light
+		clr_country_flag = luna_init
+		clr_country_flag = sombra_init
 	}
 }

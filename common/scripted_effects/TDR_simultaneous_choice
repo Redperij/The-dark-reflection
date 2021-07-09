@@ -1,0 +1,119 @@
+# How it works:
+# Variable description:
+# TAG1 - first country tag
+# TAG2 - second country tag
+# TAGx - x country tag
+# EVENT - event, written without . in order to determine if country has chosen option in this event.
+#         ( overlaping is possible, so it is needed to avoid any problems )
+# EVENT_TO_FIRE - event, which will fire after both (more) countries have chosen any option.
+#                 (in format: event.x | "x" - number "event" - event name)
+#
+# In order to use this you have to:
+# 1. In the event option encapsulate all participating tags into variables: tag1, tag2, tag3 ... tagx
+# 2. In the "TDR_simultaneous_choice_scripted_localisation.txt" write new localisation keys with triggers 
+#    ( just increase previous number by 1 )
+# 3. In the event option create event[x] and event_to_fire[x] variables with the corresponding numbers for all participating tags. 
+#    ( tag1 - event1, tag2 - event_to_fire2... )
+# 4. Give every event option a country_flag in the following format: [country_tag]_chosen_[event] 
+#    ( Dot (".") in the event excluded, "equestria0" not "equestria.0")
+fire_event_after_two_countries_chosen = {
+	log = "[GetDateText]: [Root.GetTag]: values before the meta effect:"
+	log = "[GetDateText]: [Root.GetTag]: tag1 = [?tag1.GatTag]"
+	log = "[GetDateText]: [Root.GetTag]: tag2 = [?tag2.GetTag]"
+	log = "[GetDateText]: [Root.GetTag]: event1 = [?event1]"
+	log = "[GetDateText]: [Root.GetTag]: event_to_fire1 = [?event_to_fire1]"
+	log = "[GetDateText]: [Root.GetTag]: event2 = [?event2]"
+	log = "[GetDateText]: [Root.GetTag]: event_to_fire2 = [?event_to_fire2]"
+	meta_effect = {
+		text = {
+			if = {
+				limit = {
+					[TAG1] = {
+						has_country_flag = [TAG1]_chosen_[EVENT1]
+					}
+					[TAG2] = {
+						has_country_flag = [TAG2]_chosen_[EVENT2]
+					}
+				}
+		
+				[TAG1] = {
+					country_event = { id = [EVENT_TO_FIRE1] days = 0 }
+				}
+				[TAG2] = {
+					country_event = { id = [EVENT_TO_FIRE2] days = 0 }
+				}
+			}
+		}
+
+		TAG1 = "[?tag1.GetTag]"
+		TAG2 = "[?tag2.GetTag]"
+		EVENT1 = "[?Root.GetFirstEvent]"
+		EVENT2 = "[?Root.GetSecondEvent]"
+		EVENT_TO_FIRE1 = "[?Root.GetFirstEventToFire]"
+		EVENT_TO_FIRE2 = "[?Root.GetSecondEventToFire]"
+	}
+	clear_variable = tag1
+	clear_variable = tag2
+	clear_variable = event1
+	clear_variable = event_to_fire1
+	clear_variable = event2
+	clear_variable = event_to_fire2
+}
+
+fire_event_after_three_countries_chosen = {
+	log = "[GetDateText]: [Root.GetTag]: values before the meta effect:"
+	log = "[GetDateText]: [Root.GetTag]: tag1 = [?tag1.GatTag]"
+	log = "[GetDateText]: [Root.GetTag]: tag2 = [?tag2.GetTag]"
+	log = "[GetDateText]: [Root.GetTag]: tag3 = [?tag3.GetTag]"
+	log = "[GetDateText]: [Root.GetTag]: event1 = [?event1]"
+	log = "[GetDateText]: [Root.GetTag]: event_to_fire1 = [?event_to_fire1]"
+	log = "[GetDateText]: [Root.GetTag]: event2 = [?event2]"
+	log = "[GetDateText]: [Root.GetTag]: event_to_fire2 = [?event_to_fire2]"
+	log = "[GetDateText]: [Root.GetTag]: event3 = [?event3]"
+	log = "[GetDateText]: [Root.GetTag]: event_to_fire3 = [?event_to_fire3]"
+	meta_effect = {
+		text = {
+			if = {
+				limit = {
+					[TAG1] = {
+						has_country_flag = [TAG1]_chosen_[EVENT1]
+					}
+					[TAG2] = {
+						has_country_flag = [TAG2]_chosen_[EVENT2]
+					}
+					[TAG3] = {
+						has_country_flag = [TAG3]_chosen_[EVENT3]
+					}
+				}
+		
+				[TAG1] = {
+					country_event = { id = [EVENT_TO_FIRE1] days = 0 }
+				}
+				[TAG2] = {
+					country_event = { id = [EVENT_TO_FIRE2] days = 0 }
+				}
+				[TAG3] = {
+					country_event = { id = [EVENT_TO_FIRE3] days = 0 }
+				}
+			}
+		}
+
+		TAG1 = "[?tag1.GetTag]"
+		TAG2 = "[?tag2.GetTag]"
+		TAG3 = "[?tag3.GetTag]"
+		EVENT1 = "[?Root.GetFirstEvent]"
+		EVENT2 = "[?Root.GetSecondEvent]"
+		EVENT3 = "[?Root.GetThirdEvent]"
+		EVENT_TO_FIRE1 = "[?Root.GetFirstEventToFire]"
+		EVENT_TO_FIRE2 = "[?Root.GetSecondEventToFire]"
+		EVENT_TO_FIRE3 = "[?Root.GetThirdEventToFire]"
+	}
+	clear_variable = tag1
+	clear_variable = tag2
+	clear_variable = event1
+	clear_variable = event_to_fire1
+	clear_variable = event2
+	clear_variable = event_to_fire2
+	clear_variable = event3
+	clear_variable = event_to_fire3
+}
