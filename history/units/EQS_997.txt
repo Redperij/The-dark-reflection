@@ -57,7 +57,7 @@ division_template = {
 units = {
 	division = {
 		name = "Earthpony Canterlot Guards"
-		location = 13356
+		location = 13263
 		division_template = "Earthpony Militia"
 		force_equipment_variants = { infantry_equipped_earthpony_hoof_3 = { owner = "EQS" } }
 		

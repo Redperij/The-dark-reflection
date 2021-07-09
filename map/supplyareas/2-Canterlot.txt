@@ -1,0 +1,8 @@
+supply_area={
+	id=2
+	name="Canterlot"
+	value=15
+	states={
+		341 155 1099 554 
+	}
+}

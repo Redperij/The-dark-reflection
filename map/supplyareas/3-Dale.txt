@@ -1,0 +1,8 @@
+supply_area={
+	id=3
+	name="Dale"
+	value=4
+	states={
+		325 349 346
+	}
+}

@@ -1,15 +1,18 @@
 state={
 	id=438
 	name="STATE_438"
+
 	history={
-		owner = WES
-		add_core_of = WES
+		owner = EQS
+		add_core_of = EQS
+
 	}
+
 	provinces={
-		1998 12864 12900 12949 12960 12998 13005 13018 13039 13044 13054 
+		13196 13296 
 	}
-	manpower=1
-	state_category = wasteland
-	impassable = yes
+	manpower=15
 	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
 }

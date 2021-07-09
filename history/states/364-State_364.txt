@@ -4,15 +4,15 @@ state={
 	history={
 		owner = WES
 		add_core_of = WES
+		victory_points = {
+			300 3 #Fleatsam
+		}
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-			4912 3
-		}
 	}
 	provinces={
-		2529 4912 13413 
+		2529 13413 300
 	}
 	manpower=11739
 	state_category = town

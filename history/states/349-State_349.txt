@@ -1,17 +1,21 @@
+
 state={
 	id=349
-	name="STATE_349" #Dale
+	name="STATE_349"
+
 	history={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-			3503 5 #Dale
+			3503 5 
 		}
+
 	}
+
 	provinces={
-		1529 3221 3503 13276 13289 13311 13312 13320 13355 13356 13313 13263
+		1529 3221 3503 13263 13276 13289 13311 13312 13320 13355 
 	}
 	manpower=212415
-	state_category = city
 	buildings_max_level_factor=1.000
+	state_category=city
 }
