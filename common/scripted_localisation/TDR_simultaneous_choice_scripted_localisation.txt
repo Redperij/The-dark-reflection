@@ -1,0 +1,60 @@
+defined_text = {
+	name = GetFirstEvent
+
+	text = {
+		trigger = {
+			check_variable = { event1 = 0 }
+		}
+		localization_key = "equestria0"
+	}
+}
+defined_text = {
+	name = GetSecondEvent
+
+	text = {
+		trigger = {
+			check_variable = { event2 = 0 }
+		}
+		localization_key = "equestria0"
+	}
+}
+defined_text = {
+	name = GetThirdEvent
+
+	text = {
+		trigger = {
+			check_variable = { event3 = 0 }
+		}
+		localization_key = "equestria0"
+	}
+}
+defined_text = {
+	name = GetFirstEventToFire
+
+	text = {
+		trigger = {
+			check_variable = { event_to_fire1 = 0 }
+		}
+		localization_key = "equestria.1"
+	}
+}
+defined_text = {
+	name = GetSecondEventToFire
+
+	text = {
+		trigger = {
+			check_variable = { event_to_fire2 = 0 }
+		}
+		localization_key = "equestria.1"
+	}
+}
+defined_text = {
+	name = GetThirdEventToFire
+
+	text = {
+		trigger = {
+			check_variable = { event_to_fire3 = 0 }
+		}
+		localization_key = "equestria.1"
+	}
+}
