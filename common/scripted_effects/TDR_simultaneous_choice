@@ -17,13 +17,14 @@
 # 4. Give every event option a country_flag in the following format: [country_tag]_chosen_[event] 
 #    ( Dot (".") in the event excluded, "equestria0" not "equestria.0")
 fire_event_after_two_countries_chosen = {
-	log = "[GetDateText]: [Root.GetTag]: values before the meta effect:"
-	log = "[GetDateText]: [Root.GetTag]: tag1 = [?tag1.GatTag]"
-	log = "[GetDateText]: [Root.GetTag]: tag2 = [?tag2.GetTag]"
-	log = "[GetDateText]: [Root.GetTag]: event1 = [?event1]"
-	log = "[GetDateText]: [Root.GetTag]: event_to_fire1 = [?event_to_fire1]"
-	log = "[GetDateText]: [Root.GetTag]: event2 = [?event2]"
-	log = "[GetDateText]: [Root.GetTag]: event_to_fire2 = [?event_to_fire2]"
+	#debug
+	#log = "[GetDateText]: [Root.GetTag]: values before the meta effect:"
+	#log = "[GetDateText]: [Root.GetTag]: tag1 = [?tag1.GetTag]"
+	#log = "[GetDateText]: [Root.GetTag]: tag2 = [?tag2.GetTag]"
+	#log = "[GetDateText]: [Root.GetTag]: event1 = [?event1]"
+	#log = "[GetDateText]: [Root.GetTag]: event_to_fire1 = [?event_to_fire1]"
+	#log = "[GetDateText]: [Root.GetTag]: event2 = [?event2]"
+	#log = "[GetDateText]: [Root.GetTag]: event_to_fire2 = [?event_to_fire2]"
 	meta_effect = {
 		text = {
 			if = {
@@ -61,16 +62,17 @@ fire_event_after_two_countries_chosen = {
 }
 
 fire_event_after_three_countries_chosen = {
-	log = "[GetDateText]: [Root.GetTag]: values before the meta effect:"
-	log = "[GetDateText]: [Root.GetTag]: tag1 = [?tag1.GatTag]"
-	log = "[GetDateText]: [Root.GetTag]: tag2 = [?tag2.GetTag]"
-	log = "[GetDateText]: [Root.GetTag]: tag3 = [?tag3.GetTag]"
-	log = "[GetDateText]: [Root.GetTag]: event1 = [?event1]"
-	log = "[GetDateText]: [Root.GetTag]: event_to_fire1 = [?event_to_fire1]"
-	log = "[GetDateText]: [Root.GetTag]: event2 = [?event2]"
-	log = "[GetDateText]: [Root.GetTag]: event_to_fire2 = [?event_to_fire2]"
-	log = "[GetDateText]: [Root.GetTag]: event3 = [?event3]"
-	log = "[GetDateText]: [Root.GetTag]: event_to_fire3 = [?event_to_fire3]"
+	#debug
+	#log = "[GetDateText]: [Root.GetTag]: values before the meta effect:"
+	#log = "[GetDateText]: [Root.GetTag]: tag1 = [?tag1.GatTag]"
+	#log = "[GetDateText]: [Root.GetTag]: tag2 = [?tag2.GetTag]"
+	#log = "[GetDateText]: [Root.GetTag]: tag3 = [?tag3.GetTag]"
+	#log = "[GetDateText]: [Root.GetTag]: event1 = [?event1]"
+	#log = "[GetDateText]: [Root.GetTag]: event_to_fire1 = [?event_to_fire1]"
+	#log = "[GetDateText]: [Root.GetTag]: event2 = [?event2]"
+	#log = "[GetDateText]: [Root.GetTag]: event_to_fire2 = [?event_to_fire2]"
+	#log = "[GetDateText]: [Root.GetTag]: event3 = [?event3]"
+	#log = "[GetDateText]: [Root.GetTag]: event_to_fire3 = [?event_to_fire3]"
 	meta_effect = {
 		text = {
 			if = {
