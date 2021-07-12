@@ -1,14 +1,20 @@
 state={
 	id=1342
 	name="STATE_1342"
+
 	history={
-		owner = PLB
-		add_core_of = PLB
+		owner = ALC
+		add_core_of = ALC
+		victory_points = {
+			6150 20 
+		}
+
 	}
+
 	provinces={
-		1691 2403 5269 6358 6410 6434 6474 6546 6558 6592 6617 
+		6150 
 	}
 	manpower=1
-	state_category = pastoral
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 }

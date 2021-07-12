@@ -1,14 +1,17 @@
 state={
 	id=1397
 	name="STATE_1397"
+
 	history={
 		owner = PLB
 		add_core_of = PLB
+
 	}
+
 	provinces={
-		679 1153 1993 3639 4906 6363 6375 6405 6433 6466 6613 
+		679 1153 1691 1993 2403 3639 4906 5269 6358 6363 6375 6405 6410 6433 6434 6466 6474 6546 6558 6592 6613 6617 
 	}
 	manpower=1
-	state_category = pastoral
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

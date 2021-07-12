@@ -1,15 +1,18 @@
 state={
 	id=1028
 	name="STATE_1028"
+
 	history={
 		owner = PNG
 		add_core_of = PNG
+
 	}
+
 	provinces={
-		108 152 418 1456 1618 4575 6067 6080 6081 6085 6136 6158 6172 6173 
+		152 418 1456 4575 6080 6081 6085 6173 
 	}
 	manpower=34
-	state_category = wasteland
 	impassable = yes
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 }
