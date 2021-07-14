@@ -712,9 +712,28 @@ country_event = {
 		trigger = {
 			ROOT = {
 				original_tag = EQS
+				has_idea = soldiers_sleep_eqs
 			}
 		}
-		text = equestria.3.dsombr
+		text = equestria.3.dsombrsold
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+				has_idea = workers_sleep_eqs
+			}
+		}
+		text = equestria.3.dsombrwork
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+				has_idea = admin_sleep_eqs
+			}
+		}
+		text = equestria.3.dsombradmi
 	}
 	desc = {
 		trigger = {
@@ -906,6 +925,13 @@ country_event = {
 		trigger = {
 			ROOT = {
 				original_tag = EQS
+				EQS = {
+					NOT = {
+						has_idea = soldiers_sleep_eqs_50p
+						has_idea = workers_sleep_eqs_50p
+						has_idea = admin_sleep_eqs_50p
+					}
+				}
 			}
 		}
 		text = equestria.4.dsombr
@@ -913,10 +939,65 @@ country_event = {
 	desc = {
 		trigger = {
 			ROOT = {
+				original_tag = EQS
+				EQS = {
+					OR = {
+						has_idea = soldiers_sleep_eqs_50p
+						has_idea = workers_sleep_eqs_50p
+						has_idea = admin_sleep_eqs_50p
+					}
+				}
+			}
+		}
+		text = equestria.4.dsombrchange
+	}
+	desc = {
+		trigger = {
+			ROOT = {
 				original_tag = LUN
+				EQS = {
+					NOT = {
+						has_idea = soldiers_sleep_eqs_50p
+						has_idea = workers_sleep_eqs_50p
+						has_idea = admin_sleep_eqs_50p
+					}
+				}
 			}
 		}
 		text = equestria.4.dluna
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+				EQS = {
+					has_idea = soldiers_sleep_eqs_50p
+				}
+			}
+		}
+		text = equestria.4.dlunachangesold
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+				EQS = {
+					has_idea = workers_sleep_eqs_50p
+				}
+			}
+		}
+		text = equestria.4.dlunachangework
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+				EQS = {
+					has_idea = admin_sleep_eqs_50p
+				}
+			}
+		}
+		text = equestria.4.dlunachangeadmi
 	}
 	option = {
 		trigger = {

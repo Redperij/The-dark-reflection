@@ -100,7 +100,11 @@ equestria.2.d:0 "luna option d"
 equestria.3.tsombr:0 "event 3 som"
 equestria.3.tluna:0 "event 3 luna"
 
-equestria.3.dsombr:0 "event 3 som"
+equestria.3.dsombrsold:0 "event 3 som soldiers"
+
+equestria.3.dsombrwork:0 "event 3 som workers"
+
+equestria.3.dsombradmi:0 "event 3 som administrators"
 
 equestria.3.dluna:0 "event 3 luna"
 
@@ -116,7 +120,16 @@ equestria.4.tluna:0 "event 4 luna"
 
 equestria.4.dsombr:0 "event 4 som"
 
+equestria.4.dsombrchange:0 "event 4 som change"
+
 equestria.4.dluna:0 "event 4 luna"
+
+equestria.4.dlunachangesold:0 "event 4 luna change soldiers"
+
+equestria.4.dlunachangework:0 "event 4 luna change workers"
+
+equestria.4.dlunachangeadmi:0 "event 4 luna change administrators"
+
 
 equestria.4.a:0 "som option a"
 equestria.4.b:0 "luna option b"
