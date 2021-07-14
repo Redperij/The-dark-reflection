@@ -2,7 +2,10 @@ add_namespace = equestria
 
 country_event = {
 	id = equestria.0
-	immediate = {log = "[GetDateText]: [Root.GetName]: event equestria.0"}
+	immediate = {log = "[GetDateText]: [Root.GetTag]: event equestria.0"}
+	picture = GFX_event_canterlot
+
+	is_triggered_only = yes
 	title = {
 		trigger = {
 			ROOT = {
@@ -35,9 +38,7 @@ country_event = {
 		}
 		text = equestria.0.d_lun
 	}
-	picture = GFX_event_canterlot
-
-	is_triggered_only = yes
+	
 	option = {
 		trigger = {
 			ROOT = {
@@ -46,10 +47,6 @@ country_event = {
 		}
 		name = equestria.0.a
 		set_country_flag = EQS_chosen_equestria0
-
-		ai_chance = {
-			factor = 1000
-		}
 
 		set_variable = { tag1 = EQS }
 		set_variable = { tag2 = LUN }
@@ -121,10 +118,15 @@ country_event = {
 country_event = {
 	id = equestria.1
 	immediate = {
-		log = "[GetDateText]: [Root.GetName]: event equestria.1"
+		log = "[GetDateText]: [Root.GetTag]: event equestria.1"
 		clr_country_flag = EQS_chosen_equestria0
 		clr_country_flag = LUN_chosen_equestria0
 	}
+
+	picture = GFX_event_luna_work_sad
+
+	is_triggered_only = yes
+
 	title = {
 		trigger = {
 			AND = {
@@ -180,6 +182,9 @@ country_event = {
 	desc = {
 		trigger = {
 			AND = {
+				ROOT = {
+					original_tag = EQS
+				}
 				LUN = {
 					NOT = { has_country_flag = luna_init }
 				}
@@ -188,11 +193,30 @@ country_event = {
 				}
 			}
 		}
-		text = equestria.1.d1
+		text = equestria.1.d1eqs
 	}
 	desc = {
 		trigger = {
 			AND = {
+				ROOT = {
+					original_tag = LUN
+				}
+				LUN = {
+					NOT = { has_country_flag = luna_init }
+				}
+				EQS = {
+					has_country_flag = sombra_init
+				}
+			}
+		}
+		text = equestria.1.d1lun
+	}
+	desc = {
+		trigger = {
+			AND = {
+				ROOT = {
+					original_tag = EQS
+				}
 				LUN = {
 					has_country_flag = luna_init
 				}
@@ -201,11 +225,30 @@ country_event = {
 				}
 			}
 		}
-		text = equestria.1.d2
+		text = equestria.1.d2eqs
 	}
 	desc = {
 		trigger = {
 			AND = {
+				ROOT = {
+					original_tag = LUN
+				}
+				LUN = {
+					has_country_flag = luna_init
+				}
+				EQS = {
+					NOT = { has_country_flag = sombra_init }
+				}
+			}
+		}
+		text = equestria.1.d2lun
+	}
+	desc = {
+		trigger = {
+			AND = {
+				ROOT = {
+					original_tag = EQS
+				}
 				LUN = {
 					has_country_flag = luna_init
 				}
@@ -214,11 +257,30 @@ country_event = {
 				}
 			}
 		}
-		text = equestria.1.d3
+		text = equestria.1.d3eqs
 	}
 	desc = {
 		trigger = {
 			AND = {
+				ROOT = {
+					original_tag = LUN
+				}
+				LUN = {
+					has_country_flag = luna_init
+				}
+				EQS = {
+					has_country_flag = sombra_init
+				}
+			}
+		}
+		text = equestria.1.d3lun
+	}
+	desc = {
+		trigger = {
+			AND = {
+				ROOT = {
+					original_tag = EQS
+				}
 				LUN = {
 					NOT = { has_country_flag = luna_init }
 				}
@@ -227,15 +289,730 @@ country_event = {
 				}
 			}
 		}
-		text = equestria.1.d4
+		text = equestria.1.d4eqs
+	}
+	desc = {
+		trigger = {
+			AND = {
+				ROOT = {
+					original_tag = LUN
+				}
+				LUN = {
+					NOT = { has_country_flag = luna_init }
+				}
+				EQS = {
+					NOT = { has_country_flag = sombra_init }
+				}
+			}
+		}
+		text = equestria.1.d4lun
+	}
+
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+			LUN = {
+				has_country_flag = luna_init
+			}
+			EQS = {
+				has_country_flag = sombra_init
+			}
+		}
+		name = equestria.1.a
+		clr_country_flag = luna_init
+		clr_country_flag = sombra_init
+
+		set_country_flag = EQS_chosen_equestria1
+
+		set_variable = { tag1 = EQS }
+		set_variable = { tag2 = LUN }
+		set_variable = { event1 = 1 }
+		set_variable = { event_to_fire1 = 1 }
+		set_variable = { event2 = 1 }
+		set_variable = { event_to_fire2 = 1 }
+
+		fire_event_after_two_countries_chosen = yes
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+			LUN = {
+				has_country_flag = luna_init
+			}
+			EQS = {
+				has_country_flag = sombra_init
+			}
+		}
+		name = equestria.1.b
+		clr_country_flag = luna_init
+		clr_country_flag = sombra_init
+
+		set_country_flag = LUN_chosen_equestria1
+
+		set_variable = { tag1 = LUN }
+		set_variable = { tag2 = EQS }
+		set_variable = { event1 = 1 }
+		set_variable = { event_to_fire1 = 1 }
+		set_variable = { event2 = 1 }
+		set_variable = { event_to_fire2 = 1 }
+
+		fire_event_after_two_countries_chosen = yes
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+			LUN = {
+				NOT = { has_country_flag = luna_init }
+			}
+			EQS = {
+				has_country_flag = sombra_init
+			}
+		}
+		name = equestria.1.c
+		clr_country_flag = luna_init
+		clr_country_flag = sombra_init
+
+		set_country_flag = EQS_chosen_equestria1
+
+		set_variable = { tag1 = EQS }
+		set_variable = { tag2 = LUN }
+		set_variable = { event1 = 1 }
+		set_variable = { event_to_fire1 = 1 }
+		set_variable = { event2 = 1 }
+		set_variable = { event_to_fire2 = 1 }
+
+		fire_event_after_two_countries_chosen = yes
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+			LUN = {
+				NOT = { has_country_flag = luna_init }
+			}
+			EQS = {
+				has_country_flag = sombra_init
+			}
+		}
+		name = equestria.1.d
+		clr_country_flag = luna_init
+		clr_country_flag = sombra_init
+
+		set_country_flag = LUN_chosen_equestria1
+
+		set_variable = { tag1 = LUN }
+		set_variable = { tag2 = EQS }
+		set_variable = { event1 = 1 }
+		set_variable = { event_to_fire1 = 1 }
+		set_variable = { event2 = 1 }
+		set_variable = { event_to_fire2 = 1 }
+
+		fire_event_after_two_countries_chosen = yes
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+			LUN = {
+				has_country_flag = luna_init
+			}
+			EQS = {
+				NOT = { has_country_flag = sombra_init }
+			}
+		}
+		name = equestria.1.e
+		clr_country_flag = luna_init
+		clr_country_flag = sombra_init
+
+		set_country_flag = EQS_chosen_equestria1
+
+		set_variable = { tag1 = EQS }
+		set_variable = { tag2 = LUN }
+		set_variable = { event1 = 1 }
+		set_variable = { event_to_fire1 = 1 }
+		set_variable = { event2 = 1 }
+		set_variable = { event_to_fire2 = 1 }
+
+		fire_event_after_two_countries_chosen = yes
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+			LUN = {
+				has_country_flag = luna_init
+			}
+			EQS = {
+				NOT = { has_country_flag = sombra_init }
+			}
+		}
+		name = equestria.1.f
+		clr_country_flag = luna_init
+		clr_country_flag = sombra_init
+
+		set_country_flag = LUN_chosen_equestria1
+
+		set_variable = { tag1 = LUN }
+		set_variable = { tag2 = EQS }
+		set_variable = { event1 = 1 }
+		set_variable = { event_to_fire1 = 1 }
+		set_variable = { event2 = 1 }
+		set_variable = { event_to_fire2 = 1 }
+
+		fire_event_after_two_countries_chosen = yes
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+			LUN = {
+				NOT = { has_country_flag = luna_init }
+			}
+			EQS = {
+				NOT = { has_country_flag = sombra_init }
+			}
+		}
+		name = equestria.1.g
+		clr_country_flag = luna_init
+		clr_country_flag = sombra_init
+
+		set_country_flag = EQS_chosen_equestria1
+
+		set_variable = { tag1 = EQS }
+		set_variable = { tag2 = LUN }
+		set_variable = { event1 = 1 }
+		set_variable = { event_to_fire1 = 1 }
+		set_variable = { event2 = 1 }
+		set_variable = { event_to_fire2 = 1 }
+
+		fire_event_after_two_countries_chosen = yes
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+			LUN = {
+				NOT = { has_country_flag = luna_init }
+			}
+			EQS = {
+				NOT = { has_country_flag = sombra_init }
+			}
+		}
+		name = equestria.1.h
+		clr_country_flag = luna_init
+		clr_country_flag = sombra_init
+
+		set_country_flag = LUN_chosen_equestria1
+
+		set_variable = { tag1 = LUN }
+		set_variable = { tag2 = EQS }
+		set_variable = { event1 = 1 }
+		set_variable = { event_to_fire1 = 1 }
+		set_variable = { event2 = 1 }
+		set_variable = { event_to_fire2 = 1 }
+
+		fire_event_after_two_countries_chosen = yes
+	}
+}
+
+country_event = {
+	id = equestria.2
+	immediate = {
+		log = "[GetDateText]: [Root.GetTag]: event equestria.2"
+		clr_country_flag = EQS_chosen_equestria1
+		clr_country_flag = LUN_chosen_equestria1
 	}
 
 	picture = GFX_event_luna_work_sad
 
 	is_triggered_only = yes
+
+	title = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+		}
+		text = equestria.2.tsombr
+	}
+	title = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+		}
+		text = equestria.2.tluna
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+		}
+		text = equestria.2.dsombr
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+		}
+		text = equestria.2.dluna
+	}
 	option = {
-		name = equestria.1.a
-		clr_country_flag = luna_init
-		clr_country_flag = sombra_init
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+		}
+		name = equestria.2.a
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+		}
+		name = equestria.2.b
+
+		EQS = {
+			add_ideas = soldiers_sleep_eqs
+		}
+
+		if = {
+			limit = {
+				LUN = {
+					is_ai = yes
+				}
+			}
+			EQS = {
+				country_event = { id = equestria.3 hours = 1 }
+			}
+			LUN = {
+				country_event = { id = equestria.3 hours = 1 }
+			}
+		}
+		else = {
+			EQS = {
+				country_event = { id = equestria.3 days = 0 }
+			}
+			LUN = {
+				country_event = { id = equestria.3 days = 0 }
+			}
+		}
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+		}
+		name = equestria.2.c
+
+		EQS = {
+			add_ideas = workers_sleep_eqs
+		}
+
+		if = {
+			limit = {
+				LUN = {
+					is_ai = yes
+				}
+			}
+			EQS = {
+				country_event = { id = equestria.3 hours = 1 }
+			}
+			LUN = {
+				country_event = { id = equestria.3 hours = 1 }
+			}
+		}
+		else = {
+			EQS = {
+				country_event = { id = equestria.3 days = 0 }
+			}
+			LUN = {
+				country_event = { id = equestria.3 days = 0 }
+			}
+		}
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+		}
+		name = equestria.2.d
+
+		EQS = {
+			add_ideas = admin_sleep_eqs
+		}
+		
+		if = {
+			limit = {
+				LUN = {
+					is_ai = yes
+				}
+			}
+			EQS = {
+				country_event = { id = equestria.3 hours = 1 }
+			}
+			LUN = {
+				country_event = { id = equestria.3 hours = 1 }
+			}
+		}
+		else = {
+			EQS = {
+				country_event = { id = equestria.3 days = 0 }
+			}
+			LUN = {
+				country_event = { id = equestria.3 days = 0 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = equestria.3
+	immediate = {
+		log = "[GetDateText]: [Root.GetTag]: event equestria.3"
+	}
+
+	picture = GFX_event_luna_work_sad
+
+	is_triggered_only = yes
+
+	title = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+		}
+		text = equestria.3.tsombr
+	}
+	title = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+		}
+		text = equestria.3.tluna
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+				has_idea = soldiers_sleep_eqs
+			}
+		}
+		text = equestria.3.dsombrsold
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+				has_idea = workers_sleep_eqs
+			}
+		}
+		text = equestria.3.dsombrwork
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+				has_idea = admin_sleep_eqs
+			}
+		}
+		text = equestria.3.dsombradmi
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+		}
+		text = equestria.3.dluna
+	}
+
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+		}
+		name = equestria.3.a
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+		}
+		name = equestria.3.b
+
+		if = {
+			limit = {
+				EQS = {
+					is_ai = yes
+				}
+			}
+			EQS = {
+				country_event = { id = equestria.4 hours = 1 }
+			}
+			LUN = {
+				country_event = { id = equestria.4 hours = 1 }
+			}
+		}
+		else = {
+			EQS = {
+				country_event = { id = equestria.4 days = 0 }
+			}
+			LUN = {
+				country_event = { id = equestria.4 days = 0 }
+			}
+		}
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+				NOT = { has_idea = soldiers_sleep_eqs } 
+			}
+		}
+		name = equestria.3.c
+
+		EQS = {
+			add_ideas = soldiers_sleep_eqs_50p
+			remove_ideas = workers_sleep_eqs
+			remove_ideas = admin_sleep_eqs
+		}
+
+		if = {
+			limit = {
+				EQS = {
+					is_ai = yes
+				}
+			}
+			EQS = {
+				country_event = { id = equestria.4 hours = 1 }
+			}
+			LUN = {
+				country_event = { id = equestria.4 hours = 1 }
+			}
+		}
+		else = {
+			EQS = {
+				country_event = { id = equestria.4 days = 0 }
+			}
+			LUN = {
+				country_event = { id = equestria.4 days = 0 }
+			}
+		}
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+				NOT = { has_idea = workers_sleep_eqs } 
+			}
+		}
+		name = equestria.3.d
+
+		EQS = {
+			add_ideas = workers_sleep_eqs_50p
+			remove_ideas = soldiers_sleep_eqs
+			remove_ideas = admin_sleep_eqs
+		}
+
+		if = {
+			limit = {
+				EQS = {
+					is_ai = yes
+				}
+			}
+			EQS = {
+				country_event = { id = equestria.4 hours = 1 }
+			}
+			LUN = {
+				country_event = { id = equestria.4 hours = 1 }
+			}
+		}
+		else = {
+			EQS = {
+				country_event = { id = equestria.4 days = 0 }
+			}
+			LUN = {
+				country_event = { id = equestria.4 days = 0 }
+			}
+		}
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+				NOT = { has_idea = admin_sleep_eqs } 
+			}
+		}
+		name = equestria.3.e
+
+		EQS = {
+			add_ideas = admin_sleep_eqs_50p
+			remove_ideas = soldiers_sleep_eqs
+			remove_ideas = workers_sleep_eqs
+		}
+
+		if = {
+			limit = {
+				EQS = {
+					is_ai = yes
+				}
+			}
+			EQS = {
+				country_event = { id = equestria.4 hours = 1 }
+			}
+			LUN = {
+				country_event = { id = equestria.4 hours = 1 }
+			}
+		}
+		else = {
+			EQS = {
+				country_event = { id = equestria.4 days = 0 }
+			}
+			LUN = {
+				country_event = { id = equestria.4 days = 0 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = equestria.4
+	immediate = {
+		log = "[GetDateText]: [Root.GetTag]: event equestria.4"
+	}
+
+	picture = GFX_event_luna_work_sad
+
+	is_triggered_only = yes
+
+	title = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+		}
+		text = equestria.4.tsombr
+	}
+	title = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+		}
+		text = equestria.4.tluna
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+				EQS = {
+					NOT = {
+						has_idea = soldiers_sleep_eqs_50p
+						has_idea = workers_sleep_eqs_50p
+						has_idea = admin_sleep_eqs_50p
+					}
+				}
+			}
+		}
+		text = equestria.4.dsombr
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+				EQS = {
+					OR = {
+						has_idea = soldiers_sleep_eqs_50p
+						has_idea = workers_sleep_eqs_50p
+						has_idea = admin_sleep_eqs_50p
+					}
+				}
+			}
+		}
+		text = equestria.4.dsombrchange
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+				EQS = {
+					NOT = {
+						has_idea = soldiers_sleep_eqs_50p
+						has_idea = workers_sleep_eqs_50p
+						has_idea = admin_sleep_eqs_50p
+					}
+				}
+			}
+		}
+		text = equestria.4.dluna
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+				EQS = {
+					has_idea = soldiers_sleep_eqs_50p
+				}
+			}
+		}
+		text = equestria.4.dlunachangesold
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+				EQS = {
+					has_idea = workers_sleep_eqs_50p
+				}
+			}
+		}
+		text = equestria.4.dlunachangework
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+				EQS = {
+					has_idea = admin_sleep_eqs_50p
+				}
+			}
+		}
+		text = equestria.4.dlunachangeadmi
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+			}
+		}
+		name = equestria.4.a
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = LUN
+			}
+		}
+		name = equestria.4.b
 	}
 }
