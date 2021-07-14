@@ -1,14 +1,85 @@
 ideas = {
 	country = {
-		severianian_crown = {
+		soldiers_sleep_eqs = {
 			allowed = {
 				always = no
 			}
+			picture = ast_volunteer_defence_corps
 
 			removal_cost = -1
 
 			modifier = {
 				stability_factor = 0.25
+			}
+		}
+	}
+	country = {
+		soldiers_sleep_eqs_50p = {
+			allowed = {
+				always = no
+			}
+			picture = ast_volunteer_defence_corps
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.13
+			}
+		}
+	}
+	country = {
+		workers_sleep_eqs = {
+			allowed = {
+				always = no
+			}
+			picture = ast_volunteer_defence_corps
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.50
+			}
+		}
+	}
+	country = {
+		workers_sleep_eqs_50p = {
+			allowed = {
+				always = no
+			}
+			picture = ast_volunteer_defence_corps
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.25
+			}
+		}
+	}
+	country = {
+		admin_sleep_eqs = {
+			allowed = {
+				always = no
+			}
+			picture = ast_volunteer_defence_corps
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.75
+			}
+		}
+	}
+	country = {
+		admin_sleep_eqs_50p = {
+			allowed = {
+				always = no
+			}
+			picture = ast_volunteer_defence_corps
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.37
 			}
 		}
 	}

@@ -20,6 +20,18 @@ LUNA_HARMONY_LEADER_DESC:0 "The best Princess. (Change my mind)"
 #######################################################
 ##### IDEAS ###########################################
 #######################################################
+soldiers_sleep_eqs:0 "Soldiers slept well"
+soldiers_sleep_eqs_desc:0 "DESC"
+soldiers_sleep_eqs_50p:0 "Soldiers almost slept well"
+soldiers_sleep_eqs_50p_desc:0 "DESC"
+workers_sleep_eqs:0 "Workers slept well"
+workers_sleep_eqs_desc:0 "DESC"
+workers_sleep_eqs_50p:0 "Workers almost slept well"
+workers_sleep_eqs_50p_desc:0 "DESC"
+admin_sleep_eqs:0 "Administration alept well"
+admin_sleep_eqs_desc:0 "DESC"
+admin_sleep_eqs_50p:0 "Administration almost slept well"
+admin_sleep_eqs_50p_desc:0 "DESC"
 
 #######################################################
 ##### DECISIONS #######################################
@@ -30,25 +42,38 @@ LUNA_HARMONY_LEADER_DESC:0 "The best Princess. (Change my mind)"
 #######################################################
 equestria.0.t_eqs:0 "event 0 som"
 equestria.0.t_lun:0 "event 0 luna"
+
 equestria.0.d_eqs:0 "event 0 som"
+
 equestria.0.d_lun:0 "event 0 luna"
+
 equestria.0.a:0 "som option a (init)"
 equestria.0.b:0 "som option b"
 equestria.0.c:0 "luna option c (init)"
 equestria.0.d:0 "luna option d"
 
+
 equestria.1.t1:0 "event 1 t1"
 equestria.1.t2:0 "event 1 t2"
 equestria.1.t3:0 "event 1 t3"
 equestria.1.t4:0 "event 1 t4"
+
 equestria.1.d1eqs:0 "event 1 eqs"
+
 equestria.1.d1lun:0 "event 1 lun"
+
 equestria.1.d2eqs:0 "event 1 eqs"
+
 equestria.1.d2lun:0 "event 1 lun"
+
 equestria.1.d3eqs:0 "event 1 eqs"
+
 equestria.1.d3lun:0 "event 1 lun"
+
 equestria.1.d4eqs:0 "event 1 eqs"
+
 equestria.1.d4lun:0 "event 1 lun"
+
 equestria.1.a:0 "som option a"
 equestria.1.b:0 "luna option b"
 equestria.1.c:0 "som option c"
@@ -58,28 +83,41 @@ equestria.1.f:0 "luna option f"
 equestria.1.g:0 "som option g"
 equestria.1.h:0 "luna option h"
 
+
 equestria.2.tsombr:0 "event 2 som"
 equestria.2.tluna:0 "event 2 luna"
+
 equestria.2.dsombr:0 "event 2 som"
+
 equestria.2.dluna:0 "event 2 luna"
+
 equestria.2.a:0 "som option a"
 equestria.2.b:0 "luna option b"
 equestria.2.c:0 "luna option c"
 equestria.2.d:0 "luna option d"
 
+
 equestria.3.tsombr:0 "event 3 som"
 equestria.3.tluna:0 "event 3 luna"
+
 equestria.3.dsombr:0 "event 3 som"
+
 equestria.3.dluna:0 "event 3 luna"
+
 equestria.3.a:0 "luna option a"
 equestria.3.b:0 "som option b"
 equestria.3.c:0 "som option c"
 equestria.3.d:0 "som option d"
 equestria.3.e:0 "som option e"
 
+
 equestria.4.tsombr:0 "event 4 som"
 equestria.4.tluna:0 "event 4 luna"
+
 equestria.4.dsombr:0 "event 4 som"
+
 equestria.4.dluna:0 "event 4 luna"
+
 equestria.4.a:0 "som option a"
 equestria.4.b:0 "luna option b"
+

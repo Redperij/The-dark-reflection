@@ -586,6 +586,10 @@ country_event = {
 		}
 		name = equestria.2.b
 
+		EQS = {
+			add_ideas = soldiers_sleep_eqs
+		}
+
 		if = {
 			limit = {
 				LUN = {
@@ -615,6 +619,10 @@ country_event = {
 			}
 		}
 		name = equestria.2.c
+
+		EQS = {
+			add_ideas = workers_sleep_eqs
+		}
 
 		if = {
 			limit = {
@@ -646,6 +654,9 @@ country_event = {
 		}
 		name = equestria.2.d
 
+		EQS = {
+			add_ideas = admin_sleep_eqs
+		}
 		
 		if = {
 			limit = {
@@ -756,38 +767,16 @@ country_event = {
 		trigger = {
 			ROOT = {
 				original_tag = EQS
+				NOT = { has_idea = soldiers_sleep_eqs } 
 			}
 		}
 		name = equestria.3.c
-		if = {
-			limit = {
-				EQS = {
-					is_ai = yes
-				}
-			}
-			EQS = {
-				country_event = { id = equestria.4 hours = 1 }
-			}
-			LUN = {
-				country_event = { id = equestria.4 hours = 1 }
-			}
+
+		EQS = {
+			add_ideas = soldiers_sleep_eqs_50p
+			remove_ideas = workers_sleep_eqs
+			remove_ideas = admin_sleep_eqs
 		}
-		else = {
-			EQS = {
-				country_event = { id = equestria.4 days = 0 }
-			}
-			LUN = {
-				country_event = { id = equestria.4 days = 0 }
-			}
-		}
-	}
-	option = {
-		trigger = {
-			ROOT = {
-				original_tag = EQS
-			}
-		}
-		name = equestria.3.d
 
 		if = {
 			limit = {
@@ -815,9 +804,53 @@ country_event = {
 		trigger = {
 			ROOT = {
 				original_tag = EQS
+				NOT = { has_idea = workers_sleep_eqs } 
+			}
+		}
+		name = equestria.3.d
+
+		EQS = {
+			add_ideas = workers_sleep_eqs_50p
+			remove_ideas = soldiers_sleep_eqs
+			remove_ideas = admin_sleep_eqs
+		}
+
+		if = {
+			limit = {
+				EQS = {
+					is_ai = yes
+				}
+			}
+			EQS = {
+				country_event = { id = equestria.4 hours = 1 }
+			}
+			LUN = {
+				country_event = { id = equestria.4 hours = 1 }
+			}
+		}
+		else = {
+			EQS = {
+				country_event = { id = equestria.4 days = 0 }
+			}
+			LUN = {
+				country_event = { id = equestria.4 days = 0 }
+			}
+		}
+	}
+	option = {
+		trigger = {
+			ROOT = {
+				original_tag = EQS
+				NOT = { has_idea = admin_sleep_eqs } 
 			}
 		}
 		name = equestria.3.e
+
+		EQS = {
+			add_ideas = admin_sleep_eqs_50p
+			remove_ideas = soldiers_sleep_eqs
+			remove_ideas = workers_sleep_eqs
+		}
 
 		if = {
 			limit = {
