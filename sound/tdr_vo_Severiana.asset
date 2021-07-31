@@ -1,13 +1,13 @@
 
-category = 
-{
- name = "Voices"
- soundeffects = {
-	SEV_infantry_idle
-	SEV_infantry_neutral_combat
-	SEV_infantry_positive_combat
-	SEV_infantry_retreat
- }
+category = {
+	name = "Voices"
+	soundeffects = {
+		SEV_infantry_idle
+		SEV_infantry_neutral_combat
+		SEV_infantry_positive_combat
+		SEV_infantry_retreat
+		SEV_infantry_move_out
+	}
 }
 
 ############# SOUNDEFFECTS
@@ -18,11 +18,19 @@ soundeffect =
 {
     name = "SEV_infantry_idle"
     sounds = {
-		sound = click_debug_dog_02
+		sound = sev_Idle_001
+		sound = sev_Idle_002
+		sound = sev_Idle_003
+		sound = sev_Idle_004
+		sound = sev_Idle_005
+		sound = sev_Idle_a_001
+		sound = sev_Idle_a_002
+		sound = sev_Idle_a_003
+		sound = sev_Idle_a_004
     }
 	max_audible = 1
 	max_audible_behaviour = fail
-	volume = 0.70
+	volume = 1
 	volume_random_offset = { 0.0 -0.15 }
 	playbackrate_random_offset = { 0.0 -0.15 }
 }
@@ -30,7 +38,10 @@ soundeffect =
 {
     name = "SEV_infantry_neutral_combat"
     sounds = {
-		sound = click_debug_dog_03
+		sound = sev_Neutral_001
+		sound = sev_Neutral_002
+		sound = sev_Neutral_003
+		sound = sev_Neutral_004
     }
 	max_audible = 1
 	max_audible_behaviour = fail
@@ -42,7 +53,10 @@ soundeffect =
 {
     name = "SEV_infantry_positive_combat"
     sounds = {
-		sound = confirm_dog
+		sound = sev_Positive_001
+		sound = sev_Positive_002
+		sound = sev_Positive_003
+		sound = sev_Positive_004
     }
 	max_audible = 1
 	max_audible_behaviour = fail
@@ -54,11 +68,26 @@ soundeffect =
 {
     name = "SEV_infantry_retreat"
     sounds = {
-		sound = debug_dog_yelping_03
+		sound = sev_Retreat_001
+		sound = sev_Retreat_002
+		sound = sev_Retreat_003
+		sound = sev_Retreat_004
     }
 	max_audible = 1
 	max_audible_behaviour = fail
 	volume = 0.70
 	volume_random_offset = { 0.0 -0.15 }
 	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect = 
+{
+    name = "SEV_infantry_move_out"
+    sounds = {
+        sound = debug_dog_yelping_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
 }

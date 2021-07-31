@@ -1,0 +1,147 @@
+######################## Voiceover #########################
+sound =
+{
+	name = "sev_Idle_001"
+	file = "sev/sev_Idle_001.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Idle_002"
+	file = "sev/sev_Idle_002.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Idle_003"
+	file = "sev/sev_Idle_003.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Idle_004"
+	file = "sev/sev_Idle_004.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Idle_005"
+	file = "sev/sev_Idle_005.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Idle_a_001"
+	file = "sev/sev_Idle_a_001.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Idle_a_002"
+	file = "sev/sev_Idle_a_002.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Idle_a_003"
+	file = "sev/sev_Idle_a_003.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Idle_a_004"
+	file = "sev/sev_Idle_a_004.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Neutral_001"
+	file = "sev/sev_Neutral_001.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Neutral_002"
+	file = "sev/sev_Neutral_002.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Neutral_003"
+	file = "sev/sev_Neutral_003.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Neutral_004"
+	file = "sev/sev_Neutral_004.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Positive_001"
+	file = "sev/sev_Positive_001.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Positive_002"
+	file = "sev/sev_Positive_002.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Positive_003"
+	file = "sev/sev_Positive_003.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Positive_004"
+	file = "sev/sev_Positive_004.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Retreat_001"
+	file = "sev/sev_Retreat_001.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Retreat_002"
+	file = "sev/sev_Retreat_002.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Retreat_003"
+	file = "sev/sev_Retreat_003.wav"
+	always_load = no
+}
+
+sound =
+{
+	name = "sev_Retreat_004"
+	file = "sev/sev_Retreat_004.wav"
+	always_load = no
+}
