@@ -1,6 +1,6 @@
 state={
 	id=888
-	name="Emerald Creek"
+	name="STATE_888"
 	history={
 		owner = TEM
 		add_core_of = TEM

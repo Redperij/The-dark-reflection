@@ -1,6 +1,6 @@
 state={
 	id=911
-	name="Foal Swamps"
+	name="STATE_911"
 	history={
 		owner = ELD
 		add_core_of = ELD

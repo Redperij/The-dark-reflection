@@ -1,6 +1,6 @@
 state={
 	id=631
-	name="Inver Hoofed Heights"
+	name="STATE_631"
 	history={
 		owner = WHN
 		add_core_of = WHN

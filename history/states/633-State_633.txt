@@ -1,6 +1,6 @@
 state={
 	id=633
-	name="Winterchilla Rapids"
+	name="STATE_633"
 	history={
 		owner = WHN
 		add_core_of = WHN

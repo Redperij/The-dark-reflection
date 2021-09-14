@@ -1,6 +1,6 @@
 state={
 	id=586
-	name="Bronco Park"
+	name="STATE_586"
 	history={
 		owner = WHN
 		add_core_of = WHN

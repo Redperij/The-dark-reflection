@@ -1,6 +1,6 @@
 state={
 	id=861
-	name="Cozy Nook"
+	name="STATE_861"
 	history={
 		owner = KDW
 		add_core_of = KDW

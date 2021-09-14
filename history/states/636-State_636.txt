@@ -1,6 +1,6 @@
 state={
 	id=636
-	name="Buckmington Bridge"
+	name="STATE_636"
 	history={
 		owner = WHN
 		add_core_of = WHN

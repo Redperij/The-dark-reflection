@@ -1,6 +1,6 @@
 state={
 	id=635
-	name="Freeze Shore"
+	name="STATE_635"
 	history={
 		owner = WHN
 		add_core_of = WHN

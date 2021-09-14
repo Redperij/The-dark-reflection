@@ -1,6 +1,6 @@
 state={
 	id=593
-	name="Bindbole Wood"
+	name="STATE_593"
 	history={
 		owner = RED
 		add_core_of = RED
