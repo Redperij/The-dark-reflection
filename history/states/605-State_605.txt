@@ -1,6 +1,6 @@
 state={
 	id=605
-	name="Dragon city"
+	name="STATE_605"
 	history={
 		owner = DRA
 		add_core_of = DRA

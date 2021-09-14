@@ -1,6 +1,6 @@
 state={
 	id=622
-	name="Dobbin Lake"
+	name="STATE_622"
 	history={
 		owner = WHN
 		add_core_of = WHN

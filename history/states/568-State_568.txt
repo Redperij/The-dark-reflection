@@ -1,6 +1,6 @@
 state={
 	id=568
-	name="Castle Danger"
+	name="STATE_568"
 	history={
 		owner = WHN
 		add_core_of = WHN

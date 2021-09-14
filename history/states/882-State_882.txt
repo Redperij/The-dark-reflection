@@ -1,6 +1,6 @@
 state={
 	id=882
-	name="Toll Gate"
+	name="STATE_882"
 	history={
 		owner = MON
 		add_core_of = MON

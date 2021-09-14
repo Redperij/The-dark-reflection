@@ -1,6 +1,6 @@
 state={
 	id=599
-	name="White Bridge"
+	name="STATE_599"
 	history={
 		owner = RED
 		add_core_of = RED

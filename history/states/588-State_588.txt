@@ -1,6 +1,6 @@
 state={
 	id=588
-	name="White Earth Forest"
+	name="STATE_588"
 	history={
 		owner = WHN
 		add_core_of = WHN

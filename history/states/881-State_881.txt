@@ -1,6 +1,6 @@
 state={
 	id=881
-	name="Little Apples"
+	name="STATE_881"
 	history={
 		owner = MON
 		add_core_of = MON
