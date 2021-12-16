@@ -26,6 +26,6 @@
 #######################################################
 ##### EVENTS ##########################################
 #######################################################
-LAO_laos.1.t:0 "Happy mercenary"
-LAO_laos.1.d:0 "Happy mercenary des."
-LAO_laos.1.a:0 "zaebok"
+CEL_Celestia.0.t:0 "Happy mercenary"
+CEL_Celestia.0:0 "Happy mercenary des"
+CEL_Celestia.0:0 "zaebok"
