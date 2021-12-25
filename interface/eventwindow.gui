@@ -103,7 +103,12 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes				
 			}
-
+			iconType = {
+			name ="chain_beginning_image"
+			spriteType = "GFX_chain_beginning"
+			position = { x = -210 y = -200 }
+			Orientation = "LOWER_RIGHT"
+			}
 			#iconType = {
 			#	name ="event_pic_clip"
 			#	spriteType = "GFX_event_pic_clip"
