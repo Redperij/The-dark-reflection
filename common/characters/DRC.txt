@@ -1,0 +1,58 @@
+characters = {
+	DRC_smd = {
+		name = DRC_smd
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = despotism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	DRC_smd1 = {
+		name = DRC_smd
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = fascism_ideology
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	DRC_smd2 = {
+		name = DRC_smd
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = marxism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	DRC_smd3 = {
+		name = DRC_smd
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = liberalism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+}

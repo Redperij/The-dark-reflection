@@ -21,7 +21,7 @@ actually_fix_weapon_techs = yes #THIS HAS TO BE CALLED IN EVERY HISTORY FILE RIG
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "937.1.1"
+	last_election = "5.2.11"
 	elections_allowed = no
 }
 
@@ -70,47 +70,11 @@ add_equipment_to_stockpile = {
 	producer = EQS
 }
 
+recruit_character = EQS_sombra
+recruit_character = EQS_inkwell
+recruit_character = EQS_smp2
+recruit_character = EQS_luna
 
-create_country_leader = {
-	name = "King Sombra"
-	desc = "KING_SOMBRA_LEADER_DESC"
-	picture = "Sombra.tga"
-	expire = "2000.1.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Inkwell"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = democratic_socialism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Princess Luna"
-	desc = "LUNA_HARMONY_LEADER_DESC"
-	picture = "Luna.tga"
-	expire = "2000.1.1"
-	ideology = socialism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

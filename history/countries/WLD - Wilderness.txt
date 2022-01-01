@@ -20,46 +20,11 @@ set_popularities = {
 	fascism = 0
 }
 
-create_country_leader = {
-	name = "Wild"
-	desc = ""
-	picture = ""
-	expire = "2000.1.1"
-	ideology = anarchism
-	traits = {
-		
-	}
-}
+recruit_character = WLD_wild_n
+recruit_character = WLD_wild_f
+recruit_character = WLD_wild_c
+recruit_character = WLD_wild_d
 
-create_country_leader = {
-	name = "Wild"
-	desc = ""
-	picture = ""
-	expire = "2000.1.1"
-	ideology = falangism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Wild"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Wild"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

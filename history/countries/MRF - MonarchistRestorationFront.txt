@@ -38,46 +38,11 @@ add_equipment_to_stockpile = {
 	producer = MRF
 }
 
-create_country_leader = {
-	name = "Somegriffon"
-	desc = ""
-	picture = ""
-	expire = "2000.1.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
+recruit_character = MRF_smg
+recruit_character = MRF_smg1
+recruit_character = MRF_smg2
+recruit_character = MRF_smg3
 
-create_country_leader = {
-	name = "Somegriffon"
-	desc = ""
-	picture = ""
-	expire = "2000.1.1"
-	ideology = neofeudalism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somegriffon"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somegriffon"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

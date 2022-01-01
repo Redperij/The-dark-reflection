@@ -1,0 +1,60 @@
+characters = {
+	EQS_sombra = {
+		name = EQS_king_sombra
+		portraits = {
+			civilian = {
+				large = "Sombra.tga"
+			}
+		}
+		country_leader = {
+			desc = "KING_SOMBRA_LEADER_DESC"
+			ideology = despotism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	EQS_inkwell = {
+		name = EQS_inkwell
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = ""
+			ideology = fascism_ideology
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	EQS_smp2 = {
+		name = EQS_smp
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = democratic_socialism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	EQS_luna = {
+		name = EQS_princess_luna
+		portraits = {
+			civilian = {
+				large = "Luna.tga"
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = "LUNA_HARMONY_LEADER_DESC"
+			ideology = socialism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+}

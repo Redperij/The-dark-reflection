@@ -30,46 +30,11 @@ set_popularities = {
 	fascism = 9
 }
 
-create_country_leader = {
-	name = "Winter Turnip"
-	desc = ""
-	picture = "Winter_Turnip.tga"
-	expire = "2000.1.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
+recruit_character = BRM_winter_turnip
+recruit_character = BRM_smp1
+recruit_character = BRM_smp2
+recruit_character = BRM_smp3
 
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

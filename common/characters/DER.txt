@@ -1,0 +1,58 @@
+characters = {
+	DER_smd = {
+		name = DER_smd
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = despotism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	DER_blackthorn = {
+		name = DER_blackthorn
+		portraits = {
+			civilian = {
+				large = "Blackthorn.tga"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = neofeudalism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	DER_smd2 = {
+		name = DER_smd
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = marxism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	DER_smd3 = {
+		name = DER_smd
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = liberalism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+}

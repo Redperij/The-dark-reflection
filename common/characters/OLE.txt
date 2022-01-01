@@ -1,0 +1,59 @@
+characters = {
+	OLE_smde = {
+		name = OLE_smde
+		portraits = {
+			civilian = {
+				large = "Velvet.tga"
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = ""
+			ideology = despotism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	OLE_smde1 = {
+		name = OLE_smde
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = fascism_ideology
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	OLE_smde2 = {
+		name = OLE_smde
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = marxism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	OLE_smde3 = {
+		name = OLE_smde
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = liberalism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+}

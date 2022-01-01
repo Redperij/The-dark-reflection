@@ -30,47 +30,11 @@ set_popularities = {
 	fascism = 0
 }
 
-create_country_leader = {
-	name = "Chrysalis"
-	desc = ""
-	picture = "Chrysalis2.tga"
-	expire = "5555.1.1"
-	ideology = libertarianism
-	female = yes
-	traits = {
-		
-	}
-}
+recruit_character = WES_chrysalis
+recruit_character = WES_smp1
+recruit_character = WES_smp2
+recruit_character = WES_smp3
 
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "5555.1.1"
-	ideology = liberalism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

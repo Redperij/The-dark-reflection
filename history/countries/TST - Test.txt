@@ -13,46 +13,11 @@ set_popularities = {
 	fascism = 5
 }
 
-create_country_leader = {
-	name = "Franklin"
-	desc = ""
-	picture = ""
-	expire = "1947.1.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
+recruit_character = TST_smp
+recruit_character = TST_smp1
+recruit_character = TST_smp2
+recruit_character = TST_smp3
 
-create_country_leader = {
-	name = "William"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Earl"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Haile"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

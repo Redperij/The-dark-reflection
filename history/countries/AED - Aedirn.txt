@@ -20,6 +20,7 @@ actually_fix_weapon_techs = yes #THIS HAS TO BE CALLED IN EVERY HISTORY FILE RIG
 set_politics = {
 	ruling_party = neutrality
 	last_election = "937.1.1"
+	election_frequency = 36
 	elections_allowed = no
 }
 
@@ -30,46 +31,11 @@ set_popularities = {
 	fascism = 9
 }
 
-create_country_leader = {
-	name = "Demavend"
-	desc = ""
-	picture = "template_0.tga"
-	expire = "2000.1.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
+recruit_character = AED_demovend
+recruit_character = AED_smp1
+recruit_character = AED_smp2
+recruit_character = AED_smp3
 
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

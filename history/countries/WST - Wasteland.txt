@@ -20,46 +20,11 @@ set_popularities = {
 	fascism = 0
 }
 
-create_country_leader = {
-	name = "Wasteland"
-	desc = ""
-	picture = ""
-	expire = "2000.1.1"
-	ideology = anarchism
-	traits = {
-		
-	}
-}
+recruit_character = WST_wasteland_n
+recruit_character = WST_wasteland_f
+recruit_character = WST_wasteland_c
+recruit_character = WST_wasteland_d
 
-create_country_leader = {
-	name = "Wasteland"
-	desc = ""
-	picture = ""
-	expire = "2000.1.1"
-	ideology = falangism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Wasteland"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Wasteland"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

@@ -70,47 +70,11 @@ add_equipment_to_stockpile = {
 	producer = SEV
 }
 
-create_country_leader = {
-	name = "Empress Altidiya Revoltsova"
-	desc = ""
-	picture = "Alty_Emp.tga"
-	expire = "2000.1.1"
-	ideology = despotism
-	female = yes
-	traits = {
-		#critique_god
-	}
-}
+recruit_character = SEV_alty
+recruit_character = SEV_smp1
+recruit_character = SEV_smp2
+recruit_character = SEV_smp3
 
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

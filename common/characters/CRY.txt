@@ -1,0 +1,59 @@
+characters = {
+	CRY_smp = {
+		name = CRY_smp
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = despotism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	CRY_cadance = {
+		name = CRY_princess_mi_amore_cadance
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = ""
+			ideology = neofeudalism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	CRY_smp2 = {
+		name = CRY_smp
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = marxism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	CRY_smp3 = {
+		name = CRY_smp
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = liberalism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,58 @@
+characters = {
+	WLD_wild_n = {
+		name = WLD_wild
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = anarchism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	WLD_wild_f = {
+		name = WLD_wild
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = falangism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	WLD_wild_c = {
+		name = WLD_wild
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = marxism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	WLD_wild_d = {
+		name = WLD_wild
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = liberalism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+}

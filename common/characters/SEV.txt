@@ -1,0 +1,59 @@
+characters = {
+	SEV_alty = {
+		name = SEV_empress_alty
+		portraits = {
+			civilian = {
+				large = "Alty_Emp.tga"
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = ""
+			ideology = despotism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	SEV_smp1 = {
+		name = SEV_smp
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = fascism_ideology
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	SEV_smp2 = {
+		name = SEV_smp
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = marxism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	SEV_smp3 = {
+		name = SEV_smp
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = liberalism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+}

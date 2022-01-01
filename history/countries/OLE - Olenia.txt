@@ -78,46 +78,11 @@ set_popularities = {
 	fascism = 17
 }
 
-create_country_leader = {
-	name = "The White Flame Dancing on the Barrows of his Enemies"
-	desc = ""
-	picture = "Velvet.tga"
-	expire = "2000.1.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
+recruit_character = OLE_smde
+recruit_character = OLE_smde1
+recruit_character = OLE_smde2
+recruit_character = OLE_smde3
 
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

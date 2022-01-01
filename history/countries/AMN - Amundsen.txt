@@ -30,46 +30,11 @@ set_popularities = {
 	fascism = 11
 }
 
-create_country_leader = {
-	name = "Somepenguin"
-	desc = ""
-	picture = ""
-	expire = "2000.1.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
+recruit_character = AMN_smpe
+recruit_character = AMN_smpe1
+recruit_character = AMN_smpe2
+recruit_character = AMN_smpe3
 
-create_country_leader = {
-	name = "Somepenguin"
-	desc = ""
-	picture = ""
-	expire = "2000.1.1"
-	ideology = neofeudalism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepenguin"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepenguin"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

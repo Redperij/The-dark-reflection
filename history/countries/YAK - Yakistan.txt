@@ -31,46 +31,11 @@ set_popularities = {
 	fascism = 0
 }
 
-create_country_leader = {
-	name = "Someyak"
-	desc = ""
-	picture = ""
-	expire = "2000.1.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
+recruit_character = YAK_smy
+recruit_character = YAK_smy1
+recruit_character = YAK_smy2
+recruit_character = YAK_khan_koletiv
 
-create_country_leader = {
-	name = "Someyak"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Someyak"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Khan Koletiv"
-	desc = ""
-	picture = "yak1.tga"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

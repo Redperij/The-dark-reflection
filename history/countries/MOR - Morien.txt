@@ -30,46 +30,11 @@ set_popularities = {
 	fascism = 11
 }
 
-create_country_leader = {
-	name = "Somedog"
-	desc = ""
-	picture = ""
-	expire = "2000.1.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
+recruit_character = MOR_smd
+recruit_character = MOR_smd1
+recruit_character = MOR_smd2
+recruit_character = MOR_smd3
 
-create_country_leader = {
-	name = "Somedog"
-	desc = ""
-	picture = ""
-	expire = "2000.1.1"
-	ideology = neofeudalism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somedog"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somedog"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

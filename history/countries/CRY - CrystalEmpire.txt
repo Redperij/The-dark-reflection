@@ -31,47 +31,12 @@ set_popularities = {
 	fascism = 87
 }
 
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "2000.1.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
 
-create_country_leader = {
-	name = "Princess Mi Amore Cadance"
-	desc = ""
-	picture = "Cadance.tga"
-	expire = "2000.1.1"
-	ideology = neofeudalism
-	female = yes
-	traits = {
-		
-	}
-}
+recruit_character = CRY_smp
+recruit_character = CRY_cadance
+recruit_character = CRY_smp2
+recruit_character = CRY_smp3
 
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

@@ -1,0 +1,58 @@
+characters = {
+	WST_wasteland_n = {
+		name = WST_wasteland
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = anarchism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	WST_wasteland_f = {
+		name = WST_wasteland
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = falangism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	WST_wasteland_c = {
+		name = WST_wasteland
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = marxism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	WST_wasteland_d = {
+		name = WST_wasteland
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = liberalism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+}
