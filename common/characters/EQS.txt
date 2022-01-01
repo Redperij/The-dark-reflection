@@ -17,7 +17,7 @@ characters = {
 		name = EQS_inkwell
 		portraits = {
 			civilian = {
-				large = ""
+				large = "gfx/leaders/VRD/template_0.tga"
 			}
 		}
 		gender = female
@@ -32,7 +32,7 @@ characters = {
 		name = EQS_smp
 		portraits = {
 			civilian = {
-				large = ""
+				large = "gfx/leaders/VRD/template_0.tga"
 			}
 		}
 		country_leader = {

@@ -3,7 +3,7 @@ characters = {
 		name = DRI_rigoberta
 		portraits = {
 			civilian = {
-				large = ""
+				large = "gfx/leaders/VRD/template_0.tga"
 			}
 		}
 		gender = female
@@ -18,7 +18,7 @@ characters = {
 		name = DRI_smp
 		portraits = {
 			civilian = {
-				large = ""
+				large = "gfx/leaders/VRD/template_0.tga"
 			}
 		}
 		country_leader = {
@@ -32,7 +32,7 @@ characters = {
 		name = DRI_smp
 		portraits = {
 			civilian = {
-				large = ""
+				large = "gfx/leaders/VRD/template_0.tga"
 			}
 		}
 		country_leader = {
@@ -46,7 +46,7 @@ characters = {
 		name = DRI_smp
 		portraits = {
 			civilian = {
-				large = ""
+				large = "gfx/leaders/VRD/template_0.tga"
 			}
 		}
 		country_leader = {

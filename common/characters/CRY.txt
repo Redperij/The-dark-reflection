@@ -3,7 +3,7 @@ characters = {
 		name = CRY_smp
 		portraits = {
 			civilian = {
-				large = ""
+				large = "gfx/leaders/VRD/template_0.tga"
 			}
 		}
 		country_leader = {
@@ -17,7 +17,7 @@ characters = {
 		name = CRY_princess_mi_amore_cadance
 		portraits = {
 			civilian = {
-				large = ""
+				large = "gfx/leaders/VRD/template_0.tga"
 			}
 		}
 		gender = female
@@ -32,7 +32,7 @@ characters = {
 		name = CRY_smp
 		portraits = {
 			civilian = {
-				large = ""
+				large = "gfx/leaders/VRD/template_0.tga"
 			}
 		}
 		country_leader = {
@@ -46,7 +46,7 @@ characters = {
 		name = CRY_smp
 		portraits = {
 			civilian = {
-				large = ""
+				large = "gfx/leaders/VRD/template_0.tga"
 			}
 		}
 		country_leader = {

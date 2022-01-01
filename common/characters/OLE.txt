@@ -18,7 +18,7 @@ characters = {
 		name = OLE_smde
 		portraits = {
 			civilian = {
-				large = ""
+				large = "gfx/leaders/VRD/template_0.tga"
 			}
 		}
 		country_leader = {
@@ -32,7 +32,7 @@ characters = {
 		name = OLE_smde
 		portraits = {
 			civilian = {
-				large = ""
+				large = "gfx/leaders/VRD/template_0.tga"
 			}
 		}
 		country_leader = {
@@ -46,7 +46,7 @@ characters = {
 		name = OLE_smde
 		portraits = {
 			civilian = {
-				large = ""
+				large = "gfx/leaders/VRD/template_0.tga"
 			}
 		}
 		country_leader = {
