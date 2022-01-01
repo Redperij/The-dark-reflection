@@ -5,7 +5,7 @@ state={
 		owner = WES
 		add_core_of = WES
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
 		}
 		victory_points = {
 			5453 30

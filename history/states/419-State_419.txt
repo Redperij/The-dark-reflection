@@ -5,7 +5,7 @@ state={
 		owner = KER
 		add_core_of = KER
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
 		victory_points = {
 			12859 3
