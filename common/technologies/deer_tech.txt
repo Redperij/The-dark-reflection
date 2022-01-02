@@ -442,15 +442,6 @@ technologies = {
 		monitor = {
 			surface_visibility = -0.15
 		}
-		large_cruiser1 = {
-			surface_visibility = -0.15
-		}
-		large_cruiser2 = {
-			surface_visibility = -0.15
-		}
-		large_cruiser3 = {
-			surface_visibility = -0.15
-		}
 
 
 		path = {
@@ -529,6 +520,9 @@ technologies = {
 
 		recon_factor = 0.1
 		planning_speed = 0.1
+		category_recon = {
+			initiative = 0.12
+		}
 
 		path = {
 			leads_to_tech = tech_deer_seer2
@@ -571,7 +565,112 @@ technologies = {
 	tech_deer_seer2 = {
 
 		category_recon = {
-			initiative = 0.08
+			recon = 1
+		}
+
+		recon = {
+			forest = {
+				movement = 0.05
+			}
+			hills = {
+				movement = 0.05
+			}
+			mountain = {
+				movement = 0.05
+			}
+			jungle = {
+				movement = 0.05
+			}
+			marsh = {
+				movement = 0.05
+			}
+			plains = {
+				movement = 0.05
+			}
+			desert = {
+				movement = 0.05
+			}
+			river = {
+				movement = 0.05
+			}
+		}
+		mot_recon = {
+			forest = {
+				movement = 0.05
+			}
+			hills = {
+				movement = 0.05
+			}
+			mountain = {
+				movement = 0.05
+			}
+			jungle = {
+				movement = 0.05
+			}
+			marsh = {
+				movement = 0.05
+			}
+			plains = {
+				movement = 0.05
+			}
+			desert = {
+				movement = 0.05
+			}
+			river = {
+				movement = 0.05
+			}
+		}
+		armored_car_recon = {
+			forest = {
+				movement = 0.05
+			}
+			hills = {
+				movement = 0.05
+			}
+			mountain = {
+				movement = 0.05
+			}
+			jungle = {
+				movement = 0.05
+			}
+			marsh = {
+				movement = 0.05
+			}
+			plains = {
+				movement = 0.05
+			}
+			desert = {
+				movement = 0.05
+			}
+			river = {
+				movement = 0.05
+			}
+		}
+		light_tank_recon = {
+			forest = {
+				movement = 0.05
+			}
+			hills = {
+				movement = 0.05
+			}
+			mountain = {
+				movement = 0.05
+			}
+			jungle = {
+				movement = 0.05
+			}
+			marsh = {
+				movement = 0.05
+			}
+			plains = {
+				movement = 0.05
+			}
+			desert = {
+				movement = 0.05
+			}
+			river = {
+				movement = 0.05
+			}
 		}
 
 		path = {
@@ -611,6 +710,10 @@ technologies = {
 	tech_deer_seer3 = {
 
 		research_speed_factor = 0.03
+
+		category_recon = {
+			hard_attack = 0.5
+		}
 
 		path = {
 			leads_to_tech = tech_deer_seer_b
@@ -898,7 +1001,7 @@ technologies = {
 
 		category_recon = {
 			soft_attack = 0.5
-			recon = 1
+			max_organisation = 20
 		}
 
 		path = {
