@@ -3,7 +3,7 @@ characters = {
 		name = WHN_discord_p_sullivan
 		portraits = {
 			civilian = {
-				large = "normal_discord.tga"
+				large = "gfx/leaders/WHN/normal_discord.tga"
 			}
 		}
 		country_leader = {

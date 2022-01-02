@@ -17,7 +17,7 @@ characters = {
 		name = CEL_celestia
 		portraits = {
 			civilian = {
-				large = "Celestia.tga"
+				large = "gfx/leaders/CEL/Celestia.tga"
 			}
 		}
 		gender = female

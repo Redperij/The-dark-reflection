@@ -45,7 +45,7 @@ characters = {
 		name = YAK_khan_koletiv
 		portraits = {
 			civilian = {
-				large = "yak1.tga"
+				large = "gfx/leaders/YAK/yak1.tga"
 			}
 		}
 		country_leader = {

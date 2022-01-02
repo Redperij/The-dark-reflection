@@ -3,7 +3,7 @@ characters = {
 		name = KER_strawberry_snowflake
 		portraits = {
 			civilian = {
-				large = "Strawberry_Snowflake.tga"
+				large = "gfx/leaders/KER/Strawberry_Snowflake.tga"
 			}
 		}
 		country_leader = {

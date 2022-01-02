@@ -3,7 +3,7 @@ characters = {
 		name = SEV_empress_alty
 		portraits = {
 			civilian = {
-				large = "Alty_Emp.tga"
+				large = "gfx/leaders/SEV/Alty_Emp.tga"
 			}
 		}
 		gender = female

@@ -31,7 +31,7 @@ characters = {
 		name = LSP_gladmane
 		portraits = {
 			civilian = {
-				large = "Gladmane.tga"
+				large = "gfx/leaders/LSP/Gladmane.tga"
 			}
 		}
 		country_leader = {

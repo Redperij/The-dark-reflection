@@ -17,7 +17,7 @@ characters = {
 		name = DER_blackthorn
 		portraits = {
 			civilian = {
-				large = "Blackthorn.tga"
+				large = "gfx/leaders/DER/Blackthorn.tga"
 			}
 		}
 		country_leader = {

@@ -3,7 +3,7 @@ characters = {
 		name = OLE_smde
 		portraits = {
 			civilian = {
-				large = "Velvet.tga"
+				large = "gfx/leaders/OLE/Velvet.tga"
 			}
 		}
 		gender = female

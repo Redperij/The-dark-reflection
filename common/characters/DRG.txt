@@ -3,7 +3,7 @@ characters = {
 		name = DRG_queen_ember
 		portraits = {
 			civilian = {
-				large = "Amber.tga"
+				large = "gfx/leaders/DRG/Amber.tga"
 			}
 		}
 		gender = female

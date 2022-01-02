@@ -3,7 +3,7 @@ characters = {
 		name = EQS_king_sombra
 		portraits = {
 			civilian = {
-				large = "Sombra.tga"
+				large = "gfx/leaders/EQS/Sombra.tga"
 			}
 		}
 		country_leader = {
@@ -46,7 +46,7 @@ characters = {
 		name = EQS_princess_luna
 		portraits = {
 			civilian = {
-				large = "Luna.tga"
+				large = "gfx/leaders/EQS/Luna.tga"
 			}
 		}
 		gender = female

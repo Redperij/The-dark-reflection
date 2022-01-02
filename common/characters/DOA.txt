@@ -3,7 +3,7 @@ characters = {
 		name = DOA_impecca
 		portraits = {
 			civilian = {
-				large = "Lord-Roshuo.dds"
+				large = "gfx/leaders/DOA/Lord-Roshuo.dds"
 			}
 		}
 		country_leader = {

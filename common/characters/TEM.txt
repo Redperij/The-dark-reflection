@@ -3,7 +3,7 @@ characters = {
 		name = TEM_smp
 		portraits = {
 			civilian = {
-				large = "template_0.tga"
+				large = "gfx/leaders/VRD/template_0.tga"
 			}
 		}
 		country_leader = {

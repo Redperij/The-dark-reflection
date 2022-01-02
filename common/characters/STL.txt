@@ -3,13 +3,13 @@ characters = {
 		name = STL_starlight_glimmer
 		portraits = {
 			civilian = {
-				large = "Starlight.tga"
+				large = "gfx/leaders/STL/Starlight.tga"
 			}
 		}
 		gender = female
 		country_leader = {
 			desc = ""
-			ideology = despotism
+			ideology = oligarchism
 			expire = "2000.1.1"
 			id = -1
 		}

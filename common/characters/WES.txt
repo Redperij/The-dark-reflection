@@ -3,7 +3,7 @@ characters = {
 		name = WES_chrysalis
 		portraits = {
 			civilian = {
-				large = "Chrysalis2.tga"
+				large = "gfx/leaders/WES/Chrysalis2.tga"
 			}
 		}
 		gender = female

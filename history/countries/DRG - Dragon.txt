@@ -30,18 +30,6 @@ set_popularities = {
 	fascism = 20
 }
 
-create_country_leader = {
-	name = "Queen Ember"
-	desc = ""
-	picture = "Amber.tga"
-	expire = "2000.1.1"
-	ideology = despotism
-	female = yes
-	traits = {
-		
-	}
-}
-
 recruit_character = DRG_ember
 recruit_character = DRG_smd1
 recruit_character = DRG_smd2

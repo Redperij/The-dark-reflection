@@ -30,19 +30,7 @@ set_popularities = {
 	fascism = 0
 }
 
-create_country_leader = {
-	name = "Starlight Glimmer"
-	desc = ""
-	picture = "Starlight.tga"
-	expire = "2000.1.1"
-	ideology = despotism
-	female = yes
-	traits = {
-		
-	}
-}
-
-recruit_character = STL_smp
+recruit_character = STL_starlight_glimmer
 recruit_character = STL_smp1
 recruit_character = STL_smp2
 recruit_character = STL_smp3

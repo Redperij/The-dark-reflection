@@ -45,7 +45,7 @@ characters = {
 		name = MAN_smp
 		portraits = {
 			civilian = {
-				large = "Ocellus.tga"
+				large = "gfx/leaders/MAN/Ocellus.tga"
 			}
 		}
 		country_leader = {

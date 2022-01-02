@@ -3,7 +3,7 @@ characters = {
 		name = BRM_winter_turnip
 		portraits = {
 			civilian = {
-				large = "Winter_Turnip.tga"
+				large = "gfx/leaders/BRM/Winter_Turnip.tga"
 			}
 		}
 		country_leader = {
