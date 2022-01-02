@@ -1,0 +1,14 @@
+#formable_nations = {
+	#
+	#	icon = generic_formable_nations
+	#
+	#	allowed = {
+		#		has_dlc = "Waking the Tiger"
+		#	}
+	#}
+form_the_socialist_world_republic = {
+	icon = generic_communism
+	priority = 50
+	allowed = {
+	}
+}

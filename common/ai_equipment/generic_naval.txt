@@ -3,6 +3,11 @@
 destroyers = {
 	category = naval
 	
+	blocked_for = {
+		TST
+	}
+
+	
 	roles = {
 		naval_screen
 	}
@@ -154,6 +159,11 @@ destroyers = {
 generic_escorts = {
 	category = naval
 	
+	blocked_for = {
+		TST
+	}
+
+	
 	roles = {
 		naval_escort
 	}
@@ -253,7 +263,12 @@ generic_escorts = {
 naval_light_cruiser = {
 
 	category = naval
+	
+	blocked_for = {
+		TST
+	}
 
+	
 	roles = {
 		naval_cruiser_light
 	}
@@ -479,7 +494,12 @@ naval_light_cruiser = {
 
 naval_cruiser_heavy = {
 	category = naval
+	
+	blocked_for = {
+		TST
+	}
 
+	
 	roles = {
 		naval_cruiser_heavy
 	}
@@ -652,6 +672,11 @@ naval_cruiser_heavy = {
 
 naval_capital_battleship = {
 	category = naval
+	
+	blocked_for = {
+		TST
+	}
+
 	
 	roles = {
 		naval_capital_bb
@@ -909,6 +934,11 @@ naval_capital_battleship = {
 naval_capital_bc = {
 	category = naval
 	
+	blocked_for = {
+		TST
+	}
+
+	
 	roles = {
 		naval_capital_bc
 	}
@@ -1038,6 +1068,11 @@ naval_capital_bc = {
 
 naval_carrier = {
 	category = naval
+	
+	blocked_for = {
+		TST
+	}
+
 	
 	roles = {
 		naval_carrier
@@ -1205,7 +1240,12 @@ naval_carrier = {
 
 naval_submarine = {
 	category = naval
+	
+	blocked_for = {
+		TST
+	}
 
+	
 	roles = {
 		naval_submarine
 	}
@@ -1343,6 +1383,11 @@ naval_submarine = {
 naval_mine_sweeper = {
 	category = naval
 	
+	blocked_for = {
+		TST
+	}
+
+	
 	roles = {
 		naval_mine_sweeper
 	}
@@ -1447,17 +1492,23 @@ naval_mine_sweeper = {
 naval_mine_layer = {
 	category = naval
 	
+	blocked_for = {
+		TST
+	}
+	
 	roles = {
 		naval_mine_layer
 	}
 	
 	priority = {
-		factor = 100
-		
+		factor = 3
 		modifier = {
-			factor = 50
-			
+			factor = 5
+			has_war = yes
+		}
+		modifier = {
 			is_major = no
+			factor = 5
 		}
 	}
 	
@@ -1506,14 +1557,13 @@ naval_mine_layer = {
 			ship_depth_charge
 		}
 	}
-	
 	mine_layer_cruiser = {
+	
 		priority = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				
+				factor = 10				
 				num_of_naval_factories > 19
 			}
 		}
@@ -1524,7 +1574,6 @@ naval_mine_layer = {
 			match_value = 2000.0
 			
 			type = ship_hull_cruiser
-			
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1
 				mid_2_custom_slot = ship_mine_layer_1

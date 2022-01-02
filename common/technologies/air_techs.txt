@@ -124,7 +124,7 @@ technologies = {
 			factor = 4
 
 			modifier = {
-				factor = 2
+				factor = 4
 				is_major = yes
 			}
 
@@ -539,6 +539,7 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
+			cas_bomber
 		}
 
 		ai_will_do = {
@@ -622,6 +623,7 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
+			cas_bomber
 		}
 
 		ai_will_do = {
@@ -704,6 +706,7 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
+			cas_bomber
 		}
 
 		ai_will_do = {

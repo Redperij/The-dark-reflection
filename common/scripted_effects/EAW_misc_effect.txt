@@ -272,40 +272,137 @@ end_puppet_this = {
 		overlord = { end_puppet = PREV }
 	}
 }
+improve_state_category = {
+	if = {
+		limit = {
+			has_state_category = metropolis
+		}
+		set_state_category = megalopolis
+	}
+	else_if = {
+		limit = {
+			has_state_category = large_city
+		}
+		set_state_category = metropolis
+	}
+	else_if = {
+		limit = {
+			has_state_category = city
+		}
+		set_state_category = large_city
+	}
+	else_if = {
+		limit = {
+			has_state_category = large_town
+		}
+		set_state_category = city
+	}
+	else_if = {
+		limit = {
+			has_state_category = town
+		}
+		set_state_category = large_town
+	}
+	else_if = {
+		limit = {
+			has_state_category = rural
+		}
+		set_state_category = town
+	}
+	else_if = {
+		limit = {
+			has_state_category = pastoral
+		}
+		set_state_category = rural
+	}
+	else_if = {
+		limit = {
+			has_state_category = small_island
+		}
+		set_state_category = rural
+	}
+	else_if = {
+		limit = {
+			has_state_category = tiny_island
+		}
+		set_state_category = small_island
+	}
+	else_if = {
+		limit = {
+			has_state_category = enclave
+		}
+		set_state_category = pastoral
+	}
+	else_if = {
+		limit = {
+			has_state_category = wasteland
+		}
+		set_state_category = pastoral
+	}
+}
+reduce_state_category = {
+	
+	if = {
+		limit = {
+			has_state_category = megalopolis
+		}
+		set_state_category = metropolis
+	}
+	else_if = {
+		limit = {
+			has_state_category = metropolis
+		}
+		set_state_category = large_city
+	}
+	else_if = {
+		limit = {
+			has_state_category = large_city
+		}
+		set_state_category = city
+	}
+	else_if = {
+		limit = {
+			has_state_category = city
+		}
+		set_state_category = large_town
+	}
+	else_if = {
+		limit = {
+			has_state_category = large_town
+		}
+		set_state_category = town
+	}
+	else_if = {
+		limit = {
+			has_state_category = town
+		}
+		set_state_category = rural
+	}
+	else_if = {
+		limit = {
+			has_state_category = rural
+		}
+		set_state_category = pastoral
+	}
+	else_if = {
+		limit = {
+			has_state_category = small_island
+		}
+		set_state_category = tiny_island
+	}
+	else_if = {
+		limit = {
+			has_state_category = pastoral
+		}
+		set_state_category = wasteland
+	}
+}
 
 #PREV to THIS
 transfer_race_ideas = {
 	if = {
 		limit = { PREV = { has_idea = pony_race } }
 		add_ideas = pony_race
-	}
-	else_if = {
-		limit = { PREV = { has_idea = crystal_pony_race } }
-		add_ideas = crystal_pony_race
-	}
-	else_if = {
-		limit = { PREV = { has_idea = earthpony_race } }
-		add_ideas = earthpony_race
-	}
-	else_if = {
-		limit = { PREV = { has_idea = pegasi_race } }
-		add_ideas = pegasi_race
-	}
-	else_if = {
-		limit = { PREV = { has_idea = unicorn_race } }
-		add_ideas = unicorn_race
-	}
-	else_if = {
-		limit = { PREV = { has_idea = crystal_earthpony_race } }
-		add_ideas = crystal_earthpony_race
-	}
-	else_if = {
-		limit = { PREV = { has_idea = crystal_pegasi_race } }
-		add_ideas = crystal_pegasi_race
-	}
-	else_if = {
-		limit = { PREV = { has_idea = crystal_unicorn_race } }
-		add_ideas = crystal_unicorn_race
 	}
 	else_if = {
 		limit = { PREV = { has_idea = changeling_race } }

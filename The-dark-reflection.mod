@@ -10,6 +10,8 @@ replace_path="common/ai_equipment"
 replace_path="common/autonomous_states"
 
 replace_path="common/countries"
+replace_path="common/characters"
+replace_path="common/decisions"
 replace_path="common/ideas"
 replace_path="common/names"
 replace_path="common/national_focus"
@@ -33,7 +35,8 @@ replace_path="common/decisions"
 replace_path="common/decisions/categories"
 
 replace_path="events"
-replace_path="localisation/events_l_english.yml"
+
+replace_path="localisation/english/events_l_english.yml"
 
 replace_path="history/units"
 replace_path="history/states"
