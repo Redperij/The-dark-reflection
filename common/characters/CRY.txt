@@ -17,7 +17,7 @@ characters = {
 		name = CRY_princess_mi_amore_cadance
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/VRD/template_0.tga"
+				large = "gfx/leaders/CRY/Cadance.tga"
 			}
 		}
 		gender = female

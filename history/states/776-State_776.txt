@@ -13,6 +13,14 @@ state={
 		victory_points = {
 			11481 5 #Cherepovo
 		}
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			11385 = {
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces={

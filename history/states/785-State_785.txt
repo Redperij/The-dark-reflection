@@ -11,6 +11,11 @@ state={
 		victory_points = {
 			11035 5 #Holmogory
 		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+		}
 	}
 	provinces={
 		3369 4035 5106 10992 11035 11092 11158 11244 

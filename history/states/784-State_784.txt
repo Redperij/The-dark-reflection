@@ -11,6 +11,16 @@ state={
 		victory_points = {
 			10896 5
 		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			10896 = {
+				naval_base = 6
+			}
+			dockyard = 5
+			air_base = 3
+		}
 	}
 	provinces={
 		1173 5183 10895 10896 10962 10978 11022 
