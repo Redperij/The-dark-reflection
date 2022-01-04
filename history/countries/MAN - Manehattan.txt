@@ -31,6 +31,14 @@ set_popularities = {
 	fascism = 24
 }
 
+create_faction = Manehattan_and_Manehatan_Confederacy
+add_to_faction = MHT
+add_to_faction = BLS
+
+add_ideas = {
+	conf_member_state
+}
+
 recruit_character = MAN_smp
 recruit_character = MAN_smp1
 recruit_character = MAN_smp2

@@ -31,6 +31,10 @@ set_popularities = {
 	fascism = 24
 }
 
+add_ideas = {
+	conf_member_state
+}
+
 recruit_character = BLS_merciless_gerechtigkeit
 recruit_character = BLS_smp1
 recruit_character = BLS_smp2
