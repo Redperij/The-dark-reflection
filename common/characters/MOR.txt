@@ -1,0 +1,58 @@
+characters = {
+	MON_smd = {
+		name = MON_smd
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRD/template_0.tga"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = despotism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	MON_smd1 = {
+		name = MON_smd
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRD/template_0.tga"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = fascism_ideology
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	MON_smd2 = {
+		name = MON_smd
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRD/template_0.tga"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = marxism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	MON_smd3 = {
+		name = MON_smd
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRD/template_0.tga"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = liberalism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+}

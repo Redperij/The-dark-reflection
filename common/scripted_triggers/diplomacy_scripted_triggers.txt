@@ -838,6 +838,14 @@ DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER = {
 			always = no
 		}
 	}
+	else_if = {
+		limit = {
+			is_ai = yes
+			is_conf_member_state = yes
+			FROM = { is_conf_member_state = yes }
+		}
+		always = no
+	}
 }
 DIPLOMACY_ASSUME_FACTION_LEADERSHIP_ENABLE_TRIGGER = {
 	if = {
@@ -1116,35 +1124,5 @@ DIPLOMACY_REQUEST_EXP_FORCE_ENABLE_TRIGGER = {
 	}
 	else = {
 		hidden_trigger = { always = yes }
-	}
-}
-
-DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = { 
-	if = {
-		limit = {
-			OR = {
-				has_idea = BAK_disrupted_communications
-				FROM = { has_idea = BAK_disrupted_communications }
-			}
-		}
-		NOT = {
-			has_idea = BAK_disrupted_communications
-			FROM = { has_idea = BAK_disrupted_communications }
-		}
-	}
-}
-
-DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			OR = {
-				has_idea = BAK_disrupted_communications
-				FROM = { has_idea = BAK_disrupted_communications }
-			}
-		}
-		NOT = {
-			has_idea = BAK_disrupted_communications
-			FROM = { has_idea = BAK_disrupted_communications }
-		}
 	}
 }

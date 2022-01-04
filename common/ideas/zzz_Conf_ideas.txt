@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+		conf_member_state = {
+			picture = The_Treaty_of_Coltstream
+
+			available = {
+				is_in_faction = yes
+			}
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+		}
+	}
+}

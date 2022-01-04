@@ -5,7 +5,7 @@ state={
 		owner = BRG
 		add_core_of = BRG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
 		victory_points = {
 			10427 5

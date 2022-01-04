@@ -115,15 +115,6 @@ country_event = { ### TST
 			set_politics = {
 				ruling_party = fascism
 			}
-			create_country_leader = {
-				name = "Prince Blueblood"
-				picture = "gfx/leaders/EQS/Blueblood.tga"
-				expire = "1965.1.1"
-				ideology = despotism
-				desc = "POLITICS_BLUEBLOOD_DESC"
-				traits = {
-				}
-			}
 		}
 	}
 }

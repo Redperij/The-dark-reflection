@@ -9,5 +9,15 @@ spriteTypes = {
 		name = "GFX_vasya_event"
 		texturefile = "gfx/event_pictures/event_vasya_speaks.dds"
 	}
-	
+	frameAnimatedSpriteType = { 
+        name = "GFX_wagon"
+        texturefile = "gfx/event_pictures/CEL/wagon.dds"
+        noOfFrames = 2
+        loadType = "INGAME"
+        transparencecheck = no
+        animation_rate_fps = 1
+        looping = no
+        play_on_show = yes
+        pause_on_loop = 0.0
+    }
 }

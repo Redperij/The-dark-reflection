@@ -5,7 +5,7 @@ state={
 		owner = KDW
 		add_core_of = KDW
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
 		victory_points = {
 			5461 10

@@ -1,0 +1,17 @@
+add_namespace = CEL_Celestia
+
+#Happy mercenary
+country_event = {
+	id = CEL_Celestia.0
+	title = CEL_Celestia.0.t
+	desc = CEL_Celestia.0.d
+	picture = GFX_wagon
+	fire_only_once = yes
+	trigger = {
+		tag = CEL
+	}
+	timeout_days = 100
+	option = {
+		name = CEL_Celestia.0.a
+	}
+}

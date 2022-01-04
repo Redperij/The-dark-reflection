@@ -615,7 +615,10 @@ on_actions = {
 				save_global_event_target_as = severiana
 				country_event = { id = severiana.0 hours = 1 }
 			}
-
+			LAO = {
+				save_global_event_target_as = celestia
+				country_event = { id = CEL_laos.0 days = 1 }
+			}
 		}
 	}
 

@@ -37,22 +37,18 @@ state={
 			11204 5 
 		}
 		buildings = {
-			infrastructure = 9
+			infrastructure = 5
 			arms_factory = 2
 			industrial_complex = 7
 			11373 = {
 				naval_base = 5
-
 			}
-			11354 = {
-				naval_base = 2
-
+			1711 = {
+				naval_base = 5
 			}
 			dockyard = 3
 			air_base = 5
-
 		}
-
 	}
 
 	provinces={

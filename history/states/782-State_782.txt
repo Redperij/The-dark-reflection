@@ -4,6 +4,10 @@ state={
 	history={
 		owner = SEV
 		add_core_of = SEV
+
+		buildings = {
+			air_base = 1
+		}
 	}
 	provinces={
 		2137 11135 11217 

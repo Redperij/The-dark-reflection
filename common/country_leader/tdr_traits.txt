@@ -1,0 +1,17 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+# For tests
+leader_traits = {
+	critique_god = {
+		random = no
+		political_power_factor = 100
+		army_speed_factor = 100
+		army_defence_factor = 100
+		army_attack_factor = 100
+		army_org_factor = 100
+		army_org_regain = 200
+		org_loss_when_moving = -100
+	}
+}

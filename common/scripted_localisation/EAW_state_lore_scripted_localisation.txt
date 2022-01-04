@@ -1,3 +1,7 @@
+#############################################################################
+### ADD AN ENTRY IN common/on_actions/eaw_state_lore_array_on_actions.txt ###
+#############################################################################
+
 defined_text = {
 	name = state_lore_text_container_state_name_short
 	text = {
@@ -38,5 +42,33 @@ defined_text = {
 	name = state_lore_text_date
 	text = {
 		localization_key = state_lore_text_date_default
+	}
+}
+
+# Misc stuff for the GUI
+
+defined_text = {
+	name = state_lore_get_button_gfx
+	text = {
+		trigger = {
+			state = ROOT.state_lore_text_state_id
+		}
+		localization_key = "GFX_state_lore_button_selected"
+	}
+	text = {
+		localization_key = "GFX_state_lore_button"
+	}
+}
+
+defined_text = {
+	name = state_lore_get_gfx_control_panel
+	text = {
+		trigger = {
+			has_country_flag = EaW_state_lore_mapicons_visible
+		}
+		localization_key = "GFX_state_lore_button_selected"
+	}
+	text = {
+		localization_key = "GFX_state_lore_button"
 	}
 }

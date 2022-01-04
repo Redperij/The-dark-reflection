@@ -1,4 +1,4 @@
-﻿capital = 155
+﻿capital = 341
 
 oob = "EQS_997"
 set_research_slots = 3
@@ -16,12 +16,21 @@ set_technology = {
 	interwar_antitank = 1
 	gw_artillery = 1
 	tech_support = 1
+	fuel_silos = 1
+	tech_recon = 1
+	tech_military_police = 1
+	tech_engineers = 1
+	trench_warfare = 1
+	motorised_infantry = 1
+	interwar_antiair = 1
+	base_strike = 1
+	basic_train = 1
 }
 actually_fix_weapon_techs = yes #THIS HAS TO BE CALLED IN EVERY HISTORY FILE RIGHT AFTER MAIN set_technology!
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "937.1.1"
+	last_election = "5.2.11"
 	elections_allowed = no
 }
 
@@ -70,47 +79,11 @@ add_equipment_to_stockpile = {
 	producer = EQS
 }
 
+recruit_character = EQS_sombra
+recruit_character = EQS_inkwell
+recruit_character = EQS_smp2
+recruit_character = EQS_luna
 
-create_country_leader = {
-	name = "King Sombra"
-	desc = "KING_SOMBRA_LEADER_DESC"
-	picture = "Sombra.tga"
-	expire = "2000.1.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Inkwell"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Somepony"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = democratic_socialism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Princess Luna"
-	desc = "LUNA_HARMONY_LEADER_DESC"
-	picture = "Luna.tga"
-	expire = "2000.1.1"
-	ideology = socialism
-	traits = {
-
-	}
+set_rule = {
+	can_generate_female_aces = yes
 }

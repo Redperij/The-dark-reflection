@@ -1,0 +1,62 @@
+characters = {
+	LUN_luna_n = {
+		name = LUN_princess_luna
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUN/Luna.tga"
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = "LUNA_HARMONY_LEADER_DESC"
+			ideology = despotism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	LUN_luna_f = {
+		name = LUN_princess_luna
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUN/Luna.tga"
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = "LUNA_HARMONY_LEADER_DESC"
+			ideology = fascism_ideology
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	LUN_luna_c = {
+		name = LUN_luna
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUN/Luna.tga"
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = "LUNA_HARMONY_LEADER_DESC"
+			ideology = marxism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	LUN_luna_d = {
+		name = LUN_princess_luna
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUN/Luna.tga"
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = "LUNA_HARMONY_LEADER_DESC"
+			ideology = alicornrule
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+}

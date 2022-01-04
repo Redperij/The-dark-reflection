@@ -44,12 +44,8 @@ is_not_original_EQS = {
 is_EQS_SOL = {
 	custom_trigger_tooltip = {
 		tooltip = is_EQS_SOL_tp
-		tag = EQS
+		tag = CEL
 		has_government = fascism
-		has_country_leader = {
-			ruling_only = yes
-			name = "Daybreaker"
-		}
 	}
 }
 
@@ -890,26 +886,26 @@ can_have_border_war_with_ROOT = {
 	}
 }
 
-is_navy_leader = {
-	owner = {
-		is_in_array = {
-			navy_leaders = PREV
-		}
-	}
-}
+#is_navy_leader = {
+#	owner = {
+#		is_in_array = {
+#			navy_leaders = PREV
+#		}
+#	}
+#}
 
-is_operative = {
-	is_army_leader = no
-	is_navy_leader = no
-}
+#is_operative = {
+#	is_army_leader = no
+#	is_navy_leader = no
+#}
 
-is_army_leader = {
-	owner = {
-		is_in_array = {
-			army_leaders = PREV
-		}
-	}
-}
+#is_army_leader = {
+#	owner = {
+#		is_in_array = {
+#			army_leaders = PREV
+#		}
+#	}
+#}
 
 has_puppet_cosmetic_flag = {
 	OR = {

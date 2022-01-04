@@ -1,0 +1,6 @@
+is_conf_member_state = {
+	custom_trigger_tooltip = {
+		tooltip = us_river_fed_member_tt
+		has_idea = conf_member_state
+	}
+}

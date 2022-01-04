@@ -12,6 +12,18 @@ state={
 		victory_points = {
 			2590 5 #Severo-Lopatinsk
 		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			1824 = {
+				naval_base = 1
+			}
+			2590 = {
+				naval_base = 1
+			}
+			dockyard = 1
+			air_base = 1
+		}
 	}
 	provinces={
 		1824 1978 2590 12137 12199 12249 12347 

@@ -1,7 +1,6 @@
 # Written by Henrik "Groogy" Hansson
 # Modified by Daniel "Da9L" Sjöberg
 # IF YOU TOUCH THE AI CODE I WILL STAB YOU REPEATLY -PSODY
-#further modified by Lukas (whom Psody can't stab)
 
 # befriend
 # conquer
@@ -20,120 +19,41 @@
 
 ###UNIT LIMITER###
 division_limiter = {
+	allowed = {
+		NOT = {
+			tag = TST
+		}
+	}
 	enable = {
+		is_exempt_from_division_limit = no
 		set_temp_variable = {
-			upper_limit = 60
+			upper_limit = num_of_factories
+		}
+		multiply_temp_variable = {
+			upper_limit = 1.15
 		}
 		if = {
 			limit = {
-				date > 1236.01.01
+				has_war = yes
 			}
-			add_to_temp_variable = {
-				upper_limit = 10
-			}
-		}
-		if = {
-			limit = {
-				date > 1237.01.01
-			}
-			add_to_temp_variable = {
-				upper_limit = 10
+			multiply_temp_variable = {
+				upper_limit = 1.2
 			}
 		}
 		if = {
 			limit = {
-				date > 1238.01.01
+				is_major = yes
 			}
-			add_to_temp_variable = {
-				upper_limit = 10
-			}
-		}
-		if = {
-			limit = {
-				date > 1239.01.01
-			}
-			add_to_temp_variable = {
-				upper_limit = 10
+			multiply_temp_variable = {
+				upper_limit = 1.15
 			}
 		}
 		if = {
 			limit = {
-				date > 1240.01.01
+				threat > 0.71
 			}
-			add_to_temp_variable = {
-				upper_limit = 10
-			}
-		}
-		if = {
-			limit = {
-				date > 1241.01.01
-			}
-			add_to_temp_variable = {
-				upper_limit = 10
-			}
-		}
-		if = {
-			limit = {
-				date > 1242.01.01
-			}
-			add_to_temp_variable = {
-				upper_limit = 10
-			}
-		}
-		if = {
-			limit = {
-				date > 1243.01.01
-			}
-			add_to_temp_variable = {
-				upper_limit = 10
-			}
-		}
-		if = {
-			limit = {
-				date > 1244.01.01
-			}
-			add_to_temp_variable = {
-				upper_limit = 10
-			}
-		}
-		if = {
-			limit = {
-				date > 1245.01.01
-			}
-			add_to_temp_variable = {
-				upper_limit = 10
-			}
-		}
-		if = {
-			limit = {
-				date > 1246.01.01
-			}
-			add_to_temp_variable = {
-				upper_limit = 10
-			}
-		}
-		if = {
-			limit = {
-				date > 1247.01.01
-			}
-			add_to_temp_variable = {
-				upper_limit = 10
-			}
-		}
-		if = {
-			limit = {
-				date > 1248.01.01
-			}
-			add_to_temp_variable = {
-				upper_limit = 10
-			}
-		}
-		if = {
-			limit = {
-				date > 1249.01.01
-			}
-			add_to_temp_variable = {
-				upper_limit = 10
+			multiply_temp_variable = {
+				upper_limit = 1.05
 			}
 		}
 		check_variable = {
@@ -144,31 +64,31 @@ division_limiter = {
 
 	ai_strategy = {
 		type = build_army
-		id = suppression
-		value = -300
-	}
-	
-	ai_strategy = {
-		type = build_army
 		id = garrison
 		value = -300
 	}
 
+	#ai_strategy = {
+	#	type = build_army
+	#	id = suppression
+	#	value = -300
+	#}
+
 	ai_strategy = {
 		type = build_army
-		id = talons
+		id = paratroopers
 		value = -300
 	}
 
 	ai_strategy = {
 		type = build_army
-		id = mechanized
+		id = mountaineers
 		value = -300
 	}
 
 	ai_strategy = {
 		type = build_army
-		id = power_armour
+		id = marines
 		value = -300
 	}
 
@@ -180,7 +100,37 @@ division_limiter = {
 
 	ai_strategy = {
 		type = build_army
+		id = light_armor
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = heavy_armor
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = medium_armor
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = modern_armor
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
 		id = infantry
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = magical_infantry
 		value = -300
 	}
 
@@ -192,19 +142,13 @@ division_limiter = {
 
 	ai_strategy = {
 		type = build_army
-		id = support_robot
+		id = jager
 		value = -300
 	}
-	
+
 	ai_strategy = {
 		type = build_army
-		id = combat_robot
-		value = -300
-	}
-	
-	ai_strategy = {
-		type = build_army
-		id = mountaineers
+		id = knights
 		value = -300
 	}
 

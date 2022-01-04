@@ -1,0 +1,59 @@
+characters = {
+	WES_chrysalis = {
+		name = WES_chrysalis
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WES/Chrysalis2.tga"
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = ""
+			ideology = libertarianism
+			expire = "5555.1.1"
+			id = -1
+		}
+	}
+	WES_smp1 = {
+		name = WES_smp
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRD/template_0.tga"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = fascism_ideology
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	WES_smp2 = {
+		name = WES_smp
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRD/template_0.tga"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = marxism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+	WES_smp3 = {
+		name = WES_smp
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRD/template_0.tga"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = liberalism
+			expire = "2000.1.1"
+			id = -1
+		}
+	}
+}

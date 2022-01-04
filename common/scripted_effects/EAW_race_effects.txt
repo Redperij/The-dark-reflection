@@ -692,12 +692,15 @@ operative_handle_secondary_cultures_races = {
 }
 
 operative_add_starting_nationalities_and_race = {
+	log = "operative_add_starting_nationalities_and_race: ROOT: [Root.GetName] is operative"
 	if = {
 		limit = { has_unit_leader_race_trait = no }
+		log = "operative_add_starting_nationalities_and_race: ROOT: [Root.GetName] has_unit_leader_race_trait = no"
 		if = {
 			limit = {
 				is_operative_main_culture_equestrian = yes
 			}
+			log = "operative_add_starting_nationalities_and_race: ROOT: [Root.GetName] is_operative_main_culture_equestrian = yes"
 			add_unit_leader_trait = pony_race_trait
 			operative_bat_chance = yes
 			operative_add_nationalities_equestrian = yes
@@ -706,6 +709,7 @@ operative_add_starting_nationalities_and_race = {
 			limit = {
 				is_operative_main_culture_changeling = yes
 			}
+			log = "operative_add_starting_nationalities_and_race: ROOT: [Root.GetName] is_operative_main_culture_changeling = yes"
 			add_unit_leader_trait = changeling_race_trait
 			operative_add_nationalities_changeling = yes
 		}
@@ -713,6 +717,7 @@ operative_add_starting_nationalities_and_race = {
 			limit = {
 				is_operative_main_culture_olenian = yes
 			}
+			log = "operative_add_starting_nationalities_and_race: ROOT: [Root.GetName] is_operative_main_culture_olenian = yes"
 			add_unit_leader_trait = deer_race_trait
 			operative_add_nationalities_olenian = yes
 		}
@@ -734,6 +739,7 @@ operative_add_starting_nationalities_and_race = {
 			limit = {
 				is_operative_main_culture_bear = yes
 			}
+			log = "operative_add_starting_nationalities_and_race: ROOT: [Root.GetName] is_operative_main_culture_bear = yes"
 			add_unit_leader_trait = bear_race_trait
 			operative_add_nationalities_bear = yes
 		}
@@ -741,6 +747,7 @@ operative_add_starting_nationalities_and_race = {
 			limit = {
 				is_operative_main_culture_buffalo = yes
 			}
+			log = "operative_add_starting_nationalities_and_race: ROOT: [Root.GetName] is_operative_main_culture_buffalo = yes"
 			add_unit_leader_trait = buffalo_race_trait
 			operative_add_nationalities_buffalo = yes
 		}
@@ -748,6 +755,7 @@ operative_add_starting_nationalities_and_race = {
 			limit = {
 				is_operative_main_culture_griffonian = yes
 			}
+			log = "operative_add_starting_nationalities_and_race: ROOT: [Root.GetName] is_operative_main_culture_aquileian = yes"
 			add_unit_leader_trait = griffon_race_trait
 			operative_add_nationalities_aquileian = yes
 		}
@@ -762,6 +770,7 @@ operative_add_starting_nationalities_and_race = {
 			limit = {
 				is_operative_main_culture_northerner = yes
 			}
+			log = "operative_add_starting_nationalities_and_race: ROOT: [Root.GetName] is_operative_main_culture_northerner = yes"
 			add_unit_leader_trait = griffon_race_trait
 			operative_add_nationalities_northerner = yes
 		}
@@ -769,6 +778,7 @@ operative_add_starting_nationalities_and_race = {
 			limit = {
 				is_operative_main_culture_penguin = yes
 			}
+			log = "operative_add_starting_nationalities_and_race: ROOT: [Root.GetName] is_operative_main_culture_penguin = yes"
 			add_unit_leader_trait = penguin_race_trait
 			operative_add_nationalities_penguin = yes
 		}
@@ -776,6 +786,7 @@ operative_add_starting_nationalities_and_race = {
 			limit = {
 				is_operative_main_culture_southerner = yes
 			}
+			log = "operative_add_starting_nationalities_and_race: ROOT: [Root.GetName] is_operative_main_culture_southerner"
 			add_unit_leader_trait = griffon_race_trait
 			operative_add_nationalities_southerner = yes
 		}
@@ -795,7 +806,7 @@ set_operative_to_griffon = {
 			is_female = yes
 		}
 		set_temp_variable = {
-			name_idx = 3
+			name_idx = 4
 		}
 		get_random_name_idx = yes
 		meta_effect = {
@@ -807,7 +818,7 @@ set_operative_to_griffon = {
 	}
 	else = {
 		set_temp_variable = {
-			name_idx = 7
+			name_idx = 9
 		}
 		get_random_name_idx = yes
 		meta_effect = {
@@ -910,7 +921,7 @@ set_operative_to_pony = {
 			SURNAME = "[?surname_idx.GetPonySurname]"
 		}
 		set_temp_variable = {
-			name_idx = 5
+			name_idx = 6
 		}
 		get_random_name_idx = yes
 		meta_effect = {
