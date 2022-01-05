@@ -13,5 +13,31 @@ ideas = {
 
 			removal_cost = -1
 		}
+		conf_nominal_member_state = {
+			picture = The_Treaty_of_Coltstream
+
+			available = {
+				always = yes
+			}
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+		}
+		conf_associate = {
+			picture = The_Treaty_of_Coltstream
+
+			available = {
+				always = yes
+			}
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+		}
 	}
 }

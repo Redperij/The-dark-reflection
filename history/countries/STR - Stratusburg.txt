@@ -31,6 +31,10 @@ set_popularities = {
 	fascism = 24
 }
 
+add_ideas = {
+	conf_member_state
+}
+
 recruit_character = STR_smp
 recruit_character = STR_smp1
 recruit_character = STR_smp2

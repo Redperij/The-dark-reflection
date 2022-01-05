@@ -22,24 +22,6 @@ set_technology = {
 }
 actually_fix_weapon_techs = yes #THIS HAS TO BE CALLED IN EVERY HISTORY FILE RIGHT AFTER MAIN set_technology!
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = STL
-		autonomy_state = autonomy_nominal_vassal
-	}
-	set_autonomy = {
-		target = NWN
-		autonomy_state = autonomy_nominal_vassal
-	}
-	else = {
-		puppet = STL
-		puppet = NWN
-	}
-}
-
 set_politics = {
 	ruling_party = neutrality
 	last_election = "937.1.1"
@@ -52,6 +34,27 @@ set_popularities = {
 	neutrality = 48
 	fascism = 30
 }
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = STL
+		autonomy_state = autonomy_nominal_vassal
+	}
+	set_autonomy = {
+		target = NWN
+		autonomy_state = autonomy_nominal_vassal
+	}
+}
+else = {
+	puppet = STL
+	puppet = NWN
+}
+
+give_guarantee = TRS
+give_guarantee = NGF
 
 add_ideas = {
 	severianian_crown

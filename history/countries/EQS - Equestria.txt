@@ -49,6 +49,9 @@ add_to_faction = WES
 add_to_faction = WHN
 add_to_faction = LUN
 
+give_guarantee = TRS
+give_guarantee = NGF
+
 add_equipment_to_stockpile = {
 	type = infantry_equipped_earthpony_hoof_3
 	amount = 500

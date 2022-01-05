@@ -31,6 +31,10 @@ set_popularities = {
 	fascism = 24
 }
 
+add_ideas = {
+	conf_associate
+}
+
 recruit_character = ZAR_smp
 recruit_character = ZAR_smp1
 recruit_character = ZAR_smp2
