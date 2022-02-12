@@ -9,7 +9,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "EventWindow"
 		position = { x=-282 y=-310 }	
-		size = { width = 836 height =515 }
+		size = { width = 834 height =427 }
 		moveable = yes
 		Orientation = CENTER		
 		
@@ -17,14 +17,14 @@ guiTypes = {
 		hide_sound = menu_close_window
 		
 		background = {
-			name = "Background"	
+			name = "Backg	round"	
 			spriteType ="GFX_tiled_window_transparent"
 		}
 
 		containerWindowType = {
 			name = "top_Window"
 			position = { x=0 y=0 }	
-			size = { width = 833 height =79 }
+			size = { width = 833 height = 121 }
 			moveable = yes
 			Orientation = UPPER_LEFT
 
@@ -55,8 +55,8 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "midsection"
-			position = { x=0 y=121 }	
-			size = { width = 834 height = 206 }
+			position = { x=1 y=121 }	
+			size = { width = 832 height = 200 }
 			moveable = yes
 			clipping = no
 			Orientation = UPPER_LEFT
@@ -81,7 +81,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "bottom_Window"
 			position = { x=0 y=221 }	
-			size = { width = 836 height = 260 }
+			size = { width = 834 height = 229 }
 			moveable = yes
 			clipping = no
 			Orientation = UPPER_LEFT
@@ -213,7 +213,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "midsection"
-			position = { x=0 y=121 }	
+			position = { x=1 y=121 }	
 			size = { width = 580 height = 235 }
 			moveable = yes
 			clipping = no
