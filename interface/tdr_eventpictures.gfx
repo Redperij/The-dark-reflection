@@ -3,7 +3,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_winter_sinister_event"
-		texturefile = "gfx/event_pictures/event_sinister_speaks.dds"
+		texturefile = "gfx/event_pictures/event_sinister_sev.dds"
 	}
 	spriteType = {
 		name = "GFX_vasya_event"

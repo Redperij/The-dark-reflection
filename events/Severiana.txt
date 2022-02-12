@@ -1,6 +1,6 @@
 add_namespace = severiana
 
-country_event = {
+country_event = { #January council
 	id = severiana.0
 	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.0"}
 	title = severiana.0.t
@@ -10,131 +10,91 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = severiana.0.a
-		sev_unlock_all_talks = yes
-		set_country_flag = severiana_first_talks
+		country_event = { id = severiana.1 hours = 0 }
 	}
 }
 
-country_event = { # Speaking with Sinister
+country_event = { #You always have friends
 	id = severiana.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.1"}
-	title = {
-		text = severiana.1.t1
-		trigger = {
-			has_country_flag = severiana_first_talks
-		}
-	}
-	desc = {
-		text = severiana.1.d1
-		trigger = {
-			has_country_flag = severiana_first_talks
-		}
-	}
+	title = severiana.1.t
+	desc = severiana.1.d
 	picture = GFX_winter_sinister_event
 
 	is_triggered_only = yes
 	option = {
-		name = severiana.1.a1
-		clr_country_flag = is_talking
-		trigger = {
-			has_country_flag = severiana_first_talks
-		}
+		name = severiana.1.a
+		country_event = { id = severiana.2 hours = 2 }
 	}
 }
 
-country_event = { # Speaking with Nestor
+country_event = { #Call
 	id = severiana.2
 	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.2"}
-	title = {
-		text = severiana.2.t1
-		trigger = {
-			has_country_flag = severiana_first_talks
-		}
-	}
-	desc = {
-		text = severiana.2.d1
-		trigger = {
-			has_country_flag = severiana_first_talks
-		}
-	}
-	picture = GFX_event_stg_techno_magic
+	title = severiana.2.t
+	desc = severiana.2.d
+	picture = GFX_winter_sinister_event
 
 	is_triggered_only = yes
 	option = {
-		name = severiana.2.a1
-		clr_country_flag = is_talking
-		trigger = {
-			has_country_flag = severiana_first_talks
-		}
+		name = severiana.2.a
+		country_event = { id = severiana.3 hours = 0 }
 	}
 }
 
-country_event = { # Speaking with Spiegel
+
+country_event = { #Great Danger
 	id = severiana.3
 	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.3"}
 	title = severiana.3.t
 	desc = severiana.3.d
-	picture = GFX_event_stg_techno_magic
+	picture = GFX_winter_sinister_event
 
 	is_triggered_only = yes
 	option = {
 		name = severiana.3.a
-		clr_country_flag = is_talking
+		country_event = { id = severiana.4 hours = 10 }
 	}
 }
 
-country_event = { # Speaking with Vasily
+
+country_event = { #Nothing important
 	id = severiana.4
 	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.4"}
 	title = severiana.4.t
 	desc = severiana.4.d
-	picture = GFX_vasya_event
+	picture = GFX_winter_sinister_event
 
 	is_triggered_only = yes
 	option = {
 		name = severiana.4.a
-		clr_country_flag = is_talking
 	}
 }
 
-country_event = { # Speaking with Danilka
+
+country_event = { #
 	id = severiana.5
 	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.5"}
 	title = severiana.5.t
 	desc = severiana.5.d
-	picture = GFX_event_stg_techno_magic
+	picture = GFX_winter_sinister_event
 
 	is_triggered_only = yes
 	option = {
 		name = severiana.5.a
-		clr_country_flag = is_talking
 	}
 }
 
-country_event = { # Speaking with Skorpin
+
+country_event = { #
 	id = severiana.6
 	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.6"}
 	title = severiana.6.t
 	desc = severiana.6.d
-	picture = GFX_event_stg_techno_magic
+	picture = GFX_winter_sinister_event
 
 	is_triggered_only = yes
 	option = {
 		name = severiana.6.a
-		clr_country_flag = is_talking
-	}
-}
-
-country_event = { # Speaking with Vinous
-	id = severiana.7
-	immediate = {log = "[GetDateText]: [Root.GetName]: event severiana.7"}
-	title = severiana.7.t
-	desc = severiana.7.d
-	picture = GFX_event_stg_techno_magic
-
-	is_triggered_only = yes
-	option = {
-		name = severiana.7.a
-		clr_country_flag = is_talking
 	}
 }
