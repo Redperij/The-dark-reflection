@@ -41,3 +41,17 @@ music = {
 		}		
 	}	
 }
+
+music = {
+	song = "Elevator"
+	
+	chance = {
+	    factor = 2
+		modifier = {
+			factor = 3
+
+			has_war = no
+			
+		}		
+	}	
+}
