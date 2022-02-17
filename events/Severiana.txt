@@ -83,6 +83,9 @@ country_event = { #
 	option = {
 		name = severiana.5.a
 	}
+	option = {
+		name = severiana.5.b
+	}
 }
 
 

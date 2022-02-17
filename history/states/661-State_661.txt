@@ -1,14 +1,24 @@
 state={
 	id=661
 	name="STATE_661"
+
 	history={
 		owner = CRY
 		add_core_of = CRY
+
+		victory_points = {
+			1393 2 
+		}
+		victory_points = {
+			10616 2 
+		}
 	}
+
 	provinces={
-		107 1393 2125 4550 4658 10373 10405 10415 10448 10449 10593 10616 
+		33 107 1393 2125 3623 4550 4658 10373 10405 10415 10448 10449 10593 10616 10672 
 	}
 	manpower=1
-	state_category = pastoral
 	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

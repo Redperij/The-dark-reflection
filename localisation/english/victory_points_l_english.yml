@@ -310,8 +310,8 @@ VICTORY_POINTS_12459:0 "Trottort" #Trottort / STATE_623
 # Crystal Empire ######################################################
 #######################################################################
 #CRY - Crystal Empire
-VICTORY_POINTS_2793:0 "Crystal Castle" #Crystal city / STATE_666
-VICTORY_POINTS_4342:0 "Crystal City"
+VICTORY_POINTS_2793:0 "Crystal Castle" #Crystal Castle / STATE_666
+VICTORY_POINTS_4342:0 "Crystal City" #Crystal City / STATE_505
 VICTORY_POINTS_7123:0 "Crystal City"
 VICTORY_POINTS_10594:0 "Crystal City"
 VICTORY_POINTS_7855:0 "Crystal City"
@@ -320,6 +320,49 @@ VICTORY_POINTS_10929:0 "West Crystal City Outskirts"
 VICTORY_POINTS_11078:0 "South Crystal City Outskirts"
 VICTORY_POINTS_8053:0 "East Crystal City Outskirts"
 VICTORY_POINTS_2651:0 "Porridge Town" #Porridge Town / STATE_672
+VICTORY_POINTS_10974:0 "Broken Bridge" # / STATE_642
+VICTORY_POINTS_698:0 "Mogilniki" # / STATE_652
+VICTORY_POINTS_10959:0 "Kurgany" # / STATE_656
+VICTORY_POINTS_2858:0 "Mine" # / STATE_660
+VICTORY_POINTS_10616:0 "Base" # / STATE_661
+VICTORY_POINTS_1393:0 "Mine"
+VICTORY_POINTS_3438:0 "Treecut" # / STATE_645
+VICTORY_POINTS_11323:0 "Forpost" # / STATE_643
+VICTORY_POINTS_4224:0 "Mine" # / STATE_662
+VICTORY_POINTS_130:0 "Mine"
+VICTORY_POINTS_3830:0 "Mine"
+VICTORY_POINTS_10659:0 "Mine" # / STATE_674
+VICTORY_POINTS_10631:0 "Mine"
+VICTORY_POINTS_10617:0 "Mine"
+VICTORY_POINTS_5552:0 "Rainbow Falls" #Rainbow Falls / STATE_673
+VICTORY_POINTS_10641:0 "Mine"
+VICTORY_POINTS_3066:0 "Mine"
+VICTORY_POINTS_11101:0 "Base in Ruins" # / STATE_663
+VICTORY_POINTS_10950:0 "Roadpost" # / STATE_675
+VICTORY_POINTS_4682:0 "Town" # / STATE_670
+VICTORY_POINTS_11479:0 "Town"
+VICTORY_POINTS_3100:0 "Thestral Village" # / STATE_669
+VICTORY_POINTS_11797:0 "Thestral Village"
+VICTORY_POINTS_11893:0 "Thestral Village"
+VICTORY_POINTS_11620:0 "Thestral Village"
+VICTORY_POINTS_5079:0 "Abandoned Roadpost" # / STATE_671
+VICTORY_POINTS_2552:0 "Thestral Village" # / STATE_668
+VICTORY_POINTS_11659:0 "Mine" # / STATE_665
+VICTORY_POINTS_1340:0 "Rubrum" #Rubrum / STATE_664
+VICTORY_POINTS_11732:0 "Mine" # / STATE_639
+VICTORY_POINTS_7839:0 "The Tower" # / STATE_641
+VICTORY_POINTS_11920:0 "Bandit Camp" # / STATE_542
+VICTORY_POINTS_11749:0 "Swamp Excavation Camp" # / STATE_638
+VICTORY_POINTS_313:0 "Bandit Camp" # / STATE_638
+VICTORY_POINTS_11322:0 "Burried Village" # / STATE_650
+VICTORY_POINTS_11367:0 "Roadpost" # / STATE_651
+VICTORY_POINTS_2869:0 "Buckmington" #Buckmington / STATE_647
+VICTORY_POINTS_4204:0 "Buckmington"
+VICTORY_POINTS_11365:0 "East Ponytown" #East Ponytown / STATE_646
+VICTORY_POINTS_11228:0 "Bandit Camp" # / STATE_648
+VICTORY_POINTS_10867:0 "Roadpost" # / STATE_653
+VICTORY_POINTS_4221:0 "Hidden Villa" # / STATE_657
+VICTORY_POINTS_10553:0 "Bandit Camp" # / STATE_659
 #######################################################################
 # Olenia ##############################################################
 #######################################################################
@@ -497,6 +540,7 @@ VICTORY_POINTS_11574:0 "Trukhlyavoye" #Trukhlyavoye / STATE_757
 VICTORY_POINTS_11778:0 "Kizhuchsk"
 VICTORY_POINTS_2590:0 "Severo-Lopatinsk" #Kaurskiye Islands / STATE_729
 VICTORY_POINTS_1824:0 "Baykovo"
+VICTORY_POINTS_11996:0 "Klykovo" #Klykovo / STATE_749
 #STL - Starlight's Town
 VICTORY_POINTS_9978:0 "Novocrystal'sk" #Novocrystal'sk / STATE_822
 #######################################################################
