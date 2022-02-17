@@ -4,6 +4,10 @@ state={
 	history={
 		owner = TRS
 		add_core_of = TRS
+
+		victory_points = {
+			12524 5
+		}
 	}
 	provinces={
 		1484 3690 12294 12365 12398 12420 12453 12524 

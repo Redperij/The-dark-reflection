@@ -56,6 +56,30 @@ VICTORY_POINTS_12818:0 "Lingle" #Lingle / STATE_577
 VICTORY_POINTS_12778:0 "Spotted Cow" #Spotted Cow / STATE_578
 #LUN - Princess Luna
 VICTORY_POINTS_13240:0 "North Canterlot Palace" #North Canterlot Palace / STATE_1099
+#NGF - Neighgara Falls
+VICTORY_POINTS_12117:0 "Neighgara Falls" #Neighgara Falls / STATE_535
+VICTORY_POINTS_12179:0 "South Neighgara Falls"
+VICTORY_POINTS_12556:0 "Town" # / STATE_537
+VICTORY_POINTS_12540:0 "Village" # / STATE_539
+VICTORY_POINTS_219:0 "Village" # / STATE_536
+VICTORY_POINTS_402:0 "Highland Village" # / STATE_534
+VICTORY_POINTS_12014:0 "Small Mine" # / STATE_538
+VICTORY_POINTS_2481:0 "Small Village"
+VICTORY_POINTS_12426:0 "Village" # / STATE_540
+VICTORY_POINTS_12169:0 "Small Village"
+#TRS - Trotsylvania
+VICTORY_POINTS_12109:0 "Trotsylvania" #Trotsylvania / STATE_520
+VICTORY_POINTS_12170:0 "South Trotsylvania"
+VICTORY_POINTS_11967:0 "Thestral Village" # / STATE_521
+VICTORY_POINTS_2748:0 "Saving Camp"
+VICTORY_POINTS_3879:0 "Mine" # / STATE_530
+VICTORY_POINTS_2223:0 "Thestral Village" # / STATE_522
+VICTORY_POINTS_12427:0 "Village" # / STATE_531
+VICTORY_POINTS_12566:0 "Trotterfield" #Trotterfield / STATE_523
+VICTORY_POINTS_12657:0 "Village" # / STATE_524
+VICTORY_POINTS_12672:0 "Village" # / STATE_528
+VICTORY_POINTS_12524:0 "Town" # / STATE_527
+VICTORY_POINTS_12445:0 "Village" # / STATE_529
 #######################################################################
 # Governorate Whinnyapolis ############################################
 #######################################################################
