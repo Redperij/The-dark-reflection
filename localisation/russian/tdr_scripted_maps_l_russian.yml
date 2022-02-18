@@ -1,0 +1,27 @@
+﻿l_russian:
+
+ MAPMODE_TDR_RACE_MAP_MODE: "§YРаса§  провинции"
+ MAPMODE_TDR_RACE_MAP_MODE_NAME: "Раса"
+ MAPMODE_TDR_RACE_MAP_MODE_DESCRIPTION: "Отображает преобладащую расу провинции."
+
+ tdr_race_map_mode_tooltip: "§Y[FROM.TDR_Get_state_race]§!"
+ tdr_race_map_mode_tooltip_delayed: "(§Y[FROM.controller.Getnamewithflag]§!): [FROM.GetName] в основном заселяют [FROM.TDR_Get_state_race]."
+
+ tdr_race_pony: "Пони"
+ tdr_race_crystal_pony: "Кристальные Пони"
+ tdr_race_earthpony: "Земнопони"
+ tdr_race_pegasi: "Пегасы"
+ tdr_race_unicorn: "Единороги"
+ tdr_race_griffon: "Гриффоны"
+ tdr_race_deer: "Олени"
+ tdr_race_thestral: "Фестралы"
+ tdr_race_dragon: "Драконы"
+ tdr_race_bear: "Медведи"
+ tdr_race_changeling: "Чейнджлинги"
+ tdr_race_penguin: "Пингвины"
+ tdr_race_yak: "Яки"
+ tdr_race_dog: "Псы"
+ tdr_race_crystal_earthpony: "Кристальные Земнопони"
+ tdr_race_crystal_pegasi: "Кристальные Пегасы"
+ tdr_race_crystal_unicorn: "Кристальные Единороги"
+ tdr_race_empty: "Никто"
