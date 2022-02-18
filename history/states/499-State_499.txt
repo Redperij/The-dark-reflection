@@ -4,6 +4,16 @@ state={
 	history={
 		owner = FRM
 		add_core_of = FRM
+
+		victory_points = {
+			435 2
+		}
+		victory_points = {
+			3932 2
+		}
+		victory_points = {
+			4079 2
+		}
 	}
 	provinces={
 		435 939 3932 4079 13021 13030 13059 13102 

@@ -4,6 +4,16 @@ state={
 	history={
 		owner = MHT
 		add_core_of = MHT
+
+		victory_points = {
+			13061 3
+	    }
+		victory_points = {
+			13062 2
+	    }
+		victory_points = {
+			4524 2
+	    }
 	}
 	provinces={
 		2476 4524 13022 13023 13061 13062 13073 13120 

@@ -4,6 +4,19 @@ state={
 	history={
 		owner = MAN
 		add_core_of = MAN
+
+		victory_points = {
+			3937 2 
+		}
+		victory_points = {
+			13323 2 
+		}
+		victory_points = {
+			13405 2 
+		}
+		victory_points = {
+			13376 2 
+		}
 	}
 	provinces={
 		3937 13323 13327 13360 13363 13367 13376 13405 

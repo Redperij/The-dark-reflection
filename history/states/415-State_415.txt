@@ -4,6 +4,16 @@ state={
 	history={
 		owner = FIL
 		add_core_of = FIL
+
+		victory_points = {
+			13564 2
+		}
+		victory_points = {
+			13535 2
+		}
+		victory_points = {
+			13509 2
+		}
 	}
 	provinces={
 		326 1627 13503 13509 13535 13540 13564 13568 13592 

@@ -4,6 +4,16 @@ state={
 	history={
 		owner = CHI
 		add_core_of = CHI
+
+		victory_points = {
+			13283 2
+		}
+		victory_points = {
+			4915 2
+		}
+		victory_points = {
+			13152 2
+		}
 	}
 	provinces={
 		307 2018 4915 5367 13152 13192 13193 13244 13283 13292 13325 

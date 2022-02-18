@@ -4,6 +4,10 @@ state={
 	history={
 		owner = DET
 		add_core_of = DET
+
+		victory_points = {
+			862 3
+		}
 	}
 	provinces={
 		862 2025 12724 12751 12767 12826 12880 

@@ -4,6 +4,13 @@ state={
 	history={
 		owner = STR
 		add_core_of = STR
+
+		victory_points = {
+			13002 2
+		}
+		victory_points = {
+			12873 2
+		}
 	}
 	provinces={
 		208 2636 12873 12909 12914 12965 13002 

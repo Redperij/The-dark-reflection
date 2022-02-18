@@ -5,6 +5,10 @@ state={
 		owner = CNT
 		add_core_of = CNT
 		add_core_of = NCN
+
+		victory_points = {
+			2013 3
+	    }
 	}
 	provinces={
 		2013 2518 13003 13063 
