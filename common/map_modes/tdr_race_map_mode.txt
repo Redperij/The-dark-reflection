@@ -1,0 +1,200 @@
+scripted_map_modes = {
+	tdr_race_map_mode = {
+		top = {
+			type = none
+		}
+		bottom = {
+			type = state
+			color = {
+				if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_pony_flag
+						}
+					}
+					set_temp_variable = { red = .556 }
+					set_temp_variable = { green = .909 }
+					set_temp_variable = { blue = .6 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_crystal_pony_flag
+						}
+					}
+					set_temp_variable = { red = .878 }
+					set_temp_variable = { green = .882 }
+					set_temp_variable = { blue = .976 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_earthpony_flag
+						}
+					}
+					set_temp_variable = { red = .898 }
+					set_temp_variable = { green = .867 }
+					set_temp_variable = { blue = .470 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_pegasi_flag
+						}
+					}
+					set_temp_variable = { red = .815 }
+					set_temp_variable = { green = .576 }
+					set_temp_variable = { blue = .223 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_unicorn_flag
+						}
+					}
+					set_temp_variable = { red = .663 }
+					set_temp_variable = { green = .764 }
+					set_temp_variable = { blue = .643 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_griffon_flag
+						}
+					}
+					set_temp_variable = { red = .58 }
+					set_temp_variable = { green = .572 }
+					set_temp_variable = { blue = .643 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_deer_flag
+						}
+					}
+					set_temp_variable = { red = .549 }
+					set_temp_variable = { green = .439 }
+					set_temp_variable = { blue = .333 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_thestral_flag
+						}
+					}
+					set_temp_variable = { red = .552 }
+					set_temp_variable = { green = .262 }
+					set_temp_variable = { blue = .369 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_dragon_flag
+						}
+					}
+					set_temp_variable = { red = .184 }
+					set_temp_variable = { green = .619 }
+					set_temp_variable = { blue = .388 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_bear_flag
+						}
+					}
+					set_temp_variable = { red = .552 }
+					set_temp_variable = { green = .619 }
+					set_temp_variable = { blue = .663 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_changeling_flag
+						}
+					}
+					set_temp_variable = { red = .235 }
+					set_temp_variable = { green = .25 }
+					set_temp_variable = { blue = .337 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_penguin_flag
+						}
+					}
+					set_temp_variable = { red = .898 }
+					set_temp_variable = { green = .8 }
+					set_temp_variable = { blue = 1 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_yak_flag
+						}
+					}
+					set_temp_variable = { red = .486 }
+					set_temp_variable = { green = .776 }
+					set_temp_variable = { blue = .941 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_dog_flag
+						}
+					}
+					set_temp_variable = { red = .647 }
+					set_temp_variable = { green = .576 }
+					set_temp_variable = { blue = .98 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_crystal_earthpony_flag
+						}
+					}
+					set_temp_variable = { red = .227 }
+					set_temp_variable = { green = .745 }
+					set_temp_variable = { blue = .372 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_crystal_pegasi_flag
+						}
+					}
+					set_temp_variable = { red = .592 }
+					set_temp_variable = { green = .431 }
+					set_temp_variable = { blue = 1 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_crystal_unicorn_flag
+						}
+					}
+					set_temp_variable = { red = .259 }
+					set_temp_variable = { green = .267 }
+					set_temp_variable = { blue = .416 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_state_flag = major_creature_in_state_special_flag
+						}
+					}
+					set_temp_variable = { red = 0 }
+					set_temp_variable = { green = 0 }
+					set_temp_variable = { blue = 0 }
+				}
+				else = {
+					set_temp_variable = { red = 1 }
+					set_temp_variable = { green = 1 }
+					set_temp_variable = { blue = 1 }
+				}
+				set_temp_variable = { alpha = 0.7 }
+			}
+		}
+		far_text = country
+		near_text = state
+	}
+}

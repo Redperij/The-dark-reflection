@@ -56,9 +56,30 @@ VICTORY_POINTS_12818:0 "Lingle" #Lingle / STATE_577
 VICTORY_POINTS_12778:0 "Spotted Cow" #Spotted Cow / STATE_578
 #LUN - Princess Luna
 VICTORY_POINTS_13240:0 "North Canterlot Palace" #North Canterlot Palace / STATE_1099
-#######################################################################
-# Governorate Whinnyapolis ############################################
-#######################################################################
+#NGF - Neighgara Falls
+VICTORY_POINTS_12117:0 "Neighgara Falls" #Neighgara Falls / STATE_535
+VICTORY_POINTS_12179:0 "South Neighgara Falls"
+VICTORY_POINTS_12556:0 "Town" # / STATE_537
+VICTORY_POINTS_12540:0 "Village" # / STATE_539
+VICTORY_POINTS_219:0 "Village" # / STATE_536
+VICTORY_POINTS_402:0 "Highland Village" # / STATE_534
+VICTORY_POINTS_12014:0 "Small Mine" # / STATE_538
+VICTORY_POINTS_2481:0 "Small Village"
+VICTORY_POINTS_12426:0 "Village" # / STATE_540
+VICTORY_POINTS_12169:0 "Small Village"
+#TRS - Trotsylvania
+VICTORY_POINTS_12109:0 "Trotsylvania" #Trotsylvania / STATE_520
+VICTORY_POINTS_12170:0 "South Trotsylvania"
+VICTORY_POINTS_11967:0 "Thestral Village" # / STATE_521
+VICTORY_POINTS_2748:0 "Saving Camp"
+VICTORY_POINTS_3879:0 "Mine" # / STATE_530
+VICTORY_POINTS_2223:0 "Thestral Village" # / STATE_522
+VICTORY_POINTS_12427:0 "Village" # / STATE_531
+VICTORY_POINTS_12566:0 "Trotterfield" #Trotterfield / STATE_523
+VICTORY_POINTS_12657:0 "Village" # / STATE_524
+VICTORY_POINTS_12672:0 "Village" # / STATE_528
+VICTORY_POINTS_12524:0 "Town" # / STATE_527
+VICTORY_POINTS_12445:0 "Village" # / STATE_529
 #WHN - Governorate Whinnyapolis
 VICTORY_POINTS_3835:0 "Whinnyapolis" #Whinnysota / STATE_564
 VICTORY_POINTS_4528:0 "North Whinnyapolis"
@@ -93,9 +114,6 @@ VICTORY_POINTS_12317:0 "Barkfield" #Barkfield / STATE_567
 VICTORY_POINTS_3193:0 "Dufrost" #Dufrost / STATE_566
 VICTORY_POINTS_12094:0 "Hills Grove" #Hills Grove / STATE_634
 VICTORY_POINTS_2424:0 "Castle Danger" #Castle Danger / STATE_568
-#######################################################################
-# West Equestrian Shore ###############################################
-#######################################################################
 #WES - West Equestrian Shore
 VICTORY_POINTS_5453:0 "New Vesalipolis" #New Vesalipolis / STATE_389
 VICTORY_POINTS_13134:0 "South New Vesalipolis"
@@ -115,6 +133,9 @@ VICTORY_POINTS_13017:0 "San Flankcisco" #San Flankcisco / STATE_397
 VICTORY_POINTS_12995:0 "North San Flankcisco"
 VICTORY_POINTS_2595:0 "South San Flankcisco"
 VICTORY_POINTS_13205:0 "Mead Resort" #Mead Resort / STATE_388
+#CEL - Celestial State
+#VICTORY_POINTS_:0 "" # / STATE_
+
 #######################################################################
 # Monarchy Of Fykia ###################################################
 #######################################################################
@@ -310,8 +331,8 @@ VICTORY_POINTS_12459:0 "Trottort" #Trottort / STATE_623
 # Crystal Empire ######################################################
 #######################################################################
 #CRY - Crystal Empire
-VICTORY_POINTS_2793:0 "Crystal Castle" #Crystal city / STATE_666
-VICTORY_POINTS_4342:0 "Crystal City"
+VICTORY_POINTS_2793:0 "Crystal Castle" #Crystal Castle / STATE_666
+VICTORY_POINTS_4342:0 "Crystal City" #Crystal City / STATE_505
 VICTORY_POINTS_7123:0 "Crystal City"
 VICTORY_POINTS_10594:0 "Crystal City"
 VICTORY_POINTS_7855:0 "Crystal City"
@@ -320,6 +341,49 @@ VICTORY_POINTS_10929:0 "West Crystal City Outskirts"
 VICTORY_POINTS_11078:0 "South Crystal City Outskirts"
 VICTORY_POINTS_8053:0 "East Crystal City Outskirts"
 VICTORY_POINTS_2651:0 "Porridge Town" #Porridge Town / STATE_672
+VICTORY_POINTS_10974:0 "Broken Bridge" # / STATE_642
+VICTORY_POINTS_698:0 "Mogilniki" # / STATE_652
+VICTORY_POINTS_10959:0 "Kurgany" # / STATE_656
+VICTORY_POINTS_2858:0 "Mine" # / STATE_660
+VICTORY_POINTS_10616:0 "Base" # / STATE_661
+VICTORY_POINTS_1393:0 "Mine"
+VICTORY_POINTS_3438:0 "Treecut" # / STATE_645
+VICTORY_POINTS_11323:0 "Forpost" # / STATE_643
+VICTORY_POINTS_4224:0 "Mine" # / STATE_662
+VICTORY_POINTS_130:0 "Mine"
+VICTORY_POINTS_3830:0 "Mine"
+VICTORY_POINTS_10659:0 "Mine" # / STATE_674
+VICTORY_POINTS_10631:0 "Mine"
+VICTORY_POINTS_10617:0 "Mine"
+VICTORY_POINTS_5552:0 "Rainbow Falls" #Rainbow Falls / STATE_673
+VICTORY_POINTS_10641:0 "Mine"
+VICTORY_POINTS_3066:0 "Mine"
+VICTORY_POINTS_11101:0 "Base in Ruins" # / STATE_663
+VICTORY_POINTS_10950:0 "Roadpost" # / STATE_675
+VICTORY_POINTS_4682:0 "Town" # / STATE_670
+VICTORY_POINTS_11479:0 "Town"
+VICTORY_POINTS_3100:0 "Thestral Village" # / STATE_669
+VICTORY_POINTS_11797:0 "Thestral Village"
+VICTORY_POINTS_11893:0 "Thestral Village"
+VICTORY_POINTS_11620:0 "Thestral Village"
+VICTORY_POINTS_5079:0 "Abandoned Roadpost" # / STATE_671
+VICTORY_POINTS_2552:0 "Thestral Village" # / STATE_668
+VICTORY_POINTS_11659:0 "Mine" # / STATE_665
+VICTORY_POINTS_1340:0 "Rubrum" #Rubrum / STATE_664
+VICTORY_POINTS_11732:0 "Mine" # / STATE_639
+VICTORY_POINTS_7839:0 "The Tower" # / STATE_641
+VICTORY_POINTS_11920:0 "Bandit Camp" # / STATE_542
+VICTORY_POINTS_11749:0 "Swamp Excavation Camp" # / STATE_638
+VICTORY_POINTS_313:0 "Bandit Camp" # / STATE_638
+VICTORY_POINTS_11322:0 "Burried Village" # / STATE_650
+VICTORY_POINTS_11367:0 "Roadpost" # / STATE_651
+VICTORY_POINTS_2869:0 "Buckmington" #Buckmington / STATE_647
+VICTORY_POINTS_4204:0 "Buckmington"
+VICTORY_POINTS_11365:0 "East Ponytown" #East Ponytown / STATE_646
+VICTORY_POINTS_11228:0 "Bandit Camp" # / STATE_648
+VICTORY_POINTS_10867:0 "Roadpost" # / STATE_653
+VICTORY_POINTS_4221:0 "Hidden Villa" # / STATE_657
+VICTORY_POINTS_10553:0 "Bandit Camp" # / STATE_659
 #######################################################################
 # Olenia ##############################################################
 #######################################################################
@@ -334,7 +398,6 @@ VICTORY_POINTS_3598:0 "South-West Hjortland"
 #######################################################################
 # Severiana ###########################################################
 #######################################################################
-#VICTORY_POINTS_:0 ""
 #SEV - Severiana
 VICTORY_POINTS_11373:0 "St. Petershoof" #St. Petershoof / STATE_777
 VICTORY_POINTS_11354:0 "Petergof"
@@ -497,12 +560,12 @@ VICTORY_POINTS_11574:0 "Trukhlyavoye" #Trukhlyavoye / STATE_757
 VICTORY_POINTS_11778:0 "Kizhuchsk"
 VICTORY_POINTS_2590:0 "Severo-Lopatinsk" #Kaurskiye Islands / STATE_729
 VICTORY_POINTS_1824:0 "Baykovo"
+VICTORY_POINTS_11996:0 "Klykovo" #Klykovo / STATE_749
 #STL - Starlight's Town
 VICTORY_POINTS_9978:0 "Novocrystal'sk" #Novocrystal'sk / STATE_822
 #######################################################################
 # Nova Griffonia ######################################################
 #######################################################################
-#VICTORY_POINTS_:0 ""
 #GRF - Nova Griffonia
 VICTORY_POINTS_8721:0 "Gänsegeierburg" #Gänsegeierburg / STATE_940
 VICTORY_POINTS_1488:0 "West Gänsegeierburg" #West Gänsegeierburg / STATE_1295
@@ -690,46 +753,144 @@ VICTORY_POINTS_9167:0 "Oatmeal Island" #Oatmeal Island / STATE_1255
 #######################################################################
 # Manehattan Confederation ############################################
 #######################################################################
-#VICTORY_POINTS_:0 ""
 #CHI - Chicoltgo
 VICTORY_POINTS_13510:0 "Chicoltgo" #Chicoltgo / STATE_416
 VICTORY_POINTS_3917:0 "West Chicoltgo"
+VICTORY_POINTS_13462:0 "Village" # / STATE_418
+VICTORY_POINTS_1044:0 "Village2"
+VICTORY_POINTS_13453:0 "Village3"
+VICTORY_POINTS_13391:0 "Village4"
+VICTORY_POINTS_13359:0 "Village" # / STATE_513
+VICTORY_POINTS_1589:0 "Village2"
+VICTORY_POINTS_4738:0 "Village3"
+VICTORY_POINTS_1541:0 "" # / STATE_417
+VICTORY_POINTS_3239:0 "" # / STATE_412
+VICTORY_POINTS_13283:0 "Village" # / STATE_512
+VICTORY_POINTS_4915:0 "Highland Village"
+VICTORY_POINTS_13152:0 "Village"
+VICTORY_POINTS_13096:0 "Village" # / STATE_515
+VICTORY_POINTS_13177:0 "Village2"
 #DPP - Dappleshore
 VICTORY_POINTS_13593:0 "Dappleshore" #Dappleshore / STATE_443
 VICTORY_POINTS_5058:0 "Dappleshore Port"
+VICTORY_POINTS_5577:0 "Outskirts"
+VICTORY_POINTS_1516:0 "Village" #Northern Ponisula / STATE_445
+VICTORY_POINTS_13554:0 "Village2"
+VICTORY_POINTS_13494:0 "Village3"
+VICTORY_POINTS_13607:0 "Village" #Southern Ponisula / STATE_444
+VICTORY_POINTS_13639:0 "Village2"
+VICTORY_POINTS_2060:0 "Beakon"
 #TTL - Tail Tale
 VICTORY_POINTS_13463:0 "Tail Tale" #Tail Tale / STATE_446
 VICTORY_POINTS_13445:0 "East Tail Tale"
+VICTORY_POINTS_4654:0 "Outskirts"
+VICTORY_POINTS_2451:0 "Outskirts2"
 VICTORY_POINTS_3260:0 "STATE_448" #STATE_448
+VICTORY_POINTS_13392:0 "Village"
 VICTORY_POINTS_13226:0 "STATE_466" #STATE_466
 VICTORY_POINTS_3166:0 "STATE_467" #STATE_467
+VICTORY_POINTS_122:0 "Village" # / STATE_447
+VICTORY_POINTS_13293:0 "Village" # / STATE_471
+VICTORY_POINTS_2756:0 "Village" # / STATE_472
+VICTORY_POINTS_13223:0 "Village" # / STATE_514
+VICTORY_POINTS_13140:0 "Village2"
 #BLS - Bales
 VICTORY_POINTS_5398:0 "Bales" #Bales / STATE_500
 VICTORY_POINTS_2077:0 "North Bales"
 VICTORY_POINTS_12814:0 "West Bales"
 VICTORY_POINTS_13130:0 "STATE_502" #STATE_502
 VICTORY_POINTS_3607:0 "Manesbury" #Manesbury / STATE_510
+VICTORY_POINTS_12796:0 "Village"
 VICTORY_POINTS_3201:0 "Hollow Shades" #Hollow Shades / STATE_480
+VICTORY_POINTS_12946:0 "Village" # / STATE_517
+VICTORY_POINTS_12956:0 "Old Castle"
+VICTORY_POINTS_4892:0 "Outskirts" # / STATE_507
+VICTORY_POINTS_12779:0 "Village" # / STATE_518
+VICTORY_POINTS_2126:0 "Village2"
+VICTORY_POINTS_3519:0 "Village" # / STATE_519
+VICTORY_POINTS_12713:0 "Village2"
+VICTORY_POINTS_12716:0 "Village3"
+VICTORY_POINTS_1287:0 "Village" # / STATE_508
+VICTORY_POINTS_13144:0 "Village" # / STATE_509
+VICTORY_POINTS_13082:0 "Village2"
+VICTORY_POINTS_1647:0 "Ancient Tree" # / STATE_506
+VICTORY_POINTS_41980:0 "Village" # / STATE_511
+VICTORY_POINTS_47800:0 "Village2"
+VICTORY_POINTS_21150:0 "Village3"
+VICTORY_POINTS_12953:0 "Village" # / STATE_501
+VICTORY_POINTS_2826:0 "Village2"
+VICTORY_POINTS_12935:0 "Village3"
+VICTORY_POINTS_12977:0 "Village4"
+VICTORY_POINTS_13040:0 "Village" # / STATE_503
+VICTORY_POINTS_13029:0 "Village2"
+VICTORY_POINTS_13118:0 "Village" # / STATE_504
 #FRM - Foallerminster
 VICTORY_POINTS_12825:0 "Foallerminster" #Foallerminster / STATE_493
+VICTORY_POINTS_12833:0 "Outskirts"
+VICTORY_POINTS_12879:0 "Outskirts2"
+VICTORY_POINTS_12780:0 "Outskirts3"
 VICTORY_POINTS_12979:0 "STATE_494" #STATE_494
 VICTORY_POINTS_3276:0 "STATE_469" #STATE_469
+VICTORY_POINTS_480:0 "Village" # / STATE_498
+VICTORY_POINTS_12702:0 "Village2"
+VICTORY_POINTS_12843:0 "Village3"
+VICTORY_POINTS_853:0 "Village" # / STATE_496
+VICTORY_POINTS_13012:0 "Village2"
+VICTORY_POINTS_435:0 "Village" # / STATE_499
+VICTORY_POINTS_3932:0 "Village2"
+VICTORY_POINTS_4079:0 "Village3"
+VICTORY_POINTS_1073:0 "Village" # / STATE_516
+VICTORY_POINTS_3964:0 "Village2"
 #BRI - Bridlepolis
 VICTORY_POINTS_155:0 "Bridlepolis" #Bridlepolis / STATE_465
 VICTORY_POINTS_3275:0 "North Bridlepolis"
 VICTORY_POINTS_5105:0 "South Bridlepolis"
+VICTORY_POINTS_220:0 "Outskirts" # / STATE_473
+VICTORY_POINTS_2500:0 "Outskirts"
+VICTORY_POINTS_13041:0 "Outskirts"
+VICTORY_POINTS_13070:0 "Outskirts"
 #MAN - Manehattan
 VICTORY_POINTS_13279:0 "Manehattan" #Manehattan / STATE_450
 VICTORY_POINTS_13328:0 "South Manehattan"
 VICTORY_POINTS_5520:0 "West Manehattan"
-VICTORY_POINTS_2443:0 "North Manehattan"
+VICTORY_POINTS_2753:0 "Outskirts"
+VICTORY_POINTS_13235:0 "Village" # / STATE_474
+VICTORY_POINTS_541:0 "Village"
+VICTORY_POINTS_13316:0 "Village"
+VICTORY_POINTS_3937:0 "Village" # / STATE_449
+VICTORY_POINTS_13323:0 "Village"
+VICTORY_POINTS_13405:0 "Village"
+VICTORY_POINTS_13376:0 "Village"
 #MHT - Manehatan
 VICTORY_POINTS_13213:0 "Manehatan" #Manehatan / STATE_451
+VICTORY_POINTS_2443:0 "North Manehattan"
+VICTORY_POINTS_13061:0 "Town" # / STATE_481
+VICTORY_POINTS_13062:0 "Village"
+VICTORY_POINTS_4524:0 "Village"
+VICTORY_POINTS_1958:0 "Village" # / STATE_458
+VICTORY_POINTS_5543:0 "Village" # / STATE_475
+VICTORY_POINTS_3848:0 "Village"
+VICTORY_POINTS_13103:0 "Village"
 #SUM - Summerfield
 VICTORY_POINTS_1471:0 "Summerfield" #Summerfield / STATE_468
 VICTORY_POINTS_13188:0 "South Summerfield"
+VICTORY_POINTS_582:0 "Village" # / STATE_476
+VICTORY_POINTS_13037:0 "Village"
+VICTORY_POINTS_2829:0 "Village" # / STATE_479
+VICTORY_POINTS_4896:0 "Village" # / STATE_482
+VICTORY_POINTS_12957:0 "Village"
 #STR - Stratusburg
 VICTORY_POINTS_4995:0 "Stratusburg" #Stratusburg / STATE_477
+VICTORY_POINTS_3754:0 "Outskirts"
+VICTORY_POINTS_4477:0 "Outskirts"
+VICTORY_POINTS_12597:0 "Village" # / STATE_492
+VICTORY_POINTS_12662:0 "Village"
+VICTORY_POINTS_12772:0 "Village"
+VICTORY_POINTS_12616:0 "Village" # / STATE_497
+VICTORY_POINTS_12695:0 "Village"
+VICTORY_POINTS_12547:0 "Village"
+VICTORY_POINTS_13002:0 "Village" # / STATE_495
+VICTORY_POINTS_12873:0 "Village"
 #GLP - Gallopolis
 VICTORY_POINTS_2884:0 "Gallopolis" #Gallopolis / STATE_470
 VICTORY_POINTS_12557:0 "South Gallopolis"
@@ -758,6 +919,12 @@ VICTORY_POINTS_2333:0 "STATE_487" #STATE_487
 VICTORY_POINTS_12465:0 "STATE_488" #STATE_488
 #DET - Detrot
 VICTORY_POINTS_12719:0 "Detrot" #Detrot / STATE_478
+VICTORY_POINTS_12845:0 "Village" # / STATE_484
+VICTORY_POINTS_1120:0 "Village"
+VICTORY_POINTS_862:0 "Village" # / STATE_485
+VICTORY_POINTS_12915:0 "Village" # / STATE_483
+VICTORY_POINTS_12806:0 "Village"
+VICTORY_POINTS_12834:0 "Village"
 #PRA - Prance
 VICTORY_POINTS_874:0 "Prance" #Prance / STATE_456
 VICTORY_POINTS_12688:0 "STATE_457" #STATE_457
@@ -781,24 +948,37 @@ VICTORY_POINTS_12568:0 "STATE_734" #STATE_734
 VICTORY_POINTS_12703:0 "STATE_734.1"
 #FRV - Fairville
 VICTORY_POINTS_13180:0 "Fairville" #Fairville / STATE_452
+VICTORY_POINTS_13121:0 "Village" # / STATE_459
 #MNT - Moontown
 VICTORY_POINTS_13126:0 "Moontown" #Moontown / STATE_453
 VICTORY_POINTS_13149:0 "Moontown Port"
+VICTORY_POINTS_13109:0 "Village" # / STATE_460
 #CNT - Canterbury
 VICTORY_POINTS_5336:0 "Canterbury" #Canterbury / STATE_454
 VICTORY_POINTS_13085:0 "South Canterbury"
+VICTORY_POINTS_2013:0 "Village" # / STATE_461
 #NCN - North Canterbury
 VICTORY_POINTS_12985:0 "North Canterbury" #North Canterbury / STATE_455
+VICTORY_POINTS_1802:0 "Village" # / STATE_462
 #FIL - Fillydelphia
 VICTORY_POINTS_13631:0 "Fillydelphia" #Fillydelphia / STATE_400
 VICTORY_POINTS_3716:0 "Fillydelphia Port"
 VICTORY_POINTS_4638:0 "West Fillydelphia"
 VICTORY_POINTS_13653:0 "South Fillydelphia"
-
+VICTORY_POINTS_13591:0 "Outskirts"
+VICTORY_POINTS_13564:0 "Village" # / STATE_415
+VICTORY_POINTS_13535:0 "Outskirts"
+VICTORY_POINTS_13509:0 "Outskirts2"
+VICTORY_POINTS_13518:0 "Village" # / STATE_414
+VICTORY_POINTS_13563:0 "Outskirts"
+VICTORY_POINTS_3194:0 "Village2"
+VICTORY_POINTS_13621:0 "Town" # / STATE_402
+VICTORY_POINTS_997:0 "Outskirts"
+VICTORY_POINTS_13684:0 "Outskirts2"
+VICTORY_POINTS_5272:0 "Village"
 #######################################################################
 # Yakistan ############################################################
 #######################################################################
-#VICTORY_POINTS_:0 ""
 #YAK - Yakistan ( Crossmountain Republic )
 VICTORY_POINTS_566:0 "Yakistown" #Yakistown / STATE_1174
 VICTORY_POINTS_4103:0 "South Yakistown"
@@ -912,7 +1092,6 @@ VICTORY_POINTS_9016:0 "Holy Jak grove"
 VICTORY_POINTS_1760:0 "Khavirga" #Khavirga / STATE_1266
 VICTORY_POINTS_9136:0 "Yolyn Am" #Yolyn Am / STATE_847
 VICTORY_POINTS_7945:0 "Tsagaan-Üür" #Tsagaan-Üür / STATE_852
-
 #TTT - Doglum's passage
 VICTORY_POINTS_9752:0 "STATE_811" #STATE_811
 VICTORY_POINTS_9794:0 "STATE_812" #STATE_812

@@ -13,6 +13,7 @@ replace_path="common/countries"
 replace_path="common/characters"
 replace_path="common/decisions"
 replace_path="common/ideas"
+replace_path="common/map_modes"
 replace_path="common/names"
 replace_path="common/national_focus"
 

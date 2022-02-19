@@ -4,6 +4,16 @@ state={
 	history={
 		owner = BLS
 		add_core_of = BLS
+
+		victory_points = {
+			4198 2
+		}
+		victory_points = {
+			4780 2
+		}
+		victory_points = {
+			2115 2
+		}
 	}
 	provinces={
 		2115 2412 3587 4198 4685 4780 12897 

@@ -1,0 +1,112 @@
+# State Race
+defined_text = {
+	name = TDR_Get_state_race
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_pony_flag
+		}
+		localization_key = tdr_race_pony
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_crystal_pony_flag
+		}
+		localization_key = tdr_race_crystal_pony
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_earthpony_flag
+		}
+		localization_key = tdr_race_earthpony
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_pegasi_flag
+		}
+		localization_key = tdr_race_pegasi
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_unicorn_flag
+		}
+		localization_key = tdr_race_unicorn
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_griffon_flag
+		}
+		localization_key = tdr_race_griffon
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_deer_flag
+		}
+		localization_key = tdr_race_deer
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_thestral_flag
+		}
+		localization_key = tdr_race_thestral
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_dragon_flag
+		}
+		localization_key = tdr_race_dragon
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_bear_flag
+		}
+		localization_key = tdr_race_bear
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_changeling_flag
+		}
+		localization_key = tdr_race_changeling
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_penguin_flag
+		}
+		localization_key = tdr_race_penguin
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_yak_flag
+		}
+		localization_key = tdr_race_yak
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_dog_flag
+		}
+		localization_key = tdr_race_dog
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_crystal_earthpony_flag
+		}
+		localization_key = tdr_race_crystal_earthpony
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_crystal_pegasi_flag
+		}
+		localization_key = tdr_race_crystal_pegasi
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_crystal_unicorn_flag
+		}
+		localization_key = tdr_race_crystal_unicorn
+	}
+	text = {
+		trigger = {
+			has_state_flag = major_creature_in_state_special_flag
+		}
+		localization_key = tdr_race_empty
+	}
+}

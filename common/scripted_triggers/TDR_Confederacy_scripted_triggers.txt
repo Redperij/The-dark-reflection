@@ -4,3 +4,20 @@ is_conf_member_state = {
 		has_idea = conf_member_state
 	}
 }
+
+is_conf_state = {
+	custom_trigger_tooltip = {
+		tooltip = us_river_fed_member_tt
+		OR = {
+			has_idea = conf_member_state
+			has_idea = conf_nominal_member_state
+		}
+	}
+}
+
+is_conf_asociate = {
+	custom_trigger_tooltip = {
+		tooltip = us_river_fed_member_tt
+		has_idea = conf_associate
+	}
+}

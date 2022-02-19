@@ -7,7 +7,10 @@ state={
 
 		victory_points = {
 			3607 5
-	    }
+		}
+		victory_points = {
+			12796 2
+		}
 	}
 	provinces={
 		3607 3961 12756 12789 12796 12841 

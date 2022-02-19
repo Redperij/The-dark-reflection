@@ -2,11 +2,24 @@ state={
 	id=505
 	name="STATE_505"
 	history={
-		owner = BLS
-		add_core_of = BLS
+		owner = CRY
+		add_core_of = CRY
+
+		victory_points = {
+			4342 10 
+		}
+		victory_points = {
+			7123 10 
+		}
+		victory_points = {
+			10594 10 
+		}
+		victory_points = {
+			7855 10 
+		}
 	}
 	provinces={
-		1285 3025 3900 4230 4885 5294 13092 13093 
+		4342 7123 7855 10594 
 	}
 	manpower=1
 	state_category = pastoral

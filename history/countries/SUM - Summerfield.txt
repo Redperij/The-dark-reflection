@@ -31,12 +31,15 @@ set_popularities = {
 	fascism = 24
 }
 
-	recruit_character = SUM_smp
-	recruit_character = SUM_smp1
-	recruit_character = SUM_smp2
-	recruit_character = SUM_smp3
-	
-	set_rule = {
-		can_generate_female_aces = yes
-	}
-	
+add_ideas = {
+	conf_member_state
+}
+
+recruit_character = SUM_smp
+recruit_character = SUM_smp1
+recruit_character = SUM_smp2
+recruit_character = SUM_smp3
+
+set_rule = {
+	can_generate_female_aces = yes
+}

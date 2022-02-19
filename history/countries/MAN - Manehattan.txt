@@ -34,6 +34,27 @@ set_popularities = {
 create_faction = Manehattan_and_Manehatan_Confederacy
 add_to_faction = MHT
 add_to_faction = BLS
+add_to_faction = TTL
+add_to_faction = DPP
+add_to_faction = CHI
+add_to_faction = FRM
+add_to_faction = BRI
+add_to_faction = SUM
+add_to_faction = STR
+add_to_faction = FRV
+add_to_faction = MNT
+add_to_faction = CNT
+add_to_faction = NCN
+add_to_faction = DET
+add_to_faction = GLP
+add_to_faction = HRF
+add_to_faction = PRA
+add_to_faction = ALB
+add_to_faction = ZAR
+
+give_guarantee = TRS
+give_guarantee = NGF
+give_guarantee = FIL
 
 add_ideas = {
 	conf_member_state

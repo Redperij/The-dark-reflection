@@ -5,6 +5,10 @@ state={
 		owner = SEV
 		add_core_of = SEV
 		add_core_of = ZAR
+
+		victory_points = {
+			11996 1
+		}
 	}
 	provinces={
 		92 452 821 1979 3262 5630 11894 11922 11996 

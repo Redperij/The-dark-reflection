@@ -5,6 +5,13 @@ state = {
 	history = {
 		owner = NGF
 		add_core_of = NGF
+
+		victory_points = {
+			12117 20
+		}
+		victory_points = {
+			12179 5
+		}
 	}
 	provinces={
 		12117 12179 

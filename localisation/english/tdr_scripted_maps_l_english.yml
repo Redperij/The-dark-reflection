@@ -1,0 +1,27 @@
+﻿l_english:
+
+ MAPMODE_TDR_RACE_MAP_MODE: "§YState Race§  map mode"
+ MAPMODE_TDR_RACE_MAP_MODE_NAME: "State Race"
+ MAPMODE_TDR_RACE_MAP_MODE_DESCRIPTION: "Shows major state race."
+
+ tdr_race_map_mode_tooltip: "§Y[FROM.TDR_Get_state_race]§!"
+ tdr_race_map_mode_tooltip_delayed: "(§Y[FROM.controller.Getnamewithflag]§!): [FROM.GetName] inhabited by [FROM.TDR_Get_state_race]."
+
+ tdr_race_pony: "Ponies"
+ tdr_race_crystal_pony: "Crystal Ponies"
+ tdr_race_earthpony: "Earth Ponies"
+ tdr_race_pegasi: "Pegasi"
+ tdr_race_unicorn: "Unicorns"
+ tdr_race_griffon: "Griffons"
+ tdr_race_deer: "Deers"
+ tdr_race_thestral: "Thestrals"
+ tdr_race_dragon: "Dragons"
+ tdr_race_bear: "Bears"
+ tdr_race_changeling: "Changelings"
+ tdr_race_penguin: "Penguins"
+ tdr_race_yak: "Yaks"
+ tdr_race_dog: "Dogs"
+ tdr_race_crystal_earthpony: "Crystal Earthponies"
+ tdr_race_crystal_pegasi: "Crystal Pegasi"
+ tdr_race_crystal_unicorn: "Crystal Unicorns"
+ tdr_race_empty: "Nopony"

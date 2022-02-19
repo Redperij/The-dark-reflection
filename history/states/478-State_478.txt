@@ -6,7 +6,7 @@ state={
 		add_core_of = DET
 
 		victory_points = {
-			12719 15
+			12719 20
 	    }
 	}
 	provinces={

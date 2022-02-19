@@ -36,21 +36,6 @@ SEV_ai_behavior = {
 # # ## #### # # # ##       #  ##   #  #  # ###  
 # #  # #  # #   # #         # #    #  #  # #    
 #  ##  #  # #   # ###     ##  ###  #   ##  # 
-equestria_united_status = {
-	name = "EQS_STATUS"
-	group = "RULE_GROUP_GAME_SETUP"
-	default = {
-		name = DEFAULT
-		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_OPTION_DEFAULT_EQS_STATUS_DESC"
-	}
-	option = {
-		name = EQS_STATUS_UNITED
-		text = "RULE_OPTION_EQS_STATUS_UNITED"
-		desc = "RULE_OPTION_EQS_STATUS_UNITED_DESC"
-		
-	}
-}
 infunstructure = {
 	name = "INFUNSTRUCTURE"
 	group = "RULE_GROUP_GAME_SETUP"

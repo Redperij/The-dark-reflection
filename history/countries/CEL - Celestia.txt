@@ -18,6 +18,24 @@ set_technology = {
 }
 actually_fix_weapon_techs = yes #THIS HAS TO BE CALLED IN EVERY HISTORY FILE RIGHT AFTER MAIN set_technology!
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = FIL
+		autonomy_state = autonomy_nominal_vassal
+	}
+	set_autonomy = {
+		target = DER
+		autonomy_state = autonomy_nominal_vassal
+	}
+}
+else = {
+	puppet = FIL
+	puppet = DER
+}
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "937.1.1"

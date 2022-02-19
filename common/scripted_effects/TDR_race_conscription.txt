@@ -75,28 +75,28 @@ count_race_part_in_country = {
 	every_controlled_state = {
 		limit = {
 			OR = {
-				is_in_array = { global.pony_states = THIS }
-				is_in_array = { global.crystal_pony_states = THIS }
-				is_in_array = { global.earthpony_states = THIS }
-				is_in_array = { global.pegasi_states = THIS }
-				is_in_array = { global.unicorn_states = THIS }
-				is_in_array = { global.griffon_states = THIS }
-				is_in_array = { global.deer_states = THIS }
-				is_in_array = { global.thestral_states = THIS }
-				is_in_array = { global.dragon_states = THIS }
-				is_in_array = { global.bear_states = THIS }
-				is_in_array = { global.changeling_states = THIS }
-				is_in_array = { global.penguin_states = THIS }
-				is_in_array = { global.yak_states = THIS }
-				is_in_array = { global.dog_states = THIS }
-				is_in_array = { global.crystal_earthpony_states = THIS }
-				is_in_array = { global.crystal_pegasi_states = THIS }
-				is_in_array = { global.crystal_unicorn_states = THIS }
+				has_state_flag = major_creature_in_state_pony_flag
+				has_state_flag = major_creature_in_state_crystal_pony_flag
+				has_state_flag = major_creature_in_state_earthpony_flag
+				has_state_flag = major_creature_in_state_pegasi_flag
+				has_state_flag = major_creature_in_state_unicorn_flag
+				has_state_flag = major_creature_in_state_griffon_flag
+				has_state_flag = major_creature_in_state_deer_flag
+				has_state_flag = major_creature_in_state_thestral_flag
+				has_state_flag = major_creature_in_state_dragon_flag
+				has_state_flag = major_creature_in_state_bear_flag
+				has_state_flag = major_creature_in_state_changeling_flag
+				has_state_flag = major_creature_in_state_penguin_flag
+				has_state_flag = major_creature_in_state_yak_flag
+				has_state_flag = major_creature_in_state_dog_flag
+				has_state_flag = major_creature_in_state_crystal_earthpony_flag
+				has_state_flag = major_creature_in_state_crystal_pegasi_flag
+				has_state_flag = major_creature_in_state_crystal_unicorn_flag
 			} 
 		}
 		if = {
 			limit = {
-				is_in_array = { global.pony_states = THIS }
+				has_state_flag = major_creature_in_state_pony_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -105,7 +105,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.crystal_pony_states = THIS }
+				has_state_flag = major_creature_in_state_crystal_pony_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -114,7 +114,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.earthpony_states = THIS }
+				has_state_flag = major_creature_in_state_earthpony_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -123,7 +123,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.pegasi_states = THIS }
+				has_state_flag = major_creature_in_state_pegasi_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -132,7 +132,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.unicorn_states = THIS }
+				has_state_flag = major_creature_in_state_unicorn_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -141,7 +141,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.griffon_states = THIS }
+				has_state_flag = major_creature_in_state_griffon_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -150,7 +150,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.deer_states = THIS }
+				has_state_flag = major_creature_in_state_deer_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -159,7 +159,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.thestral_states = THIS }
+				has_state_flag = major_creature_in_state_thestral_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -168,7 +168,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.dragon_states = THIS }
+				has_state_flag = major_creature_in_state_dragon_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -177,7 +177,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.bear_states = THIS }
+				has_state_flag = major_creature_in_state_bear_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -186,7 +186,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.changeling_states = THIS }
+				has_state_flag = major_creature_in_state_changeling_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -195,7 +195,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.penguin_states = THIS }
+				has_state_flag = major_creature_in_state_penguin_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -204,7 +204,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.yak_states = THIS }
+				has_state_flag = major_creature_in_state_yak_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -213,7 +213,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.dog_states = THIS }
+				has_state_flag = major_creature_in_state_dog_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -222,7 +222,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.crystal_earthpony_states = THIS }
+				has_state_flag = major_creature_in_state_crystal_earthpony_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -231,7 +231,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.crystal_pegasi_states = THIS }
+				has_state_flag = major_creature_in_state_crystal_pegasi_flag
 			}
 			set_temp_variable = {
 				var = n
@@ -240,7 +240,7 @@ count_race_part_in_country = {
 		}
 		else_if = {
 			limit = {
-				is_in_array = { global.crystal_unicorn_states = THIS }
+				has_state_flag = major_creature_in_state_crystal_unicorn_flag
 			}
 			set_temp_variable = {
 				var = n
