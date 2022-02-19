@@ -9,7 +9,7 @@ scripted_map_modes = {
 				if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.pony_states = THIS }
+							has_state_flag = major_creature_in_state_pony_flag
 						}
 					}
 					set_temp_variable = { red = .556 }
@@ -19,7 +19,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.crystal_pony_states = THIS }
+							has_state_flag = major_creature_in_state_crystal_pony_flag
 						}
 					}
 					set_temp_variable = { red = .878 }
@@ -29,7 +29,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.earthpony_states = THIS }
+							has_state_flag = major_creature_in_state_earthpony_flag
 						}
 					}
 					set_temp_variable = { red = .898 }
@@ -39,7 +39,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.pegasi_states = THIS }
+							has_state_flag = major_creature_in_state_pegasi_flag
 						}
 					}
 					set_temp_variable = { red = .815 }
@@ -49,7 +49,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.unicorn_states = THIS }
+							has_state_flag = major_creature_in_state_unicorn_flag
 						}
 					}
 					set_temp_variable = { red = .663 }
@@ -59,7 +59,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.griffon_states = THIS }
+							has_state_flag = major_creature_in_state_griffon_flag
 						}
 					}
 					set_temp_variable = { red = .58 }
@@ -69,7 +69,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.deer_states = THIS }
+							has_state_flag = major_creature_in_state_deer_flag
 						}
 					}
 					set_temp_variable = { red = .549 }
@@ -79,7 +79,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.thestral_states = THIS }
+							has_state_flag = major_creature_in_state_thestral_flag
 						}
 					}
 					set_temp_variable = { red = .552 }
@@ -89,7 +89,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.dragon_states = THIS }
+							has_state_flag = major_creature_in_state_dragon_flag
 						}
 					}
 					set_temp_variable = { red = .184 }
@@ -99,7 +99,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.bear_states = THIS }
+							has_state_flag = major_creature_in_state_bear_flag
 						}
 					}
 					set_temp_variable = { red = .552 }
@@ -109,7 +109,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.changeling_states = THIS }
+							has_state_flag = major_creature_in_state_changeling_flag
 						}
 					}
 					set_temp_variable = { red = .235 }
@@ -119,7 +119,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.penguin_states = THIS }
+							has_state_flag = major_creature_in_state_penguin_flag
 						}
 					}
 					set_temp_variable = { red = .898 }
@@ -129,7 +129,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.yak_states = THIS }
+							has_state_flag = major_creature_in_state_yak_flag
 						}
 					}
 					set_temp_variable = { red = .486 }
@@ -139,7 +139,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.dog_states = THIS }
+							has_state_flag = major_creature_in_state_dog_flag
 						}
 					}
 					set_temp_variable = { red = .647 }
@@ -149,7 +149,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.crystal_earthpony_states = THIS }
+							has_state_flag = major_creature_in_state_crystal_earthpony_flag
 						}
 					}
 					set_temp_variable = { red = .227 }
@@ -159,7 +159,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.crystal_pegasi_states = THIS }
+							has_state_flag = major_creature_in_state_crystal_pegasi_flag
 						}
 					}
 					set_temp_variable = { red = .592 }
@@ -169,7 +169,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.crystal_unicorn_states = THIS }
+							has_state_flag = major_creature_in_state_crystal_unicorn_flag
 						}
 					}
 					set_temp_variable = { red = .259 }
@@ -179,7 +179,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							is_in_array = { global.special_states = THIS }
+							has_state_flag = major_creature_in_state_special_flag
 						}
 					}
 					set_temp_variable = { red = 0 }

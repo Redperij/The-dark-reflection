@@ -3,109 +3,109 @@ defined_text = {
 	name = TDR_Get_state_race
 	text = {
 		trigger = {
-			is_in_array = { global.pony_states = THIS }
+			has_state_flag = major_creature_in_state_pony_flag
 		}
 		localization_key = tdr_race_pony
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.crystal_pony_states = THIS }
+			has_state_flag = major_creature_in_state_crystal_pony_flag
 		}
 		localization_key = tdr_race_crystal_pony
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.earthpony_states = THIS }
+			has_state_flag = major_creature_in_state_earthpony_flag
 		}
 		localization_key = tdr_race_earthpony
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.pegasi_states = THIS }
+			has_state_flag = major_creature_in_state_pegasi_flag
 		}
 		localization_key = tdr_race_pegasi
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.unicorn_states = THIS }
+			has_state_flag = major_creature_in_state_unicorn_flag
 		}
 		localization_key = tdr_race_unicorn
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.griffon_states = THIS }
+			has_state_flag = major_creature_in_state_griffon_flag
 		}
 		localization_key = tdr_race_griffon
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.deer_states = THIS }
+			has_state_flag = major_creature_in_state_deer_flag
 		}
 		localization_key = tdr_race_deer
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.thestral_states = THIS }
+			has_state_flag = major_creature_in_state_thestral_flag
 		}
 		localization_key = tdr_race_thestral
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.dragon_states = THIS }
+			has_state_flag = major_creature_in_state_dragon_flag
 		}
 		localization_key = tdr_race_dragon
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.bear_states = THIS }
+			has_state_flag = major_creature_in_state_bear_flag
 		}
 		localization_key = tdr_race_bear
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.changeling_states = THIS }
+			has_state_flag = major_creature_in_state_changeling_flag
 		}
 		localization_key = tdr_race_changeling
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.penguin_states = THIS }
+			has_state_flag = major_creature_in_state_penguin_flag
 		}
 		localization_key = tdr_race_penguin
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.yak_states = THIS }
+			has_state_flag = major_creature_in_state_yak_flag
 		}
 		localization_key = tdr_race_yak
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.dog_states = THIS }
+			has_state_flag = major_creature_in_state_dog_flag
 		}
 		localization_key = tdr_race_dog
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.crystal_earthpony_states = THIS }
+			has_state_flag = major_creature_in_state_crystal_earthpony_flag
 		}
 		localization_key = tdr_race_crystal_earthpony
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.crystal_pegasi_states = THIS }
+			has_state_flag = major_creature_in_state_crystal_pegasi_flag
 		}
 		localization_key = tdr_race_crystal_pegasi
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.crystal_unicorn_states = THIS }
+			has_state_flag = major_creature_in_state_crystal_unicorn_flag
 		}
 		localization_key = tdr_race_crystal_unicorn
 	}
 	text = {
 		trigger = {
-			is_in_array = { global.special_states = THIS }
+			has_state_flag = major_creature_in_state_special_flag
 		}
 		localization_key = tdr_race_empty
 	}
