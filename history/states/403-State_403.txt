@@ -4,6 +4,16 @@ state={
 	history={
 		owner = CEL
 		add_core_of = CEL
+
+		victory_points = {
+			3630 2
+		}
+		victory_points = {
+			13734 2
+		}
+		victory_points = {
+			13719 2
+		}
 	}
 	provinces={
 		2986 3630 5056 13662 13682 13690 13708 13709 13719 13734 

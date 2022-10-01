@@ -134,8 +134,51 @@ VICTORY_POINTS_12995:0 "North San Flankcisco"
 VICTORY_POINTS_2595:0 "South San Flankcisco"
 VICTORY_POINTS_13205:0 "Mead Resort" #Mead Resort / STATE_388
 #CEL - Celestial State
-#VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_13529:0 "Treecut" # / STATE_413
+VICTORY_POINTS_3940:0 "Pegasi Village" # / STATE_411
+VICTORY_POINTS_84:0 "Pegasi Village" # / STATE_410
+VICTORY_POINTS_13432:0 "Pegasi Village"
+VICTORY_POINTS_13487:0 "Village" # / STATE_409
+VICTORY_POINTS_13549:0 "Village"
+VICTORY_POINTS_13577:0 "Village"
+VICTORY_POINTS_507:0 "Pegasi Village" # / STATE_408
+VICTORY_POINTS_980:0 "Village" # / STATE_407
+VICTORY_POINTS_4521:0 "Village"
+VICTORY_POINTS_13637:0 "Village"
+VICTORY_POINTS_2498:0 "Neighton" #Neighton / STATE_406
+VICTORY_POINTS_880:0 "East Neighton"
+VICTORY_POINTS_139:0 "Outskirts"
+VICTORY_POINTS_13528:0 "Outskirts"
 
+VICTORY_POINTS_13601:0 "Village" # / STATE_405
+VICTORY_POINTS_13650:0 "Castle Ruins" # / STATE_404
+VICTORY_POINTS_3630:0 "Village" # / STATE_403
+VICTORY_POINTS_13734:0 "Village"
+VICTORY_POINTS_13719:0 "Village"
+VICTORY_POINTS_13710:0 "City" # / STATE_401
+VICTORY_POINTS_1644:0 "Outskirts"
+VICTORY_POINTS_1614:0 "Outskirts"
+VICTORY_POINTS_13358:0 "Thestral Village" # / STATE_345
+VICTORY_POINTS_4092:0 "Village" # / STATE_149
+VICTORY_POINTS_13763:0 "Village"
+VICTORY_POINTS_13739:0 "Village"
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
+VICTORY_POINTS_:0 "" # / STATE_
 #######################################################################
 # Monarchy Of Fykia ###################################################
 #######################################################################

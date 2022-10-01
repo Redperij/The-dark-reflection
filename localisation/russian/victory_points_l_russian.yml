@@ -134,6 +134,21 @@ VICTORY_POINTS_12995:0 "Северный Сан Фланкциско"
 VICTORY_POINTS_2595:0 "Южный Сан Фланкциско"
 VICTORY_POINTS_13205:0 "Медовый Курорт" #Mead Resort / STATE_388
 #CEL - Celestial State
+VICTORY_POINTS_13529:0 "Treecut" # / STATE_413
+VICTORY_POINTS_3940:0 "Pegasi Village" # / STATE_411
+VICTORY_POINTS_84:0 "Pegasi Village" # / STATE_410
+VICTORY_POINTS_13432:0 "Pegasi Village"
+VICTORY_POINTS_13487:0 "Village" # / STATE_409
+VICTORY_POINTS_13549:0 "Village"
+VICTORY_POINTS_13577:0 "Village"
+VICTORY_POINTS_507:0 "Pegasi Village" # / STATE_408
+VICTORY_POINTS_980:0 "Village" # / STATE_407
+VICTORY_POINTS_4521:0 "Village"
+VICTORY_POINTS_13637:0 "Village"
+VICTORY_POINTS_2498:0 "Нейтон" #Neighton / STATE_406
+VICTORY_POINTS_880:0 "Восточный Нейтон"
+VICTORY_POINTS_139:0 "Outskirts"
+VICTORY_POINTS_13528:0 "Outskirts"
 
 #######################################################################
 # Monarchy Of Fykia ###################################################
